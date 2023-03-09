@@ -2,8 +2,8 @@
 layout: post
 title: Algorithm review 2nd week
 ---
-## Intro ##
-# Quick Review # 
+# Intro #
+## Quick Review ## 
 problem <br/>
 algorithm <br/>
 correctness<br/>
@@ -21,50 +21,48 @@ T(A)=T(B)<br/>
 upper bound = lower bound<br/>
 =>Tight bound<br/>
 
-# Fig.1.3 #
+## Fig.1.3 ##
 Image<br/>
 This graph is respect of input size.<br/>
 $logn$ < $n$ < $nlogn$ < $n^2$ < $2^n$ <br/>
 $logn$ ~ $nlogn$ is ok. But $n^2$ and $2^n$ is not ok. <br/>
 For these alorithms, we need to change these algorithms into either $logn$, $n$, or $nlogn$ due to high time complexity.<br/>
 
-# Asymptotic Notation # 
+## Asymptotic Notation ## 
 Image <br/>
 lower bound: Find it easily because it is the lowest number
 
-##Chapter1##
-#Ch1.-prob1#
+# Chapter1 #
+## Ch1.-prob1##
 Write a number that finds the largest number in a list(an array) of n numbers.<br/>
 Base case $k=0$, $k=1$ both are available.<br/>
 Pseudo code<br/>
 
-#Ch1.-prob.44#
+## Ch1.-prob.44 ##
 Can you verify the correctness of algorithms for Exercise1?<br/>
 Pseudo code <br/>
 
-#Ch1.-prob.20#
+## Ch1.-prob.20##
 Image <br/>
 Image <br/>
 Pseudo code<br/>
 Ans: $T(n^2)$
 
-#Ch1.-prob.29#
+## Ch1.-prob.29##
 T1 : forloop1 <br/>
 T2 : forloop2 <br/>
 $T1(n)$ + $T2(n)$ = $T(n)$ <br/>
 Pseudo code<br/>
 
-<span style="color:red">
-#Ch1.-prob.30#
-</span>
+## Ch1.-prob.30##
 Pseudo code<br/>
 $T(n)$<br/>
 $T(outerloop)$: n/2 <br/>
 $T(innerloop)$: 1+2+3+...+n/2 <br/>
 $$ T(n) = n\over 2 x (1 + n/2) \over 2$$
 
-##Lecture2 : Sorting##
-#Vocabulary#
+# Lecture2 : Sorting#
+## Vocabulary ##
 Container <br/>
 :A collection of objects.(e.g.vector,list,set, ...) <br/>
 Interface <br/>
@@ -73,7 +71,7 @@ Datastructure <br/>
 :A way to store data that supports a set of operations.<br/>
 Container and Interface are part of a Datastructure.<br/>
 
-#Set#
+## Set ##
 **Set Interface**
 |Container         |   Static  |   Dynamic               | Order                                   |
 |------------------|-----------|-------------------------|-----------------------------------------|
