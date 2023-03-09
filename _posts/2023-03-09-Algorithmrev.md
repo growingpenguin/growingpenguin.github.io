@@ -96,7 +96,7 @@ insert(x),delete(x): Its time complexity is 'n' cause we have to fill in the val
 find_min(),find_max(): When it is sorted, we can find it immediately. So the time complexity is one. <br/>
 find(k): <br/>
 Think of Binary Search. <br/>
- $/frac{n}{2} $x$ $/frac{1}{2} $x$... <br/>
+ $\frac{n}{2}$ $x$ $\frac{1}{2}$ $x$... <br/>
 find_next(),find_prev(): This operation finds the value next or previous to the value that we want to find. That's why its time complexity is logn. <br/>
 Exactly the same with find(k). <br/>
 build(A): Building a set itself takes about n time complexity. So the total time complexity should be inevitably more than n. So the best time complexity <br/>
