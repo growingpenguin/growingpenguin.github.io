@@ -4,9 +4,9 @@ title: Algorithm review 2nd week
 ---
 # Intro #
 ## Quick Review ## 
-problem <br/>
-algorithm <br/>
-correctness<br/>
+Problem <br/>
+Algorithm <br/>
+Correctness<br/>
 :We need to use induction<br/>
 1.Hypothesis<br/>
 2.Base Case<br/>
@@ -27,7 +27,10 @@ $logn$ ~ $nlogn$ is ok. But $n^2$ and $2^n$ is not ok. <br/>
 For these alorithms, we need to change these algorithms into either $logn$, $n$, or $nlogn$ due to high time complexity.<br/>
 
 ## Asymptotic Notation ## 
-Image <br/>
+|    Big-Oh       |   Static       |   Theta      |
+|-----------------|----------------|--------------|
+|  Upper Bound    |  Lower Bound   | Tight bound  |  
+|  Worst Case     |  Best Case     | Average Case |
 lower bound: Find it easily because it is the lowest number
 
 # Chapter1 #
