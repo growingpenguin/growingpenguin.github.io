@@ -31,7 +31,7 @@ Image <br/>
 lower bound: Find it easily because it is the lowest number
 
 # Chapter1 #
-## Ch1.-prob1##
+## Ch1.-prob1
 Write a number that finds the largest number in a list(an array) of n numbers.<br/>
 Base case $k=0$, $k=1$ both are available.<br/>
 Pseudo code<br/>
