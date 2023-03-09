@@ -14,9 +14,10 @@ correctness<br/>
 efficiency<br/>
 Ex.<br/>
 Algorithm A : <br/>
-$$3n^2 + 5$$<br/>
+$3n^2 + 5$<br/>
 Algorithm B : <br/>
-$$7n^2\\T(A)=T(B)$$<br/>
+$7n^2$
+T(A)=T(B)$$<br/>
 upper bound = lower bound<br/>
 =>Tight bound<br/>
 
