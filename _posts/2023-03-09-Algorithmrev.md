@@ -76,9 +76,8 @@ Container and Interface are part of a Datastructure.<br/>
 **Set Interface**
 |Container         |   Static  |   Dynamic               | Order                                                    |
 |------------------|-----------|-------------------------|----------------------------------------------------------|
-|build(A)<br/>len()|  find(k)  | insert(x)<br/>delete(x) | find_min()<br/>find_max()<br/>find_prev()<br/>find_next()          |
-                                                                       
-<br/>
+|build(A)<br/>len()|  find(k)  | insert(x)<br/>delete(x) | find_min()<br/>find_max()<br/>find_prev()<br/>find_next()|
+<br/>                                                                       
 build(A): Put student data one by one in a set.<br/>
           데이터를 자료구조 안에 넣는 동작이다.<br/>
 find(k): find the student or object that one wants to find according to the studentID or key <br/>
