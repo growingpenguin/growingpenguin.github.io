@@ -2,7 +2,7 @@
 layout: post
 title: Algorithm review 2nd week
 ---
-##Into##
+## Intro ##
 # Quick Review # 
 problem <br/>
 algorithm <br/>
@@ -16,17 +16,17 @@ Ex.<br/>
 Algorithm A : <br/>
 $3n^2 + 5$<br/>
 Algorithm B : <br/>
-$7n^2$
-T(A)=T(B)$$<br/>
+$7n^2$<br/>
+T(A)=T(B)<br/>
 upper bound = lower bound<br/>
 =>Tight bound<br/>
 
 # Fig.1.3 #
-Image
+Image<br/>
 This graph is respect of input size.<br/>
-$$ logn < n < nlogn < n^2 < 2^n $$<br/>
-logn ~ nlogn is ok. $$But n^2 and 2^n is not ok.$$ <br/>
-For these alorithms, we need to change these algorithms into $$either logn, n, or nlogn due to high time complexity.$$<br/>
+$logn$ < $n$ < $nlogn$ < $n^2$ < $2^n$ <br/>
+$logn$ ~ $nlogn$ is ok. But $n^2$ and $2^n$ is not ok. <br/>
+For these alorithms, we need to change these algorithms into either $logn$, $n$, or $nlogn$ due to high time complexity.<br/>
 
 # Asymptotic Notation # 
 Image <br/>
@@ -35,7 +35,7 @@ lower bound: Find it easily because it is the lowest number
 ##Chapter1##
 #Ch1.-prob1#
 Write a number that finds the largest number in a list(an array) of n numbers.<br/>
-Base case k=0, k=1 both are available.<br/>
+Base case $k=0$, $k=1$ both are available.<br/>
 Pseudo code<br/>
 
 #Ch1.-prob.44#
@@ -46,21 +46,21 @@ Pseudo code <br/>
 Image <br/>
 Image <br/>
 Pseudo code<br/>
-Ans: $$ T(n^2) $$
+Ans: $T(n^2)$
 
 #Ch1.-prob.29#
 T1 : forloop1 <br/>
 T2 : forloop2 <br/>
-T1(n) + T2(n) = T(n) <br/>
+$T1(n)$ + $T2(n)$ = $T(n)$ <br/>
 Pseudo code<br/>
 
 <span style="color:red">
 #Ch1.-prob.30#
 </span>
 Pseudo code<br/>
-T(n)<br/>
-T(outerloop): n/2 <br/>
-T(innerloop): 1+2+3+...+n/2 <br/>
+$T(n)$<br/>
+$T(outerloop)$: n/2 <br/>
+$T(innerloop)$: 1+2+3+...+n/2 <br/>
 $$ T(n) = n\over 2 x (1 + n/2) \over 2$$
 
 ##Lecture2 : Sorting##
@@ -108,7 +108,7 @@ build(A): Building a set itself takes about n time complexity. So the total time
 for the set datastructure is **nlogn**, which is slightly higher than n.<br/>
 
 
-#Sorting#
+# Sorting #
 **Vocabulary : Sorting** <br/>
 Destructive: Overwrites the input array<br/>
 -It is in an operation that modifies the original data structure, set. It modifies the original set and also creates a new set with the modified contents.<br/>
