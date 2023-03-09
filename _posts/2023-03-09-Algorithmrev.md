@@ -14,9 +14,7 @@ correctness<br/>
 efficiency<br/>
 Ex.<br/>
 Algorithm A : <br/>
-$$
-3n^2 + 5
-$$<br/>
+$$3n^2 + 5$$<br/>
 Algorithm B : <br/>
 $$7n^2\\T(A)=T(B)$$<br/>
 upper bound = lower bound<br/>
@@ -26,7 +24,7 @@ upper bound = lower bound<br/>
 Image
 This graph is respect of input size.<br/>
 $$ logn < n < nlogn < n^2 < 2^n $$<br/>
-logn ~ nlogn is ok. But $$n^2$$ and $$2^n$$ is not ok.<br/>
+logn ~ nlogn is ok. But $$n^2 and 2^n$$ is not ok.<br/>
 For these alorithms, we need to change these algorithms into either $$logn$$, $$n$$, or $$nlogn$$ due to high time complexity.<br/>
 
 # Asymptotic Notation # <br/>
