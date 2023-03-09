@@ -71,10 +71,10 @@ Container and Interface are part of a Datastructure.<br/>
 
 ## Set ##
 **Set Interface**
-|Container         |   Static  |   Dynamic               | Order                                   |
-|------------------|-----------|-------------------------|-----------------------------------------|
-|build(A)<br/>len()|  find(k)  | insert(x)<br/>delete(x) | find_min()<br/>find_max()<br/>          |
-                                                           find_prev()<br/>find_next()            
+|Container         |   Static  |   Dynamic               | Order                                                    |
+|------------------|-----------|-------------------------|----------------------------------------------------------|
+|build(A)<br/>len()|  find(k)  | insert(x)<br/>delete(x) | find_min()<br/>find_max()<br/>find_prev()<br/>find_next()          |
+                                                                       
 <br/>
 build(A): Put student data one by one in a set.<br/>
           데이터를 자료구조 안에 넣는 동작이다.<br/>
@@ -83,12 +83,10 @@ insert(x), delete(x): It is dynamic because the object contained changes during 
 k stands for key. <br/>
 
 **Set Datastructure**
-|                |    Container     |  Static     |      Dynamic     |             Order                |       
-|----------------|------------------|-------------|------------------|----------------------------------|
-|                |      build(A)    |  find(k)    |     insert(x)    |  find_min()     | find_next()    |
-                                                     <br/>delete(x)    <br/>find_max()  <br/>find_prev()|              
-| Unsorted Array |        n         |      n    |         n          |                 n                |    
-|  Sorted Array  |        ?         |    logn   |         n          |         1       |       logn     | 
+|                |    Container     |  Static     |      Dynamic                |             Order                                               |       
+|----------------|------------------|-------------|-----------------------------|-----------------------------------------------------------------|
+|                |      build(A)    |  find(k)    | insert(x)<br/>delete(x)     |  find_min()<br/>find_max()     | find_next()<br/>find_prev()    |                     | Unsorted Array |        n         |      n      |              n              |                                n                                |    
+|  Sorted Array  |        ?         |    logn     |              n              |              1                 |                logn            | 
 <br/>
 find(k):<br/>
 Suppose a situation when we want to find a student with a specific student ID. In the worst case, the student could be situated in the end of the set.<br/>
