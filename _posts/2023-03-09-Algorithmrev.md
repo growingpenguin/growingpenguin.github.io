@@ -40,26 +40,26 @@ Pseudo code<br/>
 Can you verify the correctness of algorithms for Exercise1?<br/>
 Pseudo code <br/>
 
-## Ch1.-prob.20##
+## Ch1.-prob.20
 Image <br/>
 Image <br/>
 Pseudo code<br/>
 Ans: $T(n^2)$
 
-## Ch1.-prob.29##
+## Ch1.-prob.29
 T1 : forloop1 <br/>
 T2 : forloop2 <br/>
 $T1(n)$ + $T2(n)$ = $T(n)$ <br/>
 Pseudo code<br/>
 
-## Ch1.-prob.30##
+## Ch1.-prob.30
 Pseudo code<br/>
 $T(n)$<br/>
 $T(outerloop)$: n/2 <br/>
 $T(innerloop)$: 1+2+3+...+n/2 <br/>
 $T(n)$ = $\frac{n}{2}$ x $\frac{(1 + n/2)}{2}$
 
-# Lecture2 : Sorting#
+# Lecture2 : Sorting
 ## Vocabulary ##
 Container <br/>
 :A collection of objects.(e.g.vector,list,set, ...) <br/>
