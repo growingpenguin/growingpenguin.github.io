@@ -20,14 +20,14 @@ $$7n^2\\T(A)=T(B)$$<br/>
 upper bound = lower bound<br/>
 =>Tight bound<br/>
 
-# Fig.1.3 #<br/>
+# Fig.1.3 #
 Image
 This graph is respect of input size.<br/>
 $$ logn < n < nlogn < n^2 < 2^n $$<br/>
-logn ~ nlogn is ok. But $$n^2 and 2^n$$ is not ok.<br/>
-For these alorithms, we need to change these algorithms into either $$logn$$, $$n$$, or $$nlogn$$ due to high time complexity.<br/>
+logn ~ nlogn is ok. $$But n^2 and 2^n is not ok.$$ <br/>
+For these alorithms, we need to change these algorithms into $$either logn, n, or nlogn due to high time complexity.$$<br/>
 
-# Asymptotic Notation # <br/>
+# Asymptotic Notation # 
 Image <br/>
 lower bound: Find it easily because it is the lowest number
 
