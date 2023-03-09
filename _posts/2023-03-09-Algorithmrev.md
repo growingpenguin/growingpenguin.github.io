@@ -15,7 +15,7 @@ efficiency<br/>
 Ex.<br/>
 Algorithm A : $3n^2 + 5$<br/>
 Algorithm B : $7n^2$<br/>
-T(A)=T(B)<br/>
+$T(A)=T(B)$<br/>
 upper bound = lower bound<br/>
 =>Tight bound<br/>
 
@@ -57,7 +57,7 @@ Pseudo code<br/>
 $T(n)$<br/>
 $T(outerloop)$: n/2 <br/>
 $T(innerloop)$: 1+2+3+...+n/2 <br/>
-$$ T(n) = n\over 2 x (1 + n/2) \over 2$$
+$T(n) = n\over 2 x (1 + n/2) \over 2$
 
 # Lecture2 : Sorting#
 ## Vocabulary ##
