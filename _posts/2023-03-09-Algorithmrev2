@@ -76,14 +76,50 @@ Container and Interface are part of a Datastructure.<br/>
 
 #Set#
 **Set Interface**
+|Container         |   Static  |   Dynamic               | Order                                   |
+|------------------|-----------|-------------------------|-----------------------------------------|
+|build(A)<br/>len()|  find(k)  | insert(x)<br/>delete(x) | find_min()<br/>find_max()<br/>          |
+                                                           find_prev()<br/>find_next()             |
+<br/>
 build(A): Put student data one by one in a set.<br/>
+          데이터를 자료구조 안에 넣는 동작이다.<br/>
 find(k): find the student or object that one wants to find according to the studentID or key <br/>
-insert(x), delete(x):
+insert(x), delete(x): It is dynamic because the object contained changes during the runtime. <br/>
 k stands for key. <br/>
+
 **Set Datastructure**
+|                |    Container     |  Static     |      Dynamic     |             Order                |       
+|----------------|------------------|-------------|------------------|----------------------------------|
+|                |      build(A)    |  find(k)    |     insert(x)    |  find_min()     | find_next()    |
+                                                     <br/>delete(x)    <br/>find_max()  <br/>find_prev()|              
+| Unsorted Array |        n         |      n    |         n          |                 n                |    
+|  Sorted Array  |        ?         |    logn   |         n          |         1       |       logn     | 
+<br/>
+find(k):<br/>
+Suppose a situation when we want to find a student with a specific student ID. In the worst case, the student could be situated in the end of the set.<br/>
+That's why we use Big-O and the time complexity is n in the unsorted array.<br/>
+insert(x),delete(x): Its time complexity is 'n' cause we have to fill in the value irrelevent whether sorted or not. <br/>
+find_min(),find_max(): When it is sorted, we can find it immediately. So the time complexity is one. <br/>
+find(k): <br/>
+Think of Binary Search. <br/>
+$$ n\over2 x 1\over2 x $$... <br/>
+find_next(),find_prev(): This operation finds the value next or previous to the value that we want to find. That's why its time complexity is logn. <br/>
+Exactly the same with find(k). <br/>
+build(A): Building a set itself takes about n time complexity. So the total time complexity should be inevitably more than n. So the best time complexity <br/>
+for the set datastructure is **nlogn**, which is slightly higher than n.<br/>
 
 
 #Sorting#
+**Vocabulary : Sorting** <br/>
+Destructive: Overwrites the input array<br/>
+-It is in an operation that modifies the original data structure, set. It modifies the original set and also creates a new set with the modified contents.<br/>
+-It is useful when memory usage is in concern or if you want avoid making unnecessary copies of data. <br/>
+-ex.Suppose we are sorting a new memory to find the person with the largest number. It would be a waste of memory to save all the data one by one. 
+In place: Uses O(1) extra space<br/>
+-It is in an operation that modifies the original data structure, set. It modifies the original set directly without creating a new set.<br/>
+-It doesn't allocate similar or bigger data. <br/>
+-It operates without taking up extra space and the sorting spends constant time.<br/>
+
 **Permutation Sort** <br/>
 
 **Selection Sort** <br/>
