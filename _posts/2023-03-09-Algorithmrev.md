@@ -57,7 +57,7 @@ Pseudo code<br/>
 $T(n)$<br/>
 $T(outerloop)$: n/2 <br/>
 $T(innerloop)$: 1+2+3+...+n/2 <br/>
-$T(n) = n\over 2 x (1 + n/2) \over 2$
+$T(n) = $\frac{n}{2}$ x $\frac{(1 + n/2)}{2}$
 
 # Lecture2 : Sorting#
 ## Vocabulary ##
