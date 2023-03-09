@@ -82,7 +82,7 @@ find(k): find the student or object that one wants to find according to the stud
 insert(x), delete(x): It is dynamic because the object contained changes during the runtime. <br/>
 k stands for key. <br/>
 
-**Set Datastructure**
+**Set Datastructure** <br/>
 |                |    Container     |  Static     |      Dynamic                |             Order                                               |       
 |----------------|------------------|-------------|-----------------------------|-----------------------------------------------------------------|
 |                |      build(A)    |  find(k)    | insert(x)<br/>delete(x)     |  find_min()<br/>find_max()     | find_next()<br/>find_prev()    |
