@@ -117,6 +117,33 @@ In place: Uses O(1) extra space<br/>
 -It operates without taking up extra space and the sorting spends constant time.<br/>
 
 **Permutation Sort** <br/>
+-permutation: n만큼 가지고 있으면 얘가 가지는 모든 경우의 수를 다 봄<br/>
+Algorithm <br/>
+1.Throws the number randomly. <br/>
+랜덤하게 특정 숫자를 던진다<br/>
+2.Check whether the number is sorted or not. <br/>
+특정 숫자가 정렬이 돼있는지 여부를 확인 <br/>
+3.If sorted, then return the sorted array.<br/>
+만약 정렬이 돼있다면 정렬된 배열을 돌려줌.<br/>
+4.Otherwise it again generate another randomization of numbers until the array is sorted.<br/>
+안 돼있다면 또 다른 랜덤한 숫자를 생성해 배열이 정렬될 때까지 생성함.<br/>
+Pseudo code<br/>
+while not Sorted(list) do:<br/>
+  shuffle(list)<br/>
+done<br/>
+Permutation Sort Example A = [3,1,2]<br/>
+1) generate the firt permutation array [3,1,2]<br/>
+2) Check if the firt permutation array is in sorted order. In this case, [3,1,2] is not in sorted order, so move on to the next permutation.<br/>
+3) Generate the next permutation of the array [3,1,2]. The next permutation is [3,2,1]. <br/>
+4) Check if the next permutation is in the sorted order. In this case, [3,2,1] is not in sorted order, so move on to the next permutation. <br/>
+5) Generate the next permutation of the array [3,1,2]. The next permutation is [1,3,2]. <br/>
+6) Check if the next permutation is in the sorted order. In this case, [1,3,2] is not in sorted order, so move on to the next permutation. <br/>
+7) Generate the next permutation of the array [3,1,2]. The next permutation is [1,2,3]. <br/>
+8) Check if the next permutation is in the sorted order. In this case, [1,2,3] is in sorted order. so return this permutation as the result. <br/>
+[permutation sort geeksforgeeks](https://www.geeksforgeeks.org/bogosort-permutation-sort/) <br/>
+Permutation Sort code <br/>
+<script src="https://gist.github.com/growingpenguin/1bcd6465268651c38dada237ae60d577.js"></script>
+
 
 **Selection Sort** <br/>
 
