@@ -142,7 +142,7 @@ Permutation Sort Example A = [3,1,2]<br/>
 8) Check if the next permutation is in the sorted order. In this case, [1,2,3] is in sorted order. so return this permutation as the result. <br/>
 [permutation sort geeksforgeeks](https://www.geeksforgeeks.org/bogosort-permutation-sort/) <br/>
 Permutation Sort code1 <br/>
-<script src="https://gist.github.com/growingpenguin/1bcd6465268651c38dada237ae60d577.js"></script> <br/>
+<script src="https://gist.github.com/growingpenguin/1bcd6465268651c38dada237ae60d577.js"></script>
 Permutation Sort code2 <br/>
 def permutation_sort(A):
   for B in permutations(A):
@@ -154,7 +154,6 @@ Set Datastructure: Build(A) <br/>
 |                |      build(A)    |  find(k)    | insert(x)<br/>delete(x)     |  find_min()<br/>find_max()     | find_next()<br/>find_prev()    |
 | Unsorted Array |        n         |      n      |              n              |              n                 |                 n              |
 |  Sorted Array  |      nlogn       |    logn     |              n              |              1                 |                logn            | 
-<br/>
 Permutation Sort: $n!*n$<br/>
 
 **Selection Sort** <br/>
