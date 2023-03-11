@@ -12,11 +12,6 @@ title: DeepLearning Basics Chapter4
 2.It mostly operates using text command.<br/>
 -/content: work directory that the user works on. Can change the folder by using the command 'cd'.<br/>
 -Renux Command List<br/>
-|    Big-Oh       |   Static       |   Theta      |
-|-----------------|----------------|--------------|
-|  Upper Bound    |  Lower Bound   | Tight bound  |  
-|  Worst Case     |  Best Case     | Average Case |
-lower bound: Find it easily because it is the lowest number
 
 
   Command  | Description   | Examples  | Description of the Example 
