@@ -161,9 +161,9 @@ Permutation Sort Example A = [3,1,2]<br/>
 8) Check if the next permutation is in the sorted order. In this case, [1,2,3] is in sorted order. so return this permutation as the result. <br/>
 [permutation sort geeksforgeeks](https://www.geeksforgeeks.org/bogosort-permutation-sort/) <br/>
 
-Permutation Sort code1 <br/>
+Permutation Sort code1
 <script src="https://gist.github.com/growingpenguin/1bcd6465268651c38dada237ae60d577.js"></script> 
-Permutation Sort code2 <br/>
+Permutation Sort code2
 <script src="https://gist.github.com/growingpenguin/df0a3c5af7ea6e5cc676e22cdedc9146.js"></script>
 
 Set Datastructure: Build(A) <br/>
