@@ -3,7 +3,8 @@ layout: post
 title: DeepLearning Basics Chapter4
 ---
 
-# 4.1 Basics of Renux <br/>
+# 4.1 Basics of Renux 
+<br/>
 -Google Colab works on the Renux system(OS).<br/>
 -It manipulates diverse machines of the computer to work well and provides an interface for the user to use these machines.<br/>
 -It is similar with Windows from the perspective that both are OS, but there are differencies<br/>
