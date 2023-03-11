@@ -171,7 +171,8 @@ Set Datastructure: Build(A) <br/>
 |----------------|------------------|-------------|-----------------------------|-----------------------------------------------------------------|
 |                |      build(A)    |  find(k)    | insert(x)<br/>delete(x)     |  find_min()<br/>find_max()     | find_next()<br/>find_prev()    |
 | Unsorted Array |        n         |      n      |              n              |              n                 |                 n              |
-|  Sorted Array  |      nlogn       |    logn     |              n              |              1                 |                logn            | 
+|  Sorted Array  |      nlogn       |    logn     |              n              |              1                 |                logn            |
+
 Permutation Sort: $n!*n$<br/>
 
 
