@@ -118,6 +118,8 @@ In place: Uses O(1) extra space<br/>
 
 **Permutation Sort** <br/>
 -permutation: n만큼 가지고 있으면 얘가 가지는 모든 경우의 수를 다 봄<br/>
+-ordering을 하지 않고 둘만 잠깐 바꿔보자.<br/>
+
 Algorithm <br/>
 1.Throws the number randomly. <br/>
 랜덤하게 특정 숫자를 던진다<br/>
@@ -127,10 +129,27 @@ Algorithm <br/>
 만약 정렬이 돼있다면 정렬된 배열을 돌려줌.<br/>
 4.Otherwise it again generate another randomization of numbers until the array is sorted.<br/>
 안 돼있다면 또 다른 랜덤한 숫자를 생성해 배열이 정렬될 때까지 생성함.<br/>
-Pseudo code <br/>
+
+Geeks Pseudo code <br/>
 while not Sorted(list) do:<br/>
   shuffle(list)<br/>
 done<br/>
+
+Professor's Idea<br/>
+1)Enumerate<br/>
+2) check if it is sorted<br/>
+  i 1 to n-1<br/>
+    B[n] <= B[n-1]<br/>
+Time Complexity(lower bound): $n!x(n-1)$<br/> 
+n!: random하게 어떤 조합을 만듦<br/>
+n-1: sort돼 있는지 확인<br/>
+
+Professor's Pseudo Code<br/>
+def permutation_sort(A):
+  for B in permutations(A):
+    if is_sorted(B):
+      return B
+  
 Permutation Sort Example A = [3,1,2]<br/>
 1) generate the firt permutation array [3,1,2]<br/>
 2) Check if the firt permutation array is in sorted order. In this case, [3,1,2] is not in sorted order, so move on to the next permutation.<br/>
@@ -141,13 +160,12 @@ Permutation Sort Example A = [3,1,2]<br/>
 7) Generate the next permutation of the array [3,1,2]. The next permutation is [1,2,3]. <br/>
 8) Check if the next permutation is in the sorted order. In this case, [1,2,3] is in sorted order. so return this permutation as the result. <br/>
 [permutation sort geeksforgeeks](https://www.geeksforgeeks.org/bogosort-permutation-sort/) <br/>
+
 Permutation Sort code1 <br/>
-<script src="https://gist.github.com/growingpenguin/1bcd6465268651c38dada237ae60d577.js"></script>
+<script src="https://gist.github.com/growingpenguin/1bcd6465268651c38dada237ae60d577.js"></script> 
 Permutation Sort code2 <br/>
-def permutation_sort(A):
-  for B in permutations(A):
-    if is_sorted(B):
-      return B
+<script src="https://gist.github.com/growingpenguin/df0a3c5af7ea6e5cc676e22cdedc9146.js"></script>
+
 Set Datastructure: Build(A) <br/>
 |                |    Container     |  Static     |      Dynamic                |             Order                                               |       
 |----------------|------------------|-------------|-----------------------------|-----------------------------------------------------------------|
@@ -156,7 +174,12 @@ Set Datastructure: Build(A) <br/>
 |  Sorted Array  |      nlogn       |    logn     |              n              |              1                 |                logn            | 
 Permutation Sort: $n!*n$<br/>
 
+
+
 **Selection Sort** <br/>
+
+[Selection Sort geeksforgeeks](https://www.geeksforgeeks.org/selection-sort/?ref=lbp)
+
 
 **Merge Sort** <br/>
 
