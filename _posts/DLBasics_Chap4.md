@@ -20,7 +20,8 @@ title: DeepLearning Basics Chapter4
  cd       | Changes the location of the work folder  | cd content   | Moves to the content folder                       
 !mv      | Moves the file  | !mv a.json~/.kaggle/  | Moves a.json file to the content folder           
 !chmode  | Changes the permission  | !chmode 600<br/>filename.json | Sets filename.json restriction to 600.<br/>600 is making a restriction that only the user can read or write.           
-                                                     
+!unzip     | Extracting  | !unzip file name.zip | extracts the compressed file
+
                                                      
                                                      
                                                      
