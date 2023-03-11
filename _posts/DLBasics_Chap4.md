@@ -13,7 +13,7 @@ title: DeepLearning Basics Chapter4
 -/content: work directory that the user works on. Can change the folder by using the command 'cd'.<br/>
 -Renux Command List<br/>
  | Command  | Description   | Examples  | Description of the Example |
- |------------|------------------------------------------|-------------------------------|---------------------------------------------------|
+ |------------|------------------------------------------|-----------------------------|------------------------------------|
  | pwd       | Confirms the present work folder         |   pwd                         | Confirms the present work folder                  |
  |  ls       |    Shows the list of files               |   ls                          | Show the list of files of the present work folder |
  |  cd       | Changes the location of the work folder  | cd content                    | Moves to the content folder                       |
