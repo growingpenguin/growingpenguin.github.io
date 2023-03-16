@@ -9,6 +9,7 @@ Sorting Algorithm
 **3. Insertion Sort <br/>
 
 **4. Merge Sort**
+[geekforgeeks MergeSort](https://www.geeksforgeeks.org/merge-sort/?ref=lbp)
 Example <br/>
 1. (6) (0) (4) (5) (1) (3) (8) (2) <br/>
 2. Merge <br/>
