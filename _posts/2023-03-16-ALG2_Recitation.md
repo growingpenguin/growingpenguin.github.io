@@ -25,6 +25,6 @@ Example <br/>
 (0, 1, 2, 3, 4, 5, 6, 8) <br/>
 
 Code<br/>
-
+<script src="https://gist.github.com/growingpenguin/3a8bb2b57f752199e8689c9bc4cd624b.js"></script>
 
  
