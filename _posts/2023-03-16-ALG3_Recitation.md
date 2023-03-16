@@ -42,5 +42,5 @@ It is simple, but requires additional memory outside the table.  <br/>
 -Open addressing: All elements are stored in the hash table itself. Each table entry either contains a record or NIL. When searching for an element, we examine the slot one by one until the desire element is found or it is clear that the element is not in the table.  <br/>
 
 Hashing Code <br/>
-
+https://gist.github.com/growingpenguin/5ac7dab9c105de7d4a13738e855e6a48
 
