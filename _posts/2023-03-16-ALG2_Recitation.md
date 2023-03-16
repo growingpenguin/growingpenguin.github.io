@@ -4,12 +4,12 @@ title: Algorithm Recitation 2nd week
 ---
 
 Sorting Algorithm
-2. Selection Sort
+**2. Selection Sort <br/>
 
-3. Insertion Sort
+**3. Insertion Sort <br/>
 
-4. Merge Sort
-Example
+**4. Merge Sort**
+Example <br/>
 1. (6) (0) (4) (5) (1) (3) (8) (2) <br/>
 2. Merge <br/>
 (6, 0) (4, 5) (1, 3) (8, 2) <br/>
@@ -24,6 +24,7 @@ Example
 7. Sort <br/>
 (0, 1, 2, 3, 4, 5, 6, 8) <br/>
 
+Code<br/>
 
 
  
