@@ -16,7 +16,7 @@ find 연산: 특정 노드 a에 관해 a가 속한 집합의 대표 노드 반�
 2. 2개의 노드를 선택해 각각의 대표 노드를 찾아 연결하는 union 연산 수행. <br/>
 <img src="/_images/Union-Find_2.jpg" width="400" height="400">
 3. find 연산은 자신이 속한 집합의 대표 노드를 찾는 연산. 이는 대표 노드를 찾을 뿐 만 아니라 그래프를 정돈하고 시간 복잡도를 줄이는 역할을 한다.<br/>
-<img src="/_images/Union-Find_3.jpg" width="400" height="500">
+<img src="/_images/Union-Find_3.jpg" width="380" height="500">
 find 연산 작동원리<br/>
 (1) index와 value값이 동일한지 확인 (집합의 대표 노드 유무 확인)
 (2) 동일하지 않으면 value값이 가르키는 index값 위치로 이동 (이 노드가 속한 대표 노드 찾아가기!)<br/>
