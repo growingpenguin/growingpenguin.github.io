@@ -12,8 +12,11 @@ union 연산: union(a,b)는 $a \in [A]$, $b \in [B]$ 일 때, $A$ $\cup$ $B$ <br
 find 연산: 특정 노드 a에 관해 a가 속한 집합의 대표 노드 반환 연산. $a \in [A]$ find(a)는 A 집합의 대표 노드 반환<br/>
 알고리즘 구현 방법
 1. 1차원 배열 이용. 처음에는 각 집합의 대표 노드는 각각의 노드. 모두 대표 노드이므로 자신의 인덱스값 초기화<br/>
+<img src="/_images/Union-Find_1.jpg" width="400" height="500">
 2. 2개의 노드를 선택해 각각의 대표 노드를 찾아 연결하는 union 연산 수행. <br/>
+<img src="/_images/Union-Find_2.jpg" width="400" height="500">
 3. find 연산은 자신이 속한 집합의 대표 노드를 찾는 연산. 이는 대표 노드를 찾을 뿐 만 아니라 그래프를 정돈하고 시간 복잡도를 줄이는 역할을 한다.<br/>
+<img src="/_images/Union-Find_3.jpg" width="400" height="500">
 find 연산 작동원리<br/>
 (1) index와 value값이 동일한지 확인 (집합의 대표 노드 유무 확인)
 (2) 동일하지 않으면 value값이 가르키는 index값 위치로 이동 (이 노드가 속한 대표 노드 찾아가기!)<br/>
