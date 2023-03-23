@@ -3,7 +3,7 @@ layout: post
 title: Algorithm Recitation 2nd week
 ---
 
-Sorting Algorithm
+Sorting Algorithm <br/>
 **2. Selection Sort <br/>
 
 **3. Insertion Sort <br/>
