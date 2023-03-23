@@ -4,7 +4,18 @@ title: Algorithm Recitation 2nd week
 ---
 
 Sorting Algorithm <br/>
-**2. Selection Sort <br/>
+**2. Selection Sort** <br/>
+
+Professor Description (Recitation2)
+1) Find the biggest with index <= i
+2) Swap
+3) Sort 1...i-1
+It is usually called the prefix max function to find the biggest element of the array between index 0 and index i. <br/>
+Professor code (Recitation2)
+
+
+Example <br/>
+1. 7 1 3 8 2 
 
 **3. Insertion Sort <br/>
 
