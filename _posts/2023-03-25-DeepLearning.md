@@ -11,4 +11,4 @@ title: DeepLearning
 (2) 경사하강법 (GradientDescent)
 
 
-<sub>w~n+1<\sub>
+w<sub>n+1</sub>
