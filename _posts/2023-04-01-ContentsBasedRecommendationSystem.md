@@ -3,14 +3,14 @@ layout: post
 title: Contents Based Recommendation System
 ---
 
-# Contents Based Recommendation System #<br/>
-## Introduction ##<br/>
+# Contents Based Recommendation System <br/>
+## Introduction <br/>
 협업 시스템은 추천을 만들기 위해 **사용자**의 평점 패턴의 상관관계를 이용한다. <br/>
 한편으로 이러한 방법은 예측을 계산할 때 **아이템의 속성**을 이용하지 않는다. 상관관계를 이용하는 것은 낭비처럼 보일 수도 있다.<br/> 
 EX. 만약 Alice가 어바웃타임을 좋아한다면 비슷한 장르의 로맨스 영화인 라라랜드를 좋아할 가능성이 높다. <br/>
 이런 경우, 다른 사용자의 평가가 필요하지 않을 필요가 있다. <br/>
 
-## Outline ##<br/>
+## Outline <br/>
 협업필터링(CF) 추천 시스템 <br/>
 -평점 행렬 내 상관관계를 이용하여 추천
 -유사도<br/>
