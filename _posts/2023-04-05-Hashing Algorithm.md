@@ -20,5 +20,5 @@ H(p,m) = {hab(k)| $a, b \in [0,1,...p-1]$} where a!=0
 (a,b are random integers, p is the prime number greater than the range of keys, and m is the size of the hash table)
 
 Understanding through Examples
-<img src="/_images/Baek1976_2.png" width="700" height="500">
-<img src="/_images/Baek1976_2.png" width="700" height="500">
+<img src="/_images/Hashing1.jpg" width="700" height="500">
+<img src="/_images/Hashing2.jpg" width="700" height="500">
