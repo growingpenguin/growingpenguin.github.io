@@ -21,4 +21,4 @@ H(p,m) = {hab(k)| $a, b \in [0,1,...p-1]$} where a!=0
 
 Understanding through Examples<br/>
 <img src="/_images/Hashing1.jpg" width="500" height="700">
-<img src="/_images/Hashing2.jpg" width="450" height="350">
+<img src="/_images/Hashing2.jpg" width="500" height="400">
