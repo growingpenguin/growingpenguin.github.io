@@ -16,4 +16,4 @@ This is a terrible choice. <br/>
 How about *randomly* choose the hash function? <br/>
 3.2.Universal hash function <br/>
 hab(k) = ((ak+b)mod p)mod m
-H(p,m) = {hab(k)| $$a, b \in [0,1,...p-1]}$$}
+H(p,m) = {hab(k)| a, b $$\in [0,1,...p-1]}$$}
