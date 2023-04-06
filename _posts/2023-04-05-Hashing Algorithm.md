@@ -15,7 +15,7 @@ If it is uniform, this is a good idea. However, what if all keys have the same r
 This is a terrible choice. <br/>
 How about *randomly* choose the hash function? <br/>
 3.2.Universal hash function <br/>
-hab(k) = ((ak+b)mod p)mod m
+hab(k) = ((ak+b)mod p)mod m <br/>
 H(p,m) = {hab(k)| $a, b \in [0,1,...p-1]$} where a!=0
 (a,b are random integers, p is the prime number greater than the range of keys, and m is the size of the hash table)
 
