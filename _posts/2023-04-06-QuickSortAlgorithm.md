@@ -8,7 +8,7 @@ Pivot X is designated as A[0] or A[n-1] <br/>
 <br/>
 Understanding through Examples<br/>
 Cheating Version<br/>
-<img src="/_images/BasicQuickSort1.png" width="500" height="700">
+<img src="/_images/BasicQuickSort1.png" width="500" height="700"><br/>
 Standard Version<br/>
 <img src="/_images/BasicQuickSort2.png" width="500" height="700">
 <img src="/_images/BasicQuickSort3.png" width="500" height="700">
