@@ -5,7 +5,7 @@ title:  "American Novels"
 
 **American Novels** <br/>
 <br/>
-Week2 Game<br/>
+Chap 1~3 Game<br/>
 1.What time period was a reaction against Reason and return to nature? <br/>
 Romanticism(1800~1850)<br/>
 2.Every citizen should have an equal opportunity to achieve success and prosperity through hard work and determination.<br/>
@@ -28,9 +28,19 @@ Transcedentalism <br/>
 10.Theme: What major population shift occured at the turn of the 19th century, a generation before The Great Gatsby?<br/>
 many people moved from the country to the city <br/>
 <br/>
-Week3 Game<br/>
+Chap 4~6 Game<br/>
 
 <br/>
+Card Game <br/>
+1.What was Jay Gatsby's birth name? <br/>
+A: James Gatz <br/>
+2.What was the name of Gatsby's first mentor? <br/>
+A: Dan Cody <br/>
+3. What President is associated with TJ Eckleberg?<br/>
+A: Thomas Jefferson<br/>
+4. What is the name of Daisy and Tom's child?<br/>
+A: Pamela<br/>
+6. 
 
 American Literature Timeline <br/>
 1. Colonial Puritan period (1630~1750)
@@ -70,4 +80,7 @@ What is it concerned with?<br/>
 Individuals in isolation / social issues /multicultural / gender<br/>
 What were the major events? <br/>
 World War2 / Civil rights / War Korea / Vietnam/
+<br/>
+
+
 
