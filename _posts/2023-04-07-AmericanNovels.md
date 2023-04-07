@@ -62,8 +62,17 @@ A:Mayer Wolfsheim <br/>
 A:Gatsby because he is new money in the outside and a threat to Tom's old money. <br/>
 15.What character(s) are portrayed in a very racist way. <br/>
 A: Wolfsheim, African American, Italian immigrants. <br/>
-16.Who was Suzanne Lenglen? 
-
+16.Who was Suzanne Lenglen? What character was she an inspiration for? <br/>
+A:Jorden Baker <br/>
+17. Who drove a white roadster? <br/>
+A:Daisy <br/>
+18. Who is the well-behaved character in the book? <br/>
+A:Pamela, Daisy, and Tom's daughter. <br/>
+19. Who wanted to leave New York and move "out of west"?<br>
+A:George Wilson <br/>
+20. Where do all the characters in the novel come from? <br/>
+The Midwest / heartland <br/>
+<br/>
 
 American Literature Timeline <br/>
 1. Colonial Puritan period (1630~1750)
