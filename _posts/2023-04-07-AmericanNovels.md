@@ -27,8 +27,11 @@ Puritanism - Reason - Romanticism - Realism - Modernism
 Transcedentalism <br/>
 10.Theme: What major population shift occured at the turn of the 19th century, a generation before The Great Gatsby?<br/>
 many people moved from the country to the city <br/>
+<br/>
+Week3 Game<br/>
 
 <br/>
+
 American Literature Timeline <br/>
 1. Colonial Puritan period (1630~1750)
 -What was the main theme? <br/>
