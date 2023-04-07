@@ -7,7 +7,7 @@ title:  "American Novels"
 <br/>
 Chap 1 to 3 Game <br/>
 1.What time period was a reaction against Reason and return to nature? <br/>
-Romanticism(1800~1850)<br/>
+Romanticism(1800 to 1850)<br/>
 2.Every citizen should have an equal opportunity to achieve success and prosperity through hard work and determination.<br/>
 The American Dream <br/>
 3.The freedom to go anywhere and become anyone has profoundly shaped the American psyche.<br/>
