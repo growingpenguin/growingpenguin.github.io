@@ -40,7 +40,22 @@ A: Dan Cody <br/>
 A: Thomas Jefferson<br/>
 4. What is the name of Daisy and Tom's child?<br/>
 A: Pamela<br/>
-6. 
+5.What does Nick's name mean? <br/>
+A: Victory/Nike <br/>
+6.What does Tom Buchanan's name mean? <br/>
+A: Canon <br/>
+7.What is the name of the drunk man in the library? <br/>
+A:Owl Eyes <br/>
+8.Who was the former classmate of Nick's? <br/>
+A:Tom <br/>
+9.Who was a wealthy polo player who was a football star at Yale? <br/>
+A:Tom <br/>
+10.Who was the young stockbroker who has recently broken off an engagement? <br/>
+A:Nick <br/>
+11.Who resembles a ghost? <br/>
+A:George Wilson
+
+
 
 American Literature Timeline <br/>
 1. Colonial Puritan period (1630~1750)
