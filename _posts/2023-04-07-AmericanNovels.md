@@ -48,7 +48,7 @@ A: Canon <br/>
 A:Owl Eyes <br/>
 8.Who was the former classmate of Nick's? <br/>
 A:Tom <br/>
-9.Who was a wealthy polo player who was a football star at Yale? <br/>
+9. Who was a wealthy polo player who was a football star at Yale? <br/>
 A:Tom <br/>
 10.Who was the young stockbroker who has recently broken off an engagement? <br/>
 A:Nick <br/>
