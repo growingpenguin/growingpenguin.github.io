@@ -5,7 +5,7 @@ title:  "American Novels"
 
 **American Novels** <br/>
 <br/>
-Chap 1~3 Game <br/>
+Chap 1 to 3 Game <br/>
 1.What time period was a reaction against Reason and return to nature? <br/>
 Romanticism(1800~1850)<br/>
 2.Every citizen should have an equal opportunity to achieve success and prosperity through hard work and determination.<br/>
