@@ -5,7 +5,7 @@ title:  "American Novels"
 
 **American Novels** <br/>
 <br/>
-Chap 1~3 Game<br/>
+Chap 1~3 Game <br/>
 1.What time period was a reaction against Reason and return to nature? <br/>
 Romanticism(1800~1850)<br/>
 2.Every citizen should have an equal opportunity to achieve success and prosperity through hard work and determination.<br/>
@@ -39,7 +39,7 @@ A: Dan Cody <br/>
 3. What President is associated with TJ Eckleberg?<br/>
 A: Thomas Jefferson<br/>
 4. What is the name of Daisy and Tom's child?<br/>
-A: Pamela<br/>
+A: Pamela <br/>
 5.What does Nick's name mean? <br/>
 A: Victory/Nike <br/>
 6.What does Tom Buchanan's name mean? <br/>
@@ -54,7 +54,15 @@ A:Tom <br/>
 A:Nick <br/>
 11.Who resembles a ghost? <br/>
 A:George Wilson
-
+12.What kind of people attended Gatsby's party? Tom and Daisy disliked them. <br/>
+A:People from the film industry <br/>
+13.Who "fixed" the 1919 series? <br/>
+A:Mayer Wolfsheim <br/>
+14.Who is the Sheik of Araby? Why? <br/>
+A:Gatsby because he is new money in the outside and a threat to Tom's old money. <br/>
+15.What character(s) are portrayed in a very racist way. <br/>
+A: Wolfsheim, African American, Italian immigrants. <br/>
+16.Who was Suzanne Lenglen? 
 
 
 American Literature Timeline <br/>
