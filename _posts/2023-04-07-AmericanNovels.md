@@ -3,7 +3,7 @@ layout: post
 title:  "American Novels"
 ---
 
-**American Novels** <br/>
+# American Novels <br/>
 <br/>
 **Chap 1 to 3 Game** <br/>
 1.What time period was a reaction against Reason and return to nature? <br/>
@@ -181,7 +181,7 @@ A: Industrial waste land between West Egg and Manhatton representing despair and
 
 
 <br/>
-## American Literature Timeline## <br/>
+## American Literature Timeline <br/>
 1. Colonial Puritan period (1630~1750)
 -What was the main theme? <br/>
 Religions concerns sin and pure Christian ideas. <br/>
