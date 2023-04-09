@@ -52,7 +52,7 @@ A:Tom <br/>
 10.Who was the young stockbroker who has recently broken off an engagement? <br/>
 A:Nick <br/>
 11.Who resembles a ghost? <br/>
-A:George Wilson
+A:George Wilson <br/>
 12.What kind of people attended Gatsby's party? Tom and Daisy disliked them. <br/>
 A:People from the film industry <br/>
 13.Who "fixed" the 1919 series? <br/>
@@ -163,7 +163,7 @@ A: Earth <br/>
 A: Full of money <br/>
 13. On the day after the confrontation between Tom and Gatsby in New York City, what does Gatsby instruct his gardener not to do? <br/>
 A: Clean the Pool <br/>
-14. Why does Tom bring up the word "science"?
+14. Why does Tom bring up the word "science"?<br/>
 A: White superiority, Sun distance to Earth <br/>
 15. Give an example of how weather is an important motif in this novel. <br/>
 A: It's raining when Daisy and Gatsby met. <br/>
@@ -183,7 +183,7 @@ A: Industrial waste land between West Egg and Manhatton representing despair and
 1. Colonial Puritan period (1630~1750)
 -What was the main theme? <br/>
 Religions concerns sin and pure Christian ideas. <br/>
-2. Revolutional Period (1750~1800)
+2. Revolutional Period (1750~1800) <br/>
 -What was the writing style of this period? <br/>
 Political pamphlets and persuations <br/>
 -What was the major event? <br/>
@@ -204,7 +204,7 @@ The Civil War <br/>
 -What was the themes of this period?<br/>
 American dream, alienation disillusionment violence and decay. <br/>
 -What was the major event?<br/>
-World War1
+World War1 <br/>
 8. Harlem Renaissance<br/>
 -What was the main musical genre at this time?<br/>
 African American Jazz<br/>
@@ -216,7 +216,7 @@ What is real.<br/>
 What is it concerned with?<br/>
 Individuals in isolation / social issues /multicultural / gender<br/>
 What were the major events? <br/>
-World War2 / Civil rights / War Korea / Vietnam/
+World War2 / Civil rights / War Korea / Vietnam/<br/>
 <br/>
 
 
