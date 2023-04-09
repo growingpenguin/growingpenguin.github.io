@@ -28,10 +28,9 @@ Transcedentalism <br/>
 10.Theme: What major population shift occured at the turn of the 19th century, a generation before The Great Gatsby?<br/>
 many people moved from the country to the city <br/>
 <br/>
-Chap 4~6 Game<br/>
-
+**Chap 4~6 Game**<br/>
 <br/>
-##GameBoard Questions
+## GameBoard Questions
 **Character Question Game** <br/>
 1.What was Jay Gatsby's birth name? <br/>
 A: James Gatz <br/>
@@ -182,7 +181,7 @@ A: Industrial waste land between West Egg and Manhatton representing despair and
 
 
 <br/>
-##American Literature Timeline <br/>
+## American Literature Timeline## <br/>
 1. Colonial Puritan period (1630~1750)
 -What was the main theme? <br/>
 Religions concerns sin and pure Christian ideas. <br/>
