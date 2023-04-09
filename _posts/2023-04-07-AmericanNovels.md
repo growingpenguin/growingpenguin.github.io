@@ -5,7 +5,7 @@ title:  "American Novels"
 
 **American Novels** <br/>
 <br/>
-Chap 1 to 3 Game <br/>
+**Chap 1 to 3 Game** <br/>
 1.What time period was a reaction against Reason and return to nature? <br/>
 Romanticism(1800 to 1850)<br/>
 2.Every citizen should have an equal opportunity to achieve success and prosperity through hard work and determination.<br/>
@@ -31,7 +31,8 @@ many people moved from the country to the city <br/>
 Chap 4~6 Game<br/>
 
 <br/>
-Character Question Game <br/>
+##GameBoard Questions
+**Character Question Game** <br/>
 1.What was Jay Gatsby's birth name? <br/>
 A: James Gatz <br/>
 2.What was the name of Gatsby's first mentor? <br/>
@@ -73,7 +74,7 @@ A:George Wilson <br/>
 20. Where do all the characters in the novel come from? <br/>
 A:The Midwest / heartland <br/>
 <br/>
-Character Quote Game <br/>
+**Character Quote Game** <br/>
 1. "I want to get one of those dogs," she said earnestly." I want to get one for the apartment. They're nice to have -- a dog." <br/>
 A: Myrte Wilson <br/>
 2. "Whenever you feel like criticizing anyone,just remember that all the people in this world haven't had the advantages you had. <br/>
@@ -114,7 +115,7 @@ A: Tom Buchanan <br/>
 20. "It takes two to make an accident. I don't like careless people. That's why I like you." <br/>
 A: Jordan Baker <br/>
 <br/>
-Color Symbolism Questions <br/>
+**Color Symbolism Questions** <br/>
 1. What does Yellow symbolize? <br/>
 A: The novel uses Yellow to accent new money trying to be like "old money", high society, and deceit. Gatsby's car<br/>
 2. What does Gold symbolize? <br/>
@@ -136,7 +137,52 @@ A: The Valley of Ashes-hopelessness, lifeless, ghost-like discontent, and low so
 10. What does Brown symbolize? <br/>
 A: Brown symbolizes tradition, organization, conservativeness, and the element of Earth. Mrytle uses this color to pretend to belong to Tom's World. <br/>
 <br/>
-American Literature Timeline <br/>
+**Game Plot Questions** <br/>
+[Reference](https://docs.google.com/presentation/d/14JWh1bjX5i9Y4fEwqBXwA4K0_wy9ZWKGb1-k26rTtaA/edit#slide=id.g228c432e12a_0_12)
+1. What does it mean if someone comes from "New Money"? <br/>
+A: A money is not from old family money that is inherited. <br/>
+2. What job does Jordan Baker have? Then, explain the significance of having a job. <br/> 
+A: Golfer/modern woman <br/>
+3. Who was driving the car that hit Mrytle? <br/>
+A: Daisy <br/>
+4. Why did Gatsby replace all of his servants? <br/>
+A: To hide his affair with Daisy. <br/>
+5. What does Wilson say about the eyes of Doctor TJ Eckleberg on the billboard?<br/>
+A: They are the eyes of God. <br/>
+6. Who attends Gatsby's funeral? <br/>
+A: Nick, OwlEyes, a few servants, and Gatsby's father, Henry C.Gatz. <br/>
+7. What does KlipSpriger return to the house to get? <br/>
+A: Tennis Shoes (Dismissing Gatsby's friendship for fun & good times) <br/>
+8. How does Nick refer to Tom and Daisy at the end of the book? <br/>
+A: Careless people <br/>
+9. At the end of the story, Nick leaves New York to go where? <br/>
+A: MidWest <br/>
+10. What two things did James Gatz write in the Hopalang Cassidy? <br/>
+A: Daily Schedule and list of his self-improvement resolutions.<br/>
+11. Tom and Mrytle are represented by which of the 4 elements? <br/>
+A: Earth <br/>
+12. How does Gatsby describe Daisy's voice? <br/>
+A: Full of money <br/>
+13. On the day after the confrontation between Tom and Gatsby in New York City, what does Gatsby instruct his gardener not to do? <br/>
+A: Clean the Pool <br/>
+14. Why does Tom bring up the word "science"?
+A: White superiority, Sun distance to Earth <br/>
+15. Give an example of how weather is an important motif in this novel. <br/>
+A: It's raining when Daisy and Gatsby met. <br/>
+16. Who assumes the reponsibility for Gatsby's funeral arrangements? <br/>
+A: Nick <br/>
+17. What three main characters die in the novel? <br/>
+A: Myrtle Wilson, George Wilson, and Jay Gatsby <br/>
+18. What does Gatsby knock off of the mantle when he is reconnected with Daisy? What does this symbolize?<br/>
+A: A clock. Gatsby's inability to control time.<br/>
+19. How did Gatsby make his money? <br/>
+A: Jay Gatsby got his money from bootlegging and fake stocks <br/>
+20. What is the Valley of Ashes? What does it represent? <br/>
+A: Industrial waste land between West Egg and Manhatton representing despair and death <br/>
+
+
+<br/>
+##American Literature Timeline <br/>
 1. Colonial Puritan period (1630~1750)
 -What was the main theme? <br/>
 Religions concerns sin and pure Christian ideas. <br/>
