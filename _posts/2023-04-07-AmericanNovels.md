@@ -31,7 +31,7 @@ many people moved from the country to the city <br/>
 Chap 4~6 Game<br/>
 
 <br/>
-Card Game <br/>
+Card Question Game <br/>
 1.What was Jay Gatsby's birth name? <br/>
 A: James Gatz <br/>
 2.What was the name of Gatsby's first mentor? <br/>
@@ -71,9 +71,20 @@ A:Pamela, Daisy, and Tom's daughter. <br/>
 19. Who wanted to leave New York and move "out of west"?<br>
 A:George Wilson <br/>
 20. Where do all the characters in the novel come from? <br/>
-The Midwest / heartland <br/>
+A:The Midwest / heartland <br/>
 <br/>
+Card Quote Game <br/>
+1. "I want to get one of those dogs," she said earnestly." I want to get one for the apartment. They're nice to have -- a dog." <br/>
+A: Myrte Wilson <br/>
+2. "Whenever you feel like criticizing anyone,just remember that all the people in this world haven't had the advantages you had. <br/>
+A: Nick's father <br/>
+3. "I've been drunk for about a week now, and I thought it might sober me up to sit in a library." Did I tell you about the books? They're real. <br/>
+A: Owl Eyes <br/>
+4. "I'd like to just get one of those pink clouds and put you in it and push you around?" <br/>
+A: Daisy <br/>
+5. Jimmy was bound to get ahead. He always had some resolves like this or something. Do you know what he's got about improving his mind? He was always great for that. A: Gatsby's father <br/>
 
+<br/>
 American Literature Timeline <br/>
 1. Colonial Puritan period (1630~1750)
 -What was the main theme? <br/>
