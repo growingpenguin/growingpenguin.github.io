@@ -178,9 +178,8 @@ A: Jay Gatsby got his money from bootlegging and fake stocks <br/>
 20. What is the Valley of Ashes? What does it represent? <br/>
 A: Industrial waste land between West Egg and Manhatton representing despair and death <br/>
 
-
+## American Literature Timeline
 <br/>
-## American Literature Timeline 
 1. Colonial Puritan period (1630~1750)
 -What was the main theme? <br/>
 Religions concerns sin and pure Christian ideas. <br/>
