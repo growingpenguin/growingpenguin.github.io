@@ -31,7 +31,7 @@ many people moved from the country to the city <br/>
 <br/>
 ## GameBoard Questions
 **Character Question Game** <br/>
-1.What was Jay Gatsby's birth name? <br/>
+1. What was Jay Gatsby's birth name? <br/>
 A: James Gatz <br/>
 2.What was the name of Gatsby's first mentor? <br/>
 A: Dan Cody <br/>
@@ -49,19 +49,19 @@ A:Owl Eyes <br/>
 A:Tom <br/>
 9. Who was a wealthy polo player who was a football star at Yale? <br/>
 A:Tom <br/>
-10.Who was the young stockbroker who has recently broken off an engagement? <br/>
+10. Who was the young stockbroker who has recently broken off an engagement? <br/>
 A:Nick <br/>
-11.Who resembles a ghost? <br/>
+11. Who resembles a ghost? <br/>
 A:George Wilson <br/>
-12.What kind of people attended Gatsby's party? Tom and Daisy disliked them. <br/>
+12. What kind of people attended Gatsby's party? Tom and Daisy disliked them. <br/>
 A:People from the film industry <br/>
-13.Who "fixed" the 1919 series? <br/>
+13. Who "fixed" the 1919 series? <br/>
 A:Mayer Wolfsheim <br/>
 14.Who is the Sheik of Araby? Why? <br/>
 A:Gatsby because he is new money in the outside and a threat to Tom's old money. <br/>
-15.What character(s) are portrayed in a very racist way. <br/>
+15. What character(s) are portrayed in a very racist way. <br/>
 A: Wolfsheim, African American, Italian immigrants. <br/>
-16.Who was Suzanne Lenglen? What character was she an inspiration for? <br/>
+16. Who was Suzanne Lenglen? What character was she an inspiration for? <br/>
 A:Jorden Baker <br/>
 17. Who drove a white roadster? <br/>
 A:Daisy <br/>
