@@ -20,7 +20,7 @@ H(p,m) = {hab(k)| $a, b \in [0,1,...p-1]$} where a!=0
 (a,b are random integers, p is the prime number greater than the range of keys, and m is the size of the hash table)
 
 Understanding through Examples<br/>
-<img src="/_images/Hashing1.jpg" width="500" height="700">
+<img src="../_images/Hashing1.jpg" width="500" height="700">
 <img src="/_images/Hashing2.jpg" width="500" height="400">
 
 Implementation using C++ <br/>
