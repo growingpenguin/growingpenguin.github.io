@@ -21,6 +21,12 @@ Unordered Array |   n    | n  | n  |   n |   n
 Sorted Array | n!xn | logn | n | 1 | logn
 
 
+**Selection Sort Time Complexity** <br/>
+DS            | Container Build(A)  | Static find(k) | Dynamic insert(x),delete(x) | Order find_min(),find_max() | Order find_next(),find_prev() 
+-------------------|-----------------|--------------------------|---------------------------|---------------------------|--------------------
+Unordered Array |   n    | n  | n  |   n |   n
+Sorted Array | n< | logn | n | 1 | logn
+
 Description <br/>
 Sorting techniques <br/>
 Permutation Sort: <br/>
