@@ -28,3 +28,7 @@ Permutation Sort: <br/>
 Selection Sort: <br/>
 Insertion Sort: <br/>
 Merge Sort: <br/>
+
+Sorting <br/>
+Destructive Sorting: <br/> 
+In place Sorting:<br/> 
