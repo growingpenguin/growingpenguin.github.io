@@ -19,3 +19,12 @@ DS            | Container Build(A)  | Static find(k) | Dynamic insert(x),delete(
 -------------------|-----------------|--------------------------|---------------------------|---------------------------|--------------------
 Unordered Array |   n    | n  | n  |   n |   n
 Sorted Array | ? | logn | n | 1 | logn
+
+
+
+Description <br/>
+Sorting techniques <br/>
+Permutation Sort: <br/>
+Selection Sort: <br/>
+Insertion Sort: <br/>
+Merge Sort: <br/>
