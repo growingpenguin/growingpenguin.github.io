@@ -8,6 +8,6 @@ title:  "Algorithm Time Complexity"
 **Set DataStructure Time Complexity** <br/>
 (Unordered) Array <br/>
                    | Container          | Static                    | Dynamic                                             
--------------------|------------------|-----------------------------|-----------------------------
-        n          | n                | n                           | n
+-------------------|--------------------|---------------------------|-----------------------------
+                   | n                  | n                           | n
   
