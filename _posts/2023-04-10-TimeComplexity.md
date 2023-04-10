@@ -24,6 +24,8 @@ Sorted Array | ? | logn | n | 1 | logn
 Description <br/>
 Sorting techniques <br/>
 Permutation Sort: <br/>
+Creates a permutation by randomly shuffling the elements. If the list is sorted,algorithm terminates. <br/>
+If not, create a new permutation, repeating the process above.  <br/>
 Selection Sort: <br/>
 Insertion Sort: <br/>
 Merge Sort: <br/>
