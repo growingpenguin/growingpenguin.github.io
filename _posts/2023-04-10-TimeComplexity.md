@@ -27,6 +27,7 @@ Permutation Sort: <br/>
 Creates a permutation by randomly shuffling the elements. If the list is sorted,algorithm terminates. <br/>
 If not, create a new permutation, repeating the process above.  <br/>
 Selection Sort: <br/>
+Repeatedly finding the minimum element of the sort and moving it to the front. <br/>
 Insertion Sort: <br/>
 Merge Sort: <br/>
 
