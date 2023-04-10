@@ -13,4 +13,4 @@ Unordered Array    | n                  | n                         | n
 
 Project            | Skills           | Description
 -------------------|------------------|-----------------------------
-[AI서비스설계](https://blog.naver.com/sweetyleah2/222812457145)  | Java             | Boader app
+Unordered Array | Java             | Boader app
