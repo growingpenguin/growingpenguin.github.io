@@ -11,3 +11,8 @@ DS            | Container            | Static | Dynamic
 -------------------|------------------|-----------------------------|-----------------------------
 Unordered Array | Java             | Boader app  | Boader app
 Ordered Array | C++ | Marketing Report Based on analyzing CJ sales data | C++ 
+
+DS            | Container            | Static | Dynamic | Order
+-------------------|------------------|-----------------------------|-----------------------------|-----------------------------
+Unordered Array | Java             | Boader app  | Boader app | Boader app
+Ordered Array | C++ | Marketing Report Based on analyzing CJ sales data | C++ | C++
