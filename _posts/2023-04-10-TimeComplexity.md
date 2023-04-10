@@ -21,6 +21,6 @@ Unordered Array | Java             | Boader app
 [AI]  | Java             | Boader app
 
 
-Project            | Skills           | Description
+DS                 | Skills           | Description
 -------------------|------------------|-----------------------------
 Unordered Array  | Java             | Boader app
