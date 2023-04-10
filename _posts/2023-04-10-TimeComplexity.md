@@ -17,4 +17,9 @@ Ordered Array | C++ | Marketing Report Based on analyzing CJ sales data | C++ | 
 DS            | Container Build(A)  | Static find(k) | Dynamic insert(x),delete(x) | Order find_min(),find_max() | Order find_next(),find_prev() 
 -------------------|-----------------|--------------------------|---------------------------|---------------------------|--------------------
 Unordered Array |   n    | n  | n  |   n |   n
-Ordered Array | C++ | Marketing Report Based on analyzing CJ sales data | C++ | C++ | C++
+Ordered Array | logn | Marketing Report Based on analyzing CJ sales data | C++ | C++ | C++
+
+DS            | Container Build(A)  | Static find(k) | Dynamic insert(x),delete(x) | Order find_min(),find_max() | Order find_next(),find_prev() 
+-------------------|-----------------|--------------------------|---------------------------|---------------------------|--------------------
+Unordered Array |   n    | n  | n  |   n |   n
+Ordered Array | ? | logn | C++ | C++ | C++
