@@ -21,7 +21,6 @@ Unordered Array |   n    | n  | n  |   n |   n
 Sorted Array | ? | logn | n | 1 | logn
 
 
-
 Description <br/>
 Sorting techniques <br/>
 Permutation Sort: <br/>
@@ -30,5 +29,5 @@ Insertion Sort: <br/>
 Merge Sort: <br/>
 
 Sorting <br/>
-Destructive Sorting: <br/> 
-In place Sorting:<br/> 
+Destructive Sorting: Creating a new sorted list from an unsorted list without modifying the original list<br/> 
+In place Sorting: Sorting the original list in memory without creating a new list<br/> 
