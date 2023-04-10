@@ -11,6 +11,6 @@ title:  "Algorithm Time Complexity"
 Unordered Array    | n                  | n                         | n
   
 
-Project            | Skills           | Description
+                   | Skills           | Description
 -------------------|------------------|-----------------------------
 Unordered Array | Java             | Boader app
