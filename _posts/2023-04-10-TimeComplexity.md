@@ -7,7 +7,7 @@ title:  "Algorithm Time Complexity"
 
 **Set DataStructure Time Complexity** <br/>
 (Unordered) Array <br/>
-                   | Container          | Static                    | Dynamic                     |                          
--------------------|------------------|-----------------------------|-----------------------------|
+                   | Container          | Static                    | Dynamic                                             
+-------------------|------------------|-----------------------------|-----------------------------
         n          | n                | n                           | n
   
