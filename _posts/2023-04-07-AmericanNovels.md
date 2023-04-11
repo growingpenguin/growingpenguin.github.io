@@ -85,6 +85,23 @@ A: careless <br/>
 17. Who attends Gatsby's funeral? <br/>
 A: Nick, Owl Eyes, and Gatsby's father <br/>
 
+## Final Questions <br/>
+**Symbols**
+1. He believes in green light <br/>
+A: Daisy/Money/Envy/The American Dream <br/>
+2. Death and Wasteland <br/>
+A: The Valley of Ashes (industrial wasteland) <br/>
+3. What is the advertisement of Doctor TJ Eckleburg for? <br/>
+A: Eye-glasses which represent lGod/conscidence/the theme of seeing/modern media / Thomas Jefferson Disgusting (Eckle) Town (burg)<br/>
+4. Fire / Water / Air / Earth <br/>
+Fire <br/> 
+"constant flicker of men and women" (New York City) <br/>
+Air <br/>
+"on a windy evening" The only completely stationary (East Egg) <br/>
+object in the room was 
+
+
+
 <br/>
 ## GameBoard Questions
 **Character Question Game** <br/>
