@@ -11,7 +11,7 @@ Romanticism(1800 to 1850)<br/>
 The American Dream <br/>
 3.The freedom to go anywhere and become anyone has profoundly shaped the American psyche.<br/>
 The Road<br/>
-4.The theme about a young person's transition from being a child to being an adult is called. <br/>
+4.The theme about a young person's transition from being a child to beeing an adult is called. <br/>
 Coming of age <br/>
 5.When the written material was mainly Sermons, Diaries and personal histories.<br/>
 Colonial/Puritan Period 1600-1800<br/>
@@ -28,6 +28,63 @@ Transcedentalism <br/>
 many people moved from the country to the city <br/>
 <br/>
 **Chap 4~6 Game**<br/>
+1. Who is Mr.Wolfsheim? <br/>
+A: He is a gangster/racketeer and he fixed the 1919 World Series. <br/> 
+2. Fitzgerland uses the 4 Elements throughout The Great Gatsby. What element is Gatsby?<br/>
+A: Water <br/>
+3. What kind of vehicle passes them on the QueensBoro Bridge heading into New York? 
+A: A hearse <br/>
+4. What does Nick think is happening to his house after returning to his house in New York? <br/>
+A: It was on fire <br/>
+5. What did Gatsby almost knock over when he met Daisy? <br/>
+A: a clock <br/>
+6. Who said "I was brought up in America but I was educated at Oxford. <br/>
+A: Gatsby <br/>
+7. Who is Klipspringer? <br/>
+A: He is the "boarder" who always seems to be at Gatsby's house. <br/>
+8. When does Jamer Gatz change his name to Gatsby? <br/>
+A: at the age of 17. <br/>
+9. Nick tells Gatsby that "you can't repeat the past." what was Gatsby's response? <br/>
+A: "Why, of course, you can!" <br/>
+10.Describe the meeting between Gatsby and Daisy. <br/>
+A: It was initially very awkward. Gatsby was like a "little boy". <br/>
+
+**Chap 7~9 Game** <br/>
+1. Tom and Mrytle are represented by which of the 4 elements? <br/>
+A: Earth <br/>
+2. What did Nick "clean" away from the steps of Gatsby's deserted Mansion? <br/>
+A: A dirty obscene word <br/>
+3. The instruments used to create American rhythm were used by the marching bands of the Southern pro-slavery states. <br/>
+A: True <br/>
+4. At first, Nick didn't believe Gatsby had been to Oxford or Europe. What changed his mind? <br/>
+A: He saw a photograph. <br/>
+5. I drift here and there trying to forget the sad things that happened to me. <br/>
+A: Gatsby <br/>
+6. What is the name of the public park in New Orleans where all American music began? <br/>
+A: Congo Square <br/>
+7. Who said: "It's all scientific stuff; it's been proved. <br/>
+A: Tom Buchanan <br/>
+8. Who was Dee Dee Chandler? <br/>
+A: He invented the bass drum petal. <br/>
+9. How does Gatsby describe Daisy's voice? <br/>
+A: full of money <br/>
+10. Who was driving the car that hit Myrtle? <br/>
+A: Daisy <br/>
+11. What does George Wilson say about the TJ Eckleberg advertisement? <br/>
+A: they are the eyes of God. <br/>
+12. How does Tom discover Daisy and Gatsby are having an affair? <br/> 
+A: He sees them looking at each other. <br/>
+13. What does Ben Franklin and Gatsby's copy of Hopalong Cassidy have in common? <br/>
+A: lists <br/>
+14. What does Klipspringer come back to Gatsby's mansion to get? <br/>
+A: his tennis shoes <br/>
+15. At the end of the story, what does Nick decide to do? <br/>
+A: go home to the Midwest. <br/>
+16. How does Nick refer to the Tom and Daisy? <br/> 
+A: careless <br/>
+17. Who attends Gatsby's funeral? <br/>
+A: Nick, Owl Eyes, and Gatsby's father <br/>
+
 <br/>
 ## GameBoard Questions
 **Character Question Game** <br/>
@@ -218,6 +275,8 @@ Individuals in isolation / social issues /multicultural / gender<br/>
 What were the major events? <br/>
 World War2 / Civil rights / War Korea / Vietnam/<br/>
 <br/>
+
+
 
 
 
