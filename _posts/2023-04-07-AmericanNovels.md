@@ -95,12 +95,16 @@ A: The Valley of Ashes (industrial wasteland) <br/>
 A: Eye-glasses which represent lGod/conscidence/the theme of seeing/modern media / Thomas Jefferson Disgusting (Eckle) Town (burg)<br/>
 4. Fire / Water / Air / Earth <br/>
 Fire <br/> 
-"constant flicker of men and women" (New York City) <br/>
+(New York City)<br/>
+"constant flicker of men and women" <br/>
 Air <br/>
-"on a windy evening" The only completely stationary (East Egg) <br/>
-object in the room was 
-
-
+(East Egg)<br/>
+"on a windy evening" The only completely stationary  <br/>
+object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. <br/>
+They were dressed in white and their dresses were rippling and fluttering as if they had been blown back in after a short flight along the house. <br/>
+Air <br/>
+(West Egg)<br/>
+"A sea change of faces <br/>
 
 <br/>
 ## GameBoard Questions
