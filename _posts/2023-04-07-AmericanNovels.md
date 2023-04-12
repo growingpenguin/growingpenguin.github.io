@@ -47,7 +47,7 @@ A: He is the "boarder" who always seems to be at Gatsby's house. <br/>
 A: at the age of 17. <br/>
 9. Nick tells Gatsby that "you can't repeat the past." what was Gatsby's response? <br/>
 A: "Why, of course, you can!" <br/>
-10.Describe the meeting between Gatsby and Daisy. <br/>
+10. Describe the meeting between Gatsby and Daisy. <br/>
 A: It was initially very awkward. Gatsby was like a "little boy". <br/>
 
 **Chap 7~9 Game** <br/>
