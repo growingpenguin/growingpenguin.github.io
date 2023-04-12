@@ -22,7 +22,7 @@ Under the Red, White, and Blue<br/>
 (이거는 자의식이 강한 매체이며 타깃을 반응하게 하는 행위 또는 과정이다)<br/>
 The printed word<br/>
 8.Which (shortened)list of the Major Time Periods is the correct order? <br/>
-Puritanism - Reason - Romanticism - Realism - Modernism
+Puritanism - Reason - Romanticism - Realism - Modernism <br/>
 9.Which time period was mainly about a return to Nature and finding independence and self-reliance in one's action<br/>
 Transcedentalism <br/>
 10.Theme: What major population shift occured at the turn of the 19th century, a generation before The Great Gatsby?<br/>
