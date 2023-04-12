@@ -174,7 +174,7 @@ A: *The green light*
    -Complex and often deceptive nature of the world in which the characters live.<br/>
    *Nick* <br/>
    The Greek goddess of victory, Nike <br/>
-   -The idea of victory or triumph is explicitly linked to Nick's character. For example, Nick describes himself as having a "high moral sense" and being "one of the      few honest people" he has ever known, suggesting a sense of moral superiority or triumph over the other characters in the novel.                                      25. What object did Gatsby accidently knock over and then catch before it broke "with trembling hands"? <br/>
+   -The idea of victory or triumph is explicitly linked to Nick's character. For example, Nick describes himself as having a "high moral sense" and being "one of the few honest people" he has ever known, suggesting a sense of moral superiority or triumph over the other characters in the novel. <br/>                                                                                                              25. What object did Gatsby accidently knock over and then catch before it broke "with trembling hands"? <br/>
 A: A clock representing the theme time <br/>
 26. "I'm p-parlysed with happiness" <br/>
 A: Daisy <br/>
