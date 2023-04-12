@@ -127,7 +127,7 @@ A: Tom Buchannan
 11. Votes For Women <br/>
 A: Suffragettes Women's Right to Vote 1920 <br/>
 12. Name one of many technological inventions that shaped the novel Gatsby and America, And How or Why? <br/>
-Car, Cinema, telephone <br/>
+A: Car, Cinema, telephone <br/>
 13. A person who sold alcohol illegally <br/>
 A: bootlegger <br/>
 14. No booze sold here Brooze hounds please STAY OUT <br/>
@@ -136,7 +136,7 @@ A: Prohibition <br/>
 -now considered the first generation <br/>
 -pushed barriers in economic, political, and sexual freedom <br/>
 A: Flappers <br/>
-16. How are we finally introduced to Gatsby in chapter 3?
+16. How are we finally introduced to Gatsby in chapter 3? <br/>
 A: Nick talks to him without even realizing it's Gatsby. i.e. average guy <br/>
 17. What kind of people are at Gatsby's party when Daisy and Tom visit in Chapter 6? <br/>
 A: Movie industry people <br/>
@@ -152,10 +152,41 @@ A: He sees them. <br/>
 ("You always look so cool" she repeated. She told him that she loved him and Tom Buchanan saw. His mouth dropped a little and he looked at Gatsby, and then back at Daisy as if he had just recognized her as someone he know a long time ago.) <br/>
 21. Book symbolize? <br/>
 A: Real vs. Fake <br/>
-
-
-
-
+22. Been in family for generations                                  vs.   First generation with money
+    Owns heirlooms(antique pieces from ancestors) of furniture or         Owns all/mostly new pieces of furniture or jewelry <br/>
+    jewelry
+    Does not need to show wealth by purchasing extravagant items          Feels the need to show wealth to impress others <br/>
+    Belongs to Elite Upper Class                                          Belongs to any class but the Elite Upper Class <br/>
+    Highly educated (Ivy League)                                          Not necessarily educated <br/>
+A: Old Money vs. New Money <br/>
+23. What does Nick call Tom and Daisy at the end of the book? <br/>
+A: "careless people" <br/>
+24. Any connection to Greek Mythology? <br/>
+A: *The green light* 
+   -The goddess Hera is associated with the peacock, which has green feathers that symbolize her power and authority) <br/>
+   *hubris* (excessive pride or self-confidence. Excessive pride toward defiance of the gods, leading to nemesis) <br/>
+   -Jay Gatsby, can be seen as a tragic figure who suffers from hubris. Despite his humble beginnings, Gatsby becomes obsessed with the idea of winning back his lost       love, Daisy, and he builds up a vast fortune and an extravagant lifestyle in order to impress her. <br/>
+   *Gatsby's car* ( a matter of hubris)<br/>
+   *Gatsby's mansion* <br/>
+   -In Greek mythology, the idea of the hero's quest was often linked to the search for a home, a place of refuge and safety where the hero could rest after his trials    and tribulations. Similarly, Gatsby's mansion can be seen as a representation of his quest for belonging and acceptance in society. <br/>
+   *Gatsby's garden* <br/>
+   -Complex and often deceptive nature of the world in which the characters live.<br/>
+   *Nick* <br/>
+   The Greek goddess of victory, Nike <br/>
+   -The idea of victory or triumph is explicitly linked to Nick's character. For example, Nick describes himself as having a "high moral sense" and being "one of the      few honest people" he has ever known, suggesting a sense of moral superiority or triumph over the other characters in the novel.                                      25. What object did Gatsby accidently knock over and then catch before it broke "with trembling hands"? <br/>
+A: A clock representing the theme time <br/>
+26. "I'm p-parlysed with happiness" <br/>
+A: Daisy <br/>
+27. 'Whenever you feel like critisizing anyone', he told me, 'just rememeber that all the people in this world haven't had the advantages that you've had." <br/>
+A: Nick's father <br/>
+28. "Well, it's a fine book, and everybody ought to read it. The idea is if we don't look out the white race will be - will be utterly submerged. It's all scientific stuff; it's been proved." <br/>
+A: Tom Buchanan <br/>
+29. "They're a rotten crowd. You're worth the whole damn bunch of them" <br/>
+A: Nick Caraway <br/>
+30. "And I like large parties. They're so intimate. At small parties there isn't any privacy." <br/>
+A: Jordan Baker <br/>
+31. The original working title for The Great Gatsby? <br/>
+A: Under The Red, White, and Blue (Francis Scott Key Fitzgerald)<br/>
 
 <br/>
 ## GameBoard Questions
