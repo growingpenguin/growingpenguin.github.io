@@ -98,13 +98,64 @@ Fire <br/>
 (New York City)<br/>
 "constant flicker of men and women" <br/>
 Air <br/>
-(East Egg)<br/>
+(Daisy Buchanan, Jordan Baker, and George Wilson) <br/>
+East Egg<br/>
 "on a windy evening" The only completely stationary  <br/>
 object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. <br/>
 They were dressed in white and their dresses were rippling and fluttering as if they had been blown back in after a short flight along the house. <br/>
-Air <br/>
-(West Egg)<br/>
+Water <br/>
+(Gatsby)<br/>
+West Egg<br/>
 "A sea change of faces <br/>
+Earth <br/>
+Tom Buchanan and Mrytle <br/>
+Valley of Ashes<br/>
+"waste land" "a solemn dumping ground" "a fantastic ashes grow like wheat in grotseque gardens"  <br/>
+5. Gatsby's copy of Hopalong Cassidy & Ben Franklin have in common? <br/>
+A: List: self-improvement and American sense of progress, production <br/>
+6. Your love belongs to me. At night when you're asleep Into your tent I'll creep. The starts that shine above, will light our way to love. You'll rule the land with me <br/>
+A: The sheik of Araby (Rudolph Valentino) / Wolfsheim??
+7. Tennis shoes <br/>
+A: Klipspringer, the piano player <br/>
+8. The politician? <br/>
+A: Nick Caraway <br/>
+9. Those intricate machines that register earthquakes ten thousand miles away <br/>
+A: Gatsby <br/>
+(If personality is an unbroken series of successful gestures, then there was something gorgerous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. <br/>
+10. canon <br/>
+A: Tom Buchannan
+11. Votes For Women <br/>
+A: Suffragettes Women's Right to Vote 1920 <br/>
+12. Name one of many technological inventions that shaped the novel Gatsby and America, And How or Why? <br/>
+Car, Cinema, telephone <br/>
+13. A person who sold alcohol illegally <br/>
+A: bootlegger <br/>
+14. No booze sold here Brooze hounds please STAY OUT <br/>
+A: Prohibition <br/>
+15. -energetic freedom, embracing a lifestyle viewed by many at the time as outrageous, immoral or downright dangerous <br/>
+-now considered the first generation <br/>
+-pushed barriers in economic, political, and sexual freedom <br/>
+A: Flappers <br/>
+16. How are we finally introduced to Gatsby in chapter 3?
+A: Nick talks to him without even realizing it's Gatsby. i.e. average guy <br/>
+17. What kind of people are at Gatsby's party when Daisy and Tom visit in Chapter 6? <br/>
+A: Movie industry people <br/>
+("I've never met so many celebrities" Daisy <br/>
+ "I'd rather look at al these famous people in oblivion" Tom <br/>
+ "And watching the moving-picture director and his star") <br/>
+18. Where do all the big fights/ conflicts/ moments reach their crisis point? <br/>
+A: In New York <br/>
+19. At the end of chapter 7, Gatsby stands waiting outside the Buchanan's mansion. What was happening inside while he was waiting?<br/>
+A: Tom and Daisy, talk quietly with cold fried chicken on the table then go to bed. <br/>
+20. How does Tom figure out Daisy and Gatsby were having an affair? <br/>
+A: He sees them. <br/>
+("You always look so cool" she repeated. She told him that she loved him and Tom Buchanan saw. His mouth dropped a little and he looked at Gatsby, and then back at Daisy as if he had just recognized her as someone he know a long time ago.) <br/>
+21. Book symbolize? <br/>
+A: Real vs. Fake <br/>
+
+
+
+
 
 <br/>
 ## GameBoard Questions
