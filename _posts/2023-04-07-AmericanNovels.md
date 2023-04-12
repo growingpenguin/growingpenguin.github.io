@@ -93,7 +93,7 @@ A: Daisy/Money/Envy/The American Dream <br/>
 2. Death and Wasteland <br/>
 A: The Valley of Ashes (industrial wasteland) <br/>
 3. What is the advertisement of Doctor TJ Eckleburg for? <br/>
-A: Eye-glasses which represent lGod/conscidence/the theme of seeing/modern media / Thomas Jefferson Disgusting (Eckle) Town (burg)<br/>
+A: Eye-glasses which represent God/conscidence/the theme of seeing/modern media / Thomas Jefferson Disgusting (Eckle) Town (burg)<br/>
 4. Fire / Water / Air / Earth <br/>
 Fire <br/> 
 (New York City)<br/>
@@ -154,11 +154,11 @@ A: He sees them. <br/>
 21. Book symbolize? <br/>
 A: Real vs. Fake <br/>
 22. Been in family for generations                                  vs.   First generation with money
-    Owns heirlooms(antique pieces from ancestors) of furniture or         Owns all/mostly new pieces of furniture or jewelry <br/>
+    Owns heirlooms(antique pieces from ancestors) of furniture or   /    Owns all/mostly new pieces of furniture or jewelry <br/>
     jewelry
-    Does not need to show wealth by purchasing extravagant items          Feels the need to show wealth to impress others <br/>
-    Belongs to Elite Upper Class                                          Belongs to any class but the Elite Upper Class <br/>
-    Highly educated (Ivy League)                                          Not necessarily educated <br/>
+    Does not need to show wealth by purchasing extravagant items    /     Feels the need to show wealth to impress others <br/>
+    Belongs to Elite Upper Class                                    /     Belongs to any class but the Elite Upper Class <br/>
+    Highly educated (Ivy League)                                    /     Not necessarily educated <br/>
 A: Old Money vs. New Money <br/>
 23. What does Nick call Tom and Daisy at the end of the book? <br/>
 A: "careless people" <br/>
