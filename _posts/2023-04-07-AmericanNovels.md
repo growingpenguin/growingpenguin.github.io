@@ -33,7 +33,7 @@ many people moved from the country to the city <br/>
 A: He is a gangster/racketeer and he fixed the 1919 World Series. <br/> 
 2. Fitzgerland uses the 4 Elements throughout The Great Gatsby. What element is Gatsby?<br/>
 A: Water <br/>
-3. What kind of vehicle passes them on the QueensBoro Bridge heading into New York? 
+3. What kind of vehicle passes them on the QueensBoro Bridge heading into New York? <br/>
 A: A hearse <br/>
 4. What does Nick think is happening to his house after returning to his house in New York? <br/>
 A: It was on fire <br/>
