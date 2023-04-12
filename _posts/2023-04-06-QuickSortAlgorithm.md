@@ -15,3 +15,6 @@ Standard Version<br/>
 <img src="/_images/BasicQuickSort4.png" width="500" height="700">
 
 Reference : [Basic Quick Sort](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/)<br/>
+
+**Paranoid Quick Sort**  <br/>
+Pivot X is designated as a random element between A[0] and A[n-1] <br/>
