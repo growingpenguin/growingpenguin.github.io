@@ -32,11 +32,13 @@ Sorting techniques <br/>
 Permutation Sort: <br/>
 Creates a permutation by randomly shuffling the elements. If the list is sorted,algorithm terminates. <br/>
 If not, create a new permutation, repeating the process above.  <br/>
-<img src="/_images/Permutation_Tc.jpg" width="400" height="500">
+<img src="/_images/Permutation_Tc.jpg" width="400" height="500"> <br/>
 Selection Sort: <br/>
 Repeatedly finding the minimum element of the sort and moving it to the front. <br/>
-<img src="/_images/Selection_Tc.jpg" width="400" height="500">
+<img src="/_images/Selection_Tc.jpg" width="400" height="500"> <br/>
 Insertion Sort: <br/>
+Sorts the unsorted data by inserting the unsorted data in the sorted part of the dataset. <br/>
+
 Merge Sort: <br/>
 
 Sorting <br/>
