@@ -101,8 +101,7 @@ Fire <br/>
 Air <br/>
 (Daisy Buchanan, Jordan Baker, and George Wilson) <br/>
 East Egg<br/>
-"on a windy evening" The only completely stationary  <br/>
-object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. <br/>
+"on a windy evening" The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. <br/>
 They were dressed in white and their dresses were rippling and fluttering as if they had been blown back in after a short flight along the house. <br/>
 Water <br/>
 (Gatsby)<br/>
