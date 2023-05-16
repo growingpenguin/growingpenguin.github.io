@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pure Genetics Algorithm
+title: Pure Genetics Algorithm Project
 ---
 
 # Pure Genetics Algorithm Problem # 
