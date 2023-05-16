@@ -10,9 +10,9 @@ title: Pure Genetics Algorithm
 2.1.Chromosome Expression <br/>
 Binary encoding 방식을 선택하였다. Graph를 고정적으로 2개의 subgraph로 cut하므로 하나의 subgraph는 0, 다른 subgraph는 1로 표현한다. <br/>
 2.2. GA Structure <br/>
-1. Subgraph의 수를 random하게 생성한 뒤 그 갯수 만큼의  index를 선택해 뒤에서부터 정렬해 population pool을 형성한다. Population에 대한 Cost는 노드의 가중치를 합하는 방식으로 계산된다. <br/>
-2. Roulette function을 2번 진행해 두 부모를 뽑는다. 자식은 부모의 crossover를 통해 형성한 뒤 1% 확률로 하나의 gene에 대해 mutation이 이루어진다. <br/>
-3. 자식은 하나 생성하며, 부모의 최악의 chromsome과 비교해 보다 우월하다면 그 chromosome을 대체해 새로운 generation이 생성되고 아니라면 generation이 유지된다. <br/>
+1.Subgraph의 수를 random하게 생성한 뒤 그 갯수 만큼의  index를 선택해 뒤에서부터 정렬해 population pool을 형성한다. Population에 대한 Cost는 노드의 가중치를 합하는 방식으로 계산된다. <br/>
+2.Roulette function을 2번 진행해 두 부모를 뽑는다. 자식은 부모의 crossover를 통해 형성한 뒤 1% 확률로 하나의 gene에 대해 mutation이 이루어진다. <br/>
+3.자식은 하나 생성하며, 부모의 최악의 chromsome과 비교해 보다 우월하다면 그 chromosome을 대체해 새로운 generation이 생성되고 아니라면 generation이 유지된다. <br/>
 4.제한 시간이 다 되었을 때 마지막으로 도출된 cost가 가장 높은 최선의 해를 반환한다. <br/>
 2.3. Used Operators <br/>
 * selection: Edge가 될 가능성이 있는 vertex 집합을 인접 리스트와 비교해  edge 연결여부에 따라 해당 가중치를 더하는 방식으로 cutsize를 측정. 기존의 Fitness공식에 절대값을 붙여 Roulette function을 시행하되 함수에 정렬한 fitness를 삽입해 기존의 정의 유지. <br/>
