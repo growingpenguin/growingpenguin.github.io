@@ -20,6 +20,7 @@ Binary encoding 방식을 선택하였다. Graph를 고정적으로 2개의 subg
 * mutation: Random한 mutation point를 지정해 mutation rate에 따라 1에서 빼주는 형식으로 한 bit가 flip된다.  <br/>
 * replacement: Steady-state GA사용. 최소의 cost를 갖는 chromosome이  offspring chromosome의 cost보다 더 크다면 최소의 cost의 chromosome이 있던 자리에 offspring이 들어가는 방식으로 세대 교체. <br/>
 <br/>
+
 **Step2: PureGA Pseudo Code**<br/>
 My Pure GA Pseudo Code <br/>
 
