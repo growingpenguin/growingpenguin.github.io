@@ -19,16 +19,17 @@ Binary encoding 방식을 선택하였다. Graph를 고정적으로 2개의 subg
 * crossover: Random한 crossover point에 따라 parent를 partition해 offspring에 copy하는 방식으로 부모와 같은 크기의 새로운 offspring을 형성한다. <br/>
 * mutation: Random한 mutation point를 지정해 mutation rate에 따라 1에서 빼주는 형식으로 한 bit가 flip된다.  <br/>
 * replacement: Steady-state GA사용. 최소의 cost를 갖는 chromosome이  offspring chromosome의 cost보다 더 크다면 최소의 cost의 chromosome이 있던 자리에 offspring이 들어가는 방식으로 세대 교체. <br/>
-
+<br/>
+**Step2: PureGA Pseudo Code**<br/>
 My Pure GA Pseudo Code <br/>
 
-
+**Step3: PureGA Code**<br/>
 My Pure GA Code <br/>
 
-
+**Step4: Results**<br/>
 My Results <br/>
 
-
+**Step5: Reflection**<br/>
 Discussion - Project Review <br/>
 순수 GA이다보니 빨리 값이 수렴이 안 되는 문제가 있었다. 따라서 Generation의 stopping condition 지정이 어려웠다. 시간 단축이 힘들었다. 여러 자료구조를 사용해 보았고 알고리즘에 있어서 time complexity가 중요한 만큼 직접 알고리즘을 구성하는 경험은 뜻깊었던 것 같다.<br/>
 
