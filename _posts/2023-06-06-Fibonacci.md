@@ -21,7 +21,7 @@ Skip <br/>
 <img src="/_images/Baek2747_1.png" width="800" height="450"><br/>
 
 **Step4: Implement Code** <br/> 
-<script src="https://gist.github.com/growingpenguin/e3b15bfc9e3804b656632d5c126ec377.js"></script> <br/>
+https://gist.github.com/growingpenguin/e3b15bfc9e3804b656632d5c126ec377 <br/>
 
 ## Fibonacci With Dynamic Programming
 **Step1: Problem Analysis**<br/>
