@@ -17,7 +17,8 @@ Example <br/>
 4. Pick one permutation: [1,2,3] <br/>
 => Yes, it is sorted => return [1,2,3] <br/>
 
-
+Implementation <br/>
+https://gist.github.com/growingpenguin/b5e3730e4f04b30e2d6aa60957209953
 
 **2. Selection Sort** <br/>
 
