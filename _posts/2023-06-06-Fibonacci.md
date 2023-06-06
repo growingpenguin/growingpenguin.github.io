@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Fibonacci 
+title: Fibonacci(Dynamic Programming) 
 ---
 
-# Fibonacci(Dynamic Programming) # 
+# Fibonacci # 
 [Baekjoon2747](https://www.acmicpc.net/problem/2747)
 
 ## Fibonacci Without Dynamic Programming
