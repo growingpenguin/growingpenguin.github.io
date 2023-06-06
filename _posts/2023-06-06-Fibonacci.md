@@ -28,7 +28,7 @@ https://gist.github.com/growingpenguin/fb4fbdb187f06066aac7045bcf4114ed <br/>
 1. Base case<br/>
 <br/>
 **Step2: Solve Manually**<br/>
-<img src="/_images/Baek2747_2.png" width="800" height="450"><br/>
+<img src="/_images/Baek2747_2.png" width="400" height="200"><br/>
 **Step3: Pseudo Code**<br/>
 Top Down Approach<br/>
 <img src="/_images/Baek2747_3.png" width="800" height="450"><br/>
