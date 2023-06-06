@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fibonacci(Dynamic Programming)
+title: Fibonacci 
 ---
 
 # Fibonacci(Dynamic Programming) # 
