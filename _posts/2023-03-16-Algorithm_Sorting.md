@@ -1,9 +1,24 @@
 ---
 layout: post
-title: Algorithm Recitation 2nd week
+title: Algorithm Sorting
 ---
 
 Sorting Algorithm <br/>
+**1. Permutation Sort** <br/>
+1) Find the all the permutations for the given list <br/>
+2) Pick one permutation <br/>
+3) Check whether it is sorted. If the given list is a sorted one, return the list <br/>
+
+Example <br/>
+1.[1,2,3] is given <br/>
+2.Possible Permutations: [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1] <br/>
+3.Pick one permutation: [1,3,2] <br/>
+=> No, not sorted. <br/>
+4.PIck one permutation: [1,2,3] <br/>
+=> Yes, it is sorted => return [1,2,3] <br/>
+
+
+
 **2. Selection Sort** <br/>
 
 Professor Description (Recitation2)
