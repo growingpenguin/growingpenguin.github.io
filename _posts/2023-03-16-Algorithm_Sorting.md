@@ -10,11 +10,11 @@ Sorting Algorithm <br/>
 3) Check whether it is sorted. If the given list is a sorted one, return the list <br/>
 
 Example <br/>
-1.[1,2,3] is given <br/>
-2.Possible Permutations: [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1] <br/>
-3.Pick one permutation: [1,3,2] <br/>
+1. [1,2,3] is given <br/>
+2. Possible Permutations: [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1] <br/>
+3. Pick one permutation: [1,3,2] <br/>
 => No, not sorted. <br/>
-4.PIck one permutation: [1,2,3] <br/>
+4. Pick one permutation: [1,2,3] <br/>
 => Yes, it is sorted => return [1,2,3] <br/>
 
 
