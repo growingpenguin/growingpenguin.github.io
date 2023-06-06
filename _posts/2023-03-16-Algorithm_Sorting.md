@@ -33,6 +33,10 @@ Professor code (Recitation2)
 Example <br/>
 1. 7 1 3 8 2 
 
+Implementation<br/>
+https://gist.github.com/growingpenguin/58b21a8fe8743642a724de6f55fb5b55
+<br/>
+
 **3. Insertion Sort** <br/>
 
 **4. Merge Sort**<br/>
