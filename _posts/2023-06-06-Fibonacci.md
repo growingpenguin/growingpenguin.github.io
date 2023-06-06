@@ -18,7 +18,7 @@ Solution<br/>
 **Step2: Solve Manually**<br/>
 Skip <br/>
 **Step3: Pseudo Code**<br/>
-<img src="/_images/Baek2747_1.png" width="800" height="500"><br/>
+<img src="/_images/Baek2747_1.png" width="800" height="450"><br/>
 
 **Step4: Implement Code** <br/> 
 https://gist.github.com/growingpenguin/fb4fbdb187f06066aac7045bcf4114ed <br/>
