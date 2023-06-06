@@ -9,11 +9,12 @@ guess, recursion, and memoization <br/>
 Memoization: <br/>
 When subproblems are solved, save the values in the DP table and when the same problem come out, use the value stored in the DP table without calculating the same problem again<br/>
 Process <br/>
-1. Define subproblems <br/>
-2. Guess your possible choices <br/>
-3. Ideate subproblems <br/>
-4. Apply recursion and memoization <br/>
-5. Solve the original problem <br/>
+1.Define subproblems <br/>
+2.Guess your possible choices <br/>
+3.Ideate subproblems <br/>
+4.Apply recursion and memoization <br/>
+5.Solve the original problem <br/>
+<br/>
 Concept of Dynamic Programming <br/>
 (1) Able to divide the large problem to small subproblems <br/>
 (2) Subprobs should be repeated and these subprobs should have the same results <br/>
