@@ -24,7 +24,7 @@ https://gist.github.com/growingpenguin/e3b15bfc9e3804b656632d5c126ec377 <br/>
 
 ## Fibonacci With Dynamic Programming
 **Step1: Problem Analysis**<br/>
-1. Base case<br/>
+Base case<br/>
 **Step2: Solve Manually**<br/>
 <img src="/_images/Baek2747_2.png" width="400" height="200"><br/>
 **Step3: Pseudo Code**<br/>
