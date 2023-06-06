@@ -16,10 +16,11 @@ Solution<br/>
 -Recursive & Dynamic ProgrammingX<br/>
 <br/>
 **Step2: Solve Manually**<br/>
-Skip <br/>
+Skip 
+<br/>
 **Step3: Pseudo Code**<br/>
 <img src="/_images/Baek2747_1.png" width="800" height="450"><br/>
-
+<br/>
 **Step4: Implement Code** <br/> 
 https://gist.github.com/growingpenguin/e3b15bfc9e3804b656632d5c126ec377 <br/>
 
