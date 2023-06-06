@@ -37,6 +37,6 @@ Bottom Up Approach<br/>
 
 **Step4: Implement Code** <br/> 
 Top Down Approach<br/>
-https://gist.github.com/growingpenguin/fb4fbdb187f06066aac7045bcf4114ed <br/>
+https://gist.github.com/growingpenguin/40dea7ba0ecce71354f46d11caa93951 <br/>
 Bottom Up Approach<br/>
-https://gist.github.com/growingpenguin/fa83b516b78ba4fe12b883caf9f3827b <br/>
+https://gist.github.com/growingpenguin/fbd50408b0cb6d8cf4e178b01eff95cf <br/>
