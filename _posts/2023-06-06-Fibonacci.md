@@ -8,16 +8,14 @@ title: Fibonacci(Dynamic Programming)
 
 ## Fibonacci Without Dynamic Programming
 **Step1: Problem Analysis**<br/>
-1. Base case<br/>
+Base case<br/>
 Fib(0)=0, Fib(1)=1<br/>
-2. Other cases <br/>
+Other cases <br/>
 Fibo(n) = Fibo(n-1)+Fibo(n-2) <br/>
 Solution<br/>
 -Recursive & Dynamic ProgrammingX<br/>
-<br/>
 **Step2: Solve Manually**<br/>
-Skip 
-<br/>
+Skip <br/>
 **Step3: Pseudo Code**<br/>
 <img src="/_images/Baek2747_1.png" width="800" height="450"><br/>
 <br/>
@@ -27,7 +25,6 @@ https://gist.github.com/growingpenguin/e3b15bfc9e3804b656632d5c126ec377 <br/>
 ## Fibonacci With Dynamic Programming
 **Step1: Problem Analysis**<br/>
 1. Base case<br/>
-<br/>
 **Step2: Solve Manually**<br/>
 <img src="/_images/Baek2747_2.png" width="400" height="200"><br/>
 **Step3: Pseudo Code**<br/>
