@@ -38,7 +38,9 @@ https://gist.github.com/growingpenguin/58b21a8fe8743642a724de6f55fb5b55
 <br/>
 
 **3. Insertion Sort** <br/>
-
+Implementation <br/>
+https://gist.github.com/growingpenguin/d845a69964587406e6dfa245e4e7a1b8
+<br/>
 **4. Merge Sort**<br/>
 [geekforgeeks MergeSort](https://www.geeksforgeeks.org/merge-sort/?ref=lbp)<br/>
 Example <br/>
