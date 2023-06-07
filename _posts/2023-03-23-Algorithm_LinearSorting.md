@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithm Linear Sorting
+title: Algorithm Linear Sorting1
 ---
 
 **Algorithm Linear Sorting** <br/>
