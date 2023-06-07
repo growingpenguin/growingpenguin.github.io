@@ -6,6 +6,9 @@ title: Algorithm Linear Sorting2
 **Algorithm Linear Sorting** <br/>
 
 **1. Direct Access Array Sort** <br/>
+(1)Make DAA <br/>
+(2)Store item x in index x.key <br/>
+(3)Walk down DAA and return items in order<br/>
 https://gist.github.com/growingpenguin/f2ecb10505bf9ea284edc98180035cc4
 
 **2. Tuple Sort** <br/>
