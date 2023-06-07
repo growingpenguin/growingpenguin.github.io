@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithm Recitation 3rd week
+title: Hashing
 ---
 
 **In-Place Algorithm** <br/>
