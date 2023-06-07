@@ -56,7 +56,7 @@ Example <br/>
 7. Sort <br/>
 (0, 1, 2, 3, 4, 5, 6, 8) <br/>
 
-Code<br/>
-<script src="https://gist.github.com/growingpenguin/3a8bb2b57f752199e8689c9bc4cd624b.js"></script>
 
+Implementation<br/>
+https://gist.github.com/growingpenguin/fd2880f24745c4e32663892913094da1
  
