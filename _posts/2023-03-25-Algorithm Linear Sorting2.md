@@ -3,7 +3,7 @@ layout: post
 title: Algorithm Linear Sorting2
 ---
 
-**Algorithm Linear Sorting** <br/>
+**Algorithm Linear Sorting2** <br/>
 
 **1. Direct Access Array Sort** <br/>
 (1)Make DAA <br/>
