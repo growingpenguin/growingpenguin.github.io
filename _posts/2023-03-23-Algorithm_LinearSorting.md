@@ -6,6 +6,7 @@ title: Algorithm Linear Sorting
 **Algorithm Linear Sorting** <br/>
 
 **1. Bubble Sort** <br/>
+https://gist.github.com/growingpenguin/f2ecb10505bf9ea284edc98180035cc4
 
 **2. Quick Sort** <br/>
 (1)Basic Quick Sort <br/>
