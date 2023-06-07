@@ -24,6 +24,7 @@ The complexity class EXP includes problems that can be solved in a time complexi
 P (Polynomial Time):Running time is bounded by a polynomial function of the input size. <br/>
 Ex.If the input size is represented by 'n', a polynomial time algorithm would have a running time of O(n^k) for some constant 'k'.  <br/>
 Polynomial time problems are considered efficient because the running time grows at a reasonable rate as the input size increases. <br/>
+P <- Exp <- R
 
 
 
