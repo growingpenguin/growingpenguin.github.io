@@ -22,5 +22,9 @@ Person1            Person2            Person3 <br/>
     EC2 Instance    Container    AWS Lambda <br/>
 
 Types of Load Balancer <br/>
-Application Load Balancer Network Load Balancer Classic Load Balancer<br/>
-          <br/>
+|    Application Load Balancer   |   Network Load Balancer    |   Classic Load Balancer  |
+|-----------------|----------------|--------------|
+|  Load balancing of HTPP or HTTPs requests    |  Load balancing of TCP or UDP or TLS requests   | Load balancing of HTTP, HTTPS, TCP, and SSL requests  |  
+|  Worst Case     |  Best Case     | Average Case |
+lower bound: Find it easily because it is the lowest number
+
