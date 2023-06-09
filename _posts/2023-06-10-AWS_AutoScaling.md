@@ -26,5 +26,5 @@ Types of Load Balancer <br/>
 |-----------------|----------------|--------------|
 |  Load balancing of HTPP or HTTPs requests    |  Load balancing of TCP or UDP or TLS requests   | Load balancing of HTTP, HTTPS, TCP, and SSL requests  |  
 |  Routes traffic to targets based on contentd of requests  |  Routes traffic to targets based on IP Protocol data | Load Balancing across multiple instances |
-
+|  Operates at the Application Layer(OSI Model Layer7)  |  Operates at the Transport Layer(OSI Model Layer4) | Operates at both the Application Layer and Transport Layer |
 
