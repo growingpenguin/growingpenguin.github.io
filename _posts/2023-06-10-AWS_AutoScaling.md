@@ -25,6 +25,6 @@ Types of Load Balancer <br/>
 |    Application Load Balancer   |   Network Load Balancer    |   Classic Load Balancer  |
 |-----------------|----------------|--------------|
 |  Load balancing of HTPP or HTTPs requests    |  Load balancing of TCP or UDP or TLS requests   | Load balancing of HTTP, HTTPS, TCP, and SSL requests  |  
-|  Worst Case     |  Best Case     | Average Case |
-lower bound: Find it easily because it is the lowest number
+|  Routes traffic to targets based on contentd of requests  |  Routes traffic to targets based on IP Protocol data | Load Balancing across multiple instances |
+
 
