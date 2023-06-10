@@ -4,7 +4,7 @@ title: AWS Sagemaker
 ---
 
 # AWS Sagemaker #
-ML Pipleine <br/>
+**ML Pipleine** <br/>
 Section1: <br/>
 Problem Formulation <br/>
 : Formulate problem according to the business problem <br/>
@@ -62,4 +62,28 @@ Reduce the number of customers who end their membership because of fraud <br/>
 Can you measure it? <br/>
 Move from qualative statements to quantative statements that can be measured. <br/>
 10% reductions in fraud claims in retail <br/>
-
+**Collecting and securing data** <br/>
+What data do you need? <br/>
+How much data do you have, and where is it? <br/>
+Do you have access to that data? <br/>
+What solution can you use to bring all of this data into one centralized repository? <br/>
+Data sources <br/>
+Private data: <br/>
+Data that customers create <br/>
+Commercial data: <br/>
+AWS Data Exchange, AWS Marketplace, and other external providers <br/>
+Open-source data: <br/>
+Data that is publicly available (check for limits on usage) <br/>
+Kaggle, World Health Organization, US Census Bureau, National Oceanic and Atmospheric Administration (US), UC Irvine Machind Learning Repository <br/>
+<br/>
+Observations <br/>
+ML also need a lot of data(feature/target data) - observations - where the target answer or prediction is already known <br/>
+Get a domain expert <br/>
+Storing data in AWS <br/>
+S3 is mostly used. Used a lot as Big data analysis, Deep Learning model repository. Due to its High data IO speed, security, and stability. <br/>
+Extract, transform, load(ETL) <br/>
+Original data in data stores ( Datas can be in different formats and places) -> Bring the data -> Catalog the data -> Write the Transform Script that reverts the data source -> Write the schedule script that implements the tranform script => Data transform script is implemented -> Data source is reverted -> Data is stored again as store the refined data final table data set.<br/>
+ETL with AWS Glue <br/>
+-Service to do ETL <br/>
+-Simplifies the complicated ETL service process <br/>
+-Glue: Implements the ETL
