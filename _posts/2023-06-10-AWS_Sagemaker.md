@@ -61,5 +61,5 @@ Why? <br/>
 Reduce the number of customers who end their membership because of fraud <br/>
 Can you measure it? <br/>
 Move from qualative statements to quantative statements that can be measured. <br/>
-
+10% reductions in fraud claims in retail <br/>
 
