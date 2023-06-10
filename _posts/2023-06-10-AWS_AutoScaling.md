@@ -44,7 +44,33 @@ Elastic Load Balancing Use cases<br/>
 
 ## 2.Amazon CloudWatch <br/>
 Why cloudwatch is needed? <br/>
+To use AWS efficiently, you need insight in your AWS applications. <br/>
 -How do you know when to launch more Amazon EC2 instances? <br/>
--Is your application's performance and availability being effected by a lack of sufficient capacity <br/>
--How much of your infrastructure is used? 
+-Is your application's performance or availability being effected by a lack of sufficient capacity? <br/>
+-How much of your infrastructure is actually being used? 
+
+Amazon CloudWatch Functions <br/>
+-**Monitors** <br/>
+AWS Resources <br/>
+-Applications that run on AWS
+-**Collects and Tracks** <br/>
+Standard Metrics <br/>
+Custom Metrics <br/>
+-**Alarms** <br/>
+Send Notifications to an Amazon SNS topic <br/>
+Performance on Amazon EC2 Auto Scaling or Amazon EC2 instances <br/>
+-**Events** <br/>
+Define rules to match changes in AWS environment and route these events to one or more target functions or streams for processing <br/>
+
+
+## 3.Amazon EC2 Auto Scaling  
+Why is scaling important <br/>
+If setting the capacity based on when having the most traffic, it generates unusedcapacity, leading to waste of EC2 resources. <br/> 
+When setting capacity on average traffic income, it generates over capacity <br/>
+Amazon EC2 Auto Scaling <br/>
+-Helps you maintain application availability <br/>
+-Enables you to automatically add or remove EC2 instances according to conditions that you conditions that you define <br/>
+-Detects impaired EC2 instances and unhealthy applications, and replace instances without your intervention <br/>
+-Provide several scaling options - manual, scheduled, dynamic, or on-Demand, and predictive <br/>
+
 
