@@ -42,4 +42,9 @@ Elastic Load Balancing Use cases<br/>
 -Hybrid Environments <br/>
 -Invoke functions over HTTP <br/>
 
+## 2.Amazon CloudWatch <br/>
+Why cloudwatch is needed? <br/>
+-How do you know when to launch more Amazon EC2 instances? <br/>
+-Is your application's performance and availability being effected by a lack of sufficient capacity <br/>
+-How much of your infrastructure is used? 
 
