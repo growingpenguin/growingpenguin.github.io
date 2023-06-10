@@ -28,3 +28,18 @@ Types of Load Balancer <br/>
 |  Routes traffic to targets based on contentd of requests  |  Routes traffic to targets based on IP Protocol data | Load Balancing across multiple instances |
 |  Operates at the Application Layer(OSI Model Layer7)  |  Operates at the Transport Layer(OSI Model Layer4) | Operates at both the Application Layer and Transport Layer |
 
+How Elastic Balancing Works <br/>
+-Application Load Balancer and Network Load Balancer: <br/>
+Register targets to target groups and routes the traffic to target groups <br/>
+-Classic Load Balancer: <br/>
+Register instances with load balancer <br/>
+
+Elastic Load Balancing Use cases<br/>
+-High availability and fault-tolerant applications<br/>
+-Containerized Applications <br/>
+-Elasticity and scalability <br/>
+-Virtual Private Cloud <br/>
+-Hybrid Environments <br/>
+-Invoke functions over HTTP <br/>
+
+
