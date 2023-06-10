@@ -13,7 +13,7 @@ Collect and Label Data <br/>
 :Collect data according to the problem and if needed label the data <br/>
 Section3: <br/>
 Evaluate Data <br/>
-EDA (Explorative Data analysis)
+EDA (Explorative Data analysis)<br/>
 Section4: <br/>
 Feature Engineering <br/>
 Section5: <br/>
@@ -29,7 +29,7 @@ Tune model <br/>
 Change the model network structure. Revert the parameter of the model <br/>
 Additional process <br/>
 Section4 -> Section5 -> Section7 -> Section8 circulates<br/>
-: If the model is tuned, feature enginerring, training, evaluating the model process should be repeated. <br/>
+: If the model is tuned, feature engineering, training, evaluating the model process should be repeated. <br/>
 If the model meets the business goal, the model is deployed <br/>
 If the model doesn't meet the goal, augmentation process can be needed <br/>
 =? Augmentation <br/>
