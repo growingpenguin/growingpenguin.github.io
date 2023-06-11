@@ -99,17 +99,23 @@ Amazon RDS encryption <br/>
 **AWS CloudTrail for Audit** <br/>
 AWS cloudtrail track user activity or application programming interface(API) usage <br/>
 What kind of access was made in the past by whom by what role <br/>
-## Evaluate your Data ## 
+<br/>
+## Section3: Evaluate Data  ## 
 -Format Data <br/>
 -Examine Data types <br/>
 -Perform descriptive statistics <br/>
 -Visualize data <br/>
 <br/>
-**You must understand your data** <br/>
+**You must understand your data(Format Data, Examine Datatypes)** <br/>
 Ensure that it's the right data format for your analysis <br/>
 -Whether this is a table, whether the attribute that is supposed to contain float is a string <br/>
-**Loading data into pandas** <br/>
+<br/>
+**-Perform descriptive statistics <br/>** <br/>
+Load python Dataframe <br/>
 Reformats data into tabular representation  <br/>
 Converts common data formats CSV, Json, Excel, Pickle and others <br/>
-**Data analysis** <br/>
 <br/>
+Data Analysis using pandas <br/>
+Dataframe schema, Descriptive statistics(Overall statistics, Multivariate Statistics, Attribute Statistics <br/>
+<br/>
+## Section4: Feature Engineering ## 
