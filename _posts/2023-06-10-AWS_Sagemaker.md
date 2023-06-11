@@ -62,6 +62,7 @@ Reduce the number of customers who end their membership because of fraud <br/>
 Can you measure it? <br/>
 Move from qualative statements to quantative statements that can be measured. <br/>
 10% reductions in fraud claims in retail <br/>
+## Collect and label Data ##
 **Collecting and securing data** <br/>
 What data do you need? <br/>
 How much data do you have, and where is it? <br/>
@@ -81,9 +82,34 @@ ML also need a lot of data(feature/target data) - observations - where the targe
 Get a domain expert <br/>
 Storing data in AWS <br/>
 S3 is mostly used. Used a lot as Big data analysis, Deep Learning model repository. Due to its High data IO speed, security, and stability. <br/>
-Extract, transform, load(ETL) <br/>
+<br/>
+**Extract, transform, load(ETL)** <br/>
 Original data in data stores ( Datas can be in different formats and places) -> Bring the data -> Catalog the data -> Write the Transform Script that reverts the data source -> Write the schedule script that implements the tranform script => Data transform script is implemented -> Data source is reverted -> Data is stored again as store the refined data final table data set.<br/>
 ETL with AWS Glue <br/>
 -Service to do ETL <br/>
 -Simplifies the complicated ETL service process <br/>
--Glue: Implements the ETL
+-Runs the ETL process <br/>
+-ML functionality <br/>
+-Crawls data sources to create catalogs that other systems can query <br/>
+-Bring Datasources, revert the data, emit single endpoint <br/>
+<br/>
+**Data Encryption** <br/>
+Amazon S3 encryption <br/>
+Amazon RDS encryption <br/> 
+**AWS CloudTrail for Audit** <br/>
+AWS cloudtrail track user activity or application programming interface(API) usage <br/>
+What kind of access was made in the past by whom by what role <br/>
+## Evaluate your Data ## 
+-Format Data <br/>
+-Examine Data types <br/>
+-Perform descriptive statistics <br/>
+-Visualize data <br/>
+<br/>
+**You must understand your data** <br/>
+Ensure that it's the right data format for your analysis <br/>
+-Whether this is a table, whether the attribute that is supposed to contain float is a string <br/>
+**Loading data into pandas** <br/>
+Reformats data into tabular representation  <br/>
+Converts common data formats CSV, Json, Excel, Pickle and others <br/>
+**Data analysis** <br/>
+<br/>
