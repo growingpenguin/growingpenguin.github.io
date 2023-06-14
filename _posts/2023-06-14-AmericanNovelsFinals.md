@@ -121,3 +121,33 @@ A: Simply put my fingers in both years and refuse to listen <br/>
 
 ## Those who walk away from Omelas <br/>
 [Those who walk away from Omelas](https://www.sparknotes.com/short-stories/why-i-live-at-the-po/summary)
+1. In what season does the story takes place? <br/>
+A: Summer <br/>
+2. Omelas is located nearby what natural feature? <br/>
+A: By the sea <br/>
+3. What words does she use to describe the paradise of Omelas? <br/>
+A: sweetness of the air from time to time trembled and gathered together and broke out into the great joyous clangings of the bells <br/>
+4. Given the description of Omelas says the narrator, what would one expect to see?  <br/>
+A: King, mounted on a splendid stallion and surrounded by his noble knights, or perhaps in golden litter born by great-muscled slaves <br/>
+5. What do we not find in Omelas? <br/>
+A: Swords, slaves, monarchy, stock exchange, advertisements, secret police or the nuclear bomb, no cars or helicopters <br/>
+6. What do most people associate happiness with? <br/>
+A: stupidity <br/>
+7. What were the people of Omelas like? <br/>
+A: mature, intelligent, passionate adults <br/>
+8. What did the people in Omelas think about technology? <br/>
+A: Or they could have none of that: it doesn't matter. As you like it. <br/>
+9. What is dooz? <br/>
+A: A non-addictive drug that causes visions and enhances sensations <br/>
+10. What is in the basement <br/>
+A: In the room, a child is sitting. It could be a boy or girl. It looks about six but is actually is nearly ten. It is feeble-minded. <br/>
+11. What is the child afraid of ? <br/>
+A: It is afraid of the mops <br/>
+12. Do the people of Omelas know about the child <br/>
+A:Yes <br/>
+13. At what age do the children learn about the child? <br/>
+A: Betweem eight and twelve <br/>
+14. What are the terms scripts and absolutes ? <br/>
+A: There may not even be a kind word spoken to the child. <br/>
+14. Do the ones who leave Omalos know where they are going?<br/>
+A: But they seem to know where they are going.  <br/>
