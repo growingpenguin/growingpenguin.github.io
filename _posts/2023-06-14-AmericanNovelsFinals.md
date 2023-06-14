@@ -86,46 +86,31 @@ A: careless <br/>
 17. Who attends Gatsby's funeral? <br/>
 A: Nick, Owl Eyes, and Gatsby's father <br/>
 
-## Final Questions <br/>
-**Symbols**
-1. He believes in green light <br/>
-A: Daisy/Money/Envy/The American Dream <br/>
-2. Death and Wasteland <br/>
-A: The Valley of Ashes (industrial wasteland) <br/>
-3. What is the advertisement of Doctor TJ Eckleburg for? <br/>
-A: Eye-glasses which represent God/conscidence/the theme of seeing/modern media / Thomas Jefferson Disgusting (Eckle) Town (burg)<br/>
-4. Fire / Water / Air / Earth <br/>
-Fire <br/> 
-(New York City)<br/>
-"constant flicker of men and women" <br/>
-Air <br/>
-(Daisy Buchanan, Jordan Baker, and George Wilson) <br/>
-East Egg<br/>
-"on a windy evening" The only completely stationary object in the room was an enormous couch on which two young women were buoyed up as though upon an anchored balloon. <br/>
-They were dressed in white and their dresses were rippling and fluttering as if they had been blown back in after a short flight along the house. <br/>
-Water <br/>
-(Gatsby)<br/>
-West Egg<br/>
-"A sea change of faces <br/>
-Earth <br/>
-Tom Buchanan and Mrytle <br/>
-Valley of Ashes<br/>
-"waste land" "a solemn dumping ground" "a fantastic ashes grow like wheat in grotseque gardens"  <br/>
-5. Gatsby's copy of Hopalong Cassidy & Ben Franklin have in common? <br/>
-A: List: self-improvement and American sense of progress, production <br/>
-6. Your love belongs to me. At night when you're asleep Into your tent I'll creep. The starts that shine above, will light our way to love. You'll rule the land with me <br/>
-A: The sheik of Araby (Rudolph Valentino) / Wolfsheim??
-7. Tennis shoes <br/>
-A: Klipspringer, the piano player <br/>
-8. The politician? <br/>
-A: Nick Caraway <br/>
-9. Those intricate machines that register earthquakes ten thousand miles away <br/>
-A: Gatsby <br/>
+## Why I Live at the P.O <br/>
+[Why I Live at the P.O Summary](https://www.sparknotes.com/short-stories/why-i-live-at-the-po/summary/)
+1. Why does Stella-Rondo come to live at home again? <br/>
+A: Stella-Rondo just seperated from her husband and came back home again <br/>
+2. In the first paragraph, Sister tells us that Stella-Rondo stole something from her; What was it? <br/>
+A: Mr.Whitaker <br/>
+3. Stella-Rondo said that Sister is "one-sided." Sister takes that to mean a physical defect, but what else can "one-sided" mean? <br/>
+A: Not open minded/ Stubborn<br/>
+4. What does Stella-Rondo bring with her when she comes from Illinois? <br/>
+A: Shirley T <br/> 
+5. What does Sister imply when she says "H'm!" and that she is the "spit-image of Papa-Daddy" when Stella-Rondo insists that Shirley-T. is adopted? <br/>
+A: Shirley shares the same DNA as their family/biological child <br/>
+6. How does Uncle Rondo become poisoned? <br/>
+A: "get out of my way, I'm poisoned" addicted to prescription drugs <br/>
+7. What holiday is it? <br/>
+A: 4th of July <br/>
+8. Why is Stella-Rondo upset with Uncle Rondo? <br/>
+A: He's wearing the pink kimono, Mr. Whitaker has taken pictures of her wearing <br/>
+9. What are the first words Siter and Mama hear Shirley-T.says? <br/>
+A: "OE'm Pop-OE the Sailor-r-r-r-Ma-a-a-an <br/>
 (If personality is an unbroken series of successful gestures, then there was something gorgerous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. <br/>
-10. canon <br/>
-A: Tom Buchannan
-11. Votes For Women <br/>
-A: Suffragettes Women's Right to Vote 1920 <br/>
+10. What was the "horrible" thing Stella-Rondo once done to Uncle Rondo to make him to take back the radio he had given her and gave it to Sister again <br/>
+A: broke a chain letter from Flander Fields_ and he took the radio back he had given her and gave it to me <br/>
+11. What things does Sister take from the house as she prepares to leave? <br/>
+A: A trunk full of clothes, a featherbed, ironing board, sewing machine, a lamp, a pitcher and washbow, a small radio, A photograph of Mr.Whitaker <br/>
 12. Name one of many technological inventions that shaped the novel Gatsby and America, And How or Why? <br/>
 A: Car, Cinema, telephone <br/>
 13. A person who sold alcohol illegally <br/>
