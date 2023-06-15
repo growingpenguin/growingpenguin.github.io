@@ -185,6 +185,7 @@ A:  But let me ask if you are in any way religious<br/>
 A: A shopping bag with onion skins in the bottom of the bag. I emptied the bag and shook it.<br/>
 
 ## Lottery Guided Questions <br/>
+[Lottery Summary](https://www.sparknotes.com/short-stories/the-lottery/summary/)
 1.	What type of tone does the title and beginning of story set?
 A: It sets a tone of ambiguity and intrigue. The term "lottery" typically connotes luck, chance, or a prize, which may lead readers to anticipate a positive or exciting event. However, the title alone does not reveal the true nature of the lottery in the story.<br/>
 2. Where does the story take place? In what way does the setting affect the story?  <br/>
