@@ -186,24 +186,27 @@ A: A shopping bag with onion skins in the bottom of the bag. I emptied the bag a
 
 ## Lottery Guided Questions <br/>
 1.	What type of tone does the title and beginning of story set?
-A: <br/>
+A: It sets a tone of ambiguity and intrigue. The term "lottery" typically connotes luck, chance, or a prize, which may lead readers to anticipate a positive or exciting event. However, the title alone does not reveal the true nature of the lottery in the story.<br/>
 2. Where does the story take place? In what way does the setting affect the story?  <br/>
-A: <br/>
+A: It takes place in a small, unnamed village in rural America. <br/>
 3. What are the boys doing in the square at the beginning of the story?? <br/>
-A:  <br/>
+A:  The boys in the square are gathering stones. The text describes them as "piling up stones in one corner of the square" and making "a great pile of stones in one corner of the square."<br/>
 4. What time of year is the story set? <br/>
-A: <br/>
+A: It is set during the summer season. The story mentions specific details that indicate it takes place in late June, shortly before the summer solstice. The narrator mentions "the fresh warmth of a full-summer day" and describes the flowers and plants in bloom, as well as the grass being described as "richly green." These details suggest a vibrant and lively atmosphere that is characteristic of summer. <br/>
 5. Who draws for the household? <br/>
-A: <br/>
+A: The head of each household draws for their respective family.<br/>
 6. Who was late for the gathering? <br/>
-A: <br/>
+A: Tessie Hutchinson is the character who arrives late for the gathering where the lottery is held.<br/>
 7. Who was exempt from the lottery?  <br/>
-A: 
+A: The only individuals who are exempt from the lottery are the young children who have not yet reached the age of being able to draw slips of paper. <br/>
 8. Name three pieces of paraphernalia used for the lottery?  <br/>
-A: 
-9. What is Old Man Warner's reason for keeping the lottery?  <br/>
-A: <br/>
+A: The Black Box, The Slips of Paper, and The Three-Legged Stool <br/>
+he Black Box: Worn and shabby container used to hold the slips of paper for the lottery drawing.<br/>
+The Slips of Paper: Small, folded slips of paper are used for the lottery drawing. Each slip of paper is blank, except for one slip that is marked with a black dot.  <br/>
+The Three-Legged Stool: During the drawing of the slips, a three-legged stool is brought forward for the selected individual to sit on while they draw their slip of paper.   <br/>
+9. What is Old Man Warner's reason for keeping the lottery? <br/>
+A: Old Man Warner believes that the lottery is a long-standing tradition that has been carried out in the community for countless years. He believes that it is necessary to preserve this tradition because it has always been done that way. <br/>
 10. At the end of the story, what does Mrs. Hutchinson scream? <br/>
-A: <br/>
+A: At the end of the story, Mrs. Hutchinson screams, "It isn't fair, it isn't right." This outburst occurs when her family is selected during the final drawing of the lottery, and she realizes that she has become the chosen victim.<br/>
 11. What similarities can you find with Le Quin’s short story “Those who Left Omelas”? <br/>
-A: <br/>
+A: Both stories explore the concept of sacrificing the well-being or happiness of a few individuals for the supposed benefit of the larger community.<br/>
