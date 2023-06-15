@@ -151,3 +151,59 @@ A: Betweem eight and twelve <br/>
 A: There may not even be a kind word spoken to the child. <br/>
 14. Do the ones who leave Omalos know where they are going?<br/>
 A: But they seem to know where they are going.  <br/>
+
+## Cathedral Guided Questions <br/>
+[Cathedral](https://www.sparknotes.com/short-stories/cathedral/summary/)
+1. Where does the story take place? <br/>
+A: In Conneticut <br/>
+2. Where does the narrator's idea of blindness come from? <br/>
+A: The movies <br/>
+3. How did his wife know the blind man? <br/>
+A: Part time job/reading <br/>
+4. How did they communicate with each other? <br/>
+A: Audio Cassette <br/>
+5. What did his wife try to write a poem about the last day at the office? <br/>
+A: he touched his fingers to every part of her face <br/>
+6. Why is Robot sleeping at the narrator's house? <br/>
+A: To visit his wife <br/>
+7. Who is Beulah? <br/>
+A: The Blind man's deceased wife <br/>
+8. How does the narrator describe the marriage of Beulah and Robert? <br/>
+A: Pathetic because he could not see her <br/>
+9. What physical feature was "too much" to the narrator? <br/>
+A: The blind man had a beard <br/>
+10. What joke does the narrator make at the dinner prayer? <br/> 
+A: "Pray the phone won't ring and the food doesn't get cold,"I said. <br/>
+11. What did the blind man look like? <br/>
+A: Late forties, a heavy-set, balding man with stooped shoulder as if he carried a great weight there. He wore brown slacks, brown shoes, a light-brown
+shirt, a tie, a sports coat. Spiffy. He also had this full-beard<br/>
+12. What nickname does Robot give to the narrator?  <br/>
+A: bub <br/>
+13. What question does the blind man ask the narrator? <br/>
+A:  But let me ask if you are in any way religious<br/>
+14. What does he use to draw the picture on?<br/>
+A: A shopping bag with onion skins in the bottom of the bag. I emptied the bag and shook it.<br/>
+
+## Lottery Guided Questions <br/>
+1.	What type of tone does the title and beginning of story set?
+A: <br/>
+2. Where does the story take place? In what way does the setting affect the story?  <br/>
+A: <br/>
+3. What are the boys doing in the square at the beginning of the story?? <br/>
+A:  <br/>
+4. What time of year is the story set? <br/>
+A: <br/>
+5. Who draws for the household? <br/>
+A: <br/>
+6. Who was late for the gathering? <br/>
+A: <br/>
+7. Who was exempt from the lottery?  <br/>
+A: 
+8. Name three pieces of paraphernalia used for the lottery?  <br/>
+A: 
+9. What is Old Man Warner's reason for keeping the lottery?  <br/>
+A: <br/>
+10. At the end of the story, what does Mrs. Hutchinson scream? <br/>
+A: <br/>
+11. What similarities can you find with Le Quin’s short story “Those who Left Omelas”? <br/>
+A: <br/>
