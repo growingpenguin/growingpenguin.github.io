@@ -4,6 +4,44 @@ title:  "American Novels"
 ---
 
 # American Novels
+## Final Jeopardy <br/>
+**Cathedral**
+1.What is the cultural context of this story? <br/>
+A: Poor lower class uneducated 1970-80's the generation after the Summer of Love Generation<br/>
+2.What evidence does Raymond Carver give to suggest the narrator is a complete jerk?<br/>
+A: Cigarettes:The narrator smokes throughout the story, which can be seen as a negative habit or a symbol of his apathy or detachment. <br/>
+   Creepy:The narrator initially perceives Robert's presence as creepy due to his blindness, showing a shallow and judgmental attitude.<br/>
+   Beulah:The narrator makes derogatory comments about his wife's deceased first husband, mocking his name and suggesting a lack of respect or empathy towards his wife's past.<br/>
+   Beird:The narrator expresses discomfort and disapproval of Robert's beard, indicating his tendency to judge and dislike people based on their appearance<br/>
+   Sexism:See it.Name it.Stop it.:The narrator's casual sexism and objectification of women. He makes inappropriate comments about women's bodies and expresses a lack of understanding and 
+   empathy towards his wife's experiences<br/>
+   Bowling: The narrator's attitude towards his wife's interest in bowling is dismissive and condescending. He shows little enthusiasm or support for her hobby, considering it unimportant 
+   and beneath him. This reflects his self-centeredness and a lack of appreciation for his wife's passions and activities.<br/>
+3.Who wrote poems about what?<br/>
+A:The narrator's wife wrote poems about moments that made an expression on her, In particular the blind man touching her face<br/>
+This all relates to the main impressive transformational moment when the narrator and Robert dreaw a Cathedral with their hands together <br/>
+4.What nickname did the blind man call the narrator and what's the significance?<br/>
+A:Lil Bub <br/>
+Robert's use of the nickname "Bub" emphasizes the difference in their ages. Robert, in his late forties, is probably 10 or more years older than the narrator. Calling the narrator "Bub" suggests the kind of casual familiarity Robert might have for a favorite nephew or other young person under his charge. The narrator's comment about being called Bub indicates surprise, but not indignation, as might have been expected based on his previous complaints about the blind man's visit. This benign reaction from the narrator may indicate that his initial impressions of Robert are favorable and are beginning to help him overcome his reservations about his wife's friend.   <br/>
+5.What's odd about the blind man's household appliances?<br/>
+A:I have two TVs. I have a color set and black-and-white thing, an old relic. But if I turn the TV on, and I am turning it on, I turn on the color set.<br/>
+**Surprise!Surprise!**<br/>
+6.What are their names? Who are they a parody of?<br/>
+A: The Itchy & Scratchy Show. Tom & Jerry <br/>
+7.What decade?<br/>
+A: The 60's the year that changed America <br/> 
+1960s fashion was all about creativity and self-expression that started bending gender norms. The mod fashion movement in London and the ever so popular band, The Beatles, gave way for colorful menswear, fringe jackets, miniskirts, and the hippie style. Along with the eye-catching prints and patterns, white and silver were becoming more popular with newly developed ‘futuristic’ fibers. 1960s fashion was bi-polar in just about every way. Bright, swirling colors. Psychedelic, tie-dye shirts and long hair and beards. Woman wore unbelievably short skirts and men wore tunics and capes. The foray into fantasy would not have been believed by people just a decade earlier. Political developments also had its influence, as hippy movements, rebelling against the Vietnam war, gained popularity as a look, and political figure Jacqueline Kennedy also became a huge fashion icon for the 60’s onwards.  Jackie Kennedy’s biggest influence can be seen in the 1960s Hat Pattern of the pillbox hat. <br/>
+8.What is it? And where can we eat it? <br/>
+A: Corn Bread! In the South<br/>
+9.Which of the 27 amendments protect these rights? <br/>
+A:The first Amendment <br/>
+10.In the short story "Lottery" what is the name of the unfortunate woman chosen as the victim of the ritual? How does it relate to American history?<br/>
+A: Mrs.Hutchinson. The name of Jackson's victim links her to Anne Hutchinson, whose anti-patriarchal beliefs, found to be heretical by the Puritan hierarchy, resulted in her banishment from Massachusetts in 1638. While Tessi Hutchinson is no spiritual rebel, to be sure, Jackson's allusion to Anne Hutchinson reinforces her suggestions of a rebellion lurking within the women of her imaginary village. Anne Hutchinson was basically "thrown out" of Puritan society because she went against the teaching of the church by holding her own meeting in the home.  <br/>
+11.10-15% Women's Movement The end of Slavery? <br/>
+Tipping 10-15% <br/>
+<br/>
+
+
 ## Kahoot <br/>
 **Chap 1 to 3 Game** <br/>
 1.What time period was a reaction against Reason and return to nature? <br/>
