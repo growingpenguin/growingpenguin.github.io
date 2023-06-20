@@ -40,7 +40,15 @@ A: Mrs.Hutchinson. The name of Jackson's victim links her to Anne Hutchinson, wh
 11.10-15% Women's Movement The end of Slavery? <br/>
 Tipping 10-15% <br/>
 <br/>
-
+**Cathedral** <br/>
+12.What's the cultural context of this story? <br/>
+1960's Post WW2 Baby Boomers Hippies / Rock n Roll Free love Counter Culture Communal Living  <br/>
+13.Where is the story set? <br/>
+A: An imaginary Utopian Place:<br/>
+With clamor of bells that set the swallows soaring, the Festival of Summer came to the city of Omelas, bright towered by the sea. San Francisco <br/>
+14.What's the weather like there and what was Le Quin suggesting? <br/>
+A: It states that the festival of summer has begun in Omelas. While the specific details about the weather are not extensively described, the mention of summer suggests a warm and pleasant climate in the city during the time of the festival.<br/>
+15.How does LeQuin describe the people of Omelas? <br/>
 
 ## Kahoot <br/>
 **Chap 1 to 3 Game** <br/>
