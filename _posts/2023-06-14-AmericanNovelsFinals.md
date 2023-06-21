@@ -85,6 +85,11 @@ A:Sister(Why I live at P.O.)<br/>
 A:Narrator(The ones Who Walk Away From Omelas by Ursula.K.Le Guin)<br/>
 30."They are afraid of __ because they are afraid of freedom. <br/> <br/>
 They are afraid of dragons, because they are afraid of freedom. Le Quin is referring to the freedom of imagination, the ability to believe in things you know not to be real or relational. Le Quin believes that you should trust our imaginations and the eyes of our children and see other possibilities<br/>
+31. Final Jeopardy <br/>
+2XDNA + onomatopoeia X corn= <br/> 
+A:PopPop<br/>
+
+
 ## Kahoot <br/>
 **Chap 1 to 3 Game** <br/>
 1.What time period was a reaction against Reason and return to nature? <br/>
