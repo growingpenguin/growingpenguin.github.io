@@ -5,7 +5,7 @@ title:  "American Novels"
 
 # American Novels
 ## Final Jeopardy <br/>
-**Cathedral**
+**Cathedral**<br/>
 1.What is the cultural context of this story? <br/>
 A: Poor lower class uneducated 1970-80's the generation after the Summer of Love Generation<br/>
 2.What evidence does Raymond Carver give to suggest the narrator is a complete jerk?<br/>
@@ -49,7 +49,42 @@ With clamor of bells that set the swallows soaring, the Festival of Summer came 
 14.What's the weather like there and what was Le Quin suggesting? <br/>
 A: It states that the festival of summer has begun in Omelas. While the specific details about the weather are not extensively described, the mention of summer suggests a warm and pleasant climate in the city during the time of the festival.<br/>
 15.How does LeQuin describe the people of Omelas? <br/>
-
+They were not simple folk, you see, though they were happy. But we do not say the words of cheer much anymore. But there was no king. They do not use swords or keep slaves. They were not Barbarians. They were not goody-goody. They were not naive and happy children-though their children were, in fact, happy. They were mature, intelligent, passionate adults<br/>
+16.What was the abused child in the basement most afraid of? <br/>
+Two mops with clotted, foul-smelling heads that stand near a rusty bucket in the corner of the room. The child finds the mops horrible and shuts its eyes, but it knows they are still there and is afraid of them.<br/>
+**Why I live at the P.O.** <br/>
+17.What is the cultural context of the story? <br/>
+A:1940's Southern Small Town 4th of July.<br/>
+18.How does this relate to the story and to American South? <br/>
+A:Sister refused to communicate with her family.The South is often considered to be sore loser and just as obstinate, implacable, stubborn<br/>
+19.What and/or who threatened the isolated Southern small town world of China Grove? <br/>
+A:Technology from the North invading the South <br/>
+20.What did Stella Rondo steal from Sister? <br/>
+A:Mr.Whitaker, the photographer <br/>
+21.Name at least 3 items Sister took or tried to take with her when she left to live the P.O. <br/>
+A:The fan, a pillow, charm bracelet, flowers(4 o'clocks), the radio, the sewing machine, ukele, thermometer, watermelon rind preserves, jars of fruits and vegetables, the tacks on the wall <br/>
+**Mom,The Flag, and ApplePie** <br/>
+22.It winds from Chicago to L.A. <br/>
+A:The Mason-Dixon Line <br/>
+23.A brutal honesty which often reveals the darker motives hidden beneath the surface of the society 
+characters who are delusional, damaged, irrational, and odd. decay and death<br/>
+A:Southern Gothic <br/>
+24.What's beside the Statue of Liberty? <br/>
+A:West Coast Statue of Responsibility<br/>
+25.Where did the present day divisions in America's "Culture wars" begin? <br/>
+A:The '60s The years that changed America<br/>
+**Quotes** <br/>
+26.My eyes were still closed. I was in my house. I knew that. But I didn't feel like I was inside anything. "It's really something,"I said.<br/>
+A:Narrator(Cathedral by Raymond Carver)<br/>
+27."If we grow up without cartoons, we will have no sense of humor and would be like robots"<br/>
+A:Lisa<br/>
+And Bart says "Cool what kind of robots?"<br/>
+28."But here I am and here I'll stay. I want the world to know I am happy"<br/>
+A:Sister(Why I live at P.O.)<br/>
+29."I cannot describe it at all. It is possible that it does not exist. But they seem to know where they are going"<br/>
+A:Narrator(The ones Who Walk Away From Omelas by Ursula.K.Le Guin)<br/>
+30."They are afraid of __ because they are afraid of freedom. <br/> <br/>
+They are afraid of dragons, because they are afraid of freedom. Le Quin is referring to the freedom of imagination, the ability to believe in things you know not to be real or relational. Le Quin believes that you should trust our imaginations and the eyes of our children and see other possibilities<br/>
 ## Kahoot <br/>
 **Chap 1 to 3 Game** <br/>
 1.What time period was a reaction against Reason and return to nature? <br/>
