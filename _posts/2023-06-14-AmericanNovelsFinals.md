@@ -116,7 +116,7 @@ A:the sister in Why I Live at the PO <br/>
 5."You are not alone!"<br/>
 A:The Oprah Show<br/>
 6.Lottery in June, corn be heavy soon.<br/>
-A:Old Man Warner<br/>
+A:Old Man Warner, Mr.Summers<br/>
 7."Do you believe it? Do you accept the festival, the city, the joy? No? Then let me describe you one more thing."<br/>
 A:The Narrator in "The ones who walk away from Omelas"<br/>
 8.I was in my house. I knew that. But I didn't feel like I was inside anything.'It's really something,'I said. <br/>
