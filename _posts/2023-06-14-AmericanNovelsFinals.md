@@ -73,26 +73,31 @@ A:The fan, a pillow, charm bracelet, flowers(4 o'clocks), the radio, the sewing 
 **22.It winds from Chicago to L.A.** <br/>
 <img src="/_images/MomFlag100.png" width="400" height="300"><br/>
 A:Route66 <br/>
-23.A brutal honesty which often reveals the darker motives hidden beneath the surface of the society 
-characters who are delusional, damaged, irrational, and odd. decay and death<br/>
+**23. ** <br/>
+<img src="/_images/Surprise200.png" width="400" height="300"><br/>
+A:The Mason-Dixon Line
+**24.A brutal honesty which often reveals the darker motives hidden beneath the surface of the society characters who are delusional, damaged, irrational, and odd. decay and death**<br/>
 A:Southern Gothic <br/>
-24.What's beside the Statue of Liberty? <br/>
+**25.What's beside the Statue of Liberty?** <br/>
 A:West Coast Statue of Responsibility<br/>
-25.Where did the present day divisions in America's "Culture wars" begin? <br/>
+**26.Where did the present day divisions in America's "Culture wars" begin?** <br/>
 A:The '60s The years that changed America<br/>
+**27.(Bonus)What war are the 1960’s often compared to:The American Revolution, The Civil War, World War 1?** <br/>
+A:Civil War<br/>
+
 **Quotes** <br/>
-26.My eyes were still closed. I was in my house. I knew that. But I didn't feel like I was inside anything. "It's really something,"I said.<br/>
+27.My eyes were still closed. I was in my house. I knew that. But I didn't feel like I was inside anything. "It's really something,"I said.<br/>
 A:Narrator(Cathedral by Raymond Carver)<br/>
-27."If we grow up without cartoons, we will have no sense of humor and would be like robots"<br/>
+28."If we grow up without cartoons, we will have no sense of humor and would be like robots"<br/>
 A:Lisa<br/>
 And Bart says "Cool what kind of robots?"<br/>
-28."But here I am and here I'll stay. I want the world to know I am happy"<br/>
+29."But here I am and here I'll stay. I want the world to know I am happy"<br/>
 A:Sister(Why I live at P.O.)<br/>
-29."I cannot describe it at all. It is possible that it does not exist. But they seem to know where they are going"<br/>
+30."I cannot describe it at all. It is possible that it does not exist. But they seem to know where they are going"<br/>
 A:Narrator(The ones Who Walk Away From Omelas by Ursula.K.Le Guin)<br/>
-30."They are afraid of __ because they are afraid of freedom. <br/> 
+31."They are afraid of __ because they are afraid of freedom. <br/> 
 They are afraid of dragons, because they are afraid of freedom. Le Quin is referring to the freedom of imagination, the ability to believe in things you know not to be real or relational. Le Quin believes that you should trust our imaginations and the eyes of our children and see other possibilities<br/>
-31. Final Jeopardy <br/>
+32. Final Jeopardy <br/>
 2XDNA + onomatopoeia X corn= <br/> 
 A:PopPop<br/>
 
