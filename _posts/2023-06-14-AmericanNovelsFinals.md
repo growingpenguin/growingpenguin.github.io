@@ -83,94 +83,68 @@ And Bart says "Cool what kind of robots?"<br/>
 A:Sister(Why I live at P.O.)<br/>
 29."I cannot describe it at all. It is possible that it does not exist. But they seem to know where they are going"<br/>
 A:Narrator(The ones Who Walk Away From Omelas by Ursula.K.Le Guin)<br/>
-30."They are afraid of __ because they are afraid of freedom. <br/> <br/>
+30."They are afraid of __ because they are afraid of freedom. <br/> 
 They are afraid of dragons, because they are afraid of freedom. Le Quin is referring to the freedom of imagination, the ability to believe in things you know not to be real or relational. Le Quin believes that you should trust our imaginations and the eyes of our children and see other possibilities<br/>
 31. Final Jeopardy <br/>
 2XDNA + onomatopoeia X corn= <br/> 
 A:PopPop<br/>
 
-
-## Kahoot <br/>
-**Chap 1 to 3 Game** <br/>
-1.What time period was a reaction against Reason and return to nature? <br/>
-Romanticism(1800 to 1850)<br/>
-2.Every citizen should have an equal opportunity to achieve success and prosperity through hard work and determination.<br/>
-The American Dream <br/>
-3.The freedom to go anywhere and become anyone has profoundly shaped the American psyche.<br/>
-The Road<br/>
-4.The theme about a young person's transition from being a child to beeing an adult is called. <br/>
-Coming of age <br/>
-5.When the written material was mainly Sermons, Diaries and personal histories.<br/>
-Colonial/Puritan Period 1600-1800<br/>
-6.What was Scott Fitzgerland's original "working title" before he changed it to The Great Gatsby?<br/>
-Under the Red, White, and Blue<br/>
-7.Theme: this is a very self-conscious medium and call to action/progress(e.g. making "To Do" lists)<br/>
-(이거는 자의식이 강한 매체이며 타깃을 반응하게 하는 행위 또는 과정이다)<br/>
-The printed word<br/>
-8.Which (shortened)list of the Major Time Periods is the correct order? <br/>
-Puritanism - Reason - Romanticism - Realism - Modernism <br/>
-9.Which time period was mainly about a return to Nature and finding independence and self-reliance in one's action<br/>
-Transcedentalism <br/>
-10.Theme: What major population shift occured at the turn of the 19th century, a generation before The Great Gatsby?<br/>
-many people moved from the country to the city <br/>
+## Final Kahoot <br/>
+**Last Class** <br/>
+1.What kind of warped and twisted mind would find that funny? <br/>
+A:Marge Simpson<br/>
+2.I'm Popeye the Sailorman!<br/>
+A:the daughter in Why I live at the P.O. <br/>
+3.It's like staring at yourself in the mirror<br/>
+A:Samantha Futerman<br/>
+4.You got a lot of nerve and I'll thank you to make no future reference to my adopted child whatsoever <br/>
+A:the sister in Why I Live at the PO <br/>
+5."You are not alone!"<br/>
+A:The Oprah Show<br/>
+6.Lottery in June, corn be heavy soon.<br/>
+A:Old Man Warner<br/>
+7."Do you believe it? Do you accept the festival, the city, the joy? No? Then let me describe you one more thing."<br/>
+A:The Narrator in "The ones who walk away from Omelas"<br/>
+8.I was in my house. I knew that. But I didn't feel like I was inside anything.'It's really something,'I said. <br/>
+A:The Narrator in "Cathedral" <br/>
+9."But here I am, and here I'll stay.I want the world to know I am happy."<br/>
+A:The narrator in "Why I live at P.O."<br/>
+10."My idea of blindness came from the movies. In the movies, the blind moved slowly and never laughed."<br/>
+A:The Narrator in "Cathedral" <br/>
+11."Now let us pray, Pray the phone won't ring and the food doesn't get cold"<br/>
+A:The Narrator in "Cathedral" <br/>
+12."In 2012, an Alabama judge sentenced someone to jail for wearing sagging pants"<br/>
+A:Richard Thompson Tedtalks <br/>
+13."Can that child talk?"I simply had to whisper!I wonder if that child can be-you know-in that anyway?<br/>
+A:The Narrator in "Why I live at PO" <br/>
+14."They are afraid of dragons because they are afraid of freedom."<br/>
+A:Ursula K. Le Quin <br/>
 <br/>
-**Chap 4~6 Game**<br/>
-1. Who is Mr.Wolfsheim? <br/>
-A: He is a gangster/racketeer and he fixed the 1919 World Series. <br/> 
-2. Fitzgerland uses the 4 Elements throughout The Great Gatsby. What element is Gatsby?<br/>
-A: Water <br/>
-3. What kind of vehicle passes them on the QueensBoro Bridge heading into New York? <br/>
-A: A hearse <br/>
-4. What does Nick think is happening to his house after returning to his house in New York? <br/>
-A: It was on fire <br/>
-5. What did Gatsby almost knock over when he met Daisy? <br/>
-A: a clock <br/>
-6. Who said "I was brought up in America but I was educated at Oxford. <br/>
-A: Gatsby <br/>
-7. Who is Klipspringer? <br/>
-A: He is the "boarder" who always seems to be at Gatsby's house. <br/>
-8. When does Jamer Gatz change his name to Gatsby? <br/>
-A: at the age of 17. <br/>
-9. Nick tells Gatsby that "you can't repeat the past." what was Gatsby's response? <br/>
-A: "Why, of course, you can!" <br/>
-10. Describe the meeting between Gatsby and Daisy. <br/>
-A: It was initially very awkward. Gatsby was like a "little boy". <br/>
 
-**Chap 7~9 Game** <br/>
-1. Tom and Mrytle are represented by which of the 4 elements? <br/>
-A: Earth <br/>
-2. What did Nick "clean" away from the steps of Gatsby's deserted Mansion? <br/>
-A: A dirty obscene word <br/>
-3. The instruments used to create American rhythm were used by the marching bands of the Southern pro-slavery states. <br/>
+**Additional Materials** <br/>
+1. The hoodie is considered a timeless object and a "humble masterpiece" <br/>
 A: True <br/>
-4. At first, Nick didn't believe Gatsby had been to Oxford or Europe. What changed his mind? <br/>
-A: He saw a photograph. <br/>
-5. I drift here and there trying to forget the sad things that happened to me. <br/>
-A: Gatsby <br/>
-6. What is the name of the public park in New Orleans where all American music began? <br/>
-A: Congo Square <br/>
-7. Who said: "It's all scientific stuff; it's been proved. <br/>
-A: Tom Buchanan <br/>
-8. Who was Dee Dee Chandler? <br/>
-A: He invented the bass drum petal. <br/>
-9. How does Gatsby describe Daisy's voice? <br/>
-A: full of money <br/>
-10. Who was driving the car that hit Myrtle? <br/>
-A: Daisy <br/>
-11. What does George Wilson say about the TJ Eckleberg advertisement? <br/>
-A: they are the eyes of God. <br/>
-12. How does Tom discover Daisy and Gatsby are having an affair? <br/> 
-A: He sees them looking at each other. <br/>
-13. What does Ben Franklin and Gatsby's copy of Hopalong Cassidy have in common? <br/>
-A: lists <br/>
-14. What does Klipspringer come back to Gatsby's mansion to get? <br/>
-A: his tennis shoes <br/>
-15. At the end of the story, what does Nick decide to do? <br/>
-A: go home to the Midwest. <br/>
-16. How does Nick refer to the Tom and Daisy? <br/> 
-A: careless <br/>
-17. Who attends Gatsby's funeral? <br/>
-A: Nick, Owl Eyes, and Gatsby's father <br/>
+2. The earliest hoodies can be traced back to ancient Greece and ancient Rome <br/>
+A: True <br/>
+3. The hoodie is associated with dark imagery, such as grim reaper and the executioner <br/>
+A: True <br/>
+4. Monks in the Middle Ages were hooded garments similar to hoodies <br/>
+A: True <br/>
+5. Women in the 17th century used hoodies to hide themselves when meeting their lovers <br/>
+A: True <br/>
+6. The modern incarnation of the hoodie was introduced by KnickerBocker Knitting company in the 1930s. <br/>
+A: True <br/>
+7. The hoodie became popular among workmen and athletes due to its functionality and comfort <br/>
+A: True <br/>
+8. In the 1980s, the hoodie became associated with young street culture, including hip-hop and skateboarding. <br/>
+A: True <br/>
+9. Mark Zuckerberg defies conventional business attire by wearing hoodies <br/>
+A: True <br/>
+10. The hoodie has little significance beyond its physical aspects and practicality <br/>
+A: False <br/>
+11. The hoodie has gained symbolic significance such as during the Million Hoodie Marches in the United States following Trayvon Martin's shooting.<br/>
+A: True <br/>
+<br/>
 
 ## Why I Live at the P.O <br/>
 [Why I Live at the P.O Summary](https://www.sparknotes.com/short-stories/why-i-live-at-the-po/summary/)
