@@ -74,7 +74,7 @@ A:The fan, a pillow, charm bracelet, flowers(4 o'clocks), the radio, the sewing 
 <img src="/_images/MomFlag100.png" width="400" height="300"><br/>
 A:Route66 <br/>
 **23.** <br/>
-<img src="/_images/Surprise200.png" width="400" height="300"><br/>
+<img src="/_images/MomFlag200.png" width="400" height="300"><br/>
 A:The Mason-Dixon Line
 **24.A brutal honesty which often reveals the darker motives hidden beneath the surface of the society characters who are delusional, damaged, irrational, and odd. decay and death**<br/>
 A:Southern Gothic <br/>
