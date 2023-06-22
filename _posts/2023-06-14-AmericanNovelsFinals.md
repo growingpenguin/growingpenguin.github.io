@@ -46,31 +46,32 @@ A: Mrs.Hutchinson. The name of Jackson's victim links her to Anne Hutchinson, wh
 11.10-15% Women's Movement The end of Slavery? <br/>
 Tipping 10-15% <br/>
 <br/>
-**Cathedral** <br/>
-12.What's the cultural context of this story? <br/>
+### OMELAS by Ursula K Le Quin
+**12.What's the cultural context of this story?** <br/>
 1960's Post WW2 Baby Boomers Hippies / Rock n Roll Free love Counter Culture Communal Living  <br/>
-13.Where is the story set? <br/>
+**13.Where is the story set?** <br/>
 A: An imaginary Utopian Place:<br/>
 With clamor of bells that set the swallows soaring, the Festival of Summer came to the city of Omelas, bright towered by the sea. San Francisco <br/>
-14.What's the weather like there and what was Le Quin suggesting? <br/>
+**14.What's the weather like there and what was Le Quin suggesting?** <br/>
 A: It states that the festival of summer has begun in Omelas. While the specific details about the weather are not extensively described, the mention of summer suggests a warm and pleasant climate in the city during the time of the festival.<br/>
-15.How does LeQuin describe the people of Omelas? <br/>
+**15.How does LeQuin describe the people of Omelas?** <br/>
 They were not simple folk, you see, though they were happy. But we do not say the words of cheer much anymore. But there was no king. They do not use swords or keep slaves. They were not Barbarians. They were not goody-goody. They were not naive and happy children-though their children were, in fact, happy. They were mature, intelligent, passionate adults<br/>
-16.What was the abused child in the basement most afraid of? <br/>
+**16.What was the abused child in the basement most afraid of?** <br/>
 Two mops with clotted, foul-smelling heads that stand near a rusty bucket in the corner of the room. The child finds the mops horrible and shuts its eyes, but it knows they are still there and is afraid of them.<br/>
-**Why I live at the P.O.** <br/>
-17.What is the cultural context of the story? <br/>
+### WHY I LIVE AT THE P.O by Eudora Welty <br/>
+**17.What is the cultural context of the story?** <br/>
 A:1940's Southern Small Town 4th of July.<br/>
-18.How does this relate to the story and to American South? <br/>
+**18.How does this relate to the story and to American South?** <br/>
 A:Sister refused to communicate with her family.The South is often considered to be sore loser and just as obstinate, implacable, stubborn<br/>
-19.What and/or who threatened the isolated Southern small town world of China Grove? <br/>
+**19.What and/or who threatened the isolated Southern small town world of China Grove?** <br/>
 A:Technology from the North invading the South <br/>
-20.What did Stella Rondo steal from Sister? <br/>
+**20.What did Stella Rondo steal from Sister?** <br/>
 A:Mr.Whitaker, the photographer <br/>
-21.Name at least 3 items Sister took or tried to take with her when she left to live the P.O. <br/>
+**21.Name at least 3 items Sister took or tried to take with her when she left to live the P.O.** <br/>
 A:The fan, a pillow, charm bracelet, flowers(4 o'clocks), the radio, the sewing machine, ukele, thermometer, watermelon rind preserves, jars of fruits and vegetables, the tacks on the wall <br/>
-**Mom,The Flag, and ApplePie** <br/>
-22.It winds from Chicago to L.A. <br/>
+### MOM, THE FLAG, and APPLE PIE
+**22.It winds from Chicago to L.A.** <br/>
+
 A:The Mason-Dixon Line <br/>
 23.A brutal honesty which often reveals the darker motives hidden beneath the surface of the society 
 characters who are delusional, damaged, irrational, and odd. decay and death<br/>
