@@ -5,7 +5,7 @@ title:  "American Novels"
 
 # American Novels
 ## Final Jeopardy <br/>
-### Cathedral<br/>
+### CATHEDRAL BY RAYMOND CARVER
 **1.What is the cultural context of this story?** <br/>
 A: Poor lower class uneducated 1970-80's the generation after the Summer of Love Generation<br/>
 **2.What evidence does Raymond Carver give to suggest the narrator is a complete jerk?**<br/>
