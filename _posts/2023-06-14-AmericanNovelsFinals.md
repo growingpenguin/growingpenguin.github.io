@@ -9,7 +9,7 @@ title:  "American Novels"
 1.What is the cultural context of this story? <br/>
 A: Poor lower class uneducated 1970-80's the generation after the Summer of Love Generation<br/>
 2.What evidence does Raymond Carver give to suggest the narrator is a complete jerk?<br/>
-<img src="/_images/Cathedral.png" width="400" height="500">
+<img src="/_images/Cathedral200.png" width="400" height="500"><br/>
 A: Cigarettes:The narrator smokes throughout the story, which can be seen as a negative habit or a symbol of his apathy or detachment. <br/>
    Creepy:The narrator initially perceives Robert's presence as creepy due to his blindness, showing a shallow and judgmental attitude.<br/>
    Beulah:The narrator makes derogatory comments about his wife's deceased first husband, mocking his name and suggesting a lack of respect or empathy towards his wife's past.<br/>
