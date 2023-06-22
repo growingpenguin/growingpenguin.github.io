@@ -35,6 +35,7 @@ A: The Itchy & Scratchy Show. Tom & Jerry <br/>
 A: The 60's the year that changed America <br/> 
 1960s fashion was all about creativity and self-expression that started bending gender norms. The mod fashion movement in London and the ever so popular band, The Beatles, gave way for colorful menswear, fringe jackets, miniskirts, and the hippie style. Along with the eye-catching prints and patterns, white and silver were becoming more popular with newly developed ‘futuristic’ fibers. 1960s fashion was bi-polar in just about every way. Bright, swirling colors. Psychedelic, tie-dye shirts and long hair and beards. Woman wore unbelievably short skirts and men wore tunics and capes. The foray into fantasy would not have been believed by people just a decade earlier. Political developments also had its influence, as hippy movements, rebelling against the Vietnam war, gained popularity as a look, and political figure Jacqueline Kennedy also became a huge fashion icon for the 60’s onwards.  Jackie Kennedy’s biggest influence can be seen in the 1960s Hat Pattern of the pillbox hat. <br/>
 8.What is it? And where can we eat it? <br/>
+<img src="/_images/Surprise300.png" width="400" height="300"><br/>
 A: Corn Bread! In the South<br/>
 9.Which of the 27 amendments protect these rights? <br/>
 A:The first Amendment <br/>
