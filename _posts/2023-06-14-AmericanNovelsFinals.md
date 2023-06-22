@@ -71,8 +71,8 @@ A:Mr.Whitaker, the photographer <br/>
 A:The fan, a pillow, charm bracelet, flowers(4 o'clocks), the radio, the sewing machine, ukele, thermometer, watermelon rind preserves, jars of fruits and vegetables, the tacks on the wall <br/>
 ### MOM, THE FLAG, and APPLE PIE
 **22.It winds from Chicago to L.A.** <br/>
-
-A:The Mason-Dixon Line <br/>
+<img src="/_images/MomFlag100.png" width="400" height="300"><br/>
+A:Route66 <br/>
 23.A brutal honesty which often reveals the darker motives hidden beneath the surface of the society 
 characters who are delusional, damaged, irrational, and odd. decay and death<br/>
 A:Southern Gothic <br/>
