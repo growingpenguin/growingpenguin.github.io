@@ -28,6 +28,7 @@ Robert's use of the nickname "Bub" emphasizes the difference in their ages. Robe
 A:I have two TVs. I have a color set and black-and-white thing, an old relic. But if I turn the TV on, and I am turning it on, I turn on the color set.<br/>
 ### Surprise!Surprise!<br/>
 **6.What are their names? Who are they a parody of?**<br/>
+<img src="/_images/Surprise100.png" width="400" height="300"><br/>
 A: The Itchy & Scratchy Show. Tom & Jerry <br/>
 **7.What decade?**<br/>
 A: The 60's the year that changed America <br/> 
