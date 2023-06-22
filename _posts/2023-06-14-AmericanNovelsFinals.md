@@ -38,6 +38,7 @@ A: The 60's the year that changed America <br/>
 <img src="/_images/Surprise300.png" width="400" height="300"><br/>
 A: Corn Bread! In the South<br/>
 9.Which of the 27 amendments protect these rights? <br/>
+<img src="/_images/Surprise400.png" width="400" height="300"><br/>
 A:The first Amendment <br/>
 10.In the short story "Lottery" what is the name of the unfortunate woman chosen as the victim of the ritual? How does it relate to American history?<br/>
 A: Mrs.Hutchinson. The name of Jackson's victim links her to Anne Hutchinson, whose anti-patriarchal beliefs, found to be heretical by the Puritan hierarchy, resulted in her banishment from Massachusetts in 1638. While Tessi Hutchinson is no spiritual rebel, to be sure, Jackson's allusion to Anne Hutchinson reinforces her suggestions of a rebellion lurking within the women of her imaginary village. Anne Hutchinson was basically "thrown out" of Puritan society because she went against the teaching of the church by holding her own meeting in the home.  <br/>
