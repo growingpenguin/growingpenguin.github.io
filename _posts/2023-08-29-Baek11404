@@ -1,0 +1,27 @@
+---
+layout: post
+title: Baekjoon11404
+---
+
+# 가장 빠른 버스 노선 구하기(Floyd Warshall Algorithm) #
+[Baekjoon11404](https://www.acmicpc.net/problem/11404)
+
+**Step1: Problem Analysis**<br/>
+1. 인접 리스트에 노드 데이터 저장. <br/>
+2. 출발 노드를 priority queue에 넣음 <br/>
+3. target node 방문 전이라면 target node shortest distance와 current node shortest distance + weight 비교해서 후자가 작으면 target node shortest distance update  <br/>
+4. target node priority queue에 넣음 <br/>
+5. priority queue 빌 때까지 3~4 과정 반복 
+  
+Solution<br/>
+-Floyd Warshall Algorithm<br/>
+<br/>
+
+**Step2: Solve Manually**<br/>
+<img src="/_images/Baek1753_2.jpg" width="400" height="400">
+
+**Step3: Pseudo Code**<br/>
+<img src="/_images/Baek1753_1.png" width="450" height="600">
+<br/>
+**Step4: Implement Code** <br/> 
+https://gist.github.com/growingpenguin/16e42bf05ac2a9888222dd5b15554a47
