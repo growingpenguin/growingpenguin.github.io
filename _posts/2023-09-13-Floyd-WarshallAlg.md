@@ -26,8 +26,8 @@ D[S][E] = w <br/>
 Update the matrix values repeating the nested loop <br/>
 Floyd-Warshall algorithm logic <br/>
 for stopover node k (1 ~ N): <br/>
-for starting node S (1 ~ N): <br/>
-for destination node E (1 ~ N): <br/>
+  for starting node S (1 ~ N): <br/>
+    for destination node E (1 ~ N): <br/>
 D[S][E] = min(D[S][E], D[S][K] + D[K][E])
       
 Floyd-Warshall algorithm identifies the shortest distance between all nodes, so has a slow time complexity of O(V^3) 
