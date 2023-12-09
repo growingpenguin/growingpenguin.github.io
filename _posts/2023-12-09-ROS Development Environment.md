@@ -13,4 +13,4 @@ ROS 2 Foxy Fitzroy Installation: Use Debian Package <br/>
 Make sure whether having a locale supporting UTF-8. Having a minimal environment(ex.POSIX) can cause problems.<br/>
 ![locale Installation1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94a7d43e-54f0-4750-a6fc-09b11b922051) <br/>
 Install locale <br/>
-We test with the following settings (Different UTF-8 supported locale is also fine)<br/>
+Test with the following settings (Different UTF-8 supported locale is also fine)<br/>
