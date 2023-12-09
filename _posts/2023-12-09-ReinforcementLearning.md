@@ -2,6 +2,39 @@
 layout: post
 title:  "Reinforcement Learning"
 ---
+# Week11
+TD(0) <br/>
+Original 1-step TD algorithm, which updates the state-value function based on the immediate reward and the estimated value of the next state.
+**n-step TD** <br/>
+Incorporates additional information from the future compared to the standard 1-step TD. It uses the return obtained over n steps, instead of the immediate reward, to update the state-value function.
+**TD(Lambda)** <br/>
+Lambda reward는 모든 n-step까지의 가중평균된 보상. <br/>
+-람다의 총합이 1이 되도록 하기 위해서 (1 - 람다) 계수로 노멀라이즈를 하여 0부터 1까지의 값을 갖도록 한다.<br/> 
+-Higher the value of λ, the slower the decay, leading to a stronger emphasis on long-term rewards. Conversely, a lower λ places more weight on the immediate reward, similar to 1-step TD.<br/> 
+-람다는 n step이 커질수록 보상에 대한 값을 감소시키게 작용한다<br/>
+-Benefits <br/>
+Stabilizes learning: By diminishing the impact of distant rewards, the decaying function helps to stabilize the learning process and avoid overemphasizing long-term goals over immediate gains.<br/>
+Reduces variance: The decay helps to smooth out the noise associated with individual rewards, leading to more consistent and reliable value estimates. <br/>
+Adaptive behavior: The ability to control the decay rate (λ) allows the algorithm to adapt its behavior to different tasks. For short-term tasks, a lower λ is preferred, while long-term tasks benefit from a higher λ
+<br/>
+**TD-Gammon** <br/>
+Combination of the TD(λ) algorithm and nonlinear function approximation using a multilayer artificial neural network trained by backpropagating TD errors <br/>
+<br/>
+**Q-Learning with VFA** <br/>
+-Minimize MSE loss by stochastic gradient descent <br/>
+-Converges to the optimal Q(s, a) using table lookup representation <br/>
+-Q-learning with VFA can diverge: Correlations between samples, Non-stationary targets <br/>
+**Deep Q-learning DQN)** <br/>
+Tries to solve this issues by Experience replay and Fixed Q-targets <br/>
+Experience replay <br/>
+Stores past experiences in a replay buffer and samples them randomly for training. This reduces correlations between samples and improves  generalization. <br/>
+Fixed Q-targets <br/>
+Fix the target weights used in the target calculation for multiple updates. This will help to improve stability <br/>
+Uses a separate Q-network to generate target Q-values. This network updates its parameters periodically, making the target values less prone to rapid changes. <br/>
+**Double Q-learning** <br/>
+It utilizes two Q-networks to estimate the Q-values and combines them to form a more robust target for updating both networks.<br/>
+Overall, double Q-learning is a valuable technique for mitigating overestimation issues in Q-learning and improving the overall performance of reinforcement learning algorithms. <br/>
+그래서 2개의 estimator를 이용해서 랜덤 하게 각자를 업데이트하는 방식으로 진행할 때 2개의 차이를 이용해서 최대한 잡음을 빼버리고 업데이트하는 전략을 취하는 것 같습니다.<br/>
 
 # Week 12
 Prioritized Experience Replay <br/>
@@ -71,3 +104,6 @@ In certain situations, LRPs can present a computationally efficient alternative 
 
 
 
+Reference: <br/>
+https://ropiens.tistory.com/86
+https://daeson.tistory.com/334 [대소니:티스토리]
