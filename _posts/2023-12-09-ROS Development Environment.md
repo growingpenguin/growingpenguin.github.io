@@ -23,4 +23,6 @@ Verify Settings<br/>
 Ensure Ubuntu Universe repository is enabled <br/>
 ![SetupSources2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/15ffa660-2b58-4a78-88b6-b3913eaeb1b2)
 ![Setup Sources3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c975dd5d-12e7-4045-86a9-11d6d132bc52)
-Add ROS Gpt key with dept <br/>
+Add repository to sources list <br/>
+![Setup Sources3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5f51639c-8b4a-4903-b915-366ffd6bf940)
+
