@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f1dafa8c-51c3-49c8-adb2-d7b233d22a30)---
+---
 layout: post
 title:  "1. Build ROS Environment"
 ---
