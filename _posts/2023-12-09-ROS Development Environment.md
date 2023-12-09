@@ -10,4 +10,5 @@ Ubuntu 20.04 LTS [6]를 사용해도 ROS 2 사용에는 문제없다고 해서 �
 ## 2. Install Robot OS
 ROS 2 Foxy Fitzroy Installation <br/>
 Use Debian Package <br/>
+![locale](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b7179963-cf29-420e-9b28-190eb8b38f82)
 
