@@ -26,4 +26,7 @@ Install curl package with '-y' flag, uses curl package to download the ROS key f
 Key is used for verifying the authenticity of ROS packages during the installation <br/>
 ![Setup Sources3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5f51639c-8b4a-4903-b915-366ffd6bf940)
 Add repository to sources list <br/>
+### Install Ros2 Packages 
 
+Update apt repository caches after setting up repositories <br/>
+Ensure system is up to date before installing new packages <br/>
