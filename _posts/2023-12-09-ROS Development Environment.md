@@ -28,7 +28,9 @@ Key is used for verifying the authenticity of ROS packages during the installati
 Add repository to sources list <br/>
 ### Install Ros2 Packages 
 ![Ros2 Packages Installation1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0ad90f65-a038-45fb-bed4-9c0b45eefb23) <br/>
+Update apt repository caches after setting up the repositories. <br/>
 ![ROS2 Packages Installation2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7d8ef6dc-9864-46b7-a2ef-1dc03a43dfe6) <br/>
+ROS 2 packages are built on frequently updated Ubuntu systems. It is always recommended that you ensure your system is up to date before installing new packages. <br/>
 ![ROS2 Packages Installation3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70bb89cd-de34-447a-a504-453c35835723) <br/>
 
 Update apt repository caches after setting up repositories <br/>
