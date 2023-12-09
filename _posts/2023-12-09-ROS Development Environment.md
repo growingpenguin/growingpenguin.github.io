@@ -19,4 +19,5 @@ Test with the following settings (Different UTF-8 supported locale is also fine)
 Verify Settings<br/>
 ### Set up Sources 
 <br/>
+![setup sources1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bd7ebf7b-101e-4a8c-990a-1f9a82d24d3b)
 Ensure Ubuntu Universe repository is enabled <br/>
