@@ -14,3 +14,5 @@ Make sure whether having a locale supporting UTF-8. Having a minimal environment
 ![locale Installation1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94a7d43e-54f0-4750-a6fc-09b11b922051) <br/>
 Update Locale on the system setting them to use 'US.UTF-8' Locale for encoding => consistent language and encoding settings <br/>
 Test with the following settings (Different UTF-8 supported locale is also fine)<br/>
+![locale installation2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/82f7e2ca-7971-402e-b219-978ae8571b5b) <br/>
+Verify Settings<br/>
