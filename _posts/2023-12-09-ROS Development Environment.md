@@ -18,7 +18,6 @@ Test with the following settings (Different UTF-8 supported locale is also fine)
 ![locale installation2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/82f7e2ca-7971-402e-b219-978ae8571b5b) <br/>
 Verify Settings<br/>
 ### Set up Sources 
-<br/>
 ![setup sources1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bd7ebf7b-101e-4a8c-990a-1f9a82d24d3b)
 Ensure Ubuntu Universe repository is enabled <br/>
 ![SetupSources2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/15ffa660-2b58-4a78-88b6-b3913eaeb1b2)  <br/>
