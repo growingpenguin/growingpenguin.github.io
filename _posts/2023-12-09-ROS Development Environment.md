@@ -12,3 +12,5 @@ ROS 2 Foxy Fitzroy Installation <br/>
 Use Debian Package <br/>
 ![locale](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b7179963-cf29-420e-9b28-190eb8b38f82)
 -Check whether UTF-8 exits <br/>
+![locale Installation1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94a7d43e-54f0-4750-a6fc-09b11b922051)
+-Install locale
