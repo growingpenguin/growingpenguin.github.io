@@ -46,9 +46,9 @@ Set up your environment by sourcing the following file.<br/>
 ![ROS2 Packages Installation8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a7699b95-a257-4f1f-892c-6332cec1f74a) <br/>
 Verify both the C++ and Python APIs are working properly <br/>
 Terminal1: Source the setup file and then run a C++ talker <br/>
+Talker : Saying that it’s Publishing messages <br/>
 ![ROS2 Packages Installation9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9321bda2-32b3-4564-801e-7ec467cad214) <br/>
 Terminal2: Source the setup file and then run a Python listener <br/>
-Talker : Saying that it’s Publishing messages <br/>
 Listener : Saying I heard those messages. <br/>
 
 
