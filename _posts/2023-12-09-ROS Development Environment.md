@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/30f5088a-5ac5-4613-a82b-f8820b75ebb7)---
+---
 layout: post
 title:  "1. Build ROS Environment"
 ---
@@ -46,6 +46,11 @@ Set up your environment by sourcing the following file.<br/>
 ![ROS2 Packages Installation8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a7699b95-a257-4f1f-892c-6332cec1f74a) <br/>
 Verify both the C++ and Python APIs are working properly <br/>
 Terminal1: Source the setup file and then run a C++ talker <br/>
+
+
+Reference: <br/>
+https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
+https://cafe.naver.com/openrt/25288 <br/>
 ![ROS2 Packages Installation9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9321bda2-32b3-4564-801e-7ec467cad214) <br/>
 Terminal2: Source the setup file and then run a Python listener <br/>
 Talker : Saying that it’s Publishing messages <br/>
