@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/30f5088a-5ac5-4613-a82b-f8820b75ebb7)---
 layout: post
 title:  "1. Build ROS Environment"
 ---
@@ -37,11 +37,9 @@ Desktop Install: ROS, RViz, demos, tutorials <br/>
 ROS-Base Install (Bare Bones): Communication libraries, message packages, command line tools. No GUI tools.
 ![ROS2 Packages Installation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70bb89cd-de34-447a-a504-453c35835723) <br/>
 Development tools: Compilers and other tools to build ROS packages <br/>
-하기의 소프트웨어는 ROS 2를 이용한 로봇 프로그래밍에 필수인 소프트웨어 모음 설치<br/>
 
 
 
-[출처] 001 ROS 2 개발 환경 구축 (오픈소스 소프트웨어 & 하드웨어: 로봇 기술 공유 카페 (오로카)) | 작성자 표윤석
 ### Environment Setup
 
 Set up your environment by sourcing the following file.<br/>
