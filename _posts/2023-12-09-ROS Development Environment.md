@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bcf6f409-0a7e-48ad-887e-f861e67c2683)---
 layout: post
 title:  "1. Build ROS Environment"
 ---
@@ -52,6 +52,7 @@ Terminal2: Source the setup file and then run a Python listener <br/>
 Listener : Saying I heard those messages. <br/>
 
 ### Development Tool installation
+
 
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
