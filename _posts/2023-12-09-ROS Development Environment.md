@@ -28,10 +28,14 @@ Key is used for verifying the authenticity of ROS packages during the installati
 Add repository to sources list <br/>
 ### Install Ros2 Packages 
 ![Ros2 Packages Installation1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0ad90f65-a038-45fb-bed4-9c0b45eefb23) <br/>
-Update apt repository caches after setting up the repositories. <br/>
+Update apt repository caches in the setted repositories  <br/>
 ![ROS2 Packages Installation2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7d8ef6dc-9864-46b7-a2ef-1dc03a43dfe6) <br/>
-ROS 2 packages are built on frequently updated Ubuntu systems. It is always recommended that you ensure your system is up to date before installing new packages. <br/>
+Ensure my system is up to date <br/>
 ![ROS2 Packages Installation3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70bb89cd-de34-447a-a504-453c35835723) <br/>
+Desktop Install: ROS, RViz, demos, tutorials <br/>
+![ROS2 Packages Installation4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/054ac8c9-91bc-4305-948a-8a2d2be763f9)
+ROS-Base Install (Bare Bones): Communication libraries, message packages, command line tools. No GUI tools.
+![ROS2 Packages Installation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70bb89cd-de34-447a-a504-453c35835723) <br/>
+Development tools: Compilers and other tools to build ROS packages <br/>
 
-Update apt repository caches after setting up repositories <br/>
-Ensure system is up to date before installing new packages <br/>
+
