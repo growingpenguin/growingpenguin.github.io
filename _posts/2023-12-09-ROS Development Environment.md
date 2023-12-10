@@ -52,9 +52,9 @@ Terminal2: Source the setup file and then run a Python listener <br/>
 Listener : Saying I heard those messages. <br/>
 
 ### Development Tool installation
-<br/>
+ROS 2를 이용한 로봇 프로그래밍에 필수인 소프트웨어 모음 추가 다운로드 <br/>
 ![ROS2 Packages Installation12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2db17a79-0b88-4768-9040-38780c511600) <br/>
-
+![ROS2 Packages Installation13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/21ff147c-275f-4e33-a143-58a38c39c66a) <br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 https://cafe.naver.com/openrt/25288 <br/>
