@@ -37,11 +37,11 @@ Desktop Install: ROS, RViz, demos, tutorials <br/>
 ROS-Base Install (Bare Bones): Communication libraries, message packages, command line tools. No GUI tools.
 ![ROS2 Packages Installation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70bb89cd-de34-447a-a504-453c35835723) <br/>
 Development tools: Compilers and other tools to build ROS packages <br/>
-
-
+![ROS2 Packages Installation7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cec3576a-9d53-4f15-b837-3f1975d21f30)<br/>
+ROS2 Package installation in cafe <br/>
 
 ### Environment Setup
-![ROS2 Packages Installation7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cec3576a-9d53-4f15-b837-3f1975d21f30)<br/>
+![ROS2 Packages Installation6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b45398d6-9d2e-4fdf-a965-9edd8804288e)
 Set up your environment by sourcing the following file.<br/>
 ![ROS2 Packages Installation8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a7699b95-a257-4f1f-892c-6332cec1f74a) <br/>
 Verify both the C++ and Python APIs are working properly <br/>
