@@ -4,7 +4,7 @@ title:  "1. Build ROS Environment"
 ---
 ## 1. Development Environment & Base OS installation
 Check My Ubuntu Version <br/>
-![Ubuntu Version](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/67d321d7-3ff1-4c79-8d8d-8f4f01ba5d4e)
+![Ubuntu Version](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/67d321d7-3ff1-4c79-8d8d-8f4f01ba5d4e) <br/>
 Ubuntu 20.04 LTS [6]를 사용해도 ROS 2 사용에는 문제없다고 해서 진행함. <br/>
 
 ## 2. Install Robot OS
@@ -37,5 +37,12 @@ Desktop Install: ROS, RViz, demos, tutorials <br/>
 ROS-Base Install (Bare Bones): Communication libraries, message packages, command line tools. No GUI tools.
 ![ROS2 Packages Installation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70bb89cd-de34-447a-a504-453c35835723) <br/>
 Development tools: Compilers and other tools to build ROS packages <br/>
+하기의 소프트웨어는 ROS 2를 이용한 로봇 프로그래밍에 필수인 소프트웨어 모음 설치<br/>
 
+
+
+[출처] 001 ROS 2 개발 환경 구축 (오픈소스 소프트웨어 & 하드웨어: 로봇 기술 공유 카페 (오로카)) | 작성자 표윤석
+### Environment Setup
+
+Set up your environment by sourcing the following file.<br/>
 
