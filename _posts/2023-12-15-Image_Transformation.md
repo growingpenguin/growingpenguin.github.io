@@ -58,5 +58,4 @@ Image Transformation: According to Fourier Transform, periodic functions can be 
 <br/>
 Discrete Fourier Transform <br/>
 
-![Image_Transformation7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/205e23d5-9ac0-4258-b4ac-fb02335d7ce9)
--근본적인 주기 (u개의 discrete한 value x로 근사화할 수 있는 sine, cosines)
+
