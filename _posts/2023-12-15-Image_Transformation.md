@@ -48,3 +48,10 @@ Values of R, G, B are intensity <br/>
 YCbCr Format: <br/>
 Values of Y, Cb, Cr are intensity <br/>
 
+# Discrete vs. Continuous 
+Data Sampling ->  Data Quantization -> Image Transformation <br/>
+Data Sampling: Selecting continuous images in regular intervals (light => electrical)<br/>
+Data Quantization: Converting an input from a continuous or otherwise large set of values (real numbers) to a discrete set (electronic -> Digitalized) <br/>
+Image Transformation: According to Fourier Transform, periodic functions can be represented by a weighted sum of sines and cosines, and if the periods are set to infinity, periodic functions can be any functions. Using this concept, as it is hard to change the images itself in a spatial domain, we change it to the frequency domain and fine tune the coefficient of sines and cosines, therefore changing the intensity of each signal components to change the original image. (Discrete -> Discrete)<br/>
+-Image Transformation happens after data sampling and quantization therefore it deals with discrete signals. <br/>
+-Basically it is a discrete transformation for 2D signals (ex.Discrete Fourier Transform, Discrete Cosine Transform ) <br/>
