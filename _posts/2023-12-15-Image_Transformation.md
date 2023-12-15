@@ -55,3 +55,8 @@ Data Quantization: Converting an input from a continuous or otherwise large set 
 Image Transformation: According to Fourier Transform, periodic functions can be represented by a weighted sum of sines and cosines, and if the periods are set to infinity, periodic functions can be any functions. Using this concept, as it is hard to change the images itself in a spatial domain, we change it to the frequency domain and fine tune the coefficient of sines and cosines, therefore changing the intensity of each signal components to change the original image. (Discrete -> Discrete)<br/>
 -Image Transformation happens after data sampling and quantization therefore it deals with discrete signals. <br/>
 -Basically it is a discrete transformation for 2D signals (ex.Discrete Fourier Transform, Discrete Cosine Transform ) <br/>
+<br/>
+Discrete Fourier Transform <br/>
+
+![Image_Transformation7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/205e23d5-9ac0-4258-b4ac-fb02335d7ce9)
+-근본적인 주기 (u개의 discrete한 value x로 근사화할 수 있는 sine, cosines)
