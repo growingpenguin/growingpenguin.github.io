@@ -33,6 +33,8 @@ Knowledge of nine Native American Languages <br/>
 Forward journey: Traveled for 18 months before reaching the Pacific Ocean in November of 1805 <br/>
 Return Journey: <br/>
 Took just under a year, ending in September of 1806.<br/>
+![ACH_9-1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d9b063d8-27eb-4e45-9d2d-ccca20cbe55d)
+
 
  
 
