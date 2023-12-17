@@ -33,7 +33,22 @@ Knowledge of nine Native American Languages <br/>
 Forward journey: Traveled for 18 months before reaching the Pacific Ocean in November of 1805 <br/>
 Return Journey: <br/>
 Took just under a year, ending in September of 1806.<br/>
-![ACH_9-1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d9b063d8-27eb-4e45-9d2d-ccca20cbe55d)
+![ACH_9-1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d9b063d8-27eb-4e45-9d2d-ccca20cbe55d) <br/>
+# The cession of Florida from Spain(1819)
+1765: <br/>
+British had previously acquired Florida from Spain <br/>
+(Britain had previously acquired Florida from Spain in 1765, as compensation for Spain's involvement as an enemy of Britain in the French and Indian War) <br/>
+End of the American War for Independence: <br/>
+British was forced to surrender Florida to Spain <br/>
+Florida had remained loyal to Britain during the American War for Independence <br/>
+1810: <br/>
+After the US was formed as a new nation, American settlers in West Florida began rebelling against Spanish rule <br/>
+The U.S. then annexed parts of Western Florida from Spain, claiming the area had been part of the Louisiana Purchase from France <br/>
+1818(Few Years Later): <br/>
+The U.S. Army under General Andrew Jackson invaded Florida as part of a war against the Seminole Indians, who had joined with escaped slaves and were seen as a threat to the neighboring U.S. state of Georgia.<br/>
+1819: <br/>
+All of Florida became part of the U.S.<br/>
+As the Spanish government had been weakened by the French invasion of Spain under Napoléon Bonaparte, the U.S. government demanded that Spain cede all of Florida to the U.S., and Spain complied with that demand. <br/>
 
 
  
