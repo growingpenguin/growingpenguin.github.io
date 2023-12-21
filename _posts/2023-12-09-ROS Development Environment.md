@@ -100,8 +100,8 @@ Open the Ubuntu Software app. => In the search bar of the Visual Studio Code sec
 ![ROS2 Packages Installation19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e0fe02a9-afd8-42b1-a433-29c3b49eecf7) <br/>
 Enter code in cmd => Visual Studio Code opens <br/>
 3) Extensions Installation <br/>
-- Extensions (`Ctrl + Shift + x`)으로 이동 <br/>
-- 아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가<br/>
+-Extensions (`Ctrl + Shift + x`)으로 이동 <br/>
+-아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가<br/>
 Project            | Skills           | Description  | Description
 -------------------|------------------|-----------------------------|-----------------------------
 [AI Service Design Project](https://github.com/growingpenguin/kioring)  | Java             | Boader app
