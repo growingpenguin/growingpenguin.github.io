@@ -101,7 +101,7 @@ Open the Ubuntu Software app. => In the search bar of the Visual Studio Code sec
 Enter code in cmd => Visual Studio Code opens <br/>
 3) Extensions Installation <br/>
 -Extensions (`Ctrl + Shift + x`)으로 이동 <br/>
--아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가<br/>
+-아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가 <br/>
 | Project                  | Skills | Description             | Description      |
 |--------------------------|--------|-------------------------|------------------|
 | AI Service Design Project| Java   | Boader app              | Boader app       |
