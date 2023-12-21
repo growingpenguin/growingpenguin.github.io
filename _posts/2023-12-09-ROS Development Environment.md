@@ -107,11 +107,11 @@ C/C++/Python Extensions (VS Code Extensions for C++ and Python) <br/>
 
 Name |Code Name|Description|
 |---|:---|:---:|
-|C/C++|[ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)|C/C ++ IntelliSense, 디버깅 및 코드 검색|
+|C/C++|[ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)|C/C ++ IntelliSense, debugging support, and code search|
+|CMake|[twxs.cmake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)|support for the CMake language|
+|CMake Tools|[ms-vscode.cmake-tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)|CMake language support  & Additional tools and features to make working with CMake projects more convenient|
+|Python|[ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)|Linging, Debugging, Intellisense, Code Formatting, Refactoring, Unit Testing|
 | |
-|CMake|[twxs.cmake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)|CMake 언어 지원|
-|CMake Tools|[ms-vscode.cmake-tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)|CMake 언어 지원 및 다양한 툴|
-|Python|[ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)|린팅, 디버깅, Intellisense, 코드 서식 지정, 리팩토링, 단위 테스트 등|
 
 
 Reference: <br/>
