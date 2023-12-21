@@ -103,12 +103,15 @@ Enter code in cmd => Visual Studio Code opens <br/>
 -Extensions (`Ctrl + Shift + x`)으로 이동 <br/>
 -아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가 <br/>
  <br/>
+  <br/>
+   <br/>
 기본값|왼쪽 정렬|가운데 정렬|오른쪽 정렬|
 |---|:---|:---:|---:|
 |내용 1|내용 2|내용 3|내용 4|
 |내용 5|내용 6|내용 7|내용 8|
 |내용 9|내용 10|내용 11|내용 12|
-
+ <br/>
+  <br/>
 <br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
