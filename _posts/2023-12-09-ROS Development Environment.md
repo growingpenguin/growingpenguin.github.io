@@ -103,10 +103,11 @@ Enter code in cmd => Visual Studio Code opens <br/>
 -Extensions (`Ctrl + Shift + x`)으로 이동 <br/>
 -아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가 <br/>
 <br/>
- Project                  | Skills | Description             | Description      
---------------------------|--------|-------------------------|------------------
- AI Service Design Project| Java   | Boader app              | Boader app       
- CJ DataAnalysis Project  | C++    | MarketingJ sales data  | Marketing        
+|제목|내용|설명|
+|---|---|---|
+|테스트1|*강조1*|테스트3|
+|테스트1|**강조2**|테스트3|
+|테스트1|<span style="color:red">강조3</span>|테스트3|
 
 <br/>
 Reference: <br/>
