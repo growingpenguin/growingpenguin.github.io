@@ -102,12 +102,12 @@ Enter code in cmd => Visual Studio Code opens <br/>
 3) Extensions Installation <br/>
 -Extensions (`Ctrl + Shift + x`)으로 이동 <br/>
 -아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가 <br/>
-
+C/C++/Python Extensions (VS Code Extensions for C++ and Python) <br/>
 
 
 Name |Code Name|Description|
 |---|:---|:---:|
-|내용 1|내용 2|내용 3|
+|C/C++|내용 2|내용 3|
 |내용 5|내용 6|내용 7|
 |내용 9|내용 10|내용 11|
 
