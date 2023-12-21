@@ -87,7 +87,7 @@ ROS 2 개발 환경 구축을 위한 IDE 설정 및 사용법 (VSCode의 설치,
 VSCode 환경에서의 디버깅 툴은 C++은 GDB, Python은 debugpy 사용 <br/>
 -ROS 커뮤니티에서 VSCode 개발 환경을 위한 확장들과 VSCode를 이용한 다양한 사용 방법들을 공개한다고 한다 => 시간 날 때 찾아보기  <br/>
 <br/>
-1) Installation <br/>
+1)Installation <br/>
 Blog Guideline <br/>
 Follow the link below and install '.deb' debian installation file <br/>
 https://code.visualstudio.com/Download <br/>
@@ -96,10 +96,10 @@ Visual Studio Code already installed <br/>
 Installation Process: <br/>
 ![ROS2 Packages Installation18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bf26d7f6-7b35-49e9-a9cb-1c945811f6a9) <br/>
 Open the Ubuntu Software app. => In the search bar of the Visual Studio Code section, type "visual studio code." => Select the search result. => Click "Install." <br/>
-2) Implementation <br/>
+2)Implementation <br/>
 ![ROS2 Packages Installation19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e0fe02a9-afd8-42b1-a433-29c3b49eecf7) <br/>
 Enter code in cmd => Visual Studio Code opens <br/>
-3) Extensions Installation <br/>
+3)Extensions Installation <br/>
 -Extensions (`Ctrl + Shift + x`)으로 이동 <br/>
 -아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가 <br/>
 C/C++/Python Extensions (VS Code Extensions for C++ and Python) <br/>
