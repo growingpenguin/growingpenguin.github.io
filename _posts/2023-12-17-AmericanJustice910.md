@@ -50,5 +50,38 @@ Due process further commands that defendants have the right to call their own wi
 Pre-trial would also be the point at which the defense might raise a defense of double jeopardy, if such a defense existed in that case. 
 -The Fifth Amendment, through the Double Jeopardy Clause, prohibits states from charging the same defendant with substantially the same crime on the same facts. <br/>
 
+# Stages of Trial 
+(1) **Bail** <br/>
+Judge will set suspect's initial bail, amount of cash that allows the defendant to get out of jail after the initial arrest <br/>
+If the defendant shows up for the proper court dates, the court refunds the bail, but if the defendant skips the date, then the court keeps the bail and issue a warrant for the individual's arrest <br/>
+(2) **Arraignment** <br/>
+Judge calls an individual charged with commiting a crime
+-Reads to the individual the criminal charges laid against them <br/>
+-Asks the accused whether having access to an attorney or needs assistance of a court-appointed attorney <br/>
+-Asks the accused to plead, decides whether to amend the initial bail amount <br/>
+-Sets the dates of the future proceedings <br/>
+(3) **Preliminary Hearing** <br/>
+Judge determines whether enough evidence exists for the prosecution to meet its burden of persuasion. <br/>
+-Burden of persuasion: <br/>
+Prosecution has enough evidence to make the defendant stand trial <br/>
+The defense has the right to cross examine the government witnesses during this proceeding. <br/>
+Under the Fifth Amendment, a grand jury, rather than a judge, makes this determination when the defendant is charged with a "capital or infamous crime.” <br/>
+(4) **Pre-Trial Hearing** <br/>
+The prosecution and the defense team use the pre-trial to file motions before a judge. <br/>
+These motion usually concern whether the court should suppress certain evidence, whether certain individuals can testify, or whether the judge should dismiss all charges for lack of evidence.<br/>
+(5) **Trial** <br/>
+Defendant stands trial. <br/>
+Both sides offer opening statements first, although the defense can reserve their opening statement until the prosecution “rests”—finishes presenting their case. The prosecution presents its witnesses and evidence first. Then, the defense presents its witnesses and evidence.<br/>
+After the defense rests, the defense offers a closing argument, and then the prosecution offers its final closing argument. After closing arguments, the jury deliberates and returns a verdict.<br/>
+(6) **Sentencing** <br/>
+General
+Sentencing usually occurs immediately for infractions and misdemeanors. For such minor infractions penalties may include probation; fines; short-term incarceration; long-term incarceration; suspended sentence, which only takes effect if the convict fails to meet certain conditions; payment of restitution to the victim; community service; or drug and alcohol rehabilitation.<br/>
+More serious crimes result in the trier of fact hearing evidence and arguments from both the prosecution and the defense regarding the appropriate sentence. Some jurisdictions allow the judge alone to determine the sentence; others will have a separate sentencing phase trial, complete with a new jury, to determine the sentence for certain crimes.<br/>
+During a sentencing trial, the prosecution presents evidence of aggravating factors, and the defense presents evidence of mitigating factors. The U.S. Supreme Court has interpreted the U.S. Constitution to protect the right to a jury sentencing trial for all defendants facing the death penalty.<br/>
+Allocution
+(7) **Allocution** <br/>
+Before the judge announces the sentence, a defendant is entitled to allocution. Allocution is the right of the defendant to directly address the judge without the help of counsel. During this direct address, the defendant may offer a personal explanation of any unknown facts, may ask for mercy, or may offer an apology for the criminal behavior. This is an opportunity for defendants to show remorse or to offer the motivations behind their criminal acts, to influence the judge to be lenient.<br/>
+
+**Sentencing Guidelines** <br/>
 
 
