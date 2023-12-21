@@ -114,10 +114,11 @@ Name |Code Name|Description|
 
 [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) : Term for various code editing features including: code completion, parameter info, quick info, and member lists <br/>
 [Debugging support](https://code.visualstudio.com/docs/editor/debugging) : Visual Studio Code's built-in debugger helps accelerate your Edit, Compile, and Debug loop. <br/> 
-[debugging support](https://code.visualstudio.com/docs/editor/intellisense) : Visual Studio Code's built-in debugger helps accelerate your edit, compile, and debug loop. <br/>
+[CMake Language](https://medium.com/@yjo/cmake%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-9a0091adafb) : Visual Studio Code's built-in debugger helps accelerate your edit, compile, and debug loop. <br/>
 
 
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 https://cafe.naver.com/openrt/25288 <br/>
 https://linuxhandbook.com/nano-save-exit/ <br/>
+https://medium.com/@yjo/cmake%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-9a0091adafb <br/>
