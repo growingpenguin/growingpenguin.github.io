@@ -51,10 +51,21 @@ Talker : Saying that it’s Publishing messages <br/>
 Terminal2: Source the setup file and then run a Python listener <br/>
 Listener : Saying I heard those messages. <br/>
 
-### Development Tool installation
+## 3. Development Tool installation
 ROS 2를 이용한 로봇 프로그래밍에 필수인 소프트웨어 모음 추가 다운로드 <br/>
 ![ROS2 Packages Installation12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2db17a79-0b88-4768-9040-38780c511600) <br/>
 ![ROS2 Packages Installation13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/21ff147c-275f-4e33-a143-58a38c39c66a) <br/>
+
+## 4. ROS2 Build Test 
+![ROS2 Packages Installation14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dd5530f5-7e0f-4826-b67c-977af8dfdb89)
+ 'robot_ws' 이라는 이름으로 워크스페이스 폴더를 생성한 후 빌드 <br/>
+ 환경 셋팅을 하고 ROS 2 설치가 잘 되어 빌드에 문제가 없는지 알아보는 과정 <br/>
+ ![ROS2 Packages Installation15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57c28c33-f13f-464b-802c-0a8401c6fc9a)
+워크스페이스 폴더의 하위 폴더로 src 이외에도 build, install, log 폴더가 생성됨 <br/>
+
+
+
+ 
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 https://cafe.naver.com/openrt/25288 <br/>
