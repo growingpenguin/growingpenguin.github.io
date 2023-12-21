@@ -114,8 +114,7 @@ Name |Code Name|Description|
 
 [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) : Term for various code editing features including: code completion, parameter info, quick info, and member lists <br/>
 [Debugging support](https://code.visualstudio.com/docs/editor/debugging) : Visual Studio Code's built-in debugger helps accelerate your Edit, Compile, and Debug loop. <br/> 
-[CMake Language](https://medium.com/@yjo/cmake%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-9a0091adafb) : Visual Studio Code's built-in debugger helps accelerate your edit, compile, and debug loop. <br/>
-
+[CMake Language](https://medium.com/@yjo/cmake%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-9a0091adafb) : Build system generator and configuration tool. CMake provides a platform-independent way to specify how a software project should be built and helps generate native build files (e.g., makefiles or project files for IDEs) for various operating systems and build environments.<br/>
 
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
