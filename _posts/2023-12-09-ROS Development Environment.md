@@ -102,13 +102,10 @@ Enter code in cmd => Visual Studio Code opens <br/>
 3) Extensions Installation <br/>
 - Extensions (`Ctrl + Shift + x`)으로 이동 <br/>
 - 아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가<br/>
-| Column 1 Header | Column 2 Header | Column 3 Header |
-| --------------- | --------------- | --------------- |
-| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
-| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
-| Row 3, Col 1    | Row 3, Col 2    | Row 3, Col 3    |
-| Row 4, Col 1    | Row 4, Col 2    | Row 4, Col 3    |
-| Row 5, Col 1    | Row 5, Col 2    | Row 5, Col 3    |
+Project            | Skills           | Description  | Description
+-------------------|------------------|-----------------------------|-----------------------------
+[AI Service Design Project](https://github.com/growingpenguin/kioring)  | Java             | Boader app
+[CJ DataAnalysis Project](https://github.com/growingpenguin/CJ_DataAnalysisCompetition) | C++ | Marketing Report Based on analyzing CJ sales data | Marketing Report Based on analyzing CJ sales data
 <br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
