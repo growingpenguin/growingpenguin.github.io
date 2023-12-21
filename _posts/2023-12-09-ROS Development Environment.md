@@ -113,7 +113,8 @@ Name |Code Name|Description|
 |Python|[ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)|Linging, Debugging, Intellisense, Code Formatting, Refactoring, Unit Testing|
 
 [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) : Term for various code editing features including: code completion, parameter info, quick info, and member lists <br/>
-[IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) : Term for various code editing features including: code completion, parameter info, quick info, and member lists <br/>
+[Debugging support](https://code.visualstudio.com/docs/editor/debugging) : Visual Studio Code's built-in debugger helps accelerate your Edit, Compile, and Debug loop. <br/> 
+[debugging support](https://code.visualstudio.com/docs/editor/intellisense) : Visual Studio Code's built-in debugger helps accelerate your edit, compile, and debug loop. <br/>
 
 
 Reference: <br/>
