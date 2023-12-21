@@ -121,10 +121,10 @@ Name |Code Name|Description|
 
 Name |Code Name|Description|
 |---|:---|:---:|
-|C/C++|[ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)|C/C ++ IntelliSense, Debugging support, and Code search|
-|CMake|[twxs.cmake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)|Support for the CMake language|
-|CMake Tools|[ms-vscode.cmake-tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)|CMake language support  & Additional tools and features to make working with CMake projects more convenient|
-|Python|[ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)|Linging, Debugging, Intellisense, Code Formatting, Refactoring, Unit Testing|
+|XML Tools|[dotjoshjohnson.xml](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)|Support XML, XQuery, XPath|
+|YAML|[redhat.vscode-yaml](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)|Support YAML|
+|Markdown All in One|[ms-vscode.cmake-tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)|Support Markdown|
+
 
 [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) : Term for various code editing features including: code completion, parameter info, quick info, and member lists <br/>
 [Debugging support](https://code.visualstudio.com/docs/editor/debugging) : Visual Studio Code's built-in debugger helps accelerate your Edit, Compile, and Debug loop. <br/> 
