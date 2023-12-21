@@ -96,7 +96,20 @@ Visual Studio Code already installed <br/>
 Installation Process: <br/>
 ![ROS2 Packages Installation18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bf26d7f6-7b35-49e9-a9cb-1c945811f6a9) <br/>
 Open the Ubuntu Software app. => In the search bar of the Visual Studio Code section, type "visual studio code." => Select the search result. => Click "Install." <br/>
-
+2) Implementation <br/>
+![ROS2 Packages Installation19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e0fe02a9-afd8-42b1-a433-29c3b49eecf7) <br/>
+Enter code in cmd => Visual Studio Code opens <br/>
+3) Extensions Installation <br/>
+- Extensions (`Ctrl + Shift + x`)으로 이동 <br/>
+- 아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가<br/>
+| Column 1 Header | Column 2 Header | Column 3 Header |
+| --------------- | --------------- | --------------- |
+| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+| Row 3, Col 1    | Row 3, Col 2    | Row 3, Col 3    |
+| Row 4, Col 1    | Row 4, Col 2    | Row 4, Col 3    |
+| Row 5, Col 1    | Row 5, Col 2    | Row 5, Col 3    |
+<br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 https://cafe.naver.com/openrt/25288 <br/>
