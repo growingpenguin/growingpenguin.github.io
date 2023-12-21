@@ -116,6 +116,22 @@ Name |Code Name|Description|
 [Debugging support](https://code.visualstudio.com/docs/editor/debugging) : Visual Studio Code's built-in debugger helps accelerate your Edit, Compile, and Debug loop. <br/> 
 [CMake Language](https://medium.com/@yjo/cmake%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-9a0091adafb) : Build system generator and configuration tool. CMake provides a platform-independent way to specify how a software project should be built and helps generate native build files (e.g., makefiles or project files for IDEs) for various operating systems and build environments.<br/>
 
+
+
+
+Name |Code Name|Description|
+|---|:---|:---:|
+|C/C++|[ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)|C/C ++ IntelliSense, Debugging support, and Code search|
+|CMake|[twxs.cmake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)|Support for the CMake language|
+|CMake Tools|[ms-vscode.cmake-tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)|CMake language support  & Additional tools and features to make working with CMake projects more convenient|
+|Python|[ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)|Linging, Debugging, Intellisense, Code Formatting, Refactoring, Unit Testing|
+
+[IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) : Term for various code editing features including: code completion, parameter info, quick info, and member lists <br/>
+[Debugging support](https://code.visualstudio.com/docs/editor/debugging) : Visual Studio Code's built-in debugger helps accelerate your Edit, Compile, and Debug loop. <br/> 
+[CMake Language](https://medium.com/@yjo/cmake%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-9a0091adafb) : Build system generator and configuration tool. CMake provides a platform-independent way to specify how a software project should be built and helps generate native build files (e.g., makefiles or project files for IDEs) for various operating systems and build environments.<br/>
+
+
+
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 https://cafe.naver.com/openrt/25288 <br/>
