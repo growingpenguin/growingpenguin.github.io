@@ -107,8 +107,8 @@ C/C++/Python Extensions (VS Code Extensions for C++ and Python) <br/>
 
 Name |Code Name|Description|
 |---|:---|:---:|
-|C/C++|[ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)|C/C ++ IntelliSense, debugging support, and code search|
-|CMake|[twxs.cmake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)|support for the CMake language|
+|C/C++|[ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)|C/C ++ IntelliSense, Debugging support, and Code search|
+|CMake|[twxs.cmake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)|Support for the CMake language|
 |CMake Tools|[ms-vscode.cmake-tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)|CMake language support  & Additional tools and features to make working with CMake projects more convenient|
 |Python|[ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)|Linging, Debugging, Intellisense, Code Formatting, Refactoring, Unit Testing|
 
