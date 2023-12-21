@@ -7,7 +7,7 @@ Check My Ubuntu Version <br/>
 ![Ubuntu Version](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/67d321d7-3ff1-4c79-8d8d-8f4f01ba5d4e) <br/>
 Ubuntu 20.04 LTS [6]를 사용해도 ROS 2 사용에는 문제없다고 해서 진행함. <br/>
 
-## 2. Install Robot OS
+## 2. Robot OS Installation
 ROS 2 Foxy Fitzroy Installation: Use Debian Package <br/>
 ### Set Locale
 ![locale](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b7179963-cf29-420e-9b28-190eb8b38f82) <br/>
@@ -63,6 +63,10 @@ ROS 2를 이용한 로봇 프로그래밍에 필수인 소프트웨어 모음 �
  ![ROS2 Packages Installation15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57c28c33-f13f-464b-802c-0a8401c6fc9a) <br/>
 워크스페이스 폴더의 하위 폴더로 src 이외에도 build, install, log 폴더가 생성됨 <br/>
 
+## 5. Set Run Commands 
+`2. Robot OS Installation`에서 `ROS 2` 설치 이후 `source /opt/ros/foxy/setup.bash` 를 설정 한 후, talker 노드 및 listener 노드를 실행하였음 <br/>
+그런데 `source /opt/ros/foxy/setup.bash` 와 같은 환경 설정을 매번 불러오기란 매우 귀찮을 수 있음 <br/>
+이에 하기와 같이 Run commands(rc)를 모아두는 bashrc 파일에 많이 사용되는 alias, source, export 을 설정해두면 ROS 2 개발 및 사용에 있어서 매우 편리하다.
 
 
  
