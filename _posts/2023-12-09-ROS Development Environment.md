@@ -107,10 +107,10 @@ C/C++/Python Extensions (VS Code Extensions for C++ and Python) <br/>
 
 Name |Code Name|Description|
 |---|:---|:---:|
-|C/C++|내용 2|내용 3|
-|내용 5|내용 6|내용 7|
-|내용 9|내용 10|내용 11|
-
+|C/C++|[ms-vscode.cpptools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)|내용 3|
+|CMake|내용 6|내용 7|
+|CMake Tools|내용 10|내용 11|
+|Python|내용 10|내용 11|
 
 
 Reference: <br/>
