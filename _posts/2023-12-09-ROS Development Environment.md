@@ -64,12 +64,40 @@ ROS 2를 이용한 로봇 프로그래밍에 필수인 소프트웨어 모음 �
 워크스페이스 폴더의 하위 폴더로 src 이외에도 build, install, log 폴더가 생성됨 <br/>
 
 ## 5. Set Run Commands 
-`2. Robot OS Installation`에서 `ROS 2` 설치 이후 `source /opt/ros/foxy/setup.bash` 를 설정 한 후, talker 노드 및 listener 노드를 실행하였음 <br/>
+`2. Robot OS Installation`의 Environment Setup에서 `ROS 2` 설치 이후 `source /opt/ros/foxy/setup.bash` 를 설정 한 후, talker 노드 및 listener 노드를 실행하였음<br/>
 그런데 `source /opt/ros/foxy/setup.bash` 와 같은 환경 설정을 매번 불러오기란 매우 귀찮을 수 있음 <br/>
-이에 하기와 같이 Run commands(rc)를 모아두는 bashrc 파일에 많이 사용되는 alias, source, export 을 설정해두면 ROS 2 개발 및 사용에 있어서 매우 편리하다.
+=> ROS 2 개발 및 사용의 편리성을 위해 Run commands(rc)를 모아두는 bashrc 파일에 많이 사용되는 alias, source, export 을 설정함 <br/>
+bashrc 파일의 기존 내용은 그대로 두고 맨 아래에 하기 설정들 추가 <br/>
+![ROS2 Packages Installation16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d78cbd13-b9e6-4822-a26d-2c20eecd15a0) <br/>
+[bashrc_첨부.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13739504/bashrc_.txt)
+-nano ~/.bashrc: <br/>
+Opening the .bashrc file in the nano text editor, allowing you to view and edit its contents<br/>
+-Ctrl+x 누르면 저장하고 꺼지고 다시 cmd로 돌아옴. 저장 잘 됐는지 확인하고 싶으면 nano ~/.bashrc 다시 cmd에 치면 됨 <br/>
+Save & Exit using nano command <br/>
+Ctrl+o: To save the file and continue editing it. <br/>
+Ctrl+x: To save the changes and exit editing. <br/>
+<br/>
+## 6. Integrated Development Environment (IDE) Installation
+VSCode Recommended in a ROS2 Development Environment. <br/>
+Another IDE recommended IDE that support ROS is QtCreator. QtCreator is best to use as a sub when writing UI for RQt's Plugin Installation of ROS 2 <br/>
+### 6.1 Visual Studio Code
+ROS 2 개발 환경 구축을 위한 IDE 설정 및 사용법 (VSCode의 설치, 실행, 확장 기능 설치, 개발 환경 설정) <br/>
+-IntelliSense 설정, 사용 방법 <br/>
+-디버깅 설정 및 사용법 <br/> 
+VSCode 환경에서의 디버깅 툴은 C++은 GDB, Python은 debugpy 사용 <br/>
+-ROS 커뮤니티에서 VSCode 개발 환경을 위한 확장들과 VSCode를 이용한 다양한 사용 방법들을 공개한다고 한다 => 시간 날 때 찾아보기  <br/>
+<br/>
+1) Installation <br/>
+Blog Guideline <br/>
+Follow the link below and install '.deb' debian installation file <br/>
+https://code.visualstudio.com/Download <br/>
+My Development Environment <br/>
+Visual Studio Code already installed <br/>
+Installation Process: <br/>
+![ROS2 Packages Installation18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bf26d7f6-7b35-49e9-a9cb-1c945811f6a9) <br/>
+Open the Ubuntu Software app. => In the search bar of the Visual Studio Code section, type "visual studio code." => Select the search result. => Click "Install." <br/>
 
-
- 
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 https://cafe.naver.com/openrt/25288 <br/>
+https://linuxhandbook.com/nano-save-exit/ <br/>
