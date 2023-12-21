@@ -104,8 +104,8 @@ Enter code in cmd => Visual Studio Code opens <br/>
 -아래의 C/C++/Python/ROS/File Format/유용한 Extensions 추가<br/>
 Project            | Skills           | Description  | Description
 -------------------|------------------|-----------------------------|-----------------------------
-[AI Service Design Project](https://github.com/growingpenguin/kioring)  | Java             | Boader app
-[CJ DataAnalysis Project](https://github.com/growingpenguin/CJ_DataAnalysisCompetition) | C++ | Marketing Report Based on analyzing CJ sales data | Marketing Report Based on analyzing CJ sales data
+[AI Service Design Project](https://github.com/growingpenguin/kioring)  | Java             | Boader app | Boader app
+[CJ DataAnalysis Project](https://github.com/growingpenguin/CJ_DataAnalysisCompetition) | C++ | MarketingJ sales data | Marketing  Report Based on analyzing CJ sales data
 <br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
