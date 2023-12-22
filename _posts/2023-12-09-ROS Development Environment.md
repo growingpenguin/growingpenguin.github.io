@@ -170,34 +170,15 @@ Name |Code Name|Description|
 -"File" > "Add Folder to Workspace..." menu selection <br/>
 -Select folder "robot_ws" <br/>
 ​![ROS2 Packages Installation20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9c868a1e-262c-4944-962a-10607e1f2bb1) <br/>
-5)VS Code development environment <br/>
-The below 6~9 steps is the steps to set the VSCode's Development Environment. <br/>
-During the setting process, settings.json / c_cpp_properties.json / tasks.json / launch.json files are used, but if they don't exist, create them in the following positions. <br/>
-Remember that folders and files that have '.' used as a prefix in Linux, remember that these are hidden files or folders <br/>
+5)Set VS Code Development Environment <br/>
+The following steps (6-9) guide you through setting up the VS Code development environment. While configuring, you may use the settings.json, c_cpp_properties.json, tasks.json, and launch.json files. If these files don't exist, create them in the specified locations below.<br/>
+Please note that in Linux, folders and files with a '.' as a prefix are considered hidden.<br/>
+~/.config/Code/User/settings.json <br/>
+~/robot_ws/.vscode/c_cpp_properties.json <br/>
+~/robot_ws/.vscode/tasks.json <br/>
+~/robot_ws/.vscode/launch.json <br/>
 
 
-
-
-
-
-
-
-5) VSCode의 개발 환경 설정
-
-참고로 리눅스에서 '.' 이 접두어로 붙은 폴더 및 파일은 숨겨져 있는 폴더나 파일임을 기억하자.
-
-​
-
-~/.config/Code/User/settings.json
-
-~/robot_ws/.vscode/c_cpp_properties.json
-
-~/robot_ws/.vscode/tasks.json
-
-~/robot_ws/.vscode/launch.json
-
-​
-[출처] 001 ROS 2 개발 환경 구축 (오픈소스 소프트웨어 & 하드웨어: 로봇 기술 공유 카페 (오로카)) | 작성자 표윤석
 <br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
