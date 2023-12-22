@@ -188,8 +188,8 @@ Ex.미니맵 사용, 세로 제한 줄 표시, 탭 사이즈 등 <br/>
 ![ROS2 Packages Installation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/561b27fd-e998-4688-9bfa-e0f8c0dae445) <br/>
 나는 settings.json file이 없음을 확인.. <br/>
 <br/>
-![ROS2 Packages Installation23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/34bbd971-26c3-4978-ae5f-03cab44f95c8)
-​새로 settings.json file을 nano editor를 사용해서 만듦 <br/>
+![ROS2 Packages Installation23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/34bbd971-26c3-4978-ae5f-03cab44f95c8) <br/>
+Make a new settings.json file using nano editor <br/>
 ![ROS2 Packages Installation22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/275ed86e-673b-4def-97bd-91b17957ffd1) <br/>
 [settings.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749266/settings.json_code.txt) <br/>
 Copy and paste the file above => Ctrl+x to save and edit<br/>
@@ -204,7 +204,7 @@ Use "files.associations" to specify file types for ROS-specific filenames like *
 -C/C++ Related Settings   <br/>
 -[c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt)   <br/>
 -Copy and paste the file above, then press Ctrl+x to save and exit.  <br/>
--Configure settings related to C/C++.   <br/>
+-Configure settings related to C/C++  <br/>
 -Specify the operating system of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode.
 
 
