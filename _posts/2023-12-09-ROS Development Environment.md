@@ -195,17 +195,17 @@ Ex.미니맵 사용, 세로 제한 줄 표시, 탭 사이즈 등 <br/>
 Copy and paste the file above => Ctrl+x to save and edit<br/>
 -Specialized User Settings<br/>
 - In the `settings.json` file located at `~/.config/Code/User/`, configure as above:  
-- ROS Related Settings 
-  - Specify the ROS version in 'ms-iot.vscode-ros' as '"ros.distro": "foxy"'
-  - Set 'deitry.colcon-helper' to use colcon-supported Tasks with '"colcon.provideTasks": true'
-  - Use "files.associations" to specify file types for ROS-specific filenames like *.repos, *.world, *.xacro, etc., whose extensions may not be known.
+-ROS Related Settings  <br/>
+Specify the ROS version in 'ms-iot.vscode-ros' as '"ros.distro": "foxy"' <br/>
+Set 'deitry.colcon-helper' to use colcon-supported Tasks with '"colcon.provideTasks": true' <br/>
+Use "files.associations" to specify file types for ROS-specific filenames like *.repos, *.world, *.xacro, etc., whose extensions may not be known.<br/>
 
 7) Set C/C++ Properties  
-   - C/C++ Related Settings  
-   - [c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt)  
-   - Copy and paste the file above, then press Ctrl+x to save and exit.  
-   - Configure settings related to C/C++.   
-   - Specify the operating system of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode.
+-C/C++ Related Settings   <br/>
+-[c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt)   <br/>
+-Copy and paste the file above, then press Ctrl+x to save and exit.  <br/>
+-Configure settings related to C/C++.   <br/>
+-Specify the operating system of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode.
 
 
 Reference: <br/>
