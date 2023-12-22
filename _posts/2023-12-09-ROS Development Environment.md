@@ -154,9 +154,17 @@ Name |Code Name|Description|
 |Highlight Trailing White Spaces|[ybaumes.highlight-trailing-white-spaces](https://marketplace.visualstudio.com/items?itemName=ybaumes.highlight-trailing-white-spaces)|Emphasis on spaces used without meaning|
 |EOF Mark|[msfukui.eof-mark](https://marketplace.visualstudio.com/items?itemName=msfukui.eof-mark)|Add [EOF] character to files ending without [EOF]|
 |Better Comments|[aaron-bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)|Strengthening comments for keywords such as alert, informational, TODO, etc.|
-
-
-
+​
+*Etc. Recommended Extensions <br/>
+-[ms-azuretools.vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)  <br/>
+-[ms-vscode-remote.remote-ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) <br/>
+-[ms-vscode-remote.remote-ssh-edit](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit) <br/>
+-[ms-vscode-remote.remote-containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) <br/>
+-[ms-python.vscode-pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) <br/>
+-[ms-toolsai.jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) <br/>
+-[dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) <br/>
+-[uctakeoff.vscode-counter](https://marketplace.visualstudio.com/items?itemName=uctakeoff.vscode-counter) <br/>
+-[vscode-icons-team.vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) <br/>
 
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
