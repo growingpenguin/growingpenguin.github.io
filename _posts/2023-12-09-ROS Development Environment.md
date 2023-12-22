@@ -204,7 +204,7 @@ Use "files.associations" to specify file types for ROS-specific filenames like *
 -[c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt)   <br/>
 -Copy and paste the file above, then press Ctrl+x to save and exit.  <br/>
 -Configure settings related to C/C++  <br/>
--Specify the operating system of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode.
+-Specify the operating system of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode. <br/>
 
 
 Reference: <br/>
