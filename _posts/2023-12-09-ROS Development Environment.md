@@ -154,7 +154,10 @@ Name |Code Name|Description|
 |Highlight Trailing White Spaces|[ybaumes.highlight-trailing-white-spaces](https://marketplace.visualstudio.com/items?itemName=ybaumes.highlight-trailing-white-spaces)|Emphasis on spaces used without meaning|
 |EOF Mark|[msfukui.eof-mark](https://marketplace.visualstudio.com/items?itemName=msfukui.eof-mark)|Add [EOF] character to files ending without [EOF]|
 |Better Comments|[aaron-bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)|Strengthening comments for keywords such as alert, informational, TODO, etc.|
-​<br/>
+​
+
+
+<br/>
 *Etc. Recommended Extensions <br/>
 -[ms-azuretools.vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)  <br/>
 -[ms-vscode-remote.remote-ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) <br/>
