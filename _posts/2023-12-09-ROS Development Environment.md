@@ -200,7 +200,7 @@ Specify the ROS version in 'ms-iot.vscode-ros' as '"ros.distro": "foxy"' <br/>
 Set 'deitry.colcon-helper' to use colcon-supported Tasks with '"colcon.provideTasks": true' <br/>
 Use "files.associations" to specify file types for ROS-specific filenames like *.repos, *.world, *.xacro, etc., whose extensions may not be known.<br/>
 
-7) Set C/C++ Properties  
+7) Set C/C++ Properties <br/>
 -C/C++ Related Settings   <br/>
 -[c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt)   <br/>
 -Copy and paste the file above, then press Ctrl+x to save and exit.  <br/>
