@@ -154,7 +154,7 @@ Name |Code Name|Description|
 |Highlight Trailing White Spaces|[ybaumes.highlight-trailing-white-spaces](https://marketplace.visualstudio.com/items?itemName=ybaumes.highlight-trailing-white-spaces)|Emphasis on spaces used without meaning|
 |EOF Mark|[msfukui.eof-mark](https://marketplace.visualstudio.com/items?itemName=msfukui.eof-mark)|Add [EOF] character to files ending without [EOF]|
 |Better Comments|[aaron-bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)|Strengthening comments for keywords such as alert, informational, TODO, etc.|
-​
+​<br/>
 *Etc. Recommended Extensions <br/>
 -[ms-azuretools.vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)  <br/>
 -[ms-vscode-remote.remote-ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) <br/>
@@ -165,7 +165,40 @@ Name |Code Name|Description|
 -[dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) <br/>
 -[uctakeoff.vscode-counter](https://marketplace.visualstudio.com/items?itemName=uctakeoff.vscode-counter) <br/>
 -[vscode-icons-team.vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) <br/>
+<br/>
+4)Set Workspace <br/>
+-"File" > "Add Folder to Workspace..." menu selection <br/>
+-Select folder "robot_ws" <br/>
+​![ROS2 Packages Installation20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9c868a1e-262c-4944-962a-10607e1f2bb1) <br/>
+5)VS Code development environment <br/>
+The below 6~9 steps is the steps to set the VSCode's Development Environment. <br/>
+During the setting process, settings.json / c_cpp_properties.json / tasks.json / launch.json files are used, but if they don't exist, create them in the following positions. <br/>
+Remember that folders and files that have '.' used as a prefix in Linux, remember that these are hidden files or folders <br/>
 
+
+
+
+
+
+
+
+5) VSCode의 개발 환경 설정
+
+참고로 리눅스에서 '.' 이 접두어로 붙은 폴더 및 파일은 숨겨져 있는 폴더나 파일임을 기억하자.
+
+​
+
+~/.config/Code/User/settings.json
+
+~/robot_ws/.vscode/c_cpp_properties.json
+
+~/robot_ws/.vscode/tasks.json
+
+~/robot_ws/.vscode/launch.json
+
+​
+[출처] 001 ROS 2 개발 환경 구축 (오픈소스 소프트웨어 & 하드웨어: 로봇 기술 공유 카페 (오로카)) | 작성자 표윤석
+<br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 https://cafe.naver.com/openrt/25288 <br/>
