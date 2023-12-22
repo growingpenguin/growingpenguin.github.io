@@ -218,8 +218,12 @@ Use "files.associations" to specify file types for ROS-specific filenames like *
 -The following contents made the colcon related 'build, test, clean' tasks when built in ROS 2 to Task.<br/> 
 `Ctrl + Shift + b` : Build in VScode <br/>
 `Ctrl + Shift + p > Tasks: Run Task > Choose the designated Task` : Perform Task besides the basic setting <br/>
-
-
+9)Configure Launch Setting <br/>
+In VSCode, the 'Launch' feature, accessible through 'Run and Debug' (Ctrl + Shift + d), serves as an execution command customizable based on language and debugger preferences. Additionally, you have the option to specify a Task or configure console functionalities before initiating the Launch, either for immediate debugging or subsequent execution.<br/>
+​Here, I've configured VSCode's debugging tools to align with the commonly used Python and C++ languages in ROS 2. <br/>
+For C++, I've set it up to use GDB, and for Python, debugpy.<br/> 
+Specifically, debugging in Python is facilitated without the need for an additional build step, while for C++, it is advisable to execute colcon build before initiating GDB. <br/>
+<br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 https://cafe.naver.com/openrt/25288 <br/>
