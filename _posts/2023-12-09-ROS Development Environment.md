@@ -193,8 +193,8 @@ Ex.미니맵 사용, 세로 제한 줄 표시, 탭 사이즈 등 <br/>
 ![ROS2 Packages Installation22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/275ed86e-673b-4def-97bd-91b17957ffd1) <br/>
 [settings.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749266/settings.json_code.txt) <br/>
 Copy and paste the file above => Ctrl+x to save and edit<br/>
--Specialized User Settings<br/>
-- In the `settings.json` file located at `~/.config/Code/User/`, configure as above:  
+-Specialized User Settings <br/>
+-In the `settings.json` file located at `~/.config/Code/User/`, configure as above:   <br/>
 -ROS Related Settings  <br/>
 Specify the ROS version in 'ms-iot.vscode-ros' as '"ros.distro": "foxy"' <br/>
 Set 'deitry.colcon-helper' to use colcon-supported Tasks with '"colcon.provideTasks": true' <br/>
