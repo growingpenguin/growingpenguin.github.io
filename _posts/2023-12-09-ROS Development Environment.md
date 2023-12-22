@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/49c728e7-de3e-4d9c-b88a-4ff060f03be6)---
 layout: post
 title:  "1. Build ROS Environment"
 ---
@@ -201,7 +201,7 @@ Set 'deitry.colcon-helper' to use colcon-supported Tasks with '"colcon.provideTa
 Use "files.associations" to specify file types for ROS-specific filenames like *.repos, *.world, *.xacro, etc., whose extensions may not be known.<br/>
 7)Set C/C++ Properties <br/>
 -C/C++ Related Settings   <br/>
-![ROS2 Packages Installation25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5afffa00-88eb-4ca0-a2c3-ce7a0d138062)
+![ROS2 Packages Installation25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5afffa00-88eb-4ca0-a2c3-ce7a0d138062) <br/>
 ![ROS2 Packages Installation24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/815e5895-bb59-4bb4-b086-6c1dc99ecc31) <br/>
 -[c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt)   <br/>
 -Copy and paste the file above, then press Ctrl+x to save and exit.  <br/>
@@ -209,8 +209,8 @@ Use "files.associations" to specify file types for ROS-specific filenames like *
 -Specify the os of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode. <br/>
 <br/>
 8)Set Tasks <br/>
-![ROS2 Packages Installation26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ca957bea-4550-47ad-9ab8-c1b880445362)
-
+![ROS2 Packages Installation27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/49942187-be23-48a1-bbfe-e5a9adcd6826) <br/>
+![ROS2 Packages Installation26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ca957bea-4550-47ad-9ab8-c1b880445362) <br/>
 -Within VSCode, a pivotal feature known as Tasks seamlessly integrates external programs through the CLI(Command Line Interface). This functionality, aptly named the Task function, empowers VSCode beyond its fundamental role as a basic text editor. <br/>
 -By harnessing the Task function, users can effortlessly execute diverse operations and seamlessly incorporate functional extensions. <br/>
 -The following contents made the colcon related 'build, test, clean' tasks when built in ROS 2 to Task.<br/> 
