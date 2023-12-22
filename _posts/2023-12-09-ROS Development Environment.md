@@ -201,11 +201,11 @@ Set 'deitry.colcon-helper' to use colcon-supported Tasks with '"colcon.provideTa
 Use "files.associations" to specify file types for ROS-specific filenames like *.repos, *.world, *.xacro, etc., whose extensions may not be known.<br/>
 7)Set C/C++ Properties <br/>
 -C/C++ Related Settings   <br/>
+![ROS2 Packages Installation24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/815e5895-bb59-4bb4-b086-6c1dc99ecc31) <br/>
 -[c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt)   <br/>
 -Copy and paste the file above, then press Ctrl+x to save and exit.  <br/>
 -Configure settings related to C/C++  <br/>
 -Specify the os of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode. <br/>
-![ROS2 Packages Installation24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/815e5895-bb59-4bb4-b086-6c1dc99ecc31) <br/>
 
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
