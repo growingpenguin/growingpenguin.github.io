@@ -201,6 +201,7 @@ Set 'deitry.colcon-helper' to use colcon-supported Tasks with '"colcon.provideTa
 Use "files.associations" to specify file types for ROS-specific filenames like *.repos, *.world, *.xacro, etc., whose extensions may not be known.<br/>
 7)Set C/C++ Properties <br/>
 -C/C++ Related Settings   <br/>
+![ROS2 Packages Installation25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5afffa00-88eb-4ca0-a2c3-ce7a0d138062)
 ![ROS2 Packages Installation24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/815e5895-bb59-4bb4-b086-6c1dc99ecc31) <br/>
 -[c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt)   <br/>
 -Copy and paste the file above, then press Ctrl+x to save and exit.  <br/>
