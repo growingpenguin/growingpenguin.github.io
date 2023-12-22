@@ -207,6 +207,13 @@ Use "files.associations" to specify file types for ROS-specific filenames like *
 -Copy and paste the file above, then press Ctrl+x to save and exit.  <br/>
 -Configure settings related to C/C++  <br/>
 -Specify the os of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode. <br/>
+<br/>
+8)Set Tasks <br/>
+-Within VSCode, a pivotal feature known as Tasks seamlessly integrates external programs through the CLI(Command Line Interface). This functionality, aptly named the Task function, empowers VSCode beyond its fundamental role as a basic text editor. <br/>
+-By harnessing the Task function, users can effortlessly execute diverse operations and seamlessly incorporate functional extensions. <br/>
+-The following contents made the colcon related 'build, test, clean' tasks when built in ROS 2 to Task.<br/> 
+`Ctrl + Shift + b` : Build in VScode <br/>
+`Ctrl + Shift + p > Tasks: Run Task > Choose the designated Task` : Perform Task besides the basic setting <br/>
 
 
 Reference: <br/>
