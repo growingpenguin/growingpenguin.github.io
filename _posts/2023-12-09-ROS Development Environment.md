@@ -194,7 +194,7 @@ Ex.미니맵 사용, 세로 제한 줄 표시, 탭 사이즈 등 <br/>
 [settings.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749266/settings.json_code.txt) <br/>
 Copy and paste the file above => Ctrl+x to save and edit<br/>
 -Specialized User Settings<br/>
--In the settings.json file located at ~/.config/Code/User/, configure as above:<br/>
+-In the settings.json file located at (~/.config/Code/User/), configure as above:<br/>
 -ROS Related Settings <br/>
 'ms-iot.vscode-ros'의 '"ros.distro": "foxy"'와 같이 ROS 버전 지정<br/>
 'deitry.colcon-helper'의 '"colcon.provideTasks": true'와 같이 colcon이 지원되는 Task를 사용한다는 의미로 지정 <br/>
