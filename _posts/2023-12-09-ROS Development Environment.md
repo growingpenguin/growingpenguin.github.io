@@ -194,18 +194,18 @@ Ex.미니맵 사용, 세로 제한 줄 표시, 탭 사이즈 등 <br/>
 [settings.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749266/settings.json_code.txt) <br/>
 Copy and paste the file above => Ctrl+x to save and edit<br/>
 -Specialized User Settings<br/>
--In the settings.json file located at (~/.config/Code/User/), configure as above:<br/>
--ROS Related Settings <br/>
-'ms-iot.vscode-ros'의 '"ros.distro": "foxy"'와 같이 ROS 버전 지정<br/>
-'deitry.colcon-helper'의 '"colcon.provideTasks": true'와 같이 colcon이 지원되는 Task를 사용한다는 의미로 지정 <br/>
-"files.associations"을 통해 확장자로 알 수 없는 *.repos, *.world, *.xacro 와 같이 ROS에서만 사용되는 파일명을 파일 형식이 무엇인지 명시해주는 설정 <br/>
-<br/>
-7)Set C/C++ properties <br/>
-C/C++ Related Settings. <br/>
-[c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt) <br/>
-Copy and paste the file above => Ctrl+x to save and edit <br/>
--Configure settings related to C/C++. <br/>
--Specify the os of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode. <br/>
+- In the `settings.json` file located at `~/.config/Code/User/`, configure as above:
+- ROS Related Settings 
+  - Specify the ROS version in 'ms-iot.vscode-ros' as '"ros.distro": "foxy"'
+  - Set 'deitry.colcon-helper' to use colcon-supported Tasks with '"colcon.provideTasks": true'
+  - Use "files.associations" to specify file types for ROS-specific filenames like *.repos, *.world, *.xacro, etc., whose extensions may not be known.
+
+7) Set C/C++ Properties
+   - C/C++ Related Settings
+   - [c_cpp_properties.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749451/c_cpp_properties.json_code.txt)
+   - Copy and paste the file above, then press Ctrl+x to save and exit.
+   - Configure settings related to C/C++. 
+   - Specify the operating system of the current designated workspace (~/robot_ws), define the path for the include folder, determine the standard C/C++ rules to be used, set the compilation path, and establish the IntelliSense mode.
 
 
 Reference: <br/>
