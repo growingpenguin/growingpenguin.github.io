@@ -181,7 +181,17 @@ Please note that in Linux, folders and files with a '.' as a prefix are consider
 ~/robot_ws/.vscode/tasks.json <br/>
 ~/robot_ws/.vscode/launch.json <br/>
 
+6) Set User settings <br/>
+'settings.json'은 VSCode의 사용자별 글로벌 환경 설정을 지정하는 파일이다. 이 파일에 기술된 설정들은 모든 작업 공간(workspace)에서 적용된다. <br/>
+Ex. 미니맵 사용, 세로 제한 줄 표시, 탭 사이즈 등 <br/>
+<br/>
+![ROS2 Packages Installation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/561b27fd-e998-4688-9bfa-e0f8c0dae445)
+-나는 settings.json file이 없음을 확인.. <br/>
+<br/>
 
+​
+
+ROS와 관련된 설정은 아래 3가지 정도로 'ms-iot.vscode-ros'의 '"ros.distro": "foxy"'와 같이 ROS 버전을 지정하고, 'deitry.colcon-helper'의 '"colcon.provideTasks": true'와 같이 colcon이 지원되는 Task를 사용한다는 의미로 지정한다. 그리고 "files.associations"을 통해 확장자로 알 수 없는 *.repos, *.world, *.xacro 와 같이 ROS에서만 사용되는 파일명을 파일 형식이 무엇인지 명시해주는 설정을 하게된다.
 <br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
