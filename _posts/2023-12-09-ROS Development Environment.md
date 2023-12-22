@@ -126,23 +126,35 @@ Name |Code Name|Description|
 |Markdown All in One|[ms-vscode.cmake-tools](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)|Support Markdown|
 
 
-[IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) : Term for various code editing features including: code completion, parameter info, quick info, and member lists <br/>
-[Debugging support](https://code.visualstudio.com/docs/editor/debugging) : Visual Studio Code's built-in debugger helps accelerate your Edit, Compile, and Debug loop. <br/> 
-[CMake Language](https://medium.com/@yjo/cmake%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-9a0091adafb) : Build system generator and configuration tool. CMake provides a platform-independent way to specify how a software project should be built and helps generate native build files (e.g., makefiles or project files for IDEs) for various operating systems and build environments.<br/>
+XML: Markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable <br/>
+XQuery : Query language designed for querying and manipulating XML data <br/> 
+XPath : Language used for navigating XML documents and selecting nodes from the document's structure <br/>
+YAML: Human-readable data serialization format. Often used for configuration files and data exchange between languages with different data structures. YAML stands out for its simplicity and readability, making it easy for both humans and machines to understand.<br/>
+Markdown: Lightweight markup language that allows you to write plain text using a format that is easy to read and write, while also providing a simple way to add formatting and structure <br/>
 
-File Format Extensions (VS Code Extensions for XML, YAML, Markdown) <br/>
+ROS Extensions (VS Code Extensions for ROS, URDF, Colcon) <br/>
 
 
 Name |Code Name|Description|
 |---|:---|:---:|
-|XML Tools|[dotjoshjohnson.xml](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)|Support XML, XQuery, XPath|
-|YAML|[redhat.vscode-yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)|Support YAML|
-|Markdown All in One|[ms-vscode.cmake-tools](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)|Support Markdown|
+|ROS|[ms-iot.vscode-ros](https://marketplace.visualstudio.com/items?itemName=ms-iot.vscode-ros)|Support for ROS Development|
+|URDF|[smilerobotics.urdf](https://marketplace.visualstudio.com/items?itemName=smilerobotics.urdf)|Support for URDF/xacro|
+|Colcon Tasks|[deitry.colcon-helper](https://marketplace.visualstudio.com/items?itemName=deitry.colcon-helper)|VSCode Task for Colcon Query|
 
 
-[IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) : Term for various code editing features including: code completion, parameter info, quick info, and member lists <br/>
-[Debugging support](https://code.visualstudio.com/docs/editor/debugging) : Visual Studio Code's built-in debugger helps accelerate your Edit, Compile, and Debug loop. <br/> 
-[CMake Language](https://medium.com/@yjo/cmake%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-9a0091adafb) : Build system generator and configuration tool. CMake provides a platform-independent way to specify how a software project should be built and helps generate native build files (e.g., makefiles or project files for IDEs) for various operating systems and build environments.<br/>
+ROS: Open-source middleware framework designed to develop software for robots <br/>
+URDF : XML-based file format used in ROS to describe the structure of a robot <br/> 
+Colcon : Command-line tool used in ROS for building and managing ROS packages <br/> 
+<br/> 
+Useful Extensions (VS Code Extensions for Etc) <br/>
+
+
+Name |Code Name|Description|
+|---|:---|:---:|
+|Highlight Trailing White Spaces|[ybaumes.highlight-trailing-white-spaces](https://marketplace.visualstudio.com/items?itemName=ybaumes.highlight-trailing-white-spaces)|Emphasis on spaces used without meaning|
+|EOF Mark|[msfukui.eof-mark](https://marketplace.visualstudio.com/items?itemName=msfukui.eof-mark)|Add [EOF] character to files ending without [EOF]|
+|Better Comments|[aaron-bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)|Strengthening comments for keywords such as alert, informational, TODO, etc.|
+
 
 
 
