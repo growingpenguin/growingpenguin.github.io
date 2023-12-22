@@ -193,7 +193,7 @@ Ex.미니맵 사용, 세로 제한 줄 표시, 탭 사이즈 등 <br/>
 ![ROS2 Packages Installation22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/275ed86e-673b-4def-97bd-91b17957ffd1) <br/>
 [settings.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749266/settings.json_code.txt) <br/>
 Copy and paste the file above => Ctrl+x to save and edit <br/>
--User settings 설정의 전문 <br/>
+-User settings 설정의 전문<br/>
 -~/.config/Code/User/ 에 위치한 settings.json 에 다음과 같이 설정<br/>
 -ROS Related Settings <br/>
 'ms-iot.vscode-ros'의 '"ros.distro": "foxy"'와 같이 ROS 버전 지정 <br/>
