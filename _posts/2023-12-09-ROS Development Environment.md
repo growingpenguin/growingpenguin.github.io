@@ -188,12 +188,15 @@ Ex.미니맵 사용, 세로 제한 줄 표시, 탭 사이즈 등 <br/>
 ![ROS2 Packages Installation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/561b27fd-e998-4688-9bfa-e0f8c0dae445) <br/>
 나는 settings.json file이 없음을 확인.. <br/>
 <br/>
-
+![ROS2 Packages Installation23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/34bbd971-26c3-4978-ae5f-03cab44f95c8)
 ​새로 settings.json file을 nano editor를 사용해서 만듦 <br/>
-
-Ctrl+x: copy and paste <br/>
-
-ROS와 관련된 설정은 아래 3가지 정도로 'ms-iot.vscode-ros'의 '"ros.distro": "foxy"'와 같이 ROS 버전을 지정하고, 'deitry.colcon-helper'의 '"colcon.provideTasks": true'와 같이 colcon이 지원되는 Task를 사용한다는 의미로 지정한다. 그리고 "files.associations"을 통해 확장자로 알 수 없는 *.repos, *.world, *.xacro 와 같이 ROS에서만 사용되는 파일명을 파일 형식이 무엇인지 명시해주는 설정을 하게된다.
+![ROS2 Packages Installation22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/275ed86e-673b-4def-97bd-91b17957ffd1) <br/>
+[settings.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13749266/settings.json_code.txt) <br/>
+Copy and paste the file above => Ctrl+x to save and edit <br/>
+ROS와 관련된 설정은 아래 3가지 정도 <br/>
+'ms-iot.vscode-ros'의 '"ros.distro": "foxy"'와 같이 ROS 버전 지정 <br/>
+'deitry.colcon-helper'의 '"colcon.provideTasks": true'와 같이 colcon이 지원되는 Task를 사용한다는 의미로 지정 <br/>
+"files.associations"을 통해 확장자로 알 수 없는 *.repos, *.world, *.xacro 와 같이 ROS에서만 사용되는 파일명을 파일 형식이 무엇인지 명시해주는 설정을 함 <br/>
 <br/>
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
