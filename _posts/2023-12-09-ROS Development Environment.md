@@ -184,8 +184,7 @@ Please note that in Linux, folders and files with a '.' as a prefix are consider
 6) Set User settings <br/>
 'settings.json'은 VSCode의 사용자별 글로벌 환경 설정을 지정하는 파일이다. 이 파일에 기술된 설정들은 모든 작업 공간(workspace)에서 적용된다. <br/>
 Ex. 미니맵 사용, 세로 제한 줄 표시, 탭 사이즈 등 <br/>
-<br/>
-![ROS2 Packages Installation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/561b27fd-e998-4688-9bfa-e0f8c0dae445)<br/>
+![ROS2 Packages Installation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/561b27fd-e998-4688-9bfa-e0f8c0dae445) <br/>
 -나는 settings.json file이 없음을 확인.. <br/>
 <br/>
 
