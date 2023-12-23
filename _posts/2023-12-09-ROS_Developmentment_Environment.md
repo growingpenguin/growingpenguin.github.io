@@ -158,7 +158,7 @@ Name |Code Name|Description|
 
 
 <br/>
-*Etc. Recommended Extensions <br/>
+Etc. Recommended Extensions <br/>
 -[ms-azuretools.vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)  <br/>
 -[ms-vscode-remote.remote-ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) <br/>
 -[ms-vscode-remote.remote-ssh-edit](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit) <br/>
