@@ -237,9 +237,26 @@ Specifically, debugging in Python is facilitated without the need for an additio
 <br/>
 10)Build <br/>
 -`Ctrl + Shift + b` : Build in VScode <br/>
-
-
+11)Debugging <br/>
+-`Ctrl + Shift + d` : Build in VScode. Debug respective of each language by referring to the GIF picture and implementation order <br/> 
+11-1.rclcpp <br/>
+-Move using Run and Debug (`Ctrl + Shift + d`) <br/>
+-Select "Debug-rclcpp(gbd)" <br/>
+-Input "Package name" (Ex. topic_service_action_rclcpp_example) <br/>
+-Input "node name" (ex. argument) <br/>
+-Click Start Debugging(`F5`) <br/>
+11-2.rclpy <br/>
+-Move using Run and Debug (`Ctrl + Shift + d`) <br/>
+-Select "Debug-rclpy(debugpy)" <br/>
+-Click Start Debugging (`F5`) <br/>
 <br/>
+### 6.2 QtCreator 
+1)Installation <br/>
+QtCreator is already installed above. <br/>
+2)Implementation <br/>
+QtCreator is useful to use as a sub when writing a UI in RQt's Plugin development  <br/>
+
+
 Reference: <br/>
 https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 https://cafe.naver.com/openrt/25288 <br/>
