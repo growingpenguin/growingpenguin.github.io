@@ -66,11 +66,14 @@ ROS 2에서는 노드 시작할 때뿐만 아니라 실행 도중에 다시 각 
 ROS 2에서는 기존 시리얼 통신, 블루투스 및 와이파이 통신을 지원하거나 RTOS (Real-Time Operating System)를 사용하고 기존 DDS 대신 eXtremely Resource Constrained Environments (DDS-XRCE)를 사용 하는 등 임베디드 보드에서 직접 ROS 프로그래밍을 하여 하드웨어 펌웨어로 구현된 노드를 실행할 수도 있다. <br/> 
 
 ## 3. ROS 2 and DDS (Data Distribution Service)
-1. ROS의 메시지 통신 <br/>
-ROS에서는 프로그램의 재사용성을 극대화하기 위하여 최소 단위의 실행 가능한 프로세서라고 정의하는 노드(node) 단위의 프로그램을 작성하게 된다. 이는 하나의 실행 가능한 프로그램으로 생각하면 된다. 그리고 하나 이상의 노드 또는 노드 실행을 위한 정보 등을 묶어 놓은 것을 패키지(package)라고 하며, 패키지의 묶음을 메타패키지(metapackage)라 하여 따로 분리한다. <br/>
--실제 실행 프로그램인 노드(node)가 제일 중요. ROS에서는 최소한의 실행 단위로 프로그램을 나누어 프로그래밍하기 때문에 노드는 각각 별개의 프로그램이다. 이에 수많은 노드(node)들이 연동되는 ROS 시스템을 위해서는 노드(node)와 노드(node) 사이에 입력과 출력 데이터를 서로 주고받게 설계해야만 한다. <br/>
--주고받는 데이터를 ROS에서는 메시지(message)라고 하고 주고받는 방식을 메시지 통신이라고 한다. 여기서 데이터에 해당되는 메시지(message)는 integer, floating point, boolean, string 와 같은 변수 형태이며 메시지 안에 메시지를 품고 있는 간단한 데이터 구조 및 메시지들의 배열과 같은 구조도 사용할 수 있다. <br/>
--메시지를 주고받는 통신 방법에 따라 토픽(topic), 서비스(service), 액션(action), 파라미터(prameter)로 구분됨. <br/>
+ROS Message Communication <br/>
+In ROS (Robot Operating System), programs are written in units of **nodes**, which are defined as the smallest executable processors for maximizing program reusability. Think of a node as a single executable program. A **package** is a collection of one or more nodes or information necessary for node execution, and a group of packages is referred to as a **metapackage**, which is separately categorized. <br/>
+-The actual executable program, the **node**, is crucial in ROS. Since ROS divides programs into the smallest executable units, each node is its own separate program.  <br/>
+-For a ROS system with numerous interconnected nodes, it's essential to design these nodes to exchange input and output data with each other.  <br/>
+-The data exchanged between nodes in ROS is referred to as a **message**, and this process is called **message communication**.
+-**Messages** correspond to data and can be in variable forms like integer, floating point, boolean, string, etc. They can also include simple data structures like messages within messages, and arrays of messages.
+-The method of communication using **messages** is categorized into topics, services, actions, and parameters.
+
 ![ROS2 Packages Installation32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/89eac378-49e7-49f6-ab93-f3310f6a2a8a)
 
 ​
