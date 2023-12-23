@@ -98,41 +98,60 @@ Figure 3: Ease of the Programmer or User's DDS use <br/>
 DDS: Stands for Data Distribution Service, a trademark established by OMG (Object Management Group) as a standard term. Essentially, it's just a term, but its actual substance is middleware for data communication. <br/>
 -Understanding the essential concepts required for ROS programming should suffice. <br/>
 ​-The Data Distribution Service(DDS) is a middleware protocol and API standard for data-centric(데이터를 중심으로 연결성을 갖는) connectivity from the Object Management Group® (OMG®). It integrates the components of a system together, providing low-latency data connectivity, extreme reliability, and a scalable architecture that business and mission-critical Internet of Things (IoT) applications need. <br/>
--In essence, DDS represents the concept of a Data Distribution System. In practical terms, it comprises middleware APIs that satisfy DDS specifications (such as DDSI-RTPS). This middleware corresponds to the host layers (layers 4 to 7) in the ISO 7-layer model. In ROS 2, as mentioned earlier and illustrated in Figure 4, this middleware acts as a software layer between the operating system and user applications. Through this, it enables the various components of the system to communicate more easily and share data. <br/>
+-In essence, DDS represents the concept of a Data Distribution System. In practical terms, it comprises middleware APIs that satisfy DDS specifications (such as DDSI-RTPS). This middleware corresponds to the host layers (layers 4 to 7) in the ISO 7-layer model. In ROS 2, as mentioned earlier and illustrated in Figure 3, this middleware acts as a software layer between the operating system and user applications. Through this, it enables the various components of the system to communicate more easily and share data. <br/>
 Figure 4: DDS as middleware <br/>
 ![ROS2 Packages Installation35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/171c1830-d86f-4025-af80-26346b19dc76) <br/>
 <br/>
-
 Footnote <br/>
 Middleware: <br/>
 Software layer that lies between the operating system and applications. It enables the various components of a system to more easily communicate and share data. It simplifies the development of distributed systems by letting software developers focus on the specific purpose of their applications rather than the mechanics of passing information between applications and systems. <br/>
+## 4. Feature of DDS 
+There are ten major advantages by using DDS(Data Distribution Service) as middleware in ROS 2. <br/>
+
+### 4-1.Industry Standards
+DDS, established by the non-profit organization Object Management Group(OMG: 객체 관리 그룹) in 1989 to standardize technologies for distributed objects, has solidified its position as an industry standard. OMG has previously led ISO-approved standards for UML, SysML, CORBA, and others. The standardization efforts for DDS, initiated in 2001, have progressed well, and today, it serves as the foundation for industry standards in systems like OpenFMB, Adaptive AUTOSAR, MD PnP, GVA, NGVA, and ROS 2. <br/>
+-While TCPROS in ROS 1 had the distinctive characteristic of being its own middleware, the adoption of DDS in ROS 2 has broadened its applicability, aligning with industrial standards. This transition positions the Robot Operating System (ROS) as a solid foundation for expansion into diverse fields such as IoT, automotive(자동차), defense(국방), aerospace(항공), and space exploration(우주 분야). <br/>
+
+### 4-2.OS Independent
+DDS supports a variety of os, including Linux, Windows, macOS, Android, VxWorks, etc. Therefore, users do not need to change the os they are currently using. This makes DDS very suitable for ROS 2, which is based on the concept of supporting multiple operating systems."  <br/>
 
 
+### 4-3.Language Independent
+Since DDS (Data Distribution Service) is middleware, at the user code level, which can be seen as a higher level, there is no need to change the programming language that was previously used to utilize DDS. This feature is fully leveraged in ROS 2, where DDS has been designed as RMW (ROS Middleware), as shown in Figure 6. Different RMWs have been developed for each vendor. On top of this, to support user code, a ROS Client Library (ROS Client Library) has been developed that supports various languages like rclcpp, rclc, rclpy, rcljava, rclobjc, rclada, rclgo, rclnodejs, and others, thereby providing support for multiple programming languages.  <br/>
+Figure 6: ROS's RMW, RCL, User Application <br/>
+![ROS2 Packages Installation36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1de70f2e-8d0b-44ba-8367-e53f2747867e) <br/>
+Footnote <br/>
+-DDS as Middleware:  <br/>
+DDS, or Data Distribution Service, is a type of software that helps different parts of a system, like a robot, to communicate with each other. Being middleware means it works in the background, connecting various components without interfering with the main programming that developers do.
+-No Need to Change Programming Language: <br/>
+One key advantage of DDS is that it doesn't require developers to change the programming language they are already using. Since DDS operates at a level above the user's code (like a helpful assistant working behind the scenes), developers can continue using whatever programming language they are comfortable with.
+-Integration in ROS 2:  <br/>
+In ROS 2 (Robot Operating System version 2), DDS is used as RMW (ROS Middleware). This means it's specifically tailored to help different parts of a ROS-based system communicate seamlessly.  <br/>
+-Different RMWs for Different Vendors:  <br/>
+Since different companies (vendors) might have slightly different requirements or systems, different versions of RMW have been developed to cater to these variations. <br/>
+-ROS Client Library for Various Languages:  <br/>
+On top of DDS and RMW, ROS 2 also provides a ROS Client Library. This library supports multiple programming languages like C++, Python, Java, Objective-C, Ada, Go, Node.js, etc. The purpose of this library is to make it easier for developers to write their code in the language they prefer while still being able to use all the functionalities of ROS 2. <br/>
 
-"In essence, DDS represents the concept of a Data Distribution System. In practical terms, it comprises middleware APIs that satisfy DDS specifications (such as DDSI-RTPS). This middleware corresponds to the host layers (layers 4 to 7) in the ISO 7-layer model. In ROS 2, as mentioned earlier and illustrated in Figure 3, this middleware acts as a software layer between the operating system and user applications. Through this, it enables the various components of the system to communicate more easily and share data."
+### 4-4.Transport on UDP/IP
+Typically employs a reliable multicast(신뢰성 있는 멀티캐스트) over UDP, allowing systems to efficiently leverage the advantages of modern networking infrastructure. This shift to UDP-based multicast is a significant departure from TCPROS in ROS 1, which was TCP-based. Like broadcast, UDP multicast enables simultaneous data transmission to multiple destinations, but specifically within a defined domain group rather than an unspecified destination.(In ROS 2, the domain is set using the ROS_DOMAIN_ID environment variable) <br/>
+-With the introduction of this multicast approach, ROS 2 enables subscription and publication for topics in the DDS Global Space, referred to as the global space(전역 공간). UDP, being a best-effort protocol, has its pros and cons compared to the reliable TCP, but these are addressed and complemented through Quality of Service (QoS), which will be explained later.
 
 
+### 4-5.Data Centricity
+While there are various middleware options, one commonly heard phrase, especially when using DDS, is **Data Centric**(데이터 중심적). The DDS specification(사양) introduces the concept of DCPS(Data-Centric Publish-Subscribe), aiming to efficiently deliver appropriate information to the suitable recipients through a publication(발간) and subscription(구독) method. From a user's perspective using DDS middleware, functionalities related to understanding the type of data, its format, how to send it, and how to securely transmit it are integrated into the DDS middleware. <br/>
+Figure7: Visualization of Data Centricity <br/>
+![ROS2 Packages Installation37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0c235586-af3c-4ef3-ad97-d7417253c5d4)
 
+### 4-6.Dynamic Discovery
 
+### 4-7.Scalable Architecture
 
+### 4-8.Interoperability
 
+### 4-9.Quality of Service (QoS)
 
-
-
-
-
-
-
-
-
-The Data Distribution Service (DDS™) is a middleware protocol and API standard for data-centric connectivity from the Object Management Group® (OMG®). It integrates the components of a system together, providing low-latency data connectivity, extreme reliability, and a scalable architecture that business and mission-critical Internet of Things (IoT) applications need.
-
+### 4-10.Security
 ​
-
-
-
-즉, DDS는 데이터 분산 시스템이라는 개념을 나타내는 단어이고 실제로는 데이터를 중심으로 연결성을 갖는 미들웨어의 프로토콜(DDSI-RTPS, [30])과 같은 DDS 사양[31]을 만족하는 미들웨어 API가 그 실체이다. 이 미들웨어는 그림 4와 같이 ISO 7 계층 레이어[32]에서 호스트 계층(Host layers)에 해당되는 4~7 계층에 해당되고 ROS 2에서는 위에서 언급한 그림 3과 같이 운영 체제와 사용자 애플리케이션 사이에 있는 소프트웨어 계층으로 이를 통해 시스템의 다양한 구성 요소를 보다 쉽게 통신하고 데이터를 공유할 수 있게 된다.
-
 
 
 Reference: <br/>
