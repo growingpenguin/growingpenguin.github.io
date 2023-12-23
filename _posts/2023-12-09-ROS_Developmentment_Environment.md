@@ -260,7 +260,7 @@ QtCreator is useful to use as a sub when writing a UI in RQt's Plugin developmen
 ### 6.3 QtCreator ROS
 1)Installation <br/> 
 ROS Qt Creator Plug-in는 ROS-Industrial 컨소시엄에서 ROS의 통일된 개발 환경 구축을 위해 QtCreator의 플러그인 형태로 만든 것으로 ROS-Industrial 컨소시엄 멤버들간에 공통 개발 환경으로 사용함. <br/>
--일반적인 QtCreator에 ROS 개발 환경 설정을 더 편하게 해놓은 것으로 QtCreator를 기본 IDE로 사용하고자 한다면 사용해보기를 추천. QtCreator를 ROS 2의 IDE로 설정하려면 아래의 `Installation Instructions (Users)` 항목에서 신규 qtcreator-ros를 다운로드 받고 설정은 아래 링크의 도움말 참고하. <br/>
+-일반적인 QtCreator에 ROS 개발 환경 설정을 더 편하게 해놓은 것으로 QtCreator를 기본 IDE로 사용하고자 한다면 사용해보기를 추천. QtCreator를 ROS 2의 IDE로 설정하려면 아래의 `Installation Instructions (Users)` 항목에서 신규 qtcreator-ros를 다운로드 받고 설정은 아래 링크의 도움말 참. <br/>
 https://ros-qtc-plugin.readthedocs.io/en/latest/index.html <br/>
 
 ### 6.4 Other Options
