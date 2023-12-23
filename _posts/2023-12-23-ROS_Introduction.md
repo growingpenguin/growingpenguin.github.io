@@ -90,6 +90,8 @@ Figure 2: Structural Evolution in ROS with the Adoption of DDS <br/>
 -The use of DDS supports dynamic discovery of nodes, which means that unlike ROS 1, where ROS Master managed the information of each node, various DDS programs can communicate without the need for a ROS Master. Furthermore, DDS allows for detailed adjustment of data communication between nodes through QoS (Quality of Service) settings. This means that you can configure communication to prevent data loss like TCP or prioritize communication speed like UDP. <br/>
 The adoption of DDS, particularly DDS-Security, has also brought significant benefits in terms of security for industrial use. With these various features of DDS, ROS 2 not only enhances publish-subscribe style message delivery from ROS 1 but also strengthens real-time data transmission, response to unstable networks, and security. <br/>
 The adoption of DDS is one of the most significant changes in the transition from ROS 1 to ROS 2. As illustrated in Figure 3, it reduces the development and usage burden of **communication middleware** for developers and users, allowing them to devote more time to more critical aspects of their work. For more detailed information about DDS, refer to the resources and related articles mentioned in the text.  <br/>
+Figure 3: Ease of the Programmer or User's DDS use <br/>
+![ROS2 Packages Installation34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6a491333-581b-434b-aa49-749dc426dac8)
 
 
 
