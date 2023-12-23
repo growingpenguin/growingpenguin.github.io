@@ -213,6 +213,7 @@ Use "files.associations" to specify file types for ROS-specific filenames like *
 ![ROS2 Packages Installation26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ca957bea-4550-47ad-9ab8-c1b880445362) <br/>
 [tasks.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13751962/tasks.json_code.txt) <br/>
 -Copy and paste the file above, then press Ctrl+x to save and exit. <br/>
+Make a new tasks.json file using nano editor
 -Within VSCode, a pivotal feature known as Tasks seamlessly integrates external programs through the CLI(Command Line Interface). This functionality, aptly named the Task function, empowers VSCode beyond its fundamental role as a basic text editor. <br/>
 -By harnessing the Task function, users can effortlessly execute diverse operations and seamlessly incorporate functional extensions. <br/>
 -The following contents made the colcon related 'build, test, clean' tasks when built in ROS 2 to Task.<br/> 
