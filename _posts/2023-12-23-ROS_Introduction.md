@@ -66,20 +66,26 @@ ROS 2에서는 노드 시작할 때뿐만 아니라 실행 도중에 다시 각 
 ROS 2에서는 기존 시리얼 통신, 블루투스 및 와이파이 통신을 지원하거나 RTOS (Real-Time Operating System)를 사용하고 기존 DDS 대신 eXtremely Resource Constrained Environments (DDS-XRCE)를 사용 하는 등 임베디드 보드에서 직접 ROS 프로그래밍을 하여 하드웨어 펌웨어로 구현된 노드를 실행할 수도 있다. <br/> 
 
 ## 3. ROS 2 and DDS (Data Distribution Service)
-ROS Message Communication <br/>
+### 3-1.ROS Message Communication <br/>
 In ROS (Robot Operating System), programs are written in units of **nodes**, which are defined as the smallest executable processors for maximizing program reusability. Think of a **node** as a single executable program. A **package** is a collection of one or more nodes or information necessary for node execution, and a group of packages is referred to as a **metapackage**, which is separately categorized. <br/>
 -The actual executable program, the **node**, is crucial in ROS. Since ROS divides programs into the smallest executable units, each **node** is its own separate program.  <br/>
 -For a ROS system with numerous interconnected nodes, it's essential to design these nodes to exchange input and output data with each other.  <br/>
 -The data exchanged between nodes in ROS is referred to as a **message**, and this process is called **message communication**. <br/>
 -**Messages** correspond to data and can be in variable forms like integer, floating point, boolean, string, etc. They can also include simple data structures like messages within messages, and arrays of messages. <br/>
--The method of communication using **messages** is categorized into topics, services, actions, and parameters.
-
-![ROS2 Packages Installation32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/89eac378-49e7-49f6-ab93-f3310f6a2a8a)
-
-​
+-The method of communication using **messages** is categorized into topics, services, actions, and parameters. <br/>
+![ROS2 Packages Installation32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/89eac378-49e7-49f6-ab93-f3310f6a2a8a) <br/>
+Footnote <br/>
 Processor? <br/>
 A processor, also known as a central processing unit (CPU), is a key component of a computer that performs most of the processing tasks within the system. It acts as the "brain" of the computer, executing instructions from a computer program by performing basic arithmetic, logic, control, and input/output (I/O) operations.<br/>
 -The processor interprets and carries out instructions stored in the computer's memory, manipulating data to produce the desired output. It plays a critical role in determining a computer's overall performance, and its speed is often measured in GHz(gigahertz), indicating the number of cycles it can execute per second..<br/>
+
+### 3-2.ROS 2 and DDS 
+-In ROS (Robot Operating System), the method of communication using **messages** is categorized into topics, services, actions, and parameters. While each method of **message communication** serves different purposes and is used differently, they all apply the concepts of **publishing**(sending out information) and **subscribing**(receiving information). <br/>
+-This concept of **publishing**(sending out information) and **subscribing**(receiving information) data remains a very important concept in both ROS 1 and ROS 2, but the communication libraries used for this technology differ between the two versions. In ROS 1, custom-developed communication libraries like TCPROS were used. On the other hand, ROS 2 employs a standardized communication method by the Object Management Group (OMG), namely DDS (Data Distribution Service). Specifically, ROS 2 uses DDSI-RTPS (Real Time Publish Subscribe), a real-time publish-subscribe protocol of DDS. <br/>
+-During the early development of ROS 2, there were proposals to improve the existing TCPROS or use **middleware-like approaches** with ZeroMQ, Protocol Buffers, and Zeroconf. However, the importance of adopting a standardized method for the industrial market was emphasized. Instead of creating a proprietary solution as in ROS 1, it was decided to use DDS, which was already establishing an industry standard and an ecosystem. The adoption of DDS significantly changed the layout of ROS, as illustrated in Figure 2. <br/>
+![ROS2 Packages Installation33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f3ee39ce-2383-4492-b6f1-a3175f72db84) <br/>
+
+
 
 
 
