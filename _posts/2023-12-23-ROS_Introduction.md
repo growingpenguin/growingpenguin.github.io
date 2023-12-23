@@ -91,15 +91,51 @@ Figure 2: Structural Evolution in ROS with the Adoption of DDS <br/>
 The adoption of DDS, particularly DDS-Security, has also brought significant benefits in terms of security for industrial use. With these various features of DDS, ROS 2 not only enhances publish-subscribe style message delivery from ROS 1 but also strengthens real-time data transmission, response to unstable networks, and security. <br/>
 The adoption of DDS is one of the most significant changes in the transition from ROS 1 to ROS 2. As illustrated in Figure 3, it reduces the development and usage burden of **communication middleware** for developers and users, allowing them to devote more time to more critical aspects of their work. For more detailed information about DDS, refer to the resources and related articles mentioned in the text.  <br/>
 Figure 3: Ease of the Programmer or User's DDS use <br/>
-![ROS2 Packages Installation34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6a491333-581b-434b-aa49-749dc426dac8)
-
-
+![ROS2 Packages Installation34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6a491333-581b-434b-aa49-749dc426dac8) <br/>
 
 
 ### 3-3.What is DDS? 
+DDS: Stands for Data Distribution Service, a trademark established by OMG (Object Management Group) as a standard term. Essentially, it's just a term, but its actual substance is middleware for data communication. <br/>
+-Understanding the essential concepts required for ROS programming should suffice. <br/>
+​-The Data Distribution Service(DDS) is a middleware protocol and API standard for data-centric(데이터를 중심으로 연결성을 갖는) connectivity from the Object Management Group® (OMG®). It integrates the components of a system together, providing low-latency data connectivity, extreme reliability, and a scalable architecture that business and mission-critical Internet of Things (IoT) applications need. <br/>
+-In essence, DDS represents the concept of a Data Distribution System. In practical terms, it comprises middleware APIs that satisfy DDS specifications (such as DDSI-RTPS). This middleware corresponds to the host layers (layers 4 to 7) in the ISO 7-layer model. In ROS 2, as mentioned earlier and illustrated in Figure 4, this middleware acts as a software layer between the operating system and user applications. Through this, it enables the various components of the system to communicate more easily and share data. <br/>
+Figure 4: DDS as middleware <br/>
+![ROS2 Packages Installation35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/171c1830-d86f-4025-af80-26346b19dc76) <br/>
+<br/>
+
+Footnote <br/>
+Middleware: <br/>
+Software layer that lies between the operating system and applications. It enables the various components of a system to more easily communicate and share data. It simplifies the development of distributed systems by letting software developers focus on the specific purpose of their applications rather than the mechanics of passing information between applications and systems. <br/>
+
+
+
+"In essence, DDS represents the concept of a Data Distribution System. In practical terms, it comprises middleware APIs that satisfy DDS specifications (such as DDSI-RTPS). This middleware corresponds to the host layers (layers 4 to 7) in the ISO 7-layer model. In ROS 2, as mentioned earlier and illustrated in Figure 3, this middleware acts as a software layer between the operating system and user applications. Through this, it enables the various components of the system to communicate more easily and share data."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Data Distribution Service (DDS™) is a middleware protocol and API standard for data-centric connectivity from the Object Management Group® (OMG®). It integrates the components of a system together, providing low-latency data connectivity, extreme reliability, and a scalable architecture that business and mission-critical Internet of Things (IoT) applications need.
+
+​
+
+
+
+즉, DDS는 데이터 분산 시스템이라는 개념을 나타내는 단어이고 실제로는 데이터를 중심으로 연결성을 갖는 미들웨어의 프로토콜(DDSI-RTPS, [30])과 같은 DDS 사양[31]을 만족하는 미들웨어 API가 그 실체이다. 이 미들웨어는 그림 4와 같이 ISO 7 계층 레이어[32]에서 호스트 계층(Host layers)에 해당되는 4~7 계층에 해당되고 ROS 2에서는 위에서 언급한 그림 3과 같이 운영 체제와 사용자 애플리케이션 사이에 있는 소프트웨어 계층으로 이를 통해 시스템의 다양한 구성 요소를 보다 쉽게 통신하고 데이터를 공유할 수 있게 된다.
 
 
 
 Reference: <br/>
 https://cafe.naver.com/openrt/23889 <br/>
 https://cafe.naver.com/openrt/23965 <br/>
+https://www.dds-foundation.org/what-is-dds-3/ <br/>
