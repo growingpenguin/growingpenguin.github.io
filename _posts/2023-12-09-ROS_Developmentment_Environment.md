@@ -224,6 +224,7 @@ Use "files.associations" to specify file types for ROS-specific filenames like *
 ![ROS2 Packages Installation28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9708fa31-437a-4236-b15a-3eff741301b0) <br/>
 [launch.json_code.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13757514/launch.json_code.txt) <br/>
 Copy and paste the file above, then press Ctrl+x to save and exit. <br/>
+Make a new launch.json file using nano editor
 -In VSCode, the 'Launch' feature, accessible through 'Run and Debug' (Ctrl + Shift + d), serves as an execution command customizable based on language and debugger preferences. <br/>
 -Additionally, you have the option to specify a Task or configure console functionalities before initiating the Launch, either for immediate debugging or subsequent execution.<br/>
 -​Here, I've configured VSCode's debugging tools to align with the commonly used Python and C++ languages in ROS 2. <br/>
