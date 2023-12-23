@@ -169,10 +169,13 @@ Name |Code Name|Description|
 -[uctakeoff.vscode-counter](https://marketplace.visualstudio.com/items?itemName=uctakeoff.vscode-counter) <br/>
 -[vscode-icons-team.vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) <br/>
 <br/>
+
+
 4)Set Workspace <br/>
 -"File" > "Add Folder to Workspace..." menu selection <br/>
 -Select folder "robot_ws" <br/>
 ​![ROS2 Packages Installation20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9c868a1e-262c-4944-962a-10607e1f2bb1) <br/>
+<br/>
 5)Set VS Code Development Environment <br/>
 The following steps (6-9) guide you through setting up the VS Code development environment. While configuring, you may use the settings.json, c_cpp_properties.json, tasks.json, and launch.json files. If these files don't exist, create them in the specified locations below.<br/>
 Please note that in Linux, folders and files with a '.' as a prefix are considered hidden.<br/>
