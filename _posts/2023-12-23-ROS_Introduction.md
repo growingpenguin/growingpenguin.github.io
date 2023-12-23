@@ -83,9 +83,8 @@ A processor, also known as a central processing unit (CPU), is a key component o
 -In ROS (Robot Operating System), the method of communication using **messages** is categorized into topics, services, actions, and parameters. While each method of **message communication** serves different purposes and is used differently, they all apply the concepts of **publishing**(sending out information) and **subscribing**(receiving information). <br/>
 -This concept of **publishing**(sending out information) and **subscribing**(receiving information) data remains a very important concept in both ROS 1 and ROS 2, but the communication libraries used for this technology differ between the two versions. In ROS 1, custom-developed communication libraries like TCPROS were used. On the other hand, ROS 2 employs a standardized communication method by the Object Management Group (OMG), namely DDS (Data Distribution Service). Specifically, ROS 2 uses DDSI-RTPS (Real Time Publish Subscribe), a real-time publish-subscribe protocol of DDS. <br/>
 -During the early development of ROS 2, there were proposals to improve the existing TCPROS or use **middleware-like approaches** with ZeroMQ, Protocol Buffers, and Zeroconf. However, the importance of adopting a standardized method for the industrial market was emphasized. Instead of creating a proprietary solution as in ROS 1, it was decided to use DDS, which was already establishing an industry standard and an ecosystem. The adoption of DDS significantly changed the layout of ROS, as illustrated in Figure 2. <br/>
+Structural Evolution in ROS with the Adoption of DDS <br/>
 ![ROS2 Packages Installation33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f3ee39ce-2383-4492-b6f1-a3175f72db84) <br/>
-
-
 
 
 
