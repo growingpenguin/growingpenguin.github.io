@@ -70,7 +70,7 @@ ROS Message Communication <br/>
 In ROS (Robot Operating System), programs are written in units of **nodes**, which are defined as the smallest executable processors for maximizing program reusability. Think of a **node** as a single executable program. A **package** is a collection of one or more nodes or information necessary for node execution, and a group of packages is referred to as a **metapackage**, which is separately categorized. <br/>
 -The actual executable program, the **node**, is crucial in ROS. Since ROS divides programs into the smallest executable units, each **node** is its own separate program.  <br/>
 -For a ROS system with numerous interconnected nodes, it's essential to design these nodes to exchange input and output data with each other.  <br/>
--The data exchanged between nodes in ROS is referred to as a **message**, and this process is called **message communication**.
+-The data exchanged between nodes in ROS is referred to as a **message**, and this process is called **message communication**. <br/>
 -**Messages** correspond to data and can be in variable forms like integer, floating point, boolean, string, etc. They can also include simple data structures like messages within messages, and arrays of messages.
 -The method of communication using **messages** is categorized into topics, services, actions, and parameters.
 
