@@ -71,7 +71,7 @@ In ROS (Robot Operating System), programs are written in units of **nodes**, whi
 -The actual executable program, the **node**, is crucial in ROS. Since ROS divides programs into the smallest executable units, each **node** is its own separate program.  <br/>
 -For a ROS system with numerous interconnected nodes, it's essential to design these nodes to exchange input and output data with each other.  <br/>
 -The data exchanged between nodes in ROS is referred to as a **message**, and this process is called **message communication**. <br/>
--**Messages** correspond to data and can be in variable forms like integer, floating point, boolean, string, etc. They can also include simple data structures like messages within messages, and arrays of messages.
+-**Messages** correspond to data and can be in variable forms like integer, floating point, boolean, string, etc. They can also include simple data structures like messages within messages, and arrays of messages. <br/>
 -The method of communication using **messages** is categorized into topics, services, actions, and parameters.
 
 ![ROS2 Packages Installation32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/89eac378-49e7-49f6-ab93-f3310f6a2a8a)
