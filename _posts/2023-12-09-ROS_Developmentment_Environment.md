@@ -268,6 +268,7 @@ The choice of an integrated development environment depends on the developer's p
 Delve into IDEs such as Vim, Eclipse, CLion, Emacs, and more by accessing information from the link provided below. <br/>
 
 ## 7. Delete ROS 
+If you intend to delete ROS 2 for reinstallation, use the command below to delete ROS 2 <br/>
 ![ROS2 Packages Installation31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8a65bec0-f9ea-4285-be79-ec589656a3b7)
 
 
