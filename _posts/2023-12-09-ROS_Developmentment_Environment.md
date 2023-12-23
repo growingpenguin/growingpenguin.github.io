@@ -254,7 +254,8 @@ Specifically, debugging in Python is facilitated without the need for an additio
 1)Installation <br/>
 QtCreator is already installed above. <br/>
 2)Implementation <br/>
-QtCreator is useful to use as a sub when writing a UI in RQt's Plugin development  <br/>
+QtCreator is useful to use as a sub when writing a UI in RQt's Plugin development <br/>
+![ROS2 Packages Installation30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9c932c5d-15fb-48c8-9e93-7eebc0aabbf6) <br/>
 
 
 Reference: <br/>
