@@ -234,7 +234,9 @@ Make a new launch.json file using nano editor
 -​Here, I've configured VSCode's debugging tools to align with the commonly used Python and C++ languages in ROS 2. <br/>
 For C++, I've set it up to use GDB, and for Python, debugpy.<br/> 
 Specifically, debugging in Python is facilitated without the need for an additional build step, while for C++, it is advisable to execute colcon build before initiating GDB. <br/>
-
+<br/>
+10)Build <br/>
+-`Ctrl + Shift + b` : Build in VScode <br/>
 
 
 <br/>
