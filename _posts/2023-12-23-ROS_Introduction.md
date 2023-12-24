@@ -4,15 +4,15 @@ title:  "1. Build ROS Environment"
 ---
 ## 1. What is ROS2?
 ROS2(Robot OS):  <br/>
-로봇 응용 프로그램을 위한 오픈소스 소프트웨어 개발 키트 <br/>
--ROS 2의 목적: <br/>
-로봇 산업 전반의 개발자에게 연구 및 프로토 타이핑에서 배포 및 생산에 이르는 표준 소프트웨어 플랫폼을 제공. <br/>
--오늘날 전 세계 수많은 로봇 응용 프로그램에서 사용되는 ROS 1의 성공과 2007년 이후 10년이 넘는 기간동안 쌓은 노하우를 기반으로 함. <br/>
--ROS 2는 ROS 1과 기본 개념은 같지만 완전히 새롭게 처음부터 새로 짠 소프트웨어 플랫폼으로 ROS1과 호환되지 않는 새로운 ROS 시스템 <br/>
--ROS 2는 ROS의 차세대 기능을 도입한 버전으로 ROS 1에서 분리하여 개발. ROS 1 역시 필요하다면 이용 가능. ros1_bridge를 통해 ROS 1과 ROS 2 사이에서 서로 메시지 통신하여 두 버전 모두를 함께 사용하는 것도 가능<br/>
+Open-source software development kit for robot applications(로봇 응용 프로그램) <br/>
+-Purpose of ROS 2: To provide a standard software platform for developers across the robotics industry, from research and prototyping to deployment and production. <br/>
+-Built on the success of ROS 1, which has been used in numerous robot applications worldwide, and over a decade of experience since its inception in 2007. <br/>
+-ROS 2, while sharing the same basic concepts as ROS 1, is a completely new and rewritten software platform. It is not compatible with ROS1 and represents a new version of the ROS system. 
+-ROS 2 is a next-generation version of ROS, developed separately from ROS 1. ROS 1 is still available and can be used if needed. It's also possible to use both versions together, as they can communicate with each other through ros1_bridge, allowing for message communication between ROS 1 and ROS 2  <br/>
+ <br/>
 ## 2.Ros Features <br/>
-(1)Platform:ROS 2부터는 3대 운영체제인 Linux, Windows, macOS를 모두 지원 <br/>
-(2)Real-time:ROS 2는 Real-time을 지원. 단, 선별된 HW 사용, Real-time os 사용, DDS의 RTPS(Real-time Publish-Subscribe Protocol)와 같은 통신 프로토콜을 사용, 매우 잘 짜여진 리얼타임 코드 사용을 전제로 실시간성을 지원. <br/>
+(1)Platform: ROS 2부터는 3대 운영체제인 Linux, Windows, macOS를 모두 지원 <br/>
+(2)Real-time: ROS 2 supports Real-time functionality. However, this support is based on certain conditions, such as using selected hardware(선별된 HW), employing a Real-time os, utilizing communication protocols(통신 프로토콜) like DDS's RTPS(Real-time Publish-Subscribe Protocol), and assuming the use of very well-written real-time code." <br/>
 (3)Security:<br/>
 **TCP-based Communication using DDS**: <br/>
 ROS2 uses a system called DDS(Data Distribution Service) for communication. DDS(Data Distribution Service) is a framework used in the industry for managing data flow in networks, particularly in complex systems like robotics. It's based on TCP(Transmission Control Protocol), a standard way computers send data to each other over a network. By using DDS, ROS2 can handle data exchange more efficiently and reliably, which is crucial for robotic systems.<br/>
