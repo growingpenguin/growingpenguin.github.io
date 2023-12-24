@@ -19,26 +19,25 @@ ROS2 uses a system called DDS(Data Distribution Service) for communication. DDS(
 **DDS-Security for Enhanced Security**: <br/> 
 Along with DDS, ROS2 also integrates something called DDS-Security. This is a set of security specifications designed to protect the data being shared in a DDS network. By incorporating DDS-Security, ROS2 addresses potential security risks right from the communication level, ensuring that data exchange in robotic systems is secure. <br/> 
 **Development of SROS2 for Additional Security**: <br/> 
-The ROS community has developed a tool called SROS2 (Secure Robot Operating System 2). This tool provides additional security features and supports for ROS2. It's particularly helpful for robotics developers who might not be very familiar with security programming. SROS2 offers a toolkit that makes it easier for them to implement security measures in their robotic systems. 
-<br/> 
+The ROS community has developed a tool called SROS2 (Secure Robot Operating System 2). This tool provides additional security features and supports for ROS2. It's particularly helpful for robotics developers who might not be very familiar with security programming. SROS2 offers a toolkit that makes it easier for them to implement security measures in their robotic systems. <br/> 
 (4)Communication: <br/>
-ROS 1에서는 자체 개발한 TCPROS와 같은 통신 라이브러리를 사용. 반면, ROS 2은 리얼타임 퍼블리시와 서브스크라이브 프로토콜인 RTPS(Real Time Publish Subscribe, [20])를 지원하는 통신 미들웨어 DDS를 사용하고있다. <br/>
+In ROS1, a self-developed communication library like TCPROS was used. In contrast, ROS2 uses DDS(Data Distribution Service), a communication middleware that supports the RTPS (Real Time Publish Subscribe) protocol for real-time publish and subscribe. <br/>
 (5)Middleware interface: <br/>
-앞서 설명한 DDS는 다양한 기업에서 Communication Middleware 형태로 제공하고 있다. ROS 2에서는 이러한 벤더들의 미들웨어를 유저가 원하는 사용 목적에 맞게 선택하여 사용할 수 있도록 ROS Middleware(RMW)형태로 지원. 이는 각 벤더들의 미들웨어마다 API가 약간씩 달라도 ROS 2 유저들은 이를 생각하지 않고 통일된 코드로 쉽게 바꿔서 사용할 수 있도록 것으로, RMW는 여러 DDS 구현을 지원하기 위하여 API의 추상화 인터페이스로 지원. <br/>
+The previously mentioned DDS is offered by various companies in the form of Communication Middleware. In ROS 2, users can choose and use these vendors' middleware according to their intended use, supported in the form of ROS Middleware (RMW). This allows ROS2 users to easily switch and use different vendors' middleware without having to worry about slight differences in their APIs. RMW provides an abstracted interface for the APIs to support various DDS implementations. <br/>
 Communication Middleware?:  <br/>
 Communication middleware like DDS is a software layer that helps different components of a system (like a robot's sensors, actuators, and control systems) to  communicate with each other. Think of it as a translator or a facilitator that ensures different parts of the system can exchange information effectively.  <br/>
 (6)Node manager (Discovery) <br/>
-ROS 1에서의 필수 실행 프로그램은 roscore로 이를 실행시키면 ROS Master, ROS Parameter Server, rosout logging node가 실행됨. ROS 1에서는 노드 사이의 연결을 위해 네임 서비스를 마스터에서 실행했었어야 했고, 이 ROS Master가 연결이 끓기거나 죽는 경우 모든 시스템이 마비되는 단점이 있었다. ROS 2에서는 roscore가 없어지고 3가지 프로그램이 각각 독립 수행으로 바뀌었다. <br/>
-ROS Master: <br/>
+In ROS1, the essential program to run is roscore, which upon execution starts the ROS Master, ROS Parameter Server, and rosout logging node. In ROS 1, a name service had to be run from the master to establish connections between nodes, and if this ROS Master was disconnected or failed, it led to the paralysis of the entire system. In ROS 2, roscore has been eliminated, and these three programs now operate independently. <br/>
+**ROS Master**: <br/>
 Directory service. Helps different parts of the ROS system (called 'nodes') find and communicate with each other. <br/>
-ROS Parameter Server:  <br/>
+**ROS Parameter Server**:  <br/>
 Stores parameters that nodes can use, like configuration settings.
-rosout Logging Node:  <br/>
+**rosout Logging Node**:  <br/>
 System for logging messages from different nodes. <br/>
 (7)Languages <br/>
 As for ROS2's programming language, it is about to support different programming languages. C++, Python is the main force language.  <br/>
 (8)Build system <br/>
-ROS 2 uses a new built system ament. ament is an upgraded version of catkin. It is also possible for Python package administration that CMake doesn't uses <br/>
+ROS2 uses a new built system ament. ament is an upgraded version of catkin. It is also possible for Python package administration that CMake doesn't uses <br/>
 (9)Build tools <br/>
 As for ROS 1, different tools like catkin_make, catkin_make_isolated, and catkin_tools was supported. In ROS 2, alpha, beta, and Ardent release, ament_tools was used as a building tool and now it is recommending colcon as well. <br/> 
 (10)Build options <br/>
@@ -46,25 +45,26 @@ The best used build options used were `Multiple workspace`, `No non-isolated bui
 (11)Version control system <br/>
 ROS has numerous code set, so it has different parties, and repositories. <br/>
 (12)Client library <br/>
-ROS 기반의 프로그래밍을 작성한다는 것은 ROS 구조에서 유저 코드 영역(user land)을 다룬다는 것으로 그 밑에는 ROS 클라이언트 라이브러리 (ROS Client Library)이 있고, 이 클라이언트 라이브러리는 앞서 설명한 미들웨어(middleware interface)를 사용. <br/>
+Writing programming based on ROS(Robot Operating System) means dealing with the user code area(user land) within the ROS structure. Underneath this user code area lies the ROS Client Library(ROS 클라이언트 라이브러리), and this client library utilizes the middleware interface(미들웨어) as previously described. <br/>
 (13)Life cycle <br/>
-로봇 개발에 있어서 로봇의 현재 상태를 파악하고 현재 상태에서 다른 상태로 변경되는 상태천이 제어는 수십년간 로봇공학에서도 주요 연구 주제로 다루었던 중요한 부분 중에 하나이다. 현재의 상태 파악과 천이는 멀티 태스크 수행에서 빠질 수 없는 중요한 부분이다. ROS 2에서는 이러한 니즈를 반영하여 패키지의 각 노드들의 현재 상태를 모니터링하고 상태를 제어 가능한 lifecycle을 클라이언트 라이브러리에 포함시켰으며 이를 통해 ROS 시스템 상태를 보다 효과적으로 제어 할 수 있게 되었다. 이를 이용하게 되면 기존 ROS 1에서는 할 수 없었던 노드의 상태를 모니터링하고 상태를 천이시키거나 노드를 상태에 따라 재시작하거나 교체할 수도 있게 된다. <br/>
+In robot development, understanding the current state of a robot and controlling the transition to different states has been a major research topic in robotics for decades. Recognizing the current state and managing transitions is an essential part of performing multitasking. Reflecting these needs, ROS 2 has included in its client library the ability to monitor and control the states of each node within a package, known as lifecycle management. This allows for more effective control of the ROS system's state. Utilizing this feature, one can monitor and transition the state of nodes, something that was not possible in ROS 1. It also allows for restarting or replacing nodes based on their state.<br/>
 (14)Multiple nodes <br/>
-ROS 2에서 nodelet이 사용되지는 않고 RCL에 포함됨. 이름은 컴포넌트(components)라고 부르며 ROS 2에서는 이 컴포넌트(component)를 사용하여 동일한 실행 파일에서 복수의 노드를 수행할 수 있게 되었다. 이를 사용하게 되면 노드의 실행 파일 수준은 더 세분화 시킬 수 있으며 프로세스 내 통신(intra-process communication)기능을 이용하여 ROS 2의 통신 overhead를 제거 할 수 있어서 더 효율적인 ROS 2 응용 프로그램을 작성 가능하다. <br/>
+In ROS2, nodelets are not used and are instead included in RCL(ROS Client Library). They are referred to as 'components,' and in ROS2, these components allow multiple nodes to be executed within the same executable file. Using this approach, the granularity(세분화) of node executable files can be further refined. Additionally, it enables the use of intra-process communication(프로세스 내 통신) features, allowing for the elimination of communication overhead in ROS 2. This makes it possible to write more efficient ROS 2 applications." <br/>
 (15)Threading model <br/>
-ROS 2에서는 더 세분화 된 실행 모델(executor)을 C++과 Python에서 사용할 수 있으며 사용자가 정의한 실행기도 제공되는 RCL API를 이용하여 쉽게 구현할 수 있다. <br/>
+In ROS 2, a more refined execution model (executor) is available for use in both C++ and Python, and custom executors can also be easily implemented using the provided RCL (ROS Client Library) API. <br/>
 (16)Messages (topic, service, action) <br/>
-ROS 2에서도 단일 데이터 구조를 메시지라고 정의하며 정해진 또는 사용자가 정의한 메시지를 사용할 수 있으며, 각 패키지 이름과 마찬가지로 이름과 각 지정된 형식으로 메시지를 고유하게 식별할 수 있다. 여기에 ROS 2에서는 OMG(Object Management Group)에서 정의된 IDL(Interface Description Language)을 사용하여 메시지 정의 및 직렬화를 더 쉽게, 더 포괄적으로 다룰 수 있게 되었다. <br/>
+In ROS 2, a single data structure is also defined as a message. It's possible to use predefined or user-defined messages, and similar to package names, messages can be uniquely identified by their name and the specified type. Moreover, ROS 2 uses the IDL (Interface Description Language) defined by OMG (Object Management Group) to make message definition and serialization easier and more comprehensive.  <br/>
 (17)Command Line Interface(CLI) <br/>
-기존 ROS 1과 매우 비슷해서 약간의 이름 변경과 일부 옵션 사용법만 익힌다면 사용시 큰 차이는 없음. <br/> 
+It is very similar to the original ROS 1, so there are no significant differences in usage once you get accustomed to a few name changes and learn how to use some of the options. <br/>
 (18)roslaunch <br/>
-ROS의 실행 시스템은 대표적으로 `run`과 `launch`가 있음. `run`은 단일 프로그램 실행, `launch`는 사용자 지정 프로그램 실행을 수행.
-ROS 2에서는 다양한 파일 사용을 사용할 수 있음이 장점이다. ROS 2에서는 `XML` 형식 이외에도 `Python`이 새롭게 채용되어 조건문 및 Python 모듈을 추가로 사용하여 보다 복잡한 논리와 기능을 사용할 수 있게 되었다.  <br/>
+The execution system in ROS typically has run and launch.  <br/>
+-run is for executing a single program, while launch performs the execution of user-defined programs. <br/>
+-One of the advantages in ROS 2 is the ability to use various file types. In addition to the XML format, Python has been newly adopted in ROS 2. This allows for the use of conditional statements and Python modules, enabling more complex logic and functionality. <br/>
 (19)Graph API <br/>
-ROS 2에서는 노드 시작할 때뿐만 아니라 실행 도중에 다시 각 노드와 토픽, 메시지 등이 고유의 이름을 간의 매핑도 가능하며, 그 결과를 바로 그래프로 표현할 수 있게하려 하고 있다. 단, 현 시점에서는 개발 컨셉만이 나왔고 아직 구현되지는 않았다. 개인적으로 하루빨리 구현되었으면 싶은 기능 중에 하나이다.  <br/>
+In ROS2, not only at the start of a node but also during execution, it is possible to remap the unique names of each node, topic, and message. There is also an intention to represent these results immediately in a graphical form. However, as of now, this is only a development concept and has not yet been implemented. It is hoped to be implemented soon. <br/>
 (20)Embedded Systems <br/>
-실시간성이라는 것은 상위 소프트웨어에서 다루기에는 제약이 많다. 오히려 Embedded Systems 안에서 해결하는게 더 적합하다고 보고 있다. <br/>
-ROS 2에서는 기존 시리얼 통신, 블루투스 및 와이파이 통신을 지원하거나 RTOS (Real-Time Operating System)를 사용하고 기존 DDS 대신 eXtremely Resource Constrained Environments (DDS-XRCE)를 사용 하는 등 임베디드 보드에서 직접 ROS 프로그래밍을 하여 하드웨어 펌웨어로 구현된 노드를 실행할 수도 있다. <br/> 
+Real-time capabilities pose significant constraints when addressed at the higher software level. Instead, it is considered more appropriate to handle real-time requirements within Embedded Systems. <br/>
+-In ROS 2, support is provided for traditional serial communication, Bluetooth, and Wi-Fi communication. Alternatively, developers can directly program ROS on embedded boards, using a Real-Time Operating System(RTOS) or opting for eXtremely Resource Constrained Environments (DDS-XRCE) instead of the conventional DDS. This approach allows the execution of nodes implemented in hardware firmware(하드웨어 펌웨어). <br/>
 
 ## 3. ROS 2 and DDS (Data Distribution Service)
 ### 3-1.ROS Message Communication <br/>
