@@ -7,7 +7,7 @@ ROS2(Robot OS):  <br/>
 Open-source software development kit for robot applications(로봇 응용 프로그램) <br/>
 -Purpose of ROS 2: To provide a standard software platform for developers across the robotics industry, from research and prototyping to deployment and production. <br/>
 -Built on the success of ROS 1, which has been used in numerous robot applications worldwide, and over a decade of experience since its inception in 2007. <br/>
--ROS 2, while sharing the same basic concepts as ROS 1, is a completely new and rewritten software platform. It is not compatible with ROS1 and represents a new version of the ROS system. 
+-ROS 2, while sharing the same basic concepts as ROS 1, is a completely new and rewritten software platform. It is not compatible with ROS1 and represents a new version of the ROS system.  <br/>
 -ROS 2 is a next-generation version of ROS, developed separately from ROS 1. ROS 1 is still available and can be used if needed. It's also possible to use both versions together, as they can communicate with each other through ros1_bridge, allowing for message communication between ROS 1 and ROS 2  <br/>
  <br/>
 ## 2.Ros Features <br/>
