@@ -175,7 +175,12 @@ Liveliness function : Checks the life or death of nodes or topics within a set p
 :One of the major shortcomings in ROS 1, the security aspect, has been addressed in ROS 2 development through the adoption of DDS. <br/>
 -The DDS specification includes DDS-Security, a security specification applied to ROS, resolving security issues from the communication layer. Furthermore, the ROS community has developed a tool called SROS 2 (Secure Robot Operating System 2), providing security support in RCL and distributing a toolkit for security aimed at robotics developers unfamiliar with security-related programming. <br/>
 
+### Overall Framework of "What is ROS2?" 
+This content is a consolidated summary and organized notes from the YouTube video available at https://www.youtube.com/watch?v=7TVWlADXwRw.<br/>
+
+
 Reference: <br/>
 https://cafe.naver.com/openrt/23889 <br/>
 https://cafe.naver.com/openrt/23965 <br/>
 https://www.dds-foundation.org/what-is-dds-3/ <br/>
+https://www.youtube.com/watch?v=7TVWlADXwRw <br/>
