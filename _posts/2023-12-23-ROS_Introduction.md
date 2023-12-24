@@ -115,7 +115,6 @@ DDS, established by the non-profit organization Object Management Group(OMG: 객
 ### 4-2.OS Independent
 DDS supports a variety of os, including Linux, Windows, macOS, Android, VxWorks, etc. Therefore, users do not need to change the os they are currently using. This makes DDS very suitable for ROS 2, which is based on the concept of supporting multiple operating systems."  <br/>
 
-
 ### 4-3.Language Independent
 Since DDS (Data Distribution Service) is middleware, at the user code level, which can be seen as a higher level, there is no need to change the programming language that was previously used to utilize DDS. This feature is fully leveraged in ROS 2, where DDS has been designed as RMW (ROS Middleware), as shown in Figure 6. Different RMWs have been developed for each vendor. On top of this, to support user code, a ROS Client Library (ROS Client Library) has been developed that supports various languages like rclcpp, rclc, rclpy, rcljava, rclobjc, rclada, rclgo, rclnodejs, and others, thereby providing support for multiple programming languages.  <br/>
 Figure 6: ROS's RMW, RCL, User Application <br/>
@@ -143,16 +142,37 @@ Figure7: Visualization of Data Centricity <br/>
 ![ROS2 Packages Installation37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0c235586-af3c-4ef3-ad97-d7417253c5d4)
 
 ### 4-6.Dynamic Discovery
+:DDS(Data Distribution Service) provides dynamic discovery. Meaning that applications can use DDS's dynamic discovery to know which topics are in a specified domain area and which nodes are publishing and subscribing to these topics.  <br/>
+-This feature eliminates the need to pre-enter IP addresses and ports of the nodes exchanging data in ROS programming, or to configure them separately. It also makes it unnecessary to consider the differences in system architecture, allowing for easy operation across all operating systems or hardware platforms. <br/>
+-In ROS 1, the ROS Master provided name specification and registration services for the nodes of the ROS system, and information that allowed each node to find and connect to the messages they were publishing or subscribing to. In other words, it played a very important role in managing the information of independently running nodes and providing this information to the nodes that needed to connect to each other.  <br/>
+-Problem:If this ROS Master was disconnected or failed, it could paralyze the entire system.  <br/>
+-Solution: In ROS 2, with the elimination of the ROS Master and the use of DDS's dynamic discovery feature, nodes are treated as Participants in DDS. Using the dynamic discovery feature, nodes can be directly searched and connected through the DDS middleware."  <br/>
 
 ### 4-7.Scalable Architecture
+:The DDS (Data Distribution Service) architecture by OMG (Object Management Group) is designed to be scalable, extending from small devices like IoT devices to mega-systems in infrastructure, defense, aviation, and space industries. <br/>
+-However, it is not complicated to use. The Participant type of node in DDS is provided in an extensible format and is designed to absorb much of the complexity in a single standard communication layer, thereby simplifying the development of distributed systems and enhancing convenience. <br/>
+-Particularly in systems like ROS, where hundreds or thousands of nodes are divided into the smallest executable units, this aspect is seen as a strength. It is a very suitable feature for ROS systems that need to manage not just a single robot but multiple robots, integrate with surrounding infrastructure, various IT technologies, databases, and expand to cloud connections." <br/>
 
-### 4-8.Interoperability
+### 4-8.Interoperability(상호 운용성)
+:In ROS 2, DDS (Data Distribution Service), which is used as the communication middleware, supports interoperability. 
+-If a vendor's product complies with the standard specification of DDS, it is possible to switch from a product of company A to that of company B, or to mix products from both companies and still have their DDS products communicate with each other.  <br/>
+-Currently, there are 10 DDS vendors, out of which 5 support ROS 2. These include ADLink, Eclipse Foundation, Eprosima, Gurum Network, and RTI. The DDS products from these vendors are ADLINK's OpenSplice, Eclipse Foundation's Cyclone DDS, Eprosima's Fast DDS, Gurum Network's Gurum DDS, and RTI's Connext DDS. Among these, Fast DDS and Cyclone DDS are oriented towards open source and can be freely used. For higher performance, commercial products like OpenSplice, Connext DDS, and Gurum DDS can be utilized. It is worth noting that Gurum Network is the only company from South Korea in this list and has successfully commercialized DDS as a purely domestic technology.  <br/>
 
 ### 4-9.Quality of Service (QoS)
+:In ROS 2, with the introduction of DDS (Data Distribution Service), users can now directly set data transmission and reception settings according to their needs. One such setting is QoS (Quality of Service), which allows users to configure DDS communication options between nodes. QoS can be used like a parameter when declaring and using publishers and subscribers.  <br/>
+-There are 22 configurable QoS items in DDS specifications, and in ROS 2, the reliability(신뢰성) feature is commonly used. This feature prioritizes data integrity to prevent loss (similar to TCP) or prioritizes communication speed (like UDP) in a 'best effort'(최우선시하여 사용) manner.   <br/>
+-Other features    <br/>
+History function : Stores a certain amount of data depending on the communication status(정해진 사이즈); <br/>
+Durability function : Determines whether to use or discard data created before the subscriber is created; <br/>
+Deadline function : Triggers an event function if data is not sent or received within a set period; <br/> 
+Lifespan function : Considers data received within a certain period as valid and discards the rest; <br/>
+Liveliness function : Checks the life or death of nodes or topics within a set period.  <br/>
+-Through these various QoS settings, DDS allows users to control all aspects of data exchange(데이터를 주고받는), such as timeliness(적시성), traffic priority(트래픽 우선순위), stability(안정성), and resource usage(리소스 사용). This becomes especially useful in specific situations, such as when exchanging data at very high speeds or in dynamic, challenging, and unpredictable communication environments. Different options in data transmission and reception can help achieve goals or overcome obstacles in these scenarios.  <br/>
+-This part related to QoS is very important in actual coding, as it involves various aspects like reliability, History, Durability, Deadline, Lifespan, Liveliness, etc. Hence, it will be further elaborated and practiced in future tutorials." <br/>
 
 ### 4-10.Security
-​
-
+:One of the major shortcomings in ROS 1, the security aspect, has been addressed in ROS 2 development through the adoption of DDS. <br/>
+-The DDS specification includes DDS-Security, a security specification applied to ROS, resolving security issues from the communication layer. Furthermore, the ROS community has developed a tool called SROS 2 (Secure Robot Operating System 2), providing security support in RCL and distributing a toolkit for security aimed at robotics developers unfamiliar with security-related programming. <br/>
 
 Reference: <br/>
 https://cafe.naver.com/openrt/23889 <br/>
