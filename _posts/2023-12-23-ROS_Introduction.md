@@ -17,7 +17,7 @@ Open-source software development kit for robot applications(로봇 응용 프로
 **TCP-based Communication using DDS**: <br/>
 ROS2 uses a system called DDS(Data Distribution Service) for communication. DDS(Data Distribution Service) is a framework used in the industry for managing data flow in networks, particularly in complex systems like robotics. It's based on TCP(Transmission Control Protocol), a standard way computers send data to each other over a network. By using DDS, ROS2 can handle data exchange more efficiently and reliably, which is crucial for robotic systems.<br/>
 **DDS-Security for Enhanced Security**: <br/> 
-Along with DDS, ROS2 also integrates something called DDS-Security. This is a set of security specifications designed to protect the data being shared in a DDS network. By incorporating DDS-Security, ROS2 addresses potential security risks right from the communication level, ensuring that data exchange in robotic systems is secure. <br/>
+Along with DDS, ROS2 also integrates something called DDS-Security. This is a set of security specifications designed to protect the data being shared in a DDS network. By incorporating DDS-Security, ROS2 addresses potential security risks right from the communication level, ensuring that data exchange in robotic systems is secure. 
 **Development of SROS2 for Additional Security**: <br/>  
 The ROS community has developed a tool called SROS2 (Secure Robot Operating System 2). This tool provides additional security features and supports for ROS2. It's particularly helpful for robotics developers who might not be very familiar with security programming. SROS2 offers a toolkit that makes it easier for them to implement security measures in their robotic systems. <br/> 
 (4)Communication: <br/>
