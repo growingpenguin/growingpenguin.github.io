@@ -72,9 +72,26 @@ Host Machine: Own computer, where you do your development work <br/>
 Isaac ROS Buildfarm: Specific setup or tool provided by Isaac ROS to help you install and configure ROS 2 Humble on your computer. <br/>
 Setup dependencies with rosdep: "rosdep" is a tool in ROS that helps you install software dependencies. Dependencies are additional software packages that Isaac ROS needs to function properly. <br/>
 Docker-based development environment:  <br/>
-Docker is a tool that allows you to create isolated environments, called containers, where you can run software without affecting the rest of your system. This sentence suggests that Isaac ROS provides a Docker container where you can develop your robotics software.
+Docker is a tool that allows you to create isolated environments, called containers, where you can run software without affecting the rest of your system. This sentence suggests that Isaac ROS provides a Docker container where you can develop your robotics software. <br/>
 run_dev.sh:  <br/>
-Script (a set of automated commands) that you can run to set up or start this Docker-based development environment. By running this script, you'd be able to work in a controlled, consistent environment that's specifically configured for Isaac ROS development <br/>
+Script(a set of automated commands) that you can run to set up or start this Docker-based development environment. By running this script, you'd be able to work in a controlled, consistent environment that's specifically configured for Isaac ROS development <br/>
+(1)-1 Install nvidia-container-toolkit and Docker & Configure nvidia-container-toolkit for Docker <br/>
+On x86_64 platforms: <br/>
+Install nvidia-container-toolkit <br/>
+Installation(With Apt) <br/>
+Configure the production repository(Optionally, configure the repository to use experimental packages) <br/>
+=> Update the packages list from the repository <br/>
+=> Install the NVIDIA Container Toolkit packages <br/>
+Install Docker in Ubuntu <br/>
+Installation(With Apt) <br/>
+Set up Docker's apt repository <br/>
+=> Install the Docker packages <br/>
+=> Verify that the Docker Engine installation is successful by running the hello-world image <br/>
+Reference <br/>
+https://docs.docker.com/engine/install/ubuntu/ <br/>
+Configure nvidia-container-toolkit for Docker <br/>
+
+
 Questions? <br/>
 Graph에서 U-NET의 역할은 무엇? <br/>
 
