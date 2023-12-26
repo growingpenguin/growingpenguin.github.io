@@ -28,13 +28,40 @@ nvblox: A core library written in C++ that doesn't depend on any specific framew
 ## How NvBlox Operates
 ![Nvblox1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6ed28fab-86ca-487b-b11d-b743e78144f7)
 Graph that uses isaac_ros_nvblox <br/>
-(1)Takes Depth image, Color image, and Pose as Input <br/>
-(2)Computes a 3D scene reconstruction on the GPU  <br/>
+**(1)Takes Depth image, Color image, and Pose as Input** <br/>
+Depth Image: <br/>
+Type of image where each pixel value represents the distance from the camera to the object in the scene.  <br/> 
+Often used in 3D modeling and robotics because they provide crucial information about the physical layout of the environment. <br/>
+Color Image: <br/>
+Standard photographic image that captures the visual appearance of the scene in color. It helps in identifying objects and their features based on their colors and textures. <br/>
+Pose: <br/>
+Position and orientation of the camera(or the robot carrying the camera) in the environment. <br/>
+Includes data like where the camera is located, which direction it's facing, and its tilt or angle. <br/> 
+This information is vital for understanding how the camera is situated relative to the objects it's capturing in its images. <br/>
+**(2)Computes a 3D scene reconstruction on the GPU**  <br/>
 -VSLAM:Pose is computed using visual_slam, or some other pose estimation node <br/>
-(3)The reconstruction is sliced into an output cost map which is provided through a cost map plugin into Nav2 <br/>
+**(3)Plugin** <br/>
+Cost map plugin <br/>
+:Reconstruction is sliced into an output cost map which is provided through a cost map plugin into Nav2 <br/>
+Footnote <br/>
+Reconstruction is sliced into an output cost map: <br/>
+After NvBlox completes the 3D reconstruction of the environment (using depth, color images, and pose), this reconstructed model is then processed to create a "cost map." A cost map is a special type of map used in robotics. It represents the environment in a way that helps a robot determine where it can and cannot, or should and should not, go. The term "sliced" here means that the 3D model is converted into a format suitable for navigation, usually a 2D map. <br/>
+Provided through a cost map plugin into Nav2: <br/>
+This cost map is then made available to Nav2 (the navigation system in ROS 2) through a specific software component, known as a "plugin." A plugin is like an add-on that provides extra features or functionality. In this case, the cost map plugin allows Nav2 to access and use the cost map for navigation purposes. <br/>
+Mesh Visualization plugin <br/>
+:An optional colorized 3D reconstruction is delivered into rviz using the mesh visualization plugin <br/>
+(4)Nvblox streams mesh updates to RViz to update the reconstruction in real-time as it is built. <br/>
+Optional colorized 3D reconstruction is delivered into rviz using the mesh visualization plugin: <br/>
+Alongside the creation of a cost map for navigation, NvBlox also has the capability to generate a visual representation of the 3D reconstruction.  <br/>
+Colorized 3D Reconstruction:  <br/>
+This is essentially a 3D model of the environment that includes color information, making it visually detailed and realistic. <br/>
+Delivered into rviz:  <br/>
+Rviz is a visualization tool used in ROS (Robot Operating System) to visualize different types of data from robots, like sensor data, robot model, etc. <br/>
+Using the mesh visualization plugin:  <br/>
+The 3D model is integrated into rviz using another plugin, specifically designed for this purpose. This plugin is called a "mesh visualization plugin," and it allows users to see the 3D colorized reconstruction directly within the rviz environment. <br/>
 
-
-Above is a typical graph that uses isaac_ros_nvblox. Nvblox takes a depth image, a color image, and a pose as input, with which it computes a 3D scene reconstruction on the GPU. In this graph the pose is computed using visual_slam, or some other pose estimation node. The reconstruction is sliced into an output cost map which is provided through a cost map plugin into Nav2. An optional colorized 3D reconstruction is delivered into rviz using the mesh visualization plugin. Nvblox streams mesh updates to RViz to update the reconstruction in real-time as it is built.
+Questions? <br/>
+Graph에서 U-NET의 역할은 무엇? <br/>
 
 Reference: <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox?tab=readme-ov-file <br/>
