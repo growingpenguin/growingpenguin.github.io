@@ -60,8 +60,18 @@ The 3D model is integrated into rviz using another plugin, specifically designed
 Optional colorized 3D reconstruction is delivered into rviz using the mesh visualization plugin: <br/>
 Alongside the creation of a cost map for navigation, NvBlox also has the capability to generate a visual representation of the 3D reconstruction. <br/>
 
+## Quick Start
+(1)Complete the Developer Environment Setup <br/>
+Development flow currently supported by Isaac ROS is to build on your target platform. <br/>
+Setup ROS 2 Humble in your host machine with the Isaac ROS Buildfarm and setup dependencies with rosdep OR you can use the Isaac ROS Dev Docker-based development environment through run_dev.sh. <br/>
+ROS 2 Humble: Version of the Robot Operating System 2 (ROS 2), a popular software framework used in robotics <br/>
+Host Machine: Own computer, where you do your development work <br/>
+Isaac ROS Buildfarm: Specific setup or tool provided by Isaac ROS to help you install and configure ROS 2 Humble on your computer. <br/>
+Setup dependencies with rosdep: "rosdep" is a tool in ROS that helps you install software dependencies. Dependencies are additional software packages that Isaac ROS needs to function properly. <br/>
+<br/>
 Questions? <br/>
 Graph에서 U-NET의 역할은 무엇? <br/>
 
 Reference: <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox?tab=readme-ov-file <br/>
+https://nvidia-isaac-ros.github.io/getting_started/dev_env_setup.html <br/>
