@@ -122,3 +122,4 @@ Refers to the simulation of complex actions and reactions of entities within the
 
 Reference <br/>
 https://docs.omniverse.nvidia.com/platform/latest/index.html   <br/>
+https://docs.omniverse.nvidia.com/platform/latest/structure.html  <br/>
