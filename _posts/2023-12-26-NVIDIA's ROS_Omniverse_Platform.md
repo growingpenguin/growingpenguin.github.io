@@ -76,12 +76,48 @@ Create, Modify, and Extend Tools and Workflows:  <br/>
 Extensions allow developers to tailor the software to their specific needs. <br/>
 They can create new tools or modify existing ones, and adjust the way they work (the workflow) to be more efficient or to do special tasks. <br/>
 
-
-
-
-
-## 2. What is NVIDIA Omniverse? <br/>
-
+## 2. Omniverse Structure <br/>
+NVIDIA Omniverse: NVIDIA’s open graphic platform for real-time interchange, collaboration and shared virtual worlds.  <br/>
+Omniverse aims for universal interoperability across different applications and vendors.  <br/>
+It provides efficient real-time scene updates and is based on open standards and protocols.  <br/>
+Omniverse is designed to act as a hub, so that newly connected capabilities can be exposed as desired to any connected clients and client applications. <br/>
+**Nucleus** <br/>
+Core Services: <br/>
+The fundamental services that Nucleus provides, like data storage and management. It acts as the central hub for all the data and collaboration in the Omniverse ecosystem. <br/>
+Cloud: <br/> 
+Refers to the ability of Nucleus to store data and provide services through the internet, allowing users to access and collaborate from anywhere. <br/>
+On-Prem: <br/>
+Short for "on-premises". This means that the Nucleus services and data storage can also be set up and run on local servers at a user's location, rather than in the cloud. <br/>
+**Connect** <br/>
+Connect SDK: <br/> 
+Software Development Kit for Omniverse Connect, which allows developers to create plugins and integrations for various software tools to connect them with the Omniverse platform. <br/>
+Plugins: <br/>
+These are the actual tools or extensions created using the Connect SDK that integrate other software applications into the Omniverse ecosystem. <br/>
+**Kit** <br/>
+Viewer: <br/>
+A tool within Omniverse Kit that allows users to view and interact with 3D content. <br/>
+Editor: <br/>
+This refers to the editing capabilities within Omniverse Kit, where users can modify and create 3D scenes and environments. <br/>
+Framework:  <br/>
+The underlying structure or set of tools that Omniverse Kit provides for building and customizing applications. <br/>
+**RTX Renderer** <br/>
+Real-time: <br/> 
+This indicates that the rendering process (creating final images from 3D models) happens almost instantly, allowing for immediate viewing and interaction.
+Scalable: <br/>
+The renderer can efficiently handle both small and large, complex projects. <br/>
+Accurate: <br/>
+Ensures high fidelity and realism in the rendering, closely mimicking real-world physics and lighting. <br/>
+MDL: <br/>
+Stands for Material Definition Language, a method for defining materials in a way that accurately represents how they interact with light<br/>
+**Simulation** <br/>
+PhysX: <br/>
+A physics engine that simulates real-world physical behaviors in the digital environment, like gravity, collisions, and fluid dynamics. <br/>
+AI:  <br/>
+Artificial Intelligence capabilities in the simulation, allowing for intelligent behaviors and decision-making in virtual entities. <br/>
+Animation: <br/>
+The process of creating motion for characters and objects within the simulation environment. <br/>
+Behavior:  <br/>
+Refers to the simulation of complex actions and reactions of entities within the environment, often governed by AI or predefined rules. <br/>
 
 
 Reference <br/>
