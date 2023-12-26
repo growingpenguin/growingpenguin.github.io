@@ -56,7 +56,7 @@ Delivered into rviz:  <br/>
 Rviz is a visualization tool used in ROS (Robot Operating System) to visualize different types of data from robots, like sensor data, robot model, etc. <br/>
 Using the mesh visualization plugin:  <br/>
 The 3D model is integrated into rviz using another plugin, specifically designed for this purpose. This plugin is called a "mesh visualization plugin," and it allows users to see the 3D colorized reconstruction directly within the rviz environment. <br/>
-(4)Nvblox streams mesh updates to RViz to update the reconstruction in real-time as it is built. <br/>
+**(4)Nvblox streams mesh updates to RViz to update the reconstruction in real-time as it is built.** <br/>
 Optional colorized 3D reconstruction is delivered into rviz using the mesh visualization plugin: <br/>
 Alongside the creation of a cost map for navigation, NvBlox also has the capability to generate a visual representation of the 3D reconstruction.  <br/>
 
