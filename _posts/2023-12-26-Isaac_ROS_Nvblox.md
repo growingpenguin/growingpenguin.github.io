@@ -24,8 +24,9 @@ The 2D map (costmap) is essential for the robot's planning process. It helps the
 **-isaac_ros_nvblox is designed to work with depth-cameras and/or 3D LiDAR. The package uses GPU acceleration to compute a 3D reconstruction and 2D costmaps using nvblox, the underlying framework-independent C++ library**. <br/>
 GPU acceleration: Uses the processing power of a Graphics Processing Unit (GPU) to speed up calculations. <br/>
 nvblox: A core library written in C++ that doesn't depend on any specific framework, used for making these calculations. <br/>
-
+<br/>
 ## How NvBlox Operates
+![Nvblox1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6ed28fab-86ca-487b-b11d-b743e78144f7)
 
 
 
