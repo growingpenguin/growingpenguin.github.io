@@ -63,7 +63,9 @@ Alongside the creation of a cost map for navigation, NvBlox also has the capabil
 ## Quick Start
 (1)Complete the Developer Environment Setup <br/>
 Development flow currently supported by Isaac ROS is to build on your target platform. <br/>
-Setup ROS 2 Humble in your host machine with the Isaac ROS Buildfarm and setup dependencies with rosdep OR you can use the Isaac ROS Dev Docker-based development environment through run_dev.sh. <br/>
+Setup ROS 2 Humble in your host machine with the Isaac ROS Buildfarm <br/>
+Setup dependencies with rosdep OR you can use the Isaac ROS Dev Docker-based development environment through run_dev.sh. <br/>
+Footnote <br/>
 ROS 2 Humble: Version of the Robot Operating System 2 (ROS 2), a popular software framework used in robotics <br/>
 Host Machine: Own computer, where you do your development work <br/>
 Isaac ROS Buildfarm: Specific setup or tool provided by Isaac ROS to help you install and configure ROS 2 Humble on your computer. <br/>
