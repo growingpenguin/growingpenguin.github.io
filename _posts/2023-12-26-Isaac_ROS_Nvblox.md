@@ -61,7 +61,7 @@ Optional colorized 3D reconstruction is delivered into rviz using the mesh visua
 Alongside the creation of a cost map for navigation, NvBlox also has the capability to generate a visual representation of the 3D reconstruction. <br/>
 
 ## Quick Start
-(1)Complete the Developer Environment Setup <br/>
+**(1)Complete the Developer Environment Setup** <br/>
 Development flow currently supported by Isaac ROS is to build on your target platform. <br/>
 Setup ROS 2 Humble in your host machine with the Isaac ROS Buildfarm <br/>
 Setup dependencies with rosdep OR you can use the Isaac ROS Dev Docker-based development environment through run_dev.sh. <br/>
