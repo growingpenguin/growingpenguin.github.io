@@ -27,6 +27,14 @@ nvblox: A core library written in C++ that doesn't depend on any specific framew
 <br/>
 ## How NvBlox Operates
 ![Nvblox1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6ed28fab-86ca-487b-b11d-b743e78144f7)
+Graph that uses isaac_ros_nvblox <br/>
+(1)Takes Depth image, Color image, and Pose as Input <br/>
+(2)Computes a 3D scene reconstruction on the GPU  <br/>
+-VSLAM:Pose is computed using visual_slam, or some other pose estimation node <br/>
+(3)The reconstruction is sliced into an output cost map which is provided through a cost map plugin into Nav2 <br/>
 
 
+Above is a typical graph that uses isaac_ros_nvblox. Nvblox takes a depth image, a color image, and a pose as input, with which it computes a 3D scene reconstruction on the GPU. In this graph the pose is computed using visual_slam, or some other pose estimation node. The reconstruction is sliced into an output cost map which is provided through a cost map plugin into Nav2. An optional colorized 3D reconstruction is delivered into rviz using the mesh visualization plugin. Nvblox streams mesh updates to RViz to update the reconstruction in real-time as it is built.
 
+Reference: <br/>
+https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox?tab=readme-ov-file <br/>
