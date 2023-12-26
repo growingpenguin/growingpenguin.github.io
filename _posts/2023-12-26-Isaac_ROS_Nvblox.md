@@ -50,15 +50,15 @@ Provided through a cost map plugin into Nav2: <br/>
 This cost map is then made available to Nav2 (the navigation system in ROS 2) through a specific software component, known as a "plugin." A plugin is like an add-on that provides extra features or functionality. In this case, the cost map plugin allows Nav2 to access and use the cost map for navigation purposes. <br/>
 Mesh Visualization plugin <br/>
 :An optional colorized 3D reconstruction is delivered into rviz using the mesh visualization plugin <br/>
-(4)Nvblox streams mesh updates to RViz to update the reconstruction in real-time as it is built. <br/>
-Optional colorized 3D reconstruction is delivered into rviz using the mesh visualization plugin: <br/>
-Alongside the creation of a cost map for navigation, NvBlox also has the capability to generate a visual representation of the 3D reconstruction.  <br/>
 Colorized 3D Reconstruction:  <br/>
 This is essentially a 3D model of the environment that includes color information, making it visually detailed and realistic. <br/>
 Delivered into rviz:  <br/>
 Rviz is a visualization tool used in ROS (Robot Operating System) to visualize different types of data from robots, like sensor data, robot model, etc. <br/>
 Using the mesh visualization plugin:  <br/>
 The 3D model is integrated into rviz using another plugin, specifically designed for this purpose. This plugin is called a "mesh visualization plugin," and it allows users to see the 3D colorized reconstruction directly within the rviz environment. <br/>
+(4)Nvblox streams mesh updates to RViz to update the reconstruction in real-time as it is built. <br/>
+Optional colorized 3D reconstruction is delivered into rviz using the mesh visualization plugin: <br/>
+Alongside the creation of a cost map for navigation, NvBlox also has the capability to generate a visual representation of the 3D reconstruction.  <br/>
 
 Questions? <br/>
 Graph에서 U-NET의 역할은 무엇? <br/>
