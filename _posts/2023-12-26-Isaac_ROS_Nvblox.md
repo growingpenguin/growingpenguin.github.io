@@ -10,7 +10,7 @@ Integrated system can take sensor data (like images or laser scans) from an envi
 **-Contains ROS 2 packages for 3D reconstruction and cost maps for navigation**  <br/>
 3D Reconstruction: Building three-dimensional models of the environment using sensor data. <br/>
 Cost Maps for Navigation: Creating maps that help robots determine the best paths to take while avoiding obstacles. <br/>
--isaac_ros_nvblox processes depth and pose to reconstruct a 3D scene in real-time and outputs a 2D costmap for Nav2.   <br/>
+-**"isaac_ros_nvblox" processes depth and pose to reconstruct a 3D scene in real-time and outputs a 2D costmap for Nav2** <br/>
 Processes depth and pose: <br/> 
 Use information about how far objects are(depth) and the position/orientation(pose) of the robot or camera to understand the environment. <br/>
 Reconstruct a 3D scene in real-time: <br/>
