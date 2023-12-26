@@ -7,6 +7,8 @@ Nvblox ROS 2 integration for local 3D scene reconstruction and mapping <br/>
 Integration for Local 3D Scene Reconstruction and Mapping: <br/>
 Nvblox is being used in conjunction with ROS 2 to perform the task reconstructing and mapping local 3D scenes. <br/>
 Integrated system can take sensor data (like images or laser scans) from an environment and use it to build a three-dimensional model of that area. This is a crucial task in robotics for understanding and navigating the surrounding space. <br/>
+
+## Features
 **-Contains ROS 2 packages for 3D reconstruction and cost maps for navigation**  <br/>
 3D reconstruction: Building three-dimensional models of the environment using sensor data. <br/>
 cost maps for navigation: Creating maps that help robots determine the best paths to take while avoiding obstacles. <br/>
@@ -22,6 +24,8 @@ The 2D map (costmap) is essential for the robot's planning process. It helps the
 **-isaac_ros_nvblox is designed to work with depth-cameras and/or 3D LiDAR. The package uses GPU acceleration to compute a 3D reconstruction and 2D costmaps using nvblox, the underlying framework-independent C++ library**. <br/>
 GPU acceleration: Uses the processing power of a Graphics Processing Unit (GPU) to speed up calculations. <br/>
 nvblox: A core library written in C++ that doesn't depend on any specific framework, used for making these calculations. <br/>
+
+## How NvBlox Operates
 
 
 
