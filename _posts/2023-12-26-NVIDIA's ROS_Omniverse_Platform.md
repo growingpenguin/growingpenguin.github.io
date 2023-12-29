@@ -131,6 +131,14 @@ Connectors are essentially bridges that link the Omniverse platform to other sof
 Ex. In the architecture industry, a package might include apps for designing buildings, connectors to import models from architectural software, and tools to simulate lighting and materials realistically. This approach allows the Omniverse to be very versatile and adaptable to different professional fields.  <br/>
 In order to facilitate the need for a variety of content, Omniverse has an ever expanding list of connectors which plug-in to deliver content directly from source DCC tools. <br/> 
 ![NvidiaOmniverse1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f2b17101-dd19-4c09-9e8a-578e6eb2ab45)  <br/>
+Connectors (Left Sphere): This globe-like structure represents the "Connectors" which are the bridges between various third-party applications (like Maya, 3DS Max, Revit, SketchUp, Substance, Unity, Unreal Engine 4, Grasshopper, Rhino, Houdini) and the Omniverse platform. These connectors allow users to import, export, and synchronize their work between these different software tools and Omniverse, facilitating a seamless workflow.
+
+Omniverse Nucleus (Center Core): The core in the middle symbolizes the Omniverse Nucleus, which is the heart of the collaboration and data management within the Omniverse platform. It functions like a centralized server where all the data is stored and managed, allowing for real-time collaboration and updates across different applications and devices.
+
+Omniverse Platform (Right Segment): The segment on the right lists various Omniverse Apps, which are specialized applications designed for different tasks within the Omniverse platform. These apps include VIEW, CREATE, CODE, MACHINIMA, ISAAC, FARM, XR, and AUDIO2FACE, each serving specific functions such as viewing 3D scenes, content creation, coding, animation, simulation, rendering, extended reality, and audio-driven animation respectively.
+
+The image overall conveys how the NVIDIA Omniverse connects different software tools (via Connectors) to a centralized system (Nucleus), which then integrates with various dedicated applications (Omniverse Apps) for a range of tasks, all within the Omniverse Platform. This represents a unified and collaborative environment for real-time simulation and content creation across multiple industries.<br/>
+![NvidiaOmniverse2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2081675b-cee4-43fe-a4c9-07051b4e8d44) <br/>
 Illustrate the architecture or flow of operations within the NVIDIA Omniverse ecosystem.<br/>
 Connectors: These are plugins or interfaces that allow external applications and tools to connect and communicate with the Omniverse platform. They serve as the entry points for data and assets to be brought into the Omniverse ecosystem from other software environments. <br/>
 **Omniverse**: Core of the platform. <br/>
@@ -143,22 +151,6 @@ Destination: Output or the end-use scenarios for the assets or experiences creat
 -Browser: This suggests that content can be deployed and viewed through web browsers. <br/>
 -Streaming Client: This implies that there is a capability to stream content to remote clients, which could be software or hardware devices, enabling users to view and interact with Omniverse content without needing to have the full platform on their local machines. <br/>
 Flow of data and interaction, starting from external tools connecting through **Connectors**, processing and management happening within **Omniverse**, and then the final output being delivered to various **destinations** for use or display. This image encapsulates how the Omniverse platform functions as a collaborative environment for real-time simulation and content creation, with the ability to distribute the results across different mediums and devices. <br/>
-
-![NvidiaOmniverse2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2081675b-cee4-43fe-a4c9-07051b4e8d44)
-Connectors (Left Sphere): This globe-like structure represents the "Connectors" which are the bridges between various third-party applications (like Maya, 3DS Max, Revit, SketchUp, Substance, Unity, Unreal Engine 4, Grasshopper, Rhino, Houdini) and the Omniverse platform. These connectors allow users to import, export, and synchronize their work between these different software tools and Omniverse, facilitating a seamless workflow.
-
-Omniverse Nucleus (Center Core): The core in the middle symbolizes the Omniverse Nucleus, which is the heart of the collaboration and data management within the Omniverse platform. It functions like a centralized server where all the data is stored and managed, allowing for real-time collaboration and updates across different applications and devices.
-
-Omniverse Platform (Right Segment): The segment on the right lists various Omniverse Apps, which are specialized applications designed for different tasks within the Omniverse platform. These apps include VIEW, CREATE, CODE, MACHINIMA, ISAAC, FARM, XR, and AUDIO2FACE, each serving specific functions such as viewing 3D scenes, content creation, coding, animation, simulation, rendering, extended reality, and audio-driven animation respectively.
-
-The image overall conveys how the NVIDIA Omniverse connects different software tools (via Connectors) to a centralized system (Nucleus), which then integrates with various dedicated applications (Omniverse Apps) for a range of tasks, all within the Omniverse Platform. This represents a unified and collaborative environment for real-time simulation and content creation across multiple industries.
-
-
-
-
-
-
-
 Reference <br/>
 https://docs.omniverse.nvidia.com/platform/latest/index.html   <br/>
 https://docs.omniverse.nvidia.com/platform/latest/structure.html  <br/>
