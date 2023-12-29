@@ -118,7 +118,7 @@ Animation: <br/>
 The process of creating motion for characters and objects within the simulation environment. <br/>
 Behavior:  <br/>
 Refers to the simulation of complex actions and reactions of entities within the environment, often governed by AI or predefined rules. <br/>
-**End Users** <br/>
+### End Users <br/>
 When encountering the Omniverse as an End User, one can simplify the conceptual organization to Platform, Apps and Connectors. Experiences are assembled as collections to create packages that resolve into coherent industry specific workflows.<br/>
 Footnote <br/>
 Platform:  <br/>
@@ -151,6 +151,18 @@ Destination: Output or the end-use scenarios for the assets or experiences creat
 -Browser: This suggests that content can be deployed and viewed through web browsers. <br/>
 -Streaming Client: This implies that there is a capability to stream content to remote clients, which could be software or hardware devices, enabling users to view and interact with Omniverse content without needing to have the full platform on their local machines. <br/>
 Flow of data and interaction, starting from external tools connecting through **Connectors**, processing and management happening within **Omniverse**, and then the final output being delivered to various **destinations** for use or display. This image encapsulates how the Omniverse platform functions as a collaborative environment for real-time simulation and content creation, with the ability to distribute the results across different mediums and devices. <br/>
+### Kit Stack
+NVIDIA Omniverse™ Kit : Stack of assemblies, apps, extensions, microservices, core extensions and of course Kit itself. <br/>
+
+
+Representation of the NVIDIA Omniverse™ Kit for developers, showing how different components are organized within the Kit's architecture, referred to as the "Kit Stack." <br/>
+Kit: At the base of the stack, "Kit" refers to the core software development framework or environment of the Omniverse platform. Foundational layer that everything else is built upon. <br/>
+Core Extensions: Moving up the stack, these are fundamental add-ons or plugins that extend the capabilities of the Omniverse Kit. They might include basic tools for creating and manipulating 3D content, like mesh editing or texture application, and support for Universal Scene Description (USD), NVIDIA PhysX for physics simulations, RTX for rendering, and Python (PY) scripting.  <br/>
+Extensions: These are the additional plugins or modules that developers can use or create to add specific functionality to Omniverse applications. They are built on top of the core extensions and can be highly specialized. <br/>
+Assemblies: Collections of extensions that work together to perform more complex functions or to streamline workflows for specific tasks.  <br/>
+Microservices: Independent, small-scale services that perform specific tasks and can communicate with each other. They can be used to add or enhance functionality within the Omniverse ecosystem. <br/>
+Apps: On the top of the stack, Full-fledged applications built using the Omniverse Kit, core extensions, and additional extensions. These applications can be tailored to various use cases or industry needs. <br/>
+Image underscores the modular nature of the Omniverse Kit, where you can start with a robust foundation and build up with additional layers of functionality to create complex applications tailored to specific requirements. Each layer adds more tools and features, offering developers the flexibility to develop a wide range of 3D simulation and visualization applications within the Omniverse ecosystem. <br/>
 Reference <br/>
 https://docs.omniverse.nvidia.com/platform/latest/index.html   <br/>
 https://docs.omniverse.nvidia.com/platform/latest/structure.html  <br/>
