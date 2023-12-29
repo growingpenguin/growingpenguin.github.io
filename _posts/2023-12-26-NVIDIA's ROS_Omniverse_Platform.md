@@ -118,6 +118,19 @@ Animation: <br/>
 The process of creating motion for characters and objects within the simulation environment. <br/>
 Behavior:  <br/>
 Refers to the simulation of complex actions and reactions of entities within the environment, often governed by AI or predefined rules. <br/>
+**End Users** <br/>
+When encountering the Omniverse as an End User, one can simplify the conceptual organization to Platform, Apps and Connectors. Experiences are assembled as collections to create packages that resolve into coherent industry specific workflows.<br/>
+Footnote <br/>
+Platform:  <br/>
+This is the core of the Omniverse system. It includes the foundational technologies and services that everything else builds on. The Platform would involve things like the Nucleus for data management and collaboration, and the RTX Renderer for realistic graphics. <br/>
+Apps:  <br/>
+Specialized software applications within the Omniverse ecosystem. Each app is designed for a specific task or set of tasks, like creating 3D models, animating characters, or simulating physical phenomena. Examples might include design tools, visualization apps, or simulation software. <br/>
+Connectors: <br/> 
+Connectors are essentially bridges that link the Omniverse platform to other software tools. They allow you to integrate the Omniverse with different software applications, so you can use all your favorite tools together seamlessly. For example, a connector might let you import a 3D model from a popular design software right into an Omniverse app.  <br/>
+-You can combine different apps and connectors in a package that's tailored to specific industry needs or workflows. 
+Ex. In the architecture industry, a package might include apps for designing buildings, connectors to import models from architectural software, and tools to simulate lighting and materials realistically. This approach allows the Omniverse to be very versatile and adaptable to different professional fields.  <br/>
+In order to facilitate the need for a variety of content, Omniverse has an ever expanding list of connectors which plug-in to deliver content directly from source DCC tools. <br/> 
+
 
 
 Reference <br/>
