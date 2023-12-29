@@ -204,18 +204,8 @@ Middleware Compatibility: Different middleware technologies can be used for data
 Interchangeability: One of the key features of RMW is that it allows for the interchangeability of middleware. This means that developers can switch between different middleware implementations without having to make significant changes to their ROS 2 applications. This switch is made possible by setting the RMW_IMPLEMENTATION environment variable to the desired middleware implementation. <br/>
 Facilitates Communication: RMW handles the details of the data communication, such as message passing, service calls, and action communication, abstracting these complexities away from the developers. <br/>
 RMW in ROS 2 is a critical layer that enables the system to use various communication middleware options flexibly and interchangeably, thereby enhancing the system's adaptability and efficiency in data communication. <br/>
-
-
-위의 5.1 예제에서는 RMW에 대한 아무런 설정도 하지 않았기에 ROS 2 Foxy의 기본 RMW인 `rmw_fastrtps_cpp`가 사용되었다. 만약 RMW를 변경하여 사용 하려면 다음과 같이 ROS 2를 지원하는 RMW 중에서 하나를 선택하여 `RMW_IMPLEMENTATION` 이라는 환경 변수로 선언한 후 노드를 실행하면 된다. 
-
-​
-
-이번 예제에서는 기본 RMW 대신에 `rmw_cyclonedds_cpp`를 사용하여 각 노드를 실행시켜 보겠다. 아래와 같이 실행되면 이상 없이 RMW를 변경하게 되었다는 것이다. 
-
-​
-
-* 참고로 Fast RTPS는 2.0부터 Fast DDS로 명칭이 변경[43]되었으나 현재 버전에서는 아직 Fast RTPS이름을 사용하고 있음을 주의하자. 차후에 변경될 것으로 보인다.
-[출처] 006 ROS 2와 DDS (Data Distribution Service) (오픈소스 소프트웨어 & 하드웨어: 로봇 기술 공유 카페 (오로카)) | 작성자 표윤석
+![NvidiaOmniverse6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57503c55-4082-4457-bd70-ca31eeccd664)  <br/>
+![NvidiaOmniverse7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac0f230f-ec75-400c-ba2f-edd3bda9e930)  <br/>
 
 ### Overall Framework of "What is ROS2?" 
 This content is a consolidated summary and organized notes from the YouTube video available at https://www.youtube.com/watch?v=7TVWlADXwRw.<br/>
