@@ -175,8 +175,31 @@ Liveliness function : Checks the life or death of nodes or topics within a set p
 :One of the major shortcomings in ROS 1, the security aspect, has been addressed in ROS 2 development through the adoption of DDS. <br/>
 -The DDS specification includes DDS-Security, a security specification applied to ROS, resolving security issues from the communication layer. Furthermore, the ROS community has developed a tool called SROS 2 (Secure Robot Operating System 2), providing security support in RCL and distributing a toolkit for security aimed at robotics developers unfamiliar with security-related programming. <br/>
 
+
+
+## 5.Instructions for ROS2
+### 5.1 Running Basic Publisher and Subscriber Nodes <br/>
+When following run commands are executed in two separate terminal windows, the listener node acts as a subscriber and the talker node acts as a publisher running respectively. The fact that these two nodes are running means they are already using the specified DDS, i.e., RMW (ROS middleware). <br/>
+By executing rqt_graph, you can confirm the running publisher and subscriber nodes as shown in Figure 9, and you can verify that topics are being exchanged between the two nodes. <br/>
+Execution of nodes within ROS, a framework for writing robot software, and mentions a visualization tool(rqt_graph) that helps to confirm the communication between these nodes. <br/>
+Terminal1: <br/>
+![NvidiaOmniverse3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1ef41435-b81a-46a6-a6c2-6c37901904d3) <br/>
+Terminal2: <br/>
+![NvidiaOmniverse4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cfc7075f-009c-46f0-9ff7-8b86910fc237) <br/>
+Terminal3: <br/>
+![NvidiaOmniverse5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f3aa1a2b-c7e1-4175-a632-a6bd02e1415c) <br/>
+
+
+
+
+
 ### Overall Framework of "What is ROS2?" 
 This content is a consolidated summary and organized notes from the YouTube video available at https://www.youtube.com/watch?v=7TVWlADXwRw.<br/>
+
+
+
+
+
 
 
 Reference: <br/>
