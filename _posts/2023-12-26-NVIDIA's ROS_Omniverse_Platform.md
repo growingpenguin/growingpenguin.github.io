@@ -130,7 +130,7 @@ Connectors are essentially bridges that link the Omniverse platform to other sof
 -You can combine different apps and connectors in a package that's tailored to specific industry needs or workflows. 
 Ex. In the architecture industry, a package might include apps for designing buildings, connectors to import models from architectural software, and tools to simulate lighting and materials realistically. This approach allows the Omniverse to be very versatile and adaptable to different professional fields.  <br/>
 In order to facilitate the need for a variety of content, Omniverse has an ever expanding list of connectors which plug-in to deliver content directly from source DCC tools. <br/> 
-
+![NvidiaOmniverse1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f2b17101-dd19-4c09-9e8a-578e6eb2ab45)  <br/>
 
 
 Reference <br/>
