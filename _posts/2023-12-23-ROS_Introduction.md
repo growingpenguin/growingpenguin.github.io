@@ -209,8 +209,10 @@ RMW in ROS 2 is a critical layer that enables the system to use various communic
 ### 5.3 RMW Interoperability Test(상호 운용성 테스트)
 :If you want to test the "4.8 Interoperability of DDS" as described above by changing the RMW, you can choose one of the RMWs that support ROS 2 and declare it as the RMW_IMPLEMENTATION environment variable differently for each node. <br/> 
 Ex. We will test the open-source "rmw_cyclonedds_cpp" and "rmw_fastrtps_cpp" which are freely available. As shown below, it can be confirmed that communication was successful without any issues, even though the listener node and talker node used different RMWs. <br/>
-
-
+rmw_cyclonedds_cpp <br/>
+![ROS2 Packages Installation38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/88caacd0-a15c-4f62-8e2d-e364d3de50f5) <br/>
+rmw_fastrtps_cpp <br/>
+![ROS2 Packages Installation39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/65cd8d8b-71f6-4b35-90b7-6c9be33c3a96) <br/>
 
 
 
