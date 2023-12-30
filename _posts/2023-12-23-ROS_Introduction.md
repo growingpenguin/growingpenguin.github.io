@@ -175,8 +175,6 @@ Liveliness function : Checks the life or death of nodes or topics within a set p
 :One of the major shortcomings in ROS 1, the security aspect, has been addressed in ROS 2 development through the adoption of DDS. <br/>
 -The DDS specification includes DDS-Security, a security specification applied to ROS, resolving security issues from the communication layer. Furthermore, the ROS community has developed a tool called SROS 2 (Secure Robot Operating System 2), providing security support in RCL and distributing a toolkit for security aimed at robotics developers unfamiliar with security-related programming. <br/>
 
-
-
 ## 5.Instructions for ROS2
 ### 5.1 Running Basic Publisher and Subscriber Nodes <br/>
 When following run commands are executed in two separate terminal windows, the listener node acts as a subscriber and the talker node acts as a publisher running respectively. The fact that these two nodes are running means they are already using the specified DDS, i.e., RMW (ROS middleware). <br/>
@@ -229,25 +227,17 @@ In this test, a Linux network traffic control utility called tc(traffic control)
 The listener node in the demo_nodes_cpp package is set to the default reliability setting of RELIABLE. <br/>
 Therefore, even if there is data loss, it retransmits the lost data after each acknowledgment like TCP. <br/>
 And as in the example below, there is no data loss. However, you can notice that the terminal window pauses momentarily at the point of loss. <br/> This pause occurs because the lost data is being retransmitted sequentially and then the acknowledgment process is repeated.  <br/>
+![ROS2 Packages Installation44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b60acdcd-c04a-4cf6-b0f3-d38ceb317d70) <br/>
+![ROS2 Packages Installation43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1af2b264-2ea7-4f0a-9a75-b3c7df190742) <br/>
 5.5.2 When Reliability is Set to BEST_EFFORT <br/>
 This time, we will use the listener_best_effort node from the demo_nodes_cpp package. This node is set to BEST_EFFORT instead of RELIABLE for its Reliability setting.  <br/>
 Therefore, as in the following example, although the talker node sends data completely from 1 to 15, the receiving listener_best_effort node displays the data with "2" and "9" missing due to data loss. This is a different result compared to the RELIABLE setting. If the data can tolerate some loss and speed is prioritized over reliability, then setting Reliability to BEST_EFFORT would be appropriate. You will also notice that there is no retransmission, which was the cause of the interruptions in the previous scenario.<br/>
-![ROS2 Packages Installation44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b60acdcd-c04a-4cf6-b0f3-d38ceb317d70) <br/>
-![ROS2 Packages Installation43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1af2b264-2ea7-4f0a-9a75-b3c7df190742) <br/>
-
-
-
-
-
-
+![ROS2 Packages Installation45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/72b58cb8-6594-4ace-8862-f28147dc5ea2) <br/>
+![ROS2 Packages Installation46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1fbef522-191f-470d-929b-73e95da6e6d9) <br/>
+![ROS2 Packages Installation48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/335d4dbe-91e3-4374-9269-00f3572cddc8) <br/>
 
 ### Overall Framework of "What is ROS2?" 
 This content is a consolidated summary and organized notes from the YouTube video available at https://www.youtube.com/watch?v=7TVWlADXwRw.<br/>
-
-
-
-
-
 
 
 Reference: <br/>
