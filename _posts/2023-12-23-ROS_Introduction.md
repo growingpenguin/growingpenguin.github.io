@@ -234,7 +234,9 @@ This time, we will use the listener_best_effort node from the demo_nodes_cpp pac
 Therefore, as in the following example, although the talker node sends data completely from 1 to 15, the receiving listener_best_effort node displays the data with "2" and "9" missing due to data loss. This is a different result compared to the RELIABLE setting. If the data can tolerate some loss and speed is prioritized over reliability, then setting Reliability to BEST_EFFORT would be appropriate. You will also notice that there is no retransmission, which was the cause of the interruptions in the previous scenario.<br/>
 ![ROS2 Packages Installation45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/72b58cb8-6594-4ace-8862-f28147dc5ea2) <br/>
 ![ROS2 Packages Installation46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1fbef522-191f-470d-929b-73e95da6e6d9) <br/>
+Once all tests are completed, be sure to release the data loss command set to tc through the command below.  <br/>
 ![ROS2 Packages Installation48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/335d4dbe-91e3-4374-9269-00f3572cddc8) <br/>
+
 
 ### Overall Framework of "What is ROS2?" 
 This content is a consolidated summary and organized notes from the YouTube video available at https://www.youtube.com/watch?v=7TVWlADXwRw.<br/>
