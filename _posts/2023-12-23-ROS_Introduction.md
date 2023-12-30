@@ -213,7 +213,27 @@ rmw_cyclonedds_cpp <br/>
 ![ROS2 Packages Installation38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/88caacd0-a15c-4f62-8e2d-e364d3de50f5) <br/>
 rmw_fastrtps_cpp <br/>
 ![ROS2 Packages Installation39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/65cd8d8b-71f6-4b35-90b7-6c9be33c3a96) <br/>
+### 5.4 Method of Changing the Domain(도메인 변경 방법)
+In ROS 2, since communication occurs via UDP multicast as described in 4.4 UDP-based Transmission Method, all nodes in the same network are connected unless a separate configuration is made. <br/>
+-Ex. Problem: If you use the same network in the same laboratory, you will be able to access the data of other researchers' nodes. <br/>
+Solution: To prevent this, you can use a different network or change the name space. The simplest method is to change the DDS domain. In ROS's RMW, this is referred to as ROS_DOMAIN_ID, and it is set as an environment variable.  <br/>
+Let's try running each node on each terminal as follows. Only the talker and listener nodes that have the same ROS_DOMAIN_ID set will be connected and able to communicate with each other. Note that ROS_DOMAIN_ID can have different default values for each RMW, and although it may vary by RMW, it generally can use an integer from 0 to 232.  <br/>
+![ROS2 Packages Installation40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/412b03ef-7ca8-4f92-a585-36b466d46a72) <br/>
+![ROS2 Packages Installation41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1ffb0639-76dc-4a06-91be-cfa82c6a5498) <br/>
+![ROS2 Packages Installation42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5c9b5abb-57aa-44b5-b942-79551dd53237) <br/>
 
+### 5.5 QoS Test(QoS 테스트)
+In the previous description 4.9 Quality of Service(QoS), it was explained that "reliability(신뢰성) functions are typically used, which prioritize reliability by preventing data loss like TCP(reliable) or prioritize communication speed like UDP(best effort)." In this example, let's test this feature with a simple test, though not programming. <br/>
+In this test, a Linux network traffic control utility called tc(traffic control) was used to create arbitrary data loss (10%) and test the reliability.<br/>
+5.5.1 When Reliability is Set to RELIABLE <br/>
+The listener node in the demo_nodes_cpp package is set to the default reliability setting of RELIABLE. <br/>
+Therefore, even if there is data loss, it retransmits the lost data after each acknowledgment like TCP. <br/>
+And as in the example below, there is no data loss. However, you can notice that the terminal window pauses momentarily at the point of loss. <br/> This pause occurs because the lost data is being retransmitted sequentially and then the acknowledgment process is repeated.  <br/>
+5.5.2 When Reliability is Set to BEST_EFFORT <br/>
+This time, we will use the listener_best_effort node from the demo_nodes_cpp package. This node is set to BEST_EFFORT instead of RELIABLE for its Reliability setting.  <br/>
+Therefore, as in the following example, although the talker node sends data completely from 1 to 15, the receiving listener_best_effort node displays the data with "2" and "9" missing due to data loss. This is a different result compared to the RELIABLE setting. If the data can tolerate some loss and speed is prioritized over reliability, then setting Reliability to BEST_EFFORT would be appropriate. You will also notice that there is no retransmission, which was the cause of the interruptions in the previous scenario.<br/>
+![ROS2 Packages Installation44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b60acdcd-c04a-4cf6-b0f3-d38ceb317d70) <br/>
+![ROS2 Packages Installation43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1af2b264-2ea7-4f0a-9a75-b3c7df190742) <br/>
 
 
 
