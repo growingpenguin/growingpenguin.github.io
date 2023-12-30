@@ -206,6 +206,18 @@ Facilitates Communication: RMW handles the details of the data communication, su
 RMW in ROS 2 is a critical layer that enables the system to use various communication middleware options flexibly and interchangeably, thereby enhancing the system's adaptability and efficiency in data communication. <br/>
 ![NvidiaOmniverse6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57503c55-4082-4457-bd70-ca31eeccd664)  <br/>
 ![NvidiaOmniverse7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac0f230f-ec75-400c-ba2f-edd3bda9e930)  <br/>
+### 5.3 RMW Interoperability Test(상호 운용성 테스트)
+:If you want to test the "4.8 Interoperability of DDS" as described above by changing the RMW, you can choose one of the RMWs that support ROS 2 and declare it as the RMW_IMPLEMENTATION environment variable differently for each node. <br/> 
+Ex. We will test the open-source "rmw_cyclonedds_cpp" and "rmw_fastrtps_cpp" which are freely available. As shown below, it can be confirmed that communication was successful without any issues, even though the listener node and talker node used different RMWs. <br/>
+
+
+
+
+
+
+
+
+
 
 ### Overall Framework of "What is ROS2?" 
 This content is a consolidated summary and organized notes from the YouTube video available at https://www.youtube.com/watch?v=7TVWlADXwRw.<br/>
