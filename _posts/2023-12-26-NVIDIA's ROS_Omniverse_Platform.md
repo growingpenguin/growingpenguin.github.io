@@ -24,6 +24,7 @@ These can be things like new features (Extensions), specialized applications (Ap
 Five core components of Omniverse Platform: <br/>
 **Omniverse Nucleus** <br/>
 The Central DB and Collaboration engine of Omniverse. With Nucleus, users share and modify representations of virtual worlds. <br/>
+Omniverse의 중앙 DB와 협업 엔진. Nucleus를 사용하여 사용자들은 가상 세계를 공유하고 수정할 수 있다 <br/>
 Footnote <br/>
 Central Database: <br/>
 Very much like a storage space. It's where all the data and digital representations of virtual worlds are stored. <br/>
@@ -36,11 +37,14 @@ Users can upload their virtual creations to Nucleus, and others can access and m
 This collaboration can happen in real-time, meaning that changes made by one person can be immediately seen and further modified by others <br/>
 **Omniverse Connect** <br/>
 The libraries that connect popular content creation tools to Omniverse. <br/> 
+Omniverse에 인기 있는 콘텐츠 제작 도구를 연결하는 라이브러리들 <br/>
 With Connectors, users continue to work in their favorite software applications, such as SketchUp, Maya, and Unreal Engine, while benefitting from other Omniverse tooling. <br/>
 **Omniverse Kit** <br/>
 The toolkit for building native Omniverse Apps, Extensions, and Microservices. <br/>
+Omniverse 앱, 확장 프로그램 및 마이크로서비스를 구축하기 위한 툴킷 <br/>
 **Omniverse RTX Renderer** <br/>
 An advanced, multi-GPU renderer based on NVIDIA RTX™ that powers both real-time ray tracing and referenced path tracing. <br/>
+"NVIDIA RTX™를 기반으로 한 고급 멀티-GPU 렌더러로, 실시간 레이 트레이싱과 참조 경로 트레이싱 모두를 지원." <br/>
 Advanced, Multi-GPU Renderer:  <br/>
 Renderer is like a sophisticated artist that can create or recreate scenes on a computer. <br/>
 Creating recreating scenes? <br/>
@@ -60,13 +64,18 @@ These are techniques used to calculate how light interacts with objects in a sce
 The Omniverse RTX Renderer can do both, and it does them in 'real-time', which means it calculates these effects incredibly quickly, almost instantly as you work on the scene. <br/>
 **Omniverse Simulation** <br/>
 A powerful suite of tools and SDKs that simulate a physically accurate world. <br/>
+물리적으로 정확한 세계를 시뮬레이션하는 강력한 도구 및 SDK 모음 <br/>
 Refers to a collection of advanced tools and software development kits(SDKs) that are used to create very realistic simulations of the physical world on a computer.  <br/>
 Additional components of Omniverse Platform: <br/>
 **Omniverse Launcher** <br/>
 The native client for downloading, installing, and updating Omniverse Apps, Extensions, and Connectors.  <br/>
+Omniverse 앱, 확장 프로그램, 및 커넥터를 다운로드, 설치, 업데이트하기 위한 네이티브 클라이언트  <br/>
 Launcher is provided in both NVIDIA Omniverse™ for Individuals and NVIDIA Omniverse™ Enterprise. <br/>
+Footnote <br/>
+native client : A software application that is specifically designed to operate within a certain os or environment. Likely a dedicated application that facilitates the downloading, installation, and updating of Omniverse Apps, Extensions, and Connectors. <br/>
 **Omniverse Extensions** <br/>
 The plugins that define the capabilities of Omniverse Kit-based Apps. <br/>
+Omniverse Kit 기반 앱의 기능을 정의하는 플러그인 <br/>
 Developers use Extensions to create, modify, and extend the tools and workflows they need to be productive. <br/>
 Footnote <br/>
 Plugins That Define Capabilities: <br/>
@@ -127,7 +136,7 @@ Apps:  <br/>
 Specialized software applications within the Omniverse ecosystem. Each app is designed for a specific task or set of tasks, like creating 3D models, animating characters, or simulating physical phenomena. Examples might include design tools, visualization apps, or simulation software. <br/>
 Connectors: <br/> 
 Connectors are essentially bridges that link the Omniverse platform to other software tools. They allow you to integrate the Omniverse with different software applications, so you can use all your favorite tools together seamlessly. For example, a connector might let you import a 3D model from a popular design software right into an Omniverse app.  <br/>
--You can combine different apps and connectors in a package that's tailored to specific industry needs or workflows. 
+-You can combine different apps and connectors in a package that's tailored to specific industry needs or workflows.   <br/>
 Ex. In the architecture industry, a package might include apps for designing buildings, connectors to import models from architectural software, and tools to simulate lighting and materials realistically. This approach allows the Omniverse to be very versatile and adaptable to different professional fields.  <br/>
 In order to facilitate the need for a variety of content, Omniverse has an ever expanding list of connectors which plug-in to deliver content directly from source DCC tools. <br/> 
 ![NvidiaOmniverse1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f2b17101-dd19-4c09-9e8a-578e6eb2ab45)  <br/>
