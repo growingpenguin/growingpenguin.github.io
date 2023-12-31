@@ -112,6 +112,46 @@ Key Element for Issac Sim : AI part <br/>
 -Tools are given. Ground-Truth information, it could be semantic segmentation, bounding boxes 2D 3D rgb depth cameras.
 -Along those tools, a lot of data is needed and a lot of scenes are needed to create a lot of data. Artist sit and creating all those scenes would be difficult, so start with a scene(warehouse, living room, retail store,etc..) randomize things just like things will randomize things the way that things will randomize in real life. If you go to a store, the boxes is not always the same, the box will be little bit here and there, the color, texture, the position, the time of the day, and the lighting might change. These are all the variations that we see every day in around us and that is why tool is given to create all this randomization in the scene which is still structured, and if implemented in the warehouse intially, even if randomized, it is still a warehouse. Things are in the right place but in a different way and this way you can create tons of or thousands of hundreds of thousands of scenes for data that you need for training   <br/>
 -A lot of features and toolsets are given. Pick ones that fits or suits better to your application. Application examples are given, there are couple of manipulations picking places for, navigation examples, if you are a ross gro, ross examples are given, how to connect with it, and examples for small robots exist. We cover pretty much most of the tastes around robotics. <br/>  
+Summary: Issac Sim aims to reduce the iteration time, development time, testing things in Issac Sim first, and then test your algorithms immediately on all of these algorithms. <br/>
+How to download Issac Sim => https://developer.nvidia.com/isaac-sim <br/>
+Multi-camera support for ROS: <br/>
+Simulate stereo cameras, rgb, depth, lighters, and other types of sensors, and beam all this to ROS into Issac SDK  <br/>
+All this sensor data being visualized to ARviz(Augmented Reality-enabled Visualization Platform for ROS Applications) <br/>
+Generating Synthetic Data for Training perception models <br/>
+Synthetic data is important to us with the benefit of RTX renderer, realistic architects renderer the materials and physics allow to simulate all the materials. We hope to simulate all of the realistic synthetic data to train robots and transfer those to real datas. 
+Simulating Manipulation <br/>
+There are different types of manipulators, UR10, simulate the suction cups as well, all the conveyer belt goes. Bin rolls down, robot picks up. Suction cup simulates when it will break if it is too heavy, so want to simulate things realistically, so when transferred to the real world, testing time can be reduced.  <br/>
+Simulating Navigation <br/>
+Support ROS navigation as well as Issac SDK navigation. This is carter2. <br/>
+Importing Robots/Assets to Issac Sim <br/>
+Rig all the individual parts. Previously had the URDF importer and URDF importer. CAD file is a new way to bring in robots <br/>
+Issac Sim Launcher <br/>
+News <br/>
+Latest news about Omniverse, omniverse applications, benefits of synthetic data, how we can use omniverse to get synthetic data for simulating self-driving cars.  <br/>
+Exchange <br/>
+Find all the apps like Create, machinima, Audio2Face, and Issac Sim. <br/>
+Learn <br/>
+Video tutorials to teach how to use Nvidia Omniverse <br/>
+Issac Sim <br/>
+After installation
+(1)Select Issac Sim => Click launch => Issac Sim Editor pops up<br/>
+(2)Click in Open terminal => Type ./issac-sim.sh <br/>
+Can run Reinforcement learning in headless mode, let it run and beam down and see what's going on or not <br/>
+Rigging up robots? <br/>
+Ex.Dotbot, robot's arm, demonstrate how we train in Issac Sim we compute and test it on the real robot  <br/>
+Terms of breaking up the robot, robot is like a physics articulation(관절). Robot is a bunch of links that are connected with joints<br/>
+In the right hand side stage window, we can see all the individual parts, base, shoulder, and go through the process of converting this part to rigid bodies and then joint them together so that they can move right <br/> 
+Way to know what which partners already have the physics applied (Eye => Show By type => Physics Mesh => All ) <br/>
+Process <br/>
+(1) Convert them to rigid bodies <br/>
+Select your part so it will highlight the mesh right and then go one level up in the x form. <br/>
+X form: Container, it contain meshes, collision shapes, all of the materials <br/>
+X form right click => Physics => Apply preset => Rigid body <br/>
+Instantly turns into rigid body with a pink outline <br/>
+=> When play is played, it falls, because it is not jointed to the main arm <br/>
+(2) Create joints <br/>
+
+
  
 Reference <br/>
 https://developer.nvidia.com/isaac-sim <br/>
