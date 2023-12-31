@@ -33,7 +33,7 @@ Nucleus allows multiple users to access and work on these virtual worlds togethe
 It's like a shared workspace where people can join, see what others are doing, and make their own changes. <br/>
 Sharing and Modifying Virtual Worlds:  <br/>
 Users can upload their virtual creations to Nucleus, and others can access and modify them.  <br/>
-This collaboration can happen in real-time, meaning that changes made by one person can be immediately seen and further modified by others. <br/>
+This collaboration can happen in real-time, meaning that changes made by one person can be immediately seen and further modified by others <br/>
 **Omniverse Connect** <br/>
 The libraries that connect popular content creation tools to Omniverse. <br/> 
 With Connectors, users continue to work in their favorite software applications, such as SketchUp, Maya, and Unreal Engine, while benefitting from other Omniverse tooling. <br/>
