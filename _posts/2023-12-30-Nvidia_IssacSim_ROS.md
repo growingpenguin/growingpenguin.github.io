@@ -78,6 +78,42 @@ Deployment on Real Anymal: Once verified, the policy was deployed on the actual 
 Implications for Real-World Deployment  <br/>
 Demonstration of Simulator Training Efficacy: This development process showcases how training in a simulator can be effectively transferred to real-world applications, a crucial aspect of modern robotics.  <br/>
 From Training to Real-World Application: Isaac Sim proves to be an invaluable tool in this context. It not only allows for training perception and decision-making policies but also facilitates hardware-in-the-loop simulations. This means the virtual training environment can incorporate and adapt to the physical characteristics of the actual robot hardware. <br/>
+
+## Introduction and Live Demo in Isaac Sim
+What is Issac Sim? <br/>
+Robotics and AI simulator which can be used for burning cycle of developments off(significantly reduce the time and effort) your robotics test and develpment and design on it to make development faster and easier <br/>
+Use Cases <br/>
+Roboticist or Engineer that you already have a robot in front of you and you have a task in mind or a new algorithm that you want to test you have a manipulator you want to do a new pick and place, or you have a mobile base that you want to go to points a or b, or you want to do this experiments on the simulator before doing on the actual robot to iterate faster or actually avoid any breaking stuff either the robot or anything that is close to it. Hobbyist who want to buy a small robot for itself and play around with it, maybe a cool kid who want to design a new robot and want to see how it works in a simulation before you actually design it and brining to live <br/>
+Why is Issac Sim a better tool compared to other robotic simulation in the use case? <br/>
+(1) Issac Sim has all the right ingredients <br/>
+-Built on top of omniverse which gives us the photo-realistic visuals and realistic physics <br/>
+=>Help it look like real and act like real <br/>
+-Built with two key elements in mind, Connectivity and AI <br/>
+Step1:How do I bring my robot in? <br/>
+Brought many toolsets here. For example, if we have a cat or URDF file, we try to make this seamingless to bring it in and don't lose information and bring as much as information possible while importing your robot model <br/>
+Step2:Want my robot to have my sensors <br/>
+Issac Sim comes with a suite of sensors including camera, ultra-sound, and lidar for sensor and this is going to grow as we move toward the end of the year <br/>
+Step3:I have my robot and I want to put my robot in a scene I want to test my robot in. <br/> 
+-ex. Warehouse <br/>
+-There are different ways of bringing your scenes to Issac Sim. <br/>
+One way is, you are an artist and you can design it from scratch here. Other, is if you already have scenes from previous work or you just saw something in a market place, you can just from all the connectors omniverse has, and you can bring those scenes from Issac Sim <br/>
+-Having the connectivity in mind while designing Issac Sim is going to be easy for you to bring your scene or bring your robot into Issac Sim
+<br/>
+Step4:Settings! Once you have your scene and your robots all in, you will come up with a lot of parameters to set before doing your test 
+-UI person: UIs are provided and it is easy to figure out. Documentations are provided which are pretty intuitive <br/> 
+-Roboticist that don't like UI: All about writing python and doing everything with python, this is the right language to targert Issac Sim. Anything can be done without looking at UI. <br/>
+Step5: Once you have all the settings, now I can connect the brain part of the robot <br/>
+-Brain part of the robot: Your SDK, that can by Python or ROS, and Issac SDK <br/>
+-You can start control moving your robot, assigning tasks, testing algorithms <br/>
+-We have thought through all the workflows that you might have in mind <br/>
+Key Element for Issac Sim : AI part <br/>
+-Robots of the next era, would need to understand their environment better, they need perception, they need to know what is going around them and that requires a lot of data. <br/>
+-This data is not available like the real-data. Sometimes it is hard, expensive to get, and that is why it is getting pretty common these days to use synthetic data for training and either enhance what you have with the real data or just do it all through synthetic data <br/>
+-Tools are given. Ground-Truth information, it could be semantic segmentation, bounding boxes 2D 3D rgb depth cameras.
+-Along those tools, a lot of data is needed and a lot of scenes are needed to create a lot of data. Artist sit and creating all those scenes would be difficult, so start with a scene(warehouse, living room, retail store,etc..) randomize things just like things will randomize things the way that things will randomize in real life. If you go to a store, the boxes is not always the same, the box will be little bit here and there, the color, texture, the position, the time of the day, and the lighting might change. These are all the variations that we see every day in around us and that is why tool is given to create all this randomization in the scene which is still structured, and if implemented in the warehouse intially, even if randomized, it is still a warehouse. Things are in the right place but in a different way and this way you can create tons of or thousands of hundreds of thousands of scenes for data that you need for training   <br/>
+-A lot of features and toolsets are given. Pick ones that fits or suits better to your application. Application examples are given, there are couple of manipulations picking places for, navigation examples, if you are a ross gro, ross examples are given, how to connect with it, and examples for small robots exist. We cover pretty much most of the tastes around robotics. <br/>  
+ 
 Reference <br/>
 https://developer.nvidia.com/isaac-sim <br/>
 https://control.com/news/fraunhofer-research-uses-nvidia-technology-for-ai-robotic-simulation/ <br/>
+https://www.youtube.com/watch?app=desktop&v=vpHR0qiH-GY&list=PL3jK4xNnlCVf1SzxjCm7ZxDBNl9QYyV8X&index=7
