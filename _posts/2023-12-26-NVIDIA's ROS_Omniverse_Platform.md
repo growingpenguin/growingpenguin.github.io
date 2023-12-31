@@ -6,7 +6,7 @@ In this post, we delve into the functionality and operational aspects of NVIDIA'
 Join me as we explore and analyze its features and capabilities. <br/>
 ## 1. NVIDIA Omniverse 
 ### What is NVIDIA Omniverse? 
-Extensible platform for virtual collaboration and real-time, physically accurate simulation. Creators, designers, researchers, and engineers can connect tools, assets, and projects to collaborate in a shared virtual space. Developers and software providers can also build and sell Omniverse Extensions, Apps, Connectors, and Microservices on the Omniverse platform to expand its functionality.
+Extensible platform for virtual collaboration and real-time, physically accurate simulation. Creators, designers, researchers, and engineers can connect tools, assets, and projects to collaborate in a shared virtual space. Developers and software providers can also build and sell Omniverse Extensions, Apps, Connectors, and Microservices on the Omniverse platform to expand its functionality.<br/>
 Footnote <br/>
 Virtual Collaboration Space: <br/> 
 Digital workspace where people working in creative fields, research, engineering, or design can come together. <br/>
