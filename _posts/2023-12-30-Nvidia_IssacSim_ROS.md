@@ -204,7 +204,7 @@ A:Both sim to real and real to sim. It works both ways and it is nice how we can
 **Where would be the best place for folks to chat on the omniverse sim team, would be on the omniverse sims forums?** <br/>
 A:https://forums.developer.nvidia.com/c/omniverse/simulation/69 <br/>
 
- 
+45분 47초 <br/>
 Reference <br/>
 https://developer.nvidia.com/isaac-sim <br/>
 https://control.com/news/fraunhofer-research-uses-nvidia-technology-for-ai-robotic-simulation/ <br/>
