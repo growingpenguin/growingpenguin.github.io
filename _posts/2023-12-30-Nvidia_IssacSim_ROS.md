@@ -98,12 +98,11 @@ Ex.If a CAD or URDF file is given, we try to bring this in seaminglessly <br/>
 Footnote: <br/>
 CAD(Computer-Aided Design) and URDF(Unified Robot Description Format) files: <br/>
 Common formats for representing the structure and visual aspects of a robot <br/>
-Step2:Step 2: Adding Sensors (Want my robot to have my sensors) <br/>
+Step2:Adding Sensors (Want my robot to have my sensors) <br/>
 Sensor Suite: Isaac Sim provides a suite of virtual sensors that can be attached to the robot model within the simulation. These can include cameras, ultrasound sensors, and LIDAR, which are essential for the robot to interact with its environment. <br/>
 Sensor Expansion: There's an indication that the range of available sensors in Isaac Sim is expected to grow, enhancing the simulator's capabilities. <br/>
 Step3:Placing the Robot in a Scene(Want to put my robot in a scene I want to test my robot in) <br/> 
-Testing Environments: The user wants to place the robot in a virtual scene (like a warehouse) to simulate and test its behavior. <br/>
-ex. Warehouse <br/>
+Testing Environments: The user wants to place the robot in a virtual scene(like a warehouse) to simulate and test its behavior. <br/>
 Importing Scenes: There are options for creating a scene from scratch within Isaac Sim or importing pre-existing scenes, possibly from a marketplace, using Omniverse Connectors. <br/>
 Having the connectivity in mind while designing Issac Sim is going to be easy for you to bring your scene or bring your robot into Issac Sim
 <br/>
