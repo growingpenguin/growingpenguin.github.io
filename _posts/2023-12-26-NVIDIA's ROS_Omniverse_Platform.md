@@ -132,6 +132,7 @@ When encountering the Omniverse as an End User, one can simplify the conceptual 
 Footnote <br/>
 Platform:  <br/>
 This is the core of the Omniverse system. It includes the foundational technologies and services that everything else builds on. The Platform would involve things like the Nucleus for data management and collaboration, and the RTX Renderer for realistic graphics. <br/>
+Omniverse 시스템의 핵심. 여기에는 다른 모든 것이 기반을 두는 기초 기술과 서비스가 포함되어 있습니다. 플랫폼에는 데이터 관리 및 협업을 위한 Nucleus나 사실적인 그래픽을 위한 RTX 렌더러와 같은 것들이 포함될 것입니다 <br/>
 Apps:  <br/>
 Specialized software applications within the Omniverse ecosystem. Each app is designed for a specific task or set of tasks, like creating 3D models, animating characters, or simulating physical phenomena. Examples might include design tools, visualization apps, or simulation software. <br/>
 Connectors: <br/> 
