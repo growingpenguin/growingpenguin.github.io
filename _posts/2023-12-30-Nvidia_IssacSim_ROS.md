@@ -150,7 +150,59 @@ X form right click => Physics => Apply preset => Rigid body <br/>
 Instantly turns into rigid body with a pink outline <br/>
 => When play is played, it falls, because it is not jointed to the main arm <br/>
 (2) Create joints <br/>
+Connect finger to the wrist <br/>
+(Wrist -> Finger , Pivot is using the origins of the finger, so there is why we want the origin to be) <br/>
+Right click => Create => Physics => joint => Revolute joint => New jaw is popped up <br/>
+Revolute joint is a coplayer joint, and this is how that piece should move <br/>
+=> When play is played, because they don't stay in place because they don't have any drive yet <br/>
+(3)Have a Drive <br/>
+Select the joint where the drive is <br/>
++Add -> Physics -> Angular Drive <br/>
+What the drive does is to holds the drive there and create a motor so that it can move the joint, the stiffness of the drive tell you how fast you can move the piece <br/>
+Damping is needed because in real robots, all those jaws aren't moved immediately, they don't just snap, so realistic movement of the damping is needed <br/>
+=> When play is played, they stay in place, but we still miss the particular joint <br/>
+(4)Take care of loops <br/>
+Articulation lights the tree structure. <br/>
+Loops like the particular case, special care is needed <br/>
+Create a joint between the two. <br/>
+(5)Create a spherical joint <br/>
+Spherical joint is socket, while revolute joint is this coplanor so you know it is on one plane and if you simulate again because articulation doesn't like loop so if you simulate, it will not work <br/>
+Things you can do is you can exclude this from the whole articulation so the job of the joint is to hold these two piece together which is another normal Physx joint. Click on exclude articulation and see where it go <br/>
+(6)Drive the robot <br/>
+Select your drive, the joint(Revolute joint) => Drag, and then it moves <br/>
+=> Can use python to do the process <br/>
+-Use python to control the robot, use AI when we are searching for joints, and dragging the target positions <br/>
+-Can go in Issac Sim, and you can tune the joint limits, just to match how the real robot should move. <br/>
+(7)Environment <br/>
+-In terms of environments, it is dark, dome light can be added <br/>
+-Create -> light -> dome light -> specify texture <br/>
+-Scale down the ground plane <br/>
+-widgets can be change or selected from the left hand side, can scale things up and down <br/>
+-Drag .hdr (dome file) -> Texture file, so you can see the environment here already and then distant light can be turned off, tune all of intensity off the dome light -> Working on outside outdoor <br/>
+-Two different modes for rendering. Fbs is quite high. Path trace mode is more realistic in terms of rendering, taking up more resources. Tiny bit slower, but greater at posing your scenes <br/>
+-Press F10, save out the screen for you, show and hide different types of physic joints. Provide you another way to work with different environments. Capture robot camera sensors with realistic environments like room environment or any other outdoor environment with natural lighting so it will help you transfer learning to the real robot <br/> 
+Cache <br/>
+Omniverse app that caches material compilations so the first run takes a bit longer time, but subsequent, because everything is cached, bigger scenes can be opened quicker <br/>
+Control -> Manipulation -> Dotbot picking 
+Issac Sim tips & Useful links <br/>
+Document tip things that you could look out for, how to get the best quality in terms of rendering, in terms of simulations for your robot, simulations for the robot's needs <br/>
+Nvidia Flex <br/>
+Integrating technologies for either soft bodies or multibodies or fluids directly from Issac Sim. Nvidia Flow can simulate fires from omniverse <br/> 
 
+Q&A <br/>
+**Can you set up a robot's joint with a URDF file like in ROS?** <br/>
+A:Yes, we do have a URDF importer so you can set up robot using the assets for each joint in each solid part of the robot and model that URDF. Cat files can be used for import for example from a STEP file, drawback from the STEP file itself is setting up the joints manually afterwards and the next step is importing this on shape so you would model the robot on shape or import your STEP file on shape so you would model your robot on shape or import your STEP file on shape and then use geometry from the robot from the joints which would make it more accurate as well. And then on one shape we can model entirely with the full joint description directly from the cat file.<br/>
+**Is robots on top of robots possible?** <br/>
+A:Carter base, moving base with two wheels that was shown before and a frank arm on top of that, basically a robot with another robot dependent on it. Simulation of multiple instances of the same robot is also possible. <br/>
+Key points of simulation is that we can test on these combinations. What if we put a dotbot on top of the jet racer, you can see how the physics interacts where and when things might top over top falls over. We did the same thing with mounting the frame cat over a carter, so these can all be tested and see how things work before moving on to the real robots as well <br/>
+Another example is setting the anchor weights so that it doesn't fall over when the arm extends this is one problem when prank arm on top of the wheel base try to reach with the robot, it will basically change the center of mass and make it drop, will fall, so we would put some anchor weights on the other side, so that it can compensate and allow for a wider range of movement. This is one example when simulation helped to prevent this issue happen in the real world <br/>
+Another example is the real dog bot, there are four sunction cups over here and it depends on how fast it swings, the robot might fall and this is a great way to test your robot <br/>
+**You seem to be talking a lot about moving from sim to real, like is it also, do we also take into consideration the fact that how can we take real values and integrated simulation and see how that works** <br/>
+A:Measure before the dotbot, individual parts can be measured, you can go in here, and you type in the real values, the same way with URDF files, you have URDF files and you have mass and other type of numbers, if you have the numbers, Issac Sim allows you to input those in test, and test how well in matches reality. It can go both way and that is the beauty of the digital twin. <br/>
+**Robot twins and Factory twins** <br/>
+A:Both sim to real and real to sim. It works both ways and it is nice how we can fit in all these values in Issac Sim and Omniverse and try them out. We try to make Issac Sim useful to developers  <br/>
+**Where would be the best place for folks to chat on the omniverse sim team, would be on the omniverse sims forums?** <br/>
+A:https://forums.developer.nvidia.com/c/omniverse/simulation/69 <br/>
 
  
 Reference <br/>
