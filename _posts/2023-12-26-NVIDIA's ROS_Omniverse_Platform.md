@@ -111,7 +111,7 @@ Framework:  <br/>
 The underlying structure or set of tools that Omniverse Kit provides for building and customizing applications. <br/>
 **RTX Renderer** <br/>
 Real-time: <br/> 
-This indicates that the rendering process (creating final images from 3D models) happens almost instantly, allowing for immediate viewing and interaction.
+This indicates that the rendering process (creating final images from 3D models) happens almost instantly, allowing for immediate viewing and interaction. <br/>
 Scalable: <br/>
 The renderer can efficiently handle both small and large, complex projects. <br/>
 Accurate: <br/>
