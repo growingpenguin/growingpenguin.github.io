@@ -80,28 +80,37 @@ Demonstration of Simulator Training Efficacy: This development process showcases
 From Training to Real-World Application: Isaac Sim proves to be an invaluable tool in this context. It not only allows for training perception and decision-making policies but also facilitates hardware-in-the-loop simulations. This means the virtual training environment can incorporate and adapt to the physical characteristics of the actual robot hardware. <br/>
 
 ## Introduction and Live Demo in Isaac Sim
-What is Issac Sim? <br/>
+### PM
+**What is Issac Sim?** <br/>
 Robotics and AI simulator which can be used for burning cycle of developments off(significantly reduce the time and effort) your robotics test and develpment and design on it to make development faster and easier <br/>
-Use Cases <br/>
+**Use Cases** <br/>
 Roboticist or Engineer that you already have a robot in front of you and you have a task in mind or a new algorithm that you want to test you have a manipulator you want to do a new pick and place, or you have a mobile base that you want to go to points a or b, or you want to do this experiments on the simulator before doing on the actual robot to iterate faster or actually avoid any breaking stuff either the robot or anything that is close to it. Hobbyist who want to buy a small robot for itself and play around with it, maybe a cool kid who want to design a new robot and want to see how it works in a simulation before you actually design it and brining to live <br/>
-Why is Issac Sim a better tool compared to other robotic simulation in the use case? <br/>
-(1) Issac Sim has all the right ingredients <br/>
+**Why is Issac Sim a better tool compared to other robotic simulation in the use case?** <br/>
+Issac Sim has all the right ingredients <br/>
 -Built on top of omniverse which gives us the photo-realistic visuals and realistic physics <br/>
 =>Help it look like real and act like real <br/>
 -Built with two key elements in mind, Connectivity and AI <br/>
-Step1:How do I bring my robot in? <br/>
-Brought many toolsets here. For example, if we have a cat or URDF file, we try to make this seamingless to bring it in and don't lose information and bring as much as information possible while importing your robot model <br/>
-Step2:Want my robot to have my sensors <br/>
-Issac Sim comes with a suite of sensors including camera, ultra-sound, and lidar for sensor and this is going to grow as we move toward the end of the year <br/>
-Step3:I have my robot and I want to put my robot in a scene I want to test my robot in. <br/> 
--ex. Warehouse <br/>
--There are different ways of bringing your scenes to Issac Sim. <br/>
-One way is, you are an artist and you can design it from scratch here. Other, is if you already have scenes from previous work or you just saw something in a market place, you can just from all the connectors omniverse has, and you can bring those scenes from Issac Sim <br/>
--Having the connectivity in mind while designing Issac Sim is going to be easy for you to bring your scene or bring your robot into Issac Sim
+**Steps a user would follow to import and configure a robot in the Isaac Sim environment** <br/>
+Step1:Importing the Robot (How do I bring my robot in?) <br/>
+Importing a Robot Model: Bringing a digital model of a robot into Isaac Sim. <br/> 
+Preservation of Information: The goal is to import the robot model without losing any vital information, ensuring that as many details as possible(like geometry, textures, kinematics) are retained during the import process. <br/>
+Ex.If a CAD or URDF file is given, we try to bring this in seaminglessly <br/>
+Footnote: <br/>
+CAD(Computer-Aided Design) and URDF(Unified Robot Description Format) files: <br/>
+Common formats for representing the structure and visual aspects of a robot <br/>
+Step2:Step 2: Adding Sensors (Want my robot to have my sensors) <br/>
+Sensor Suite: Isaac Sim provides a suite of virtual sensors that can be attached to the robot model within the simulation. These can include cameras, ultrasound sensors, and LIDAR, which are essential for the robot to interact with its environment. <br/>
+Sensor Expansion: There's an indication that the range of available sensors in Isaac Sim is expected to grow, enhancing the simulator's capabilities. <br/>
+Step3:Placing the Robot in a Scene(Want to put my robot in a scene I want to test my robot in) <br/> 
+Testing Environments: The user wants to place the robot in a virtual scene (like a warehouse) to simulate and test its behavior. <br/>
+ex. Warehouse <br/>
+Importing Scenes: There are options for creating a scene from scratch within Isaac Sim or importing pre-existing scenes, possibly from a marketplace, using Omniverse Connectors. <br/>
+Having the connectivity in mind while designing Issac Sim is going to be easy for you to bring your scene or bring your robot into Issac Sim
 <br/>
-Step4:Settings! Once you have your scene and your robots all in, you will come up with a lot of parameters to set before doing your test 
--UI person: UIs are provided and it is easy to figure out. Documentations are provided which are pretty intuitive <br/> 
--Roboticist that don't like UI: All about writing python and doing everything with python, this is the right language to targert Issac Sim. Anything can be done without looking at UI. <br/>
+Step4:Configuring Settings <br/>
+Parameter Adjustment: Once the scene and robot are in place, numerous parameters need to be set for the simulation. This could involve physics settings, environmental conditions, sensor configurations, etc. <br/>
+User Interface (UI) and Documentation: For users who prefer a graphical approach, Isaac Sim provides a user interface along with documentation to help them configure settings. <br/>
+Python Scripting: For users who are more comfortable with coding, Isaac Sim supports Python scripts for setting up the simulation. Everything that can be done via the UI can also be accomplished through Python, appealing to roboticists who prefer a programmatic approach. <br/>
 Step5: Once you have all the settings, now I can connect the brain part of the robot <br/>
 -Brain part of the robot: Your SDK, that can by Python or ROS, and Issac SDK <br/>
 -You can start control moving your robot, assigning tasks, testing algorithms <br/>
