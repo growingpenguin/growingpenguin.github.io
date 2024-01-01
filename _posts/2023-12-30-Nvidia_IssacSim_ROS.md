@@ -110,8 +110,8 @@ Step4:Configuring Settings <br/>
 Parameter Adjustment: Once the scene and robot are in place, numerous parameters need to be set for the simulation. This could involve physics settings, environmental conditions, sensor configurations, etc. <br/>
 User Interface (UI) and Documentation: For users who prefer a graphical approach, Isaac Sim provides a user interface along with documentation to help them configure settings. <br/>
 Python Scripting: For users who are more comfortable with coding, Isaac Sim supports Python scripts for setting up the simulation. Everything that can be done via the UI can also be accomplished through Python, appealing to roboticists who prefer a programmatic approach. <br/>
-Step5: Once you have all the settings, now I can connect the brain part of the robot <br/>
--Brain part of the robot: Your SDK, that can by Python or ROS, and Issac SDK <br/>
+Step5: Connecting the Robot's "Brain" <br/>
+Integration of Control Systems: This step is about integrating the robot's control system, which is referred to as its "brain." It involves connecting the simulation to various software development kits (SDKs) like Python, ROS (Robot Operating System), and Isaac SDK. <br/>
 -You can start control moving your robot, assigning tasks, testing algorithms <br/>
 -We have thought through all the workflows that you might have in mind <br/>
 Key Element for Issac Sim : AI part <br/>
@@ -151,13 +151,13 @@ Terms of breaking up the robot, robot is like a physics articulation(관절). Ro
 In the right hand side stage window, we can see all the individual parts, base, shoulder, and go through the process of converting this part to rigid bodies and then joint them together so that they can move right <br/> 
 Way to know what which partners already have the physics applied (Eye => Show By type => Physics Mesh => All ) <br/>
 Process <br/>
-(1) Convert them to rigid bodies <br/>
+(1)Convert them to rigid bodies <br/>
 Select your part so it will highlight the mesh right and then go one level up in the x form. <br/>
 X form: Container, it contain meshes, collision shapes, all of the materials <br/>
 X form right click => Physics => Apply preset => Rigid body <br/>
 Instantly turns into rigid body with a pink outline <br/>
 => When play is played, it falls, because it is not jointed to the main arm <br/>
-(2) Create joints <br/>
+(2)Create joints <br/>
 Connect finger to the wrist <br/>
 (Wrist -> Finger , Pivot is using the origins of the finger, so there is why we want the origin to be) <br/>
 Right click => Create => Physics => joint => Revolute joint => New jaw is popped up <br/>
