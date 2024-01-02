@@ -285,4 +285,5 @@ Result <br/>
 
 Reference: <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox?tab=readme-ov-file <br/>
+https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros <br/>
 https://nvidia-isaac-ros.github.io/getting_started/dev_env_setup.html <br/>
