@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cb15fd72-299a-4639-8f31-5a1cec38d4f5)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/442fa0ed-c065-44ff-8ad1-1f8e1dfe70a2)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9db2f364-25f2-471b-84b2-46c5133fcab2)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cb15fd72-299a-4639-8f31-5a1cec38d4f5)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/442fa0ed-c065-44ff-8ad1-1f8e1dfe70a2)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -226,7 +226,7 @@ Force CDI mode by explicitly setting the nvidia-container-runtime.mode option in
 In this case, the NVIDIA_VISIBLE_DEVICES environment variable is still used to select the devices to inject into the container, but the nvidia-container-runtime.modes.cdi.default-kind (with a default value of nvidia.com/gpu) is used to construct a fully-qualified CDI device name only when you specify a device index such as all, 0, or 1, and so on. <br/>
 ![Nvblox52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/432bfccc-7e64-45cb-977f-efd8e3da63ce) <br/>
 If CDI mode is explicitly enabled, the following sample command has the same effect as specifying NVIDIA_VISIBLE_DEVICES=nvidia.com/gpu=all. <br/>
-### Restart Docker** <br/>
+### Restart Docker <br/>
 ![Nvblox53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/01bb732b-a2dc-4f9b-aea3-4ff1c2903c1e) <br/>
 ### Install Git LFS to pull down all large files
 ![Nvblox54](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e10f5da-a255-42cd-af28-ec3482c73777) <br/>
@@ -238,7 +238,9 @@ Expected to use the ISAAC_ROS_WS environmental variable to refer to this ROS 2 w
 ![Nvblox57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/52c2c3d0-0132-4484-9fde-34a7c70261a8) <br/>
 ![Nvblox58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d017b654-18e2-4341-af3e-1e041c2b5bac) <br/>
 Remove the isaac_ros_common directory,and then attempt the clone again <br/>
-
+![Nvblox59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a81efc5d-3874-46a0-b72f-829699cb0bf3) <br/>
+Remove isaac_ros_nvblox directory first and then run the clone command again <br/>
+![Nvblox60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dea2fffb-a494-41ac-a118-fcfbfb27d407) <br/>
 
 
 
