@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/442fa0ed-c065-44ff-8ad1-1f8e1dfe70a2)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cb15fd72-299a-4639-8f31-5a1cec38d4f5)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/442fa0ed-c065-44ff-8ad1-1f8e1dfe70a2)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -234,8 +234,10 @@ If CDI mode is explicitly enabled, the following sample command has the same eff
 ## Create a ROS 2 workspace for experimenting with Isaac ROS:
 ![Nvblox56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ed1cc5d3-93f8-4567-b826-94c2583b39dc) <br/>
 Expected to use the ISAAC_ROS_WS environmental variable to refer to this ROS 2 workspace directory, in the future <br/>
-**(2)Clone isaac_ros_common and this repository under ${ISAAC_ROS_WS}/src** <br/>
-![Nvblox57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/52c2c3d0-0132-4484-9fde-34a7c70261a8)
+**2.Clone isaac_ros_common and this repository under ${ISAAC_ROS_WS}/src** <br/>
+![Nvblox57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/52c2c3d0-0132-4484-9fde-34a7c70261a8) <br/>
+![Nvblox58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d017b654-18e2-4341-af3e-1e041c2b5bac) <br/>
+Remove the isaac_ros_common directory,and then attempt the clone again <br/>
 
 
 
