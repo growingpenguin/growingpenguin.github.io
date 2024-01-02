@@ -138,6 +138,21 @@ Conflicting packages right now <br/>
 ![Nvblox28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/242d3f1f-94a5-4bee-8c2b-e1e9a62b4333) <br/>
 ![Nvblox29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c87f04b0-fd43-4283-b990-696f29a0f95d) <br/>
 Remove the configuration files associated with the uninstalled containerd package. <br/>
+Reference: <br/>
+https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-containerd-on-ubuntu-22-04.html <br/>
+
+cri-o <br/>
+(1)Update System <br/>
+![Nvblox30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/091c0c82-90bb-4755-80d0-f724a8e0555c) <br/>
+(2)Add CRI-O Kubic repository <br/>
+![Nvblox31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9cdbb408-d71d-457f-8ae4-b847cf9970de) <br/>
+Add the Kubic repository which host binary packages for Debian based systems. <br/>
+(3)Install CRI-O on Ubuntu 20.04 <br/>
+
+
+Reference: <br/>
+https://computingforgeeks.com/install-cri-o-container-runtime-on-ubuntu-linux/ <br/>
+
 
 
 Questions? <br/>
