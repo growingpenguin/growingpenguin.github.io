@@ -169,6 +169,8 @@ podman <br/>
 ![Nvblox42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea75d750-6ebb-4ccb-8062-97ab4413df01) <br/>
 (6)Verify that Podman is installed correctly <br/>
 ![Nvblox43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cc4fc984-fc28-4302-b389-3cacc17b7e2e) <br/>
+Reference: <br/>
+https://rameshponnusamy.medium.com/install-podman-in-ubuntu-20-04-442649400b3f <br/>
 <br/>
 **Configuring Docker** <br/>
 (1)Configure the container runtime by using the nvidia-ctk command <br/>
