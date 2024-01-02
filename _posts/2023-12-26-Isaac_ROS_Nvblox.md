@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/89ba8408-c594-44f0-8b05-30e5b1ceddea)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e8dfee87-ab40-4cc3-9a93-205513c12bfe)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7f243158-8a3f-4b5a-9236-14e95c2e8d77)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -145,9 +145,34 @@ cri-o <br/>
 (1)Update System <br/>
 ![Nvblox30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/091c0c82-90bb-4755-80d0-f724a8e0555c) <br/>
 (2)Add CRI-O Kubic repository <br/>
-![Nvblox31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9cdbb408-d71d-457f-8ae4-b847cf9970de) <br/>
+![Nvblox32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ba1cd41f-2e3a-4dae-989e-a32f688818e2) <br/>
 Add the Kubic repository which host binary packages for Debian based systems. <br/>
 (3)Install CRI-O on Ubuntu 20.04 <br/>
+![Nvblox33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1394e859-a0b6-428d-a5b8-567099872f22) <br/>
+![Nvblox34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5c23f8a0-bb40-415f-8d90-24af6fb6a717) <br/>
+Update the package list and then install CRI-O <br/>
+![Nvblox35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6d1a3205-5db6-49c8-82f0-95ed03573606) <br/>
+Enable the CRI-O service so that it starts when Ubuntu does <br/>
+![Nvblox36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c9c55e81-1b90-46b5-86d1-280940ea3a6b) <br/>
+Start the CRI-O service <br/>
+![Nvblox37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1b1737e1-7cb1-4b08-89ae-2528fce0f285)
+Service status checked <br/>
+
+podman <br/>
+(1)Update the package index on your system <br/>
+![Nvblox38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9aff62ae-c8e0-44b7-924d-a9a1db097997) <br/>
+(2)Install the Podman dependencies <br/>
+![Nvblox39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/09491630-4209-4a0f-abd6-44814b6b2435) <br/>
+(3)Add the libcontainers repository <br/>
+![Nvblox40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fbbe417d-ee03-4d91-beb0-04258aebb049) <br/>
+(4) <br/>
+![Nvblox41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/42ff8d49-75ed-4457-a401-06e38af8d88a) <br/>
+(5)Install Podman <br/>
+![Nvblox42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea75d750-6ebb-4ccb-8062-97ab4413df01) <br/>
+(6)Verify that Podman is installed correctly <br/>
+![Nvblox43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cc4fc984-fc28-4302-b389-3cacc17b7e2e) <br/>
+
+
 
 
 Reference: <br/>
