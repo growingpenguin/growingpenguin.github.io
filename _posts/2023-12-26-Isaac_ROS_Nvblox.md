@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d736c078-f293-4a0e-9b52-f54db2f93217)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be749786-0fb7-4601-ad3c-7054c4377ac3)---
+---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -136,6 +136,7 @@ Then, check the status of the containerd service. <br/>
 ![Nvblox28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/242d3f1f-94a5-4bee-8c2b-e1e9a62b4333) <br/>
 Conflicting packages right now <br/>
 ![Nvblox28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/242d3f1f-94a5-4bee-8c2b-e1e9a62b4333) <br/>
+![Nvblox29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c87f04b0-fd43-4283-b990-696f29a0f95d) <br/>
 Remove the configuration files associated with the uninstalled containerd package. <br/>
 
 
