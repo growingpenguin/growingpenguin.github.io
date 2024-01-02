@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/89ba8408-c594-44f0-8b05-30e5b1ceddea)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e8dfee87-ab40-4cc3-9a93-205513c12bfe)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7f243158-8a3f-4b5a-9236-14e95c2e8d77)---
+---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -95,6 +95,7 @@ Update the list of available packages and their versions, but it does not instal
 **Configuration** <br/>
 Prerequisites <br/>
 You installed a supported container engine (Docker, Containerd, CRI-O, Podman) <br/>
+You installed the NVIDIA Container Toolkit. <br/>
 Docker <br/>
 (1)Uninstall old versions <br/>
 Uninstall all conflicting packages <br/>
@@ -121,7 +122,6 @@ Add the repository to Apt sources <br/>
 (3)-3 Verify that the Docker Engine installation is successful by running the hello-world image. <br/>
 ![Nvblox21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c5aff969-b8af-4894-b1fd-f1b7e2ff9caf) <br/>
 Reference: https://docs.docker.com/engine/install/ubuntu/ <br/>
-
 containerd <br/>
 ![Nvblox22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4de6ee4b-d3d9-457f-9618-1da5e86af6c1)  <br/>
 ![Nvblox23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9e4a34b9-1357-4846-9e37-0ffc62ba9bda)  <br/>
@@ -140,7 +140,6 @@ Conflicting packages right now <br/>
 Remove the configuration files associated with the uninstalled containerd package. <br/>
 Reference: <br/>
 https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-containerd-on-ubuntu-22-04.html <br/>
-
 cri-o <br/>
 (1)Update System <br/>
 ![Nvblox30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/091c0c82-90bb-4755-80d0-f724a8e0555c) <br/>
@@ -157,7 +156,6 @@ Enable the CRI-O service so that it starts when Ubuntu does <br/>
 Start the CRI-O service <br/>
 ![Nvblox37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1b1737e1-7cb1-4b08-89ae-2528fce0f285)
 Service status checked <br/>
-
 podman <br/>
 (1)Update the package index on your system <br/>
 ![Nvblox38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9aff62ae-c8e0-44b7-924d-a9a1db097997) <br/>
@@ -171,6 +169,10 @@ podman <br/>
 ![Nvblox42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea75d750-6ebb-4ccb-8062-97ab4413df01) <br/>
 (6)Verify that Podman is installed correctly <br/>
 ![Nvblox43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cc4fc984-fc28-4302-b389-3cacc17b7e2e) <br/>
+<br/>
+**Configuring Docker** <br/>
+(1)Configure the container runtime by using the nvidia-ctk command <br/>
+![Nvblox44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0fec93dc-f258-477d-b671-21c589300090) <br/>
 
 
 
