@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be749786-0fb7-4601-ad3c-7054c4377ac3)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d736c078-f293-4a0e-9b52-f54db2f93217)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be749786-0fb7-4601-ad3c-7054c4377ac3)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -99,7 +99,6 @@ Docker <br/>
 (1)Uninstall old versions <br/>
 Uninstall all conflicting packages <br/>
 ![Nvblox10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94ca9a00-1aea-4d23-a5b0-f1a37f94950c) <br/>
-Reference: https://docs.docker.com/engine/install/ubuntu/ <br/>
 You installed the NVIDIA Container Toolkit. <br/>
 (2)Uninstall Docker <br/>
 ![Nvblox11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b043f74c-8ec6-49e2-a9fc-de8acdc3b074) <br/>
@@ -107,13 +106,37 @@ Uninstall the Docker Engine, CLI, containerd, and Docker Compose packages: <br/>
 ![Nvblox12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/769c0bbf-2dfc-476f-b5b6-ed99987ac29a) <br/>
 Images, containers, volumes, or custom configuration files on your host aren't automatically removed. Delete all images, containers, and volumes. <br/>
 (3)Install using the apt repository <br/>
+(3)-1 Set up Docker's apt repository <br/>
 ![Nvblox13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0525fa58-7a2a-4c14-93ab-9c9a3aa28267) <br/>
 ![Nvblox14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5672992b-b217-4b2d-8c66-c34cb5d6e0cb) <br/>
 ![Nvblox15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/273c3a41-d38a-4bdb-aa66-7070076b20ba) <br/>
 ![Nvblox16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c88aadbb-4468-415e-b1f4-657a774ab38c) <br/>
 ![Nvblox17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d4a7f4d8-b029-432b-92b4-25ba6b9ae8b1) <br/>
+Add Docker's official GPG key <br/>
 ![Nvblox18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a3c71171-f279-4693-b9c9-6aa9940bd7da) <br/>
 ![Nvblox19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1e0f65e1-3ca8-47ef-9462-6d1594775888) <br/>
+Add the repository to Apt sources <br/>
+(3)-2 Install the Docker packages <br/>
+![Nvblox20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c3af00ea-77d8-43c6-8431-a5f8577eaeaf) <br/>
+(3)-3 Verify that the Docker Engine installation is successful by running the hello-world image. <br/>
+![Nvblox21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c5aff969-b8af-4894-b1fd-f1b7e2ff9caf) <br/>
+Reference: https://docs.docker.com/engine/install/ubuntu/ <br/>
+
+containerd <br/>
+![Nvblox22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4de6ee4b-d3d9-457f-9618-1da5e86af6c1)  <br/>
+![Nvblox23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9e4a34b9-1357-4846-9e37-0ffc62ba9bda)  <br/>
+Download the latest version of containerd from GitHub and extract the files to the /usr/local/ directory <br/>
+![Nvblox24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cc32f3b6-d33d-40db-a414-9f4e61b5e61c) <br/>
+![Nvblox25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/96009c65-774b-4060-8550-9fce37365817) <br/>
+Then, download the systemd service file and set it up so that you can manage the service via systemd. <br/>
+![Nvblox26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/05696568-04f7-46cd-a092-ec43050a9a04) <br/>
+Finally, start the containerd service using the below command. <br/>
+![Nvblox27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/66acffc2-66b1-4448-8c12-c0647a5e6e61) <br/>
+Then, check the status of the containerd service. <br/>
+![Nvblox28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/242d3f1f-94a5-4bee-8c2b-e1e9a62b4333) <br/>
+Conflicting packages right now <br/>
+![Nvblox28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/242d3f1f-94a5-4bee-8c2b-e1e9a62b4333) <br/>
+Remove the configuration files associated with the uninstalled containerd package. <br/>
 
 
 Questions? <br/>
