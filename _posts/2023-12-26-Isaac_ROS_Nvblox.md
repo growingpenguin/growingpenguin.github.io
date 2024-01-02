@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f0dbc91b-d3e7-43b7-94dd-7f39f9759bde)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/69adafb6-773b-48da-8c6c-ef8e5332fd19)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9db2f364-25f2-471b-84b2-46c5133fcab2)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cb15fd72-299a-4639-8f31-5a1cec38d4f5)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/442fa0ed-c065-44ff-8ad1-1f8e1dfe70a2)---
+---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -252,7 +252,14 @@ Create the docker group & Add your user to the docker group.<br/>
 ![Nvblox64](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/78c47194-c530-4b0e-9261-26ba4144dedd) <br/>
 Log out and log back in so that your group membership is re-evaluated. Run the following command to activate the changes to groups <br/>
 ![Nvblox65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3bdeb4b2-4e56-475c-b1e7-ecd09e8d6186) <br/>
-Verify that you can run docker commands without sudo  <br/>
+Verified that you can run docker commands without sudo  <br/>
+![Nvblox66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1e6a7d46-ab0f-4540-a23d-4fc513c16970)  <br/>
+**5.Inside the container, install package-specific dependencies via rosdep**  <br/>
+![Nvblox67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3829fb92-0781-4f2e-af1d-51526e97593d)  <br/>
+**6.Build and source the workspace:** <br/>
+![Nvblox68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dbddb20e-6098-4376-b2c9-6115b3c3c7b8)  <br/>
+
+
 
 
 Reference: <br/>
