@@ -235,7 +235,7 @@ If CDI mode is explicitly enabled, the following sample command has the same eff
 ![Nvblox56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ed1cc5d3-93f8-4567-b826-94c2583b39dc) <br/>
 Expected to use the ISAAC_ROS_WS environmental variable to refer to this ROS 2 workspace directory, in the future <br/>
 **(2)Clone isaac_ros_common and this repository under ${ISAAC_ROS_WS}/src** <br/>
-![Nvblox57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6896c9e0-a4d3-4cf2-a889-ae7273599770) <br/>
+![Nvblox57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/52c2c3d0-0132-4484-9fde-34a7c70261a8)
 
 
 
