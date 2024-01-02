@@ -241,6 +241,7 @@ Remove the isaac_ros_common directory,and then attempt the clone again <br/>
 ![Nvblox59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a81efc5d-3874-46a0-b72f-829699cb0bf3) <br/>
 Remove isaac_ros_nvblox directory first and then run the clone command again <br/>
 ![Nvblox60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dea2fffb-a494-41ac-a118-fcfbfb27d407) <br/>
+**3.Pull down a ROS Bag of sample data**  <br/>
 
 
 
