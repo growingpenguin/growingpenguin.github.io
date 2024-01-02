@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2275ae0a-0ad7-48a0-aaed-7b974ae8c242)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3410e095-28a6-49c2-9802-d46fb93f43c3)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3ebdb892-59c5-4f1a-8de5-ab36dfe99ac5)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/442fa0ed-c065-44ff-8ad1-1f8e1dfe70a2)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -28,7 +28,7 @@ nvblox: A core library written in C++ that doesn't depend on any specific framew
 ## How NvBlox Operates
 ![Nvblox1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6ed28fab-86ca-487b-b11d-b743e78144f7)
 Graph that uses isaac_ros_nvblox <br/>
-**(1)Takes Depth image, Color image, and Pose as Input** <br/>
+**1.Takes Depth image, Color image, and Pose as Input** <br/>
 Depth Image: <br/>
 Type of image where each pixel value represents the distance from the camera to the object in the scene.  <br/> 
 Often used in 3D modeling and robotics because they provide crucial information about the physical layout of the environment. <br/>
@@ -78,7 +78,6 @@ Script(a set of automated commands) that you can run to set up or start this Doc
 (1)-1 Install nvidia-container-toolkit and Docker & Configure nvidia-container-toolkit for Docker <br/>
 On x86_64 platforms: <br/>
 ### Install nvidia-container-toolkit <br/>
-**Installation** <br/>
 Installing with apt <br/>
 (1)Configure production repository <br/>
 ![Nvblox6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bad5b41a-ebde-4ec7-8439-d12683533783) <br/>
@@ -92,7 +91,8 @@ Uncomment lines in the nvidia-container-toolkit.list file that contain the word 
 Update the list of available packages and their versions, but it does not install or upgrade any packages. <br/>
 (3)Install the NVIDIA Container Toolkit packages <br/>
 ![Nvblox9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/74c61d0f-8b4a-48e4-a98a-b0118c804fd0) <br/>
-**Configuration** <br/>
+<br/>
+### Configure nvidia-container-toolkit for Docker** <br/>
 Prerequisites <br/>
 You installed a supported container engine (Docker, Containerd, CRI-O, Podman) <br/>
 You installed the NVIDIA Container Toolkit. <br/>
@@ -189,13 +189,55 @@ Support for Container Device Interface <br/>
 About the Container Device Interface <br/>
 CDI is an open specification for container runtimes that abstracts what access to a device, such as an NVIDIA GPU, means, and standardizes access across container runtimes. Popular container runtimes can read and process the specification to ensure that a device is available in a container. CDI simplifies adding support for devices such as NVIDIA GPUs because the specification is applicable to all container runtimes that support CDI. <br/>
 CDI also improves the compatibility of the NVIDIA container stack with certain features such as rootless containers. <br/>
-**Generating a CDI specification**  <br/>
+Generating a CDI specification  <br/>
 Prerequisites <br/>
 You installed either the NVIDIA Container Toolkit or you installed the nvidia-container-toolkit-base package <br/>
 You installed an NVIDIA GPU Driver <br/>
 ![Nvblox47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3c3d9ae-8d68-4842-82e9-d986f94909db) <br/>
 Confirmed installed GPU Driver <br/>
 ![Nvblox47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3c3d9ae-8d68-4842-82e9-d986f94909db) <br/>
+Procedure <br/>
+(1)Generate the CDI specification file <br/>
+![Nvblox48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/90f35e38-a84b-4078-b34c-4a28c985d6f9) <br/>
+(2)Check the names of the generated devices <br/>
+![Nvblox49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/693c8a80-9813-4245-a146-c57d4623ea9a) <br/>
+Running a Workload with CDI <br/>
+Potential conflict that can arise when using CDI in conjunction with the NVIDIA Container Runtime hook <br/>
+Potential Conflict with NVIDIA Container Runtime Hook: <br/>
+The NVIDIA Container Runtime includes a hook (oci-nvidia-hook) that automatically sets up the container environment to access NVIDIA GPUs. <br/>
+If you're using CDI to inject NVIDIA devices into your containers, and the oci-nvidia-hook is also present, they can interfere with each other because they are trying to manage the same devices. <br/>
+Resolving the Conflict: <br/>
+To avoid this conflict, you should remove or disable the oci-nvidia-hook.json file if you plan to use CDI. <br/>
+Additionally, you should not set the NVIDIA_VISIBLE_DEVICES environment variable in your containers, as this is used by the NVIDIA hook to control GPU visibility. <br/>
+Container Engine or CLI Support: <br/>
+Your container engine or command-line interface (CLI) tool must support CDI for you to use it. As of version 4.1.0, Podman has included support for specifying CDI devices directly in the --device argument.<br/>
+Running a Container with CDI: <br/>
+With a CDI specification generated, you can run a container with access to NVIDIA GPUs by specifying the devices using the --device flag with the appropriate CDI device identifier. <br/>
+Ignore CDI => https://forums.developer.nvidia.com/t/ubuntu-20-04-installation-nvidia-tao-platform-error/245708/8 <br/>
+Using CDI with Non-CDI-Enabled Runtimes: <br/>
+To support runtimes that do not natively support CDI, you can configure the NVIDIA Container Runtime in a cdi mode. 
+In this mode, the NVIDIA Container Runtime does not inject the NVIDIA Container Runtime Hook into the incoming OCI runtime specification. Instead, the runtime performs the injection of the requested CDI devices. <br/>
+The NVIDIA Container Runtime automatically uses cdi mode if you request devices by their CDI device names. <br/>
+Using Docker as an example of a non-CDI-enabled runtime, the following command uses CDI to inject the requested devices into the container: <br/>
+![Nvblox50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/139d67fe-7e52-4383-b3ab-16317a0fb059) <br/>
+Setting the CDI Mode Explicitly <br/>
+![Nvblox51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/81f590d2-b3a6-48e1-8f26-b3aa68058699) <br/>
+Force CDI mode by explicitly setting the nvidia-container-runtime.mode option in the NVIDIA Container Runtime config to cdi <br/>
+In this case, the NVIDIA_VISIBLE_DEVICES environment variable is still used to select the devices to inject into the container, but the nvidia-container-runtime.modes.cdi.default-kind (with a default value of nvidia.com/gpu) is used to construct a fully-qualified CDI device name only when you specify a device index such as all, 0, or 1, and so on. <br/>
+![Nvblox52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/432bfccc-7e64-45cb-977f-efd8e3da63ce) <br/>
+If CDI mode is explicitly enabled, the following sample command has the same effect as specifying NVIDIA_VISIBLE_DEVICES=nvidia.com/gpu=all. <br/>
+### Restart Docker** <br/>
+![Nvblox53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/01bb732b-a2dc-4f9b-aea3-4ff1c2903c1e) <br/>
+### Install Git LFS to pull down all large files
+![Nvblox54](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e10f5da-a255-42cd-af28-ec3482c73777) <br/>
+![Nvblox55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/61f6fe5a-29a2-47a4-a4fe-68755f82362b) <br/>
+## Create a ROS 2 workspace for experimenting with Isaac ROS:
+![Nvblox56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ed1cc5d3-93f8-4567-b826-94c2583b39dc) <br/>
+Expected to use the ISAAC_ROS_WS environmental variable to refer to this ROS 2 workspace directory, in the future <br/>
+**(2)Clone isaac_ros_common and this repository under ${ISAAC_ROS_WS}/src** <br/>
+![Nvblox57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6896c9e0-a4d3-4cf2-a889-ae7273599770) <br/>
+
+
 
 
 Reference:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/cdi-support.html <br/>
