@@ -75,8 +75,8 @@ Docker-based development environment:  <br/>
 Docker is a tool that allows you to create isolated environments, called containers, where you can run software without affecting the rest of your system. This sentence suggests that Isaac ROS provides a Docker container where you can develop your robotics software. <br/>
 run_dev.sh:  <br/>
 Script(a set of automated commands) that you can run to set up or start this Docker-based development environment. By running this script, you'd be able to work in a controlled, consistent environment that's specifically configured for Isaac ROS development <br/>
-(1)-1 Install nvidia-container-toolkit and Docker & Configure nvidia-container-toolkit for Docker <br/>
 On x86_64 platforms: <br/>
+Reference:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/cdi-support.html <br/>
 ### Install nvidia-container-toolkit <br/>
 Installing with apt <br/>
 (1)Configure production repository <br/>
@@ -278,11 +278,6 @@ https://forums.developer.nvidia.com/t/nvblox-colcon-build-error/247962/2 <br/>
 
 
 
-Reference: <br/>
-Manage Docker as a non-root user: https://docs.docker.com/engine/install/linux-postinstall/ <br/>
-
-
-Reference:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/cdi-support.html <br/>
 
 
 
