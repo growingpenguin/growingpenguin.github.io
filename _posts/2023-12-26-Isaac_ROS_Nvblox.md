@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2a936c0b-23ef-4d7a-b52d-00c502d72e28)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -258,6 +258,9 @@ Verified that you can run docker commands without sudo  <br/>
 ![Nvblox67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3829fb92-0781-4f2e-af1d-51526e97593d)  <br/>
 **6.Build and source the workspace:** <br/>
 ![Nvblox68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dbddb20e-6098-4376-b2c9-6115b3c3c7b8)  <br/>
+Error: <br/>
+![Nvblox69](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d8d39cb4-bfea-4732-acb0-94c3518e8911)  <br/>
+Solution: https://github.com/growingpenguin/growingpenguin.github.io/issues/55<br/>
 **7.(Optional) Run tests to verify complete and correct installation:**   <br/>
 
 
