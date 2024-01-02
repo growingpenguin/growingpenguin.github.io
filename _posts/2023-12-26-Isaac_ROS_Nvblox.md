@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3410e095-28a6-49c2-9802-d46fb93f43c3)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3ebdb892-59c5-4f1a-8de5-ab36dfe99ac5)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -175,8 +175,13 @@ Reference: <br/>
 https://rameshponnusamy.medium.com/install-podman-in-ubuntu-20-04-442649400b3f <br/>
 <br/>
 **Configuring Docker** <br/>
-(1)Configure the container runtime by using the nvidia-ctk command <br/>
+Configure the container runtime by using the nvidia-ctk command & Restart the Docker daemon <br/>
 ![Nvblox44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0fec93dc-f258-477d-b671-21c589300090) <br/>
+**Configuring containerd** <br/>
+Configure the container runtime by using the nvidia-ctk command & Restart containerd <br/>
+![Nvblox45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5ea35aa3-920f-47c7-a70e-5a2af36246b4) <br/>
+**Configuring CRI-O** <br/>
+![Nvblox46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/476e564f-398a-44f8-9c6b-516221d8b487)
 
 
 
