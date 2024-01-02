@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be749786-0fb7-4601-ad3c-7054c4377ac3)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -77,19 +77,43 @@ run_dev.sh:  <br/>
 Script(a set of automated commands) that you can run to set up or start this Docker-based development environment. By running this script, you'd be able to work in a controlled, consistent environment that's specifically configured for Isaac ROS development <br/>
 (1)-1 Install nvidia-container-toolkit and Docker & Configure nvidia-container-toolkit for Docker <br/>
 On x86_64 platforms: <br/>
-Install nvidia-container-toolkit <br/>
-Installation(With Apt) <br/>
-Configure the production repository(Optionally, configure the repository to use experimental packages) <br/>
-=> Update the packages list from the repository <br/>
-=> Install the NVIDIA Container Toolkit packages <br/>
-Install Docker in Ubuntu <br/>
-Installation(With Apt) <br/>
-Set up Docker's apt repository <br/>
-=> Install the Docker packages <br/>
-=> Verify that the Docker Engine installation is successful by running the hello-world image <br/>
-Reference <br/>
-https://docs.docker.com/engine/install/ubuntu/ <br/>
-Configure nvidia-container-toolkit for Docker <br/>
+### Install nvidia-container-toolkit <br/>
+**Installation** <br/>
+Installing with apt <br/>
+(1)Configure production repository <br/>
+![Nvblox6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bad5b41a-ebde-4ec7-8439-d12683533783) <br/>
+Adding the NVIDIA container toolkit repository securely to the system's package manager. After these commands are executed, the system will be able to install and update the NVIDIA container toolkit using apt commands like sudo apt update and sudo apt install nvidia-container-toolkit <br/>
+Download NVIDIA GPG key for NVIDIA container repository -> Add NVIDIA GPG Key -> Download NVIDIA Container Toolkit Repository List -> Modify and Add the Repository -> Save the Repository List <br/>
+Optionally, configure the repository to use experimental packages: <br/>
+![Nvblox7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/53913f01-4dc8-46b6-a36b-5ea4f1352d7f) <br/>
+Uncomment lines in the nvidia-container-toolkit.list file that contain the word "experimental". In the context of software repositories, uncommenting a line would activate the repository specified on that line, allowing you to install packages from it.<br/>
+(2)Update the packages list from the repository <br/>
+![Nvblox8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9018d193-acd2-4ee8-a0a3-e387d0fd06f7) <br/>
+Update the list of available packages and their versions, but it does not install or upgrade any packages. <br/>
+(3)Install the NVIDIA Container Toolkit packages <br/>
+![Nvblox9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/74c61d0f-8b4a-48e4-a98a-b0118c804fd0) <br/>
+**Configuration** <br/>
+Prerequisites <br/>
+You installed a supported container engine (Docker, Containerd, CRI-O, Podman) <br/>
+Docker <br/>
+(1)Uninstall old versions <br/>
+Uninstall all conflicting packages <br/>
+![Nvblox10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94ca9a00-1aea-4d23-a5b0-f1a37f94950c) <br/>
+Reference: https://docs.docker.com/engine/install/ubuntu/ <br/>
+You installed the NVIDIA Container Toolkit. <br/>
+(2)Uninstall Docker <br/>
+![Nvblox11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b043f74c-8ec6-49e2-a9fc-de8acdc3b074) <br/>
+Uninstall the Docker Engine, CLI, containerd, and Docker Compose packages: <br/>
+![Nvblox12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/769c0bbf-2dfc-476f-b5b6-ed99987ac29a) <br/>
+Images, containers, volumes, or custom configuration files on your host aren't automatically removed. Delete all images, containers, and volumes. <br/>
+(3)Install using the apt repository <br/>
+![Nvblox13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0525fa58-7a2a-4c14-93ab-9c9a3aa28267) <br/>
+![Nvblox14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5672992b-b217-4b2d-8c66-c34cb5d6e0cb) <br/>
+![Nvblox15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/273c3a41-d38a-4bdb-aa66-7070076b20ba) <br/>
+![Nvblox16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c88aadbb-4468-415e-b1f4-657a774ab38c) <br/>
+![Nvblox17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d4a7f4d8-b029-432b-92b4-25ba6b9ae8b1) <br/>
+![Nvblox18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a3c71171-f279-4693-b9c9-6aa9940bd7da) <br/>
+![Nvblox19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1e0f65e1-3ca8-47ef-9462-6d1594775888) <br/>
 
 
 Questions? <br/>
