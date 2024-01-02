@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9db2f364-25f2-471b-84b2-46c5133fcab2)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cb15fd72-299a-4639-8f31-5a1cec38d4f5)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/442fa0ed-c065-44ff-8ad1-1f8e1dfe70a2)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f0dbc91b-d3e7-43b7-94dd-7f39f9759bde)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/69adafb6-773b-48da-8c6c-ef8e5332fd19)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9db2f364-25f2-471b-84b2-46c5133fcab2)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cb15fd72-299a-4639-8f31-5a1cec38d4f5)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/442fa0ed-c065-44ff-8ad1-1f8e1dfe70a2)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -242,7 +242,21 @@ Remove the isaac_ros_common directory,and then attempt the clone again <br/>
 Remove isaac_ros_nvblox directory first and then run the clone command again <br/>
 ![Nvblox60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dea2fffb-a494-41ac-a118-fcfbfb27d407) <br/>
 **3.Pull down a ROS Bag of sample data**  <br/>
+![Nvblox61](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a8efeb0b-91f4-44c0-bc3a-1eabf3903009) <br/>
+**4.Launch the Docker container using the run_dev.sh script:**  <br/>
+Error: <br/>
+![Nvblox62](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9f8a2a54-78ef-4da3-b350-120926857efb) <br/>
+Solution <br/>
+![Nvblox63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d87f1f0a-458e-4082-80e1-36803a452a2b) <br/>
+Create the docker group & Add your user to the docker group.<br/>
+![Nvblox64](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/78c47194-c530-4b0e-9261-26ba4144dedd) <br/>
+Log out and log back in so that your group membership is re-evaluated. Run the following command to activate the changes to groups <br/>
+![Nvblox65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3bdeb4b2-4e56-475c-b1e7-ecd09e8d6186) <br/>
+Verify that you can run docker commands without sudo  <br/>
 
+
+Reference: <br/>
+Manage Docker as a non-root user: https://docs.docker.com/engine/install/linux-postinstall/ <br/>
 
 
 Reference:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/cdi-support.html <br/>
