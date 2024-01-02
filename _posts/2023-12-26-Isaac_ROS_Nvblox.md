@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/237fda8f-b2dc-410b-a2e8-fa8a56d05215)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -261,6 +261,11 @@ Verified that you can run docker commands without sudo  <br/>
 Error: <br/>
 ![Nvblox69](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d8d39cb4-bfea-4732-acb0-94c3518e8911)  <br/>
 Solution: <br/>
+![Nvblox71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bfeeef97-4310-4008-ac40-9a3910ad80ca) <br/>
+![Nvblox72](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3c3a976-c258-4b27-938e-0e5365ab67cd) <br/>
+
+
+![Nvblox70](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/60c0133e-3c8f-4f8d-973c-3a421bd267c4)  <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/issues/53 <br/>
 https://forums.developer.nvidia.com/t/nvblox-colcon-build-error/247962/2 <br/>
 **7.(Optional) Run tests to verify complete and correct installation:**   <br/>
