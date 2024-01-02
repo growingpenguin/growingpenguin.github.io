@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3410e095-28a6-49c2-9802-d46fb93f43c3)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3ebdb892-59c5-4f1a-8de5-ab36dfe99ac5)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2275ae0a-0ad7-48a0-aaed-7b974ae8c242)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3410e095-28a6-49c2-9802-d46fb93f43c3)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3ebdb892-59c5-4f1a-8de5-ab36dfe99ac5)---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -181,18 +181,26 @@ Configure the container runtime by using the nvidia-ctk command & Restart the Do
 Configure the container runtime by using the nvidia-ctk command & Restart containerd <br/>
 ![Nvblox45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5ea35aa3-920f-47c7-a70e-5a2af36246b4) <br/>
 **Configuring CRI-O** <br/>
-![Nvblox46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/476e564f-398a-44f8-9c6b-516221d8b487)
+![Nvblox46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/476e564f-398a-44f8-9c6b-516221d8b487) <br/>
+**Configuring Podman** <br/>
+NVIDIA recommends using CDI for accessing NVIDIA devices in containers <br/>
+Reference: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/cdi-support.html <br/>
+Support for Container Device Interface <br/>
+About the Container Device Interface <br/>
+CDI is an open specification for container runtimes that abstracts what access to a device, such as an NVIDIA GPU, means, and standardizes access across container runtimes. Popular container runtimes can read and process the specification to ensure that a device is available in a container. CDI simplifies adding support for devices such as NVIDIA GPUs because the specification is applicable to all container runtimes that support CDI. <br/>
+CDI also improves the compatibility of the NVIDIA container stack with certain features such as rootless containers. <br/>
+**Generating a CDI specification**  <br/>
+Prerequisites <br/>
+You installed either the NVIDIA Container Toolkit or you installed the nvidia-container-toolkit-base package <br/>
+You installed an NVIDIA GPU Driver <br/>
+![Nvblox47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3c3d9ae-8d68-4842-82e9-d986f94909db) <br/>
+Confirmed installed GPU Driver <br/>
+![Nvblox47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3c3d9ae-8d68-4842-82e9-d986f94909db) <br/>
 
 
+Reference:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/cdi-support.html <br/>
 
 
-Reference: <br/>
-https://computingforgeeks.com/install-cri-o-container-runtime-on-ubuntu-linux/ <br/>
-
-
-
-Questions? <br/>
-Graph에서 U-NET의 역할은 무엇? <br/>
 
 Reference: <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox?tab=readme-ov-file <br/>
