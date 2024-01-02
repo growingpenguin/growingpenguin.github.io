@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/237fda8f-b2dc-410b-a2e8-fa8a56d05215)---
+---
 layout: post
 title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
 ---
@@ -276,6 +276,8 @@ https://forums.developer.nvidia.com/t/nvblox-colcon-build-error/247962/2 <br/>
 **9.Open a second terminal inside the docker container & play the ROS Bag** <br/>
 ![Nvblox75](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fc8bfedf-8809-4efc-ae6f-7d9dca04123e) <br/>
 
+Result <br/>
+![Nvblox76](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/018429fa-357d-4efd-bc33-46d23af5a2fa) <br/>
 
 
 
