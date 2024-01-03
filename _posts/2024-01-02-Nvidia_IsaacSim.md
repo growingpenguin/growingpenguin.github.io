@@ -99,9 +99,11 @@ Select Standard => Download Free <br/>
 (1)-3 Right click mouse -> Select "properties" <br/>
 Select Permissions tab -> Check on Allow executing file as as program -> Exit <br/>
 ![Omniverse_IssacSim3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7eb470ef-5f54-4f1a-b6d8-661d904fec2d) <br/>
-(1)-4 Double click the AppImage  <br/>
+(2)First Run <br/>
+Double click the AppImage  <br/>
 ![Omniverse_IssacSim4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a09969c1-2159-43c7-979d-0dac6f20ca27) <br/>
 Omniverse-launcher pops out & Agree on license agreement <br/>
+(3)Path <br/>
 Installation Path confirmation <br/>
 ![Omniverse_IssacSim5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/612c0ea8-3f41-4486-9df8-1b59f2db332a) <br/>
 Check path for installation <br/>
