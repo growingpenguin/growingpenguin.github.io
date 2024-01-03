@@ -134,15 +134,39 @@ Set preferred data path and click Next <br/>
 ![Omniverse_IssacSim13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eae1cafc-a9e0-4c06-a6f0-9fbf1b9dece4) <br/>
 (3)Click Library and select Isaac Sim to Launch <br/>
 ![Omniverse_IssacSim14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9968b1b9-fcc9-4ee8-bb36-3a425c66b630) <br/>
-![Omniverse_IssacSim15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94ab6f08-60f4-46a0-a684-b1421bc1dc0e)
 
 **Isaac Sim App Selector** <br/>
-(1)
-![Omniverse_IssacSim16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8169bdbf-0a53-41ea-96ac-fb0990621107)
+![Omniverse_IssacSim15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94ab6f08-60f4-46a0-a684-b1421bc1dc0e) <br/>
+-Mini-windowed app that helps run Isaac Sim in different modes <br/>
+-Isaac Sim App Selector will run as default when launching Isaac Sim from the Omniverse Launcher <br/>
+Click on Start! <br/>
 
-
+**Isaac Sim First Run** <br/>
+![Omniverse_IssacSim17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/00e095e2-ec0a-4680-b136-9da80d776c01) <br/>
 
 ## Container Installation
+**Container Setup** <br/>
+(1)Install NVIDIA Driver <br/>
+=>Already Installed <br/>
+(2)Install Docker <br/>
+=>Docker 24.0.7 already Installed <br/>
+(3)Install NVIDIA Container Toolkit <br/>
+**Container Toolkit** <br/>
+(1)Setup and install the container prerequisites <br/>
+(1)-1 Setup and install the container prerequisites <br/>
+Container Deployment <br/>
+-Setup and install the container prerequisites. See Container Setup above <br/>
+-Command ran below to confirm your GPU driver version <br/>
+![Omniverse_IssacSim18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/77ce51ad-e8f1-44a6-9a53-e5a46ce91bc1) <br/>
+Driver Version: 525.147.05 <br/>
+-Get access to the Isaac Sim Container using your NVIDIA Developer Program credentials <br/>
+Follow the steps in Generate Your NGC API Key. Use command line to login into NGC to download the Isaac Sim container <br/>
+Reference: <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_container.html#isaac-sim-requirements-isaac-sim-container <br/>
+https://docs.nvidia.com/ngc/gpu-cloud/ngc-user-guide/index.html#generating-api-key <br/>
+
+Running Isaac Sim <br/>
+
 
 
 
