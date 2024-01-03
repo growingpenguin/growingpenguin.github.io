@@ -132,9 +132,13 @@ Set preferred data path and click Next <br/>
 ![Omniverse_IssacSim12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/707ed7a7-483b-4831-8c23-4ea0e6098811) <br/>
 (2)Click on Install <br/>
 ![Omniverse_IssacSim13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eae1cafc-a9e0-4c06-a6f0-9fbf1b9dece4) <br/>
-(3)Click Library and selec Isaac Sim to Launch <br/>
+(3)Click Library and select Isaac Sim to Launch <br/>
 ![Omniverse_IssacSim14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9968b1b9-fcc9-4ee8-bb36-3a425c66b630) <br/>
+![Omniverse_IssacSim15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94ab6f08-60f4-46a0-a684-b1421bc1dc0e)
 
+**Isaac Sim App Selector** <br/>
+(1)
+![Omniverse_IssacSim16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8169bdbf-0a53-41ea-96ac-fb0990621107)
 
 
 
