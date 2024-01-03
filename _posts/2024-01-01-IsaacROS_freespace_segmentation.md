@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/47c25c85-8929-4718-809f-29e536714396)---
 layout: post
 title:  "Assignment: 2nd Week - Follow Isaac_ROS_Freespace Segmentation Repository"
 ---
@@ -30,5 +30,11 @@ Error: <br/>
 ![FreespaceSegmentation2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dc3cdef3-f657-4720-970f-e2c3919951c7) <br/>
 Solution: <br/>
 ![FreespaceSegmentation3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3faf8ef4-8903-40a5-85a9-3a7ecc24da0c) <br/>
-
+isaac_ros_depth_segmentation file doesn't exist. This is the reason for the error <br/>
+![FreespaceSegmentation4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/259bbd19-6adc-4df5-a27e-5f2dd0b50ac4) <br/>
+=>I realized I had the wrong file name, so I renamed the file to 'freespace segmentation' <br/> 
+(4)Launch the Docker container using the run_dev.sh script <br/>
+![FreespaceSegmentation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ae010f7-70d5-47d4-bbd4-14f92e6e7544) <br/>
+(5)Install this package’s dependencies <br/>
+![FreespaceSegmentation6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/482222c9-812e-4e3c-ae0a-37356aeb5fad) <br/>
 
