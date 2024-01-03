@@ -90,8 +90,10 @@ https://docs.omniverse.nvidia.com/isaacsim/latest/release_notes.html <br/>
 
 ## Workstation Installation
 **Workstation Setup** <br/>
-(1)Download Omniverse <br/>
+### Download Omniverse <br/>
 https://docs.omniverse.nvidia.com/install-guide/latest/workstation-install.html <br/>
+![Omniverse_IssacSim1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bbd18f1e-a11b-4c27-a231-fc370298e618) <br/>
+Download & Search for the file omniverse-launcher-linux.AppImage <br/>
 
 
 (1) Download Omniverse Launcher <br/>
