@@ -99,16 +99,30 @@ Select Standard => Download Free <br/>
 (1)-3 Right click mouse -> Select "properties" <br/>
 Select Permissions tab -> Check on Allow executing file as as program -> Exit <br/>
 ![Omniverse_IssacSim3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7eb470ef-5f54-4f1a-b6d8-661d904fec2d) <br/>
-(2)First Run <br/>
+(1)-4 First Run <br/>
 Double click the AppImage  <br/>
 ![Omniverse_IssacSim4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a09969c1-2159-43c7-979d-0dac6f20ca27) <br/>
 Omniverse-launcher pops out & Agree on license agreement <br/>
-(3)Path <br/>
+(1)-5 Path <br/>
 Installation Path confirmation <br/>
 ![Omniverse_IssacSim5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/612c0ea8-3f41-4486-9df8-1b59f2db332a) <br/>
 Check path for installation <br/>
-(4)Install cache <br/>
+(1)-6 Install cache <br/>
 ![Omniverse_IssacSim6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/48be3470-58a6-420c-a461-42c9ad471e1c) <br/>
+<br/>
+(2)Install Cache from the Omniverse Launcher <br/>
+Downloaded previously <br/>
+<br/>
+(3)Install Nucleus from the Omniverse Launcher <br/>
+(3)-1 Click on Nucleus Tab <br/>
+![Omniverse_IssacSim7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ce6a4921-e7ac-46c1-9b34-a67e9a36ea9c) <br/>
+(3)-2 Click on Create Local Server <br/>
+![Omniverse_IssacSim8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/48dc43cc-1daf-463d-8837-cea76235ca28) <br/>
+Set preferred data path and click Next <br/>
+(3)-3 Create Administrator account <br/>
+![Omniverse_IssacSim9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ef53351-9c17-425e-bc8c-6a8fcc05d5d6)
+(4)Install Visual Studio Code to view and debug source code <br/>
+
 
 
 Reference: <br/>
