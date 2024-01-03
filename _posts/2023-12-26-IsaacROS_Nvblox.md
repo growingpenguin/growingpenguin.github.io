@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment: 1st Week - Follow Isaac_ROS_Nvblox Repository"
+title:  "Assignment: 2nd Week - Follow Isaac_ROS_Nvblox Repository"
 ---
 # Isaac ROS Nvblox
 Nvblox ROS 2 integration for local 3D scene reconstruction and mapping <br/>
