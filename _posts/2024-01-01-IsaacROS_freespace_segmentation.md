@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/47c25c85-8929-4718-809f-29e536714396)---
+---
 layout: post
 title:  "Assignment: 2nd Week - Follow Isaac_ROS_Freespace Segmentation Repository"
 ---
@@ -34,7 +34,14 @@ isaac_ros_depth_segmentation file doesn't exist. This is the reason for the erro
 ![FreespaceSegmentation4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/259bbd19-6adc-4df5-a27e-5f2dd0b50ac4) <br/>
 =>I realized I had the wrong file name, so I renamed the file to 'freespace segmentation' <br/> 
 (4)Launch the Docker container using the run_dev.sh script <br/>
+Error: <br/>
 ![FreespaceSegmentation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ae010f7-70d5-47d4-bbd4-14f92e6e7544) <br/>
+Solution: (Searching for it) <br/>
+Similar Issues: <br/>
+https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_map_localization/issues/19 => Not so helping.. <br/>
+https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/issues/104 => Someone with the same error who posted on 2023-11-30, asked whether solved the problem <br/>
+
+
 (5)Install this package’s dependencies <br/>
 ![FreespaceSegmentation6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/482222c9-812e-4e3c-ae0a-37356aeb5fad) <br/>
 (6)Download model files for Bi3D (refer to the Model Preparation section for more information) <br/>
@@ -43,6 +50,11 @@ isaac_ros_depth_segmentation file doesn't exist. This is the reason for the erro
 If using x86_64: <br/>
 ![FreespaceSegmentation8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9b7816d3-6075-48c4-92b0-4a63b19a0f9c) <br/>
 (8)Run the launch file to spin up a demo of this package <br/>
+
+
+
+Reference: <br/>
+https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_freespace_segmentation/isaac_ros_bi3d_freespace/index.html#quickstart <br/>
 
 
 
