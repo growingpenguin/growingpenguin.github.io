@@ -127,6 +127,18 @@ Set preferred data path and click Next <br/>
 (4)-2 Click on Install <br/>
 ![Omniverse_IssacSim11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4a8d79cf-6b99-4f26-b0f5-fd6b8c7c9af6) <br/>
 
+**Omniverse Launcher** <br/>
+(1)Click on Exchange Tab and Issac Sim can be found in the apps corner <br/>
+![Omniverse_IssacSim12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/707ed7a7-483b-4831-8c23-4ea0e6098811) <br/>
+(2)Click on Install <br/>
+![Omniverse_IssacSim13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eae1cafc-a9e0-4c06-a6f0-9fbf1b9dece4) <br/>
+(3)Click Library and selec Isaac Sim to Launch <br/>
+![Omniverse_IssacSim14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9968b1b9-fcc9-4ee8-bb36-3a425c66b630) <br/>
+
+
+
+
+## Container Installation
 
 
 
