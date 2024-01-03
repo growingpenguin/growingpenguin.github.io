@@ -107,8 +107,8 @@ Omniverse-launcher pops out & Agree on license agreement <br/>
 Installation Path confirmation <br/>
 ![Omniverse_IssacSim5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/612c0ea8-3f41-4486-9df8-1b59f2db332a) <br/>
 Check path for installation <br/>
+(4)Install cache <br/>
 ![Omniverse_IssacSim6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/48be3470-58a6-420c-a461-42c9ad471e1c) <br/>
-Install cache <br/>
 
 
 Reference: <br/>
