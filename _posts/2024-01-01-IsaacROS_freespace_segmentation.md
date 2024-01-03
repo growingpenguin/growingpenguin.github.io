@@ -37,4 +37,12 @@ isaac_ros_depth_segmentation file doesn't exist. This is the reason for the erro
 ![FreespaceSegmentation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ae010f7-70d5-47d4-bbd4-14f92e6e7544) <br/>
 (5)Install this package’s dependencies <br/>
 ![FreespaceSegmentation6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/482222c9-812e-4e3c-ae0a-37356aeb5fad) <br/>
+(6)Download model files for Bi3D (refer to the Model Preparation section for more information) <br/>
+![FreespaceSegmentation7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2a993769-b6dd-45c5-9e9d-c1916fedeca9) <br/>
+(7)Convert the .onnx model files to TensorRT engine plan files (refer to the Model Preparation section for more information) <br/>
+If using x86_64: <br/>
+![FreespaceSegmentation8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9b7816d3-6075-48c4-92b0-4a63b19a0f9c) <br/>
+(8)Run the launch file to spin up a demo of this package <br/>
+
+
 
