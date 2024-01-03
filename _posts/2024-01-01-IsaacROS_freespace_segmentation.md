@@ -40,7 +40,7 @@ Solution: (Searching for it) <br/>
 Similar Issues: <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_map_localization/issues/19 => Not so helping.. <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/issues/104 => Someone with the same error who posted on 2023-11-30, asked whether solved the problem <br/>
-
+https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-launch-error-in-docker-container/277741 => MY question posted on the NVIDIA Forum <br/>
 
 (5)Install this package’s dependencies <br/>
 ![FreespaceSegmentation6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/482222c9-812e-4e3c-ae0a-37356aeb5fad) <br/>
