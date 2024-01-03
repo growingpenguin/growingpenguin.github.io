@@ -120,8 +120,13 @@ Downloaded previously <br/>
 ![Omniverse_IssacSim8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/48dc43cc-1daf-463d-8837-cea76235ca28) <br/>
 Set preferred data path and click Next <br/>
 (3)-3 Create Administrator account <br/>
-![Omniverse_IssacSim9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ef53351-9c17-425e-bc8c-6a8fcc05d5d6)
+![Omniverse_IssacSim9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ef53351-9c17-425e-bc8c-6a8fcc05d5d6) <br/>
 (4)Install Visual Studio Code to view and debug source code <br/>
+(4)-1 Search for Visual studio code in Ubuntu Software <br/>
+![Omniverse_IssacSim10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d1016cc1-888f-431b-942e-74578c8f9210) <br/>
+(4)-2 Click on Install <br/>
+![Omniverse_IssacSim11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4a8d79cf-6b99-4f26-b0f5-fd6b8c7c9af6) <br/>
+
 
 
 
