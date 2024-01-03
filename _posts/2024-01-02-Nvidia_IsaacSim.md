@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c3cc54dd-e3b6-41fa-8987-afd3397840b9)---
+---
 layout: post
 title:  "Assignment: 2nd Week - Follow Isaac_Sim"
 ---
