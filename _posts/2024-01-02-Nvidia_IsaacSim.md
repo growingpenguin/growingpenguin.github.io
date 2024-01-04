@@ -151,19 +151,29 @@ Click on Start! <br/>
 (2)Install Docker <br/>
 =>Docker 24.0.7 already Installed <br/>
 (3)Install NVIDIA Container Toolkit <br/>
-**Container Toolkit** <br/>
-(1)Setup and install the container prerequisites <br/>
-(1)-1 Setup and install the container prerequisites <br/>
-Container Deployment <br/>
--Setup and install the container prerequisites. See Container Setup above <br/>
--Command ran below to confirm your GPU driver version <br/>
-![Omniverse_IssacSim18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/77ce51ad-e8f1-44a6-9a53-e5a46ce91bc1) <br/>
-Driver Version: 525.147.05 <br/>
--Get access to the Isaac Sim Container using your NVIDIA Developer Program credentials <br/>
-Follow the steps in Generate Your NGC API Key. Use command line to login into NGC to download the Isaac Sim container <br/>
+**Using Omniverse Streaming Client** <br/>
+(1)Installation and Usage
+![Omniverse_IssacSim27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/22abf5ca-92dc-409f-9e13-713adc8f835c) <br/>
+From the Omniverse Launcher, select Exchange from the top-level menu bar <br/>
+![Omniverse_IssacSim28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/77f34001-abdc-4a04-a4e8-24a46c5e20e9) <br/>
+Click Omniverse Streaming Client from the left-hand Apps sidebar, click the Install button <br/>
+![Omniverse_IssacSim29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6c8ae2c5-9a08-490f-ad7b-6a94c50fa8d1) <br/>
 Reference: <br/>
-https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_container.html#isaac-sim-requirements-isaac-sim-container <br/>
-https://docs.nvidia.com/ngc/gpu-cloud/ngc-user-guide/index.html#generating-api-key <br/>
+https://docs.omniverse.nvidia.com/streaming-client/latest/user-manual.html <br/>
+(2)Configuration <br/>
+
+
+**Python Environment Installation** <br/>
+Possible to run Isaac Sim natively from Python rather than as a standalone executable. This provides more low-level control over how to initialize, setup, and manage an Omniverse application. <br/>
+Default Python Environment <br/>
+Isaac Sim provides a built-in Python 3.10 environment that packages can use, similar to a system-level Python install. We recommend using this Python environment when running the Python scripts <br/>
+
+
+
+
+
+
+
 
 Running Isaac Sim <br/>
 
