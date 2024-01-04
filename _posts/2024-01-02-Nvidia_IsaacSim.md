@@ -165,18 +165,36 @@ https://docs.omniverse.nvidia.com/streaming-client/latest/user-manual.html <br/>
 
 **Python Environment Installation** <br/>
 Possible to run Isaac Sim natively from Python rather than as a standalone executable. This provides more low-level control over how to initialize, setup, and manage an Omniverse application. <br/>
-Default Python Environment <br/>
+(1)Default Python Environment <br/>
 Isaac Sim provides a built-in Python 3.10 environment that packages can use, similar to a system-level Python install. We recommend using this Python environment when running the Python scripts <br/>
+(2)Jupyter Notebook Setup <br/>
+Jupyter Notebooks that use Isaac Sim can be executed as follows <br/>
+(3)Visual Studio Code Support** <br/>
+The Isaac Sim package provides a .vscode workspace with a pre-configured environment  <br/>
+Launch configurations for running in standalone Python mode, or the interactive GUI <br/>
+An environment for Python auto-complete <br/>
+You can open this workspace by opening the main Isaac Sim package folder in Visual Studio Code (VSCode)  <br/>
+(3)Advanced: Running In Docker <br/>
+Start the Docker container following the instructions in Container Deployment up to step 8. <br/>
+Once the Isaac Sim container is running, you can run a Python script or Jupiter Notebook from the sections above. <br/>
+(4)Advanced: Running with Anaconda <br/>
+Create a new environment with the following command <br/>
+If you have an existing conda environment, ensure that the packages in environment.yml are installed. Alternatively, you can delete and re-create your conda environment <br/>
+Finally, you need to set up environment variables so that Isaac Sim python packages are located correctly. <br/>
+You can then run samples as follows in the isaac-sim conda env <br/>
 
+**ROS & ROS 2 Installation** <br/>
+Omniverse Isaac Sim provides both a ROS and ROS 2 bridge for ROS system integration. The same set of common components are used to define the types of data being published/received by the simulator <br/>
+Platform: Ubuntu 20.04 <br/>
+Ros: Noetic <br/>
+Ros2: Foxy <br/>
+For the ROS bridge, Isaac Sim runs a custom roscpp build of ROS Noetic internally so that it works properly with the Omniverse framework and Python 3 <br/>
+For the ROS 2 bridge, Isaac Sim is currently compatible with ROS 2 Foxy and ROS 2 Humble <br/>
+Running Native ROS <br/>
+-Method of ROS 2 installation determines which features of ROS 2 can be used. Isaac Sim comes with Python3.10, if you have installed ROS 2 with a different version of Python a fallback rclpy will be used which comes pre-packaged with Isaac Sim and compiled with Python3.10 <br/> 
+-rclpy: Using ROS 2 functionality with Python in Isaac Sim <br/>
 
-
-
-
-
-
-
-Running Isaac Sim <br/>
-
+The ROS_DISTRO env variable is used to determine if ROS 2 is sourced and which distro to use, if this variable is not set an internal ROS 2 distro build will be used. Message definitions can be different between ROS 2 versions, due to this, we dynamically load the appropriate ROS 2 backend depending on which ROS Distro is sourced.
 
 
 
