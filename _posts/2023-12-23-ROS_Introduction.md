@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f31703a0-a912-44a0-82cc-5419880c35e7)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c02a2f19-0edc-4ae1-826d-076b12aad5ed)---
 layout: post
 title:  "1. Build ROS Environment"
 ---
@@ -237,9 +237,86 @@ Therefore, as in the following example, although the talker node sends data comp
 Once all tests are completed, be sure to release the data loss command set to tc through the command below.  <br/>
 ![ROS2 Packages Installation48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/335d4dbe-91e3-4374-9269-00f3572cddc8) <br/>
 
+## 6.Package Installation & Node Implementation
+### 6-1 What you can learn & Development Environment 
+Explore the installation of ROS packages, node execution, and practice running CLI and rqt tools using the turtlesim package in tutorials. <br/>
+It's a good idea to synchronize development environments with each other to conduct tutorial-like classes. <br/>
+### 6-2 Turtlesim Package Installation
+![ROS Introduction1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e725d140-fde2-404b-9f5a-f7b41e44c1d2) <br/>
+![ROS Introduction2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cc83d618-d20c-44b6-9332-987f9e9944cf) <br/>
+
+### 6-3 What is Turtlesim?
+Turtlesim: Created as a ROS package to provide tutorials for users who are new to ROS, as the source code repository for this package  <br/>
+-Was named "ros_tutorials" and it falls under it. Being an educational package for ROS, it allows users to learn the basics of packages, nodes, topics, services, actions, and parameters, and also provides hands-on experience with CLI tools and rqt tools <br/>
+-This package has been continuously updated since 2009 and has undergone various changes. It has been specialized as an icon in distribution images across both ROS 1 and 2, continuing to be available up to the current ROS 2 Foxy <br/>
+-The name "turtlesim" for this package includes the word "turtle." <br/>
+The turtle icon that appears when you run the turtlesim_node node of the turtlesim package, the word "turtle" is also used <br/>
+
+### 6-4 Turtlesim Package and Node 
+-In ROS(Robot Operating System), programs are written at the node level, defined as the smallest executable unit to maximize program reusability. You can think of a node as an individual executable program. <br/>
+-Package: One or more nodes, along with information required for node execution, are grouped together <br/>
+-Metapackage: Collections of packages and are separated as such <br/>
+![ROS Introduction3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dbc17f32-f52d-4a44-9cfa-512a3c7b1937) <br/>
+Find out which packages are available in your development environment, you can use the following ROS 2 Command Line Interface (CLI) tools.  <br/>
+Specifically, running the pkg command in your terminal will list hundreds of packages, including those that are already installed and any packages you have personally created  <br/>
+If you have installed turtlesim, it should be included in this list as well  <br/>
+![ROS Introduction4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dcc50b9c-38e1-4133-a84d-c29802e2ddca) <br/>
+What nodes are included in the turtlesim package. <br/>
+By using the following command in the terminal: ros2 pkg executables <package_name>, you can check the multiple nodes included in the turtlesim package. <br/>
+There are a total of 4 nodes: draw_square, mimic, turtle_teleop_key, and turtlesim_node. <br/>
+Brief description of the role of each node: <br/>
+**draw_square**: A node that moves the turtle in a square pattern. <br/>
+**mimic**: A node that allows the user to run multiple instances of the turtlesim_node with identical movements on specified topics <br/>
+**turtle_teleop_key**: A node that publishes speed values to move the turtlesim_node <br/>
+**turtlesim_node**: A simple 2D simulator node that receives speed values from turtle_teleop_key via topics and moves accordingly  <br/>
+ 
+### 6-5 Running Nodes in the Turtlesim Package
+
+Use the run command of ROS 2's Command Line Interface(CLI) to run the most commonly used nodes, turtlesim_node and turtle_teleop_key, among the four nodes <br/>
+(1)When you execute the turtlesim_node, you will see a single turtle in a blue window. <br/>
+(2)Afterward, if you run the turtle_teleop_key node in another terminal, you will be able to control the turtle in the turtlesim_node window using arrow keys. <br/>
+There are more functionalities, which we will delve into in more detail in tutorials covering topics, services, actions, and parameters. <br/>
+![ROS Introduction5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/09525491-9b89-4897-834e-524f92f63672) <br/>
+![ROS Introduction6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d1b54588-0aa2-4206-a916-dba0bb5b766b) <br/>
+Run the turtle_sim node <br/>
+![ROS Introduction7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5e6a1847-bd33-4b3c-99e3-b10e6f7c8d54) <br/>
+![ROS Introduction8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2bb9e262-daf5-45da-a046-5513a71f906b) <br/>
+Run the turtle_teleop_key node <br/>
+
+### 6-6 Querying Nodes, Topics, Services, and Actions
+Interaction between the two nodes isn't simply about transmitting keyboard values for movement <br/>
+Instead, it involves sending and receiving linear velocity and angular velocity corresponding to the keys pressed on the keyboard in the form of Twist messages from the geometry_msgs package  <br/> 
+Be aware! Some users may find they can't move the turtle after running the turtle_teleop_key node. This is because the terminal window where it's running needs to be active to accept arrow key inputs <br/>
+Now, let's find out what nodes are currently running, what topics exist, and what services and actions are available.  <br/>
+To do this, you can execute the following commands in the terminal: node list, topic list, service list, and action list. 
+Results when turtlesim_node and turtle_teleop_key are running <br/>
+node list: what nodes are currently running <br/>
+![ROS Introduction9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cb36f938-c112-4035-99ba-45f82c179b21) <br/>
+topic list: what topics exist <br/>
+![ROS Introduction10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4eab5c13-08f5-4070-8d9c-4d99f161608d) <br/>
+service list: what services are available <br/>
+![ROS Introduction11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1e680d30-3080-4f79-8150-f972f3a3c917) <br/>
+action list: what actions are available <br/>
+![ROS Introduction12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/05796437-05d6-4d47-b4a8-72e8c02aeb86) <br/>
+
+### 6-7 Viewing the Node and Topic Graph with rqt_graph
+Try using a ROS2 GUI tool instead of the ROS2 CLI tool  <br/>
+With this tool, you can visually inspect all the nodes, topics, and actions in your current development environment in a graph view.  <br/>
+The circles you see in Figure 9 represent nodes, rectangles represent topics or actions, and arrows indicate the direction of message flow.  <br/>
+Note that services are not shown here because they are used momentarily when needed, and actions are displayed since they are an application of the Pub-Sub communication method similar to topics. <br/>
+
+
+When you run rqt_graph in the terminal, it will display each node, topic, and action  <br/>
+
+
+
+
+
 
 ### Overall Framework of "What is ROS2?" 
 This content is a consolidated summary and organized notes from the YouTube video available at https://www.youtube.com/watch?v=7TVWlADXwRw.<br/>
+
+
 
 
 Reference: <br/>
