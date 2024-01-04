@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1fdc854b-7593-4878-b8e3-9f0640e5c0ae)---
 layout: post
 title:  "Assignment: 2nd Week - Follow Isaac_Sim"
 ---
@@ -193,8 +193,41 @@ For the ROS 2 bridge, Isaac Sim is currently compatible with ROS 2 Foxy and ROS 
 Running Native ROS <br/>
 -Method of ROS 2 installation determines which features of ROS 2 can be used. Isaac Sim comes with Python3.10, if you have installed ROS 2 with a different version of Python a fallback rclpy will be used which comes pre-packaged with Isaac Sim and compiled with Python3.10 <br/> 
 -rclpy: Using ROS 2 functionality with Python in Isaac Sim <br/>
+The ROS_DISTRO env variable is used to determine if ROS 2 is sourced and which distro to use, if this variable is not set an internal ROS 2 distro build will be used. Message definitions can be different between ROS 2 versions, due to this, we dynamically load the appropriate ROS 2 backend depending on which ROS Distro is sourced. <br/>
+(1)Download ROS 2 following the instructions on the official website <br/>
+https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html <br/>
+(1)-1 System Requirements <br/>
+Tier 3: Ubuntu Linux - Focal (20.04) 64-bit <br/>
+(1)-2 System setup <br/>
+Set locale <br/>
+![Omniverse_IssacSim30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/43fd5581-dfbe-4948-80df-6eae825c932b) <br/>
+![Omniverse_IssacSim31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f591b669-af5b-473e-8586-f875f9f81df7) <br/>
+Make sure you have a locale which supports UTF-8 <br/>
+If you are in a minimal environment (such as a docker container), the locale may be something minimal like POSIX <br/>
+We test with the following settings. However, it should be fine if you’re using a different UTF-8 supported locale <br/>
+Add the ROS 2 apt repository <br/>
+![Omniverse_IssacSim32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a841d865-c7ca-4591-b27e-396d0d60eabf) <br/>
+Ensure that the Ubuntu Universe repository is enabled <br/>
+![Omniverse_IssacSim33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fee2e304-9688-42cf-8b7a-22e879eb1870) <br/>
+![Omniverse_IssacSim34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6f0916cc-1264-4fd6-a955-18401bcf5afb) <br/>
+Add the ROS 2 GPG key with apt <br/>
+![Omniverse_IssacSim35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dcc0ddbb-0d9b-48ff-a911-d0af593df5af) <br/>
+Add the repository to your sources list. <br/>
+Install development tools and ROS tools <br/>
+![Omniverse_IssacSim36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/890389f4-c54c-4f41-815f-cd45580ab443) <br/>
+Install common packages <br/>
+![Omniverse_IssacSim37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4722532e-2772-4acd-9650-47a4de8f8faf) <br/>
+Install packages according to your Ubuntu version <br/>
+Get ROS 2 code <br/>
+![Omniverse_IssacSim38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e47f3ee7-bb32-4060-9e92-b2a8a7757977) <br/>
+Create a workspace and clone all repos <br/>
+![Omniverse_IssacSim39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/89156777-3377-4d15-b45d-b2af5a21f131) <br/>
+Install dependencies using rosdep <br/>
+![Omniverse_IssacSim40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/88750614-cb14-4269-a27b-23906acac109) <br/>
+![Omniverse_IssacSim41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/91dff0b4-1f7f-44d7-b8fa-b08e3eb6b61c) <br/>
+Build the code in the workspace <br/>
 
-The ROS_DISTRO env variable is used to determine if ROS 2 is sourced and which distro to use, if this variable is not set an internal ROS 2 distro build will be used. Message definitions can be different between ROS 2 versions, due to this, we dynamically load the appropriate ROS 2 backend depending on which ROS Distro is sourced.
+
 
 
 
