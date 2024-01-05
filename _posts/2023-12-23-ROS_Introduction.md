@@ -339,7 +339,6 @@ ros2 topic list -t: Check the messages more simply <br/>
 Currently, since only the turtlesim node is running, there is no situation of topics being exchanged. By executing rqt_graph as shown below, you can confirm in Figure 4: There is no activity of topics being exchanged <br/>
 ![ROS Introduction20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3d1eb921-e408-454c-8dda-de2976b18506) <br/>
 Additionally run the turtle_teleop_key (node name: teleop_turtle, hereafter referred to as teleop_turtle) <br/>
-![ROS Introduction24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d9a3705-448e-460d-b684-26f4f2c14898) <br/>
 After running it, if you click the Refresh ROS graph button at the top left of the rqt_graph screen you had open, it will update to the latest state <br/>
 
 
