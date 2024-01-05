@@ -271,7 +271,6 @@ Brief description of the role of each node: <br/>
 **turtlesim_node**: A simple 2D simulator node that receives speed values from turtle_teleop_key via topics and moves accordingly  <br/>
  
 ### 6-5 Running Nodes in the Turtlesim Package
-
 Use the run command of ROS 2's Command Line Interface(CLI) to run the most commonly used nodes, turtlesim_node and turtle_teleop_key, among the four nodes <br/>
 (1)When you execute the turtlesim_node, you will see a single turtle in a blue window. <br/>
 (2)Afterward, if you run the turtle_teleop_key node in another terminal, you will be able to control the turtle in the turtlesim_node window using arrow keys. <br/>
@@ -304,9 +303,59 @@ Try using a ROS2 GUI tool instead of the ROS2 CLI tool  <br/>
 With this tool, you can visually inspect all the nodes, topics, and actions in your current development environment in a graph view.  <br/>
 The circles you see in Figure 9 represent nodes, rectangles represent topics or actions, and arrows indicate the direction of message flow.  <br/>
 Note that services are not shown here because they are used momentarily when needed, and actions are displayed since they are an application of the Pub-Sub communication method similar to topics. <br/>
-
-
+![ROS Introduction13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9ff56b22-a14f-4035-b6da-f773eabb1ae0)  <br/>
 When you run rqt_graph in the terminal, it will display each node, topic, and action  <br/>
+
+## 8. ROS 2 Topics (topic)
+### 8-1. Topic (topic)
+Topic: Can be understood as asynchronous(비동기식), unidirectional(단방향) message transmission and reception <br/>
+![ROS Introduction14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5e2ea4ed-bd49-4a7e-9f81-aae8cdd14f6c) <br/>
+Figure 1: ‘Node A - Node B’ <br/>
+Communication between a Publisher, which publishes messages in the form of msg messages, and a Subscriber, which subscribes to these messages <br/>
+Primarily 1:1 communication <br/>
+![ROS Introduction15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a585ae52-623a-48b3-84f7-8acbb24fe1f1) <br/>
+Figure 2: ‘Node A - Node B’, ‘Node A - Node C’ <br/>
+Possible to have 1:N communication where one topic (e.g., Topic C) is used for both sending and receiving.  <br/>
+-Depending on the configuration, N:1 and N:N communications are also feasible, making it the most widely used method of communication in ROS messaging  <br/>
+-It’s not only possible to publish one or more topics, but one can also perform the role of a Subscriber, subscribing to a topic (e.g., Topic D), while simultaneously functioning as a Publisher (e.g. ‘Node A’) <br/>
+-One can configure to self-subscribe to the topic they publish <br/>
+-Topic function can be used in various ways depending on the purpose, and its flexibility has led to its widespread use <br/>
+-In ROS programming, over 70% of communication is done through topics, making it the most fundamental and widely used method. Its basic characteristics include asynchronicity and continuity, making it primarily used for transmitting sensor values and constantly exchanging information <br/>
+### 8-2. Checking the Topic List (ros2 topic list)
+Learn about topics one by one <br/>
+Use the familiar turtlesim_node (node name: turtlesim) from the turtlesim package <br/>
+![ROS Introduction16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/26512ee0-074a-40ca-afe2-064d91b5a78c) <br/>
+Run turtlesim_node, you can see the turtlesim <br/>
+![ROS Introduction17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b2949ee9-bd59-4420-8d17-ab9ff3da47f9) <br/>
+Use the ros2 node info command explained in the last tutorial to check the topic information of the turtlesim_node  <br/>
+(node name: turtlesim, hereafter referred to as turtlesim) <br/>
+-turtlesim node is subscribing to a message of type geometry_msgs/msg/Twist named cmd_vel, and it's publishing a message of type turtlesim/msg/Color named color_sensor, as well as a message of type turtlesim/msg/Pose <br/>
+![ROS Introduction18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7b25864a-313c-46ba-9079-dba001e33d6b) <br/>
+ros2 topic list -t: Check the messages more simply <br/> 
+-Previous command provided information about the turtlesim node only <br/>
+-ros2 topic list -t command allows you to see the topic information of all nodes currently running in your development environment <br/>
+-Only the turtlesim node is running, only the messages published and subscribed by the turtlesim node are displayed. The -t option is an additional feature that displays the type of each message <br/>
+![ROS Introduction19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5ecbe7cc-5b14-4707-8722-36628a9f9e4e) <br/>
+Currently, since only the turtlesim node is running, there is no situation of topics being exchanged. By executing rqt_graph as shown below, you can confirm in Figure 4: There is no activity of topics being exchanged <br/>
+![ROS Introduction20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3d1eb921-e408-454c-8dda-de2976b18506) <br/>
+Additionally run the turtle_teleop_key (node name: teleop_turtle, hereafter referred to as teleop_turtle) <br/>
+![ROS Introduction24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d9a3705-448e-460d-b684-26f4f2c14898) <br/>
+After running it, if you click the Refresh ROS graph button at the top left of the rqt_graph screen you had open, it will update to the latest state <br/>
+
+
+![ROS Introduction22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2104c328-6213-4b8b-b6fb-7ae2177d134a) <br/>
+Figure 6: teleop_turtle node is publishing the cmd_vel topic, which turtlesim is subscribing to <br/>
+![ROS Introduction23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dfdaebdf-cf2c-4e93-b9ce-34017c35247e)
+
+
+Color_sensor and pose topics, which were mentioned earlier, are not displayed here. <br/>
+The turtlesim node is publishing these two topics. However, similar to how the cmd_vel topic was not active before executing the teleop_turtle, these topics are not shown because there are no nodes currently subscribing to them.  <br/>
+Figure 7: Uncheck Dead sinks and Leaf topics in the rqt_graph screen to display them all.  You can see all topics regardless of whether they have publishing or subscribing nodes <br/>
+
+
+
+
+
 
 
 
