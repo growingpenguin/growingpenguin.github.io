@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1fdc854b-7593-4878-b8e3-9f0640e5c0ae)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0cd6b548-a0b1-4b69-8b98-d6998f7ad5c8)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1fdc854b-7593-4878-b8e3-9f0640e5c0ae)---
 layout: post
 title:  "Assignment: 2nd Week - Follow Isaac_Sim"
 ---
@@ -233,6 +233,33 @@ Source the setup script <br/>
 Try some examples <br/>
 ![Omniverse_IssacSim44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dacce760-72ec-4a70-ba60-4a9d6f5ebb36) <br/>
 ![Omniverse_IssacSim45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8a2352bd-499f-4c22-a1ea-24c8676aedc6) <br/>
+Clang
+![Omniverse_IssacSim46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/badd94c3-f6da-409c-8ef5-a14713599ba9) <br/>
+Configure CMake to detect and use Clang <br/>
+(2)Ensure vision_msgs_package is built from the ros2 branch. <br/>
+The ROS 2 Bridge in Isaac Sim depends on this package, make sure the workspace containing this package is sourced before running Isaac Sim from the same terminal.<br/>
+
+**Enabling the ROS Bridge Extension** <br/>
+If you intend to use a ROS2 bridge, before launching Isaac Sim, you need to set the Fast DDS middleware on all terminals that will be passing ROS2 messages <br/>
+If using a Isaac Sim ROS2 workspace, a fastdds.xml file is located at the root of the <ros2_ws> folder.  <br/>
+Set the environment variable by typing export FASTRTPS_DEFAULT_PROFILES_FILE=<path_to_ros2_ws>/fastdds.xml in all the terminals that will use ROS2 functions,  <br/>
+as well as setting it under “Extra Args” when launching Isaac Sim from the NVIDIA Omniverse™ Launcher.  <br/>
+
+**Setting Up Workspaces** <br/>
+(1)Clone the Isaac Sim ROS Workspace Repository from https://github.com/NVIDIA-Omniverse/IsaacSim-ros_workspaces <br/>
+(1)-1 Clone the Isaac Sim ROS Workspace Repository: <br/>
+![Omniverse_IssacSim50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ec6b38ec-cc24-4d98-b1ed-e37cb99e7188) <br/>
+![Omniverse_IssacSim49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/32517de1-16a9-4d63-a2db-27a4a2fc5dc7) <br/>
+Check ROS2 Distribution <br/>
+
+
+A few ROS packages are needed to go through the Isaac Sim ROS / ROS 2 tutorial series. To make it easy, entire ROS and ROS2 workspaces with the necessary packages are included <br/>
+If you have built ROS 2 from source, replace the source /opt/<ros_distro>/setup.bash command with source <path_ros2_ws>/install/setup.bash before building additional workspaces.
+Ubuntu Humble <br/>
+![Omniverse_IssacSim47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/158c0d82-3f31-46fa-8722-2e6944881e33) <br/>
+![Omniverse_IssacSim48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e1f5d4e9-4b37-4237-95de-5f0c1ef44d85) <br/>
+Install additional packages to build the ros2 workspace <br/>
+
 
 
 
@@ -243,7 +270,7 @@ Reference: <br/>
 https://velog.io/@raise_wise/2.-Omniverse-Isaac-Install <br/>
 
 
-https://docs.omniverse.nvidia.com/launcher/latest/insta lling_launcher.html <br/>
+https://docs.omniverse.nvidia.com/launcher/latest/installing_launcher.html <br/>
 
 https://docs.omniverse.nvidia.com/install-guide/latest/workstation-install.html <br/>
 
