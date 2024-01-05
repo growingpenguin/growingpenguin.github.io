@@ -340,13 +340,9 @@ Currently, since only the turtlesim node is running, there is no situation of to
 ![ROS Introduction20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3d1eb921-e408-454c-8dda-de2976b18506) <br/>
 Additionally run the turtle_teleop_key (node name: teleop_turtle, hereafter referred to as teleop_turtle) <br/>
 After running it, if you click the Refresh ROS graph button at the top left of the rqt_graph screen you had open, it will update to the latest state <br/>
-
-
-![ROS Introduction22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2104c328-6213-4b8b-b6fb-7ae2177d134a) <br/>
+![ROS Introduction24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d9a3705-448e-460d-b684-26f4f2c14898) <br/>
 Figure 6: teleop_turtle node is publishing the cmd_vel topic, which turtlesim is subscribing to <br/>
-![ROS Introduction23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dfdaebdf-cf2c-4e93-b9ce-34017c35247e)
-
-
+![ROS Introduction25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/98c1ac8a-9b29-455a-a22f-3b24882b9e18) <br/>
 Color_sensor and pose topics, which were mentioned earlier, are not displayed here. <br/>
 The turtlesim node is publishing these two topics. However, similar to how the cmd_vel topic was not active before executing the teleop_turtle, these topics are not shown because there are no nodes currently subscribing to them.  <br/>
 Figure 7: Uncheck Dead sinks and Leaf topics in the rqt_graph screen to display them all.  You can see all topics regardless of whether they have publishing or subscribing nodes <br/>
