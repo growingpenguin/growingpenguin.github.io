@@ -347,6 +347,20 @@ Color_sensor and pose topics, which were mentioned earlier, are not displayed he
 The turtlesim node is publishing these two topics. However, similar to how the cmd_vel topic was not active before executing the teleop_turtle, these topics are not shown because there are no nodes currently subscribing to them.  <br/>
 Figure 7: Uncheck Dead sinks and Leaf topics in the rqt_graph screen to display them all.  You can see all topics regardless of whether they have publishing or subscribing nodes <br/>
 
+### 8-3.Checking Topic Information (ros2 topic info)
+![ROS Introduction26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0e45fc46-7157-4e08-a8eb-3fb82c618493) <br/>
+In addition to using rqt_graph to check the pub/sub status of a topic, you can also use the ROS 2 CLI tool to check the type of topic messages and information about their publication and subscription. (this command is not frequently used) <br/>
+
+### 8-4.Checking Topic Content (ros2 topic echo)
+ros2 topic echo : Display the message content of a specific topic in real-time <br/>
+By executing the following command and specifying the topic as /turtle1/cmd_vel, you can check the values of this topic.  <br/>
+-Note that you must issue commands by pressing the directional keys (←↑ ↓→) in the terminal window where the teleop_turtle node, which publishes the /turtle1/cmd_vel topic, is running, in order to see the topic values.  <br/>
+-From the results below, we can see that the /turtle1/cmd_vel topic has linear values of x, y, z, and angular values of x, y, z. It consists of a total of 6 values, and we can confirm that the current linear.x value is 1.0 m/s. <br/>
+As a note, all messages use SI units like meter, second, degree, kg, etc., as a standard. We will cover this in more detail in another tutorial.  <br/>
+
+
+
+
 
 
 
