@@ -259,6 +259,12 @@ Ubuntu Humble <br/>
 ![Omniverse_IssacSim47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/158c0d82-3f31-46fa-8722-2e6944881e33) <br/>
 ![Omniverse_IssacSim48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e1f5d4e9-4b37-4237-95de-5f0c1ef44d85) <br/>
 Install additional packages to build the ros2 workspace <br/>
+![Omniverse_IssacSim51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/859d807a-8064-4381-b71d-4c2132b9db65) <br/>
+Ensure your native ROS has been sourced <br/>
+![Omniverse_IssacSim52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ce90fb86-dd14-4080-8782-fbaf8be73968) <br/>
+Resolve any package dependencies from the root of the ROS2 workspace by running the following command <br/>
+![Omniverse_IssacSim53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d1b86a61-5230-46b3-b950-a0fb157dd999) <br/>
+Build the workspace <br/>
 
 
 
