@@ -246,28 +246,9 @@ Set the environment variable by typing export FASTRTPS_DEFAULT_PROFILES_FILE=<pa
 as well as setting it under “Extra Args” when launching Isaac Sim from the NVIDIA Omniverse™ Launcher.  <br/>
 
 **Setting Up Workspaces** <br/>
-(1)Clone the Isaac Sim ROS Workspace Repository from https://github.com/NVIDIA-Omniverse/IsaacSim-ros_workspaces <br/>
-(1)-1 Clone the Isaac Sim ROS Workspace Repository: <br/>
-![Omniverse_IssacSim50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ec6b38ec-cc24-4d98-b1ed-e37cb99e7188) <br/>
-(1)-2 Check ROS2 Distribution <br/>
-![Omniverse_IssacSim49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/32517de1-16a9-4d63-a2db-27a4a2fc5dc7) <br/>
-(1)-3 Install additional packages to build the ros2 workspace <br/>
-![Omniverse_IssacSim54](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/52a700ed-d232-4bc4-b2b5-554e23a6b76c) <br/>
-(1)-4 Ensure your native ROS has been sourced <br/>
-![Omniverse_IssacSim51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/859d807a-8064-4381-b71d-4c2132b9db65) <br/>
-(1)-5 Resolve any package dependencies from the root of the ROS2 workspace by running the following command <br/>
-![Omniverse_IssacSim52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ce90fb86-dd14-4080-8782-fbaf8be73968) <br/>
-(1)-6 Build the workspace <br/>
-![Omniverse_IssacSim53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d1b86a61-5230-46b3-b950-a0fb157dd999) <br/>
-
-
-
-
-
-
-
-A few ROS packages are needed to go through the Isaac Sim ROS / ROS 2 tutorial series. To make it easy, entire ROS and ROS2 workspaces with the necessary packages are included <br/>
-If you have built ROS 2 from source, replace the source /opt/<ros_distro>/setup.bash command with source <path_ros2_ws>/install/setup.bash before building additional workspaces.
+=> Already done <br/>
+Native ROS env: source /home/rosexpert1/ros2_humble/install/setup.bash <br/>
+Workspace: ros2_humble <br/>
 Ubuntu Humble <br/>
 ![Omniverse_IssacSim47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/158c0d82-3f31-46fa-8722-2e6944881e33) <br/>
 ![Omniverse_IssacSim48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e1f5d4e9-4b37-4237-95de-5f0c1ef44d85) <br/>
