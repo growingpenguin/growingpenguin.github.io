@@ -228,8 +228,8 @@ In this case, the NVIDIA_VISIBLE_DEVICES environment variable is still used to s
 If CDI mode is explicitly enabled, the following sample command has the same effect as specifying NVIDIA_VISIBLE_DEVICES=nvidia.com/gpu=all. <br/>
 **Next Step** <br/>
 Install an NVIDIA GPU Driver if you do not already have one installed <br/>
-=>Already have one installed <br/>
 Driver can be installed by using the package manager for your distribution, but other installation methods, such as downloading a .run file intaller, are available.  <br/>
+=>Already have one installed <br/>
 Reference: <br/>
 https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html <br/>
 
