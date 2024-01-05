@@ -352,15 +352,42 @@ Figure 7: Uncheck Dead sinks and Leaf topics in the rqt_graph screen to display 
 In addition to using rqt_graph to check the pub/sub status of a topic, you can also use the ROS 2 CLI tool to check the type of topic messages and information about their publication and subscription. (this command is not frequently used) <br/>
 
 ### 8-4.Checking Topic Content (ros2 topic echo)
+![ROS Introduction27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e029f499-067a-4ede-a964-581447d19e31) <br/>
 ros2 topic echo : Display the message content of a specific topic in real-time <br/>
 By executing the following command and specifying the topic as /turtle1/cmd_vel, you can check the values of this topic.  <br/>
 -Note that you must issue commands by pressing the directional keys (←↑ ↓→) in the terminal window where the teleop_turtle node, which publishes the /turtle1/cmd_vel topic, is running, in order to see the topic values.  <br/>
 -From the results below, we can see that the /turtle1/cmd_vel topic has linear values of x, y, z, and angular values of x, y, z. It consists of a total of 6 values, and we can confirm that the current linear.x value is 1.0 m/s. <br/>
 As a note, all messages use SI units like meter, second, degree, kg, etc., as a standard. We will cover this in more detail in another tutorial.  <br/>
 
+### 8-5.Checking Topic Bandwidth (ros2 topic bw)
+![ROS Introduction28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5b18a86f-47aa-48d5-aed7-27686fa77c72) <br/>
+Check the bandwidth of the messages, meaning the size of the topic messages being sent and received  <br/>
+-To check the size, you can use ros2 topic bw as shown below to find out the bandwidth per second of the specified topic messages being transmitted  <br/>
+-If the teleop_turtle node continuously sends messages, you can see that the /turtle1/cmd_vel topic is used at an average bandwidth of 1.74KB/s <br/>
+This can vary depending on the type and frequency of the messages used <br/>
+ <br/>
+### 8-6.Checking Topic Frequency (ros2 topic hz)
+![ROS Introduction29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f869786c-4e5f-4487-87f3-a1effa9d5409) <br/>
+ros2 topic hz command: To check the transmission frequency(전송 주기) of a topic <br/>
+-If the teleop_turtle node continuously publishes the /turtle1/cmd_vel topic, the average frequency will be around 33.2 Hz <br/>
+This means the topic is being published every 0.03 seconds. The frequency can vary depending on how often the teleop_turtle node publishes the /turtle1/cmd_vel topic <br/>
 
+### 8-7.Checking Topic Latency(지연 시간) (ros2 topic delay)
+$ ros2 topic delay /TOPIC_NAME <br/>
+average delay: xxx.xxx <br/>
+min: xxx.xxxs max: xxx.xxxs std dev: xxx.xxxs window: 10 <br/>
+ <br/>
+Topics inevitably experience latency due to passing through RMW(ROS Middleware) and network equipment.  <br/>
+While users can implement their own code to check this delay, if the message uses a header stamp message,   <br/>
+one can use the ros2 topic delay command to calculate the delay by finding the difference between the time the message was published and the time it was subscribed. <br/>
 
-
+### 8-8.Publishing a Topic (ros2 topic pub)
+The publication of a topic (publish) is typically built into a ROS program. We will cover this in ROS programming sessions. <br/>
+Here, let's test publishing a topic simply using the ros2 topic pub command. <br/>
+The usage of this command is as follows: you just need to specify the topic name, topic message type, and the message content in the ros2 topic pub command. <br/>
+ros2 topic pub <topic_name> <msg_type> "<args>" <br/>
+To elaborate, you can write it as below. Breaking down the command, the --once option is used to perform only a single publication. <br/>
+The topic name used is /turtle1/cmd_vel, and the topic message type is geometry_msgs/msg/Twist. As for the message content, a translational speed of linear.x value 2.0 m/s and a rotational speed of angular.z value 1.8 rad/s are entered.<br/>
 
 
 
