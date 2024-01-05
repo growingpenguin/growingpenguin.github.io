@@ -77,7 +77,7 @@ run_dev.sh:  <br/>
 Script(a set of automated commands) that you can run to set up or start this Docker-based development environment. By running this script, you'd be able to work in a controlled, consistent environment that's specifically configured for Isaac ROS development <br/>
 On x86_64 platforms: <br/>
 Reference:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/cdi-support.html <br/>
-### Install nvidia-container-toolkit <br/>
+### Install nvidia-container-toolkit 
 Installing with apt <br/>
 (1)Configure production repository <br/>
 ![Nvblox6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bad5b41a-ebde-4ec7-8439-d12683533783) <br/>
@@ -92,7 +92,7 @@ Update the list of available packages and their versions, but it does not instal
 (3)Install the NVIDIA Container Toolkit packages <br/>
 ![Nvblox9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/74c61d0f-8b4a-48e4-a98a-b0118c804fd0) <br/>
 <br/>
-### Configure nvidia-container-toolkit for Docker** <br/>
+### Configure nvidia-container-toolkit for Docker
 Prerequisites <br/>
 You installed a supported container engine (Docker, Containerd, CRI-O, Podman) <br/>
 You installed the NVIDIA Container Toolkit. <br/>
@@ -226,6 +226,16 @@ Force CDI mode by explicitly setting the nvidia-container-runtime.mode option in
 In this case, the NVIDIA_VISIBLE_DEVICES environment variable is still used to select the devices to inject into the container, but the nvidia-container-runtime.modes.cdi.default-kind (with a default value of nvidia.com/gpu) is used to construct a fully-qualified CDI device name only when you specify a device index such as all, 0, or 1, and so on. <br/>
 ![Nvblox52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/432bfccc-7e64-45cb-977f-efd8e3da63ce) <br/>
 If CDI mode is explicitly enabled, the following sample command has the same effect as specifying NVIDIA_VISIBLE_DEVICES=nvidia.com/gpu=all. <br/>
+**Next Step** <br/>
+Install an NVIDIA GPU Driver if you do not already have one installed <br/>
+=>Already have one installed <br/>
+Driver can be installed by using the package manager for your distribution, but other installation methods, such as downloading a .run file intaller, are available.  <br/>
+Reference: <br/>
+https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html <br/>
+
+
+
+
 ### Restart Docker <br/>
 ![Nvblox53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/01bb732b-a2dc-4f9b-aea3-4ff1c2903c1e) <br/>
 ### Install Git LFS to pull down all large files
