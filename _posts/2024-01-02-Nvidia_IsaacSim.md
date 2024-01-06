@@ -1,6 +1,6 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0cd6b548-a0b1-4b69-8b98-d6998f7ad5c8)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1fdc854b-7593-4878-b8e3-9f0640e5c0ae)---
+---
 layout: post
-title:  "Assignment: 2nd Week - Follow Isaac_Sim"
+title:  "Assignment: 2nd Week - Follow Isaac_Sim Tutorial"
 ---
 # What is Issac Sim?
 NVIDIA Isaac Sim™ : <br/>
