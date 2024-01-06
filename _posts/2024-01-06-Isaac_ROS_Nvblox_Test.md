@@ -55,22 +55,84 @@ ROS Tutorials <br/>
 
 Reference <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html  <br/>
+
 (3) <br/>
 Start the simulation by running the following command in the terminal <br/>
 
-
+Reference <br/>
+https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_isaac_sim.html <br/>
 
 
 ## isaac_sim_humans_example.launch.py
 Example to run with Isaac Sim including human reconstruction  <br/>
+### Human Reconstruction in Isaac Sim
+Demonstrates how to perform human reconstruction in nvblox with Isaac Sim <br/>
+The detected humans are then visible in a separate dynamic costmap that can be used for navigation with Nav2.  <br/>
+If you want to know more about human reconstruction works, see Technical Details. <br/>
+Technical Details <br/>
+Human Reconstruction <br/>
+Additional options for mapping scenes containing people exist. <br/> 
+-Humans are separated from the TSDF reconstruction into a separate layer containing an occupancy grid representing reconstructed humans <br/>
+-Human segmentation is applied to each processed color frame with Isaac ROS Image Segmentation  <br/>
+-The depth masker module uses the segmentation mask from the color image to separate the depth-map into human and non-human parts.  <br/>
+-While the non-human labeled part of the depth frame is still forwarded to TSDF mapping, the human labeled part is processed to an occupancy grid map. <br/>
+-To relax the assumption that occupancy grid maps only capture static objects, an occupancy decay step must be applied. At a fixed frequency, all voxel occupancy probabilities are decayed towards 0.5 over time. This means that the state of the map (occupied or free) becomes less certain after it has fallen out of the field of view, until it becomes unknown (0.5 occupancy probability) <br/>
+![Nvblox2-1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c4066b20-fa9a-446a-a5b7-87e1666de032) <br/>
+Reference <br/>
+https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_human_reconstruction_isaac_sim.html <br/>
 
-
-Like a wireframe model made up of many small polygons (usually triangles or quadrilaterals) that together form the surface of the object.  <br/>
 ## isaac_sim_dynamics_example.launch.py
 Example to run with Isaac Sim including general dynamic reconstruction  <br/>
+This tutorial demonstrates how to perform general dynamic reconstruction in nvblox with Isaac Sim. <br/>
+-For more about general dynamic reconstruction in nvblox see Technical Details. <br/>
+Dynamic Reconstruction  <br/>
+-Human reconstruction pipeline employs a Deep Neural Network(DNN) to generate a mask image for separating human detections into a dynamic occupancy layer   <br/>
+-General dynamic reconstruction pipeline maintains a (high-confidence) freespace layer dedicated to detecting dynamic objects <br/>
+-Whenever an object enters freespace, it is identified as dynamic and then integrated into the dynamic occupancy layer, similar to the human reconstruction pipeline described above. <br/>
+This enables the pipeline to separately reconstruct humans (or other specific objects that the DNN was trained for) and all moving objects regardless of their class or category <br/>
+![Nvblox2-2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/315edd09-99f1-40c9-90ef-652e7d2b961b) <br/>
 
 ## realsense_example.launch.py
 Example to run with a RealSense camera  <br/>
+This tutorial demonstrates how to perform depth-camera based reconstruction using a RealSense camera, Isaac ROS Visual SLAM and Isaac ROS Nvblox. <br/>
+RealSense Camera Firmware  <br/>
+Example is tested and compatible with RealSense camera firmware version 5.13.0.50 <br/>
+(1)Host System Setup <br/>
+The ROS2 message delivery might be unreliable under high load without some small modifications to the QoS profile(especially on weaker machines) <br/>
+Before running this example <br/>
+
+Set the parameter temporarily, until reboot <br/>
+
+Run to set the parameter permanently <br/>
+
+See DDS tuning for more information <br/>
+
+(2)Installing the Dependencies <br/>
+Complete steps 1 and 2 described in the Nvblox Quickstart Guide to set up your development environment and clone the required repositories <br/>
+Complete the Developer Environment Setup <br/>
+=>Completed <br/>
+Clone isaac_ros_common and this repository under ${ISAAC_ROS_WS}/src. <br/>
+(2)Installing the Dependencies <br/>
+Complete steps 1 and 2 described in the Nvblox Quickstart Guide to set up your development environment and clone the required repositories. <br/>
+
+Stop Git tracking the COLCON_IGNORE file in the realsense_splitter package and remove it <br/>
+(Note: The COLCON_IGNORE file was added to remove the dependency to realsense-ros for users that don’t want to run the RealSense examples) <br/>
+
+Complete the Isaac ROS RealSense Setup to set up librealsense outside of the isaac_ros_common Docker, clone realsense_ros, and to configure the container for use with RealSense. <br/>
+
+Launch the Docker container using the run_dev.sh script <br/>
+
+Inside the container, install package-specific dependencies using rosdep  <br/>
+
+Build and source the workspace  <br/>
+
+(3)Example with RealSense Live Data <br/>
+Complete the sections above <br/>
+Connect the RealSense device to your machine using a USB 3 cable/port. <br/>
+Run the ROS Docker container using the run_dev.sh script. <br/>
+Source the workspace. <br/>
+Verify that the RealSense camera is connected by running realsense-viewer <br/>
+If successful, run the launch file to spin up the exampler <br/>
 
 ## realsense_humans_example.launch.py
 Example to run with a RealSense camera including human reconstruction  <br/>
