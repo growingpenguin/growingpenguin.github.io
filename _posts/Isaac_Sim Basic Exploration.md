@@ -115,7 +115,8 @@ Scroll through its Property panel -> Click the header of each sub-panel will col
 ![Omniverse_IssacSim95](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6edcb9d3-fed4-4909-9d65-911ce7d8ee12) <br/>
 Select the defaultLight from the Stage <br/>
 Scroll through its Property panel and note the different information it shows compared to the Cube. Select the World (defaultPrim) from the Stage and note how its Property panel differs. <br/>
-
+-Data in each Property panel differs because World(defaultPrim), Cube, and defaultLight are all different data types in Omniverse Isaac Sim. <br/>
+The World is an Xform, the defaultLight is a DistantLight, and the Cube is a Cube <br/>
 
 
 
