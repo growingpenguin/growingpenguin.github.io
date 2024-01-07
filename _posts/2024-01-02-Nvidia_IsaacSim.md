@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4f610596-b3bd-4fb3-9261-ab2f2334eea7)---
+---
 layout: post
 title:  "Assignment: 2nd Week - Follow Isaac_Sim Tutorial"
 ---
@@ -248,7 +248,9 @@ as well as setting it under “Extra Args” when launching Isaac Sim from the N
 **Setting Up Workspaces** <br/>
 => Already done <br/>
 Native ROS env: source /home/rosexpert1/ros2_humble/install/setup.bash <br/>
-Workspace: ros2_humble <br/>
+Workspace1: ros2_humble <br/>
+Workspace2: 
+
 Ubuntu Humble <br/>
 (1)Install additional packages <br/>
 ![Omniverse_IssacSim55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/47bd9753-e071-4c03-9016-eb249df03a7d) <br/>
