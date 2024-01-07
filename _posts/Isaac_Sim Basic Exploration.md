@@ -1,14 +1,81 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ff2c5395-3e86-45db-96db-c920cccf4dc6)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a9da40e-c1a5-49d7-ac83-17fb54858bfb)---
 layout: post
 title:  "Assignment: 2nd Week - Isaac_Sim Basic Exploration"
 ---
+# Introductory 
+## Isaac Sim Interface
+**Learning Objectives** <br/>
+Introduces the most commonly used user-interface buttons, menus, and controls in Omniverse Isaac Sim. <br/>
+After this tutorial, you should be more confident in navigating and discovering content in the Isaac Sim interface. <br/>
+**Getting Started** <br/>
+(1)Adding a cube to the scene <br/>
+![Omniverse_IssacSim59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/86b70380-00fe-453f-bd01-1003fade57ed) <br/>
+Go to Menu bar  <br/>
+Click Create > Shapes > Cube <br/>
+Cube is in the center of the Viewport. The Cube is Selected (highlighted in orange), and the Move (W) command is enabled by default. <br/>
+(2)Transforming the Cube
+Hover over and then click the Move Gizmo to drag and move the Cube.<br/>
+Press “E”: <br/>
+![Omniverse_IssacSim60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b00169e0-3b58-41e2-bd57-e9b07cb5d7a4) <br/>
+Switch to the Rotate Gizmo, and then click and drag the gizmo to rotate the Cube.<br/>
+Press “R”:  <br/>
+![Omniverse_IssacSim61](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8da76e59-91bc-42a2-9549-530faffd5294) <br/>
+Switch to the Scale. Click and drag the gizmo to rotate the Cube <br/>
+Press “W”:  <br/>
+![Omniverse_IssacSim62](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/817a50dd-48d5-4450-8098-e7561dfa2241) <br/>
+Switch back to the Move Gizmo. <br/>
+Press “W” again: <br/>
+![Omniverse_IssacSim63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b2908b55-ba03-4fb3-902d-ce7d9e871bbe) <br/>
+Toggle Move with Local Coordinates. Click and drag the gizmo to move the Cube on its local axes. <br/>
+Press “ESCAPE”: <br/>
+![Omniverse_IssacSim64](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/90e91d09-65b9-441f-aba5-e27fd3d8446f) <br/>
+Deselect the Cube <br/>
+(3)Practice transforming the Cube through its Property panel <br/>
+![Omniverse_IssacSim65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a5de227-1b14-468f-b789-7dd92cb44660) <br/>
+Select the Cube to populate the Property panel <br/>
+![Omniverse_IssacSim66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fbf49da1-48b3-4665-8019-1af97bd2b314) <br/>
+In the Transform > Translate field, click and drag the X value left and right to move the Cube along the X-Axis <br/>
+![Omniverse_IssacSim67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/91e0429b-f1ee-4052-a200-3186d2128d91) <br/>
+Double Click the Y value and type “1” to move the Cube to Y=1 <br/>
+![Omniverse_IssacSim68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e797e7da-ae17-400f-a271-98ceec68416f) <br/>
+Click the blue square all the way to the right of the Z value to reset the Translate value to its default setting (0,0,0) <br/>
+![Omniverse_IssacSim69](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/16c29429-05f3-4985-9217-36a6e5335f0b) <br/>
+Reset the Rotate and Scale values to their default setting <br/>
+![Omniverse_IssacSim70](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9ed1f8c4-d11a-447e-a8ef-d20e92958fe6) <br/>
+Set the Cube Translate to {X: 0, Y: -2, Z: -0.5} and Rotate to {X: 0, Y: 22.5, Z: 0} by double-clicking on the corresponding X, Y, Z values and typing in the values. <br/>
+**Toggling Local & World Coordinates** <br/>
+Press “W” multiple times: <br/>
+![Omniverse_IssacSim71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/289fa323-60ed-4aff-98d0-8d1992830281)
+![Omniverse_IssacSim72](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d54693e7-61b0-414d-be4b-bbc53378081a)
+ <br/>
+
+Toggle between Move Global and Move Local <br/>
+
+Press “E” multiple times: <br/>
+Toggle between Rotate Global and Rotate Local <br/>
+
+Pressing and holding the Move/Rotate Icons in the Toolbar can also be used to select the coordinate system <br/>
+
+Each Toolbar Icon will turn Orange when the Local coordinate system is active <br/>
+Footnote: <br/>
+toggle: On/Off Switch <br/>
+
+
 # How to Import Your Robot Into Isaac Sim in NVIDIA Omniverse
 ## Isaac Sim importers <br/>
 **URDF** <br/>
 -Good URDFs are imported with physics <br/>
 -Joints automatically added <br/>
 (1)Use the URDF Importer <br/>
-Window > URDF Importer <br/>
+(1)-1 Using the URDF Importer Extension Window <br/>
+![Omniverse_IssacSim57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/83b520a6-e557-46e8-92fb-086f078a7c51) <br/>
+Window > Extensions > URDF Importer <br/>
+Enable the omni.importer.urdf extension in Omniverse Isaac Sim <br/>
+![Omniverse_IssacSim58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2c417689-4c2c-42dd-a0d7-0b9d53025e46) <br/>
+Isaac Utils > Workflows > URDF Importer <br/>
+
+
+Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/advanced_tutorials/tutorial_advanced_import_urdf.html <br/>
 (2)Specify your URDF files <br/>
 Click button URDF <br/>
 Click my computer > Double click bittle.urdf <br/>
