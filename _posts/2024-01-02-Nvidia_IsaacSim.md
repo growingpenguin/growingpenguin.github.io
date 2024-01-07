@@ -255,7 +255,7 @@ Ubuntu Humble <br/>
 (1)Install additional packages <br/>
 ![Omniverse_IssacSim55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/47bd9753-e071-4c03-9016-eb249df03a7d) <br/>
 (2)Ensure your native ROS2 has been sourced if not already <br/>
-![Omniverse_IssacSim56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3ff4c496-79da-47aa-8742-6318296132c7) <br/>
+![Omniverse_IssacSim104](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f213f6e4-1fb4-4f9e-85b1-8418b461dab2) <br/>
 (3)Resolve any package dependencies from the root of the ROS2 workspace by running the following command <br/>
 
 
@@ -267,8 +267,6 @@ Ubuntu Humble <br/>
 
 Reference: <br/>
 https://velog.io/@raise_wise/2.-Omniverse-Isaac-Install <br/>
-
-
 https://docs.omniverse.nvidia.com/launcher/latest/installing_launcher.html <br/>
 
 https://docs.omniverse.nvidia.com/install-guide/latest/workstation-install.html <br/>
