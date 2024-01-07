@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a34ba796-01bc-44ed-8f97-828357d09ba7)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ff2c5395-3e86-45db-96db-c920cccf4dc6)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a9da40e-c1a5-49d7-ac83-17fb54858bfb)---
+---
 layout: post
 title:  "Assignment: 2nd Week - Isaac_Sim Basic Exploration"
 ---
@@ -78,6 +78,47 @@ Press “ESCAPE” to Deselect the Sphere <br/>
 ![Omniverse_IssacSim82](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/122935ee-889d-4925-9c35-489f5056229e) <br/>
 Press “F” when nothing is Selected to Zoom All <br/>
 
+**Using the Stage and Properties Panels** <br/>
+Objects can be directly selected in the Viewport or in the Stage—the Panel at the top right of the Workspace.  <br/>
+Stage: Powerful tree-based widget for organizing and structuring all the content in an Omniverse Isaac Sim scene <br/>
+![Omniverse_IssacSim83](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/67a730f5-7ffb-4dbc-afdc-5167649c5a66) <br/>
+Go to the top Menu Bar <br/>
+Click Create > Xform: There should now be an empty Xform prim in the Stage panel, nested under World <br/>
+![Omniverse_IssacSim85](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5b1d81f5-457a-4a00-a1a0-14d81c562a28) <br/>
+Select the Cube line item from the Stage, and drag and drop onto the Xform <br/>
+![Omniverse_IssacSim86](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ef0e0eec-dda8-4dd2-93f4-b8993eaa652d) <br/>
+Select the Sphere and drag and drop it onto the Xform as well <br/>
+=>Nothing changes in the Viewport.But a Parent-Child relationship between the Xform, the Sphere, and the Cube has been created. <br/> 
+![Omniverse_IssacSim87](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/86036410-2875-4e89-b978-ed6412ff24f8) <br/> 
+Select the Xform <br/>
+Press “W” to enable the Move Gizmo. Grab and move the Xform <br/>
+-Moving the Xform: Moves both the Sphere and the Cube. <br/>
+-Child objects inherit the transforms of their parents. Important concept for how Omniverse Isaac Sim constructs articulated objects, such as Robots <br/>
+![Omniverse_IssacSim88](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9b3f23f0-e4ff-4891-81eb-15a7bd7d5d97) <br/>
+Select just the Cube <br/>
+![Omniverse_IssacSim89](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c8c64582-9d35-4171-be36-57e1321a19c8) <br/>
+Move the Xform <br/>
+![Omniverse_IssacSim90](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f23f87d9-5199-46e7-a3cf-f8f9733c3f5f) <br/>
+Its Transform Properties in the Property panel are the same, no matter how you move the Xform <br/>
+![Omniverse_IssacSim91](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dfe4d16a-f5f7-4ab4-8d62-13853b3e2eba) <br/>
+An object’s Transform Properties are a local transform, relative to its Parent <br/>
+![Omniverse_IssacSim92](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1d70d5ab-f96c-4b44-b739-a317ffacbc2f) <br/>
+Unparent the Cube by selecting the Cube from the Stage, then dragging and dropping it onto the World line item <br/>
+![Omniverse_IssacSim93](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/22338477-d3d3-4383-a0b2-e0f485e483d1) <br/>
+Right-click on the Xform > Click Delete <br/>
+=>Cube’s Transform Properties now reflect the world transform <br/>
+=>Sphere is deleted as well because it is a child of the Xform <br/>
+Property panel > Transform Properties: Panel has a lot of useful UI inputs for interfacing directly with geometric, material, visual, and USD properties <br/>
+![Omniverse_IssacSim94](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1dd3b080-4273-4b0f-85eb-179b3b370402) <br/>
+Select the Cube from the Stage <br/>
+Scroll through its Property panel -> Click the header of each sub-panel will collapse or show it <br/>
+![Omniverse_IssacSim95](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6edcb9d3-fed4-4909-9d65-911ce7d8ee12) <br/>
+Select the defaultLight from the Stage <br/>
+Scroll through its Property panel and note the different information it shows compared to the Cube. Select the World (defaultPrim) from the Stage and note how its Property panel differs. <br/>
+
+
+
+
 # How to Import Your Robot Into Isaac Sim in NVIDIA Omniverse
 ## Isaac Sim importers <br/>
 **URDF** <br/>
@@ -90,7 +131,6 @@ Window > Extensions > URDF Importer <br/>
 Enable the omni.importer.urdf extension in Omniverse Isaac Sim <br/>
 ![Omniverse_IssacSim58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2c417689-4c2c-42dd-a0d7-0b9d53025e46) <br/>
 Isaac Utils > Workflows > URDF Importer <br/>
-
 
 Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/advanced_tutorials/tutorial_advanced_import_urdf.html <br/>
 (2)Specify your URDF files <br/>
