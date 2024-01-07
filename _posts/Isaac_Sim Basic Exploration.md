@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ff2c5395-3e86-45db-96db-c920cccf4dc6)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a9da40e-c1a5-49d7-ac83-17fb54858bfb)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a34ba796-01bc-44ed-8f97-828357d09ba7)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ff2c5395-3e86-45db-96db-c920cccf4dc6)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a9da40e-c1a5-49d7-ac83-17fb54858bfb)---
 layout: post
 title:  "Assignment: 2nd Week - Isaac_Sim Basic Exploration"
 ---
@@ -44,22 +44,39 @@ Reset the Rotate and Scale values to their default setting <br/>
 ![Omniverse_IssacSim70](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9ed1f8c4-d11a-447e-a8ef-d20e92958fe6) <br/>
 Set the Cube Translate to {X: 0, Y: -2, Z: -0.5} and Rotate to {X: 0, Y: 22.5, Z: 0} by double-clicking on the corresponding X, Y, Z values and typing in the values. <br/>
 **Toggling Local & World Coordinates** <br/>
-Press “W” multiple times: <br/>
 ![Omniverse_IssacSim71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/289fa323-60ed-4aff-98d0-8d1992830281)
-![Omniverse_IssacSim72](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d54693e7-61b0-414d-be4b-bbc53378081a)
- <br/>
-
+![Omniverse_IssacSim72](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d54693e7-61b0-414d-be4b-bbc53378081a) <br/>
+Press “W” multiple times: <br/>
 Toggle between Move Global and Move Local <br/>
-
+![Omniverse_IssacSim73](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/643d2c6a-99cd-4cca-9d6e-c31174f05361)
+![Omniverse_IssacSim74](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/209ebfed-ed9e-4b99-9520-c7409888d2d1) <br/>
 Press “E” multiple times: <br/>
 Toggle between Rotate Global and Rotate Local <br/>
-
+![Omniverse_IssacSim75](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4564f5e1-ee50-472e-998a-c7235153c0ff) <br/>
 Pressing and holding the Move/Rotate Icons in the Toolbar can also be used to select the coordinate system <br/>
-
+![Omniverse_IssacSim76](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4249491a-c26c-412a-a1e9-cba4c3078dc0) <br/>
 Each Toolbar Icon will turn Orange when the Local coordinate system is active <br/>
 Footnote: <br/>
 toggle: On/Off Switch <br/>
 
+**Navigating the Viewport** <br/>
+Bring another object into the scene by adding a Sphere <br/>
+![Omniverse_IssacSim77](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f65e2118-72c3-444b-8d57-89c792f14233) <br/>
+Go to the top Menu Bar and Click Create > Shapes > Sphere. There should now be a Cube and a Sphere in the Viewport, with the Sphere selected by default <br/>
+![Omniverse_IssacSim78](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6833707b-9b50-464d-aa82-fb0d9ed8ce38) <br/>
+Translate the Sphere to {X: 0, Y: 2, Z: 0} <br/>
+![Omniverse_IssacSim79](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/332e4dc9-a33f-476f-9a84-4ce22c6d919e) <br/>
+Press “F” to Center and Zoom the Viewport Camera on the selected Sphere <br/> 
+![Omniverse_IssacSim80](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/86edbea2-d957-4abd-b699-fa6229008d1f) <br/> 
+Press “LMB”(left mouse button)+“ALT” to Orbit around the Sphere <br/> 
+“Scroll Wheel” or Press “RMB”(right mouse button)+“ALT”: Zoom in. <br/> 
+Press the “MMB” (middle mouse button) to Pan  <br/> 
+Footnote: <br/>
+Pan: Specific type of camera movement or interaction commonly used in 3D graphics and computer-aided design (CAD) applications  <br/>
+![Omniverse_IssacSim81](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/064e1bc8-ead9-43f2-8d54-6a7c604d70f0) <br/>
+Press “ESCAPE” to Deselect the Sphere <br/>
+![Omniverse_IssacSim82](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/122935ee-889d-4925-9c35-489f5056229e) <br/>
+Press “F” when nothing is Selected to Zoom All <br/>
 
 # How to Import Your Robot Into Isaac Sim in NVIDIA Omniverse
 ## Isaac Sim importers <br/>
