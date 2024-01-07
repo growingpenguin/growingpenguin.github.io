@@ -247,4 +247,8 @@ Omniverse Isaac Sim is launched via a python script, inside which the rendering 
 **Using Jupyter to Develop a Standalone Application** <br/>
 Omniverse Isaac Sim can be launched as headless in this workflow (i.e. without a visible and updating GUI). It can also be launched via a Jupyter notebook (Linux only). In the clip below, Jupyter notebook live syncs to the same USD so that changes are reflected in another Isaac Sim process launched through the terminal or the launcher.<br/>
 
+Reference: <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/introductory_tutorials/tutorial_intro_interface.html <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/introductory_tutorials/tutorial_intro_workflows.html <br/>
+
 
