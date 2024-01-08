@@ -56,8 +56,12 @@ ROS Tutorials <br/>
 Reference <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html  <br/>
 
-(3) <br/>
-Start the simulation by running the following command in the terminal <br/>
+(3)Start the simulation by running the following command in the terminal <br/>
+![Nvblox2-3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b9006c41-4da0-44bd-899c-8687635e28f4) <br/>
+(4)In another terminal, launch the Docker container using the run_dev.sh script <br/>
+
+
+
 
 Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_isaac_sim.html <br/>
