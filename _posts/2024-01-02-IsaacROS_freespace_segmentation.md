@@ -23,7 +23,7 @@ This package is powered by NVIDIA Isaac Transport for ROS (NITROS), which levera
 (1)Set up your development environment <br/>
 Already Done <br/>
 (2)Clone isaac_ros_common and this repository under ${ISAAC_ROS_WS}/src  <br/>
-![FreespaceSegmentation1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ae982733-9c11-49b4-a297-00e5397ccbd0)
+![FreespaceSegmentation9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/61bc70eb-c569-4da9-b5f0-0126d05c5d7b)   <br/>
 Already Done <br/>
 (3)Pull down a rosbag of sample data  <br/>
 Error: <br/>
