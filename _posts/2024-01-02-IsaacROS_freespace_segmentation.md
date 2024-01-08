@@ -48,7 +48,7 @@ https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-launch-er
 ![FreespaceSegmentation12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3947acde-1be4-48ad-8233-8c0d6039d8d6) <br/>
 
 (6)Download model files for Bi3D (refer to the Model Preparation section for more information) <br/>
-![FreespaceSegmentation7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2a993769-b6dd-45c5-9e9d-c1916fedeca9) <br/>
+![FreespaceSegmentation13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a561cb71-5e6b-4e11-8f95-894fbcb4ef1d) <br/>
 (7)Convert the .onnx model files to TensorRT engine plan files (refer to the Model Preparation section for more information) <br/>
 If using x86_64: <br/>
 ![FreespaceSegmentation8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9b7816d3-6075-48c4-92b0-4a63b19a0f9c) <br/>
