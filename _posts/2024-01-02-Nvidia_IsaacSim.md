@@ -162,18 +162,21 @@ Reference: <br/>
 https://docs.omniverse.nvidia.com/streaming-client/latest/user-manual.html <br/>
 (2)Configuration <br/>
 
-
 **Python Environment Installation** <br/>
 Possible to run Isaac Sim natively from Python rather than as a standalone executable. This provides more low-level control over how to initialize, setup, and manage an Omniverse application. <br/>
 (1)Default Python Environment <br/>
 Isaac Sim provides a built-in Python 3.10 environment that packages can use, similar to a system-level Python install. We recommend using this Python environment when running the Python scripts <br/>
+Start a python script <br/>
+> ./python.sh path/to/script.py <br/>
 (2)Jupyter Notebook Setup <br/>
 Jupyter Notebooks that use Isaac Sim can be executed as follows <br/>
-(3)Visual Studio Code Support** <br/>
+>./jupyter_notebook.sh path/to/notebook.ipynb <br/>
+(3)Visual Studio Code Support <br/>
 The Isaac Sim package provides a .vscode workspace with a pre-configured environment  <br/>
 Launch configurations for running in standalone Python mode, or the interactive GUI <br/>
 An environment for Python auto-complete <br/>
 You can open this workspace by opening the main Isaac Sim package folder in Visual Studio Code (VSCode)  <br/>
+Open this workspace by opening the main Isaac Sim package folder in Visual Studio Code (VSCode)  <br/>
 (3)Advanced: Running In Docker <br/>
 Start the Docker container following the instructions in Container Deployment up to step 8. <br/>
 Once the Isaac Sim container is running, you can run a Python script or Jupiter Notebook from the sections above. <br/>
