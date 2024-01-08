@@ -277,20 +277,21 @@ Error: <br/>
 Solution: <br/>
 ![Nvblox71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bfeeef97-4310-4008-ac40-9a3910ad80ca) <br/>
 ![Nvblox72](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3c3a976-c258-4b27-938e-0e5365ab67cd) <br/>
-
 ![Nvblox70](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/60c0133e-3c8f-4f8d-973c-3a421bd267c4)  <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/issues/53 <br/>
 https://forums.developer.nvidia.com/t/nvblox-colcon-build-error/247962/2 <br/>
-**7.(Optional) Run tests to verify complete and correct installation:**   <br/>
+Correct Version: <br/>
+![Nvblox78](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95604bc3-cded-4edd-aada-8b9df7f290d1)  <br/>
 
+**7.(Optional) Run tests to verify complete and correct installation:**   <br/>
+![Nvblox79](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c5ff7c1a-4b80-465e-9f1f-2cd9014c519e) <br/>
 **8.In a current terminal inside the Docker container, run the launch file for Nvblox with nav2** <br/>
-![Nvblox74](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cd8f5a08-30c2-45a1-8416-679dd4bb89de) <br/>
+![Nvblox81](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/85756fe1-1270-4991-8fba-feba7dc2485c) <br/>
 **9.Open a second terminal inside the docker container & play the ROS Bag** <br/>
-![Nvblox75](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fc8bfedf-8809-4efc-ae6f-7d9dca04123e) <br/>
+![Nvblox80](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d52c7636-b2fa-49fb-b72f-9e8317c503ec) <br/>
 
 Result <br/>
-![Nvblox76](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/018429fa-357d-4efd-bc33-46d23af5a2fa) <br/>
-
+![Nvblox77](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8d08bfd7-a4ee-43cd-a613-b3f7e060910a) <br/>
 
 
 
