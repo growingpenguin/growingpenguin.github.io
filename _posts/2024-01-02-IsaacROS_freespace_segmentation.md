@@ -45,7 +45,6 @@ https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/issues/104 => Someone with 
 https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-launch-error-in-docker-container/277741 => MY question posted on the NVIDIA Forum <br/>
 
 (5)Install this package’s dependencies <br/>
-![FreespaceSegmentation6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/482222c9-812e-4e3c-ae0a-37356aeb5fad) <br/>
 ![FreespaceSegmentation12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3947acde-1be4-48ad-8233-8c0d6039d8d6) <br/>
 
 (6)Download model files for Bi3D (refer to the Model Preparation section for more information) <br/>
