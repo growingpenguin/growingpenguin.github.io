@@ -265,7 +265,9 @@ Log out and log back in so that your group membership is re-evaluated. Run the f
 Verified that you can run docker commands without sudo  <br/>
 ![Nvblox66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1e6a7d46-ab0f-4540-a23d-4fc513c16970)  <br/>
 Reference: <br/>
-Manage Docker as a non-root user: https://docs.docker.com/engine/install/linux-postinstall/ <br/>
+https://github.com/git-lfs/git-lfs/issues/3964 <br/>
+Manage Docker as a non-root user:  <br/>
+https://docs.docker.com/engine/install/linux-postinstall/ <br/>
 **5.Inside the container, install package-specific dependencies via rosdep**  <br/>
 ![Nvblox67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3829fb92-0781-4f2e-af1d-51526e97593d)  <br/>
 **6.Build and source the workspace:** <br/>
