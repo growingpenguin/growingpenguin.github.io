@@ -51,7 +51,9 @@ If using x86_64: <br/>
 ![FreespaceSegmentation8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9b7816d3-6075-48c4-92b0-4a63b19a0f9c) <br/>
 (8)Run the launch file to spin up a demo of this package <br/>
 
-
+Error: <br/>
+Solution: <br/>
+https://github.com/git-lfs/git-lfs/issues/3964 <br/>
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_freespace_segmentation/isaac_ros_bi3d_freespace/index.html#quickstart <br/>
