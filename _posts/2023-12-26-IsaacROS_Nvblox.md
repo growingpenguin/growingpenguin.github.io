@@ -281,17 +281,18 @@ Solution: <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/issues/53 <br/>
 https://forums.developer.nvidia.com/t/nvblox-colcon-build-error/247962/2 <br/>
 Correct Version: <br/>
-![Nvblox78](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95604bc3-cded-4edd-aada-8b9df7f290d1)  <br/>
-
+![Nvblox78](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95604bc3-cded-4edd-aada-8b9df7f290d1) <br/>
 **7.(Optional) Run tests to verify complete and correct installation:**   <br/>
 ![Nvblox79](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c5ff7c1a-4b80-465e-9f1f-2cd9014c519e) <br/>
 **8.In a current terminal inside the Docker container, run the launch file for Nvblox with nav2** <br/>
 ![Nvblox81](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/85756fe1-1270-4991-8fba-feba7dc2485c) <br/>
-**9.Open a second terminal inside the docker container & play the ROS Bag** <br/>
+**9.Open a second terminal inside the docker container** <br/>
+![Nvblox82](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/32f957b9-2310-4c1f-b510-46881ccaa7b1) <br/>
+**10.In the second terminal, play the ROS Bag** <br/>
 ![Nvblox80](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d52c7636-b2fa-49fb-b72f-9e8317c503ec) <br/>
-
 Result <br/>
 ![Nvblox77](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8d08bfd7-a4ee-43cd-a613-b3f7e060910a) <br/>
+![Nvblox83](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f98431d4-01f4-45b4-9ef8-8aff819e65e3) <br/>
 
 
 
