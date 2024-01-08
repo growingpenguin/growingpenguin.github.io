@@ -52,6 +52,8 @@ https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-launch-er
 (7)Convert the .onnx model files to TensorRT engine plan files (refer to the Model Preparation section for more information) <br/>
 If using x86_64: <br/>
 ![FreespaceSegmentation8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9b7816d3-6075-48c4-92b0-4a63b19a0f9c) <br/>
+![FreespaceSegmentation14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33ec845d-1edb-4993-95e7-2a5d9a2403a4) <br/>
+ 
 (8)Run the launch file to spin up a demo of this package <br/>
 
 Error: <br/>
