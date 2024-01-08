@@ -33,6 +33,8 @@ Solution: <br/>
 isaac_ros_depth_segmentation file doesn't exist. This is the reason for the error <br/>
 ![FreespaceSegmentation4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/259bbd19-6adc-4df5-a27e-5f2dd0b50ac4) <br/>
 =>Realized I had the wrong file name, so I renamed the file to 'freespace segmentation' <br/> 
+Correct version: <br/>
+![FreespaceSegmentation10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bb68c15f-8ccb-4d3e-b15e-ebdd593f443d) <br/>
 (4)Launch the Docker container using the run_dev.sh script <br/>
 Error: <br/>
 ![FreespaceSegmentation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ae010f7-70d5-47d4-bbd4-14f92e6e7544) <br/>
