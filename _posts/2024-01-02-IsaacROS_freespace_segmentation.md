@@ -37,6 +37,7 @@ Correct version: <br/>
 ![FreespaceSegmentation10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bb68c15f-8ccb-4d3e-b15e-ebdd593f443d) <br/>
 (4)Launch the Docker container using the run_dev.sh script <br/>
 Error: <br/>
+![FreespaceSegmentation11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b817c811-4220-4c4f-89da-8ad3e69fd0b5) <br/>
 ![FreespaceSegmentation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ae010f7-70d5-47d4-bbd4-14f92e6e7544) <br/>
 Solution: (Searching for it) <br/>
 Similar Issues: <br/>
