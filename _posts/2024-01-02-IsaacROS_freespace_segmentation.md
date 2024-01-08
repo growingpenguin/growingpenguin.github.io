@@ -52,6 +52,7 @@ If using x86_64: <br/>
 ![FreespaceSegmentation14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33ec845d-1edb-4993-95e7-2a5d9a2403a4) <br/>
 ![FreespaceSegmentation15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ba5e1446-0d77-4f86-a9ac-dbc838a7392d) <br/>
 (8)Run the launch file to spin up a demo of this package <br/>
+![FreespaceSegmentation16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a7feca4-4b47-4d3d-b54a-03d800a3b889) <br/>
 
 Error: <br/>
 Solution: <br/>
