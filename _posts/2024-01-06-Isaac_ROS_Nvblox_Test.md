@@ -37,17 +37,8 @@ ROS2 <br/>
 Ubuntu 20.04 <br/>
 On Ubuntu 20.04 you will need to install humble from source <br/>
 Ensure vision_msgs_package is built from the ros2 branch. The ROS 2 Bridge in Isaac Sim depends on this package, make sure the workspace containing this package is sourced before running Isaac Sim from the same terminal  <br/>
-(3)Start the simulation by running the following command in the terminal <br/>
-
-
-
-
-
-
-
 Reference <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html  <br/>
-
 (3)Start the simulation by running the following command in the terminal <br/>
 ![Nvblox2-3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b9006c41-4da0-44bd-899c-8687635e28f4) <br/>
 (4)In another terminal, launch the Docker container using the run_dev.sh script <br/>
