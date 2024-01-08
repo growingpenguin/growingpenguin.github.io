@@ -38,7 +38,8 @@ Correct version: <br/>
 (4)Launch the Docker container using the run_dev.sh script <br/>
 Error: <br/>
 ![FreespaceSegmentation11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b817c811-4220-4c4f-89da-8ad3e69fd0b5) <br/>
-Solution: (Searching for it) <br/>
+Solution: <br/>
+https://github.com/git-lfs/git-lfs/issues/3964 <br/>
 Similar Issues: <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_map_localization/issues/19 => Not so helping.. <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/issues/104 => Someone with the same error who posted on 2023-11-30, asked whether solved the problem <br/>
@@ -55,10 +56,8 @@ If using x86_64: <br/>
 ![FreespaceSegmentation16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a7feca4-4b47-4d3d-b54a-03d800a3b889) <br/>
 Error: <br/>
 ![FreespaceSegmentation17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f76d7187-7a24-4e0d-ad6f-3b59931b7d11) <br/>
-
-Error: <br/>
-Solution: <br/>
-https://github.com/git-lfs/git-lfs/issues/3964 <br/>
+Solution: (Searching for it) <br/>
+https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-quickstart-demo-launch-file-error/278116 <br/>
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_freespace_segmentation/isaac_ros_bi3d_freespace/index.html#quickstart <br/>
