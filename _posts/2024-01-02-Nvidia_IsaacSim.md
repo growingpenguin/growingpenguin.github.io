@@ -238,6 +238,13 @@ Clang <br/>
 Configure CMake to detect and use Clang <br/>
 (2)Ensure vision_msgs_package is built from the ros2 branch. <br/>
 The ROS 2 Bridge in Isaac Sim depends on this package, make sure the workspace containing this package is sourced before running Isaac Sim from the same terminal.<br/>
+![Omniverse_IssacSim105](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/37105aa1-b773-4018-a114-b62179b3cb29) <br/>
+Navigate to the src dir <br/> 
+Clone the vision_msgs_package from the "ros2" branch <br/>
+Return to the root of your ROS 2 workspace <br/>
+Build the workspace with colcon <br/>
+![Omniverse_IssacSim106](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c152a9fa-db63-4216-9c7e-78f317a4b7af) <br/>
+Verify vision_msgs_packages are installed <br/>
 
 **Enabling the ROS Bridge Extension** <br/>
 If you intend to use a ROS2 bridge, before launching Isaac Sim, you need to set the Fast DDS middleware on all terminals that will be passing ROS2 messages <br/>
