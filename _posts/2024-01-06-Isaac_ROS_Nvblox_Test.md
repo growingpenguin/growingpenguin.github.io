@@ -30,12 +30,17 @@ The costmap can integrate data from various sensors (like LiDAR, cameras) to det
 (1)Complete the Nvblox Quickstart  <br/>
 => Already Done <br/>
 (2)Install Isaac Sim, open the Isaac Sim terminal and export the necessary environment variables as explained in steps 1-3 of the Isaac Sim Setup Guide  <br/>
-Install Isaac Sim, choosing the appropriate working environment:
+Install Isaac Sim, choosing the appropriate working environment: <br/>
 => Native, already done <br/>
 Follow the [Running Native ROS](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html) instructions to ensure that ROS 2 and the required packages are installed to successfully enable the ROS 2 Bridge in Omniverse Isaac Sim <br/>
 ROS2 <br/>
 Ubuntu 20.04 <br/>
 On Ubuntu 20.04 you will need to install humble from source <br/>
+Ubuntu(source) Humble <br/>
+Set locale <br/>
+
+
+
 Ensure vision_msgs_package is built from the ros2 branch. The ROS 2 Bridge in Isaac Sim depends on this package, make sure the workspace containing this package is sourced before running Isaac Sim from the same terminal  <br/>
 Reference <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html  <br/>
