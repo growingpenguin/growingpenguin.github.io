@@ -248,9 +248,20 @@ Verify vision_msgs_packages are installed <br/>
 
 **Enabling the ROS Bridge Extension** <br/>
 If you intend to use a ROS2 bridge, before launching Isaac Sim, you need to set the Fast DDS middleware on all terminals that will be passing ROS2 messages <br/>
-If using a Isaac Sim ROS2 workspace, a fastdds.xml file is located at the root of the <ros2_ws> folder.  <br/>
-Set the environment variable by typing export FASTRTPS_DEFAULT_PROFILES_FILE=<path_to_ros2_ws>/fastdds.xml in all the terminals that will use ROS2 functions,  <br/>
-as well as setting it under “Extra Args” when launching Isaac Sim from the NVIDIA Omniverse™ Launcher.  <br/>
+If you are not using a Isaac Sim ROS2 Workspace, create a file named fastdds.xml under ~/.ros/, paste the following snippet link into the file <br/>
+Create the fastdds.xml File <br/>
+![Omniverse_IssacSim107](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/19081ca2-8ac3-4220-924b-48aa84d926ec) <br/>
+Set the FASTRTPS_DEFAULT_PROFILES_FILE Environment Variable <br/>
+![Omniverse_IssacSim108](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c10052bd-8b9e-4b63-93df-83d64c4c346b) <br/>
+Set ROS_DOMAIN_ID (Optional) <br/>
+![Omniverse_IssacSim109](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e6c3a759-938f-4792-817c-604f106c197b) <br/>
+Source Your ROS 2 Installation and Workspace <br/>
+![Omniverse_IssacSim110](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b4dba6ff-f31c-4945-91a0-d281f0d8b9df) <br/>
+Launch Isaac Sim <br/>
+![Nvblox2-3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b9006c41-4da0-44bd-899c-8687635e28f4) <br/>
+
+Launch ROS 2 Nodes <br/>
+
 
 **Setting Up Workspaces** <br/>
 => Already done <br/>
@@ -258,7 +269,7 @@ Native ROS env: source /home/rosexpert1/ros2_humble/install/setup.bash <br/>
 Workspace1: ros2_humble <br/>
 Workspace2: 
 
-Ubuntu Humble <br/>
+Ubuntu Humble <br/>Screenshot from 2024-01-08 15-40-27
 (1)Install additional packages <br/>
 ![Omniverse_IssacSim55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/47bd9753-e071-4c03-9016-eb249df03a7d) <br/>
 (2)Ensure your native ROS2 has been sourced if not already <br/>
