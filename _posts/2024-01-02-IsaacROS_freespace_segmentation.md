@@ -43,16 +43,14 @@ Similar Issues: <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_map_localization/issues/19 => Not so helping.. <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/issues/104 => Someone with the same error who posted on 2023-11-30, asked whether solved the problem <br/>
 https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-launch-error-in-docker-container/277741 => MY question posted on the NVIDIA Forum <br/>
-
 (5)Install this package’s dependencies <br/>
 ![FreespaceSegmentation12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3947acde-1be4-48ad-8233-8c0d6039d8d6) <br/>
-
 (6)Download model files for Bi3D (refer to the Model Preparation section for more information) <br/>
 ![FreespaceSegmentation13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a561cb71-5e6b-4e11-8f95-894fbcb4ef1d) <br/>
 (7)Convert the .onnx model files to TensorRT engine plan files (refer to the Model Preparation section for more information) <br/>
 If using x86_64: <br/>
 ![FreespaceSegmentation14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33ec845d-1edb-4993-95e7-2a5d9a2403a4) <br/>
- 
+![FreespaceSegmentation15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ba5e1446-0d77-4f86-a9ac-dbc838a7392d) <br/>
 (8)Run the launch file to spin up a demo of this package <br/>
 
 Error: <br/>
