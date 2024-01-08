@@ -32,7 +32,7 @@ Solution: <br/>
 ![FreespaceSegmentation3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3faf8ef4-8903-40a5-85a9-3a7ecc24da0c) <br/>
 isaac_ros_depth_segmentation file doesn't exist. This is the reason for the error <br/>
 ![FreespaceSegmentation4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/259bbd19-6adc-4df5-a27e-5f2dd0b50ac4) <br/>
-=>I realized I had the wrong file name, so I renamed the file to 'freespace segmentation' <br/> 
+=>Realized I had the wrong file name, so I renamed the file to 'freespace segmentation' <br/> 
 (4)Launch the Docker container using the run_dev.sh script <br/>
 Error: <br/>
 ![FreespaceSegmentation5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ae010f7-70d5-47d4-bbd4-14f92e6e7544) <br/>
@@ -41,7 +41,6 @@ Similar Issues: <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_map_localization/issues/19 => Not so helping.. <br/>
 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/issues/104 => Someone with the same error who posted on 2023-11-30, asked whether solved the problem <br/>
 https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-launch-error-in-docker-container/277741 => MY question posted on the NVIDIA Forum <br/>
-
 (5)Install this package’s dependencies <br/>
 ![FreespaceSegmentation6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/482222c9-812e-4e3c-ae0a-37356aeb5fad) <br/>
 (6)Download model files for Bi3D (refer to the Model Preparation section for more information) <br/>
