@@ -70,8 +70,17 @@ Additional options for mapping scenes containing people exist. <br/>
 -While the non-human labeled part of the depth frame is still forwarded to TSDF mapping, the human labeled part is processed to an occupancy grid map. <br/>
 -To relax the assumption that occupancy grid maps only capture static objects, an occupancy decay step must be applied. At a fixed frequency, all voxel occupancy probabilities are decayed towards 0.5 over time. This means that the state of the map (occupied or free) becomes less certain after it has fallen out of the field of view, until it becomes unknown (0.5 occupancy probability) <br/>
 ![Nvblox2-1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c4066b20-fa9a-446a-a5b7-87e1666de032) <br/>
+
+(1)Before continuing this example, you must have successfully completed the [Static Reconstruction](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense.html) in Isaac Sim <br/>
+
+
+
 Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_human_reconstruction_isaac_sim.html <br/>
+
+
+
+
 
 ## [isaac_sim_dynamics_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_isaac_sim.html)
 Example to run with Isaac Sim including general dynamic reconstruction  <br/>
