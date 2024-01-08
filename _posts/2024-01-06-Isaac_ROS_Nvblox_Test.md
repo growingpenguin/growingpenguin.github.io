@@ -26,6 +26,32 @@ costmap: grid that represents a robot's environment, where each cell in the grid
 Each cell in the costmap has a value or "cost" associated with it, indicating how desirable or undesirable it is for the robot to travel over that cell <br/> 
 For example, areas with obstacles would have a high cost, making them less desirable paths, while free space would have a low cost. <br/>
 The costmap can integrate data from various sensors (like LiDAR, cameras) to determine the cost values  <br/>
+
+Error: <br/>
+2024-01-08 12:24:23 [18,263ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/Carter_ROS/chassis_link'
+2024-01-08 12:24:23 [18,263ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
+2024-01-08 12:24:23 [18,263ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/Carter_ROS/chassis_link'
+2024-01-08 12:24:23 [18,263ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/Carter_ROS/chassis_link' did not match any articulations
+
+2024-01-08 12:24:24 [18,474ms] [Warning] [omni.graph.core.plugin] /World/Carter_ROS/ActionGraph/articulation_controller: [/World/Carter_ROS/ActionGraph] OmniGraph Warning: 'NoneType' object has no attribute 'is_homogeneous'
+                   (from compute() at line 112 in /home/rosexpert1/.local/share/ov/pkg/isaac_sim-2023.1.1/exts/omni.isaac.core_nodes/omni/isaac/core_nodes/ogn/python/nodes/OgnIsaacArticulationController.py)
+2024-01-08 12:24:24 [18,475ms] [Error] [omni.graph.core.plugin] /World/Carter_ROS/ActionGraph/isaac_compute_odometry_node: [/World/Carter_ROS/ActionGraph] prim is not a valid rigid body or articulation root
+2024-01-08 12:24:24 [18,480ms] [Error] [omni.graph.core.plugin] /World/Carter_ROS/ActionGraph/isaac_read_lidar_point_cloud_node: [/World/Carter_ROS/ActionGraph] Prim is not a Lidar Prim
+2024-01-08 12:24:24 [18,812ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/Carter_ROS/chassis_link'
+2024-01-08 12:24:24 [18,812ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
+2024-01-08 12:24:24 [18,812ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/Carter_ROS/chassis_link'
+2024-01-08 12:24:24 [18,812ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/Carter_ROS/chassis_link' did not match any articulations
+
+2024-01-08 12:24:24 [18,813ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetRigidBodyPose: Invalid or expired body handle
+2024-01-08 12:24:24 [18,813ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetRigidBodyLocalLinearVelocity: Invalid or expired body handle
+2024-01-08 12:24:24 [18,813ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetRigidBodyAngularVelocity: Invalid or expired body handle
+terminate called without an active exception
+Fatal Python error: Aborted
+<br/>
+Solution: (Searching for it) <br/>
+
+
+
 ### Tutorial Walkthrough
 (1)Complete the Nvblox Quickstart  <br/>
 => Already Done <br/>
