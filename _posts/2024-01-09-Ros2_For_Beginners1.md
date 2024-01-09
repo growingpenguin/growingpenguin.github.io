@@ -96,6 +96,9 @@ sudo apt update: Download new sources and check what packages you need to instal
 ![Ros2_For_Beginners26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/764ecf0f-bcf8-4e61-9988-b13ad26425f4)<br/>
 Launch terminal > Enter sudo apt upgrade: Need to download stuff and install stuff  <br/>
 Put Y + Enter <br/>
+![Ros2_For_Beginners27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/75ce4cec-6ca8-449d-a450-deeeab683a6b)<br/>
+sudo apt auto remove:  <br/> 
+Remove packages that you don't need anymore (Have stuff we don't need) <br/>
 
 
 -Even if ubuntu is installed, not everything will be updated <br/>
