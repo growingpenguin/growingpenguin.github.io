@@ -4,7 +4,7 @@ title:  "Assignment: 3rd Week - Isaac Sim Environmental Setup"
 ---
 
 # Introductory 
-## Isaac Sim Environmental Setup 
+## [Isaac Sim Environmental Setup](https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_intro_environment_setup.html#isaac-sim-app-tutorial-intro-environment-setup) 
 Omniverse Isaac Sim is built on NVIDIA Omniverse using tools provided in Omniverse Kit. <br/>
 Omniverse Kit comes with a default UI that allows the user to edit a USD stage with ease.  <br/>
 Tutorial Introduction <br/>
