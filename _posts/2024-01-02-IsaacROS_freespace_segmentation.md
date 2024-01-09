@@ -58,6 +58,18 @@ Error: <br/>
 ![FreespaceSegmentation17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f76d7187-7a24-4e0d-ad6f-3b59931b7d11) <br/>
 Solution: (Searching for it) <br/>
 https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-quickstart-demo-launch-file-error/278116 <br/>
+(9)Open a second terminal inside the Docker container <br/>
+![FreespaceSegmentation20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/beee0269-c6af-432e-8fb1-a7e59d76bd8b) <br/>
+(10)Visualize the occupancy grid in RViz <br/>
+![FreespaceSegmentation18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bddbec4e-ad94-4789-ac9b-8d52d011fc47) <br/>
+In the left pane, change Fixed Frame to base_link <br/>
+![FreespaceSegmentation19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ba7443ce-2844-4d96-a9f2-3cd9321104b2) <br/>
+In the left pane, click the Add button, then select By topic followed by Map to add the occupancy grid <br/>
+Click Add > Select By Topic > Map <br/>
+![FreespaceSegmentation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/da782996-9906-4071-a643-aa0c92cbd7aa)
+
+
+
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_freespace_segmentation/isaac_ros_bi3d_freespace/index.html#quickstart <br/>
