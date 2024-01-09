@@ -80,5 +80,26 @@ Type in username, host name, and password <br/>
 Choose level of security for vm <br/>
 (3)-21 Download stuff and install <br/>
 ![Ros2_For_Beginners21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/46d353c6-4b2d-4019-a022-64d63dcd9f5d) <br/>
+(3)-22 Restart  <br/>
+![Ros2_For_Beginners22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ad045e1c-bd92-46c9-9d81-c3392225c327)
+Restart > Click on Enter <br/>
+(3)-23 Inital Pop up  <br/>
+Click next or skip <br/>
+(3)-24 Update the software <br/>
+Commands that will update your software frequently <br/>
+![Ros2_For_Beginners23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dd0f42af-7d71-46b6-a760-445a894d9f6b)<br/>
+![Ros2_For_Beginners24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/68e8836e-8e6c-4daf-b953-e6f400c63b85)<br/>
+Launch terminal > Enter sudo apt update <br/>
+sudo apt update: Download new sources and check what packages you need to install here <br/>
+179 packages can be upgraded: My system is really not up to date <br/>
+![Ros2_For_Beginners25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/61468e64-86f1-4fa1-b221-6ffa57316695)<br/>
+![Ros2_For_Beginners26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/764ecf0f-bcf8-4e61-9988-b13ad26425f4)<br/>
+Launch terminal > Enter sudo apt upgrade: Need to download stuff and install stuff  <br/>
+Put Y + Enter <br/>
+
+
+-Even if ubuntu is installed, not everything will be updated <br/>
+
+(3)-25 Update the software <br/>
 
 Reference: <br/>
