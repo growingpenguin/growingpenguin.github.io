@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment: 2nd Week - Isaac_Sim Basic Exploration"
+title:  "Assignment: 2nd Week - Isaac Sim Interface Exploration"
 ---
 
 # Introductory 
