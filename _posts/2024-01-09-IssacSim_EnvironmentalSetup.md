@@ -90,5 +90,7 @@ Property tab > Set Main->Intensity to 300(To make the spotlight easier) <br/>
 Begins the series of steps to create a virtual world suitable for physics simulation and testing Omniverse Isaac Sim  <br/>
 Adding a ground plane, lighting, and physics scene <br/>
 
+Reference: <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_intro_environment_setup.html#isaac-sim-app-tutorial-intro-environment-setup  <br/>
 
 
