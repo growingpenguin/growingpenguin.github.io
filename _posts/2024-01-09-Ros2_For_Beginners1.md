@@ -104,11 +104,31 @@ Remove packages that you don't need anymore (Have stuff we don't need) <br/>
 Launch terminal > Enter sudo apt update <br/>
 Update the sources <br/>
 ![Ros2_For_Beginners29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8c68a3eb-3a66-4ab5-8630-065c61520969)<br/>
-![Ros2_For_Beginners30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d2f4331-c874-43a0-9d86-6193f4415b21)
+![Ros2_For_Beginners30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d2f4331-c874-43a0-9d86-6193f4415b21)<br/>
 Install a few packages <br/>
 Enter Y <br/>
-=> Downloaded all new softwares
-
-(3)-25 Update the software <br/>
+=> Downloaded all new softwares <br/>
+![Ros2_For_Beginners32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1c8ea76c-3945-4bb9-b568-6c8be35df7eb)<br/>
+Go to 장치 > Click on 게스트 확장 CD 삽입 <br/>
+![Ros2_For_Beginners33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/71e94ac3-d1c9-4dba-86bd-1d78d0cc01bf)<br/>
+CD appears <br/>
+![Ros2_For_Beginners34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ba04c5cb-7339-4080-983b-b7e165b36e32)<br/>
+Click on CD > Open File manager  <br/>
+![Ros2_For_Beginners35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9dd92186-098b-4640-85d5-809db0e867b0)<br/>
+![Ros2_For_Beginners36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e9ab365-3bc7-46bd-ab2f-ef7a14cb45c2)
+Right click on this > Click on Open in terminal: Make you directly go where the cd has been mounted recently <br/>
+![Ros2_For_Beginners38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea9f73ff-04ae-4ef8-9f73-a6dae712c664<br/>
+See files and everything you have  <br/>
+Need to run VBoxLinuxAdditions.run <br/>
+![Ros2_For_Beginners39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c3055da0-0fd3-4f39-a202-623b0d431dc5)<br/>
+![Ros2_For_Beginners40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e193ed47-010a-498a-888a-0955b8edb75c)<br/>
+Install additional modules  <br/>
+Modules not replaced unless system is restarted <br/>
+![Ros2_For_Beginners41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5d9aabe4-559e-4425-a650-c7eb2639f8fa)<br/>
+파일 > 닫기 > 시스템 전원 끄기(P) <br/>
+![Ros2_For_Beginners12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/af2a90ef-47a1-4989-9e47-8e22af079105)<br/>
+Click the 시작(T) button <br/>
+=> If it doesn't work, try multiple times <br/>
 
 Reference: <br/>
+Udemy ROS2 For Beginners (ROS Foxy, Humble - 2023) <br/>
