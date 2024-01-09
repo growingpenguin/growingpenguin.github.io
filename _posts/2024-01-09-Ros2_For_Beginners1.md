@@ -91,6 +91,7 @@ Commands that will update your software frequently <br/>
 ![Ros2_For_Beginners24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/68e8836e-8e6c-4daf-b953-e6f400c63b85)<br/>
 Launch terminal > Enter sudo apt update <br/>
 sudo apt update: Download new sources and check what packages you need to install here <br/>
+-Even if ubuntu is installed, not everything will be updated <br/>
 179 packages can be upgraded: My system is really not up to date <br/>
 ![Ros2_For_Beginners25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/61468e64-86f1-4fa1-b221-6ffa57316695)<br/>
 ![Ros2_For_Beginners26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/764ecf0f-bcf8-4e61-9988-b13ad26425f4)<br/>
@@ -99,9 +100,14 @@ Put Y + Enter <br/>
 ![Ros2_For_Beginners27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/75ce4cec-6ca8-449d-a450-deeeab683a6b)<br/>
 sudo apt auto remove:  <br/> 
 Remove packages that you don't need anymore (Have stuff we don't need) <br/>
-
-
--Even if ubuntu is installed, not everything will be updated <br/>
+![Ros2_For_Beginners28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d7b57d8a-ddc8-4f48-954d-49437c3b94a3)<br/>
+Launch terminal > Enter sudo apt update <br/>
+Update the sources <br/>
+![Ros2_For_Beginners29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8c68a3eb-3a66-4ab5-8630-065c61520969)<br/>
+![Ros2_For_Beginners30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d2f4331-c874-43a0-9d86-6193f4415b21)
+Install a few packages <br/>
+Enter Y <br/>
+=> Downloaded all new softwares
 
 (3)-25 Update the software <br/>
 
