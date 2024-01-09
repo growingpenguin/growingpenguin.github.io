@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/67e39eac-3b4b-40f8-bc03-2d2a8b486db2)---
+---
 layout: post
 title:  "Ros2 For Beginners - Ros2 Installation & Environment Setup"
 ---
