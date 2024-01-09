@@ -23,8 +23,11 @@ This package is powered by NVIDIA Isaac Transport for ROS (NITROS), which levera
 (1)Set up your development environment <br/>
 Already Done <br/>
 (2)Clone isaac_ros_common and this repository under ${ISAAC_ROS_WS}/src  <br/>
-![FreespaceSegmentation9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/61bc70eb-c569-4da9-b5f0-0126d05c5d7b)   <br/>
+![FreespaceSegmentation9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/61bc70eb-c569-4da9-b5f0-0126d05c5d7b) <br/>
 Already Done <br/>
+Clone isaac_ros_depth_segmentation repository (Thanks NVIDA) <br/>
+![FreespaceSegmentation22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2aa54d86-73df-4571-bd46-adf0762bfacc) <br/>
+
 (3)Pull down a rosbag of sample data  <br/>
 Error: <br/>
 ![FreespaceSegmentation2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dc3cdef3-f657-4720-970f-e2c3919951c7) <br/>
@@ -32,9 +35,11 @@ Solution: <br/>
 ![FreespaceSegmentation3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3faf8ef4-8903-40a5-85a9-3a7ecc24da0c) <br/>
 isaac_ros_depth_segmentation file doesn't exist. This is the reason for the error <br/>
 ![FreespaceSegmentation4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/259bbd19-6adc-4df5-a27e-5f2dd0b50ac4) <br/>
-=>Realized I had the wrong file name, so I renamed the file to 'freespace segmentation' <br/> 
+=>Realized I had the wrong file name, so I went back to step2 and cloned an additional repository called isaac_ros_depth_segmentation <br/> 
 Correct version: <br/>
 ![FreespaceSegmentation10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bb68c15f-8ccb-4d3e-b15e-ebdd593f443d) <br/>
+
+
 (4)Launch the Docker container using the run_dev.sh script <br/>
 Error: <br/>
 ![FreespaceSegmentation11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b817c811-4220-4c4f-89da-8ad3e69fd0b5) <br/>
