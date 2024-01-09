@@ -60,15 +60,25 @@ Click the 시작(T) button <br/>
 ![Ros2_For_Beginners14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4ef68a75-58e9-4b4b-8df4-a5ca1f998750) <br/>
 Now ubuntu iso is on vm <br/>
 Choose you language > Click Install Ubuntu <br/>
-(3)-15 Install Ubuntu on vm <br/>
-
-
-Choose you language > Click Install Ubuntu <br/>
-
-
-
-
-
-
+(3)-15 Choose keyboard layout <br/>
+![Ros2_For_Beginners15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a92f3fb1-bfef-4922-a8c5-d10ccb7faf8b) <br/>
+Normal QWERTY board, that's English use <br/>
+(3)-16 Choose Updates or other softwares configuration <br/>
+![Ros2_For_Beginners16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/44ad74a5-0130-40b1-ae0a-84fba7487591) <br/>
+(3)-17 Choose Installation type configuration <br/>
+![Ros2_For_Beginners17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/59c3c7e7-d507-48ad-ba58-744f6b8070dd) <br/>
+Choose Erase disk and install Ubuntu > Click on install now <br/>
+-No need to be afraid of erase disk thing. The created virtual disk is the only thing being erased. It is irrelevant with deleting the os installed in your computer <br/>
+(3)-18 Recap on what is being installed <br/>
+![Ros2_For_Beginners18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f59d5b90-4261-48d4-abab-9c7ed895d244) <br/>
+Click on Continue <br/>
+(3)-19 Choose timezone <br/>
+![Ros2_For_Beginners19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bd62a536-6dab-402d-81b8-a4a4df8f98c1) <br/>
+(3)-20 Choose username <br/>
+![Ros2_For_Beginners20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/81e38fe3-3655-4f45-b1dc-88e0b7ac8aef) <br/>
+Type in username, host name, and password <br/>
+Choose level of security for vm <br/>
+(3)-21 Download stuff and install <br/>
+![Ros2_For_Beginners21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/46d353c6-4b2d-4019-a022-64d63dcd9f5d) <br/>
 
 Reference: <br/>
