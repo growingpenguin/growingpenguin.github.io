@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a0219662-df82-4add-970d-e61aefb620ff)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a598d64-99bd-4be8-b531-8dc1761d1d53)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a0219662-df82-4add-970d-e61aefb620ff)---
 layout: post
 title:  "Assignment: 3rd Week - Isaac Sim Add Simple Objects"
 ---
@@ -64,10 +64,74 @@ In the Property tab > Click on the + Add button <br/>
 ![Omniverse_IssacSim135](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a74228b9-eedb-4446-a596-49a259a9750b) <br/>
 Select Physics > Rigid Body with Colliders Preset  <br/>
 (4)Press Play, and all three objects should now fall to the ground <br/>
-![Omniverse_IssacSim136](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d303f686-6182-4cc8-9fab-efe956be9419) <br/>
+![Omniverse_IssacSim138](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f15d3a19-9952-4fae-9803-e239f657bacd) <br/>
+Rigid Body with Colliders Preset”: Automatically add both Rigid Body API and Collision API to the objects <br/>
+These two APIs can be applied separately <br/>
+Can have objects that have mass and are affected by gravity but have no collision properties, so you can pass right through them <br/>
+Can have objects you can run into but hang in the air and are not affected by gravity <br/>
+Check which APIs the selected object has <br/>
+![Omniverse_IssacSim139](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dd3954f7-407d-4544-973a-befe3ceddb45) <br/>
+Go to its Property tab > Scroll down to find sections labeled Rigid Body and Collider <br/>
+![Omniverse_IssacSim140](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4c17c4dd-bacb-4b7e-bded-abe8bf6e4f1d) <br/>
+Add the APIs separately (Under the same + Add button) <br/>
+![Omniverse_IssacSim141](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7202b1c2-65cd-4761-aca1-b14ecb0efae8) <br/>
+Remove APIs (Click on the X to delete the section) <br/>
 
+### Examine Collision Meshes
+Need to visually examine the collision meshes for the objects <br/>
+See the outlines of the collision meshes  <br/>
+![Omniverse_IssacSim142](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/73c5dd78-3b23-4339-ab02-f94c62578434) <br/>
+Find the eye icon on top of the viewport > Click Show By Type > Physics > Colliders > All <br/> 
+![Omniverse_IssacSim143](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6fbf2873-da08-4a51-bd6a-d5708ca8a612) <br/> 
+Purple outlines should show up surrounding any objects that have collision APIs applied <br/> 
+Objects: cuboid, the cylinders, and the ground plane <br/>
 
+### Adding Contact and Friction Parameters
+Modify frictional properties
+(1)First create a different physics material and then assign it to the desired object <br/>
+![Omniverse_IssacSim144](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ee107057-63b0-4dec-8afa-3fb540e79264) <br/>
+Go to the Menu Bar <br/>
+Click Create > Physics > Physics Material <br/>
+Select Rigid Body Material in the popup box <br/>
+![Omniverse_IssacSim145](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2bddb23a-2cb9-4fe1-a5b6-e9038b31ef37) <br/>
+->New PhysicsMaterial will appear on the stage tree  <br/>
 
+### Material Properties
+Objects may reflect the color of the spotlight we’ve added earlier, but it doesn’t actually have any colors assigned <br/> 
+Confirm it by turning off the spotlight <br/>
+Change the color of the object <br/>
+(1)Create a different material and then assign it to the objects, just like with the physics materials <br/> 
+Create two, one for the body of the car and one for the wheels <br/>
+![Omniverse_IssacSim146](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c062dba7-2aa1-45c9-8da4-2e6a4086b824) <br/>
+Click Create > Materials > OmniPBR twice <br/>
+(2)Rename materials <br/>
+![Omniverse_IssacSim147](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f565a18f-110f-4257-8942-06f2e58504c4) <br/>
+Right-click on the newly added materials on the stage tree > Rename them to body and wheel <br/>
+Assign the corresponding rigid bodies to the newly created materials <br/>
+![Omniverse_IssacSim148](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eb31007f-b5bd-4b25-aa52-de2a605c171b) <br/>
+Go to the Materials on selected models item in its Property tab > Select the matching material from the dropdown box <br/>
+![Omniverse_IssacSim149](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3ae81a82-603a-4122-8337-c519580214a5) <br/>
+cube <br/>
+![Omniverse_IssacSim152](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/18fdc5c0-ea69-4dc1-b2cc-602a50b554da) <br/>
+cylinder & cylinder01 <br/>
+![Omniverse_IssacSim153](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/757949a4-880f-490f-a378-504ecb754ea8) <br/>
+Change the property of the new materials <br/>
+Select one of them on the stage tree <br/>
+body <br/>
+![Omniverse_IssacSim150](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bc5d81d1-ff85-4246-9d84-93589c7d0f83) <br/>
+wheel <br/>
+![Omniverse_IssacSim151](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ba0f7dcb-d9ce-4843-b6b4-e9c1205d193d) <br/>
+Change its base color in Material and Shader/Albedo and play with its reflectivity roughness and whatever else you find interesting <br/>
+You should see the color of the corresponding parts on the car change accordingly <br/>
+
+### Summary
+Explained how to add and manipulate object properties in the GUI <br/>
+Topics Covered <br/>
+(1)Adding primitive shapes onto the Stage <br/>
+(2)Editing material properties, physics properties, and collision properties <br/>
+
+Reference: <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_intro_simple_objects.html#isaac-sim-app-tutorial-intro-simple-objects <br/>
 
 
     
