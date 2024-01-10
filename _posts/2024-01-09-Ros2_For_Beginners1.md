@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/142d9f29-290a-4c9f-a377-3a26445074e9)---
 layout: post
 title:  "Ros2 For Beginners - Ros2 Installation & Environment Setup"
 ---
@@ -161,10 +161,35 @@ Ensure Ubuntu repository is enabled <br/>
 Add the ros2 GPG key with apt <br/>
 ![Ros2_For_Beginners52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c982a228-7c40-4eb8-9000-a734887fbaa0)<br/>
 Add repository to sources list <br/>
-
-# Install Ros2 
+(2)Install Ros2 
 ![Ros2_For_Beginners53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d2a32263-1f1c-456c-8fa8-a3e84e224f68)<br/>
 Update your apt repository caches after setting up the repositories <br/>
+ROS 2 packages are built on frequently updated Ubuntu systems. It is always recommended that you ensure your system is up to date before installing new packages. <br/>
+packages.ros.org somewhere, you have the correct sources <br/>
+![Ros2_For_Beginners54](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4bf8210e-b1fe-46e4-a98c-db32f151c43d)<br/>
+Upgrade whatever packages you need to upgrade <br/>
+ROS2 Installation <br/>
+Desktop <br/>
+![Ros2_For_Beginners55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/992269bf-d5e1-4a22-8355-616d932ad212)<br/>
+rose-base: Install collection of packages that make bare-bones & A lot of additional tools top<br/>
+
+# Setup your Environment for Ros2
+(1)See the Ros2 Humble folder <br/>
+![Ros2_For_Beginners56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5f832374-3336-400b-9b09-0a0fc644d10e)<br/>
+(2)Source bash script <br/>
+![Ros2_For_Beginners57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d61fcad1-62e0-4c13-8b67-1bf85b31eb64)<br/>
+Once sourced, you can use Ros2 in this terminal in this session <br/>
+If not sourced, you will not be able to use Ros2. <br/>
+![Ros2_For_Beginners58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/69ea615d-b610-43f7-b424-e01d8a5e1cbd)<br/>
+So when opening new terminal, in order to use Ros2, I will still need to source it again <br/>
+(3)How to avoid sourcing bash script every time <br/>
+Problem: Annoying to always source a script every time we open terminal <br/>
+Solution: Open home directory and so you can open the bashrc <br/>
+![Ros2_For_Beginners59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ce146633-c88f-454a-8f65-1bcc12a5470d)<br/>
+![Ros2_For_Beginners60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d543acc7-74ab-4a92-8b78-06db75a3edb3)<br/>
+At the end of the bash, add a new line source /opt/ros/humble/setup.bash <br/>
+Open a new window, bashrc will be solved and it will also source the setup.bash script from the global ros2 installtion folder <br/>
+
 
 
 
