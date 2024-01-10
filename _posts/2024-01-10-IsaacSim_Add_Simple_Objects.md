@@ -40,6 +40,7 @@ Fix the translation (Transform > translate) of the cuboid at (0, 0, 1), and the 
 ![Omniverse_IssacSim128](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f4d2ef39-b64c-40f6-a491-a22344686514)  <br/> 
 Add a cylinder to the stage <br/> 
 Click Create > Mesh > Cylinder <br/>
+![Omniverse_IssacSim137](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f855733a-86ed-41c4-bb97-75483f90b378) <br/> 
 Change its Geometry > Radius to 0.5, and Geometry > Height to 1.0 <br/>
 ![Omniverse_IssacSim130](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6ae1c1ed-32cc-48b7-a0e8-d5160717aa33)  <br/>
 Place it at y = 1.5 and z = 1.0, and rotate it around the x-axis by 90 degrees <br/>
@@ -54,14 +55,20 @@ Objects added first are only visual objects, with no physics or collision proper
 Problem: Simulation is started by pressing Play and gravity is applied. But if started, objects do not move <br/> 
 Why?: They are unaffected by physics <br/>
 Solution: Turn them into rigid bodies with collision properties, as a robot should be <br/>
-(1)
-Select the Cube and both Cylinders on the stage tree by clicking while holding down the Ctrl + Shift key to select each object, or just Shift if they are consecutively listed on the tree <br/>
+(1)Test by playing Play <br/>
 ![Omniverse_IssacSim133](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/df372208-2281-4e0f-9d55-70ec72b41b09) <br/> 
-
+(2)Select the Cube and both Cylinders on the stage tree by clicking while holding down the Ctrl + Shift key to select each object, or just Shift if they are consecutively listed on the tree <br/>
 ![Omniverse_IssacSim134](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e68c9f52-48af-401c-9375-0feb0f5d2677) <br/> 
+(3)Add physics <br/>
+In the Property tab > Click on the + Add button <br/>
+![Omniverse_IssacSim135](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a74228b9-eedb-4446-a596-49a259a9750b) <br/>
+Select Physics > Rigid Body with Colliders Preset  <br/>
+(4)Press Play, and all three objects should now fall to the ground <br/>
+![Omniverse_IssacSim136](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d303f686-6182-4cc8-9fab-efe956be9419) <br/>
+
+
+
+
 
     
-    In the Property tab, click on the + Add button, and select Physics > Rigid Body with Colliders Preset.
-
-    Press Play, and all three objects should now fall to the ground.
 
