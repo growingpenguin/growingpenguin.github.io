@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a598d64-99bd-4be8-b531-8dc1761d1d53)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a0219662-df82-4add-970d-e61aefb620ff)---
+---
 layout: post
 title:  "Assignment: 3rd Week - Isaac Sim Add Simple Objects"
 ---
