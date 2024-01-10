@@ -130,5 +130,43 @@ Modules not replaced unless system is restarted <br/>
 Click the 시작(T) button <br/>
 => If it doesn't work, try multiple times <br/>
 
+# Programming Tools 
+Terminator: Improved terminal where screen can be splitted and can have multiple terminals <br/>
+-Can split into any wanted layout <br/>
+![Ros2_For_Beginners42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2348c81a-1946-4afe-adca-e76dc16015aa)<br/>
+-Ctrl+Shift+O: Split terminals horizontally <br/>
+-Ctrl+Shift+E: Splite terminals vertically <br/>
+Visual Studio Code: Main IDE <br/>
+Install in ubuntu software <br/>
+Installed Extensions <br/>
+![Ros2_For_Beginners45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cb99ead7-be21-48e7-b0fa-f49ca826433a)  <br/>
+CMake: Edit cmake files. Cmake language support when writing files <br/>
+Install python3 pip: <br/>
+![Ros2_For_Beginners46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4067fa8d-e126-468e-af61-2564c9c92e4c)<br/>
+-Press Ctrl+Shift+I: When editing python file, use auto-formatting <br/>
+gedit:<br/>
+![Ros2_For_Beginners47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/53284dce-9daf-481e-b1c9-3381e8602307)<br/>
+The most basic text editor, need to install a very simple document <br/>
+
+# Install ROS2 Humble on Ubuntu 22.04
+(1)Set locale <br/>
+![Ros2_For_Beginners48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/222844ae-4a14-4aac-b56a-3636a5f0e57f)<br/>
+Check whether we are in the right location(UTF-8) <br/>
+![Ros2_For_Beginners49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1146f8a5-eb28-4e8f-90ac-c95ca6e88038)<br/>
+Just in case <br/>
+(2)Setup Sources <br/>
+![Ros2_For_Beginners50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/30f8d049-6328-42e2-9692-ad3638184c8f)<br/>
+Ensure Ubuntu repository is enabled <br/>
+![Ros2_For_Beginners51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/daa9a516-91de-4c50-ab88-dc51f82c5df7)<br/>
+Add the ros2 GPG key with apt <br/>
+![Ros2_For_Beginners52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c982a228-7c40-4eb8-9000-a734887fbaa0)<br/>
+Add repository to sources list <br/>
+
+# Install Ros2 
+![Ros2_For_Beginners53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d2a32263-1f1c-456c-8fa8-a3e84e224f68)<br/>
+Update your apt repository caches after setting up the repositories <br/>
+
+
+
 Reference: <br/>
 Udemy ROS2 For Beginners (ROS Foxy, Humble - 2023) <br/>
