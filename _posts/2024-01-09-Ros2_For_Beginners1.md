@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/142d9f29-290a-4c9f-a377-3a26445074e9)---
+---
 layout: post
 title:  "Ros2 For Beginners - Ros2 Installation & Environment Setup"
 ---
@@ -189,6 +189,21 @@ Solution: Open home directory and so you can open the bashrc <br/>
 ![Ros2_For_Beginners60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d543acc7-74ab-4a92-8b78-06db75a3edb3)<br/>
 At the end of the bash, add a new line source /opt/ros/humble/setup.bash <br/>
 Open a new window, bashrc will be solved and it will also source the setup.bash script from the global ros2 installtion folder <br/>
+
+# Launch a ros2 program
+(1)Check whether it is sourced properly in ros2 script <br/>
+![Ros2_For_Beginners51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/58268f18-1acf-4359-920f-643dddb77f40)<br/>
+Ros2 installation complete & Environment sourced properly <br/>
+(2)Launching talker and listener program from the demo nodes cpp package <br/>
+![Ros2_For_Beginners52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/850dc443-ca6e-4421-998f-a0b6f3d75d6a)<br/>
+![Ros2_For_Beginners53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2d8a203d-6814-424b-841b-70a6e56b7a78)<br/>
+-Two programs are linked <br/>
+-Listener will listen to the talker and print the messages that were published by the program here <br/>
+-Ctrl+c: Kill the program <br/>
+![Ros2_For_Beginners55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/885ba4e6-eab9-4eac-9a3f-9a81e224316c)<br/>
+Kill the program by entering Ctrl+c and restart by entering the command again <br/>
+![Ros2_For_Beginners56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3583ee8b-91b9-4372-8b75-55cd1a5487cc)<br/>
+No new messages > Again messages from the talker <br/> 
 
 
 
