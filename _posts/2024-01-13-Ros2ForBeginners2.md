@@ -107,4 +107,7 @@ If wanting to add a new dependency for your C++ pkg, you need to add it in packa
 ![Ros2_For_Beginners2-22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/04f10de3-54da-4b51-aecc-311adea00015)<br/>
 (5)Build a particular package <br/>
 ![Ros2_For_Beginners2-23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8955f9a1-b4d8-40b0-837b-70f7e2ce66ae)<br/>
+Only build cpp package <br/>
+(6)Ready to write your first node inside the packages <br/>
+
 
