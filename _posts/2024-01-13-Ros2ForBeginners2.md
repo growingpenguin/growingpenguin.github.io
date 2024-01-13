@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/52d58edf-d97b-414f-a8f8-13c9bcfa14a4)---
+---
 layout: post
 title:  "Ros2 For Beginners - Write your first Ros2 program"
 ---
