@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3bf73201-94e7-4dc5-8eb9-ed88b24b31a2)---
 layout: post
 title:  "Ros2 For Beginners - Write your first Ros2 program"
 ---
@@ -31,7 +31,7 @@ Source setup.bash <br/>
 -Can be sure own Ros2 functionalities can be used <br/>
 -Can be sure use my own functionalities added in the workspace <br/>
 
-## Create a python package
+## Create a Python package
 To create a Ros2 node, a package is needed <br/>
 Packages are allowed to seperate your code into reusable blocks <br/>
 Each package is an independent unit <br/>
@@ -80,5 +80,31 @@ Error resolved: <br/>
 colcon build --packages-select <package name>: Build/Compile a certain package <br/>
 (5)Python package is ready to host any Python node <br/>
 
-
+## Create a C++ package
+(1)Navigate src folder <br/>
+![Ros2_For_Beginners2-18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/de7c7707-8acf-42a6-822e-eb6f8f18e008) <br/>
+my_py_pkg, python package exists <br/>
+my_py_pkg exists <br/>
+(2)Create C++ package <br/>
+![Ros2_For_Beginners2-19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eae4d0c9-ea9b-4980-b045-024178ec7de1)<br/>
+pkg create my_cpp_pkg: Where we put all our C++ code <br/>
+--build-type ament_cmake: Will create a C++ pkg <br/>
+--dependencies rclcpp: Add dependency rclcpp <br/>
+rclpy for python and rclcpp for C++, which allows you to use all the ros2 functionalities <br/>
+![Ros2_For_Beginners2-20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c4a7b5fb-db05-449d-8449-93e35c5dfca9)<br/>
+New packages made <br/>
+(3)See what's in the src folder <br/>
+![Ros2_For_Beginners2-21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8297201e-2971-4665-952d-f5afeb941feb)<br/>
+package.xml: C++ or Python package will contain a package.xml file <br/>
+-First is the informations <br/>
+Next, dependencies, rclcpp library specified when creating the pkg <br/>
+-When wanting to create another dependency, add another dependency tag below that one <br/>
+Last, ament_cmake build type flag for the pkg <br/>
+CMakelists.txt: Where the code is compiled <br/>
+We also have the dependency for rclcpp <br/>
+If wanting to add a new dependency for your C++ pkg, you need to add it in packages.xml and CMakeLists.txt <br/>
+(4)Building workspace <br/>
+![Ros2_For_Beginners2-22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/04f10de3-54da-4b51-aecc-311adea00015)<br/>
+(5)Build a particular package <br/>
+![Ros2_For_Beginners2-23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8955f9a1-b4d8-40b0-837b-70f7e2ce66ae)<br/>
 
