@@ -61,8 +61,17 @@ If using x86_64: <br/>
 ![FreespaceSegmentation16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a7feca4-4b47-4d3d-b54a-03d800a3b889) <br/>
 Error: <br/>
 ![FreespaceSegmentation17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f76d7187-7a24-4e0d-ad6f-3b59931b7d11) <br/>
-Solution: (Searching for it) <br/>
+Solution: <br/>
 https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-quickstart-demo-launch-file-error/278116 <br/>
+Corrected Version <br/>
+![FreespaceSegmentation25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f29e5eb5-bcc6-4384-a4e0-403f7b05670a) <br/>
+Install image pipeline <br/>
+![FreespaceSegmentation27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e6a42de7-a25d-4eec-b029-53338362b3e4) <br/>
+![FreespaceSegmentation28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d6244f8f-a4f0-410c-b67a-81a94ccb8023) <br/>
+Build Packages <br/>
+![FreespaceSegmentation29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0e54a4d7-79ec-4985-b14e-312c44e245ba) <br/>
+Run the Demo <br/>
+
 (9)Open a second terminal inside the Docker container <br/>
 ![FreespaceSegmentation20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/beee0269-c6af-432e-8fb1-a7e59d76bd8b) <br/>
 (10)Visualize the occupancy grid in RViz <br/>
@@ -74,7 +83,6 @@ Click Add > Select By Topic > Map <br/>
 ![FreespaceSegmentation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/da782996-9906-4071-a643-aa0c92cbd7aa)
 
 
-![FreespaceSegmentation27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e6a42de7-a25d-4eec-b029-53338362b3e4)
 
 
 Reference: <br/>
