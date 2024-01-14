@@ -110,4 +110,42 @@ If wanting to add a new dependency for your C++ pkg, you need to add it in packa
 Only build cpp package <br/>
 (6)Ready to write your first node inside the packages <br/>
 
+## What is a Ros2 Node?
+Node: sub-part of your application and should have a single purpose <br/>
+-Applications will contain many nodes which will be put into packages <br/>
+-Nodes will communicate with each other <br/>
+-Real life example <br/>
+package: independent unit of your application <br/>
+-Empty package will not do anything <br/>
+-Nodes will be created inside the packages <br/>
+Camera pkg: <br/>
+Handle a camera as an independent unit <br/>
+Camera driver: Driver for the camera to be able to program it and get frames from it <br/>
+Image processing: Program that will take those frames and do some image processing work <br/>
+Additional program: Any other program related to the camera we are using <br/>
+-All those programs in blue are nodes <br/>
+-Each node can be launched seperately <br/>
+-Launch the driver and then image processing node <br/>
+-Nodes will communicate using ros2 communication functionalities <br/>
+-camera pkg is filled with all the nodes we need <br/>
+-sometimes it can be quite hard to know if you should put two nodes in the same pkg or not <br/>
+ex.Image processing node could be part of the other pkg which only handles image processing for any camera <br/>
+-Many other processing nodes can be added and this new pkg will communicate with any other camera pkg which includes drivers <br/>
+=> In this example, image processing is specific to the camera we're talking about and both drivers and image processing nodes are using some common dependencies <br/>
+Motion planning pkg: <br/>
+Motion planning node: Compute motion planning for your robot <br/>
+Path correction node: Modify the motion planning due to external factors <br/>
+-Can make two nodes inside different packages communicate together <br/>
+ex.Can link image processing node to the path correction node <br/>
+Hardware Control pkg: Has an independent unit which will control the hardware of the robot that can be wheels, robotic arm joint, or anything else <br/>
+Drivers: Control motors <br/>
+Main Control Loop Node: Drivers are controlled by the main control loop node <br/>
+State Publisher Node: Position data which is coming back from the motor encoders is sent back to the control loop for precise control and is also published by the state publisher node <br/>
+Process: <br/>
+(1)Analyze frames coming from the camera and send an analysis of the environment to the path correction node <br/>
+(2)Path correction node will be able to notify the motion planning node  <br/>
+(3)Motion planning node from the motion planning pkg will send computed trajectories to the main control loop node inside the hardware control pkg <br/>
+(4)Hardware status of the robot is published in both the motion planning node and path correction node are getting those messages <br/> 
+
+
 
