@@ -62,6 +62,7 @@ If using x86_64: <br/>
 Error: <br/>
 ![FreespaceSegmentation17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f76d7187-7a24-4e0d-ad6f-3b59931b7d11) <br/>
 Solution: <br/>
+![FreespaceSegmentation35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bf5fa64a-8a14-473e-a6c9-553a3bc2b07d) <br/>
 https://forums.developer.nvidia.com/t/isaac-ros-freespace-segmentation-quickstart-demo-launch-file-error/278116 <br/>
 Corrected Version <br/>
 ![FreespaceSegmentation25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f29e5eb5-bcc6-4384-a4e0-403f7b05670a) <br/>
