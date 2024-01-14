@@ -199,46 +199,51 @@ Running Native ROS <br/>
 The ROS_DISTRO env variable is used to determine if ROS 2 is sourced and which distro to use, if this variable is not set an internal ROS 2 distro build will be used. Message definitions can be different between ROS 2 versions, due to this, we dynamically load the appropriate ROS 2 backend depending on which ROS Distro is sourced. <br/>
 (1)Download ROS 2 following the instructions on the official website <br/>
 https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html <br/>
-(1)-1 System Requirements <br/>
-Tier 3: Ubuntu Linux - Focal (20.04) 64-bit <br/>
+(1)-1 Resources <br/>
+ROS 2 Foxy (Ubuntu Focal): amd64, arm64 <br/>
 (1)-2 System setup <br/>
 Set locale <br/>
-![Omniverse_IssacSim30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/43fd5581-dfbe-4948-80df-6eae825c932b) <br/>
-![Omniverse_IssacSim31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f591b669-af5b-473e-8586-f875f9f81df7) <br/>
+![Omniverse_IssacSim154](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6ac665a5-2b4b-41b4-93fe-1bed2746c350) <br/>
+![Omniverse_IssacSim155](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57f94b2d-2500-4d3e-802f-bd252bab51e7) <br/>
+![Omniverse_IssacSim156](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dfa3275f-dea2-41f3-b3ef-c2ca4e957fc7) <br/>
+![Omniverse_IssacSim157](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2c727222-ddb6-48af-9c0b-aaa3eaad5759) <br/>
 Make sure you have a locale which supports UTF-8 <br/>
-If you are in a minimal environment (such as a docker container), the locale may be something minimal like POSIX <br/>
-We test with the following settings. However, it should be fine if you’re using a different UTF-8 supported locale <br/>
-Add the ROS 2 apt repository <br/>
-![Omniverse_IssacSim32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a841d865-c7ca-4591-b27e-396d0d60eabf) <br/>
+(1)-3 Setup Sources <br/>
+![Omniverse_IssacSim158](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9c05532f-2047-4503-8405-f319b0a71ad0) <br/>
 Ensure that the Ubuntu Universe repository is enabled <br/>
-![Omniverse_IssacSim33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fee2e304-9688-42cf-8b7a-22e879eb1870) <br/>
-![Omniverse_IssacSim34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6f0916cc-1264-4fd6-a955-18401bcf5afb) <br/>
+![Omniverse_IssacSim159](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d7a8dc5f-65a2-4292-bd8f-2c074e1e0a6d) <br/>
+![Omniverse_IssacSim160](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8759421e-e86e-465f-ac5e-58b75b492541) <br/>
 Add the ROS 2 GPG key with apt <br/>
-![Omniverse_IssacSim35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dcc0ddbb-0d9b-48ff-a911-d0af593df5af) <br/>
+![Omniverse_IssacSim161](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/08c4b75c-1650-45e4-8a7b-bc6821ef57c8) <br/>
 Add the repository to your sources list. <br/>
-Install development tools and ROS tools <br/>
-![Omniverse_IssacSim36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/890389f4-c54c-4f41-815f-cd45580ab443) <br/>
-Install common packages <br/>
-![Omniverse_IssacSim37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4722532e-2772-4acd-9650-47a4de8f8faf) <br/>
-Install packages according to your Ubuntu version <br/>
-Get ROS 2 code <br/>
-![Omniverse_IssacSim38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e47f3ee7-bb32-4060-9e92-b2a8a7757977) <br/>
-Create a workspace and clone all repos <br/>
-![Omniverse_IssacSim39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/89156777-3377-4d15-b45d-b2af5a21f131) <br/>
-Install dependencies using rosdep <br/>
-![Omniverse_IssacSim40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/88750614-cb14-4269-a27b-23906acac109) <br/>
-![Omniverse_IssacSim41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/91dff0b4-1f7f-44d7-b8fa-b08e3eb6b61c) <br/>
-Build the code in the workspace <br/>
-Environment setup <br/>
-![Omniverse_IssacSim42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bf871d94-3d72-4757-9b03-9a0dbb0b2f3f) <br/>
-![Omniverse_IssacSim43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2d6c8178-cca4-4419-9bcd-f8b85924511c) <br/>
-Source the setup script <br/>
-Try some examples <br/>
-![Omniverse_IssacSim44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dacce760-72ec-4a70-ba60-4a9d6f5ebb36) <br/>
-![Omniverse_IssacSim45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8a2352bd-499f-4c22-a1ea-24c8676aedc6) <br/>
-Clang <br/>
-![Omniverse_IssacSim46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/badd94c3-f6da-409c-8ef5-a14713599ba9) <br/>
-Configure CMake to detect and use Clang <br/>
+(1)-4 Install ROS 2 packages <br/>
+![Omniverse_IssacSim162](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9d224a64-867c-4949-8f74-d5556d1918db) <br/>
+![Omniverse_IssacSim163](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/442eb707-bc78-4403-82b4-9a4a8a636471) <br/>
+Update your apt repository caches after setting up the repositories <br/>
+ROS 2 packages are built on frequently updated Ubuntu systems <br/> 
+Ensure system is up to date before installing new packages <br/>
+![Omniverse_IssacSim164](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0b33c5f1-9030-4470-8e50-af7dfbd761c4) <br/>
+Desktop Install (Recommended): ROS, RViz, demos, tutorials <br/>
+![Omniverse_IssacSim165](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d44032b6-1d5e-4146-9e5b-773f38ed30fa) <br/>
+ROS-Base Install (Bare Bones): Communication libraries, message packages, command line tools. No GUI tools <br/>
+![Omniverse_IssacSim166](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9ac9036d-a212-40a8-85bf-15ef098f24a2) <br/>
+Development tools: Compilers and other tools to build ROS packages <br/>
+(1)-5 Environment setup <br/>
+Sourcing the setup script <br/>
+![Omniverse_IssacSim169](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7e268b20-5206-43ac-af0a-da2b3a6f892e) <br/>
+Set up your environment by sourcing the following file <br/>
+Try Some examples <br/>
+![Omniverse_IssacSim167](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/27cb55a4-9bff-4063-bb06-c5d5cfd4d7ba) <br/>
+![Omniverse_IssacSim168](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8116b36e-ae7e-4187-bcaa-341a7f697505) <br/>
+(1)-6 Avoid sourcing bash script every time <br/>
+Problem: Annoying to always source a script every time we open terminal <br/>
+Solution: Open home directory and so you can open the bashrc <br/> 
+![Omniverse_IssacSim170](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2ab669c8-52d6-4bba-845e-574ac20d8e81) <br/>
+![Omniverse_IssacSim171](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2d8f8332-a86c-401b-a4db-e87d32023a22) <br/>
+
+
+
+
 (2)Ensure vision_msgs_package is built from the ros2 branch. <br/>
 The ROS 2 Bridge in Isaac Sim depends on this package, make sure the workspace containing this package is sourced before running Isaac Sim from the same terminal.<br/>
 ![Omniverse_IssacSim105](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/37105aa1-b773-4018-a114-b62179b3cb29) <br/>
