@@ -198,7 +198,7 @@ Running Native ROS <br/>
 -rclpy: Using ROS 2 functionality with Python in Isaac Sim <br/>
 The ROS_DISTRO env variable is used to determine if ROS 2 is sourced and which distro to use, if this variable is not set an internal ROS 2 distro build will be used. Message definitions can be different between ROS 2 versions, due to this, we dynamically load the appropriate ROS 2 backend depending on which ROS Distro is sourced. <br/>
 (1)Download ROS 2 following the instructions on the official website <br/>
-https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html <br/>
+https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html <br/>
 (1)-1 Resources <br/>
 ROS 2 Foxy (Ubuntu Focal): amd64, arm64 <br/>
 (1)-2 System setup <br/>
