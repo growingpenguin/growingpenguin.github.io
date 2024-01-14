@@ -243,15 +243,10 @@ Solution: Open home directory and so you can open the bashrc <br/>
 (1)-7 Check whether it is scripted properly in ros2 script <br/>
 ![Omniverse_IssacSim172](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1a441ccc-1c2b-43ac-999b-72be82c0bfca) <br/>
 Ros2 installation complete & Environment sourced properly <br/>
-(2)Ensure vision_msgs_package is built from the ros2 branch. <br/>
-The ROS 2 Bridge in Isaac Sim depends on this package, make sure the workspace containing this package is sourced before running Isaac Sim from the same terminal.<br/>
-![Omniverse_IssacSim105](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/37105aa1-b773-4018-a114-b62179b3cb29) <br/>
-Navigate to the src dir <br/> 
-Clone the vision_msgs_package from the "ros2" branch <br/>
-Return to the root of your ROS 2 workspace <br/>
-Build the workspace with colcon <br/>
-![Omniverse_IssacSim106](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c152a9fa-db63-4216-9c7e-78f317a4b7af) <br/>
-Verify vision_msgs_packages are installed <br/>
+(2)Install vision_msgs_package <br/>
+![Omniverse_IssacSim173](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/69f516d3-fb97-493f-b6aa-22e798f5609a) <br/>
+(3)Ensure that the ROS environment is sourced in the terminal or in your ~/.bashrc file. You must perform this step each time before using any ROS commands and running Isaac Sim <br/>
+=>Already Done <br/>
 
 **Enabling the ROS Bridge Extension** <br/>
 If you intend to use a ROS2 bridge, before launching Isaac Sim, you need to set the Fast DDS middleware on all terminals that will be passing ROS2 messages <br/>
@@ -271,16 +266,25 @@ Launch ROS 2 Nodes <br/>
 
 
 **Setting Up Workspaces** <br/>
-=> Already done <br/>
-Native ROS env: source /home/rosexpert1/ros2_humble/install/setup.bash <br/>
-Workspace1: ros2_humble <br/>
-Workspace2: 
-
-Ubuntu Humble <br/>Screenshot from 2024-01-08 15-40-27
-(1)Install additional packages <br/>
-![Omniverse_IssacSim55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/47bd9753-e071-4c03-9016-eb249df03a7d) <br/>
-(2)Ensure your native ROS2 has been sourced if not already <br/>
-![Omniverse_IssacSim104](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f213f6e4-1fb4-4f9e-85b1-8418b461dab2) <br/>
+(1)Clone the Isaac Sim ROS Workspace Repository from https://github.com/NVIDIA-Omniverse/IsaacSim-ros_workspaces <br/>
+(2)A few ROS packages are needed to go through the Isaac Sim ROS / ROS 2 tutorial series. To make it easy, entire ROS and ROS2 workspaces with the necessary packages are included.
+=> Ubuntu > Foxy <br/>
+(2)-1 To build the ros2 workspace, you may need to install additional packages <br/>
+![Omniverse_IssacSim174](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2882968d-603f-46e5-a170-f48796ff360b) <br/>
+For rosdep install command <br/>
+![Omniverse_IssacSim175](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f39d81ed-a92a-4ab5-b547-da1644f9880a) <br/>
+For colcon build command <br/>
+(2)-2 Ensure your native ROS2 has been sourced if not already <br/>
+![Omniverse_IssacSim176](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6f2d7a36-b002-4d12-ab34-b28c2421d27e) <br/>
+(2)-3 Resolve any package dependencies from the root of the ROS2 workspace by running the following command <br/>
+![Omniverse_IssacSim177](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/12483088-6d82-4440-a8cc-4a795625403c) <br/>
+![Omniverse_IssacSim178](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/75085fea-cff0-4043-bb49-24077429ac0f) <br/>
+![Omniverse_IssacSim179](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dabda610-0b62-4598-a69c-175e8a03b0ef) <br/>
+(2)-4 Build the workspace <br/>
+Error  <br/>
+![Omniverse_IssacSim180](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eaf388e4-18bb-44b5-845d-08ae49a8db9e) <br/>
+Solution: (Searching for it...) <br/>
+https://forums.developer.nvidia.com/t/troubleshooting-broken-ros-packages-in-isaac-sim-workspace-setup/278881 <br/>
 (3)Resolve any package dependencies from the root of the ROS2 workspace by running the following command <br/>
 
 
