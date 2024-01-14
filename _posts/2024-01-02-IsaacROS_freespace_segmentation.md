@@ -86,7 +86,7 @@ Click Add > Select By Topic > rgb_right >Image <br/>
 ![FreespaceSegmentation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/da782996-9906-4071-a643-aa0c92cbd7aa) <br/>
 Error Result: Nothing Came out <br/>
 Correct Version: <br/>
-![FreespaceSegmentation27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e6a42de7-a25d-4eec-b029-53338362b3e4) <br/>
+![FreespaceSegmentation26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dabcddbe-1af6-45f5-a8d0-b58a55c06efb)
 
 
 
