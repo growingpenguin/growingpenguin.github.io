@@ -240,10 +240,9 @@ Problem: Annoying to always source a script every time we open terminal <br/>
 Solution: Open home directory and so you can open the bashrc <br/> 
 ![Omniverse_IssacSim170](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2ab669c8-52d6-4bba-845e-574ac20d8e81) <br/>
 ![Omniverse_IssacSim171](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2d8f8332-a86c-401b-a4db-e87d32023a22) <br/>
-
-
-
-
+(1)-7 Check whether it is scripted properly in ros2 script <br/>
+![Omniverse_IssacSim172](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1a441ccc-1c2b-43ac-999b-72be82c0bfca) <br/>
+Ros2 installation complete & Environment sourced properly <br/>
 (2)Ensure vision_msgs_package is built from the ros2 branch. <br/>
 The ROS 2 Bridge in Isaac Sim depends on this package, make sure the workspace containing this package is sourced before running Isaac Sim from the same terminal.<br/>
 ![Omniverse_IssacSim105](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/37105aa1-b773-4018-a114-b62179b3cb29) <br/>
