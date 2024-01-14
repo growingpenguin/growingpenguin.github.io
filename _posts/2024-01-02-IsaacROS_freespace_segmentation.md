@@ -72,20 +72,22 @@ Build Packages <br/>
 ![FreespaceSegmentation29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0e54a4d7-79ec-4985-b14e-312c44e245ba) <br/>
 Run the Demo <br/>
 (9)Open a second terminal inside the Docker container <br/>
-![FreespaceSegmentation20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/beee0269-c6af-432e-8fb1-a7e59d76bd8b) <br/>
-(10)Visualize the occupancy grid in RViz <br/>
-![FreespaceSegmentation18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bddbec4e-ad94-4789-ac9b-8d52d011fc47) <br/>
-In the left pane, change Fixed Frame to base_link <br/>
-![FreespaceSegmentation19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ba7443ce-2844-4d96-a9f2-3cd9321104b2) <br/>
-In the left pane, click the Add button, then select By topic followed by Map to add the occupancy grid <br/>
-Click Add > Select By Topic > Map <br/>
-![FreespaceSegmentation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/da782996-9906-4071-a643-aa0c92cbd7aa) <br/>
-Error Result: Nothing Came out <br/>
-Correct Version: <br/>
-(9)Open a second terminal inside the Docker container <br/>
 ![FreespaceSegmentation30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d97cf030-98fb-4d69-b6d2-550666324e28) <br/>
 (10)Visualize the occupancy grid in RViz <br/>
 ![FreespaceSegmentation31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c4124cc1-d82b-4457-a1c7-df265343aa2a) <br/>
+Start RViz <br/>
+![FreespaceSegmentation32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/16e8fc58-d0d9-4eb7-8852-cf8f6716f905) <br/>
+In the left pane, change Fixed Frame to base_link <br/>
+![FreespaceSegmentation33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f79363e3-5696-4de5-b298-f99e538abcd1) <br/>
+In the left pane, click the Add button, then select By topic followed by Map to add the occupancy grid <br/>
+Click Add > Select By Topic > Map <br/>
+Click Add > Select By Topic > rgb_left > Image <br/>
+Click Add > Select By Topic > rgb_right >Image <br/>
+![FreespaceSegmentation21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/da782996-9906-4071-a643-aa0c92cbd7aa) <br/>
+Error Result: Nothing Came out <br/>
+Correct Version: <br/>
+![FreespaceSegmentation27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e6a42de7-a25d-4eec-b029-53338362b3e4) <br/>
+
 
 
 
