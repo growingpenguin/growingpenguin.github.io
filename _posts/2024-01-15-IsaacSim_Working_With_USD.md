@@ -65,3 +65,6 @@ Error: <br/>
 Solution: Searching for it...  <br/> 
 https://forums.developer.nvidia.com/t/encountering-an-issue-with-usd-tutorial-unparenting-error/278964  <br/>
 
+### Summary
+Learned how to save and open USD files <br/> 
+
