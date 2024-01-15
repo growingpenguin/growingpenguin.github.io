@@ -17,3 +17,4 @@ Tutorial with RealSense, Tutorial with Zed, Tutorial with Isaac Sim <br/>
 (2)-1 Install Isaac Sim, choosing the appropriate working environment <br/>
 => Already Done <br/>
 (2)-2 Follow the Running Native ROS instructions to ensure that ROS 2 and the required packages are installed to successfully enable the ROS 2 Bridge in Omniverse Isaac Sim <br/>
+=> Already Done <br/>
