@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/22123bbd-6564-45e1-ae97-0d54d10b8384)---
+---
 layout: post
 title:  "Assignment: 3rd Week - Isaac Sim Working with USD"
 ---
