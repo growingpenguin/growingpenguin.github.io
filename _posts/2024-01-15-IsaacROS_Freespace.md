@@ -18,3 +18,10 @@ Tutorial with RealSense, Tutorial with Zed, Tutorial with Isaac Sim <br/>
 => Already Done <br/>
 (2)-2 Follow the [Running Native ROS](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html) instructions to ensure that ROS 2 and the required packages are installed to successfully enable the ROS 2 Bridge in Omniverse Isaac Sim <br/>
 => Already Done <br/>
+(2)-3 Follow the instructions to launch Isaac Sim App Selector window <br/>
+=> Already Done <br/>
+(2)-4 If you have a system level ROS 2 install, click Open in Terminal button <br/>
+It should open a terminal window and then follow the steps outlined here under ROS2 -> Ubuntu 22.04 -> Humble. Ensure your ROS 2 install is sourced before proceeding <br/>
+
+
+(2)-5 Follow the instructions to launch Isaac Sim App Selector window <br/>
