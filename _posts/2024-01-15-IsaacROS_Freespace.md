@@ -21,7 +21,9 @@ Tutorial with RealSense, Tutorial with Zed, Tutorial with Isaac Sim <br/>
 (2)-3 Follow the instructions to launch Isaac Sim App Selector window <br/>
 => Already Done <br/>
 (2)-4 If you have a system level ROS 2 install, click Open in Terminal button <br/>
-It should open a terminal window and then follow the steps outlined here under ROS2 -> Ubuntu 22.04 -> Humble. Ensure your ROS 2 install is sourced before proceeding <br/>
-
+It should open a terminal window and then follow the steps outlined [here](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html#running-native-ros) under ROS2. Ensure your ROS 2 install is sourced before proceeding <br/>
+Problem: <br/>
+ROS2 Installation Problem => Solving it... <br/>
+https://forums.developer.nvidia.com/t/troubleshooting-broken-ros-packages-in-isaac-sim-workspace-setup/278881 <br/>
 
 (2)-5 Follow the instructions to launch Isaac Sim App Selector window <br/>
