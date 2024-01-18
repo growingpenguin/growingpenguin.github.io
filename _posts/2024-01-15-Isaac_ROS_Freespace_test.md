@@ -66,6 +66,7 @@ Successful <br/>
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/bi3d_freespace_segmentation/tutorial_isaac_sim.html <br/>
+https://nvidia-isaac-ros.github.io/getting_started/isaac_sim/index.html <br/>
 
 
 
