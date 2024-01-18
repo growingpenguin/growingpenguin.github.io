@@ -45,8 +45,21 @@ Source your ROS 2 installation and workspace before launching Isaac Sim <br/>
 ![FreespaceSegmentation2-6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57a8ca77-b4a5-4ebc-9487-5907ffe97bd6) <br/>
 Run export FASTRTPS_DEFAULT_PROFILES_FILE=~/.ros/fastdds.xml in the terminals that will use ROS2 functions, as well as setting it under “Extra Args” when launching Isaac Sim from the Nucleus Launcher <br/>
 => Save it in .bashrc <br/>
-(5)Launch Isaac Sim <br/>
-(6)Open Isaac ROS Sample scene as shown below. <br/>
+(4)-4 
+If you have a system level ROS 2 install <br/>
+Click Open in Terminal button <br/>
+Open a terminal window and then follow the steps outlined [here](https://nvidia-isaac-ros.github.io/getting_started/isaac_sim/index.html) <br/>
+To enable ROS2 bridge extensions <br/>
+![FreespaceSegmentation2-9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a30e1977-b288-48f8-96b4-ca1effc91b91) <br/>
+Go to the extension manager menu Window->Extensions and search for ROS2 bridge  <br/>
+Warning:Only one of the ROS Bridge extensions can be enabled at any given time, so if switching between the two bridges, disable one before enabling the other <br/>
+
+(4)-5 Launch Isaac Sim <br/>
+![FreespaceSegmentation2-8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/24818f16-b4d5-4707-89a4-313e823f0e88)
+
+(4)-6 Open Isaac ROS Sample scene as shown below <br/>
+Isaac Examples > ROS > Isaac ROS > Samples Scene <br/>
+
 Result: <br/>
 Successful <br/>
 ![FreespaceSegmentation36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ca883302-1626-42e3-b672-528a43bb07b8)
