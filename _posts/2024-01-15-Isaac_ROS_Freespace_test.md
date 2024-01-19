@@ -19,9 +19,9 @@ Tutorial with RealSense, Tutorial with Zed, Tutorial with Isaac Sim <br/>
 (2)-2 Follow the [Running Native ROS](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html) instructions to ensure that ROS 2 and the required packages are installed to successfully enable the ROS 2 Bridge in Omniverse Isaac Sim <br/>
 Ubuntu 20.04 Foxy <br/>
 => Already Done <br/>
-(3)Launch Isaac Sim App Selector window <br/>
+(2)-3 Launch Isaac Sim App Selector window <br/>
 ![FreespaceSegmentation2-1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0aa5850d-8ce2-42cc-927f-ac0b1634ea22) <br/>
-(4)Follow the steps outlined in another [documentation](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html#running-native-ros)
+(2)-4 Follow the steps outlined in another [documentation](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html#running-native-ros)
 If you have a system level ROS 2 install <br/>
 Click Open in Terminal button <br/>
 Open a terminal window and then follow the steps outlined [here](https://nvidia-isaac-ros.github.io/getting_started/isaac_sim/index.html) <br/>
@@ -37,40 +37,32 @@ Not using a Isaac Sim ROS2 Workspace -> Follow another [documentation](https://d
 Create a file named fastdds.xml under "~/.ros/" <br/>
 [fastddsxml.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13973052/fastddsxml.txt) <br/>
 Paste the above snippet link into the file <br/>
-Export xml file <br/>
 ![FreespaceSegmentation2-7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/804d9ccb-24f5-4f78-aedf-5e2ad4940c17) <br/>
 ![FreespaceSegmentation2-6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57a8ca77-b4a5-4ebc-9487-5907ffe97bd6) <br/>
-Run export FASTRTPS_DEFAULT_PROFILES_FILE=~/.ros/fastdds.xml in the terminals that will use ROS2 functions, as well as setting it under “Extra Args” when launching Isaac Sim from the Nucleus Launcher <br/>
+Run export FASTRTPS_DEFAULT_PROFILES_FILE="~/.ros/fastdds.xml" in the terminals that will use ROS2 functions, as well as setting it under “Extra Args” when launching Isaac Sim from the Nucleus Launcher <br/>
 => Save it in .bashrc <br/>
-To enable ROS2 bridge extensions <br/>
 ![FreespaceSegmentation2-9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a30e1977-b288-48f8-96b4-ca1effc91b91) <br/>
+To enable ROS2 bridge extensions <br/>
 Go to the extension manager menu Window->Extensions and search for ROS2 bridge  <br/>
 Warning:Only one of the ROS Bridge extensions can be enabled at any given time, so if switching between the two bridges, disable one before enabling the other <br/>
-
-
-
-
-
-
-
-
-
-
-
-
-(4)-5 Launch Isaac Sim <br/>
-![FreespaceSegmentation2-8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/24818f16-b4d5-4707-89a4-313e823f0e88)
-
-(4)-6 Open Isaac ROS Sample scene as shown below <br/>
+(2)-5 Launch Isaac Sim <br/>
+![FreespaceSegmentation2-8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/24818f16-b4d5-4707-89a4-313e823f0e88) <br/>
+(2)-6 Open Isaac ROS Sample scene as shown below <br/>
 Isaac Examples > ROS > Isaac ROS > Samples Scene <br/>
-
-Result: <br/>
+(2)-7 Result: <br/>
 Successful <br/>
-![FreespaceSegmentation36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ca883302-1626-42e3-b672-528a43bb07b8)
+![FreespaceSegmentation36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ca883302-1626-42e3-b672-528a43bb07b8) <br/>
+(3)Disable the clock reset when simulation is stopped. Go to the Stage tab and select /World/ROS_Clock/isaac_read_simulation_time, then untick the Reset On Stop checkbox <br/>
+(4)Press Play to start publishing data from Isaac Sim <br/>
+(5)Open a second terminal and attach to the container <br/>
+(6)In the second terminal, start the isaac_ros_bi3d node using the launch files <br/>
+(7)Optionally, you can run the visualizer script to visualize the disparity image <br/>
+
+
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/bi3d_freespace_segmentation/tutorial_isaac_sim.html <br/>
-https://nvidia-isaac-ros.github.io/getting_started/isaac_sim/index.html <br/>
-
+https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html#running-native-ros <br/>
 
 
