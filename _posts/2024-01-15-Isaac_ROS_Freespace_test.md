@@ -58,7 +58,13 @@ Go to the Stage tab and select /World/ROS_Clock/isaac_read_simulation_time, then
 (4)Press Play to start publishing data from Isaac Sim <br/>
 ![FreespaceSegmentation38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8c018160-e8c2-4c18-8a5f-8da386ed47de) <br/>
 (5)Open a second terminal and attach to the container <br/>
+![FreespaceSegmentation39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/58f84b77-fcb8-468d-9f49-5341cf0fa1d5) <br/>
 (6)In the second terminal, start the isaac_ros_bi3d node using the launch files <br/>
+![FreespaceSegmentation40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/31e2d94a-687b-4970-bcee-f91bc4576073) <br/>
+Problem: Rviz nothing displayed <br/>
+![FreespaceSegmentation41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cad96efa-dfae-4ad9-8869-271d91fe099e) <br/>
+
+
 (7)Optionally, you can run the visualizer script to visualize the disparity image <br/>
 
 
