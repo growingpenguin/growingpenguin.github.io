@@ -28,10 +28,7 @@ Please complete all Introductory Tutorials => All Done <br/>
 
 ### Add Joints
 (1)Load mock robot <br/>
-If continuing from the Introductory Tutorials and have your own mock_robot.usd saved: <br/>
-Open it using File > Open <br/>
-Load the asset provided in Isaac/Samples/Rigging/MockRobot/mock_robot_no_joints.usd: <br/>
-Do not load it as a reference since you will need to make permanent modifications to the file <br/>
+Load the asset provided in Isaac/Samples/Rigging/MockRobot/mock_robot_no_joints.usd: (Do not load it as a reference since you will need to make permanent modifications to the file) <br/>
 ![Assemble_A_Simple_Robot1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0091c86d-c36b-4c34-9fba-836e2cab9149)  <br/>
 Isaac Assets(Beta) > Samples > Rigging > MOCKROBOT > mock_robot_no_joints <br/>
 (1)Add a joint between two bodies <br/>
