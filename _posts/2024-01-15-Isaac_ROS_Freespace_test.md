@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c39d5a61-301a-40a8-b696-efee84dfcc2b)---
+---
 layout: post
 title:  "Assignment: 3rd Week - Test Isaac_ROS_Freespace Segmentation Repository"
 ---
@@ -11,7 +11,7 @@ Tutorial with RealSense, Tutorial with Zed, Tutorial with Isaac Sim <br/>
 ## [Tutorial With Zed](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/bi3d_freespace_segmentation/tutorial_zed.html)
 
 ## [Tutorial With Isaac Sim](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/bi3d_freespace_segmentation/tutorial_isaac_sim.html)
-(1)Complete steps 1-7 listed in the [quickstart](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_freespace_segmentation/isaac_ros_bi3d_freespace/index.html#quickstart) <br/>
+(1)Complete steps 1-7 listed in the [quickstart post](https://github.com/growingpenguin/growingpenguin.github.io/blob/master/_posts/2024-01-02-IsaacROS_freespace_segmentation.md) <br/>
 => Already Done <br/>
 (2)Install and launch Isaac Sim following the steps in the Isaac ROS Isaac Sim Setup Guide <br/>
 (2)-1 Install Isaac Sim, choosing the appropriate working environment <br/>
