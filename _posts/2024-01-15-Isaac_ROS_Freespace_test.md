@@ -30,16 +30,14 @@ Source Ros2 <br/>
 ![FreespaceSegmentation2-3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/af60dabe-41df-4197-b8e7-3761903d5cb9) <br/>
 ![FreespaceSegmentation2-4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/93ddc339-f46b-4ccf-b33f-f7683f47b7dc) <br/>
 Ensure your ROS2 install is sourced before proceeding <br/>
-(4)-1 Enabling the ROS2 Bridge Extension <br/>
+Enabling the ROS2 Bridge Extension <br/>
 ROS2 <br/>
 Not using a Isaac Sim ROS2 Workspace -> Follow another [documentation](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html#running-native-ros) <br/>
 ![FreespaceSegmentation2-5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e58d622d-4a64-4bfa-8f79-e01763e76fa4) <br/>
-Create a file named fastdds.xml under ~/.ros/ <br/>
-[fastddsxml.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13973052/fastddsxml.txt)
+Create a file named fastdds.xml under "~/.ros/" <br/>
+[fastddsxml.txt](https://github.com/growingpenguin/growingpenguin.github.io/files/13973052/fastddsxml.txt) <br/>
 Paste the above snippet link into the file <br/>
 Export xml file <br/>
-(Optional) Run export ROS_DOMAIN_ID=(id_number) before launching Isaac Sim <br/>
-Source your ROS 2 installation and workspace before launching Isaac Sim <br/>
 ![FreespaceSegmentation2-7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/804d9ccb-24f5-4f78-aedf-5e2ad4940c17) <br/>
 ![FreespaceSegmentation2-6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57a8ca77-b4a5-4ebc-9487-5907ffe97bd6) <br/>
 Run export FASTRTPS_DEFAULT_PROFILES_FILE=~/.ros/fastdds.xml in the terminals that will use ROS2 functions, as well as setting it under “Extra Args” when launching Isaac Sim from the Nucleus Launcher <br/>
