@@ -63,8 +63,8 @@ Go to the Stage tab and select /World/ROS_Clock/isaac_read_simulation_time, then
 ![FreespaceSegmentation40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/31e2d94a-687b-4970-bcee-f91bc4576073) <br/>
 Problem: Rviz nothing displayed <br/>
 ![FreespaceSegmentation41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cad96efa-dfae-4ad9-8869-271d91fe099e) <br/>
-
-
+Solution: (Searching for it...) <br/>
+https://forums.developer.nvidia.com/t/tutorial-for-freespace-segmentation-with-isaac-sim-rviz-nothing-displayed/279466 <br/>
 (7)Optionally, you can run the visualizer script to visualize the disparity image <br/>
 
 
