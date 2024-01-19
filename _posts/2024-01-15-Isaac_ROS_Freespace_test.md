@@ -52,8 +52,11 @@ Isaac Examples > ROS > Isaac ROS > Samples Scene <br/>
 (2)-7 Result: <br/>
 Successful <br/>
 ![FreespaceSegmentation36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ca883302-1626-42e3-b672-528a43bb07b8) <br/>
-(3)Disable the clock reset when simulation is stopped. Go to the Stage tab and select /World/ROS_Clock/isaac_read_simulation_time, then untick the Reset On Stop checkbox <br/>
+(3)Disable the clock reset when simulation is stopped <br/>
+![FreespaceSegmentation37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/abddffdb-2e7d-46bb-9889-481a76734fd9) <br/>
+Go to the Stage tab and select /World/ROS_Clock/isaac_read_simulation_time, then untick the Reset On Stop checkbox <br/>
 (4)Press Play to start publishing data from Isaac Sim <br/>
+![FreespaceSegmentation38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8c018160-e8c2-4c18-8a5f-8da386ed47de) <br/>
 (5)Open a second terminal and attach to the container <br/>
 (6)In the second terminal, start the isaac_ros_bi3d node using the launch files <br/>
 (7)Optionally, you can run the visualizer script to visualize the disparity image <br/>
