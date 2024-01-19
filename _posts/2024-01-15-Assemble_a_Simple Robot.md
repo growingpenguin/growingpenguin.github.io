@@ -58,11 +58,44 @@ Double check in the Property tab that body0 is /mock_robot/body(the cube), and b
 ![Assemble_A_Simple_Robot10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5a297c3f-b22a-4a9f-83c5-ac61f6d6232a) <br/>
 (2)-8 Press Play <br/> 
 Before the joints were added, the three rigid bodies fell to the ground separately <br/> 
-Now that there are joints attached, the bodies will fall as if they are connected. 
+Now that there are joints attached, the bodies will fall as if they are connected <br/>
+https://drive.google.com/file/d/121tsHuF9xnBlMWz9Nc5gF4up1HwqWSqf/view?usp=sharing <br/>
 Drag the robot around by holding down the Shift key and clicking and dragging on any part of the robot in the viewport <br/> 
 They move together like they are connected via revolute joints <br/> 
+### Add Joint Drive 
+Adding the joint is only adding the mechanical connection <br/>  
+Add a joint drive API to be able to control and drive the joints <br/> 
+![Assemble_A_Simple_Robot11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/02f2885a-640b-4da0-949f-d7612d9dcd7e) <br/> 
+Select both joints and click the + Add button in the Property tab, and select Physics > Angular Drive to add drive to both joints simultaneously <br/> 
+**Position Control**:  <br/> 
+For position controlled joints, set a high stiffness and relatively low or zero damping <br/> 
+-When controlling a joint based on its position <br/>
+joint will resist changes to its position strongly <br/>
+Keep the damping low or even at zero<br/>
+Damping is like a kind of resistance that slows down movement, so keeping it low means the joint can move more freely
+**Velocity Control**: <br/> 
+For velocity controller joints, set a high damping and zero stiffness. <br/> 
+When controlling a joint based on its speed (velocity), the opposite should be done <br/> 
+Set the damping high, which means the joint will have a lot of resistance to speed changes, making it move more smoothly <br/> 
+Set the stiffness to zero, as you don't need the joint to resist changes in its position, just control its speed <br/> 
+(1) Velocity control <br/>
+For joints on a wheel, it makes more sense to be velocity controlled <br/> 
+Set both wheels’ Damping to 1e4(high damping) and Target Velocity to 200 <br/> 
+If working with joints with limited range, those can be set in the Property tab, under the Raw USD Properties > Lower (Upper) Limit <br/> 
+![Assemble_A_Simple_Robot12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0571c551-cfc7-4c5a-a145-fe1c82898fe1) <br/> 
+(2) Play <br/>
+Press Play to see our mock mobile robot drive off <br/> 
+https://drive.google.com/file/d/1ieWpsPcj4B25fXVbJVDo7oBWMBb-DBOJ/view?usp=drive_link <br/>
+
+### Add Articulation
+Directly driving the joints can move the robot, it is not the most computationally efficient way <br/> 
+Making things into articulations can achieve higher simulation fidelity, fewer joint errors, and can handle larger mass ratios between the jointed bodies <br/> 
+You can read more regarding the physics simulation behind it in Physics Core: Articulation <br/> 
+To turn a series of connected rigid bodies and joints into articulation, we need to set an articulation root to anchor the articulation tree. According to instructions on defining articulation trees in Physics Core: Articulation:
+    For a fixed-base articulation, add the Articulation Root Component either to: 1) the fixed joint that connects the articulation base to the world, or 2) an ancestor of the fixed joint in the USD hierarchy. The second option allows creating multiple articulations from a single root component added to the scene: Each descendant fixed joint will be defining an articulation base link. For a floating-base articulation, add the Articulation Root Component either to: 1) the root rigid-body link or 2) an ancestor of the root link in the USD hierarchy. <br/> 
+In our case, we will add the articulation root to the robot body. Select body on the tree, open + Add in the Property tab, and add Physics > Articulation Root  <br/> 
+
+
 Reference: <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_gui_simple_robot.html <br/> 
-
-
 
