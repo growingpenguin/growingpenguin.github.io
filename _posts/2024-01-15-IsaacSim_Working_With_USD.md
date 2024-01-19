@@ -57,14 +57,28 @@ Loaded everything under the original World(defaultPrim), including PhysicsScene,
 -Delete them in the original USD would make it difficult to work within those USD stages <br/>
 (3)Both have the necessary environment set up in the USD stages but not export them when they are being referenced <br/>
 (3)-1 Move non-referenced items out of the default Prim <br/> 
-(3)-2 Select the robot’s parent prim on stage, in this case /mock_robot if you followed the instructions above <br/> 
-(3)-3 Open the menu Edit while the prim is selected, and click on unparent. Now instead of being under World, mock_robot is parallel to World <br/> 
-(3)-4 Right-click on the robot prim again on stage, and Set as a Default Prim. Save <br/> 
-(3)-5 If you open a new stage and load the same file again as a reference, only the robot will be imported <br/> 
+(3)-2 Unparenting <br/>
+Select the robot’s parent prim on stage(in this case /mock_robot) <br/> 
+Open the menu Edit while the prim is selected, and click on unparent <br/>
+Instead of being under World, mock_robot is parallel to World <br/> 
 Error: <br/>
-Solution: Searching for it...  <br/> 
+![WorkingWithUSD9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f4fe862d-4706-4640-b2d8-9beae62989cc) <br/>
+Solution: <br/> 
 https://forums.developer.nvidia.com/t/encountering-an-issue-with-usd-tutorial-unparenting-error/278964  <br/>
+Turns out I've kind of ignored this phrase: (Another OV user helped me out) <br/>
+**You cannot delete them on the new stage because they are loaded by reference** <br/>
+What is referenced cannot be edited, so it wasn't a surprise that unparenting was impossible <br/>
+Opening up the file and unparenting mock_robot again solved the error <br/>
+![WorkingWithUSD10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/63ab5fef-be75-4f79-a5fe-8a4160eb6dfa) <br/>
+(3)-4 Right-click on the robot prim again on stage, and Set as a Default Prim <br/> 
+![WorkingWithUSD11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/81539dea-c030-492f-9e0f-74bcce7f7677) <br/>
+(3)-4 Save <br/>
+![WorkingWithUSD12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/52733604-fd04-49ae-ab04-02f46509091b) <br/>
+(3)-5 Open a new stage and load the same file again as a reference, only the robot will be imported <br/>
+![WorkingWithUSD13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a99b05d1-d71e-4673-9dc0-3f09e2e753bb) <br/>
 
 ### Summary
 Learned how to save and open USD files <br/> 
 
+### Files 
+https://drive.google.com/drive/folders/17bDD_rxmnjZbV-DFccysfuIIqC2uiSJD?usp=sharing <br/> 
