@@ -37,7 +37,7 @@ Isaac Assets(Beta) > Samples > Rigging > MOCKROBOT > mock_robot_no_joints <br/>
 Select body, while holding Ctrl + Shift, Select wheel_left  <br/>
 (1)-2 With both bodies highlighted, right-click and then select Create > Physics > Joints > Revolute Joint <br/>
 ![Assemble_A_Simple_Robot3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3576e157-e3df-4b85-baab-6919d73e15ca) <br/>
-A RevoluteJoint will appear under wheel_left on the stage tree <br/>
+RevoluteJoint will appear under wheel_left on the stage tree <br/>
 (1)-3 Rename it to wheel_joint_left <br/>
 ![Assemble_A_Simple_Robot4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8336f163-fb81-4d09-808d-4742e76ae804) <br/>
 Double check in the Property tab that body0 is /mock_robot/body (the cube), and body1 is /mock_robot/wheel_left (the cylinder) <br/>
