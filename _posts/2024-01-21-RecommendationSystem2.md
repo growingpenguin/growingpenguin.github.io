@@ -166,17 +166,31 @@ Sorting process is still the same - sort by lower bound - just that now the lowe
 How to extend this to 5 star ratings? <br/>
 -5-possible outcomes(If using half stars, 10) <br/>
 -Can use Wilson's interval <br/>
-| Column 1 | Column 2 | Column 3 | Column 4 |
+| Stars | Negative | Positive | Total |
 |----------|----------|----------|----------|
-|          |          |          |          |
-|          |          |          |          |
-|          |          |          |          |
-|          |          |          |          |
-|          |          |          |          |
-|          |          |          |          |
-
-<br/>
-
+|    0     |    0     |    0     |    0     |
+|    1     |    1     |    0     |    1     |
+|    2     |   0.75   |   0.25   |    1     |
+|    3     |   0.5    |   0.5    |    1     |
+|    4     |   0.25   |   0.75   |    1     |
+|    5     |    0     |    1     |    1     |
+Each rating is pseudo upvotes and pseudo downvotes <br/>
+-1 star is equal to 0 upvotes and 1 downvotes <br/>
+-5 star is equal to 1 upvotes and 0 downvotes <br/>
+-3 star is middle, equal to 0.5 upvotes and 0.5 downvotes <br/>
+=> Plug in the numbers to Wilson's intervals <br/>
+**Wilson Interval** <br/>
+Where it's used and possible issues it might have <br/>
+Hacker news uses the same algorithm for both links and comments while Reddit uses the Wilson's interval for comments <br/>
+Reddit's commenting system: <br/>
+A great product with one 3-star rating would be penalized heavily <br/>
+Penalized twice <br/>
+(1)One rating it has happens to be a poor rating <br/>
+(2)Confidence interval is wide, meaning the lower bound is a small number <br/>
+Lower bound is good, because it accounts for number of people who rated the item <br/>
+-Higher the number of raters -> smaller CI(Confidence Interval) -> higher lower bound <br/>
+-Popularity increases its score <br/>
+## Problems with Averate Rating & Explore vs. Exploit (part 2)
 
 
 Reference: https://analystprep.com/cfa-level-1-exam/quantitative-methods/confidence-intervals-2/ <br/>
