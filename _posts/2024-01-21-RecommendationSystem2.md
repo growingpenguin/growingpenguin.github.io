@@ -98,8 +98,88 @@ Top item has 4.5 stars with 2377 reviews, while bottom item has 5 stars with one
 Is the item with 5 stars better than the item with 4.5 stars? A: Maybe Not <br/>
 ![Recommendation_System4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9697d4f5-5455-49a6-ad2d-d40ea61ae14d) <br/>
 Reference: https://www.amazon.com/s?k=airpod&crid=19DKOK0P2QQDI&sprefix=airpo%2Caps%2C347&ref=nb_sb_noss_2 <br/>
+**Confidence** <br/>
+Draw a box around the estimate which tells us how confident we are in the estimate <br/>
+-Gives us the upper bound and the lower bound <br/>
+-Typical strategy for ranking ratings is to be pessimistic and use the lower bound <br/>
+**Why sort by the lower bound** <br/>
+-ex.Have 2 items that have 4 stars on average <br/>
+Item1: 3 ratings, Item2: 100 ratings <br/>
+=> Result: <br/>
+![Recommendation_System5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5c824294-e84b-4d76-b26e-af6acefd0f0e) <br/>
+Item2:<br/>
+Confidence interval is skinnier(More confident in its average rating) <br/>
+Has more ratings, a bigger sample size <br/>
+Item1:<br/>
+Confidence interval is fatter(Less confident in its average rating) <br/>
+-If using the upper bound, Item1 would be ranked higher than the Item2 <br/>
+This is not what we want, because we are more confident that Item2 is the four star item <br/>
+**Confidence Intervals** <br/>
+Normal approximation for confidence intervals <br/>
+-ex. Given a random variable X, we can calculate the distribution of sample mean <br/>
+Variable X: Normally distributed with mean mu and variance sigma square <br/>
+X bar: Estimate of its sample mean, average of the samples I collected(Sum them all up and divide it by n) <br/>
+=> Proof using probability scales: <br/>
+X bar is also normally distributed, with the same mean mu, but a variance of sigma squared over n <br/>
+-The more samples I collect N, the skinnier its distribution <br/>
+N(number of samples) directly affect the variance of X bar <br/>
+As N increases, the variance of X bar gets smaller, confidence interval gets skinnier <br/>
+More samples I collect, more confident I should be <br/>
+![Recommendation_System6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/abf3d315-eb1a-49da-bdb6-689b807ca1be) <br/>
+**Confidence Intervals(Normal Approximation)** <br/>
+95% Confidence Interval: <br/>
+Interval for which the area under the curve is 95 percent of the total area <br/>
+-Total area is one, since it is probability <br/>
+-Calculate area of 0.95 using the CDF Function <br/>
+![Recommendation_System7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e6128bc2-1ac2-4e74-936f-a0c0b698b842) <br/>
+-X bar: sample mean <br/>
+-Z left & Z right: Inverse CDF of the normal distribution that covers 2.5% of the total prob and 97.5% of the total prob respectively <br/>
+Can approximate this number using 1.96 <br/>
+-N: Number of samples we collected <br/>
+-s: Standard deviation of the data <br/>
+**What if X is not normally-distributed?** <br/>
+In practice, data might not be normally distributed <br/>
+No problem! CLT(Central Limit Theoreum) <br/>
+-X bar is sum of all the Xs multiplied by a constant <br/>
+-Sum of all variables converges to a normal distribution. X bar is normally distributed <br/>
+=> It doesn't matter whether X is normally distributed itself <br/>
+![Recommendation_System8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eb1d6841-3019-4ec0-a49b-ad95c99250d1) <br/>
+**Bernoulli CI Approximation** <br/>
+Can derive the confidence interval for Bernoulli as well using the normal approximation <br/>
+Possible outcomes: 0 or 1 <br/>
+-Bernoulli distribution is the 0 1 distribution <br/>
+-Used when we have a binary outcome(Upvote downvote situation) <br/>
+![Recommendation_System9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a3a2854c-8772-477b-9f49-6852c43fe923) <br/>
+p hat: proportion of ones you get <br/>
+-total number of upvotes divided by total number of all votes <br/>
+Variance: p hat times (1-p hat) and the square root of that and plug that to the existing formula <br/>
+**Wilson Interval** <br/>
+Step further <br/>
+Better approximation of the confidence interval for a Bernoulli distributed variable <br/>
+![Recommendation_System10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/58eb5d8c-e5a5-4a94-9148-1bcdf468cd69) <br/>
+-p hat: sample mean <br/>
+-z: 1.96 for the 95% confidence interval <br/>
+-n: Number of samples collected <br/>
+=> Entire process is the same <br/>
+Sorting process is still the same - sort by lower bound - just that now the lower bound is more accurate <br/>
+**Extension to 5-star ratings** <br/>
+How to extend this to 5 star ratings? <br/>
+-5-possible outcomes(If using half stars, 10) <br/>
+-Can use Wilson's interval <br/>
+| Column 1 | Column 2 | Column 3 | Column 4 |
+|----------|----------|----------|----------|
+|          |          |          |          |
+|          |          |          |          |
+|          |          |          |          |
+|          |          |          |          |
+|          |          |          |          |
+|          |          |          |          |
+
+<br/>
 
 
+
+Reference: https://analystprep.com/cfa-level-1-exam/quantitative-methods/confidence-intervals-2/ <br/>
 
 Reference: <br/>
 https://github.com/reddit-archive/reddit/blob/master/r2/r2/lib/db/_sorts.pyx <br/>
