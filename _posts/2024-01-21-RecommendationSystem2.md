@@ -85,7 +85,21 @@ It is true we have some freedom in editing my own site, but big sites like Reddi
 ## Problems with Averate Rating & Explore vs. Exploit (part 1)
 **Ratings** <br/>
 -Previous: News feed items, typically having upvotes/downvotes likes <br/>
-These have just 1 or 2 items <br/>
+Usually have just 1 or 2 items <br/>
+-Sites with 5 star ratings <br/>
+ex. Amazon, Best Buy, and Walmart (Netflix used to.. but changed to binary system)<br/>
+-Can feel like.. 5 star ratings, more like regression, and binary outcomes as classification <br/>
+**How to Recommend?** <br/>
+Simple approach: Sort by average rating<br/>
+-Recommending items is like sorting them with a score <br/>
+Problem: <br/>
+Top item has 4.5 stars with 2377 reviews, while bottom item has 5 stars with one review <br/>
+5 stars is bigger than 4.5 stars, but how **confident** we are in the rating should also be considered <br/>
+Is the item with 5 stars better than the item with 4.5 stars? A: Maybe Not <br/>
+![Recommendation_System4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9697d4f5-5455-49a6-ad2d-d40ea61ae14d) <br/>
+Reference: https://www.amazon.com/s?k=airpod&crid=19DKOK0P2QQDI&sprefix=airpo%2Caps%2C347&ref=nb_sb_noss_2 <br/>
+
+
 
 Reference: <br/>
 https://github.com/reddit-archive/reddit/blob/master/r2/r2/lib/db/_sorts.pyx <br/>
