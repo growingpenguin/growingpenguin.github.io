@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b484b0e0-4868-4678-876f-e333d026772c)---
 layout: post
 title:  "Recommendation System Section2"
 ---
@@ -191,6 +191,29 @@ Lower bound is good, because it accounts for number of people who rated the item
 -Higher the number of raters -> smaller CI(Confidence Interval) -> higher lower bound <br/>
 -Popularity increases its score <br/>
 ## Problems with Averate Rating & Explore vs. Exploit (part 2)
+**More problems with average rating** <br/>
+Get another method of fixing the problem of ranking by average rating <br/>
+What if N is very small, or 0? <br/>
+Formula for the average or the sample mean: <br/>
+-Problem is that if we have zero ratings, we have 0 out of 0 which is undefined -> What can we do to fix this? <br/>
+**Smoothening or Dampening** <br/>
+Seen this in a similar context of NLP for word prob also in Page Rank <br/>
+-Formula generally works for in the average, but also works for probabilites <br/>
+-Basic Idea: <br/>
+Add a small number to the Numerator and Denominator <br/>
+If we have zero ratings, we can just default to some pre-defined value  <br/>
+-Could make u0 to the global average, or just some middle value like 3(stars) <br/>
+Problem: 3 stars might not be a good choice
+It might appear like all the products in your website doesn't have very good rating <br/>
+-Simple transition from u0 to true sample mean <br/>
+ex1. Thousand 4 star ratings u0=3, lambda=1 -> 3.999 (Pretty close to 4) <br/>
+ex2. Five 4 star ratings u0=3, lambda=1 -> 3.83  <br/>
+ex3. One 4 star rating -> 3.5  <br/>
+=> Smooth transition from the pre-defined value to the true sample mean as we collect more and more samples <br/>
+-See how Baysian approach yields the same formula (Ranking method is different)<br/>
+
+![Recommendation_System12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/adc57b69-cca9-4b65-b8e2-3ab457b4d58d)<br/>
+
 
 
 Reference: https://analystprep.com/cfa-level-1-exam/quantitative-methods/confidence-intervals-2/ <br/>
