@@ -104,6 +104,9 @@ https://drive.google.com/file/d/1LtE9GTCewsYqNO7Nrryp_VD_Ra_91bnW/view?usp=shari
 The camera onboard the robot should now move with the robot <br/>
 (Similar strategy is used to apply other onboard sensors) <br/>
 
+### Summary
+Learned how to use the Camera Inspector Extension. Additionally, learned how to add a camera to the robot <br/>
+
 Reference: <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_gui_camera_sensors.html#isaac-sim-app-tutorial-gui-camera-sensors <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/concepts/cameras/index.html#isaac-sim-cameras <br/>
