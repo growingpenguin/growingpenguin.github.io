@@ -211,6 +211,38 @@ ex2. Five 4 star ratings u0=3, lambda=1 -> 3.83  <br/>
 ex3. One 4 star rating -> 3.5  <br/>
 => Smooth transition from the pre-defined value to the true sample mean as we collect more and more samples <br/>
 -See how Baysian approach yields the same formula (Ranking method is different)<br/>
+**Explore-Exploit Dilemma** <br/>
+Also in the subjects of A/B testing or Reinforcement Learning <br/>
+Ex.Play slot machine <br/>
+-Some slot machine will give you a better reward than others <br/>
+All machines look identical, it is unknown which slot machine is better -> To measure the rewards, the only way to find this out is to play them <br/>
+-Only two outcomes exist: lose(0) or win(1) <br/>
+Like to play the slot machine where you will win the most -> Play the slot machine and calculate its win rate <br/>
+-Each slot machine is a Bernoulli random variable <br/>
+![Recommendation_System13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a77348e4-45a8-4d9e-8c72-00f3f62e5f74) <br/>
+:P hat equals the probability of winning which is number of wins divided by the total number of plays <br/>
+-How do we decide how many times we want to play each slot machine? <br/>
+Play more? or less? <br/>
+Too few times are played, estimate wouldn't be good <br/>
+-ex. 3 times played, only win once => p hat is 1 out of 3 <br/>
+It is not an accurate estimate because the confidence interval of that estimate will be very fat <br/>
+-ex. 300 times played, win 100 times => p hat is 1 out of 3 <br/>
+Estimate of one third will be more accurate <br/>
+Traditional statistical tests can tell us whether differences in the means between two different slot machines is significantly different <br/>
+-Problem:There can be only one slot machine can be optimal, others are suboptimal <br/>
+Generally more times we play, the better our estimate is <br/>
+Play 10 different slot machines 100 times each (1000 turns)-> 9 machines are suboptimal and 900 turns yielded a suboptimal reward <br/>
+This doesn't seem good as well <br/>
+-Dilemma: Play more or less? <br/>
+**Explore Exploit Dilemma** <br/>
+In order to get a good estimate, we must collect more data. The more data is collected, the better the estimate <br/>
+But on the other hand, more time is spent doing something suboptimal <br/>
+Performing both explore and exploit will be ideal, but they are inherently with odds with one another <br/>
+-Want to explore and collect more data, but I want to exploit what I believe to be the best award <br/>
+-In order to explore, exploit would be impossible, and in order to exploit, explore will be impossible <br/>
+**Explore-Exploit in Recommenders** <br/>
+-Ex.Watching a bunch of Youtube videos in how to make eggs <br/>
+
 
 ![Recommendation_System12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/adc57b69-cca9-4b65-b8e2-3ab457b4d58d)<br/>
 
