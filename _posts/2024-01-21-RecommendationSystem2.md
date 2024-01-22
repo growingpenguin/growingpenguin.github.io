@@ -107,6 +107,7 @@ Draw a box around the estimate which tells us how confident we are in the estima
 Item1: 3 ratings, Item2: 100 ratings <br/>
 => Result: <br/>
 ![Recommendation_System5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5c824294-e84b-4d76-b26e-af6acefd0f0e) <br/>
+Reference: https://analystprep.com/cfa-level-1-exam/quantitative-methods/confidence-intervals-2/ <br/>
 Item2:<br/>
 Confidence interval is skinnier(More confident in its average rating) <br/>
 Has more ratings, a bigger sample size <br/>
@@ -303,9 +304,10 @@ Not completely sure, which is why there is a prob mass for other values of the C
 For greater values of the CTR they are less likely <br/>
 Peaked Distribution(Beta Distribution): 0.7 most likely  <br/>
 Pretty confident that the CTR is 0.7 but there is some probabilities for the other values<br/>
-
-Reference: https://analystprep.com/cfa-level-1-exam/quantitative-methods/confidence-intervals-2/ <br/>
-
+**How do we learn these distributions** <br/>
+ex. I have a bunch of products I want to rank. Going to give each of them their own distributions <br/>
+The distributions start out flat and become more peaked as more data is collected(Clicks and views of the website) <br/>
+![Recommendation_System16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eb03ca1b-90b6-4fff-80e7-8544c971822f)<br/>
 Reference: <br/>
 https://github.com/reddit-archive/reddit/blob/master/r2/r2/lib/db/_sorts.pyx <br/>
 
