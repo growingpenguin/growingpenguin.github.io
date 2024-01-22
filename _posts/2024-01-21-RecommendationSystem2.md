@@ -359,8 +359,16 @@ Sort items deterministically by their known CTRs <br/>
 Mixed: explore and exploit co-exist <br/>
 -Two extremes can co-exist can have an item where one item needs more exploration because it needs more data and one item which can be exploited, because it has enough data <br/>
 -Nice thing about this method is that it is completely automatic, we don't need an AB test to figure out which item is best. Just running the algorithm and everything is ranked automatically in an optimal way <br/>
+-See this in action <br/>
+Have three items: Awesome, Ok, and Boring <br/>
+Awesome product: Product that people are most likely to click on <br/>
+Ok product: Less likely <br/>
+Boring product: Even less likely <br/>
+Created a dummy website which just shows three items in an ordered list (Like Amazon) <br/>
 ![Recommendation_System20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2a64e8cc-0e8c-455b-b463-e4af10f7c96e) <br/>
-
+Besides this is a graph, showing the current distribution of each item <br/>
+In addition, they have corresponding vertical bars, which tells us the values of the samples <br/>
+Samples are random and drawn from the corresponding distributions <br/>
 
 Reference: <br/>
 https://github.com/reddit-archive/reddit/blob/master/r2/r2/lib/db/_sorts.pyx <br/>
