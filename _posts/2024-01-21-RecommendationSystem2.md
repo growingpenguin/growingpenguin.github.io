@@ -342,6 +342,16 @@ ex.Consider the peak as two thirds, we make it a sample of 0.6665 or 0.6668, but
 We've already collected millions of datapoints for each items, because we created so many data, there is no question about what the true CTR is <br/>
 -Because being confident that we know the true CTRs, we don't have problems ranking by those CTRs or equivalently by samples close to those CTRs <br/>
 ![Recommendation_System18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1bfb2c1-87c1-45dd-a7be-c287f4dc6084) <br/>
+**Mixed Case(One Fat, One Skinny)** <br/>
+:Mixed scenario where we have one item with the very sharp peak and one item with the very fat peak <br/>
+-Sample for the sharp peak <br/>
+More likely to have a score(sample) near the peak(will be most likely to be located at the peak) <br/>
+-Sample with the very fat peak <br/> 
+Still in "exploration mode" score(sample) can be high or low <br/>
+Have a sample anywhere, have a good chance it may be ranked better than the other item, but also have a good chance it may be ranked lower as well <br/>
+=> Sometimes item1 will be ranked higher than item2 and sometimes vice versa. This is good, because we can collect more data <br/>
+
+![Recommendation_System19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b7a6d0df-6957-4f36-b172-3d8aa8a844ef)<br/>
 Reference: <br/>
 https://github.com/reddit-archive/reddit/blob/master/r2/r2/lib/db/_sorts.pyx <br/>
 
