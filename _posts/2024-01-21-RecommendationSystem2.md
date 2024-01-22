@@ -350,8 +350,18 @@ More likely to have a score(sample) near the peak(will be most likely to be loca
 Still in "exploration mode" score(sample) can be high or low <br/>
 Have a sample anywhere, have a good chance it may be ranked better than the other item, but also have a good chance it may be ranked lower as well <br/>
 => Sometimes item1 will be ranked higher than item2 and sometimes vice versa. This is good, because we can collect more data <br/>
-
 ![Recommendation_System19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b7a6d0df-6957-4f36-b172-3d8aa8a844ef)<br/>
+**Lesson** <br/>
+Bayesian method automatically balances the need to explore and exploit <br/>
+-2 fat distributions: explore both (totally random ranking) <br/>
+-2 skinny distributions: exploit both (nearly deterministic ranking) <br/>
+Sort items deterministically by their known CTRs <br/>
+Mixed: explore and exploit co-exist <br/>
+-Two extremes can co-exist can have an item where one item needs more exploration because it needs more data and one item which can be exploited, because it has enough data <br/>
+-Nice thing about this method is that it is completely automatic, we don't need an AB test to figure out which item is best. Just running the algorithm and everything is ranked automatically in an optimal way <br/>
+![Recommendation_System20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2a64e8cc-0e8c-455b-b463-e4af10f7c96e) <br/>
+
+
 Reference: <br/>
 https://github.com/reddit-archive/reddit/blob/master/r2/r2/lib/db/_sorts.pyx <br/>
 
