@@ -90,11 +90,26 @@ https://drive.google.com/file/d/1ieWpsPcj4B25fXVbJVDo7oBWMBb-DBOJ/view?usp=drive
 ### Add Articulation
 Directly driving the joints can move the robot, it is not the most computationally efficient way <br/> 
 Making things into articulations can achieve higher simulation fidelity, fewer joint errors, and can handle larger mass ratios between the jointed bodies <br/> 
-You can read more regarding the physics simulation behind it in Physics Core: Articulation <br/> 
-To turn a series of connected rigid bodies and joints into articulation, we need to set an articulation root to anchor the articulation tree. According to instructions on defining articulation trees in Physics Core: Articulation:
-    For a fixed-base articulation, add the Articulation Root Component either to: 1) the fixed joint that connects the articulation base to the world, or 2) an ancestor of the fixed joint in the USD hierarchy. The second option allows creating multiple articulations from a single root component added to the scene: Each descendant fixed joint will be defining an articulation base link. For a floating-base articulation, add the Articulation Root Component either to: 1) the root rigid-body link or 2) an ancestor of the root link in the USD hierarchy. <br/> 
-In our case, we will add the articulation root to the robot body. Select body on the tree, open + Add in the Property tab, and add Physics > Articulation Root  <br/> 
+(Read more regarding the physics simulation behind it in Physics Core: Articulation) <br/> 
+Set an articulation root to anchor the articulation tree to turn a series of connected rigid bodies and joints into articulation <br/>
+Instructions: <br/>
+For a fixed-base articulation <br/>
+Add the Articulation Root Component either to: <br/>
+1) Fixed joint that connects the articulation base to the world <br/>
+2) Ancestor of the fixed joint in the USD hierarchy <br/>
+-Second option allows creating multiple articulations from a single root component added to the scene <br/>
+-Each descendant fixed joint will be defining an articulation base link <br/>
+For a floating-base articulation <br/>
+Add the Articulation Root Component either to: <br/> 
+1) Root rigid-body link  <br/>
+2) Ancestor of the root link in the USD hierarchy <br/> 
+In our case,  the articulation root to the robot body will be added <br/>
+Select body on the tree > open + Add in the Property tab > add Physics > Articulation Root  <br/>
+![Assemble_A_Simple_Robot13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1f68ba7e-462a-4fd7-b28d-d75c2a7129f9) <br/>
+Resulting robot matches the asset provided in Isaac/Samples/Rigging/MockRobot/mock_robot_rigged.usd <br/> 
 
+Results: <br/>
+https://drive.google.com/drive/folders/13Z6HrSOikkMJ7FfcapG9c56VJOr6fxu1?usp=sharing <br/>
 
 Reference: <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_gui_simple_robot.html <br/> 
