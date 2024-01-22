@@ -49,7 +49,7 @@ terminate called without an active exception
 Fatal Python error: Aborted
 <br/>
 Solution: (Searching for it) <br/>
-
+https://forums.developer.nvidia.com/t/static-reconstruction-in-isaac-sim-tutorial-error/279656 <br/>
 
 
 ### Tutorial Walkthrough
