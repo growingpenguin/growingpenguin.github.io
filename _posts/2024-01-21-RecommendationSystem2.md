@@ -320,6 +320,28 @@ Distribition is skinnier, as more data is collected, is more confident that true
 Third Plot: 200/300 clicks<br/>
 Distribution is even more skinnier, as an infinite number of data points is approached, the distribution approaches our point estimate <br/>
 ![Recommendation_System17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6c355d61-66ab-4261-961a-3392b3e578a3) <br/>
+**How do we rank items?** <br/>
+If we have fixed numbers, it is easy. <br/>
+Ex. One item has score=5, and one item has score=3, 5 > 3 <br/>
+But if having two distributions, how do we decide which one is higher? <br/>
+**Wrong Answer** <br/>
+=>Take mean of the distribution and rank by that? A: Don't sort it by the mean <br/>
+**Thompson Sampling** <br/>
+Do this by sampling random numbers <br/>
+**Extreme Case1: Both Uniform** <br/>
+-Since both samples are equally likely to be any number between 0 and 1 <br/>
+Samples we draw are completely random and it is not really predictable which will come first <br/>
+-That's OK, because this means we have no data, we need to explore(Gain views and potentially clicks) <br/>
+If we don't know which of these items are more likely to be clicked on, data needs to be collected to give us a better idea <br/>
+We need to show these items to users to see if they will be clicked or not. Only after the items are seen by the users, we know whether the items are good or not <br/>
+**Extreme Case2: Both Sharp Peaks** <br/>
+-When the peak is very sharp(approaching a deterministic variable), the sample will be very close to the peak <br/> 
+-Highly likely that the item with the highest value peak wins <br/>
+ex.Consider the peak as two thirds, we make it a sample of 0.6665 or 0.6668, but there is no chance like drawing a sample like 0.2, because of this, it is highly likely that the item whose peak is located at the highest position will win <br/>
+-Real-World: We've collected so much data, we're very confident of CTR <br/>
+We've already collected millions of datapoints for each items, because we created so many data, there is no question about what the true CTR is <br/>
+-Because being confident that we know the true CTRs, we don't have problems ranking by those CTRs or equivalently by samples close to those CTRs <br/>
+![Recommendation_System18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1bfb2c1-87c1-45dd-a7be-c287f4dc6084) <br/>
 Reference: <br/>
 https://github.com/reddit-archive/reddit/blob/master/r2/r2/lib/db/_sorts.pyx <br/>
 
