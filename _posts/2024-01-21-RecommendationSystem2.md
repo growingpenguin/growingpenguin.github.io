@@ -190,6 +190,7 @@ Penalized twice <br/>
 Lower bound is good, because it accounts for number of people who rated the item <br/>
 -Higher the number of raters -> smaller CI(Confidence Interval) -> higher lower bound <br/>
 -Popularity increases its score <br/>
+
 ## Problems with Averate Rating & Explore vs. Exploit (part 2)
 **More problems with average rating** <br/>
 Get another method of fixing the problem of ranking by average rating <br/>
@@ -211,6 +212,7 @@ ex2. Five 4 star ratings u0=3, lambda=1 -> 3.83  <br/>
 ex3. One 4 star rating -> 3.5  <br/>
 => Smooth transition from the pre-defined value to the true sample mean as we collect more and more samples <br/>
 -See how Baysian approach yields the same formula (Ranking method is different)<br/>
+![Recommendation_System12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/adc57b69-cca9-4b65-b8e2-3ab457b4d58d)<br/>
 **Explore-Exploit Dilemma** <br/>
 Also in the subjects of A/B testing or Reinforcement Learning <br/>
 Ex.Play slot machine <br/>
@@ -241,12 +243,66 @@ Performing both explore and exploit will be ideal, but they are inherently with 
 -Want to explore and collect more data, but I want to exploit what I believe to be the best award <br/>
 -In order to explore, exploit would be impossible, and in order to exploit, explore will be impossible <br/>
 **Explore-Exploit in Recommenders** <br/>
--Ex.Watching a bunch of Youtube videos in how to make eggs <br/>
+Ex.Watching a bunch of Youtube videos in how to make eggs <br/>
+-Exploit: Show you tons of videos how to make eggs <br/>
+-> After showing tons of videos how to make eggs, nothing else is suggested <br/>
+Lots of exploiting, but no exploring <br/>
+-Maybe suboptimal, because after making, eggs, I might not want to watch any more videos about making eggs anymore <br/>
+-Stronger exploration component might be needed <br/>
+Watch videos on ml or videos about movie trailers <br/>
+Eggs have nothing to do with ml or movie trailers, can easily suggest what I don't care about <br/>
+-Exploring doesn't guarantee something I like <br/>
+Have the risk of making bad recommendations <br/>
+**Explore-Exploit** <br/>
+-How do we strike balance between two opposing forces of explore exploit? <br/>
+:Smoothed average gives us one part of solution <br/>
+Makes really bad products appear better than they are and good products appear worse than they are until enough confidence is earned to converge to true values <br/>
+Result: Mix of probably good and probably bad products <br/>
+-Top recommendations will be still be good products that have high confidence <br/>
+-Next: Bayesian Solution to this problem <br/>
 
-
-![Recommendation_System12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/adc57b69-cca9-4b65-b8e2-3ab457b4d58d)<br/>
-
-
+## Bayesian Ranking(Beginner Version) 
+**Bayesian Ranking(Beginner Version)** <br/>
+Advanced method of sorting items <br/>
+Use the Bayesian paradigm instead of fixed scores <br/>
+Brief overview & demo <br/>
+**Lessons** <br/>
+Do not want to sort by average rating, and every lesson is trying to avoid this <br/>
+Explore-Exploit Dilemma <br/>
+-Confident with 100 people clicking over 100 views <br/>
+Difference exists between 1 person clicking over 1 view and 100 people clicking over 100 views <br/>
+**Bayesian Method** <br/>
+-Previous ranking used a fix number(score) (Already know the mean is not suitable) <br/>
+-Sort by the lower confidence bound? <br/>
+->Ranking by the fixed number don't seem right <br/>
+-Ranking be totally random? <br/>
+Ranking itself will be totally random and useless <br/>
+-Common misconception: Random means "completely disordered" <br/>
+->Random variable is characterized by its distribution <br/>
+ex. Normal Distribution: 
+If it were to draw a random number, the most likely number is the values that are more likely and less likely and range of values we might get(any number on the real line) <br/>
+**Click Through Rates(CTR)** <br/>
+-Goal: Rank products based on which are more likely to be clicked(order by CTR) <br/>
+Get more people to click > Takes them to the product page > Presumably make a purchase <br/>
+-click=1 & view=0 -> CTR=mean <br/>
+Problem: Don't want to do this <br/>
+**Bayes: Bringing it all together** <br/>
+Treat the CTR not as a fixed number, but as a random number(i.e.with a distribution) <br/>
+![Recommendation_System15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5ca61008-61c4-40fc-a1c3-f62d93a87432)
+<br/>
+-All the distributions are bounded between 0 and 1 <br/>
+Click through rates can only be between 0 and 1 so we should better pick a distribution that matches the requirement <br/>
+Uniform distribution: All values equally likely <br/>
+Completely flat <br/>
+Pretty much don't know anything about what the click through rate is <br/>
+Any click through rate between 0 and 1 is equally likely <br/>
+Exponential Distribution: 0 most likely, 1 least likely <br/> 
+Ramp that starts off at zero then goes down to one <br/>
+Highest point is at zero, so the most likely click through rate is zero <br/>
+Not completely sure, which is why there is a prob mass for other values of the CTR <br/>
+For greater values of the CTR they are less likely <br/>
+Peaked Distribution(Beta Distribution): 0.7 most likely  <br/>
+Pretty confident that the CTR is 0.7 but there is some probabilities for the other values<br/>
 
 Reference: https://analystprep.com/cfa-level-1-exam/quantitative-methods/confidence-intervals-2/ <br/>
 
