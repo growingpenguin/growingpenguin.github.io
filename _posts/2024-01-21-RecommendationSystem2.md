@@ -305,9 +305,21 @@ For greater values of the CTR they are less likely <br/>
 Peaked Distribution(Beta Distribution): 0.7 most likely  <br/>
 Pretty confident that the CTR is 0.7 but there is some probabilities for the other values<br/>
 **How do we learn these distributions** <br/>
+![Recommendation_System16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eb03ca1b-90b6-4fff-80e7-8544c971822f)<br/>
 ex. I have a bunch of products I want to rank. Going to give each of them their own distributions <br/>
 The distributions start out flat and become more peaked as more data is collected(Clicks and views of the website) <br/>
-![Recommendation_System16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eb03ca1b-90b6-4fff-80e7-8544c971822f)<br/>
+-View: Every time a user sees a product <br/>
+-Click: Every time a user clicks a product <br/>
+**How do we learn these distributions** <br/>
+Example <br/>
+What happens when we collect data? <br/>
+First Plot: 2/3 clicks<br/>
+Distribution is pretty wide, and less confident about the true value <br/>
+Second Plot: 20/30 clicks<br/>
+Distribition is skinnier, as more data is collected, is more confident that true ctr really is CTR <Br/>
+Third Plot: 200/300 clicks<br/>
+Distribution is even more skinnier, as an infinite number of data points is approached, the distribution approaches our point estimate <br/>
+![Recommendation_System17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6c355d61-66ab-4261-961a-3392b3e578a3) <br/>
 Reference: <br/>
 https://github.com/reddit-archive/reddit/blob/master/r2/r2/lib/db/_sorts.pyx <br/>
 
