@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b484b0e0-4868-4678-876f-e333d026772c)---
+---
 layout: post
 title:  "Recommendation System Section2"
 ---
@@ -359,16 +359,51 @@ Sort items deterministically by their known CTRs <br/>
 Mixed: explore and exploit co-exist <br/>
 -Two extremes can co-exist can have an item where one item needs more exploration because it needs more data and one item which can be exploited, because it has enough data <br/>
 -Nice thing about this method is that it is completely automatic, we don't need an AB test to figure out which item is best. Just running the algorithm and everything is ranked automatically in an optimal way <br/>
--See this in action <br/>
+**See this in action** <br/>
 Have three items: Awesome, Ok, and Boring <br/>
 Awesome product: Product that people are most likely to click on <br/>
-Ok product: Less likely <br/>
-Boring product: Even less likely <br/>
+Ok product: Product that is less likely to click on <br/>
+Boring product: Product that is even less likely to click on <br/>
 Created a dummy website which just shows three items in an ordered list (Like Amazon) <br/>
 ![Recommendation_System20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2a64e8cc-0e8c-455b-b463-e4af10f7c96e) <br/>
-Besides this is a graph, showing the current distribution of each item <br/>
-In addition, they have corresponding vertical bars, which tells us the values of the samples <br/>
+Ranking <br/>
+1.Awesome <br/>
+2.Boring <br/>
+3.Ok <br/>
+Graph: Shows us the current distribution of each item <br/>
+-Have corresponding vertical bars telling us the values of the samples <br/>
 Samples are random and drawn from the corresponding distributions <br/>
+-Green vertical line sampled from the green distribution <br/>
+-Distribution for each item is flat, know nothing about the CTR, because no one has seen this website yet, we know about their CTRs  <br/>
+-Items are ordered pretty randomly. Ok > Boring > Awesome <br/>
+**People visiting the website scenario1** <br/>
+1st visitor: User click the awesome item, because we are interested in awesome products <br/>
+**People visiting the website scenario2** <br/>
+2nd visitor: Refresh this page, and pretend we are the second person to ever visit this website <br/>
+Distributions for all the items changed <br/>
+Ranking <br/>
+1.Awesome <br/>
+2.Boring <br/>
+3.Ok <br/>
+Awesome ranked at the top and then have boring and then ok <br/>
+Boring and Ok have an equal chance of being 2 and 3rd place <br/>
+![Recommendation_System21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bcca18fd-c4f1-47a1-ba40-490bd6848f89) <br/>
+Awesome sloped upwards while ok and boring items are sloped downwards <br/>
+This makes sense because nobody clicked on ok and boring items <br/>
+**People visiting the website scenario3** <br/>
+3rd visitor: 
+Boring item: Still peaked to zero, but with a steeper slope  <br/>
+Awesome item: Still peaked at one, but with the opposite slope <br/>
+Ok item: Ok is peaked in the middle, which makes sense because upon viewing twice, we only clicked once <br/>
+Click through rate is 0.5, but is wide, because 2/1 is not enough data to be confident <br/>
+Ranking <br/>
+1.Awesome <br/>
+2.Ok <br/>
+3.Boring <br/>
+Samples drawn correspond to the ranking <br/>
+**People visiting the website scenario4** <br/>
+
+
 
 Reference: <br/>
 https://github.com/reddit-archive/reddit/blob/master/r2/r2/lib/db/_sorts.pyx <br/>
