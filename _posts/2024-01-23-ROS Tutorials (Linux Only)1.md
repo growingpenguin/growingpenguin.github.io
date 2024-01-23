@@ -127,3 +127,6 @@ Perspective tutorials for details on how to use them <br/>
 Tutorial covered the following topics: <br/>
 URDF import <br/>
 Tuning the robot parameters <br/>
+
+Reference <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/ros_tutorials/tutorial_ros_turtlebot.html <br/>
