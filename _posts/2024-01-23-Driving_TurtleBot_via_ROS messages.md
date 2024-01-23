@@ -82,8 +82,7 @@ Build a graph that matches the one above <br/>
 **On Playback Tick Node**: <br/>
 <picture> <br/>
 Producing a tick when simulation is “Playing”. <br/>
-Nodes that receives ticks from this node will execute their compute functions every simulation step.
-
+Nodes that receives ticks from this node will execute their compute functions every simulation step.<br/>
 **ROS Subscribe Twist Node**: <br/>
 <picture> <br/>
 Subscribing to a Twist message <br/>
