@@ -67,3 +67,7 @@ Number of movies rated, is just a fraction of a percent of total of movies in th
 -> Good mathematically, but business-wise, it sucks (=Every user has already seen every movie) <br/>
 Nothing to recommend <br/>
 => Matrix must be sparse so that you can have something to recommend to the user <br/>
+-Guess the ratings in the ratings matrix might be <br/>
+Want to guess what you might rate a movie you haven't seen yet <br/>
+![Recommendation_System26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/21b926fe-75a1-4d43-9741-903378efe3cf) <br/>
+
