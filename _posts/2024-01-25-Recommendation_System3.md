@@ -33,6 +33,8 @@ Central object for the next few sections of the course <br/>
 | User 2      | 4      |        | ... | 2      |
 | ...         | ...    | ...    | ... | ...    |
 | User n      | 2      | 1      | ... | 5      | <br/>
+
+
 **Relationship to NLP** <br/>
 User-item matrix is reminiscent of term-document matrix <br/>
 (term: word document matrix) <br/>
