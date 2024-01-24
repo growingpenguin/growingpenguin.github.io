@@ -121,3 +121,10 @@ Intuitively, want Alice's ratings to matter more, and Carol's weighting to matte
 ![Recommendation_System28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/470d493c-b8d8-432b-9085-dabaa68e87dd) <br/>
 ri'j: Rating that user i' gives to the item j  <br/>
 wii': Weight between user i and user i' <br/>
+-Want the weight to be large if user i and user i' are in agreement and want to be small if they are not <br/>
+**Another issue with average rating** <br/>
+-Your interpretation of rating is different from mine <br/>
+-Users can be biased to be optimistic or pessimistic <br/>
+Optimistic: Rate most of the movies of 5, rate bad movie as 3  <br/>
+Pessimistic: Rate most of the movies 1 or 2, good movie as 4 <br/>
+![Recommendation_System29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f2c43484-5480-462c-a983-c91f763d4efe)<br/>
