@@ -67,6 +67,25 @@ Solution: (Searching for it...) <br/>
 https://forums.developer.nvidia.com/t/tutorial-for-freespace-segmentation-with-isaac-sim-rviz-nothing-displayed/279466 <br/>
 (7)Optionally, you can run the visualizer script to visualize the disparity image <br/>
 
+286.1 Turn off this advice by setting config variable advice.detachedHead to false
+286.1 
+286.1 HEAD is now at 2df716c Rebase from 'upstream' (no changes)
+------
+ubuntu_20_foxy_minimal.dockerfile:82
+--------------------
+  81 |     
+  82 | >>> RUN mkdir -p ${ROS_ROOT}/src && \
+  83 | >>>     cd ${ROS_ROOT} && \
+  84 | >>>     rosinstall_generator --deps --rosdistro ${ROS_DISTRO} rosidl_runtime_c rcutils rcl rmw tf2_msgs geometry_msgs nav_msgs std_msgs rosgraph_msgs sensor_msgs vision_msgs rclpy ros2topic ros2pkg ros2doctor ros2run ros2node ros_environment > ros2.${ROS_DISTRO}.${ROS_PKG}.rosinstall && \
+  85 | >>>     cat ros2.${ROS_DISTRO}.${ROS_PKG}.rosinstall && \
+  86 | >>>     vcs import src < ros2.${ROS_DISTRO}.${ROS_PKG}.rosinstall
+  87 |     
+--------------------
+ERROR: failed to solve: process "/bin/sh -c mkdir -p ${ROS_ROOT}/src &&     cd ${ROS_ROOT} &&     rosinstall_generator --deps --rosdistro ${ROS_DISTRO} rosidl_runtime_c rcutils rcl rmw tf2_msgs geometry_msgs nav_msgs std_msgs rosgraph_msgs sensor_msgs vision_msgs rclpy ros2topic ros2pkg ros2doctor ros2run ros2node ros_environment > ros2.${ROS_DISTRO}.${ROS_PKG}.rosinstall &&     cat ros2.${ROS_DISTRO}.${ROS_PKG}.rosinstall &&     vcs import src < ros2.${ROS_DISTRO}.${ROS_PKG}.rosinstall" did not complete successfully: exit code: 1
+
+
+
+
 
 
 Reference: <br/>
