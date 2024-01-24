@@ -27,6 +27,12 @@ Right hand side still doesn't depend on i <br/>
 **Ratings Matrix** <br/>
 Central object for the next few sections of the course <br/>
 ![Recommendation_System25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1635d473-4daa-46b0-b36d-e765dbb37d50) <br/>
+| User \ Item | Item 1 | Item 2 | ... | Item m |
+|-------------|--------|--------|-----|--------|
+| User 1      | 5      | 3      | ... | 1      |
+| User 2      | 4      |        | ... | 2      |
+| ...         | ...    | ...    | ... | ...    |
+| User n      | 2      | 1      | ... | 5      | <br/>
 
 
 
