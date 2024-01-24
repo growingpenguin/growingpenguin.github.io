@@ -266,7 +266,6 @@ Launch ROS 2 Nodes <br/>
 
 
 **Setting Up Workspaces** <br/>
-
 (1)Clone the Isaac Sim ROS Workspace Repository from https://github.com/NVIDIA-Omniverse/IsaacSim-ros_workspaces <br/>
 (2)A few ROS packages are needed to go through the Isaac Sim ROS / ROS 2 tutorial series. To make it easy, entire ROS and ROS2 workspaces with the necessary packages are included.
 => Ubuntu > Foxy <br/>
@@ -286,10 +285,32 @@ Error  <br/>
 ![Omniverse_IssacSim180](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eaf388e4-18bb-44b5-845d-08ae49a8db9e) <br/>
 Solution: (Searching for it...) <br/>
 https://forums.developer.nvidia.com/t/troubleshooting-broken-ros-packages-in-isaac-sim-workspace-setup/278881 <br/>
-(3)Resolve any package dependencies from the root of the ROS2 workspace by running the following command <br/>
-
-
-
+=> Couldn't find a solution for building it from source <br/>   
+Way to diverge the Error: <br/>
+Use the IsaacSim ROS Workspace Repository (The one cloned in the Isaac Sim ROS Workspace Repository from https://github.com/NVIDIA-Omniverse/IsaacSim-ros_workspaces) <br/>
+![Omniverse_IssacSim181](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1d83da7d-2147-4220-83e2-e3dbc3253010) <br/>
+Under the root directory, new build, install, and log directories will be created <br/>   
+(2)-5 Open a new terminal and source the workspace with the following commands <br/>
+![Omniverse_IssacSim182](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33f90a6b-9157-4e3e-9d41-9352618668e0) <br/>
+Add a line in bashrc, that sources the IsaacSim ROS Workspace <br/>
+![Omniverse_IssacSim183](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/413e55d6-f497-4a36-963a-47f42d5b5877) <br/> 
+![Omniverse_IssacSim184](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cf31ac0d-18db-44cd-ade6-68ce04046b64) <br/> 
+<br/>
+**Building ROS 2 Workspaces with Python3.10** <br/>
+If you want to use rclpy with Isaac Sim your ROS 2 workspace must be built with Python3.10 <br/>
+Dockerfiles which builds minimal dependencies of ROS 2 with Python3.10 is provided<br/>
+Ubuntu20 > Foxy <br/>
+Minimal dockerfile will be used to build our workspace with Python3.10 <br/> 
+(Ensure that docker is installed on your system) -> Installed <br/>
+(1)Clone Isaac Sim ROS Workspace <br/>
+=> Already Done <br/>
+(2)Build dockerfile <br/>
+![Omniverse_IssacSim185](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ed5d8611-de16-4cb3-a457-de7ad97f8f0c) <br/>
+Minimal foxy_ws needed to run Isaac Sim is under build_ws/foxy/foxy_ws <br/>
+Additional workspaces can also be created and built in this dockerfile <br/>
+![Omniverse_IssacSim186](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/124a1f9d-fa8b-4e8b-bceb-34d4e4b8b8f7) <br/>
+(3)Now source the ROS 2 workspace <br/>
+Run Isaac Sim from the same terminal, the sourced workspace contains the minimal ROS 2 Foxy dependencies needed to enable the ROS 2 bridge <br/>
 
 
 
