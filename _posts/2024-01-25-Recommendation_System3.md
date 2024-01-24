@@ -104,6 +104,18 @@ Probably a good recommendation. Looking at Alice's ratings, Bob's is very simila
 Mathematically, Bob and Alice's ratings are highly correlated and Bob's ratings don't agree with Carol's at all(Negative Correlation) <br/>
 **Average Rating** <br/>
 -Limited <br/>
-Is not personalized doesn't take into account the user i at all. Just a vanilla average rating <br/>
+Not personalized, doesn't take into account the user i at all. Equally treat everyone's rating of the movie <br/>
+-Bob's s(i, j) equally depends on Alice's rating and Carol's rating, even though he doesn't agree with Carol <br/>
+|       | Batman | X-Men | Star Wars | The Notebook | Bridget Jones's Diary |
+|-------|--------|-------|-----------|--------------|-----------------------|
+| Alice | 5      | 4.5   | 5         | 2            | 1                     |
+| Bob   | 4.5    | 4     |           | 2            | 2                     |
+| Carol | 2      | 3     | 1         | 5            | 5                     | <br/>
 
 
+**Weighting Ratings** <br/>
+Way of fixing Average Rating is to put a weight in each rating <br/>
+-Want it to be small for users I don't agree with, large for users I do agree with <br/>
+Intuitively, want Alice's ratings to matter more, and Carol's weighting to matter less <br/>
+-Have to divide by the weights themselves in the denominator (Want the final rating to be on the right scale) <br/> 
+![Recommendation_System28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/470d493c-b8d8-432b-9085-dabaa68e87dd) <br/>
