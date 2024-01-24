@@ -33,6 +33,37 @@ Central object for the next few sections of the course <br/>
 | User 2      | 4      |        | ... | 2      |
 | ...         | ...    | ...    | ... | ...    |
 | User n      | 2      | 1      | ... | 5      | <br/>
-
-
-
+**Relationship to NLP** <br/>
+User-item matrix is reminiscent of term-document matrix <br/>
+(term: word document matrix) <br/>
+X(t, d): # of times term t appears in document d <br/>
+-In terms of recommendation systems, can think of X(t, d) as "how much does t like the item d?" <br/>
+-ex. gravity appears a lot in a document written by Albert Einstein <br/>
+=> gravity likes this document Albert Einstein wrote <br/>
+-Data having the same structure -> Techniques used to analyze the same matrix, cross over the two fields <br/>
+-Matrix Factorization: Deep NLP <br/>
+-SVD: Unsupervised Deep Learning + NLP <br/>
+**Sparsity** <br/>
+Charasteristics of user-item matrix that makes it unique to recommendation system is that it is sparse <br/>
+(Not necessarily meaning entries having 0s) <br/>
+-Term-document matrix is sparse: <br/>
+Most entries are 0 <br/>
+-User-item matrix is sparse <br/>
+More entries are empty <br/>
+(Most entries of user item matrix is undefined or don't exist) <br/>
+Why? <br/>
+Suppose Netflix having 100 million users <br/>
+Ex1. <br/>
+Suppose you are an average user, How many movies have you watched? <br/>
+Among those watched movies, how many have you rated? <br/>
+Ex2. <br/>
+In Google, 500,000 movies exist <br/>
+Number of movies rated, is just a fraction of a percent of total of movies in the world <br/>
+-> Full user-item matrix is expected to be extremely sparse <br/>
+**Goal of Collaborative Filtering** <br/>
+-Want to make recommendations <br/>
+-Ratings matrix, r(i, j), most of the values don't exist-This is good <br/>
+-Ex. Matrix is dense, every value filled up <br/>
+-> Good mathematically, but business-wise, it sucks (=Every user has already seen every movie) <br/>
+Nothing to recommend <br/>
+=> Matrix must be sparse so that you can have something to recommend to the user <br/>
