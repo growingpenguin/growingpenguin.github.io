@@ -266,6 +266,7 @@ Launch ROS 2 Nodes <br/>
 
 
 **Setting Up Workspaces** <br/>
+
 (1)Clone the Isaac Sim ROS Workspace Repository from https://github.com/NVIDIA-Omniverse/IsaacSim-ros_workspaces <br/>
 (2)A few ROS packages are needed to go through the Isaac Sim ROS / ROS 2 tutorial series. To make it easy, entire ROS and ROS2 workspaces with the necessary packages are included.
 => Ubuntu > Foxy <br/>
