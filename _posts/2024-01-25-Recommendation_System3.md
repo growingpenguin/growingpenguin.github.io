@@ -119,3 +119,5 @@ Way of fixing Average Rating is to put a weight in each rating <br/>
 Intuitively, want Alice's ratings to matter more, and Carol's weighting to matter less <br/>
 -Have to divide by the weights themselves in the denominator (Want the final rating to be on the right scale) <br/> 
 ![Recommendation_System28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/470d493c-b8d8-432b-9085-dabaa68e87dd) <br/>
+ri'j: Rating that user i' gives to the item j  <br/>
+wii': Weight between user i and user i' <br/>
