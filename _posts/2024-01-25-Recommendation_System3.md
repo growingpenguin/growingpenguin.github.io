@@ -73,3 +73,37 @@ Nothing to recommend <br/>
 Want to guess what you might rate a movie you haven't seen yet <br/>
 ![Recommendation_System26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/21b926fe-75a1-4d43-9741-903378efe3cf) <br/>
 Regression problem, to predict a real value variable <br/>
+r hat: prediction for what you will rate an item <br/>
+Can recommend items sorted by its scores <br/>
+E.g. If you think a movie will be rated 5, definitely recommend that movie <br/>
+=> Want to find s(i,j), user item recommendation score, and will be predicted scores of items you haven't seen <br/>
+**Regression** <br/>
+Want to predict a real number <br/>
+Objective is MSE(mean squared error) <br/>
+Outline <br/>
+User-user Collaborative Filtering <br/>
+Item-item Collaborative Filtering <br/>
+Process <br/>
+(1)Take our model's predicted ratings <br/>
+(2)Compare them to the actual ratings <br/>
+(3)Square the difference <br/>
+(4)Take average of those squared differences <br/>
+![Recommendation_System27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1594e0b5-b5fc-4312-bd23-ead45e869beb) <br/>
+## User-user Collaborative Filtering 
+**User-user Collaborative Filtering** <br/>
+Ex. Slice of the user-movie matrix <br/>
+-Alice really seems to like action movies(Batmen, X-men, Star Wars), dislike romance movies(The Notebook, Bridget Jones's Diary) <br/>
+-Bob thinks similar ways as Alice <br/>
+Bob likes action movies(Batmen, X-men, Star Wars) as well and really dislikes romance movies(The Notebook, Bridget Jones's Diary) <br/>
+-Carol has the opposite perspective to Alice and Bob <br/>
+Carol like romance movies(The Notebook, Bridget Jones's Diary), but don't care about the action movies(Batmen, X-men, Star Wars) <br/>
+-Bob hasn't seen Star Wars. Would Star Wars be a good recommendation for Bob? <br/>
+Intuitive Perspective <br/>
+Probably a good recommendation. Looking at Alice's ratings, Bob's is very similar <br/>
+-> we can assume Bob will feel the same way Alice does <br/>
+Mathematically, Bob and Alice's ratings are highly correlated and Bob's ratings don't agree with Carol's at all(Negative Correlation) <br/>
+**Average Rating** <br/>
+-Limited <br/>
+Is not personalized doesn't take into account the user i at all. Just a vanilla average rating <br/>
+
+
