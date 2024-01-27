@@ -1,4 +1,4 @@
-# Isaac ROS AprilTag
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b4449b60-d721-47cc-91c2-c91767c3efc2)# Isaac ROS AprilTag
 Isaac ROS AprilTag: <br/>
 ROS 2 package for detection of AprilTags, a type of fiducial marker that provides a point of reference or measure <br/>
 -AprilTag detections are GPU-accelerated for high performance <br/>
@@ -26,7 +26,24 @@ Already Done <br/>
 ![AprilTag3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d8bc1f3a-660a-48fa-811b-6c0ce6044de0) <br/>
 (3)Pull down a ROS Bag of sample data <br/>
 ![AprilTag4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea218fa9-fc65-4d2e-b136-a60108d9b447) <br/>
+(4)Launch the Docker container using the run_dev.sh script <br/>
 ![AprilTag5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dec6c58b-5ee0-4a91-8b54-1b358274c9d9) <br/>
+(5)Install this package’s dependencies <br/>
+![AprilTag6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6ebdeb77-4e6f-4384-ac35-0d75e1ef50ee) <br/>
+(6)Run the following launch files to spin up a demo of this package <br/>
+![AprilTag7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a500e497-f48a-4a9d-94ec-5c059d4d7222) <br/>
+(7)Open a second terminal inside the docker container <br/>
+![AprilTag8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac0d8cae-bd46-40f1-8d39-58f040afc7d5) <br/>
+(8)Run the rosbag file to simulate an image stream <br/>
+![AprilTag9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/60d8271a-ce00-46c6-b3a1-cfd7b238a85f) <br/>
+(9)Open a third terminal inside the docker container <br/>
+![AprilTag10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bcd02d4a-ebef-4f3a-94c0-087abb467b94) <br/>
+(10)Observe the AprilTag detection output /tag_detections on a separate terminal with the command <br/>
+![AprilTag11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b8432f4d-5487-4e3f-9928-bb21e30048b6) <br/>
+
+
+
+
 
 
 
