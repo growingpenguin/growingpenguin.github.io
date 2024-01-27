@@ -1,7 +1,9 @@
-
-
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b4449b60-d721-47cc-91c2-c91767c3efc2)# Isaac ROS AprilTag
-Isaac ROS AprilTag: <br/>
+---
+layout: post
+title:  "Assignment: 5th Week - Follow Isaac_ROS_AprilTag Repository"
+---
+# Isaac ROS AprilTag
+Isaac ROS AprilTag <br/>
 ROS 2 package for detection of AprilTags, a type of fiducial marker that provides a point of reference or measure <br/>
 -AprilTag detections are GPU-accelerated for high performance <br/>
 ![AprilTag1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d19a21c3-4a5b-4f44-95e6-67ff220f3033) <br/>
@@ -42,11 +44,6 @@ Already Done <br/>
 ![AprilTag10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bcd02d4a-ebef-4f3a-94c0-087abb467b94) <br/>
 (10)Observe the AprilTag detection output /tag_detections on a separate terminal with the command <br/>
 ![AprilTag11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b8432f4d-5487-4e3f-9928-bb21e30048b6) <br/>
-
-
-
-
-
 
 
 Reference <br/>
