@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f8f4300e-1808-4d7b-8417-ecb187bdc60d)---
 layout: post
 title:  "Assignment: 5th Week - Follow Isaac_ROS_Compression Repository"
 ---
@@ -59,11 +59,13 @@ You will be able to visualize the decoded images after the last step <br/>
 ![Compression5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1d693496-ed2f-464a-94f3-406c7f10d7dc) <br/>
 (6)Run the following launch files to run the demo of this isaac_ros_h264_decoder <br/>
 ![Compression6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/aed86bad-7d29-4908-970c-2868b7859c56) <br/>
-
-
-
-
-
+(7)Open a second terminal and attach to the container <br/>
+![Compression7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/97b724d8-6f74-4609-bbb9-a3b108b73a90) <br/>
+(8)Visualize and validate the output of the package <br/>
+Left Image View <br/>
+![Compression8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/76776b83-616c-4c42-a516-63d70304701b) <br/>
+Right Image View <br/>
+![Compression9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/165c5ac9-cec1-40d7-895c-233a6c0ad9b7) <br/>
 
 
 ### [isaac_ros_h264_encoder](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_compression/isaac_ros_h264_encoder/index.html#quickstart) QuickStart 
