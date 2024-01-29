@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/93eec8ff-f650-4959-8573-a289510c10e1)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/55b41f6a-f2bd-498d-9128-037bce855cb8)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8130a7eb-3e2a-42a4-bdbe-22fe42e7a87f)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f4a58f3a-711a-4b93-8a70-061d52cf8a63)---
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d4899ec9-c214-4766-9d3b-5ca6ea19149c)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/93eec8ff-f650-4959-8573-a289510c10e1)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/55b41f6a-f2bd-498d-9128-037bce855cb8)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8130a7eb-3e2a-42a4-bdbe-22fe42e7a87f)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f4a58f3a-711a-4b93-8a70-061d52cf8a63)---
 layout: post
 title:  "Assignment: 3rd Week - Test Isaac_ROS_Freespace Segmentation Repository"
 ---
@@ -68,11 +68,15 @@ Save it in bashrc <br/>
 
 **Try some examples** <br/>
 Source the setup file and then run a C++ talker: <br/>
-
+![FreespaceSegmentation62](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/60810037-4b67-42ae-93da-7acff431edbd) <br/>
+In one terminal, source the setup file and then run a C++ talker <br/>
 Source the setup file and then run a Python listener: <br/>
-
-
-
+![FreespaceSegmentation63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0f073471-b8f5-4859-96bc-87203ab1b7cb) <br/>
+Talker saying that it’s Publishing messages and the listener saying I heard those messages <br/>
+. This verifies both the C++ and Python APIs are working properly <br/>
+ <br/>
+Ensure vision_msgs_package is built from the ros2 branch <br/>
+The ROS 2 Bridge in Isaac Sim depends on this package, make sure the workspace containing this package is sourced before running Isaac Sim from the same terminal <br/>
 
 
 
