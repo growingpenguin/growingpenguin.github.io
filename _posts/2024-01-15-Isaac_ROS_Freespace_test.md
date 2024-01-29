@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/93eec8ff-f650-4959-8573-a289510c10e1)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/55b41f6a-f2bd-498d-9128-037bce855cb8)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8130a7eb-3e2a-42a4-bdbe-22fe42e7a87f)![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f4a58f3a-711a-4b93-8a70-061d52cf8a63)---
 layout: post
 title:  "Assignment: 3rd Week - Test Isaac_ROS_Freespace Segmentation Repository"
 ---
@@ -17,7 +17,82 @@ Tutorial with RealSense, Tutorial with Zed, Tutorial with Isaac Sim <br/>
 (2)-1 Install Isaac Sim, choosing the appropriate working environment <br/>
 => Already Done <br/>
 (2)-2 Follow the [Running Native ROS](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.html) instructions to ensure that ROS 2 and the required packages are installed to successfully enable the ROS 2 Bridge in Omniverse Isaac Sim <br/>
-Ubuntu 20.04 Foxy <br/>
+Ubuntu 20.04 Humble <br/>
+->Install humble from source <br/>
+ROS 2 Humble Ubuntu 20.04 <br/>
+**System requirements** <br/>
+Tier 3: Ubuntu Linux - Focal (20.04) 64-bit <br/>
+**System setup** <br/>
+Set locale <br/>
+Make sure you have a locale which supports UTF-8 <br/>
+![FreespaceSegmentation43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cddfb160-f523-46cd-9e9c-9e658492ad86) <br/>
+![FreespaceSegmentation44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8af30661-64b9-4364-ad22-087a12be28d4) <br/>
+![FreespaceSegmentation45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d508807a-f4db-4790-86e5-184efcc03beb) <br/>
+![FreespaceSegmentation46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/83513a88-f741-4260-a5a3-b0741ec239af) <br/>
+**Add the ROS 2 apt repository** <br/>
+Need to add the ROS 2 apt repository to your system <br/>
+Ensure that the Ubuntu Universe repository is enabled <br/>
+![FreespaceSegmentation47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c60ac2f1-8a51-4dc0-a0be-fb9e11c159e9) <br/>
+Now add the ROS 2 GPG key with apt <br/>
+![FreespaceSegmentation48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4d4425b3-51f3-4f3f-8723-c187b4369aab) <br/>
+![FreespaceSegmentation49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7948e96f-18b2-4011-b157-dde9b2df6d0b) <br/>
+Add the repository to your sources list <br/>
+![FreespaceSegmentation50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c79da89e-a0ca-464c-852a-af0f8dc02d4a) <br/>
+**Install development tools and ROS tools** <br/>
+Install common packages <br/>
+![FreespaceSegmentation51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/064ee5ed-e68e-4f76-b1e7-47ab0573a775) <br/>
+Install packages according to your Ubuntu version <br/>
+![FreespaceSegmentation52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2205fb7d-4743-493a-a55f-542608f6913b) <br/>
+**Get ROS 2 code** <br/>
+![FreespaceSegmentation53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dc5da957-2f28-420c-8e95-189e2e8e9ac0) <br/>
+**Install dependencies using rosdep** <br/>
+ROS 2 packages are built on frequently updated Ubuntu systems. It is always recommended that you ensure your system is up to date before installing new packages <br/>
+![FreespaceSegmentation54](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4066fce4-62d8-4c3a-b658-b866c90d1cb2) <br/>
+![FreespaceSegmentation55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be92124b-a493-4912-96d6-44b06eb59c2d) <br/>
+![FreespaceSegmentation56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/68828fd7-6a57-476a-8ba8-e06b61d32402) <br/>
+**Build the code in the workspace** <br/>
+If you have already installed ROS 2 another way (either via Debians or the binary distribution) <br/>
+Make sure that you run the below commands in a fresh environment that does not have those other installations sourced <br/>
+Also ensure that you do not have source /opt/ros/${ROS_DISTRO}/setup.bash in your .bashrc <br/>
+=> Confirmed <br/>
+Make sure that ROS 2 is not sourced with the command printenv | grep -i ROS. The output should be empty <br/>
+![FreespaceSegmentation57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/599dae3a-0f73-43e1-8fb3-f9c2d140a136) <br/>
+![FreespaceSegmentation58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/415485a8-0591-4ea3-9eaa-5197b689be7a) <br/>
+**Environment setup** <br/>
+Source the setup script <br/>
+Set up your environment by sourcing the following file <br/>
+![FreespaceSegmentation59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5954ae2c-8b48-482e-91ac-72b7d33ccdc2) <br/>
+Save it in bashrc <br/>
+![FreespaceSegmentation60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fb104dbc-dd8d-4922-93a1-08c683303db8) <br/>
+![FreespaceSegmentation61](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a2b591ed-c39a-4c6d-9cc2-5be6d90998ef) <br/>
+
+**Try some examples** <br/>
+Source the setup file and then run a C++ talker: <br/>
+
+Source the setup file and then run a Python listener: <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 => Already Done <br/>
 (2)-3 Launch Isaac Sim App Selector window <br/>
 ![FreespaceSegmentation2-1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0aa5850d-8ce2-42cc-927f-ac0b1634ea22) <br/>
