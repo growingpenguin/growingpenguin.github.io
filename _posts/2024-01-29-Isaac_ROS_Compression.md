@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f8f4300e-1808-4d7b-8417-ecb187bdc60d)---
+---
 layout: post
 title:  "Assignment: 5th Week - Follow Isaac_ROS_Compression Repository"
 ---
