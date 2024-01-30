@@ -4,8 +4,8 @@ title:  "NLP With Transformers - Transformers Introduction"
 ---
 # Transformers Introduction
 ## Encoder-Decoder Framework
-![Transformers_NLP1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/23a92bb6-b122-4b32-b04c-22a04b4a7db6) <br/>
 Before the advent of Transformer models, **Recurrent Neural Networks(RNNs)** were the leading performers in natural language processing (NLP) <br/> 
+![Transformers_NLP1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/23a92bb6-b122-4b32-b04c-22a04b4a7db6) <br/>
 Figure: RNN unfolded along the time axis <br/>
 -The Encoder-Decoder architecture is particularly effective for sequential data modeling such as in text processing <br/>
 In this setup, the network Receives an input > Processes it >  Re-inputs a part of its output back into itself, creating a feedback loop <br/>
