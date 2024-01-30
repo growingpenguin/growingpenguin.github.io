@@ -14,7 +14,9 @@ This mechanism allows RNNs to use a portion of the previously generated output i
 This process helps in keeping track of the information from previous steps, which is crucial for making accurate predictions in sequential data tasks <br/>
 -"Recurrent Neural Networks(RNNs) have been instrumental in advancing the field of machine translation <br/>
 Involves mapping one language to another <br/>
-
+![Transformers_NLP2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5103013c-b9a8-42b4-aaee-449d2a51400b) <br/>
+Figure: Illustrates an Encoder-Decoder structure, which is comprised of a pair of Recurrent Neural Networks (RNNs) <br/>
+(Note that in actual applications, this structure typically involves many more recurrent layers than are depicted in this figure) <br/>
 -Process is typically carried out using an Encoder-Decoder or Sequence-to-Sequence architecture <br/>
 (Especially when the Input and Output lengths are variable) <br/>
 Encoder: <br/>
@@ -22,7 +24,13 @@ Responsible for encoding the input sequence into a numerical representation whic
 Decoder: <br/>
 Takes this final hidden state and generates the output sequence <br/>
 This collaborative functioning of the Encoder and Decoder allows for effective translation between languages in ML models <br/>
-![Transformers_NLP2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5103013c-b9a8-42b4-aaee-449d2a51400b) <br/>
+
+
+
+
+
+
+ 
 Reference: <br/>
 https://seungseop.tistory.com/21 <br/>
 
