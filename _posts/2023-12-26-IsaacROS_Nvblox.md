@@ -165,7 +165,7 @@ podman <br/>
 ![Nvblox39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/09491630-4209-4a0f-abd6-44814b6b2435) <br/>
 (3)Add the libcontainers repository <br/>
 ![Nvblox40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fbbe417d-ee03-4d91-beb0-04258aebb049) <br/>
-(4) <br/>
+(4)Run the sudo apt-get update <br/>
 ![Nvblox41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/42ff8d49-75ed-4457-a401-06e38af8d88a) <br/>
 (5)Install Podman <br/>
 ![Nvblox42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea75d750-6ebb-4ccb-8062-97ab4413df01) <br/>
