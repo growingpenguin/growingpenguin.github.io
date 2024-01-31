@@ -193,7 +193,6 @@ Generating a CDI specification  <br/>
 Prerequisites <br/>
 You installed either the NVIDIA Container Toolkit or you installed the nvidia-container-toolkit-base package <br/>
 You installed an NVIDIA GPU Driver <br/>
-![Nvblox47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3c3d9ae-8d68-4842-82e9-d986f94909db) <br/>
 Confirmed installed GPU Driver <br/>
 ![Nvblox47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3c3d9ae-8d68-4842-82e9-d986f94909db) <br/>
 Procedure <br/>
