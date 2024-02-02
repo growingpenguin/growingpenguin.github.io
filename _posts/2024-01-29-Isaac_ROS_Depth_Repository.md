@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7190eba4-9a83-4f92-9be9-103661fe5763)---
+---
 layout: post
 title:  "Assignment: 5th Week - Follow Isaac_ROS_Depth_Segmentation Repository"
 ---
@@ -54,17 +54,6 @@ Result: <br/>
 Result: <br/>
 ![Depth_Segmentation15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b3394828-6151-4008-9ec2-948a3bb73ea1) <br/>
 
-
-
-
-
-
-
-
-
-
-
-
 ## Isaac ROS NITROS Acceleration
 Package is powered by NVIDIA Isaac Transport for ROS (NITROS) <br/>
 Which leverages type adaptation and negotiation to optimize message formats and dramatically accelerate communication between participating nodes <br/>
@@ -75,3 +64,6 @@ Package is designed and tested to be compatible with ROS 2 Humble running on Jet
 ## Docker
 Strongly recommend leveraging the Isaac ROS Dev Docker images by following these steps <br/>
 This will streamline your development environment setup with the correct versions of dependencies on both Jetson and x86_64 platforms <br/>
+
+Reference: <br/>
+https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_depth_segmentation/isaac_ros_bi3d/index.html#quickstart <br/>
