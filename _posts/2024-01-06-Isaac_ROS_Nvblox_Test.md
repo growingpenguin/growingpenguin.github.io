@@ -92,15 +92,18 @@ Additional options for mapping scenes containing people exist. <br/>
 -To relax the assumption that occupancy grid maps only capture static objects, an occupancy decay step must be applied. At a fixed frequency, all voxel occupancy probabilities are decayed towards 0.5 over time. This means that the state of the map (occupied or free) becomes less certain after it has fallen out of the field of view, until it becomes unknown (0.5 occupancy probability) <br/>
 ![Nvblox2-1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c4066b20-fa9a-446a-a5b7-87e1666de032) <br/>
 
-(1)Before continuing this example, you must have successfully completed the [Static Reconstruction](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense.html) in Isaac Sim <br/>
-
-
+Before continuing this example, you must have successfully completed the [Static Reconstruction](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense.html) in Isaac Sim <br/>
+=> Successfully Completed <br/>
+(1)Open the Isaac Sim terminal and export the necessary environment variables as explained in steps 2-3 of the Isaac Sim Setup Guide <br/>
+(1)-1 Follow the Running Native ROS instructions to ensure that ROS 2 and the required packages are installed to successfully enable the ROS 2 Bridge in Omniverse Isaac Sim <br/>
+=> Completed <br/>
+(1)-2 Follow the instructions to launch Isaac Sim App Selector window <br/>
+=> Completed <br/>
+(2)Start the simulation by running the following command in the terminal <br/>
+(3)
 
 Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_human_reconstruction_isaac_sim.html <br/>
-
-
-
 
 
 ## [isaac_sim_dynamics_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_isaac_sim.html)
@@ -115,46 +118,6 @@ This enables the pipeline to separately reconstruct humans (or other specific ob
 ![Nvblox2-2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/315edd09-99f1-40c9-90ef-652e7d2b961b) <br/>
 
 ## [realsense_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense.html)
-Example to run with a RealSense camera  <br/>
-This tutorial demonstrates how to perform depth-camera based reconstruction using a RealSense camera, Isaac ROS Visual SLAM and Isaac ROS Nvblox. <br/>
-RealSense Camera Firmware  <br/>
-Example is tested and compatible with RealSense camera firmware version 5.13.0.50 <br/>
-(1)Host System Setup <br/>
-The ROS2 message delivery might be unreliable under high load without some small modifications to the QoS profile(especially on weaker machines) <br/>
-Before running this example <br/>
-
-Set the parameter temporarily, until reboot <br/>
-
-Run to set the parameter permanently <br/>
-
-See DDS tuning for more information <br/>
-
-(2)Installing the Dependencies <br/>
-Complete steps 1 and 2 described in the Nvblox Quickstart Guide to set up your development environment and clone the required repositories <br/>
-Complete the Developer Environment Setup <br/>
-=>Completed <br/>
-Clone isaac_ros_common and this repository under ${ISAAC_ROS_WS}/src. <br/>
-(2)Installing the Dependencies <br/>
-Complete steps 1 and 2 described in the Nvblox Quickstart Guide to set up your development environment and clone the required repositories. <br/>
-
-Stop Git tracking the COLCON_IGNORE file in the realsense_splitter package and remove it <br/>
-(Note: The COLCON_IGNORE file was added to remove the dependency to realsense-ros for users that don’t want to run the RealSense examples) <br/>
-
-Complete the Isaac ROS RealSense Setup to set up librealsense outside of the isaac_ros_common Docker, clone realsense_ros, and to configure the container for use with RealSense. <br/>
-
-Launch the Docker container using the run_dev.sh script <br/>
-
-Inside the container, install package-specific dependencies using rosdep  <br/>
-
-Build and source the workspace  <br/>
-
-(3)Example with RealSense Live Data <br/>
-Complete the sections above <br/>
-Connect the RealSense device to your machine using a USB 3 cable/port. <br/>
-Run the ROS Docker container using the run_dev.sh script. <br/>
-Source the workspace. <br/>
-Verify that the RealSense camera is connected by running realsense-viewer <br/>
-If successful, run the launch file to spin up the exampler <br/>
 
 ## [realsense_humans_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_human_reconstruction_realsense.html)
 Example to run with a RealSense camera including human reconstruction  <br/>
