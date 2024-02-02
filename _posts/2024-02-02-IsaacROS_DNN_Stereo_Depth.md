@@ -49,7 +49,45 @@ For Light ESS: <br/>
 ![Stereo_Depth9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f5555f1d-56f1-40a5-9e57-f1804382082f) <br/>
 (7)Convert the encrypted model (.etlt) to a TensorRT engine plan: <br/>
 ![Stereo_Depth10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/175f6fd0-06a4-49a0-afb9-34bacccde09e) <br/>
+For ESS: <br/>
+Error: <br/>
 ![Stereo_Depth11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5d541dd5-ab64-434c-8469-0cced035bd02) <br/>
+[WARNING] onnx2trt_utils.cpp:377: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.  <br/>
+[INFO] Detected input dimensions from the model: (1, 3, 576, 960)  <br/>
+[INFO] Detected input dimensions from the model: (1, 3, 576, 960)  <br/>
+[INFO] Model has no dynamic shape. <br/>
+[INFO] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +854, GPU +368, now: CPU 1731, GPU 4051 (MiB) <br/>
+[INFO] [MemUsageChange] Init cuDNN: CPU +125, GPU +60, now: CPU 1856, GPU 4111 (MiB) <br/>
+[INFO] Local timing cache in use. Profiling results in this builder pass will not be stored. <br/>
+[WARNING] Skipping tactic 0x0000000000000000 due to Myelin error: autotuning: CUDA error 3 allocating 0-byte buffer:  <br/>
+[WARNING] Skipping tactic 0x0000000000000000 due to Myelin error: autotuning: CUDA error 3 allocating 0-byte buffer:  <br/>
+[WARNING] Skipping tactic 0x0000000000000000 due to Myelin error: autotuning: CUDA error 3 allocating 0-byte buffer:  <br/>
+[ERROR] 10: [optimizer.cpp::computeCosts::3712] Error Code 10: Internal Error (Could not find any implementation for node {ForeignNode[853...Softmax_136]}.) <br/>
+[ERROR] Unable to create engine <br/>
+Segmentation fault (core dumped) <br/>
+For Light ESS: <br/>
+Error: <br/>
+![Stereo_Depth12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/56836821-a2a2-4983-a4af-a17dd76e6c8b) <br/>
+Solution: (Searching for it...) <br/>
+[WARNING] onnx2trt_utils.cpp:377: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32 <br/>
+[INFO] Detected input dimensions from the model: (1, 3, 288, 480) <br/>
+[INFO] Detected input dimensions from the model: (1, 3, 288, 480) <br/>
+[INFO] Model has no dynamic shape. <br/>
+[INFO] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +854, GPU +348, now: CPU 1729, GPU 4043 (MiB) <br/>
+[INFO] [MemUsageChange] Init cuDNN: CPU +126, GPU +60, now: CPU 1855, GPU 4103 (MiB) <br/>
+[INFO] Local timing cache in use. Profiling results in this builder pass will not be stored. <br/>
+[INFO] Some tactics do not have sufficient workspace memory to run. Increasing workspace size will enable more tactics, please check verbose output for requested sizes. <br/>
+[WARNING] Skipping tactic 0x0000000000000000 due to Myelin error: autotuning: CUDA error 3 allocating 0-byte buffer:  <br/>
+[WARNING] Skipping tactic 0x0000000000000000 due to Myelin error: autotuning: CUDA error 3 allocating 0-byte buffer:  <br/>
+[WARNING] Skipping tactic 0x0000000000000000 due to Myelin error: autotuning: CUDA error 3 allocating 0-byte buffer:  <br/>
+[ERROR] 4: [optimizer.cpp::computeCosts::3710] Error Code 4: Internal Error (Could not find any implementation for node {ForeignNode[853...Softmax_136]} due to insufficient workspace. See verbose log for requested sizes.) <br/>
+[ERROR] Unable to create engine <br/>
+Segmentation fault (core dumped) <br/>
+
+
+
+
+
 
 
 
