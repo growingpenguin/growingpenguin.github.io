@@ -43,6 +43,7 @@ which is separate and independent from the GPU
 ![Depth_Segmentation9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/397dcb8f-382c-4f95-9c7b-5170ca6918e1) <br/>
 (11)Open two new terminals inside the Docker container for visualization: <br/>
 ![Depth_Segmentation10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b55d18fc-78ce-47ad-b720-c0bce531954d) <br/>
+![Depth_Segmentation11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d258dcfc-7f2f-4068-b086-207b07f3296a) <br/>
 
 
 
