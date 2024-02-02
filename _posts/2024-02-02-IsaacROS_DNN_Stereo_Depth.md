@@ -66,8 +66,9 @@ Error: <br/>
 [ERROR] Unable to create engine <br/>
 Segmentation fault (core dumped) <br/>
 For Light ESS: <br/>
+![Stereo_Depth12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/56836821-a2a2-4983-a4af-a17dd76e6c8b) <br/>\
 Error: <br/>
-![Stereo_Depth12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/56836821-a2a2-4983-a4af-a17dd76e6c8b) <br/>
+
 Solution: (Searching for it...) <br/>
 [WARNING] onnx2trt_utils.cpp:377: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32 <br/>
 [INFO] Detected input dimensions from the model: (1, 3, 288, 480) <br/>
@@ -83,6 +84,7 @@ Solution: (Searching for it...) <br/>
 [ERROR] 4: [optimizer.cpp::computeCosts::3710] Error Code 4: Internal Error (Could not find any implementation for node {ForeignNode[853...Softmax_136]} due to insufficient workspace. See verbose log for requested sizes.) <br/>
 [ERROR] Unable to create engine <br/>
 Segmentation fault (core dumped) <br/>
+![Stereo_Depth13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/463269b1-17b7-4e3f-a4f7-33baf5072205) <br/>
 
 
 
