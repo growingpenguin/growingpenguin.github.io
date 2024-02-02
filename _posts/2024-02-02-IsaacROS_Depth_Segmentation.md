@@ -48,6 +48,14 @@ https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_dnn_infer
 inference mode cache file: <br/>
 ![DNN_Inference7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d874227f-79c6-440f-881d-1f26438fbf27) <br/>
 ![DNN_Inference8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c8e93dfd-07ed-4ba0-b7a1-ba60aea62af8) <br/>
+(2)Install this package’s dependencies <br/>
+![DNN_Inference9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/313e2a42-657a-43d6-a49b-a5ff6648cf44) <br/>
+(3)Run the following launch files to spin up a demo of this package. 
+(3)-1 Launch TensorRT: <br/>
+![DNN_Inference10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1d3e8894-b502-4b4f-81f1-6ec5a2182440) <br/>
+(3)-2 Then open another terminal, and enter the Docker container again: <br/>
+![DNN_Inference11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b2ef45c2-780f-4150-844e-09c025b00309) <br/>
+
 
 
 
