@@ -7,7 +7,7 @@ Launch File <br/>
 isaac_sim_example.launch.py, isaac_sim_humans_example.launch.py, isaac_sim_dynamics_example.launch.py, realsense_example.launch.py <br/>
 realsense_humans_example.launch.py, realsense_dynamics_example.launch.py, record_realsense.launch.py, zed_example.launch.py <br/>
 
-## [isaac_sim_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_isaac_sim.html) 
+## [Static Reconstruction in Isaac Sim](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_isaac_sim.html) 
 Example to run with Isaac Sim  <br/>
 ### Static Reconstruction in Isaac Sim
 Generating a 3D reconstruction with nvblox using image and LiDAR data from Isaac Sim <br/>
@@ -76,7 +76,7 @@ Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_isaac_sim.html <br/>
 
 
-## [isaac_sim_humans_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_human_reconstruction_isaac_sim.html)
+## [Human Reconstruction in Isaac Sim](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_human_reconstruction_isaac_sim.html)
 Example to run with Isaac Sim including human reconstruction  <br/>
 ### Human Reconstruction in Isaac Sim
 Demonstrates how to perform human reconstruction in nvblox with Isaac Sim <br/>
@@ -92,6 +92,10 @@ Additional options for mapping scenes containing people exist. <br/>
 -To relax the assumption that occupancy grid maps only capture static objects, an occupancy decay step must be applied. At a fixed frequency, all voxel occupancy probabilities are decayed towards 0.5 over time. This means that the state of the map (occupied or free) becomes less certain after it has fallen out of the field of view, until it becomes unknown (0.5 occupancy probability) <br/>
 ![Nvblox2-1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c4066b20-fa9a-446a-a5b7-87e1666de032) <br/>
 
+### Tutorial Walkthrough
+Use Isaac Sim for human reconstruction in nvblox. nvblox uses the ground truth semantic segmentation coming from the simulation as input to detect humans <br/>
+This demonstration relies on the extensions omni.anim.people and omni.anim.navigation to make humans navigate in the environment while the robot is moving <br/>
+**Running the Demonstration Scene** <br/>
 Before continuing this example, you must have successfully completed the [Static Reconstruction](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense.html) in Isaac Sim <br/>
 => Successfully Completed <br/>
 (1)Open the Isaac Sim terminal and export the necessary environment variables as explained in steps 2-3 of the Isaac Sim Setup Guide <br/>
@@ -100,13 +104,34 @@ Before continuing this example, you must have successfully completed the [Static
 (1)-2 Follow the instructions to launch Isaac Sim App Selector window <br/>
 => Completed <br/>
 (2)Start the simulation by running the following command in the terminal <br/>
-(3)
+![Nvblox2-15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7d649c44-9e5f-49b8-99d9-94384a4722af) <br/>
+(3)In another terminal, run the ROS Docker container using the run_dev.sh script: <br/>
+![Nvblox2-16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a5c02b09-f9ee-4008-ad34-4e12afd43d03) <br/>
+(4)Inside the container, build and source the workspace: <br/>
+![Nvblox2-17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d5318937-810c-4539-9a87-dd0ef78572b8) <br/>
+Error: <br/>
+![Nvblox2-18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/20c7ce8b-40d3-4d30-a78e-0f151cb00c40) <br/>
+(5)Launch nvblox configured for human mapping: <br/>
+![Nvblox2-19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/48020731-967f-4386-b724-e943dafcde31) <br/>
+Error: <br/>
+![Nvblox2-20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f080edd4-ef65-4a37-b7a3-b4a34aead23d) <br/>
+Solution: (Searching for it...) <br/>
+https://forums.developer.nvidia.com/t/encountering-file-and-package-location-issues-with-human-reconstruction-running-the-demonstration-scene-in-isaac-sim/281057 <br/>
+Successful Result: <br/>
+Omniverse Screen <br/>
+![Nvblox2-21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7e4dec79-6fe8-4c83-b355-b15508ad58f6) <br/>
+**Running with Custom Human Paths** <br/>
+To have non-default paths taken by the humans, you can <br/>
+Change the default human animation file directly on the server <br/>
+Use the randomization options of the above script. To do so: <br/>
+
+
 
 Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_human_reconstruction_isaac_sim.html <br/>
 
 
-## [isaac_sim_dynamics_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_isaac_sim.html)
+## [Dynamic Reconstruction in Isaac Sim](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_isaac_sim.html)
 Example to run with Isaac Sim including general dynamic reconstruction  <br/>
 This tutorial demonstrates how to perform general dynamic reconstruction in nvblox with Isaac Sim. <br/>
 -For more about general dynamic reconstruction in nvblox see Technical Details. <br/>
@@ -116,6 +141,15 @@ Dynamic Reconstruction  <br/>
 -Whenever an object enters freespace, it is identified as dynamic and then integrated into the dynamic occupancy layer, similar to the human reconstruction pipeline described above. <br/>
 This enables the pipeline to separately reconstruct humans (or other specific objects that the DNN was trained for) and all moving objects regardless of their class or category <br/>
 ![Nvblox2-2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/315edd09-99f1-40c9-90ef-652e7d2b961b) <br/>
+### Tutorial Walkthrough
+Before continuing this example, you must have successfully completed the [Static Reconstruction](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense.html) in Isaac Sim <br/>
+=> Successfully Completed <br/>
+(1)Open the Isaac Sim terminal and export the necessary environment variables as explained in steps 2-3 of the Isaac Sim Setup Guide <br/>
+(1)-1 Follow the Running Native ROS instructions to ensure that ROS 2 and the required packages are installed to successfully enable the ROS 2 Bridge in Omniverse Isaac Sim <br/>
+=> Completed <br/>
+(1)-2 Follow the instructions to launch Isaac Sim App Selector window <br/>
+=> Completed <br/>
+(2)Start the simulation by running the following command in the terminal <br/>
 (3)In another terminal, run the ROS Docker container using the run_dev.sh script: <br/>
 ![Nvblox2-10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/acb6da70-9867-496f-8a88-e79832acdd88) <br/>
 (4)Inside the container, install isaac_ros_visual_slam <br/>
@@ -123,28 +157,13 @@ This enables the pipeline to separately reconstruct humans (or other specific ob
 (5)Launch the pre-composed graph launch file: <br/>
 Error: <br/>
 Solution: (Searching for it...) <br/>
+https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
 Successful Result: <br/>
 Omniverse Screen <br/>
 ![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9)
 
-
-
-
-
-
-## [realsense_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense.html)
-
-## [realsense_humans_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_human_reconstruction_realsense.html)
-Example to run with a RealSense camera including human reconstruction  <br/>
-
-## [realsense_dynamics_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_realsense.html)
-Example to run with a RealSense camera including general dynamic reconstruction <br/>
-
-## [record_realsense.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense_record.html)
-Record RealSense data to replay with the above examples  <br/>
-
-## [zed_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense_record.html)
-Example to run with a ZED camera <br/>
+Reference <br/>
+https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_isaac_sim.html <br/>
 
 
 Nvblox ROS 2 integration for local 3D scene reconstruction and mapping <br/>
