@@ -62,22 +62,16 @@ https://forums.developer.nvidia.com/t/static-reconstruction-in-isaac-sim-tutoria
 Correct Version: <br/>
 ![Nvblox2-5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0cf8565e-1f9e-4914-a3e0-f2d0e2782ae7) <br/>
 ![Nvblox2-6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cf7ab937-64d7-4f19-8129-0d4374200c76) <br/>
+(6)Launch the pre-composed graph launch file <br/>
+![Nvblox2-9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d1117977-4701-4b9c-b4a9-9da9472bbdb0) <br/>
+(7)Click on the 2D Goal Pose button. You should see the mesh, costmap, and the robot moving towards the goal location, as shown at the top of this page <br/>
+Successful Result: <br/>
 Omniverse Screen <br/>
 ![Nvblox2-8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/602fb54c-eb0f-4ffb-b23e-fd5e257fdc86) <br/>
 Isaac Sim Screen <br/>
 ![Nvblox2-7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/78242330-095a-498c-aee3-1d06e30f3fef) <br/>
-
-
-
-
-
-
-
-
-
-
-
-
+Video <br/>
+https://drive.google.com/file/d/12f0ArTzN-RE0IBAUIa_-tmfKkwzLIYPS/view?usp=sharing <br/>
 Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_isaac_sim.html <br/>
 
