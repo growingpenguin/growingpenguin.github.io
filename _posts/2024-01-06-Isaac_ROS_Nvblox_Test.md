@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e1903811-ef10-459f-abdf-18adac19dfb9)---
+---
 layout: post
 title:  "Assignment: 2nd Week - Test Isaac_ROS_Nvblox Repository"
 ---
