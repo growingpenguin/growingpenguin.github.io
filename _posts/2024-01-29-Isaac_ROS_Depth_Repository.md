@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7190eba4-9a83-4f92-9be9-103661fe5763)---
 layout: post
 title:  "Assignment: 5th Week - Follow Isaac_ROS_Depth_Segmentation Repository"
 ---
@@ -44,6 +44,16 @@ which is separate and independent from the GPU
 (11)Open two new terminals inside the Docker container for visualization: <br/>
 ![Depth_Segmentation10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b55d18fc-78ce-47ad-b720-c0bce531954d) <br/>
 ![Depth_Segmentation11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d258dcfc-7f2f-4068-b086-207b07f3296a) <br/>
+(12)Visualize the output <br/>
+(12)-1 Start disparity visualizer: <br/>
+![Depth_Segmentation12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5cd3b618-14b2-46a9-9ec8-d39b4ec9f275) <br/>
+Result: <br/>
+![Depth_Segmentation13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/df0e0e42-e4a2-4985-a057-32ff8ef87364) <br/>
+(12)-2 Start image visualizer: <br/>
+![Depth_Segmentation14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d6e193e8-c660-45b2-8a46-d3df4d5d2061) <br/>
+Result: <br/>
+![Depth_Segmentation15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b3394828-6151-4008-9ec2-948a3bb73ea1) <br/>
+
 
 
 
