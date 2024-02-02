@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e1903811-ef10-459f-abdf-18adac19dfb9)---
 layout: post
 title:  "Assignment: 2nd Week - Test Isaac_ROS_Nvblox Repository"
 ---
@@ -116,6 +116,21 @@ Dynamic Reconstruction  <br/>
 -Whenever an object enters freespace, it is identified as dynamic and then integrated into the dynamic occupancy layer, similar to the human reconstruction pipeline described above. <br/>
 This enables the pipeline to separately reconstruct humans (or other specific objects that the DNN was trained for) and all moving objects regardless of their class or category <br/>
 ![Nvblox2-2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/315edd09-99f1-40c9-90ef-652e7d2b961b) <br/>
+(3)In another terminal, run the ROS Docker container using the run_dev.sh script: <br/>
+![Nvblox2-10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/acb6da70-9867-496f-8a88-e79832acdd88) <br/>
+(4)Inside the container, install isaac_ros_visual_slam <br/>
+![Nvblox2-11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1e742ac-5d56-44ad-9d2e-33e851df3a17) <br/>
+(5)Launch the pre-composed graph launch file: <br/>
+Error: <br/>
+Solution: (Searching for it...) <br/>
+Successful Result: <br/>
+Omniverse Screen <br/>
+![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9)
+
+
+
+
+
 
 ## [realsense_example.launch.py](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_realsense.html)
 
