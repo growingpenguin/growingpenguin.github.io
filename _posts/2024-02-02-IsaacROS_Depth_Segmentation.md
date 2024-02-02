@@ -43,9 +43,11 @@ https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_dnn_infer
 ![DNN_Inference4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b8ff23b6-6c27-445e-a04e-1c92817d694b) <br/>
 (1)-5 This example uses PeopleSemSegNet ShuffleSeg. Download the ETLT file and the int8 inference mode cache file: <br/>
 ![DNN_Inference5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d100fe12-ca15-4e1a-966f-4507ccaee575) <br/>
-(1)-6 Convert the ETLT file to a TensorRT plan file: <br/>
 ![DNN_Inference6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/34a2d8ca-241e-421f-8cd7-9bc67aceb797) <br/>
+(1)-6 Convert the ETLT file to a TensorRT plan file: <br/>
+inference mode cache file: <br/>
 ![DNN_Inference7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d874227f-79c6-440f-881d-1f26438fbf27) <br/>
+![DNN_Inference8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c8e93dfd-07ed-4ba0-b7a1-ba60aea62af8) <br/>
 
 
 
