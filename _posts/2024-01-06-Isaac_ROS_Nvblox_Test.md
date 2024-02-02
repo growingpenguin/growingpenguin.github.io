@@ -59,10 +59,10 @@ Fatal Python error: Aborted <br/>
 Solution: (Searching for it) <br/>
 https://forums.developer.nvidia.com/t/static-reconstruction-in-isaac-sim-tutorial-error/279656 <br/>
 => NVIDA's Error! Now Fixed <br/>
-Omniverse Screen: <br/>
+Correct Version: <br/>
 ![Nvblox2-5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0cf8565e-1f9e-4914-a3e0-f2d0e2782ae7) <br/>
 ![Nvblox2-6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cf7ab937-64d7-4f19-8129-0d4374200c76) <br/>
-Rviz Screen <br/>
+Omniverse Screen <br/>
 ![Nvblox2-8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/602fb54c-eb0f-4ffb-b23e-fd5e257fdc86) <br/>
 Isaac Sim Screen <br/>
 ![Nvblox2-7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/78242330-095a-498c-aee3-1d06e30f3fef) <br/>
