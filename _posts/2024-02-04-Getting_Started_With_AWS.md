@@ -42,7 +42,7 @@ Altogether, linked together, they will form a region <br/>
 -AWS has Global Services: <br/>
 IAM, Route53(DNS), CloudFront(Content Delivery Network), WAF(Web Application Firewall) <br/>
 -Most AWS Services are Region-scoped <br/>
-Amazon EC2(Infrastructure as Service), Elastic Beanstalk(Platform as Service), Lambda(Function as Service) <br/>
+Amazon EC2(Infrastructure as Service), Elastic Beanstalk(Platform as Service), Lambda(Function as Service), Rekognition(Software as a Service) <br/>
 
 
 
