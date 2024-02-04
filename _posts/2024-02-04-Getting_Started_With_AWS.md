@@ -44,5 +44,30 @@ IAM, Route53(DNS), CloudFront(Content Delivery Network), WAF(Web Application Fir
 -Most AWS Services are Region-scoped <br/>
 Amazon EC2(Infrastructure as Service), Elastic Beanstalk(Platform as Service), Lambda(Function as Service), Rekognition(Software as a Service) <br/>
 
+## Tour of the AWS Console & Services in AWS 
+-Regions Selector <br/>
+Choose the region that will give you low latency <br/>
+![Getting_Started_With_AWS3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/86840536-fca8-4fa5-9eb6-b7da3be2ed1c)
+-Services by category <br/>
+![Getting_Started_With_AWS4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8455c102-a3a6-4d4d-aab7-e66bc95439fa) <br/>
+-Search bar <br/>
+Can search for a service and have a look of features, resources, blogs, documentations, knowledge articles, tutorials, and marketplace <br/>
+![Getting_Started_With_AWS5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/376a6682-74f7-4153-9c2e-f83ca1328169) <br/>
+-Navigating Route53 Console <br/>
+![Getting_Started_With_AWS6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b35e899b-bda4-44e6-a90a-938a7fdbfcff)<br/>
+The reason the region selector turns to global, is because it does not require a region selection <br/>
+No matter where you are, you will get the same view <br/>
+-Navigating EC2 Console <br/>
+![Getting_Started_With_AWS7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f7808dc5-0558-43e5-afd8-fcf0137eb652) <br/>
+If the console is ran in another region, view will be different in terms of the region seen <br/>
+So it is important to stay within the same region for the entire duration <br/>
+-AWS Global Infrastructure <br/>
+Gives lots of information around your services <br/>
+-Navigating AWS Regional Services <br/>
+Give the services list by region <br/>
+Not all services are in every region <br/>
+![Getting_Started_With_AWS8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3744c4fe-daf6-46c3-bc51-d900a35c947f)<br/>
 
-
+Reference: <br/>
+https://ap-northeast-2.console.aws.amazon.com/console/home?region=ap-northeast-2 <br/>
+https://aws.amazon.com/about-aws/global-infrastructure/ <br/>
