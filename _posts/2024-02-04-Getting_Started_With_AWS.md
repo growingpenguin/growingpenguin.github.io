@@ -69,5 +69,6 @@ Not all services are in every region <br/>
 ![Getting_Started_With_AWS8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3744c4fe-daf6-46c3-bc51-d900a35c947f)<br/>
 
 Reference: <br/>
+https://www.udemy.com/course/aws-certified-developer-associate-dva-c01 <br/>
 https://ap-northeast-2.console.aws.amazon.com/console/home?region=ap-northeast-2 <br/>
 https://aws.amazon.com/about-aws/global-infrastructure/ <br/>
