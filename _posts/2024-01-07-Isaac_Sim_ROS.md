@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment: 2nd Week - Isaac_Sim ROS"
+title:  "Assignment: 2nd Week - IsaacSim ROS"
 ---
 
 # How to Import Your Robot Into Isaac Sim in NVIDIA Omniverse
