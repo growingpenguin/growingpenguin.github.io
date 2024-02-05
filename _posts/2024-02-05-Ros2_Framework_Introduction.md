@@ -44,8 +44,10 @@ ex. Response is an image the camera took after turning the camera to the desired
 3)Actions <br/>
 -way_point_nav.py: Node which wants to command our robot to travel to a certain latitude longtitude coordinate to take a picture <br/>
 -contoller.py: Action server will process the goal, and send progress updates to the client <br/>
-ex. Send back data on how far away is from the goal <br/>
 **feedback**: progress updates <br/>
+-Action server sends back feedback until the goal is reached <br/>
+ex. Send back data on how far away is from the goal  <br/>
+
 
 Reference: <br/>
 https://www.youtube.com/watch?v=7TVWlADXwRw&t=37s <br/>
