@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4e480cbb-8578-4e74-9539-ed4fccb23864)---
+---
 layout: post
 title:  "AWS Serverless: DynamoDB"
 ---
