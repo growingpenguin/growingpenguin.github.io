@@ -11,11 +11,11 @@ ex. Manufacturing, Mobile outdoor robotics, Drone swarms, and Self-driving cars 
 -Ros2 was created as a new and improved version which could scale in the newly founded applications <br/>
 ## What does Ros2 offer? 
 Example: Simple Mobile Robot <br/><
-2)Motors <br/>
+1)Motors <br/>
 Each motor controlling both wheels on each side of the robot <br/>
-3)Camera <br/>
+2)Camera <br/>
 A vertically mounted camera which has a motorized base so that the camera can turn <br/>
-4)Sensors <br/>
+3)Sensors <br/>
 Sensors on board that gives us information about robot's position <br/>
 GPS sensor and IMU sensor gives the robot's orientation and acceleration data <br/>
 ### Ros2 feature
