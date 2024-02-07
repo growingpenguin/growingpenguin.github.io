@@ -120,9 +120,22 @@ user_id, first_name, and last_name <br/>
 => Completely fine to you to add attributes over time. The only thing that has to be non-null is the user_id <br/>
 -In the example, john has a null age, and alice has a null last_name by default <br/>
 This is the risk and the power of dynamo DB. You can add attributes over time without impacting previous data <br/>
-13)Create a Second table <br/>
+13)Create a Second table now including a sort_key <br/>
 ![AWS_Serverless:_DynamoDB17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d63472e1-831e-4a11-9b3b-d0fbcd966be3) <br/>
-14)
+![AWS_Serverless:_DynamoDB18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/37161f3d-9cfc-4fb2-a1a6-217b6ee5d5d2) <br/>
+14)Table Settings <br/>
+Customize Settings <br/>
+![AWS_Serverless:_DynamoDB19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/92319233-6c36-4496-95aa-6df336d0f499) <br/>
+15)Read/Write Capacity Settings <br/>
+-Provisioned <br/>
+-Read Capacity Auto Scaling Off & Provisioned Capacity Units 2, Write Capacity Auto Scaling Off & Provisioned Capacity Units 2  <br/>
+![AWS_Serverless:_DynamoDB22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/48e46813-6e6f-4b39-b8c5-84e1dde0bf27) <br/>
+-Because, it is serverless, there is no need to say what's happening to the table, what's the underlying database, you can create as many tables as you want, you can create as many tables as you want within DynamoDB database at a region level <br/>
+16)Overview of UserPosts Table <br/>
+![AWS_Serverless:_DynamoDB23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/93e36a2b-4b14-45ba-bb22-4e1070ec50fc) <br/>
+17)Create item with a new attribute <br/>
+![AWS_Serverless:_DynamoDB24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1eedabff-1f4e-4715-8b35-ed06056cdbcb) <br/>
+
 
 Footnote <br/>
 non-relational databases: <br/>
@@ -139,5 +152,21 @@ This is often simpler but can become expensive and has physical limits <br/>
 Horizontal Scaling for Reads:  <br/>
 Achieved by adding Read Replicas in RDS, which are read-only copies of the database <br/> 
 While this improves read capacity, there's a practical limit to the number of replicas you can have, thus limiting scalability <br/>
+![AWS_Serverless:_DynamoDB20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f5466f33-b576-4ea4-b18f-c3b1c8c1a091) <br/>
+18)Estimated Cost <br/>
+![AWS_Serverless:_DynamoDB21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bd6311cc-fdc2-43ed-9f4e-ab08af5c2286) <br/>
+19)First item created <br/>
+![AWS_Serverless:_DynamoDB25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33dcfef7-aff8-4b2a-8b95-83b5b3f729ec) <br/>
+20)Second item created with the same user_id <br/><br/>
+![AWS_Serverless:_DynamoDB26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ed173c72-d752-4285-85b6-4fc58f17623c) <br/>
+![AWS_Serverless:_DynamoDB27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fee4af8d-fde0-4550-8a0c-33220caf4b14) <br/>
+Conclusion <br/>
+Super important to choose a good partition key. If john123 is the only user for the post and he has 10,000 posts, the data is going to be heavily skewed toward john123 <br/>
+
+-Even though having the same user_id, because the post_ts was different, we were able to enter the data into the table <br/>
+-Uniqueness is on user_id and post_ts as a combination <br/>
+-The data is partitioned by user_id, which is why john123 is clickable. We can query and search for john123 as an user_id <br/>
+-We can sort the data by post timestamp, which is why we call it a sort key <br/>
+
 
 ### AWS Regions
