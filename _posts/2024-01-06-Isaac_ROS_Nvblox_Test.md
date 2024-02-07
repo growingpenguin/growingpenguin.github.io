@@ -58,6 +58,7 @@ terminate called without an active exception <br/>
 Fatal Python error: Aborted <br/>
 Solution: (Searching for it) <br/>
 https://forums.developer.nvidia.com/t/static-reconstruction-in-isaac-sim-tutorial-error/279656 <br/>
+![Nvblox2-23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/66752d17-4d74-4763-870a-acbf47ac8685) <br/>
 => NVIDA's Error! Now Fixed <br/>
 Correct Version: <br/>
 ![Nvblox2-5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0cf8565e-1f9e-4914-a3e0-f2d0e2782ae7) <br/>
@@ -117,6 +118,9 @@ Error: <br/>
 ![Nvblox2-20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f080edd4-ef65-4a37-b7a3-b4a34aead23d) <br/>
 Solution: (Searching for it...) <br/>
 https://forums.developer.nvidia.com/t/encountering-file-and-package-location-issues-with-human-reconstruction-running-the-demonstration-scene-in-isaac-sim/281057 <br/>
+![Nvblox2-22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/25c90b09-0e26-4976-8822-0da5f22da036) <br/>
+Deleted the Ros Benchmark Repository <br/>
+
 Successful Result: <br/>
 Omniverse Screen <br/>
 ![Nvblox2-21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7e4dec79-6fe8-4c83-b355-b15508ad58f6) <br/>
@@ -160,7 +164,7 @@ Solution: (Searching for it...) <br/>
 https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
 Successful Result: <br/>
 Omniverse Screen <br/>
-![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9)
+![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9) <br/>
 
 Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_isaac_sim.html <br/>
