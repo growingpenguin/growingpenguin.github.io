@@ -122,6 +122,7 @@ user_id, first_name, and last_name <br/>
 This is the risk and the power of dynamo DB. You can add attributes over time without impacting previous data <br/>
 13)Create a Second table <br/>
 ![AWS_Serverless:_DynamoDB17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d63472e1-831e-4a11-9b3b-d0fbcd966be3) <br/>
+14)
 
 Footnote <br/>
 non-relational databases: <br/>
