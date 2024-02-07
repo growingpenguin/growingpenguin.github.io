@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/63ff8994-af84-45b2-b896-5556fe3ea62a)---
 layout: post
 title:  "Assignment: 2nd Week - Test Isaac_ROS_Nvblox Repository"
 ---
@@ -168,13 +168,24 @@ Before continuing this example, you must have successfully completed the [Static
 ![Nvblox2-10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/acb6da70-9867-496f-8a88-e79832acdd88) <br/>
 (4)Inside the container, install isaac_ros_visual_slam <br/>
 ![Nvblox2-11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1e742ac-5d56-44ad-9d2e-33e851df3a17) <br/>
-(5)Launch the pre-composed graph launch file: <br/>
+(5)nside the container, build and source the workspace: (New Step) <br/>
+![Nvblox2-33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d9d029a9-4e3e-41ef-ba95-de0bda54731d) <br/>
+(6)Launch the pre-composed graph launch file: <br/>
+Correct Version: <br/>
+![Nvblox2-34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95866008-04cb-4420-84dd-84c87a0e66a9) <br/>
 Error: <br/>
 Solution: (Searching for it...) <br/>
+=> Delete Benchmark Package and source the workspace <br/>
 https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
 Successful Result: <br/>
 Omniverse Screen <br/>
 ![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9) <br/>
+Terminal <br/>
+![Nvblox2-36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/228c4e8c-7a01-4bd5-b339-a9524dcdc494) <br/>
+Rviz <br/>
+![Nvblox2-35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2d6312c0-4674-494d-bc7c-2ed45e249e6f) <br/>
+![Nvblox2-37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/19e43433-c2cb-4960-9d68-2075031411fa) <br/>
+
 
 Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_isaac_sim.html <br/>
