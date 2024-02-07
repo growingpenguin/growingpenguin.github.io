@@ -2,12 +2,40 @@
 layout: post
 title:  "Record Isaac ROS Nvblox Repository"
 ---
-# Record Static Reconstruction 
-## Ros2 bag
+# Record Isaac ROS Nvblox Repository
+## Record Static Reconstruction 
+### Ros2 bag
 (1)Launch Ros2 Common container <br/>
 ![Nvblox_Record1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/783ae412-9010-495d-b255-b0fe8267a9f9) <br/>
 (2)See Topics <br/>
 ![Nvblox_Record2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c5e00bc1-a8a9-4748-98c5-d5a7480767a0) <br/>
+(3)Record the topics subscribing only for the Nvblox Repository <br/>
+Command: <br/>
+ros2 bag record -o nvblox1 /mesh /mesh_marker /static_esdf_pointcloud /static_map_slice /static_occupancy /map_slice_bounds /back_projected_depth /dynamic_occupancy /dynamic_esdf_pointcloud /dynamic_map_slice /dynamic_points /dynamic_depth_frame_overlay /freespace /combined_esdf_pointcloud /combined_map_slice <br/>
+
+## Record human Reconstruction 
+### Running with Demonstration Path
+(1)Launch Ros2 Common container <br/>
+![Nvblox2-29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e5b91e43-a4d9-4ecb-9c19-48afaf4ce0bc) <br/>
+(2)See Topics <br/>
+![Nvblox2-28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cefe576e-16c7-4398-a1de-88191b4b3c84) <br/>
+(3)Record the topics subscribing only for the Nvblox Repository <br/>
+![Nvblox2-30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7294c9d5-df08-4060-a21c-510039e9ee23) <br/>
+### Running with Custom Human Paths
+(1)Use the randomization options of the above script. To do so: <br/>
+![Nvblox2-31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7c6d50c9-c502-46a9-8c31-dd191ca18cfa) <br/>
+This launches the scene headless (without visualization) and generates a new human_cmd_file.txt in <path_to_folder> <br/>
+By default, it generates 5 waypoints per human, but it is possible to change this with the option --num_waypoints=<number_of_waypoints>  <br/>
+You can then upload the script file to replace the default one, or use the same command as step  <br/>
+
+## Record Dynamic Reconstruction
+(1)Launch Ros2 Common container <br/>
+(2)See Topics <br/>
+(3)Record the topics subscribing only for the Nvblox Repository <br/>
+
+
+
+
 **ROS Topics Subscribed** <br/>
 | ROS Topic                 | Interface                           | Description |
 |---------------------------|-------------------------------------|-------------|
@@ -18,7 +46,6 @@ title:  "Record Isaac ROS Nvblox Repository"
 | `depth/camera_info`       | `sensor_msgs/CameraInfo`            | Required topic along with the depth image. Contains intrinsic calibration parameters of the depth camera. |
 | `transform`               | `geometry_msgs/TransformStamped`    | Odometry as stamped transform messages. Not required if `use_tf_transforms` is set to true. |
 | `pose`                    | `geometry_msgs/PoseStamped`         | Odometry as stamped pose messages. Not required if `use_tf_transforms` is set to true. |
-
 
 **ROS Topics Published** <br/>
 | ROS Topic                  | Interface                      | Description |
@@ -37,9 +64,9 @@ title:  "Record Isaac ROS Nvblox Repository"
 | `/dynamic_depth_frame_overlay` | `sensor_msgs/Image`        | Debug image showing the dynamic/human mask overlaid on the depth image. Note: The overlay is showing the mask before postprocessing. |
 | `~freespace`               | `sensor_msgs/PointCloud2`      | Pointcloud visualizing all non high confidence freespace voxels inside a 5x5x1 m box around the depth camera. |
 | `~combined_esdf_pointcloud`| `sensor_msgs/PointCloud2`      | A pointcloud of the combined static and human/dynamic 2D ESDF (minimal distance of both), with intensity as the metric distance to the nearest obstacle or human. Set `esdf_update_rate_hz` to control its update rate. |
-| `~combined_map_slice`      | `nvblox_msgs/DistanceMapSlice` | A 2D slice of the combined static and human/dynamic ESDF (minimal distance of both), to be consumed by `nvblox_nav2` package for interfacing with Nav2. Set `esdf_update_rate_hz` to control its update rate. |
- <br/>
-ros2 bag record -o nvblox1 /mesh /mesh_marker /static_esdf_pointcloud /static_map_slice /static_occupancy /map_slice_bounds /back_projected_depth /dynamic_occupancy /dynamic_esdf_pointcloud /dynamic_map_slice /dynamic_points /dynamic_depth_frame_overlay /freespace /combined_esdf_pointcloud /combined_map_slice <br/>
+| `~combined_map_slice`      | `nvblox_msgs/DistanceMapSlice` | A 2D slice of the combined static and human/dynamic ESDF (minimal distance of both), to be consumed by `nvblox_nav2` package for interfacing with Nav2. Set `esdf_update_rate_hz` to control its update rate. |  <br/>
+
+
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nvblox/isaac_ros_nvblox/api/topics_and_services.html <br/>
