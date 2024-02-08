@@ -87,7 +87,8 @@ You can then upload the script file to replace the default one, or use the same 
 | `~combined_esdf_pointcloud`| `sensor_msgs/PointCloud2`      | A pointcloud of the combined static and human/dynamic 2D ESDF (minimal distance of both), with intensity as the metric distance to the nearest obstacle or human. Set `esdf_update_rate_hz` to control its update rate. |
 | `~combined_map_slice`      | `nvblox_msgs/DistanceMapSlice` | A 2D slice of the combined static and human/dynamic ESDF (minimal distance of both), to be consumed by `nvblox_nav2` package for interfacing with Nav2. Set `esdf_update_rate_hz` to control its update rate. |  <br/>
 
-
+Resources <br/>
+https://drive.google.com/drive/folders/1104cJ0gekPOrVGCAGhBKhpn_0PnAoshn?usp=sharing <br/>
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nvblox/isaac_ros_nvblox/api/topics_and_services.html <br/>
