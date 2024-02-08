@@ -9,9 +9,21 @@ title:  "Record Isaac ROS Nvblox Repository"
 ![Nvblox_Record1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/783ae412-9010-495d-b255-b0fe8267a9f9) <br/>
 (2)See Topics <br/>
 ![Nvblox_Record2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c5e00bc1-a8a9-4748-98c5-d5a7480767a0) <br/>
-(3)Record the topics subscribing only for the Nvblox Repository <br/>
+(3)Examine rqt_graph <br/>
+![Nvblox2-38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f7f0274b-2002-4703-8ce6-604edda64328) <br/>
+(4)Record the topics subscribing only for the Nvblox Repository <br/>
 Command: <br/>
 ros2 bag record -o nvblox1 /mesh /mesh_marker /static_esdf_pointcloud /static_map_slice /static_occupancy /map_slice_bounds /back_projected_depth /dynamic_occupancy /dynamic_esdf_pointcloud /dynamic_map_slice /dynamic_points /dynamic_depth_frame_overlay /freespace /combined_esdf_pointcloud /combined_map_slice <br/>
+=> Nothing Recorded? <br/>
+Command2: <br/>
+ros2 bag record -o nvblox1 /front/stereo_camera/left/rgb /front/stereo_camera/left/camera_info /tf /transform /nvblox_node /nvblox_human_node /planner_server /bt_navigator /behavior_server /smoother_server /velocity_smoother /waypoint_follower /global_costmap/global_costmap /bond <br/>
+![Nvblox2-39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1014b730-e5d1-4107-8357-8fcd2b2ab7cc) <br/>
+(5)Display information about a ROS 2 bag file <br/>
+![Nvblox2-40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/66d71a44-417c-43e1-98c2-3793f18976d7) <br/>
+(6)Play the recorded Ros2 bag file <br/>
+![Nvblox2-41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/79455206-6da2-4035-860b-3a3f0075e0c1) <br/>
+
+
 
 ## Record human Reconstruction 
 ### Running with Demonstration Path
