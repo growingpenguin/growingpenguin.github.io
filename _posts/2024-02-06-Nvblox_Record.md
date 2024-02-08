@@ -19,10 +19,20 @@ Command2: <br/>
 ros2 bag record -o nvblox1 /front/stereo_camera/left/rgb /front/stereo_camera/left/camera_info /tf /transform /nvblox_node /nvblox_human_node /planner_server /bt_navigator /behavior_server /smoother_server /velocity_smoother /waypoint_follower /global_costmap/global_costmap /bond <br/>
 ![Nvblox2-39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1014b730-e5d1-4107-8357-8fcd2b2ab7cc) <br/>
 (5)Display information about a ROS 2 bag file <br/>
+nvblox1 <br/>
 ![Nvblox2-40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/66d71a44-417c-43e1-98c2-3793f18976d7) <br/>
+nvblox2 <br/>
+![Nvblox2-43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4e47ed45-3a0c-494f-80ce-8fb19f1a770b) <br/>
 (6)Play the recorded Ros2 bag file <br/>
+nvblox1 <br/>
 ![Nvblox2-41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/79455206-6da2-4035-860b-3a3f0075e0c1) <br/>
-
+nvblox2 <br/>
+![Nvblox2-46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1660e5a5-dffc-467b-be90-322b90352fa0) <br/>
+(7)Check by echoing the message <br/>
+nvblox1 <br/>
+![Nvblox2-44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2c7b7e32-f679-4208-a5b0-6a0a5bc44bc9) <br/>
+nvblox2 <br/>
+![Nvblox2-45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f8148ba3-df91-4fad-8d59-65adfbb959a9) <br/>
 
 
 ## Record human Reconstruction 
@@ -44,7 +54,6 @@ You can then upload the script file to replace the default one, or use the same 
 (1)Launch Ros2 Common container <br/>
 (2)See Topics <br/>
 (3)Record the topics subscribing only for the Nvblox Repository <br/>
-
 
 
 
@@ -82,3 +91,4 @@ You can then upload the script file to replace the default one, or use the same 
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nvblox/isaac_ros_nvblox/api/topics_and_services.html <br/>
+https://www.youtube.com/watch?v=a-O1qM9_S7k <br/>
