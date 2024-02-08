@@ -5,19 +5,22 @@ title:  "Overview Of SDR and Devices"
 
 # Overview Of SDR and Devices
 ## Introduction to SDR
-Software-Defined Radio (SDR): <br/>
+**Software-Defined** Radio (SDR): 소프트웨어로 정의된 라디오 <br/>
 Represents a significant shift in the way radio systems are conceptualized and implemented. <br/>
 Traditionally, radio components and functionalities were primarily defined and managed through hardware. <br/>
 This traditional approach posed limitations, especially regarding flexibility and the ability to adapt to new standards or frequencies <br/>
 -SDR changes this paradigm by transitioning the definition and control of radio functions from hardware to software.<br/>
 This shift began gaining prominence in the late 2000s, marking a new era in radio technology <br/>
 ### Evolution of Radio Technologies  
+**Hardware Radio** **Software-Defined Radio** **Software Radio** <br/>
 (1)Hardware Radio <br/>
+:All componenets of the radio are made of hardware <br/>
 -Traditional Approach: In the past, radio systems were predominantly hardware-based <br/>
 This meant that the tuning and modulation of frequencies were physically managed by adjusting the hardware components <br/>
 -Limitations: Such a system was inherently rigid <br/>
 Adjusting to new frequencies or modulation techniques was challenging and often required substantial physical modifications to the radio system <br/>
 (2)Software Radio <br/>
+:All components of the radio are made of software <br/>
 -Initial Concept: The idea of software radio emerged as a solution to the rigidity of hardware radio <br/>
 It proposed the use of software for managing radio functions, such as tuning to different frequencies <br/>
 -Challenges: However, early attempts at software radio faced difficulties, particularly in achieving the wide coverage and flexibility envisioned <br/>
@@ -28,14 +31,66 @@ It effectively bridges the gap between hardware and software in radio systems <b
 -Advantages: SDR allows for much greater flexibility than traditional hardware radios <br/>
 Adjustments to frequency, modulation, and even the radio's fundamental behaviors can be made through software updates without the need for physical alterations <br/>
 -Milestone Device: <br/>
-The USRP1 (Universal Software Radio Peripheral 1) is often cited as a pioneering device in the SDR domain, illustrating the practical realization of SDR concepts <br/>
+The USRP1(Universal Software Radio Peripheral 1) is often cited as a pioneering device in the SDR domain, illustrating the practical realization of SDR concepts <br/>
 Software-Defined Radio has revolutionized the radio technology landscape by providing unprecedented flexibility and adaptability <br/>
 Through SDR, what was once a rigid and hardware-bound field has become dynamic and software-driven, opening up new possibilities for innovation and application in various domains, including telecommunications, military communications, and amateur radio <br/>
 
-### Software-Defined Vehicle (SDV) and Related Technologies
-The concept of a Software-Defined Vehicle (SDV) emerges as part of a broader trend toward software-defined systems, including storage, cloud, and network solutions <br/>
-This trend signifies a shift from traditional, hardware-centric designs to more flexible, software-driven architectures <br/>
+### What is Software-Defined Vehicle?
+-A vehicle that can control, operate, and update parts or the entirety through software <br/>
+Vehicle can be controlled or updated partially or wholly through its software, highlighting the flexibility and adaptability of its functions. This is particularly relevant with the rise of electric and autonomous vehicles, where software plays a pivotal role in vehicle operation and updates can introduce new features or improvements without needing to change the vehicle's hardware <br/>
+![SDR_Tutorial1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/181f87dc-c16b-46c6-90be-36956ad544c7) <br/>
+-Cloud: The cloud symbol cloud computing services. <br/>
+Vehicles can connect to the cloud to send and receive data. This data might include software updates, traffic information, maps for navigation, and user preferences <br/>
+-Vehicle: Physical vehicle itself <br/>
+Software-Defined Vehicle Platform: Central concept of the diagram. <br/>
+Suggests that the vehicle's platform is defined by software, meaning that much of the vehicle's functionality can be controlled or modified through software. This makes the vehicle highly adaptable and upgradeable, similar to how one might update the operating system or apps on a smartphone <br/>
+ECU/Network:  <br/>
+ECU stands for Electronic Control Unit, which is like the vehicle's computer, controlling various functions <br/> 
+Network implies the vehicle's internal communication network, which allows ECUs and other components to communicate with each other <br/>
+Infotainment: <br/>
+Vehicle's entertainment and information system, which might include navigation, media playback, and connectivity to external devices <br/>
+Sensor/Actuator:  <br/>
+Sensors gather data from the vehicle and its environment, such as speed, temperature, or proximity to other objects <br/>
+Actuators are mechanisms that act upon this data, enabling physical actions like opening valves, moving parts, etc <br/>
+Battery/Motor: The vehicle's power source and propulsion system, which in electric vehicles are the battery and electric motor <br/>
+-The concept of a Software-Defined Vehicle (SDV) emerges as part of a broader trend toward software-defined systems, including storage, cloud, and network solutions <br/>
+-This trend signifies a shift from traditional, hardware-centric designs to more flexible, software-driven architectures <br/>
 The foundation of this movement can be traced back to the development of Software-Defined Radio (SDR), which revolutionized radio technology by transitioning control and functionality from hardware to software <br/>
+
+### Software-Defined Series
+**Software-Defined Data Center** <br/>
+A data center that can control, operate, and update parts or the entirety through software <br/>
+![SDR_Tutorial2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94b7fd55-5e07-485b-955c-7c3f328249dc) <br/>
+Software-Defined Data Center: <br/>
+Data center where all infrastructure is virtualized and delivered "as-a-service" <br/>
+This allows for the entire infrastructure to be controlled and operated through software, providing a more flexible, automated, and manageable environment <br/>
+Automation: <br/> 
+Capability of the data center to manage and operate the systems automatically without human intervention, based on defined policies and rules <br/> 
+Orchestration: <br/>
+Automated arrangement, coordination, and management of complex computer systems, middleware, and services <br/>
+Management: <br/>
+Overarching governance, administration, and control of the data center's resources and services <br/>
+Three pillars of the SDDC: <br/>
+Compute Virtualization:  <br/>
+The virtualization of servers, where multiple virtual machines (VMs) run on a single physical server's hardware, managed by a hypervisor <br/>
+Storage Virtualization:  <br/>
+Pooling of physical storage from multiple network storage devices into what appears to be a single storage device that is managed from a central console <br/>
+Network Virtualization: <br/>
+Process of combining hardware and software network resources and network functionality into a single, software-based administrative entity, a virtual network <br/>
+**Software-Defined Network** <br/>
+A network that can control, operate, and update parts or the entirety through software <br/>
+![SDR_Tutorial3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95e2c5d9-e300-484c-89ae-28d66af347a1) <br/>
+SDN: An approach to networking that uses software-based controllers or application programming interfaces(APIs) to direct traffic on the network and communicate with the underlying hardware infrastructure <br/>
+-It separates the network's control(or management) plane from the data(or forwarding) plane <br/>
+Applications: Software programs that use the network to communicate. They interact with the SDN controller to request network resources or services <br/>
+Control Plane: Contains the SDN Controller, which is the central part of an SDN network. It maintains a comprehensive view of the network and makes decisions about where to send packets based on this view. The control plane is responsible for managing the network policies and traffic flow <br/>
+SDN Controller: "Brain" of the SDN network. It provides the central point of control, using protocols like OpenFlow, to manage the flow control to the networking devices, like switches and routers <br/>
+SDN Datapath: Flow tables that are installed on switches. These tables tell the switches how to handle different types of network packets <br/>
+Data Plane: This layer is made up of the switches that perform the actual forwarding of packets based on the flow tables that have been set up by the control plane <br/>
+Switches: In the context of SDN, these are the physical or virtual devices that forward packets across the network. In an SDN environment, these switches are programmable and can dynamically adjust and route traffic based on the SDN controller's instructions <br/>
+Pool of Application Servers: This refers to the servers that host applications and services. In an SDN architecture, the network can be programmed to optimize the delivery of data to and from these servers <br/>
+
+### Software-Defined Vehicle (SDV) and Related Technologies
 **Evolution from SDR to SDV** <br/>
 -Origin with Software-Defined Radio: <br/>
 The journey began with SDR, which enabled radios to be dynamically programmed for different frequencies, protocols, and functions via software <br/>
