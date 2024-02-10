@@ -136,7 +136,6 @@ Customize Settings <br/>
 17)Create item with a new attribute <br/>
 ![AWS_Serverless:_DynamoDB24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1eedabff-1f4e-4715-8b35-ed06056cdbcb) <br/>
 
-
 Footnote <br/>
 non-relational databases: <br/>
 Unlike relational databases that store data in tables with predefined schemas <br/>
@@ -168,5 +167,58 @@ Super important to choose a good partition key. If john123 is the only user for 
 -The data is partitioned by user_id, which is why john123 is clickable. We can query and search for john123 as an user_id <br/>
 -We can sort the data by post timestamp, which is why we call it a sort key <br/>
 
+### DynamoDB-Read/Write Capacity Modes
+-Control how you manage your table's capacity (read/write throughput) <br/>
+-Provisioned Mode (default) <br/>
+You specify the number of read/writes per second ( = Read capacity mode & Write capacity mode <br/>)
+You need to plan capacity beforehand <br/>
+Pay for provisioned read & write capacity units <br/>
+Example: Want 10 read capacity units & 5 write capacity units, want to pay for that every hour <br/> 
+-On-Demand Mode <br/>
+Read/Writes automatically scale up/down with your workloads <br/>
+No capacity mode needed <br/>
+Pay for what you use, more expensive <br/>
+-You can switch between different modes once every 24 hours <br/>
 
-### AWS Regions
+### R/W Capacity Modes - Provisioned
+-Table must have provisioned read and write capacity units  <br/>
+-Read Capacity Units(RCU) - throughput for reads <br/>
+-Write Capacity Units(WCU) - throughput for writes <br/>
+-Option to setup auto-scaling of throughput to meet demand <br/>
+-Throughput can be exceeded temporarily using "Burst Capacity" <br/>
+-If Burst Capacity has been consumed, you'll get a "ProvisionedThroughputExceededException" <br/>
+-It's then advised to do an exponential backoff retry <br/>
+
+### DynamoDB - Write Capacity Units (WCU)
+**Exam will ask you to perform some computations, so you need to understand the formulas to compute WCU and RCU**
+-One WCU(Write Capacity Unit) represents one write per second for an item up to 1KB in size
+-If the items are larger than 1KB, more WCUs are consumed
+-Example1: <br/>
+We write 10 items per second, with item size 2KB <br/>
+10 * (2/1) = 20WCUs <br/>
+-Example2: <br/>
+We write 6 items per second, with item size 4.5KB <br/>
+6 * (5/1) = 30WCUs <br/>
+-Example3: <br/>
+We write 120 items per minute, with item size 2KB <br/>
+(120/60) * (2/1) = 4WCUs <br/>
+
+### Strongly Consistent Read vs. Eventually Consistent Read
+Two kind of read modes for DynamoDB, which are strongly consistent read and eventually consistent read
+Example: <br/>
+-DynamoDB is indeed a serverless database, but behind the scenes, there are servers. You just don't see them or manage them <br/>
+-We have servers, and let's just consider three servers right now to make it very, very simple, and your data is going to be distributed and replicated across all the servers. 
+-Now considering your application, application is going to do writes to one of these servers, and internally DynamoDB is going to replicate these writes across different servers, such as Server2 and Server3
+-Now when your application reads from DynamoDB, there is a chance that you're going to read not from Server1, but from Server2
+
+### Strongly Consistent Read vs. Eventually Consistent Write
+-Eventually Consistent Read (default) <br/>
+If we read just after a write, it is possible we will get some stale data because of replication <br/>
+-Strongly Consistent Read <br/>
+If we read just after write, we will get the correct data <br/>
+Set "ConsistentRead" parameter to True in API calls (GetItem, BatchGetItem, Query, Scan) <br/>
+Consumes twice the RCU <br/>
+Why would we want to do strongly consistent reads all the time? <br/>
+It is a more expensive query and may also have higher latency <br/>
+
+
