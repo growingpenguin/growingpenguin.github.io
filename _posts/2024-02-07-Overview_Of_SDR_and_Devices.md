@@ -88,7 +88,23 @@ SDN Controller: "Brain" of the SDN network. It provides the central point of con
 SDN Datapath: Flow tables that are installed on switches. These tables tell the switches how to handle different types of network packets <br/>
 Data Plane: This layer is made up of the switches that perform the actual forwarding of packets based on the flow tables that have been set up by the control plane <br/>
 Switches: In the context of SDN, these are the physical or virtual devices that forward packets across the network. In an SDN environment, these switches are programmable and can dynamically adjust and route traffic based on the SDN controller's instructions <br/>
-Pool of Application Servers: This refers to the servers that host applications and services. In an SDN architecture, the network can be programmed to optimize the delivery of data to and from these servers <br/>
+Pool of Application Servers: Servers that host applications and services. In an SDN architecture, the network can be programmed to optimize the delivery of data to and from these servers <br/>
+**Software-Defined Everything** <br/>
+-Software-defined Vehicle <br/>
+-Software-defined Storage <br/>
+-Software-defined Cloud <br/>
+-Software-defined Network <br/>
+
+### Software-Defined Radio
+-Radio that control and update via software <br/>
+SDR is a type of radio communication system where components that have traditionally been implemented in hardware (e.g., mixers, filters, amplifiers, modulators/demodulators, detectors) are instead implemented by means of software on a personal computer or embedded system <br/>
+-Necessary for conceptual learning and practical operation experience <br/>
+To effectively utilize SDR, it's important to understand the underlying concepts that enable software to define and control the radio's functions. Additionally, hands-on experience with actual operation is essential. This experience helps in comprehending how software can manage various aspects of radio operation, such as signal processing, modulation, and frequency management <br/>
+![SDR_Tutorial4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3c9857e9-693b-4f90-9ea6-eb3f08bc2a48) <br/>
+A schematic of the USRP (Universal Software Radio Peripheral)/SBX (SBX is a specific model of USRP that operates at a certain frequency range), which is a common piece of hardware used for SDR <br/>
+-Signal processing path within an SDR system, specifically using a USRP(Universal Software Radio Peripheral) device <br/>
+Starts with a Gain control, then passes through an Anti-aliasing filter with a 100 MHz cutoff frequency before reaching the Analog-to-Digital Converter (ADC), which converts the analog signal into a digital signal represented by x[n] <br/>
+
 
 ### Software-Defined Vehicle (SDV) and Related Technologies
 **Evolution from SDR to SDV** <br/>
@@ -107,7 +123,6 @@ Framing and Scheduling: Software determines how data is organized and when tasks
 Radiation: The management of electromagnetic emissions, crucial for communications and sensor functions, is also software-controlled, allowing for greater precision and adaptability.
 Benefits of Software-Defined Vehicles
 The transition to SDVs brings several advantages, including:
-
 Enhanced Flexibility and Updateability: Vehicles can receive software updates to introduce new features or improve existing ones without the need for physical modifications.
 Customization and Scalability: Software allows for the customization of vehicle functionalities to meet diverse user needs and preferences, as well as the easy scaling of solutions across different models and platforms.
 Improved Performance and Efficiency: By optimizing software algorithms and processes, SDVs can achieve better fuel efficiency, lower emissions, and improved overall performance.
