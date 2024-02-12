@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7acd3679-2b35-4825-990f-a373316db05d)---
+---
 layout: post
 title:  "Build a website fast using python"
 ---
