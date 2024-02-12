@@ -12,7 +12,7 @@ What will be used: Streamlit library <br/>
 (1) Access to the streamlit website and navigate to Quickstart<br/>
 https://docs.streamlit.io/streamlit-community-cloud/get-started <br/>
 (2) Create an environment using venv <br/>
-> D:
+> D: <br/>
 > python -m venv venv
 
 
