@@ -14,10 +14,14 @@ https://docs.streamlit.io/streamlit-community-cloud/get-started <br/>
 (2) Create an environment using venv <br/>
 > D:
 > python -m venv venv
+
+
 ![QuickWebsite6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e1afeda-8d8d-4e2d-b0a2-7e49d4eefa29) <br/>
 (3) Activate your environment <br/>
 > #Windows Command Prompt
 > venv\Scripts\activate.bat
+
+
 (4)Install streamlit library <br/>
 ![QuickWebsite7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7b19ef31-c436-4e3c-980f-e1c0819f329d) <br/>
 
