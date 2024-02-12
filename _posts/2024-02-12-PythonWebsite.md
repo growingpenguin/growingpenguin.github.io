@@ -242,6 +242,12 @@ with st.container():
 ```
 11-6. Result <br/>
 ![QuickWebsite34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ee1edd6e-fd5a-4dc9-b436-6db6d5642b2d) <br/>
+11-7. Testing Form Submission <br/>
+![QuickWebsite35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a3449cf7-364e-49bb-b4a6-392298d3b783) <br/>
+![QuickWebsite36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9efe7a03-d8c2-4a75-9e74-6998baaf9e42) <br/>
+![QuickWebsite37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2b02c353-b0e3-4663-96b2-dab25f3e04a7) <br/>
+Can see the new submission in my inbox with name, email, and message in https://app.getform.io/ <br/>
+
 
 Reference: <br/>
 https://blog.naver.com/jooeun0502/221956294941 <br/>
