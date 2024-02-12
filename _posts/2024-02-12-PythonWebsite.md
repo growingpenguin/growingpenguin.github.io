@@ -16,7 +16,6 @@ https://docs.streamlit.io/streamlit-community-cloud/get-started <br/>
 D: 
 python -m venv venv 
 ```
-
 ![QuickWebsite6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e1afeda-8d8d-4e2d-b0a2-7e49d4eefa29) <br/>
 (3) Activate your environment <br/>
 ```
@@ -81,14 +80,31 @@ with st.container():
 ### 6.Middle Check 
 ![QuickWebsite15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a223aeb5-9b95-4bf2-b23f-e7766abcb0bc) <br/>
 ### 7.Insert Animation next to the text
-
 Insert Lottie file for animation <br/> 
 Lottie file is a json based animation format. Files are small and welcome any device and scale up or down without any pixelation  <br/>
 7-1. Visit the website:  <br/>
 https://lottiefiles.com/ <br/>
 7-2. Search for the animation you like:  <br/>
 ![QuickWebsite16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ce322b94-9a6b-4aa2-a3de-555ac5b16a26) <br/>
+7-3. Copy link from the Asset link & Embed corner <br/>
 ![QuickWebsite17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5f80068a-b359-4e82-8eaa-8ab7a3dfbf87) <br/>
+7-4. Copy and paste the asset link to the script <br/>
+```
+# ---- LOAD ASSETS ----
+lottie_coding = "https://lottie.host/embed/efbad0ce-60c5-47ba-89dc-cee400fdb3d9/AI3dWyvZav.json"
+```
+![QuickWebsite18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/44cab0d4-d595-4bb6-ad43-f06c7bd3b1ee) <br/>
+7-5. Install dependencies for lottie
+```
+# Windows Command Prompt
+venv\Scripts\activate.bat
+```
+Activate your environment <br/>
+```
+(venv) D:\스터디\QuickWebsite>pip install streamlit-lottie
+```
+![QuickWebsite19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1d4e9c36-9168-4afd-a374-6d190faa1698)
+Install dependency for lottie  <br/>
 
 
 Reference: <br/>
