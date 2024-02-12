@@ -55,7 +55,31 @@ Activate environment <br/>
 ```
 ![QuickWebsite12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5b0b03d3-6811-49cc-8553-7d54ff477530) <br/>
 ![QuickWebsite11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/98e6df16-b542-4f4c-85f6-3b2deb7b08b7) <br/>
+How the website looks like <br/>
+Clicking learn more also redirects me to the respective website <br/>
 Caution: Make sure you are on the same directory as your python file <br/>
+### 5.Write Script (Left Column)
+```
+# ---- Where? ----
+# Wrap the following elements in a seperate streamlite container to organize the code (Optional)
+with st.container():
+    # Insert divider using st.write() using three hyphens
+    st.write("---")
+    #Insert two columns
+    left_column1, right_column1 = st.columns(2)
+    with left_column1:
+        st.header("Fabulous restraunts near ApgujeongRodeo")
+        st.write("##")
+        st.write(
+            """
+            Blue ribbon restraunts and elegant and lovely atmosphere, just what you need for Valentine's Day
+            """
+        )
+        st.write("[Search for more in Naver >](https://map.naver.com/p/search/%EC%95%95%EA%B5%AC%EC%A0%95%20%EB%A7%9B%EC%A7%91?searchType=place)")
+```
+![QuickWebsite14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c2f08028-ded6-4c00-846d-35bb25d5b675) <br/>
+![QuickWebsite15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a223aeb5-9b95-4bf2-b23f-e7766abcb0bc) <br/>
+
 
 Reference: <br/>
 https://blog.naver.com/jooeun0502/221956294941 <br/>
