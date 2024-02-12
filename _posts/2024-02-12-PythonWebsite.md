@@ -112,6 +112,7 @@ Install requests library <br/>
 import requests
 from streamlit_lottie import st_lottie
 ```
+![QuickWebsite21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fb7eea7d-5cfd-44f5-93e5-cb44db4c8415) <br/>
 7-7. Create a new function to access the json file of the lottie information <br/>
 ```
 # Function to access the json data of the lottie animation 
@@ -127,7 +128,6 @@ lottie_coding = load_lottieurl("https://lottie.host/embed/efbad0ce-60c5-47ba-89d
 ![QuickWebsite22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/83952482-cea2-41f0-801c-47936efe7944)
 
 
-![QuickWebsite21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fb7eea7d-5cfd-44f5-93e5-cb44db4c8415)
 
 
 Reference: <br/>
