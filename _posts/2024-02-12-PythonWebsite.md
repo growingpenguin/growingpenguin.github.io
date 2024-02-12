@@ -103,8 +103,19 @@ Activate your environment <br/>
 ```
 (venv) D:\스터디\QuickWebsite>pip install streamlit-lottie
 ```
-![QuickWebsite19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1d4e9c36-9168-4afd-a374-6d190faa1698)
-Install dependency for lottie  <br/>
+![QuickWebsite19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1d4e9c36-9168-4afd-a374-6d190faa1698) <br/>
+Install lottie library <br/>
+![QuickWebsite20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2404b167-7848-41c7-9c92-82f1fa7dc858) <br/>
+Install requests library <br/>
+7-6. Write the dependencies import in the script
+```
+import requests
+from streamlit_lottie import st_lottie
+```
+7-7. Create a new function to access the json file of the lottie information <br/>
+
+
+![QuickWebsite21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fb7eea7d-5cfd-44f5-93e5-cb44db4c8415)
 
 
 Reference: <br/>
