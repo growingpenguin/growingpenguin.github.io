@@ -136,6 +136,66 @@ with right_column1:
 ![QuickWebsite24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c8d8af31-84b6-49ef-9f85-dc322e2c5c0f) <br/>
 
 ### 8.Showcase work 
+```
+# ----Presents----
+with st.container():
+    # Insert divider using st.write() using three hyphens
+    st.write("---")
+    st.header("Sweets")
+    st.write("##")
+    #text column is twice as big as the image
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        # Insert image
+    with text_column:
+        # Paste information 
+        # Display title in the subheader
+        st.subheader("How to make a Bark Chocolate")
+        # Description 
+        st.write(
+            """
+            Learn how to use make Bark Chocolate
+            Reference: 빈콩 Binkong Youtube Channel
+            """
+        )
+        # Link for the respective video
+        st.markdown("[Watch Video...](https://www.youtube.com/watch?v=LzyAsRrl5BA)")
+```
+![QuickWebsite25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/47f74854-c42d-417f-9a10-d91b56760ab9) <br/>
+
+### 9.Showcase work in script
+![QuickWebsite26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3c65e743-c2e1-40c9-b447-93e2e755d6bb) <br/>
+
+### 10. Insert images in web app
+10-1. Activate your environment <br/>
+```
+# Windows Command Prompt
+venv\Scripts\activate.bat
+```
+10-2. Install Pillow library <br/>
+```
+(venv) D:\스터디\QuickWebsite>pip install Pillow
+```
+![QuickWebsite27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/18b83dd3-16d6-43b5-b67e-24e38ee9c0e4) <br/>
+10-3. Navigate to work directory of my project <br/>
+![QuickWebsite28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b4c3c942-1427-4239-a5ac-ffcfe3b26aba) <br/>
+10-4. Create a new folder called images <br/>
+![QuickWebsite29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d504cab5-f9af-4767-90d4-0faecfdbaa7c) <br/>
+10-5. Add the images I want to add in the images folder <br/>
+![QuickWebsite30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1f049e6f-d5a9-4ed4-9f35-eeccc7993c8c) <br/>
+10-6. Import Image from PIL  <br/>
+```
+img_chocolatebark = Image.open("images/chocolate_bark.jpg")
+```
+10-7. Load images  <br/>
+```
+with image_column:
+  # Insert image
+  st.image(img_chocolatebark)
+```
+Now ready to display images on the website <br/>
+10-8. Result: <br/>
+![QuickWebsite31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b7ddc1d9-1935-496f-8e7e-1909f73d8b2e) <br/>
 
 
 
