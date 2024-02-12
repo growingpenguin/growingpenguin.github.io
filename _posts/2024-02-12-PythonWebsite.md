@@ -240,6 +240,9 @@ with st.container():
     with right_column5:
         st.empty()
 ```
+11-6. Result <br/>
+![QuickWebsite34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ee1edd6e-fd5a-4dc9-b436-6db6d5642b2d) <br/>
+
 Reference: <br/>
 https://blog.naver.com/jooeun0502/221956294941 <br/>
 https://docs.streamlit.io/get-started/installation/command-line <br/>
