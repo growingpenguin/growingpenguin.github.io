@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7acd3679-2b35-4825-990f-a373316db05d)---
 layout: post
 title:  "Build a website fast using python"
 ---
@@ -23,9 +23,20 @@ python -m venv venv
 # Windows Command Prompt
 venv\Scripts\activate.bat
 ```
-
 (4)Install streamlit library <br/>
 ![QuickWebsite7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7b19ef31-c436-4e3c-980f-e1c0819f329d) <br/>
+(5)Confirm whether streamlit library is properly installed <br/>
+```
+(venv) D:\스터디\QuickWebsite>streamlit hello
+```
+![QuickWebsite9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2144f3cb-f11d-469c-93b0-0b4d32a9ba13) <br/>
+![QuickWebsite10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95c9d619-acbb-43f5-832c-44c1b98012d4) <br/>
+(6)Deactivate Environment <br/>
+```
+(venv) D:\스터디\QuickWebsite>streamlit hello
+```
+
+
 
 ### 1.Install required dependencies for the project 
 ![QuickWebsite1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d935e905-e5e0-41d3-bb3c-ec8c3aa68339) <br/>
