@@ -113,6 +113,18 @@ import requests
 from streamlit_lottie import st_lottie
 ```
 7-7. Create a new function to access the json file of the lottie information <br/>
+```
+# Function to access the json data of the lottie animation 
+def load_lottieurl(url):
+    r = requests.get(url) # Get request of the url
+    if r.status_code != 200: # If the request is successful, it will return a status code of 200
+        return None # If something goes wrong, return nothing
+    return r.json() # Otherwise, return the json data of the lottie animation
+         
+# ---- LOAD ASSETS ----
+lottie_coding = load_lottieurl("https://lottie.host/embed/efbad0ce-60c5-47ba-89dc-cee400fdb3d9/AI3dWyvZav.json")
+```
+![QuickWebsite22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/83952482-cea2-41f0-801c-47936efe7944)
 
 
 ![QuickWebsite21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fb7eea7d-5cfd-44f5-93e5-cb44db4c8415)
