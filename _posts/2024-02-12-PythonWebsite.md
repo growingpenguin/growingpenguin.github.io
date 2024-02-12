@@ -12,13 +12,13 @@ What will be used: Streamlit library <br/>
 (1) Access to the streamlit website and navigate to Quickstart<br/>
 https://docs.streamlit.io/streamlit-community-cloud/get-started <br/>
 (2) Create an environment using venv <br/>
-> D: <br/>
+> D: 
 > python -m venv venv
 
 
 ![QuickWebsite6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e1afeda-8d8d-4e2d-b0a2-7e49d4eefa29) <br/>
 (3) Activate your environment <br/>
-> #Windows Command Prompt
+> # Windows Command Prompt
 > venv\Scripts\activate.bat
 
 
