@@ -13,7 +13,7 @@ What will be used: Streamlit library <br/>
 https://docs.streamlit.io/streamlit-community-cloud/get-started <br/>
 (2) Create an environment using venv <br/>
 ''' D: 
-''' python -m venv venv
+ python -m venv venv '''
 
 
 ![QuickWebsite6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e1afeda-8d8d-4e2d-b0a2-7e49d4eefa29) <br/>
