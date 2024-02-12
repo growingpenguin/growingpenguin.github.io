@@ -196,9 +196,42 @@ with image_column:
 Now ready to display images on the website <br/>
 10-8. Result: <br/>
 ![QuickWebsite31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b7ddc1d9-1935-496f-8e7e-1909f73d8b2e) <br/>
-
-
-
+### 11. Create a contact form
+11-1.Head into free service of formsubmit <br/>
+Link:  https://getform.io <br/>
+11-2.Sign Up and Create a New Form <br/>
+![QuickWebsite32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c11d1078-996a-4066-a053-e9c3945ef17b) <br/>
+11-3.Copy the Form endpoint <br/>
+![QuickWebsite33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b12c4027-1921-4c49-9dbe-40d8bf56334a) <br/>
+11-4. Insert fully functioning contact form <br/>
+```
+# ----Contact----
+with st.container():
+    # Insert divider using st.write() using three hyphens
+    st.write("---")
+    st.header("Get In Touch With Me!")
+    st.write("##")
+    # Documentation: 
+    contact_form = """
+    <form action="https://getform.io/f/9bea6965-f7ef-4386-8aa8-24e5b5b7f425" method="POST">
+      <input type="text" name="name">
+      <!-- add hidden Honeypot input to prevent spams -->
+      <input type="hidden" name="_gotcha" style="display:none !important">
+      <input type="email" name="email">
+      <input type="text" name="message">
+      <button type="submit">Send</button>
+    </form>
+    """
+```
+11-5. Inject this html code to our web app <br/>
+```
+    #Avoid contact form to take the entire screen width
+    left_column5, right_column5 = st.columns(2)
+    with left_column5:
+        st.markdown(contact_form, unsafe_allow_html=True)
+    with right_column5:
+        st.empty()
+```
 Reference: <br/>
 https://blog.naver.com/jooeun0502/221956294941 <br/>
 https://docs.streamlit.io/get-started/installation/command-line <br/>
