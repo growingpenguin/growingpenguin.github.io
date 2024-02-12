@@ -78,7 +78,17 @@ with st.container():
         st.write("[Search for more in Naver >](https://map.naver.com/p/search/%EC%95%95%EA%B5%AC%EC%A0%95%20%EB%A7%9B%EC%A7%91?searchType=place)")
 ```
 ![QuickWebsite14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c2f08028-ded6-4c00-846d-35bb25d5b675) <br/>
+### 6.Middle Check 
 ![QuickWebsite15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a223aeb5-9b95-4bf2-b23f-e7766abcb0bc) <br/>
+### 7.Insert Animation next to the text
+
+Insert Lottie file for animation <br/> 
+Lottie file is a json based animation format. Files are small and welcome any device and scale up or down without any pixelation  <br/>
+7-1. Visit the website:  <br/>
+https://lottiefiles.com/ <br/>
+7-2. Search for the animation you like:  <br/>
+![QuickWebsite16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ce322b94-9a6b-4aa2-a3de-555ac5b16a26) <br/>
+![QuickWebsite17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5f80068a-b359-4e82-8eaa-8ab7a3dfbf87) <br/>
 
 
 Reference: <br/>
