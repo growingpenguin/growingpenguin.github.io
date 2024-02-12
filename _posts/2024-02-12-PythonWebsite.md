@@ -214,13 +214,21 @@ with st.container():
     # Documentation: 
     contact_form = """
     <form action="https://getform.io/f/9bea6965-f7ef-4386-8aa8-24e5b5b7f425" method="POST">
-      <input type="text" name="name">
+      <input type="text" name="name" placeholder="Your name" required>
       <!-- add hidden Honeypot input to prevent spams -->
       <input type="hidden" name="_gotcha" style="display:none !important">
-      <input type="email" name="email">
-      <input type="text" name="message">
+      <input type="email" name="email" placeholder="Your email" required>
+      <input type="text" name="message" placeholder="Your message here" required>
       <button type="submit">Send</button>
     </form>
+    """
+    #Avoid contact form to take the entire screen width
+    left_column5, right_column5 = st.columns(2)
+    with left_column5:
+        #Use markdown field and insert the contact form
+        st.markdown(contact_form, unsafe_allow_html=True)
+    with right_column5:
+        st.empty()
     """
 ```
 11-5. Inject this html code to our web app <br/>
