@@ -126,7 +126,14 @@ def load_lottieurl(url):
 lottie_coding = load_lottieurl("https://lottie.host/embed/efbad0ce-60c5-47ba-89dc-cee400fdb3d9/AI3dWyvZav.json")
 ```
 ![QuickWebsite22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/83952482-cea2-41f0-801c-47936efe7944)
-
+7-8. Write the right column to insert the animation <br/>
+```
+with right_column1:
+        st_lottie(lottie_coding, height=300, key="coding")
+```
+![QuickWebsite23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/01f7412e-659e-49f8-9664-d25e132744ad) <br/>
+7-9. Animation loaded <br/>
+![QuickWebsite24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c8d8af31-84b6-49ef-9f85-dc322e2c5c0f) <br/>
 
 
 
