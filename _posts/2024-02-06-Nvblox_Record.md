@@ -71,6 +71,7 @@ nvblox2 <br/>
 ![Nvblox2-46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1660e5a5-dffc-467b-be90-322b90352fa0) <br/>
 nvblox3 <br/>
 ```
+ros2 bag play nvblox3
 ```
 
 (7)Check by echoing the message <br/>
