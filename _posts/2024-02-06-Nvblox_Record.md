@@ -13,10 +13,14 @@ title:  "Record Isaac ROS Nvblox Repository"
 ![Nvblox2-38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f7f0274b-2002-4703-8ce6-604edda64328) <br/>
 (4)Record the topics subscribing only for the Nvblox Repository <br/>
 Command: <br/>
-ros2 bag record -o nvblox1 /mesh /mesh_marker /static_esdf_pointcloud /static_map_slice /static_occupancy /map_slice_bounds /back_projected_depth /dynamic_occupancy /dynamic_esdf_pointcloud /dynamic_map_slice /dynamic_points /dynamic_depth_frame_overlay /freespace /combined_esdf_pointcloud /combined_map_slice <br/>
+```
+ros2 bag record -o nvblox1 /mesh /mesh_marker /static_esdf_pointcloud /static_map_slice /static_occupancy /map_slice_bounds /back_projected_depth /dynamic_occupancy /dynamic_esdf_pointcloud /dynamic_map_slice /dynamic_points /dynamic_depth_frame_overlay /freespace /combined_esdf_pointcloud /combined_map_slice
+```
 => Nothing Recorded? <br/>
 Command2: <br/>
-ros2 bag record -o nvblox1 /front/stereo_camera/left/rgb /front/stereo_camera/left/camera_info /tf /transform /nvblox_node /nvblox_human_node /planner_server /bt_navigator /behavior_server /smoother_server /velocity_smoother /waypoint_follower /global_costmap/global_costmap /bond <br/>
+```
+ros2 bag record -o nvblox1 /front/stereo_camera/left/rgb /front/stereo_camera/left/camera_info /tf /transform /nvblox_node /nvblox_human_node /planner_server /bt_navigator /behavior_server /smoother_server /velocity_smoother /waypoint_follower /global_costmap/global_costmap /bond
+```
 ![Nvblox2-39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1014b730-e5d1-4107-8357-8fcd2b2ab7cc) <br/>
 (5)Display information about a ROS 2 bag file <br/>
 nvblox1 <br/>
