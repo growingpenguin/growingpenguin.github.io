@@ -106,6 +106,77 @@ rqt_graph
 Select Nodes/Topics(Active) <br/>
 ![Nvblox2-65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95f00a4d-0641-4855-8c8b-7b618d051b08) <br/>
 (4)Record the topics subscribing only for the Nvblox Repository <br/>
+```
+ros2 bag record -o humannvblox1 \
+/behavior_server/transition_event \
+/behavior_tree_log \
+/bond \
+/bt_navigator/transition_event \
+/clicked_point \
+/clock \
+/cmd_vel \
+/cmd_vel_nav \
+/controller_server/transition_event \
+/cost_cloud \
+/diagnostics \
+/evaluation \
+/front/stereo_camera/left/camera_info \
+/front/stereo_camera/left/depth \
+/front/stereo_camera/left/rgb \
+/front/stereo_camera/left/semantic \
+/front/stereo_camera/left/semantic_labels \
+/front/stereo_camera/right/camera_info \
+/front/stereo_camera/right/depth \
+/global_costmap/costmap \
+/global_costmap/costmap_raw \
+/global_costmap/costmap_updates \
+/global_costmap/footprint \
+/global_costmap/global_costmap/transition_event \
+/global_costmap/published_footprint \
+/goal_pose \
+/initialpose \
+/local_costmap/costmap \
+/local_costmap/costmap_raw \
+/local_costmap/costmap_updates \
+/local_costmap/footprint \
+/local_costmap/local_costmap/transition_event \
+/local_costmap/published_footprint \
+/local_plan \
+/marker \
+/nvblox_human_node/dynamic_map_slice \
+/nvblox_node/back_projected_depth \
+/nvblox_node/combined_esdf_pointcloud \
+/nvblox_node/combined_map_slice \
+/nvblox_node/dynamic_depth_frame_overlay \
+/nvblox_node/dynamic_esdf_pointcloud \
+/nvblox_node/dynamic_map_slice \
+/nvblox_node/dynamic_occupancy \
+/nvblox_node/dynamic_points \
+/nvblox_node/freespace \
+/nvblox_node/map_slice_bounds \
+/nvblox_node/mesh \
+/nvblox_node/mesh_marker \
+/nvblox_node/static_esdf_pointcloud \
+/nvblox_node/static_map_slice \
+/nvblox_node/static_occupancy \
+/odom \
+/parameter_events \
+/plan \
+/plan_smoothed \
+/planner_server/transition_event \
+/pose \
+/received_global_plan \
+/rosout \
+/smoother_server/transition_event \
+/speed_limit \
+/tf \
+/tf_static \
+/transform \
+/transformed_global_plan \
+/velocity_smoother/transition_event \
+/waypoint_follower/transition_event
+
+```
 ![Nvblox2-30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7294c9d5-df08-4060-a21c-510039e9ee23) <br/>
 ### Running with Custom Human Paths
 (1)Use the randomization options of the above script. To do so: <br/>
