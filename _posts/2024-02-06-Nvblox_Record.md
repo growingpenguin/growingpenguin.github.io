@@ -108,7 +108,10 @@ You can then upload the script file to replace the default one, or use the same 
 (1)Launch Ros2 Common container <br/>
 ![Nvblox2-56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1f97b6f0-8064-4c2b-b5b8-2e3e7f0a9a62) <br/>
 (2)See Topics <br/>
-(3)Record the topics subscribing only for the Nvblox Repository <br/>
+![Nvblox2-57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/304d9051-5a33-4e52-b77a-55fdbccce94d) <br/>
+(3)Examine rqt_graph <br/>
+
+(4)Record the topics subscribing only for the Nvblox Repository <br/>
 
 
 
