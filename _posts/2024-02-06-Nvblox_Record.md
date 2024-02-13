@@ -104,7 +104,7 @@ rqt_graph
 ```
 ![Nvblox2-58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f96d79a5-2137-430a-bef5-91ab3d91e8be) <br/>
 Select Nodes/Topics(Active) <br/>
-![Nvblox2-59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8671e822-95da-44fc-ad6b-5da80cd29b79) <br/>
+![Nvblox2-65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95f00a4d-0641-4855-8c8b-7b618d051b08) <br/>
 (4)Record the topics subscribing only for the Nvblox Repository <br/>
 ![Nvblox2-30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7294c9d5-df08-4060-a21c-510039e9ee23) <br/>
 ### Running with Custom Human Paths
@@ -121,7 +121,7 @@ You can then upload the script file to replace the default one, or use the same 
 ```
 ros2 topic list
 ```
-![Nvblox2-57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/304d9051-5a33-4e52-b77a-55fdbccce94d) <br/>
+![Nvblox2-64](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c42cb429-820c-4c03-a3f4-f4f313140183) <br/>
 (3)Examine rqt_graph <br/>
 ```
 rqt_graph
