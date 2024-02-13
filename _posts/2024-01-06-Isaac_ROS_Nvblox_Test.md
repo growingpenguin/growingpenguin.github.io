@@ -176,14 +176,16 @@ cd /workspaces/isaac_ros-dev && \
 ```
 ![Nvblox2-33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d9d029a9-4e3e-41ef-ba95-de0bda54731d) <br/>
 (6)Launch the pre-composed graph launch file: <br/>
+```
+ros2 launch nvblox_examples_bringup isaac_sim_dynamics_example.launch.py run_vslam:=True global_frame:=odom_vslam
+```
 Error: <br/>
 Solution: (Searching for it...) <br/>
-![Nvblox2-54](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be8ef1df-5b97-49d4-89a0-d577ed29bcec) <br/>
+https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
+![Nvblox2-48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2eee36ee-fefe-47f6-bd7e-a9a08edf0475) <br/>
 => Delete Benchmark Package and source the workspace <br/>
 Correct Version: <br/>
 ![Nvblox2-34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95866008-04cb-4420-84dd-84c87a0e66a9) <br/>
-https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
-![Nvblox2-48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2eee36ee-fefe-47f6-bd7e-a9a08edf0475) <br/>
 After fixing Error: <br/>
 Omniverse Screen <br/>
 ![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9) <br/>
@@ -194,12 +196,19 @@ Rviz <br/>
 ![Nvblox2-37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/19e43433-c2cb-4960-9d68-2075031411fa) <br/>
 Error Again: <br/>
 Solution: (Searching for it...) <br/>
-=> Nvidia's bug <br/>
 https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
+=> Nvidia's bug <br/>
 ![Nvblox2-47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a016fb3-c026-4300-97f1-6d911eae5be3) <br/>
+Correct Version: <br/>
+```
+ros2 launch nvblox_examples_bringup isaac_sim_dynamics_example.launch.py run_vslam:=True global_frame:=odom
+```
+![Nvblox2-55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bc28e62e-26e6-4e4d-a954-70ea8b29421e) <br/>
 Successful Result: <br/>
-
-
+Omniverse Screen <br/>
+![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9) <br/>
+Rviz <br/>
+![Nvblox2-55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bc28e62e-26e6-4e4d-a954-70ea8b29421e) <br/>
 
 Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_isaac_sim.html <br/>
