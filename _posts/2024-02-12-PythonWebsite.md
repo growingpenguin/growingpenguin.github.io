@@ -247,6 +247,50 @@ with st.container():
 ![QuickWebsite36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9efe7a03-d8c2-4a75-9e74-6998baaf9e42) <br/>
 ![QuickWebsite37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2b02c353-b0e3-4663-96b2-dab25f3e04a7) <br/>
 Can see the new submission in my inbox with name, email, and message in https://app.getform.io/ <br/>
+### 12. Styling
+12-1. Create a new directory for styling <br/>
+![QuickWebsite38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5e5cfaa5-e42c-4d02-99ee-cfa70fe40be7) <br/>
+Create a new folder called style <br/>
+12-2. Paste a pre-written css file <br/>
+![QuickWebsite39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e9e4cdcd-284f-417d-8b50-73fa49ab24f5) <br/>
+12-3. Inject the css code in our web app <br/>
+(Option: Take the entire code and insert it into markdown field) <br/>
+```
+# Function to use local CSS
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+```
+![QuickWebsite40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/322cd322-a9b2-4fb8-84bc-7e7fed14a163) <br/>
+More elegant solution:  <br/>
+Take file name as arg, open the file and insert the content in a html file tag <br/>
+```
+local_css("style/style.css")
+```
+![QuickWebsite41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/45fa5bd1-4684-45e9-b69e-b3a149ed1d75) <br/>
+Call the function with style.css file <br/>
+12-4. Result <br/>
+![QuickWebsite42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e06a5d5f-ec87-45d5-a5a7-968a5f64febb) <br/>
+Button looks much better than before and the button has a hover effect as well <br/>
+### 13. Change theme
+13-1. Create a new directory for theme <br/>
+![QuickWebsite43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/96668376-825d-42ff-9d75-c4b3f0c51ee9) <br/>
+Create a .streamlit directory in the root folder of your application <br/>
+13-2. Create a config.toml app file <br/>
+![QuickWebsite44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6343bc1b-fff4-4ccc-a855-41f5769631a8) <br/>
+13-3. Copy paste from the streamlit <br/>
+![QuickWebsite45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a9027732-d180-4e83-958a-3a55063716bb) <br/>
+Grab the code from the streamlit blog and paste it to the config file <br/>
+Reference: https://blog.streamlit.io/introducing-theming/ <br/>
+13-4. Adjust the color codes <br/>
+![QuickWebsite46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/719abf00-365a-487b-aa7b-d4652554a3f9) <br/>
+Use pink color the interactive elements <br/>
+13-5. Restart the session <br/>
+(Nothing will happen after reload) <br/>
+![QuickWebsite47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/137de900-7b57-4a27-b144-8d0ee6fb25d0) <br/>
+Stop current session by pressing ctrl+c <br/>
+13-6. Restart the app <br/>
+![QuickWebsite48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5e4b8e0e-2b12-4fbd-a258-57b69cd2a0ef) <br/>
 
 
 Reference: <br/>
