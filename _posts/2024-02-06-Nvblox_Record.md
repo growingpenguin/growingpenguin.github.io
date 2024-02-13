@@ -189,6 +189,7 @@ ros2 bag info humannvblox1
 ```
 ros2 bag play humannvblox1
 ```
+![Nvblox2-69](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c92585da-3052-494c-b8bc-efcf8c3fcbe8) <br/>
 (7)Check by echoing the message <br/>
 humannvblox1 <br/>
 ```
