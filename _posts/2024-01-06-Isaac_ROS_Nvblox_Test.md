@@ -107,14 +107,26 @@ Before continuing this example, you must have successfully completed the [Static
 (2)Start the simulation by running the following command in the terminal <br/>
 ![Nvblox2-15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7d649c44-9e5f-49b8-99d9-94384a4722af) <br/>
 (3)In another terminal, run the ROS Docker container using the run_dev.sh script: <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh
+```
 ![Nvblox2-16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a5c02b09-f9ee-4008-ad34-4e12afd43d03) <br/>
 (4)Inside the container, build and source the workspace: <br/>
+```
+cd /workspaces/isaac_ros-dev && \
+  colcon build --symlink-install && \
+  source install/setup.bash
+```
 ![Nvblox2-17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d5318937-810c-4539-9a87-dd0ef78572b8) <br/>
 Error: <br/>
 ![Nvblox2-18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/20c7ce8b-40d3-4d30-a78e-0f151cb00c40) <br/>
 Fixed Version: <br/>
 ![Nvblox2-24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/36829350-aff1-46c5-a1f4-2513371d1585) <br/>
 (5)Launch nvblox configured for human mapping: <br/>
+```
+ros2 launch nvblox_examples_bringup isaac_sim_humans_example.launch.py
+```
 ![Nvblox2-19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/48020731-967f-4386-b724-e943dafcde31) <br/>
 Error: <br/>
 ![Nvblox2-20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f080edd4-ef65-4a37-b7a3-b4a34aead23d) <br/>
@@ -122,18 +134,30 @@ Fixed Version: <br/>
 ![Nvblox2-25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/931962d3-308f-4186-9fa9-d61faebb1728) <br/>
 Solution for steps (4) & (5): (Searching for it...) <br/>
 https://forums.developer.nvidia.com/t/encountering-file-and-package-location-issues-with-human-reconstruction-running-the-demonstration-scene-in-isaac-sim/281057 <br/>
-![Nvblox2-60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/688c9ef2-bf86-4a6e-add0-d055a145c8bb)
 ![Nvblox2-22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/25c90b09-0e26-4976-8822-0da5f22da036) <br/>
 Deleted the Ros Benchmark Repository <br/>
-
-Successful Result: <br/>
+Fixed Result: <br/>
 Omniverse Screen <br/>
 ![Nvblox2-21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7e4dec79-6fe8-4c83-b355-b15508ad58f6) <br/>
 Terminal <br/>
 ![Nvblox2-26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5b64cc87-8565-45af-9fcb-54f48aa42c04) <br/>
 Rviz <br/>
 ![Nvblox2-27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/24a40de9-c54d-4365-b040-52031c8d36b9) <br/>
-
+Error Again: <br/>
+Solution: (Searching for it...) <br/>
+https://forums.developer.nvidia.com/t/encountering-file-and-package-location-issues-with-human-reconstruction-running-the-demonstration-scene-in-isaac-sim/281057 <br/>
+![Nvblox2-61](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d760d467-df17-4f15-9437-9e50e8aa9d96) <br/>
+Correct version for step (5): <br/>
+```
+ros2 launch nvblox_examples_bringup isaac_sim_dynamics_example.launch.py run_vslam:=True global_frame:=odom
+```
+Successful Result: <br/>
+Omniverse Screen: <br/>
+![Nvblox2-63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1c6a8814-453b-4490-a012-ca9a335af255) <br/>
+Rviz: <br/>
+![Nvblox2-62](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be56cc1d-fd09-4bde-b654-6017e08f5df4) <br/>
+Video: <br/>
+https://drive.google.com/file/d/13DloUuPTPgX6bbWMfTPeUD22Avtsx4Vb/view?usp=sharing <br/>
 
 **Running with Custom Human Paths** <br/>
 To have non-default paths taken by the humans, you can <br/>
