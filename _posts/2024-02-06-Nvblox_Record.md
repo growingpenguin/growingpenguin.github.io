@@ -8,6 +8,9 @@ title:  "Record Isaac ROS Nvblox Repository"
 (1)Launch Ros2 Common container <br/>
 ![Nvblox_Record1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/783ae412-9010-495d-b255-b0fe8267a9f9) <br/>
 (2)See Topics <br/>
+```
+ros2 topic list
+```
 ![Nvblox_Record2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c5e00bc1-a8a9-4748-98c5-d5a7480767a0) <br/>
 (3)Examine rqt_graph <br/>
 ![Nvblox2-38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f7f0274b-2002-4703-8ce6-604edda64328) <br/>
