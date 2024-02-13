@@ -64,8 +64,6 @@ nvblox3 <br/>
 ros2 bag info nvblox3
 ```
 ![Nvblox2-50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/117bd462-4dce-43fc-9d1e-d42fb4c10e62) <br/>
-
-
 (6)Play the recorded Ros2 bag file <br/>
 nvblox1 <br/>
 ![Nvblox2-41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/79455206-6da2-4035-860b-3a3f0075e0c1) <br/>
@@ -87,6 +85,10 @@ ros2 topic echo /bond
 ```
 ![Nvblox2-51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9452efc5-f510-4a91-a77f-60b0126b707d) <br/>
 ![Nvblox2-52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f528090b-809e-457a-86c3-a5ac45a8e635) <br/>
+Rosbag Data Files: 
+Nvblox1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
+Nvblox2: https://drive.google.com/drive/folders/1m7kGxxKQ_zyDKCj4C6x-W4Fal-SlocVm?usp=sharing <br/>
+Nvblox3: https://drive.google.com/drive/folders/1Kq51JWFLzy_WMcmDXdB8ZNe0DUN7DArK?usp=sharing <br/>
 
 ## Record human Reconstruction 
 ### Running with Demonstration Path
@@ -179,7 +181,22 @@ ros2 bag record -o humannvblox1 \
 ![Nvblox2-66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/56e77654-d627-4600-87a1-072cedbcf333) <br/>
 
 (5)Display information about a ROS 2 bag file <br/>
-
+```
+ros2 bag info humannvblox1
+```
+![Nvblox2-67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a6935828-7f56-4181-a691-7f870f30a62e) <br/>
+(6)Play the recorded Ros2 bag file <br/>
+```
+ros2 bag play humannvblox1
+```
+(7)Check by echoing the message <br/>
+humannvblox1 <br/>
+```
+ros2 topic echo /local_plan
+```
+![Nvblox2-68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c417fcf8-6a81-49fc-9751-884ba63ea1ac) <br/>
+Rosbag Data Files: <br/>
+humannvblox1: https://drive.google.com/drive/folders/1EJ8uigjMSpYegkjQlVWa-0z0LPxhgBML?usp=sharing <br/>
 
 ### Running with Custom Human Paths
 (1)Use the randomization options of the above script. To do so: <br/>
