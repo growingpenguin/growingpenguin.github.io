@@ -112,16 +112,17 @@ Before continuing this example, you must have successfully completed the [Static
 ![Nvblox2-17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d5318937-810c-4539-9a87-dd0ef78572b8) <br/>
 Error: <br/>
 ![Nvblox2-18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/20c7ce8b-40d3-4d30-a78e-0f151cb00c40) <br/>
-Correct Version: <br/>
+Fixed Version: <br/>
 ![Nvblox2-24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/36829350-aff1-46c5-a1f4-2513371d1585) <br/>
 (5)Launch nvblox configured for human mapping: <br/>
 ![Nvblox2-19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/48020731-967f-4386-b724-e943dafcde31) <br/>
 Error: <br/>
 ![Nvblox2-20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f080edd4-ef65-4a37-b7a3-b4a34aead23d) <br/>
-Correct Version: <br/>
+Fixed Version: <br/>
 ![Nvblox2-25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/931962d3-308f-4186-9fa9-d61faebb1728) <br/>
 Solution for steps (4) & (5): (Searching for it...) <br/>
 https://forums.developer.nvidia.com/t/encountering-file-and-package-location-issues-with-human-reconstruction-running-the-demonstration-scene-in-isaac-sim/281057 <br/>
+![Nvblox2-60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/688c9ef2-bf86-4a6e-add0-d055a145c8bb)
 ![Nvblox2-22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/25c90b09-0e26-4976-8822-0da5f22da036) <br/>
 Deleted the Ros Benchmark Repository <br/>
 
