@@ -19,7 +19,6 @@ Command: <br/>
 ```
 ros2 bag record -o nvblox1 /mesh /mesh_marker /static_esdf_pointcloud /static_map_slice /static_occupancy /map_slice_bounds /back_projected_depth /dynamic_occupancy /dynamic_esdf_pointcloud /dynamic_map_slice /dynamic_points /dynamic_depth_frame_overlay /freespace /combined_esdf_pointcloud /combined_map_slice
 ```
-=> Nothing Recorded? <br/>
 Command2: <br/>
 ```
 ros2 bag record -o nvblox1 /front/stereo_camera/left/rgb /front/stereo_camera/left/camera_info /tf /transform /nvblox_node /nvblox_human_node /planner_server /bt_navigator /behavior_server /smoother_server /velocity_smoother /waypoint_follower /global_costmap/global_costmap /bond
@@ -177,7 +176,11 @@ ros2 bag record -o humannvblox1 \
 /waypoint_follower/transition_event
 
 ```
-![Nvblox2-30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7294c9d5-df08-4060-a21c-510039e9ee23) <br/>
+![Nvblox2-66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/56e77654-d627-4600-87a1-072cedbcf333) <br/>
+
+(5)Display information about a ROS 2 bag file <br/>
+
+
 ### Running with Custom Human Paths
 (1)Use the randomization options of the above script. To do so: <br/>
 ![Nvblox2-31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7c6d50c9-c502-46a9-8c31-dd191ca18cfa) <br/>
@@ -262,6 +265,7 @@ ros2 bag record -o dynamicnvblox1 \
 /velocity_smoother/transition_event \
 /waypoint_follower/transition_event
 ```
+
 
 **ROS Topics Subscribed** <br/>
 | ROS Topic                 | Interface                           | Description |
