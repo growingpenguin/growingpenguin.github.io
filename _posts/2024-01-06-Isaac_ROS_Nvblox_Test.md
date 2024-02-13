@@ -169,13 +169,19 @@ Before continuing this example, you must have successfully completed the [Static
 (4)Inside the container, install isaac_ros_visual_slam <br/>
 ![Nvblox2-11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1e742ac-5d56-44ad-9d2e-33e851df3a17) <br/>
 (5)Inside the container, build and source the workspace: (New Step) <br/>
+```
+cd /workspaces/isaac_ros-dev && \
+>   colcon build --symlink-install && \
+>   source install/setup.bash
+```
 ![Nvblox2-33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d9d029a9-4e3e-41ef-ba95-de0bda54731d) <br/>
 (6)Launch the pre-composed graph launch file: <br/>
-Correct Version: <br/>
-![Nvblox2-34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95866008-04cb-4420-84dd-84c87a0e66a9) <br/>
 Error: <br/>
 Solution: (Searching for it...) <br/>
+![Nvblox2-54](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be8ef1df-5b97-49d4-89a0-d577ed29bcec) <br/>
 => Delete Benchmark Package and source the workspace <br/>
+Correct Version: <br/>
+![Nvblox2-34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95866008-04cb-4420-84dd-84c87a0e66a9) <br/>
 https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
 ![Nvblox2-48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2eee36ee-fefe-47f6-bd7e-a9a08edf0475) <br/>
 After fixing Error: <br/>
