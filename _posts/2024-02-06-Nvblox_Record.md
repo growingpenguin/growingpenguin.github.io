@@ -116,10 +116,9 @@ You can then upload the script file to replace the default one, or use the same 
 ```
 rqt_graph
 ```
-![Nvblox2-59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f96d79a5-2137-430a-bef5-91ab3d91e8be) <br/>
+![Nvblox2-58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f96d79a5-2137-430a-bef5-91ab3d91e8be) <br/>
 Select Nodes/Topics(Active) <br/>
-![Nvblox2-58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e97fb135-e5c5-49f0-89ca-4420a5f9938f) <br/>
-
+![Nvblox2-59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8671e822-95da-44fc-ad6b-5da80cd29b79) <br/>
 (4)Record the topics subscribing only for the Nvblox Repository <br/>
 
 
