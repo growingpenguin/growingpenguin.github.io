@@ -203,7 +203,6 @@ Correct Version: <br/>
 ```
 ros2 launch nvblox_examples_bringup isaac_sim_dynamics_example.launch.py run_vslam:=True global_frame:=odom
 ```
-![Nvblox2-55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bc28e62e-26e6-4e4d-a954-70ea8b29421e) <br/>
 Successful Result: <br/>
 Omniverse Screen <br/>
 ![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9) <br/>
