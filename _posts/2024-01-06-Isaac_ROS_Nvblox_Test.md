@@ -178,13 +178,7 @@ Solution: (Searching for it...) <br/>
 => Delete Benchmark Package and source the workspace <br/>
 https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
 ![Nvblox2-48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2eee36ee-fefe-47f6-bd7e-a9a08edf0475) <br/>
-Error Again: <br/>
-Solution: (Searching for it...) <br/>
-=> Nvidia's bug <br/>
-https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
-![Nvblox2-47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a016fb3-c026-4300-97f1-6d911eae5be3) <br/>
-
-Successful Result: <br/>
+After fixing Error: <br/>
 Omniverse Screen <br/>
 ![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9) <br/>
 Terminal <br/>
@@ -192,6 +186,13 @@ Terminal <br/>
 Rviz <br/>
 ![Nvblox2-35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2d6312c0-4674-494d-bc7c-2ed45e249e6f) <br/>
 ![Nvblox2-37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/19e43433-c2cb-4960-9d68-2075031411fa) <br/>
+Error Again: <br/>
+Solution: (Searching for it...) <br/>
+=> Nvidia's bug <br/>
+https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
+![Nvblox2-47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a016fb3-c026-4300-97f1-6d911eae5be3) <br/>
+Successful Result: <br/>
+
 
 
 Reference <br/>
