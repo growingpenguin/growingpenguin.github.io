@@ -208,6 +208,8 @@ Omniverse Screen <br/>
 ![Nvblox2-12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99c6837c-5bab-4000-a16f-d9369b0106f9) <br/>
 Rviz <br/>
 ![Nvblox2-55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bc28e62e-26e6-4e4d-a954-70ea8b29421e) <br/>
+Video: <br/>
+https://drive.google.com/file/d/1knmg5Dn-jy_7c966EfzqtrJq1FkuvsPY/view?usp=sharing <br/>
 
 Reference <br/>
 https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_dynamic_reconstruction_isaac_sim.html <br/>
