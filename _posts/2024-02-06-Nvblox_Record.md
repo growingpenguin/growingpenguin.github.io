@@ -89,16 +89,23 @@ ros2 topic echo /bond
 ![Nvblox2-51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9452efc5-f510-4a91-a77f-60b0126b707d) <br/>
 ![Nvblox2-52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f528090b-809e-457a-86c3-a5ac45a8e635) <br/>
 
-
-
-
 ## Record human Reconstruction 
 ### Running with Demonstration Path
 (1)Launch Ros2 Common container <br/>
 ![Nvblox2-29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e5b91e43-a4d9-4ecb-9c19-48afaf4ce0bc) <br/>
 (2)See Topics <br/>
+```
+ros2 topic list
+```
 ![Nvblox2-28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cefe576e-16c7-4398-a1de-88191b4b3c84) <br/>
-(3)Record the topics subscribing only for the Nvblox Repository <br/>
+(3)Examine rqt_graph <br/>
+```
+rqt_graph
+```
+![Nvblox2-58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f96d79a5-2137-430a-bef5-91ab3d91e8be) <br/>
+Select Nodes/Topics(Active) <br/>
+![Nvblox2-59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8671e822-95da-44fc-ad6b-5da80cd29b79) <br/>
+(4)Record the topics subscribing only for the Nvblox Repository <br/>
 ![Nvblox2-30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7294c9d5-df08-4060-a21c-510039e9ee23) <br/>
 ### Running with Custom Human Paths
 (1)Use the randomization options of the above script. To do so: <br/>
@@ -111,6 +118,9 @@ You can then upload the script file to replace the default one, or use the same 
 (1)Launch Ros2 Common container <br/>
 ![Nvblox2-56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1f97b6f0-8064-4c2b-b5b8-2e3e7f0a9a62) <br/>
 (2)See Topics <br/>
+```
+ros2 topic list
+```
 ![Nvblox2-57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/304d9051-5a33-4e52-b77a-55fdbccce94d) <br/>
 (3)Examine rqt_graph <br/>
 ```
@@ -181,8 +191,6 @@ ros2 bag record -o dynamicnvblox1 \
 /velocity_smoother/transition_event \
 /waypoint_follower/transition_event
 ```
-
-
 
 **ROS Topics Subscribed** <br/>
 | ROS Topic                 | Interface                           | Description |
