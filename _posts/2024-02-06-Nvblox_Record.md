@@ -113,6 +113,11 @@ You can then upload the script file to replace the default one, or use the same 
 (2)See Topics <br/>
 ![Nvblox2-57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/304d9051-5a33-4e52-b77a-55fdbccce94d) <br/>
 (3)Examine rqt_graph <br/>
+```
+rqt_graph
+```
+![Nvblox2-59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f96d79a5-2137-430a-bef5-91ab3d91e8be) <br/>
+![Nvblox2-58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e97fb135-e5c5-49f0-89ca-4420a5f9938f) <br/>
 
 (4)Record the topics subscribing only for the Nvblox Repository <br/>
 
