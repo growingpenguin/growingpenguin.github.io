@@ -177,6 +177,7 @@ Error: <br/>
 Solution: (Searching for it...) <br/>
 => Delete Benchmark Package and source the workspace <br/>
 https://forums.developer.nvidia.com/t/difficulty-locating-the-nvblox-examples-bringup-package-for-dynamic-reconstruction-in-isaac-sim/281052 <br/>
+![Nvblox2-48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2eee36ee-fefe-47f6-bd7e-a9a08edf0475) <br/>
 Error Again: <br/>
 Solution: (Searching for it...) <br/>
 => Nvidia's bug <br/>
