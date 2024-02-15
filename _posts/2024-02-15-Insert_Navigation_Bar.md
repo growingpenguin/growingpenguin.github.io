@@ -4,7 +4,7 @@ title:  "Insert Navigation Bar"
 ---
 
 # Insert Navigation Bar
-## Place Navigation Bar inside the Sidebar <br/>
+## Place Navigation Bar inside the Sidebar 
 (1)Prepare Your Environment <br/>
 (1)-1 Activate Your Virtual Environment
 ```
