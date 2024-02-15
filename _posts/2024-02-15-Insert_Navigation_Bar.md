@@ -68,7 +68,8 @@ with st.sidebar:
 ```
 orientation = "horizontal"
 ```
-(5) Add styple parameters <br/>
+![QuickWebsite52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d6eb68f9-90c6-4725-95de-48b431a65304) <br/>
+(5) Add style parameters <br/>
 ```
 styles={
         #"container": {"padding": "0!important", "background-color": "#fafafa"},
@@ -77,5 +78,5 @@ styles={
         "nav-link-selected": {"background-color": "lightpurple"},
         }
 ```
-![QuickWebsite52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d6eb68f9-90c6-4725-95de-48b431a65304)
+![QuickWebsite53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99bc4691-380f-4ad3-8602-cd1cfdcf4978) <br/>
 
