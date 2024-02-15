@@ -68,5 +68,14 @@ with st.sidebar:
 ```
 orientation = "horizontal"
 ```
+(5) Add styple parameters <br/>
+```
+styles={
+        #"container": {"padding": "0!important", "background-color": "#fafafa"},
+        "icon": {"color": "#white", "font-size": "14px"}, 
+        "nav-link": {"font-size": "14px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+        "nav-link-selected": {"background-color": "lightpurple"},
+        }
+```
 ![QuickWebsite52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d6eb68f9-90c6-4725-95de-48b431a65304)
 
