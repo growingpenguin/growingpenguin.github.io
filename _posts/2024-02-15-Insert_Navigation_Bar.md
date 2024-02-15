@@ -79,6 +79,7 @@ styles={
         }
 ```
 ![QuickWebsite53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/99bc4691-380f-4ad3-8602-cd1cfdcf4978) <br/>
+Reference: https://github.com/victoryhb/streamlit-option-menu <br/>
 
 Reference: <br/>
 https://www.youtube.com/watch?v=hEPoto5xp3k <br/>
