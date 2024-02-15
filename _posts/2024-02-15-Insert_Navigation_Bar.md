@@ -64,4 +64,9 @@ with st.sidebar:
 ```
 (4)-3 Result <br/>
 ![QuickWebsite51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a73b562f-12de-4bc0-a8d6-71555af81624) <br/>
+(5) Change Orientation <br/>
+```
+orientation = "horizontal"
+```
+![QuickWebsite52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d6eb68f9-90c6-4725-95de-48b431a65304)
 
