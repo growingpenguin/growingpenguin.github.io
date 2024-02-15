@@ -44,5 +44,22 @@ if selected == "Home":
         st.image(img_profile, width=300)
         st.write("I'm a senior undergraduate student specializing in Artificial Intelligence at Sungshin Women's University")
 ```
-
+(4) Specify icon for each item in your options list <br/>
+(4)-1 Go find the icons on the bootstrap website <br/>
+Link: https://icons.getbootstrap.com/ <br/>
+![QuickWebsite50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ab23f79e-1e51-4a40-a040-f33bffcaf9d1) <br/>
+All you need is the icon's name <br/>
+(4)-2 Fix the code <br/>
+```
+# ---- As sidebar menu ----
+with st.sidebar:
+    selected = option_menu(
+        menu_title="Want to know more?",  # required
+        options=["Home", "Projects", "Contact"],  # required
+        icons = ["house", "pencil", "envelope-paper-heart-fill"],
+        menu_icon = "cast",
+        #Index starts at 0, which is the default value for arg
+        default_index=0
+    )
+```
 
