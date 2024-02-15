@@ -62,4 +62,6 @@ with st.sidebar:
         default_index=0
     )
 ```
+(4)-3 Result <br/>
+![QuickWebsite51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a73b562f-12de-4bc0-a8d6-71555af81624) <br/>
 
