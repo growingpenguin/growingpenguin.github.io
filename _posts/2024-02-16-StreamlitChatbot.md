@@ -200,6 +200,5 @@ wsl
 ```
 ![QuickWebsite66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33354514-b04c-488d-bcdb-12d897c4b458) <br/>
 Run wsl <br/>
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1ce4736-a27e-4700-bef8-a6ff1353044b)
-
+![QuickWebsite67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d1be2b4a-0b3a-44b5-be7f-c695662f7c6d) <br/>
 Reference: https://www.youtube.com/watch?v=sBhK-2K9bUc <br/>
