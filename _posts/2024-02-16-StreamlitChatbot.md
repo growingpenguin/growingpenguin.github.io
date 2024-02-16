@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/07b43c32-9a18-41d6-9c44-7c71e52302e2)---
 layout: post
 title:  "Chatbot Website"
 ---
@@ -195,5 +195,11 @@ cmd > 관리자 권한으로 실행 <br/>
 wsl --install
 ```
 ![QuickWebsite65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c0aa169b-7513-40b5-9079-c8043a47061a) <br/>
+```
+wsl
+```
+![QuickWebsite66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33354514-b04c-488d-bcdb-12d897c4b458) <br/>
+Run wsl <br/>
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1ce4736-a27e-4700-bef8-a6ff1353044b)
 
 Reference: https://www.youtube.com/watch?v=sBhK-2K9bUc <br/>
