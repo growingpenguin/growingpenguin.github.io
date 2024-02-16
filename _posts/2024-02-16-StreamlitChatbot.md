@@ -206,4 +206,9 @@ cd /mnt/d/스터다/QuickWebsite/
 ```
 ![QuickWebsite68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5c56b0cd-ae04-41b1-9273-50064ea72ccd) <br/>
 Access Your WSL Environment <br/>
+```
+# Windows Command Prompt
+venv\Scripts\activate.bat
+```
+Activate Your Virtual Environment <br/>
 Reference: https://www.youtube.com/watch?v=sBhK-2K9bUc <br/>
