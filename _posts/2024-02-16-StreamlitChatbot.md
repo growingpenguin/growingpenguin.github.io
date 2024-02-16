@@ -201,4 +201,8 @@ wsl
 ![QuickWebsite66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33354514-b04c-488d-bcdb-12d897c4b458) <br/>
 Run wsl <br/>
 ![QuickWebsite67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d1be2b4a-0b3a-44b5-be7f-c695662f7c6d) <br/>
+```
+cd /mnt/d/스터다/QuickWebsite/
+```
+Access Your WSL Environment <br/>
 Reference: https://www.youtube.com/watch?v=sBhK-2K9bUc <br/>
