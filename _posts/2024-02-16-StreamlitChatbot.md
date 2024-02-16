@@ -189,3 +189,10 @@ if selected == "Chatbot":
 (4)-6 Fixing Error <br/>
 ![QuickWebsite63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/275b6910-31b8-42a3-a93f-df52fe925251) <br/>
 Reference: https://github.com/openai/openai-python/discussions/742 <br/>
+![QuickWebsite64](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2558ffef-0022-4d33-88f8-7fbfd4b1f160) <br/>
+cmd > 관리자 권한으로 실행 <br/>
+```
+wsl --install
+```
+![QuickWebsite65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c0aa169b-7513-40b5-9079-c8043a47061a) <br/>
+
