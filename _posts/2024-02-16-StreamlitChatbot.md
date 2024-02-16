@@ -25,5 +25,61 @@ if selected == "Chatbot":
         st.write("Hello 👋")
 ```
 ![QuickWebsite55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/780f8035-99d5-43b3-b1e7-14c77fff6b83) <br/>
+(3)EchoBot <br/>
+```
+if selected == "Chatbot":
+    #Build a bot that mirrors your input
+    #Bot will respond to your input with the same message
+    #st.chat_message: Display the user's input
+    #st.chat_input: Accept user input
+    #session_state: Store the chat history so we can display it in the chat message container
+    #What should we build?
+    #(1)Two chat message containers to display messages from the user and the bot, respectively
+    #(2)Way to store the chat history so we can display it in the chat message containers
+    #Use a list to store the messages > Append to it every time the user or bot sends a message 
+    #(Each entry in the list will be a dictionary with the following keys: role(the author of the message), and content(the message content))
 
+    st.title("Echo Bot")
+    # Initialize chat history
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+    # Display chat messages from history on app rerun
+    for message in st.session_state.messages: #For loop to iterate through the chat history and display each message in the chat message container (with the author role and message content)
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+    #Check to see if the messages key is in st.session_state. 
+    #If it's not, we initialize it to an empty list. 
+    #This is because we'll be adding messages to the list later on, and we don't want to overwrite the list every time the app reruns
 
+    # React to user input(:= operator to assign the user's input to the prompt variable and checked if it's not None in the same line)
+    if prompt := st.chat_input("What is up?"): 
+        # Display user message in chat message container
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        # Add user message to chat history
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        #If the user has sent a message, we display the message in the chat message container and append it to the chat history.
+        response = f"Echo: {prompt}"
+        # Display assistant response in chat message container
+        with st.chat_message("assistant"):
+            st.markdown(response)
+        # Add assistant response to chat history(Display the bot's response in the chat message container and add it to the history)
+        st.session_state.messages.append({"role": "assistant", "content": response})
+```
+-session_state features help keep a record of the conversation <br/>
+Feature allow your app to remember data between user interactions like a web browser's memory during a browsing session <br/>
+(4)ChatGPT AI Clone <br/>
+How? <br/>
+Instead of returning the same prompt as the answer, want to use chatgpt <br/>
+(1)Prepare Your Environment <br/>
+(1)-1 Activate Your Virtual Environment
+```
+# Windows Command Prompt
+venv\Scripts\activate.bat
+```
+(1)-2 Install the Required Library <br/>
+```
+pip install openai
+```
+![QuickWebsite57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f825d336-34e7-413b-84d1-246f3b860f82) <br/>
+Reference: https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps <br/>
