@@ -188,3 +188,4 @@ if selected == "Chatbot":
 ```
 (4)-6 Fixing Error <br/>
 ![QuickWebsite63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/275b6910-31b8-42a3-a93f-df52fe925251) <br/>
+Reference: https://github.com/openai/openai-python/discussions/742 <br/>
