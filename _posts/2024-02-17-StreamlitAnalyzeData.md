@@ -30,13 +30,30 @@ streamlit hello
 (1)-6 Create new python file 
 ![QuickWebsite3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fa0ca907-5249-4ab0-9b53-8c9b91780246) <br/>
 Right click mouse > +새로 만들기 > 텍스트 문서> Change the file name to dataapp.py <br/>
+(1)-7 Open up the script using the preferred text editor <br/>
+![QuickWebsite4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/35a24d2b-7e9d-49da-9d61-03b152782dbe) <br/>
+Opened the script using visual studio code <br/>
+(Right click file > 연결 프로그램 > Select Visual Studio Code) <br/>
+(1)-8 Install Required Libraries <br/>
+```
+pip install pandas #Required
+pip install seaborn  #Required
+pip install matplotlib  #Required
+pip install requests
+pip install streamlit_lottie
+pip install streamlit_option_menu
+```
+(1)-9 Install Required Libraries <br/>
 
-(1)-7 Install Required Libraries <br/>
-```
-pip install pandas
-pip install seaborn
-pip install matplotlib
-```
+
+(1)-8 <br/>
+Basic code I used <br/>
+
+
+
+
+
+
 (2) Load Data Function <br/>
 (2)-1 Load Data Function Main Function Code <br/>
 ```
