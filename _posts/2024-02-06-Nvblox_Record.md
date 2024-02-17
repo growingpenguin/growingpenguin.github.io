@@ -377,7 +377,7 @@ dynamicnvblox1 <br/>
 ```
 ros2 topic echo /front/stereo_camera/right/semantic
 ```
-![Nvblox2-68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c417fcf8-6a81-49fc-9751-884ba63ea1ac) <br/>
+![Nvblox2-73](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b083d24b-fda2-43e1-95d1-ed8e0ee83e63) <br/>
 dynamicnvblox2 <br/>
 ```
 ros2 topic echo /front/stereo_camera/right/semantic
