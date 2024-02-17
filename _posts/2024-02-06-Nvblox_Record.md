@@ -222,7 +222,7 @@ rqt_graph
 Select Nodes/Topics(Active) <br/>
 ![Nvblox2-59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8671e822-95da-44fc-ad6b-5da80cd29b79) <br/>
 (4)Record the topics subscribing only for the Nvblox Repository <br/>
-Command: <br/>
+Command1: <br/>
 ```
 ros2 bag record -o dynamicnvblox1 \
 /behavior_server/transition_event \
@@ -282,6 +282,79 @@ ros2 bag record -o dynamicnvblox1 \
 /transformed_global_plan \
 /velocity_smoother/transition_event \
 /waypoint_follower/transition_event
+```
+Command2: <br/>
+```
+ros2 bag record -o dynamicnvblox2 \
+/behavior_server/transition_event \
+/behavior_tree_log \
+/bond \
+/bt_navigator/transition_event \
+/clicked_point \
+/clock \
+/cmd_vel \
+/cmd_vel_nav \
+/controller_server/transition_event \
+/cost_cloud \
+/diagnostics \
+/evaluation \
+/front/stereo_camera/left/camera_info \
+/front/stereo_camera/left/depth \
+/front/stereo_camera/left/rgb \
+/front/stereo_camera/left/semantic \
+/front/stereo_camera/left/semantic_labels \
+/front/stereo_camera/right/camera_info \
+/front/stereo_camera/right/depth \
+/front/stereo_camera/right/rgb \
+/front/stereo_camera/right/semantic \
+/front/stereo_camera/right/semantic_labels \
+/global_costmap/costmap \
+/global_costmap/costmap_raw \
+/global_costmap/costmap_updates \
+/global_costmap/footprint \
+/global_costmap/global_costmap/transition_event \
+/global_costmap/published_footprint \
+/goal_pose \
+/initialpose \
+/local_costmap/costmap \
+/local_costmap/costmap_raw \
+/local_costmap/costmap_updates \
+/local_costmap/footprint \
+/local_costmap/local_costmap/transition_event \
+/local_costmap/published_footprint \
+/local_plan \
+/marker \
+/nvblox_human_node/dynamic_map_slice \
+/nvblox_node/combined_esdf_pointcloud \
+/nvblox_node/dynamic_occupancy \
+/nvblox_node/mesh \
+/nvblox_node/static_map_slice \
+/odom \
+/parameter_events \
+/plan \
+/plan_smoothed \
+/planner_server/transition_event \
+/received_global_plan \
+/rosout \
+/smoother_server/transition_event \
+/speed_limit \
+/tf \
+/tf_static \
+/transformed_global_plan \
+/velocity_smoother/transition_event \
+/waypoint_follower/transition_event
+```
+![Nvblox2-70](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/29ad40aa-921d-4135-b79e-da51144219a0) <br/>
+(5)Display information about a ROS 2 bag file <br/>
+dynamicnvblox1 <br/>
+```
+ros2 bag info dynamicnvblox1
+```
+![Nvblox2-71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac5bce80-7391-4422-be44-509f2d39ee55)
+
+dynamicnvblox2 <br/>
+```
+ros2 bag info dynamicnvblox2
 ```
 
 
