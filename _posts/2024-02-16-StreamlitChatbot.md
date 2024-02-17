@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/07b43c32-9a18-41d6-9c44-7c71e52302e2)---
+---
 layout: post
 title:  "Chatbot Website"
 ---
@@ -207,8 +207,10 @@ cd /mnt/d/스터디/QuickWebsite/
 ![QuickWebsite68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5c56b0cd-ae04-41b1-9273-50064ea72ccd) <br/>
 Access Your WSL Environment <br/>
 ```
-# Windows Command Prompt
-venv\Scripts\activate.bat
+curl -fsSL https://docs.grit.io/install | bash
+source /home/[Username]/.bashrc
+grit install
+grit apply openai
 ```
 Activate Your Virtual Environment <br/>
 Reference: https://www.youtube.com/watch?v=sBhK-2K9bUc <br/>
