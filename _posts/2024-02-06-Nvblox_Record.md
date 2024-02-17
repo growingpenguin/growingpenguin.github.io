@@ -350,13 +350,12 @@ dynamicnvblox1 <br/>
 ```
 ros2 bag info dynamicnvblox1
 ```
-![Nvblox2-71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac5bce80-7391-4422-be44-509f2d39ee55)
-
+![Nvblox2-72](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1d01f8c5-6e9c-4744-a276-ed0791ea997f) <br/>
 dynamicnvblox2 <br/>
 ```
 ros2 bag info dynamicnvblox2
 ```
-
+![Nvblox2-71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac5bce80-7391-4422-be44-509f2d39ee55) <br/>
 
 **ROS Topics Subscribed** <br/>
 | ROS Topic                 | Interface                           | Description |
