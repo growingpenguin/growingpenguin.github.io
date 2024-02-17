@@ -356,6 +356,41 @@ dynamicnvblox2 <br/>
 ros2 bag info dynamicnvblox2
 ```
 ![Nvblox2-71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac5bce80-7391-4422-be44-509f2d39ee55) <br/>
+(6)Play the recorded Ros2 bag file <br/>
+dynamicnvblox1 <br/>
+```
+ros2 bag play dynamicnvblox1
+```
+![Nvblox2-41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/79455206-6da2-4035-860b-3a3f0075e0c1) <br/>
+dynamicnvblox2 <br/>
+```
+ros2 bag play dynamicnvblox2
+```
+![Nvblox2-46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1660e5a5-dffc-467b-be90-322b90352fa0) <br/>
+(7)Check by echoing the message <br/>
+Run Container <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh
+```
+dynamicnvblox1 <br/>
+```
+ros2 topic echo /front/stereo_camera/right/semantic
+```
+![Nvblox2-68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c417fcf8-6a81-49fc-9751-884ba63ea1ac) <br/>
+dynamicnvblox2 <br/>
+```
+ros2 topic echo /front/stereo_camera/right/semantic
+```
+![Nvblox2-68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c417fcf8-6a81-49fc-9751-884ba63ea1ac) <br/>
+
+
+Rosbag Data Files: <br/>
+humannvblox1: https://drive.google.com/drive/folders/1EJ8uigjMSpYegkjQlVWa-0z0LPxhgBML?usp=sharing <br/>
+
+
+
+
 
 **ROS Topics Subscribed** <br/>
 | ROS Topic                 | Interface                           | Description |
