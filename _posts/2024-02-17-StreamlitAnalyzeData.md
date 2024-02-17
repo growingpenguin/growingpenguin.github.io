@@ -18,7 +18,11 @@ python -m venv venv
 # Windows Command Prompt
 venv\Scripts\activate.bat
 ```
-(1)-4 Install Required Libraries <br/>
+(1)-4 Install streamlit library <br/>
+```
+pip install streamlit
+```
+(1)-5 Install Required Libraries <br/>
 ```
 pip install pandas
 pip install seaborn
