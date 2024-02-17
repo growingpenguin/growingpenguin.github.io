@@ -214,3 +214,25 @@ def data_page():
               # Display the line plot in Streamlit
               st.pyplot(fig)
 ```
+(4) Download plotted graph as png button <br/>
+```
+from io import BytesIO
+# Function to download the plot as a png
+def get_image_download_link(fig, filename="plot.png", caption="Download plot as PNG"):
+    # Create a BytesIO buffer to save the plot
+    buffer = BytesIO()
+    fig.savefig(buffer, format="png", bbox_inches="tight")  # Save the plot to the buffer
+    buffer.seek(0)  # Move to the beginning of the buffer
+
+    # Create the download button
+    return st.download_button(
+        label=caption,
+        data=buffer,
+        file_name=filename,
+        mime="image/png"
+    )
+```
+
+
+Reference: <br/>
+https://medium.com/@arshren/building-interactive-predictive-machine-learning-workflow-with-streamlit-330188c7ead0 <br/>
