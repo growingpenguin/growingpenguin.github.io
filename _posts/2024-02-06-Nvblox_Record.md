@@ -361,12 +361,12 @@ dynamicnvblox1 <br/>
 ```
 ros2 bag play dynamicnvblox1
 ```
-![Nvblox2-41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/79455206-6da2-4035-860b-3a3f0075e0c1) <br/>
+![Nvblox2-73](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b083d24b-fda2-43e1-95d1-ed8e0ee83e63) <br/>
 dynamicnvblox2 <br/>
 ```
 ros2 bag play dynamicnvblox2
 ```
-![Nvblox2-46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1660e5a5-dffc-467b-be90-322b90352fa0) <br/>
+![Nvblox2-75](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e13d7673-1c89-4fce-9117-45e2638ae97b) <br/>
 (7)Check by echoing the message <br/>
 Run Container <br/>
 ```
@@ -377,13 +377,12 @@ dynamicnvblox1 <br/>
 ```
 ros2 topic echo /front/stereo_camera/right/semantic
 ```
-![Nvblox2-73](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b083d24b-fda2-43e1-95d1-ed8e0ee83e63) <br/>
+![Nvblox2-74](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/76b1ce83-97aa-4e6e-80ec-d8cb27e39df3) <br/>
 dynamicnvblox2 <br/>
 ```
 ros2 topic echo /front/stereo_camera/right/semantic
 ```
-![Nvblox2-68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c417fcf8-6a81-49fc-9751-884ba63ea1ac) <br/>
-
+![Nvblox2-76](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/de1b80c4-3202-46d3-b422-8b03d7b8f1a6) <br/>
 
 Rosbag Data Files: <br/>
 humannvblox1: https://drive.google.com/drive/folders/1EJ8uigjMSpYegkjQlVWa-0z0LPxhgBML?usp=sharing <br/>
