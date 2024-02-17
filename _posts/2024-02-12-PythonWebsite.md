@@ -26,13 +26,13 @@ venv\Scripts\activate.bat
 ![QuickWebsite7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7b19ef31-c436-4e3c-980f-e1c0819f329d) <br/>
 (5)Confirm whether streamlit library is properly installed <br/>
 ```
-(venv) D:\스터디\QuickWebsite>streamlit hello
+streamlit hello
 ```
 ![QuickWebsite9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2144f3cb-f11d-469c-93b0-0b4d32a9ba13) <br/>
 ![QuickWebsite10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/95c9d619-acbb-43f5-832c-44c1b98012d4) <br/>
 (6)Deactivate Environment <br/>
 ```
-(venv) D:\스터디\QuickWebsite>streamlit hello
+deactivate
 ```
 ### 1.Create new python file 
 ![QuickWebsite3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fa0ca907-5249-4ab0-9b53-8c9b91780246) <br/>
