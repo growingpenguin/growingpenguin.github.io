@@ -22,6 +22,13 @@ venv\Scripts\activate.bat
 ```
 pip install streamlit
 ```
+(1)-5 Confirm whether streamlit library is properly installed <br/>
+```
+streamlit hello
+```
+![DataWebsite1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eb126a7d-2575-4585-a36d-d30ad8ae5e55) <br/>
+
+
 (1)-5 Install Required Libraries <br/>
 ```
 pip install pandas
