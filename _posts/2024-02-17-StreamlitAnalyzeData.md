@@ -5,7 +5,15 @@ title:  "Data Analysis Website"
 
 # Preparation
 (1)Prepare Your Environment <br/>
-(1)-1 Activate Your Virtual Environment
+(1)-1 Access to the streamlit website and navigate to Quickstart<br/>
+https://docs.streamlit.io/streamlit-community-cloud/get-started <br/>
+(1)-2 Create an environment using venv <br/>
+```
+D: 
+python -m venv venv 
+```
+![QuickWebsite6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e1afeda-8d8d-4e2d-b0a2-7e49d4eefa29) <br/>
+(1)-3 Activate Your Virtual Environment
 ```
 # Windows Command Prompt
 venv\Scripts\activate.bat
