@@ -214,5 +214,7 @@ grit apply openai
 ```
 (4)-7 Fixing another error <br/>
 ![QuickWebsite69](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/caad66da-92e7-4372-ab1f-2e4f3b45b12e) <br/>
-Activate Your Virtual Environment <br/>
+Need to add payment <br/>
+![QuickWebsite71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1b9f15ab-f287-44ff-81ee-77ff3184e4f4) <br/>
+
 Reference: https://www.youtube.com/watch?v=sBhK-2K9bUc <br/>
