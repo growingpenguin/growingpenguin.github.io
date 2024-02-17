@@ -217,4 +217,61 @@ grit apply openai
 Need to add payment <br/>
 ![QuickWebsite71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1b9f15ab-f287-44ff-81ee-77ff3184e4f4) <br/>
 
+(5) Entire code <br/>
+```
+from PIL import Image
+import requests
+import streamlit as st
+from openai import OpenAI
+
+if selected == "Chatbot":
+    #Build a bot that mirrors your input
+    #Bot will respond to your input with the same message
+    #st.chat_message: Display the user's input
+    #st.chat_input: Accept user input
+    #session_state: Store the chat history so we can display it in the chat message container
+    #What should we build?
+    #(1)Two chat message containers to display messages from the user and the bot, respectively
+    #(2)Way to store the chat history so we can display it in the chat message containers
+    #Use a list to store the messages > Append to it every time the user or bot sends a message 
+    #(Each entry in the list will be a dictionary with the following keys: role(the author of the message), and content(the message content))
+
+    st.title("Cloned ChatGPT-3.5")
+    if "openai_model" not in st.session_state:
+        st.session_state["openai_model"] = "gpt-3.5-turbo"
+    # Initialize chat history
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+    # Display chat messages from history on app rerun
+    for message in st.session_state.messages: #For loop to iterate through the chat history and display each message in the chat message container (with the author role and message content)
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+    #Check to see if the messages key is in st.session_state. 
+    #If it's not, we initialize it to an empty list. 
+    #This is because we'll be adding messages to the list later on, and we don't want to overwrite the list every time the app reruns
+
+    # React to user input(:= operator to assign the user's input to the prompt variable and checked if it's not None in the same line)
+    if prompt := st.chat_input("What is up?"): 
+        # Display user message in chat message container
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        # Add user message to chat history
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        # Display assistant response in chat message container
+        with st.chat_message("assistant"):
+            message_placeholder = st.empty()
+            full_response = "" #full_response to an empy string
+            for response in client.chat.completions.create(#Call the openai api 
+                model=st.session_state["openai_model"], #Pass model saved in the session states
+                messages=[ #Conversation so far
+                    {"role": m["role"], "content": m["content"]}
+                    for m in st.session_state.messages
+                ],
+                stream=True):
+                full_response += response.choices[0].delta.get("content", "") #Add chatgpt response to full_response string
+                message_placeholder.markdown(full_response + "🐇 ") #Use message_placeholder to show the response so far
+            message_placeholder.markdown(full_response) #Display full response one more time
+        st.session_state.messages.append({"role": "assistant", "content": response}) #Add chatgpt response to the messages list (Ensure response is saved)
+```
+
 Reference: https://www.youtube.com/watch?v=sBhK-2K9bUc <br/>
