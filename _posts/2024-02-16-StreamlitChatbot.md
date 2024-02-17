@@ -202,7 +202,7 @@ wsl
 Run wsl <br/>
 ![QuickWebsite67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d1be2b4a-0b3a-44b5-be7f-c695662f7c6d) <br/>
 ```
-cd /mnt/d/스터다/QuickWebsite/
+cd /mnt/d/스터디/QuickWebsite/
 ```
 ![QuickWebsite68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5c56b0cd-ae04-41b1-9273-50064ea72ccd) <br/>
 Access Your WSL Environment <br/>
