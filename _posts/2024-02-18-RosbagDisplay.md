@@ -31,7 +31,20 @@ Click on Apply & restart <br/>
 ## Step 3: Prepare Required Directories
 Ensuring your specified path (D:\MobilityServiceLab\rosbag\bags) exists and contains your ROS bag files <br/>
 ![Rosbag_Visualize7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c69810e4-6524-402e-ba51-f6e27ad65a80) <br/>
-## Step 4: Adjust the Docker Compose File for Windows
+
+## Step 4: Create Docker file 
+(1)Create a New Text Document for Docker Compose: <br/>
+-Navigate to the directory where you want to create the Docker Compose file <br/>
+-Right-click in the folder, select 'New' > 'Text Document', and name the file docker-compose.yml <br/>
+(2)Open the Docker Compose File in a Code Editor: <br/>
+-Launch the code editor you prefer to use. (Example: Visual Studio Code) <br/>
+-Open the newly created docker-compose.yml file in Visual Studio Code <br/>
+(3)Prepare the Docker Compose Content:
+Copy the Docker Compose content from the [source](https://gist.githubusercontent.com/cuongld2/c7f14474b301f8db7e213ccf829bba89/raw/2c41391312e363d7c1dae0b0838c0a554effd865/gistfile1.txt) <br/>
+Reference: https://towardsdatascience.com/bag-file-management-using-bag-database-44d774d54df3 <br/>
+(4) Copy and Paste the Content > Save the Docker Compose File <br/>
+
+## Step 5: Adjust the Docker Compose File for Windows
 The Docker Compose file you provided should work as-is, provided Docker Desktop is correctly configured to access your drive <br/>
 Make sure the path to your bags is correctly specified in the volumes section. 
 ```
@@ -52,7 +65,7 @@ volumes:
             type: 'tmpfs'
             device: 'tmpfs'
 ```
-## Step 5: Adjust the Docker Compose File for Windows
+## Step 6: Adjust the Docker Compose File for Windows
 Open Command Prompt and Navigate to the folder where your Docker Compose file is saved <br/>
 ```
 D:
@@ -74,5 +87,12 @@ docker ps
 ```
 ![Rosbag_Visualize10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7568a0b2-34ee-4914-8d98-066ed1a11d90) <br/>
 List running containers <br/>
+## Step 7: Accessing Your Services
+Bag Database Web Interface:  <br/>
+Accessible at http://localhost:8080 <br/>
+Open this address in a web browser to interact with the bag database UI <br/>
+Postgres Database: <br/>
+Accessible on port 5432 <br/>
+(Do not directly need to access this unless performing specific database operations) <br/>
 
 Reference: https://towardsdatascience.com/bag-file-management-using-bag-database-44d774d54df3 <br/>
