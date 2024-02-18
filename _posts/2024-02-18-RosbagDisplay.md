@@ -72,8 +72,7 @@ Check that your services are running correctly <br/>
 ```
 docker ps
 ```
-List running containers <br/>
 ![Rosbag_Visualize10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7568a0b2-34ee-4914-8d98-066ed1a11d90) <br/>
-
+List running containers <br/>
 
 Reference: https://towardsdatascience.com/bag-file-management-using-bag-database-44d774d54df3 <br/>
