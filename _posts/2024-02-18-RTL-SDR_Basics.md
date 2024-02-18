@@ -188,8 +188,10 @@ Roundup on the [RTL-SDR website](https://www.rtl-sdr.com/roundup-software-define
 RTL-SDR dongle from the website RTL-SDR.COM <br/>
 Software-defined radio (SDR) receiver that you can use with a computer to receive radio signals from various frequencies <br/>
 Versatile tool for hobbyists and professionals alike to explore radio frequencies, including but not limited to FM and AM broadcasts, emergency services, satellite communications, and many other signals <br/>
-
-The text on the dongle indicates that it's version 3 (V3) of their product line, and it's capable of receiving DVB-T, DAB, and FM signals. It also mentions some of the chipsets it uses, like the RTL2832U and R820T2, which are responsible for the digital processing and tuning of radio signals, respectively. The term "TCXO-0.5PPM" refers to the type of oscillator used in the device, which has a very low error margin (0.5 parts per million), making it very stable and precise. "Bias-T HF" suggests it supports direct high-frequency sampling and can provide power over the antenna connector (Bias-T) for devices like low noise amplifiers.
+-Version 3(V3) of their product line, and it's capable of receiving DVB-T, DAB, and FM signals <br/>
+Mentions some of the chipsets it uses, like the RTL2832U and R820T2, which are responsible for the digital processing and tuning of radio signals, respectively <br/>
+-TCXO-0.5PPM: The type of oscillator used in the device, which has a very low error margin (0.5 parts per million), making it very stable and precise <br/>
+-Bias-T HF: Supports direct high-frequency sampling and can provide power over the antenna connector (Bias-T) for devices like low noise amplifiers <br/>
 
 As for your development environment, that generally refers to the software and tools you use to work with this device on your computer. It often includes:
 
