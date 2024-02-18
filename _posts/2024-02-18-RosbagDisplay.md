@@ -52,4 +52,28 @@ volumes:
             type: 'tmpfs'
             device: 'tmpfs'
 ```
+## Step 5: Adjust the Docker Compose File for Windows
+Open Command Prompt and Navigate to the folder where your Docker Compose file is saved <br/>
+```
+D:
+cd <Folder Location> 
+```
+Search > cmd > Navigate to the location of the folder <br/>
+Run Docker Compose: <br/>
+Execute the following command to start up your services defined in the Docker Compose file <br/>
+```
+docker-compose up -d
+```
+![Rosbag_Visualize8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d25068e7-d12a-4ca7-aeb3-fde09f56f3d1) <br/>
+![Rosbag_Visualize9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ed16b1ea-d3a0-4842-8a6b-111530f7e8dd) <br/>
+
+## Step 6: Verify the Setup
+Check that your services are running correctly <br/>
+```
+docker ps
+```
+List running containers <br/>
+![Rosbag_Visualize10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7568a0b2-34ee-4914-8d98-066ed1a11d90) <br/>
+
+
 Reference: https://towardsdatascience.com/bag-file-management-using-bag-database-44d774d54df3 <br/>
