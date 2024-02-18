@@ -123,11 +123,14 @@ The Bag Database will do its best to use OpenCV to convert images into a format 
 
 Reference: https://towardsdatascience.com/bag-file-management-using-bag-database-44d774d54df3 <br/>
 ### Step 10: View Bag information
-
-
+```
+docker-compose stop
+```
+![Rosbag_Visualize15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2a60befb-ea3a-4cdf-9a7b-070cc54fdb5f) <br/>
+=> Can be restarted with docker-compose start <br/>
 
 ## PlotJuggler
-Many of these tools lack support for ROS 2. Given that my ROS 2 bag data is in the .db3 format, I encountered limitations with these other tools so I tried the FoxGLove Studio <br/> 
+Many of these tools lack support for ROS 2. Given that my ROS 2 bag data is in the .db3 format, I encountered limitations with these other tools so I tried the PlotJuggler <br/> 
 ### Step1: Access PlotJuggler Website & Github  
 Link:  <br/>
 https://plotjuggler.io/ <br/>
