@@ -34,7 +34,7 @@ Ensuring your specified path (D:\MobilityServiceLab\rosbag\bags) exists and cont
 ## Step 4: Adjust the Docker Compose File for Windows
 The Docker Compose file you provided should work as-is, provided Docker Desktop is correctly configured to access your drive <br/>
 Make sure the path to your bags is correctly specified in the volumes section. 
-
+```
 volumes:
     bags:
         driver: local
@@ -51,5 +51,5 @@ volumes:
         driver_opts:
             type: 'tmpfs'
             device: 'tmpfs'
-
+```
 Reference: https://towardsdatascience.com/bag-file-management-using-bag-database-44d774d54df3 <br/>
