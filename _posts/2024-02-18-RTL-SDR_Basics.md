@@ -117,8 +117,66 @@ Footnote: <br/>
 -sample rate: How quickly a camera takes pictures <br/>
 The RTL-SDR can 'take pictures' of radio waves up to 3.2 million times per second <br/>
 But when it tries to go that fast, sometimes it misses some 'pictures' (this is what they mean by 'dropping samples') <br/>
+Dropped samples are okay if you are just visualizing the spectrum, but will cause problems if you want to demodulate/decode signals <br/>
 -Most of the time, it works well if it 'takes pictures' a bit slower, at 2.56 million times per second <br/>
 Some people have found that if they use a really good USB port on their computer, like the faster USB 3.0 kind, the RTL-SDR can handle taking 'pictures' at the fastest speed without missing any <br/>
+## What is the RTL-SDR's ADC resolution?
+The native resolution is 8 bits, but the Effective Number of Bits (ENOB) is estimated at ~7. Decimation in software may raise this value <br/>
+Native resolution 8 bits: <br/>
+The system, device, or sensor originally works with a precision of 8 bits. In digital terms, this refers to the number of bits used to represent data. With 8 bits, you can have 256 different values(from 0 to 255) <br/>
+Effective Number of Bits (ENOB) is estimated at ~7: <br/>
+ENOB: <br/>
+Measure of the quality of an analog-to-digital converter(ADC) <br/>
+Even though the system is designed to work at an 8-bit resolution, in reality, its performance is closer to that of a 7-bit system <br/>
+This suggests that the actual precision or quality of the digital signal is slightly less than what 8 bits would ideally offer, effectively giving us around 128 different values (from 0 to 127) with a bit more accuracy <br/>
+Decimation: <br/>
+Process used in digital signal processing where you reduce the rate of your data or signal <br/>
+This can help improve the ENOB because it can reduce noise and increase resolution under certain conditions <br/>
+So, by applying decimation through software, it's possible to make the system's performance better, getting it closer to, or possibly exceeding, the original 8-bit resolution in terms of effective quality <br/>
+## What is the RTL-SDR input impedance?
+-Dongles (small devices that plug into a computer and let it receive TV signals) are made to work best with a specific kind of electrical resistance, called "impedance," which is measured in Ohms <br/>
+-Most of these TV dongles are designed to match with a 75 Ohms impedance, which is a standard for TV signals <br/>
+However, the exact 75 Ohms match might not be perfect across all the different TV frequencies they can pick up <br/>
+-When you use cables designed for 50 Ohms (another common standard, but more for radio or other types of signals) with these 75 Ohm dongles, it's not a big problem. The loss of signal quality, because of this mismatch, is very small—less than 0.177 dB, which is barely noticeable 
+-Newer dongles, especially those with SMA connectors (a type of connector used for attaching antennas), are designed to work with 50 Ohms. This means they are matched to the same standard as the 50 Ohm cables, making them a better fit for those types of connections without any mismatch <br/>
+## What are the minimum PC requirements?
+-For most radio software that has a graphical interface (meaning software you interact with through windows, icons, and menus on your screen), you will need a computer with at least two processing units, called a dual-core processor. This is because the software needs a certain level of computing power to work smoothly <br/>
+-However, if you're using simpler, text-based software (where you type commands instead of clicking on icons) or specific software that decodes ADS-B signals (used in airplane tracking), you might not need such a powerful computer. These types of programs can run on less advanced hardware <br/>
+-Devices like the Raspberry Pi 3, which is a small and affordable computer, or Android smartphones and tablets, are capable of running many of these radio applications. This means you don't always need a big or expensive computer to get started with software-defined radio activities <br/>
+-If you're looking to get into software-defined radio (SDR), we suggest buying either the "RTL-SDR Blog V3" or "RTL-SDR Blog V4" dongle <br/> These cost around $30 USD and are based on the R860 and R8282D chips, respectively. They're good quality and affordable <br/>
+-The Elonics E4000 dongle was once very popular, but since Elonics has stopped making the chip, it's become hard to find and much more expensive. Some people think the E4000 is better because it costs more, but that's not true. The higher price is just because it's rare now <br/>
+-The R820T2 chip, used in our recommended dongles, actually performs better for most radio frequencies people are interested in, especially for tracking airplanes with ADS-B signals at 1090 MHz. It's more sensitive than the E4000 <br/>
+-Be cautious when buying dongles. Some sellers might claim they are selling a dongle with a specific chip, but you might end up with something different. This is especially true for E4000 dongles sold on auction sites, where some sellers might mislabel other dongles as E4000 due to its rarity <br/>
+-Trustworthy dongles, like our "RTL-SDR Blog V3" and "RTL-SDR Blog V4", on the [RTL-SDR store](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/) page <br/>
+Models are recommended for anyone interested in using their dongle for SDR activities, as they come with several improvements suited for SDR users <br/>
+## Difference between the R820T/2 and R860?
+Nno difference <br/>
+The R860 is just a name change for Rafael Micro's accounting purposes as presumably they wish to better track to which customers their chips are going <br/>
+
+## I already have a USB TV Tuner, is it Compatible?
+-If your USB TV tuner has a chip called RTL2832U inside it, then it's likely to work with the software or purpose you have in mind <br/>
+If it doesn't have this chip, then unfortunately, it won't work <br/> 
+-List on a Reddit page that shows which TV tuners work and which don't, but keep in mind that this list might not be completely up to date <br/>
+
+## What is RTL-SDR Blog?
+-[RTL-SDR Blog](https://www.rtl-sdr.com/), began as a hobby project <br/> 
+The people behind it wanted a place to share their guides on how to use RTL-SDR, which is a type of device that lets you listen to various radio signals. They also wanted to gather all information related to RTL-SDR in one place. Over time, they created lots of tutorials, wrote a book to help others learn about RTL-SDR, and set up a website to help identify different types of radio signals <br/>
+-A few years back, they decided to make their own version of the RTL-SDR device <br/>
+Wanted it to be better than the ones already available, with features that radio enthusiasts would appreciate <br/>
+They kept improving their device, and now they have two versions, called V3 and V4, that offer even better performance for people interested in software-defined radio <br/>
+
+## Comparisons with other common Wideband Commercial Software Defined Radios
+| SDR             | Tune Low (MHz) | Tune Max (MHz) | RX Bandwidth (MHz) | ADC Resolution (Bits) | Transmit? | Price ($USD) |
+|-----------------|----------------|----------------|--------------------|-----------------------|-----------|--------------|
+| RTL-SDR         | 24             | 1766           | 3.2 / 2.56 Stable  | 8                     | No        | ~30          |
+| (R820T/R860/R828D) |              |                |                    |                       |           |              |
+| Funcube Pro+    | 0.15           | 260            | 0.192              | 16                    | No        | ~200         |
+|                 | 410            | 2050           |                    |                       |           |              |
+| Airspy          | 24             | 1800           | 10                 | 12                    | No        | 199          |
+| SDRPlay         | 0.1            | 2000           | 8                  | 12                    | No        | 149          |
+| HackRF          | 30             | 6000           | 20                 | 8                     | Yes       | 299          |
+| BladeRF         | 300            | 3800           | 40                 | 12                    | Yes       | 400 & 650    |
+| USRP 1          | DC             | 6000           | 64                 | 12                    | Yes       | 700          |
 
 
 
@@ -131,7 +189,10 @@ Some people have found that if they use a really good USB port on their computer
 
 
 
-Dropped samples are okay if you are just visualizing the spectrum, but will cause problems if you want to demodulate/decode signals.
+
+
+
+
 
 ![RTL-SDR1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b5ff26a4-dcf4-40d8-b30b-6fd112c492ba)
 
