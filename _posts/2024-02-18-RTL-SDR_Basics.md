@@ -193,19 +193,6 @@ Mentions some of the chipsets it uses, like the RTL2832U and R820T2, which are r
 -TCXO-0.5PPM: The type of oscillator used in the device, which has a very low error margin (0.5 parts per million), making it very stable and precise <br/>
 -Bias-T HF: Supports direct high-frequency sampling and can provide power over the antenna connector (Bias-T) for devices like low noise amplifiers <br/>
 
-As for your development environment, that generally refers to the software and tools you use to work with this device on your computer. It often includes:
-
-
-
-
-
-
-
-
-
-
-
-![RTL-SDR1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b5ff26a4-dcf4-40d8-b30b-6fd112c492ba)
 
 
 Reference: <br/>
