@@ -142,6 +142,7 @@ Integration is achieved using the ROS 2 Humble bridge <br/>
 ```
 sudo snap install plotjuggler
 ```
+![Rosbag_Visualize16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e9685b71-4b9b-4635-8b1a-ba0be849d737) <br/>
 ### Step3: Run Plot Juggler Package
 ```
 ros2 run plotjuggler plotjuggler
