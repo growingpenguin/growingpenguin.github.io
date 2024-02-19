@@ -191,11 +191,11 @@ Once sourced, you can use Ros2 in this terminal in this session <br/>
 If not sourced, you will not be able to use Ros2. <br/>
 ![Ros2_For_Beginners58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/69ea615d-b610-43f7-b424-e01d8a5e1cbd)<br/>
 So when opening new terminal, in order to use Ros2, I will still need to source it again <br/>
-(3)How to avoid sourcing bash script every time <br/>
-Problem: Annoying to always source a script every time we open terminal <br/>
-Solution: Open home directory and so you can open the bashrc <br/>
+(3)Avoid sourcing bash script every time <br/>
 ![Ros2_For_Beginners59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ce146633-c88f-454a-8f65-1bcc12a5470d)<br/>
 ![Ros2_For_Beginners60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d543acc7-74ab-4a92-8b78-06db75a3edb3)<br/>
+Problem: Annoying to always source a script every time we open terminal <br/>
+Solution: Open home directory and so you can open the bashrc <br/>
 At the end of the bash, add a new line source /opt/ros/humble/setup.bash <br/>
 Open a new window, bashrc will be solved and it will also source the setup.bash script from the global ros2 installtion folder <br/>
 
