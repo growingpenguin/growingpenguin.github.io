@@ -176,6 +176,10 @@ ROS2 Installation <br/>
 Desktop <br/>
 ![Ros2_For_Beginners55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/992269bf-d5e1-4a22-8355-616d932ad212)<br/>
 rose-base: Install collection of packages that make bare-bones & A lot of additional tools top<br/>
+![Ros2_For_Beginners58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/769eb968-832a-4afe-b68d-fcbd7d82292e) <br/>
+Development tools: Install compilers and other tools to build ROS packages <br/>
+![Ros2_For_Beginners59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a4bf8a84-69bc-45b3-8ff6-96886c9ae8c5) <br/>
+
 
 # Setup your Environment for Ros2
 (1)See the Ros2 Humble folder <br/>
