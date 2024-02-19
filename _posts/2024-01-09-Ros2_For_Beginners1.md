@@ -153,6 +153,7 @@ The most basic text editor, need to install a very simple document <br/>
 ![Ros2_For_Beginners48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/222844ae-4a14-4aac-b56a-3636a5f0e57f)<br/>
 Check whether we are in the right location(UTF-8) <br/>
 ![Ros2_For_Beginners49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1146f8a5-eb28-4e8f-90ac-c95ca6e88038)<br/>
+![Ros2_For_Beginners55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b8860f4d-e99f-45dc-9798-411235339efc) <br/>
 Just in case <br/>
 (2)Setup Sources <br/>
 ![Ros2_For_Beginners50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/30f8d049-6328-42e2-9692-ad3638184c8f)<br/>
