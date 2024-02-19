@@ -161,7 +161,7 @@ Ensure Ubuntu repository is enabled <br/>
 Add the ros2 GPG key with apt <br/>
 ![Ros2_For_Beginners52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c982a228-7c40-4eb8-9000-a734887fbaa0)<br/>
 Add repository to sources list <br/>
-(2)Install Ros2 
+(2)Install Ros2  <br/>
 ![Ros2_For_Beginners53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d2a32263-1f1c-456c-8fa8-a3e84e224f68)<br/>
 Update your apt repository caches after setting up the repositories <br/>
 ROS 2 packages are built on frequently updated Ubuntu systems. It is always recommended that you ensure your system is up to date before installing new packages. <br/>
@@ -205,8 +205,6 @@ Kill the program by entering Ctrl+c and restart by entering the command again <b
 ![Ros2_For_Beginners56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3583ee8b-91b9-4372-8b75-55cd1a5487cc)<br/>
 No new messages > Again messages from the talker <br/> 
 
-
-
-
 Reference: <br/>
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html <br/>
 Udemy ROS2 For Beginners (ROS Foxy, Humble - 2023) <br/>
