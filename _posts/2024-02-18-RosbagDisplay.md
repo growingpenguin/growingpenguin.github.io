@@ -133,8 +133,11 @@ docker-compose stop
 Many of these tools lack support for ROS 2. Given that my ROS 2 bag data is in the .db3 format, I encountered limitations with these other tools so I tried the PlotJuggler <br/> 
 ### Step1: Access PlotJuggler Website & Github  
 Link:  <br/>
-https://plotjuggler.io/ <br/>
 https://github.com/facontidavide/PlotJuggler?tab=readme-ov-file <br/>
 
-### Step2: 
-
+### Step2: Install Plot Juggler Package'
+Development Environment: <br/>
+Set up on Ubuntu 22.03 OS, running in a virtual machine via VirtualBox <br/>
+```
+sudo snap install plotjuggler
+```
