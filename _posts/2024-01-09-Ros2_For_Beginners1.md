@@ -182,8 +182,9 @@ Development tools: Install compilers and other tools to build ROS packages <br/>
 
 
 # Setup your Environment for Ros2
-(1)See the Ros2 Humble folder <br/>
+(1)Navigate to the Ros2 Humble folder <br/>
 ![Ros2_For_Beginners56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5f832374-3336-400b-9b09-0a0fc644d10e)<br/>
+![Ros2_For_Beginners60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f8cf4334-60f8-49a8-bd38-2387a5a97e46)<br/>
 (2)Source bash script <br/>
 ![Ros2_For_Beginners57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d61fcad1-62e0-4c13-8b67-1bf85b31eb64)<br/>
 Once sourced, you can use Ros2 in this terminal in this session <br/>
