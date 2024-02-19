@@ -140,10 +140,11 @@ Development Environment: <br/>
 Set up on Ubuntu 22.03 OS, running in a virtual machine via VirtualBox <br/>
 Integration is achieved using the ROS 2 Humble bridge <br/>
 ```
-sudo snap install plotjuggler
+sudo apt install ros-humble-plotjuggler-ros
 ```
-![Rosbag_Visualize16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e9685b71-4b9b-4635-8b1a-ba0be849d737) <br/>
+![Rosbag_Visualize19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/73458a23-c2bc-47ce-a24c-0e69a564f9ab) <br/>
 ### Step3: Run Plot Juggler Package
 ```
 ros2 run plotjuggler plotjuggler
 ```
+![Rosbag_Visualize18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/86321cbe-ff2c-49a6-9309-a4873b63c545) <br/>
