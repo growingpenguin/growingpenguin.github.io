@@ -24,3 +24,13 @@ IOT = Everything <br/>
 메타버스 <br/>
 클라우드 <br/>
 Microsoft, Azure 뜨는 중 <br/>
+
+
+IOT학과 주요 방향성 <br/>
+Step1 <br/>
+HW/Signal 기반 실습 및 학습 <br/>
+Step2 <br/>
+분야별 세부 과목 학습 <br/>
+디지털 신호 처리 <br/>
+
+디지털 논리 회로 => 모빌리티 서비스 => IOT 커
