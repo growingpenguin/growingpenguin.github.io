@@ -148,3 +148,5 @@ sudo apt install ros-humble-plotjuggler-ros
 ros2 run plotjuggler plotjuggler
 ```
 ![Rosbag_Visualize18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/86321cbe-ff2c-49a6-9309-a4873b63c545) <br/>
+### Step4: Plot Juggler Executed 
+![Rosbag_Visualize20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b333c195-8297-4a18-8b21-a5c4196e207f) <br/>
