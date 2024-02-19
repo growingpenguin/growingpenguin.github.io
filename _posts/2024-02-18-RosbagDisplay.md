@@ -135,9 +135,14 @@ Many of these tools lack support for ROS 2. Given that my ROS 2 bag data is in t
 Link:  <br/>
 https://github.com/facontidavide/PlotJuggler?tab=readme-ov-file <br/>
 
-### Step2: Install Plot Juggler Package'
+### Step2: Install Plot Juggler Package
 Development Environment: <br/>
 Set up on Ubuntu 22.03 OS, running in a virtual machine via VirtualBox <br/>
+Integration is achieved using the ROS 2 Humble bridge <br/>
 ```
 sudo snap install plotjuggler
+```
+### Step3: Run Plot Juggler Package
+```
+ros2 run plotjuggler plotjuggler
 ```
