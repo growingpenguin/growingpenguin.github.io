@@ -49,7 +49,7 @@ Select created Ubuntu virtual machine > Go to 설정 > Go to 저장소 컨트롤
 ![Ros2_For_Beginners10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be193bdb-ba7b-43b4-bd80-75c4071fceae) <br/>
 (3)-10 Choose disk file <br/>
 Click on Disk Icon here > Select 디스크 파일 선택 ... <br/>
-(3)-11 Disk file chosen <br/>
+(3)-11 Choose the pre-downloaded Disk file <br/>
 ![Ros2_For_Beginners11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e0508a44-2b83-403a-89ce-7a5d5e55772f) <br/>
 (3)-12 Launch the VM <br/>
 Click the 시작(T) button <br/>
