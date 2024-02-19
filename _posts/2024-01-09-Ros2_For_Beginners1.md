@@ -44,7 +44,7 @@ Have 4 good CPUs, use 2 CPUs <br/>
 =>Virtual Machine correctly configured <br/>
 (3)-8 Check downloaded Ubuntu ISO <br/>
 ![Ros2_For_Beginners9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8179ff06-8de8-4d4a-82cf-2f50b0fd1f96) <br/>
-(3)-9 Check downloaded Ubuntu ISO <br/>
+(3)-9 Check empty IDE <br/>
 Select created Ubuntu virtual machine > Go to 설정 > Go to 저장소 컨트롤: IDE is 비어 있음 <br/>
 ![Ros2_For_Beginners10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be193bdb-ba7b-43b4-bd80-75c4071fceae) <br/>
 (3)-10 Choose disk file <br/>
