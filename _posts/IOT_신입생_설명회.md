@@ -20,3 +20,7 @@ IOT = Everything <br/>
 왜 지능형 IOT? <br/>
 미래에는 연결/연동을 통한 서비스 제공 필수 <br/>
 플랫폼, 기기, SW간의 상호 연결에 대한 이해 필요 <br/>
+
+메타버스 <br/>
+클라우드 <br/>
+Microsoft, Azure 뜨는 중 <br/>
