@@ -164,7 +164,7 @@ Ensure that the Ubuntu Universe repository is enabled <br/>
 Add the ros2 GPG key with apt <br/>
 ![Ros2_For_Beginners52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c982a228-7c40-4eb8-9000-a734887fbaa0)<br/>
 Add repository to sources list <br/>
-(2)Install Ros2  <br/>
+(2)Ros2 Installation <br/>
 ![Ros2_For_Beginners53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d2a32263-1f1c-456c-8fa8-a3e84e224f68)<br/>
 Update your apt repository caches after setting up the repositories <br/>
 ROS 2 packages are built on frequently updated Ubuntu systems. It is always recommended that you ensure your system is up to date before installing new packages. <br/>
