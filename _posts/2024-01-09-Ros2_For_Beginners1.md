@@ -81,7 +81,7 @@ Choose level of security for vm <br/>
 (3)-21 Download stuff and install <br/>
 ![Ros2_For_Beginners21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/46d353c6-4b2d-4019-a022-64d63dcd9f5d) <br/>
 (3)-22 Restart  <br/>
-![Ros2_For_Beginners22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ad045e1c-bd92-46c9-9d81-c3392225c327)
+![Ros2_For_Beginners22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ad045e1c-bd92-46c9-9d81-c3392225c327)<br/>
 Restart > Click on Enter <br/>
 (3)-23 Inital Pop up  <br/>
 Click next or skip <br/>
