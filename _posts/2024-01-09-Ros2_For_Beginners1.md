@@ -158,6 +158,8 @@ Just in case <br/>
 (2)Setup Sources <br/>
 ![Ros2_For_Beginners50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/30f8d049-6328-42e2-9692-ad3638184c8f)<br/>
 Ensure Ubuntu repository is enabled <br/>
+![Ros2_For_Beginners56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c4da37b3-1f42-43cc-8c8d-3585f2043806) <br/>
+Ensure that the Ubuntu Universe repository is enabled <br/>
 ![Ros2_For_Beginners51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/daa9a516-91de-4c50-ab88-dc51f82c5df7)<br/>
 Add the ros2 GPG key with apt <br/>
 ![Ros2_For_Beginners52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c982a228-7c40-4eb8-9000-a734887fbaa0)<br/>
