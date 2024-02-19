@@ -205,7 +205,8 @@ Open a new window, bashrc will be solved and it will also source the setup.bash 
 Ros2 installation complete & Environment sourced properly <br/>
 (2)Launching talker and listener program from the demo nodes cpp package <br/>
 ![Ros2_For_Beginners52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/850dc443-ca6e-4421-998f-a0b6f3d75d6a)<br/>
-![Ros2_For_Beginners53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2d8a203d-6814-424b-841b-70a6e56b7a78)<br/>
+![Ros2_For_Beginners61](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fe99c2cb-7a79-4abf-b096-2b7dd1b31230)
+<br/>
 -Two programs are linked <br/>
 -Listener will listen to the talker and print the messages that were published by the program here <br/>
 -Ctrl+c: Kill the program <br/>
