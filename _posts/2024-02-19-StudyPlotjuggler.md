@@ -159,7 +159,6 @@ Select a column to be used as X axis > Select the preferred column from Columns 
 ![PlotJuggler45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/13e08a9a-6841-4fc6-95b9-a0fc25c5762b) <br/>
 Drag and drop Accel, Torque, and Velocity column using the Left Mouse <br/>
 ### Use streaming plugins
-Reference: https://slides.com/davidefaconti/plotjuggler-data <br/>
 **Streaming** <br/>
 (1)PJ has several built-in streaming plugins (MQTT, UDP, Websockets) <br/>
 (2)For testing purpose, start PJ with option "-t" and try the Dummy Streamer <br/>
@@ -179,6 +178,34 @@ Increase Decrease buffer size > Streaming slows down <br/>
 ![PlotJuggler50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e4ef8aa1-e70d-445a-9775-1e1e80c3caf1) <br/>
 Click on stop to stop streaming <br/>
 **Streaming Format** <br/>
+(1) The built-in plugins recognize these formats: JSON, BSON, CBOR, MessagePack <br/>
+(2) Check the Websocket example, publishing a simple JSON message <br/>
+![PlotJuggler51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cf5af2f9-0d24-46b9-85a3-cc9a9e58338b) <br/>
+Change Streaming to WebSocket Server <br/> 
+![PlotJuggler52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57b23d28-043f-4acf-9c4d-a63e4f71e232) <br/> 
+Click on Start > Change Message Protocol to json > Click on ok <br/>
+![PlotJuggler53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7590e911-74d2-4d76-a113-1fd0dff0f4e9) <br/>
+```
+sudo apt update
+sudo apt install python3-pip
+pip --version
+pip install websocket-client
+cd <Path where websocket_client.py exists>/
+python3 websocket_client.py
+```
+![PlotJuggler54](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5ed05c0d-4723-42d3-ac92-084b8c5863ea) <br/>
+Streaming Starts <br/>
+![PlotJuggler55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e08c0e96-9cc2-4381-aafc-2e456eb9829d) <br/>
+Drag and drop sin and cos to the tab using the Left Mouse <br/>
+(3) Sometimes, it is useful to clean the data buffer <br/>
+**Save the data source in the Layout** <br/>
+(1)When you save a Layout, check the option "Save data source" to reopen the last file or restart the last streaming plugin <br/>
+![PlotJuggler56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b149c8f0-e3b8-4a1c-84bb-e8e661cf2f7b) <br/>
+(2)Sometimes, you want to reuse the Layout on a different file <br/>
+-In this case: Save the Layout with "Save data source" unchecked <br/>
+![PlotJuggler57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3aa81359-3db1-459e-b64b-100ee23b7f63) <br/>
+-Load the data file first > Open the Layout file <br/>
+Reference: https://slides.com/davidefaconti/plotjuggler-data <br/>
 
 ## Custom Plots, filters, and transformations
 Reference: https://slides.com/davidefaconti/plotjuggler-transforms <br/>
