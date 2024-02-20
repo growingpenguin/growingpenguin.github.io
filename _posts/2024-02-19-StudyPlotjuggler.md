@@ -83,8 +83,6 @@ Zoom out <br/>
 ![PlotJuggler13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f8cad11e-6436-4aae-a200-537b2477463b) <br/>
 Zoom in <br/>
 ![PlotJuggler14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ec7ba00a-c376-4949-ac5f-cc7ea3388b98) <br/>
-
-### Save your layout to reuse it later
 **The vertical "time tracker"** <br/>
 (1) Move the vertical tracker with the Shift Key + Left Mouse <br/>
 ![PlotJuggler18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2a3e29c0-6e9e-4f42-a68a-f62d755b9af2) <br/>
@@ -117,16 +115,11 @@ Click on trash can to delete a specific curve (data_10 curve deleted) <br/>
 Adjusted the color to pink for data_1 and purple for data_3 <br/>
 ![PlotJuggler32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/51b5e071-2939-49a8-99b5-df531cf52d8e) <br/>
 Select line style (Chose Lines and Dots) <br/>
-(2)The vertical limits can be useful to clamp the Y range(Preventing the spikes from excessively distorting the visualization or analysis of the data <br/>
-
-
-
-
-
-) in the presence of "spikes" <br/>
+(2)The vertical limits can be useful to clamp the Y range(Preventing the spikes from excessively distorting the visualization or analysis of the data) in the presence of "spikes" <br/>
 ![PlotJuggler33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e996b61e-c983-40dc-84ac-5db05746f283) <br/>
 Adjust Vertical limits (Max 3, Min -1)<br/>
 
+### Save your layout to reuse it later
 
 ### UI tricks
 
