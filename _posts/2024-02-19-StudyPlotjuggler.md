@@ -123,6 +123,7 @@ Click on Save Changes button <br/>
 ### Save your layout to reuse it later
 **Save/Load the Layout** <br/>
 Use "layout" files to save the current state of PlotJuggler <br/>
+![PlotJuggler36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b6d7e907-e54f-4906-b134-40f387839c78) <br/>
 Click on ![PlotJuggler35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/84b9a575-a83f-4291-833d-12a7ffa3d5bd) button <br/>
 ### UI tricks
 
