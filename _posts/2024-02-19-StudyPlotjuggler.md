@@ -175,10 +175,11 @@ Click on the start button > See the data_vect values change <br/>
 Press Shift and click on the columns you want to visualize > Drag and drop using the Left Mouse <br/> 
 ![PlotJuggler49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/506401a8-7523-4a89-8141-4acaaaf6fcb7) <br/> 
 Increase Decrease buffer size > Streaming slows down <br/>
+(4)Zoom and Time Tracker are active only when streaming is stopped or paused <br/>
 ![PlotJuggler50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e4ef8aa1-e70d-445a-9775-1e1e80c3caf1) <br/>
 Click on stop to stop streaming <br/>
+**Streaming Format** <br/>
 
-(4)Zoom and Time Tracker are active only when streaming is stopped or paused <br/>
 ## Custom Plots, filters, and transformations
 Reference: https://slides.com/davidefaconti/plotjuggler-transforms <br/>
 
