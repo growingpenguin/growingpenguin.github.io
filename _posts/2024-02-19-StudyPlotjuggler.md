@@ -117,10 +117,13 @@ Adjusted the color to pink for data_1 and purple for data_3 <br/>
 Select line style (Chose Lines and Dots) <br/>
 (2)The vertical limits can be useful to clamp the Y range(Preventing the spikes from excessively distorting the visualization or analysis of the data) in the presence of "spikes" <br/>
 ![PlotJuggler33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e996b61e-c983-40dc-84ac-5db05746f283) <br/>
-Adjust Vertical limits (Max 3, Min -1)<br/>
-
+Adjust Vertical limits (Max 3, Min -1) <br/>
+![PlotJuggler34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/058a8e55-a3c5-48ea-a836-bd219dda8317) <br/>
+Click on Save Changes button <br/>
 ### Save your layout to reuse it later
-
+**Save/Load the Layout** <br/>
+Use "layout" files to save the current state of PlotJuggler <br/>
+Click on ![PlotJuggler35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/84b9a575-a83f-4291-833d-12a7ffa3d5bd) button <br/>
 ### UI tricks
 
 Reference: https://slides.com/davidefaconti/introduction-to-plotjuggler <br/>
