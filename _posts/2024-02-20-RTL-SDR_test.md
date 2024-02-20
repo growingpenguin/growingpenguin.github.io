@@ -13,10 +13,38 @@ Press Ok > Press 시작(T) <br/>
 
 
 ## Using rtl-sdr to Capture Radio Samples
-
+The rtl-sdr code can be checked out with: <br/>
+```
+git clone https://gitea.osmocom.org/sdr/rtl-sdr.git
+```
 ![RTL-SDR_Test5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f0ff60d9-80ed-4c20-8250-f5a823274f75) <br/>
+```
+cd rtl-sdr/
+mkdir build
+cd build
+cmake ../
+make
+sudo make install
+sudo ldconfig
+```
+install development packages for libusb1.0 and can either use cmake or autotools to build the software. <br/>
+Building with cmake: <br/>
+```
+cmake ../ -DINSTALL_UDEV_RULES=ON
+cd rtl-sdr/
+autoreconf -i
+./configure
+make
+sudo make install
+sudo ldconfig
+sudo make install-udev-rules
+```
 
 
-Command: ./rtl_sdr /tmp/capture.bin -s 1.8e6 -f 392e6
+
+```
+./rtl_sdr /tmp/capture.bin -s 1.8e6 -f 392e6
+```
+
 Purpose: This command captures radio signals at 392.0 MHz frequency with a sample rate of 1.8 MS/s (MegaSamples per second) and saves the data to a file named capture.bin in the /tmp directory.
 Note: Ensure you have the necessary permissions to access the RTL-SDR device. This might involve adjusting udev rules or running the command with sudo to execute as root.
