@@ -85,8 +85,51 @@ Zoom in <br/>
 ![PlotJuggler14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ec7ba00a-c376-4949-ac5f-cc7ea3388b98) <br/>
 
 ### Save your layout to reuse it later
+**The vertical "time tracker"** <br/>
+(1) Move the vertical tracker with the Shift Key + Left Mouse <br/>
+![PlotJuggler18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2a3e29c0-6e9e-4f42-a68a-f62d755b9af2) <br/>
+(2) Note as the values on the second column of the timeseries list are updated <br/>
+![PlotJuggler19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/711a420a-5cdb-4cad-8275-0c6119baee07) <br/>
+(3) Alternatively, move the time slider at the bottom <br/>
+![PlotJuggler21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1d18ee70-e078-4a2c-89d2-12f48ca67dda) <br/>
+**Combine two timeseries in a XY Plot** <br/>
+(1)Select two timeseries keeping the CTRL Key pressed <br/>
+![PlotJuggler22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f4cde8bd-76d2-4f34-b0cf-be05d7cf8137) <br/>
+(2)Drag and drop them using the Right Mouse, instead of the Left one <br/>
+![PlotJuggler23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a0dfea89-4e46-49f1-ae4b-1f17ecbb6362) <br/>
+(3)Optionally, customize the order or/and the name of this new series <br/>
+![PlotJuggler24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7ee7f731-ded5-473f-96db-2845a109e5ee) <br/>
+Click on swap > OK <br/>
+![PlotJuggler25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9333bc16-a308-4041-9aab-83f4f8b73043) <br/>
+For the top plot, it is presented in its original order, without any alterations. For the bottom plot, the order has been swapped for clarity and comparison purposes <br/>
+**Undo Redo** <br/>
+(1)CTRL+Z keys: Undo <br/>
+![PlotJuggler26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f640e4c3-6701-44e9-a829-a647d2b7cd28) <br/>
+(2)CTRL+Shift+Z keys: Redo <br/> 
+![PlotJuggler27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/604e8f21-4b15-4ab8-a538-a1f73bed4084) <br/> 
+**Curves Editor (appearance)** <br/>
+(1)Edit curves color, remove curves and show points <br/>
+![PlotJuggler28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/83559b46-38f5-46be-91c3-5b064c4931bb) <br/>
+Right click tab > Click on Edit curves... <br/>
+![PlotJuggler29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b71af24f-1ddd-4e80-8a5a-caff8f90d149) <br/>
+Click on trash can to delete a specific curve (data_10 curve deleted) <br/>
+![PlotJuggler31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d89d2be8-feb7-4cfe-8c69-d492b95ecf9a) <br/>
+Adjusted the color to pink for data_1 and purple for data_3 <br/>
+![PlotJuggler32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/51b5e071-2939-49a8-99b5-df531cf52d8e) <br/>
+Select line style (Chose Lines and Dots) <br/>
+(2)The vertical limits can be useful to clamp the Y range(Preventing the spikes from excessively distorting the visualization or analysis of the data <br/>
+
+
+
+
+
+) in the presence of "spikes" <br/>
+![PlotJuggler33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e996b61e-c983-40dc-84ac-5db05746f283) <br/>
+Adjust Vertical limits (Max 3, Min -1)<br/>
+
 
 ### UI tricks
+
 Reference: https://slides.com/davidefaconti/introduction-to-plotjuggler <br/>
 ## Data Sources
 Reference: https://slides.com/davidefaconti/plotjuggler-data <br/>
