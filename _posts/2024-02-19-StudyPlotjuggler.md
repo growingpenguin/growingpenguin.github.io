@@ -122,19 +122,63 @@ Adjust Vertical limits (Max 3, Min -1) <br/>
 Click on Save Changes button <br/>
 ### Save your layout to reuse it later
 **Save/Load the Layout** <br/>
+(1)Save the Layout <br/>
 Use "layout" files to save the current state of PlotJuggler <br/>
 ![PlotJuggler36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b6d7e907-e54f-4906-b134-40f387839c78) <br/>
 Click on ![PlotJuggler35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/84b9a575-a83f-4291-833d-12a7ffa3d5bd) button  <br/>
-![PlotJuggler38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5f986281-cb63-42ff-94d6-76aea0444904)
-
-Make directory where you want to store the plotjuggler files <br/>
-Select the directory to save the file <br/>
-
-### UI tricks
-
+![PlotJuggler38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5f986281-cb63-42ff-94d6-76aea0444904) <br/>
+Create a directory where you'd like to store the PlotJuggler files <br/>
+![PlotJuggler39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a52785e-0e03-418d-b685-21dd3419892a) <br/>
+Select the directory where you'd like to save the file > Open > Name the file (Named it samplecurve1) > CLick Save button <br/>
+(2)Load the Layout <br/>
+![PlotJuggler40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ccbe0782-27d0-4727-b16d-da3f806ce67e) <br/>
+Click on ![PlotJuggler39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a52785e-0e03-418d-b685-21dd3419892a)
+button > Navigate to the directory where you'd like to save the file > Select the xml file > Click the Open button <br/>
 Reference: https://slides.com/davidefaconti/introduction-to-plotjuggler <br/>
 ## Data Sources
+**Data Sources** <br/>
+(1)PlotJuggler can read data from file or live-streaming <br/>
+![PlotJuggler41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6bb9e9d5-df34-4b58-ac30-ae36278e92b4) <br/>
+Click on ![PlotJuggler39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a52785e-0e03-418d-b685-21dd3419892a)
+button > Navigate to the directory where you'd like to save the file > Select the xml file > Click the Open button <br/>
+(2)All data sources are implemented through plugins <br/>
+(3)You can add new plugins (yours or 3rd party) in the "Preferences" menu <br/>
+![PlotJuggler42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c3fd1ae5-d213-4491-a3dd-567baab29ecd) <br/>
+App > Preferences > Plugins > + <br/>
+### Load data from file
+**Example: load a CSV file** <br/>
+Will be asked to select the column with the time. Optionally, you can use the row number <br/>
+(1)Each plugin has its own dialog and options <br/>
+(2)For instance, try to load this CSV file <br/>
+Download motor_data.csv file > Upload it to the preferred directory <br/>
+![PlotJuggler43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a93487f3-7737-4d35-93b4-3801514ee9e4) <br/>
+Click on ![PlotJuggler39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9a52785e-0e03-418d-b685-21dd3419892a) 
+button in the Data box > Navigate to the directory where the motor_data.csv is stored > Select the csv file > Click the Open button <br/>
+![PlotJuggler44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2dc6743e-3430-4b24-b3ca-62597ea5bf93) <br/>
+Select a column to be used as X axis > Select the preferred column from Columns (t) > Ok <br/>
+![PlotJuggler45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/13e08a9a-6841-4fc6-95b9-a0fc25c5762b) <br/>
+Drag and drop Accel, Torque, and Velocity column using the Left Mouse <br/>
+### Use streaming plugins
 Reference: https://slides.com/davidefaconti/plotjuggler-data <br/>
+**Streaming** <br/>
+(1)PJ has several built-in streaming plugins (MQTT, UDP, Websockets) <br/>
+(2)For testing purpose, start PJ with option "-t" and try the Dummy Streamer <br/>
+```
+ros2 run plotjuggler plotjuggler -t
+```
+(3)You can start, pause and stop the streamer. Change the buffer size if needed <br/>
+![PlotJuggler46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eacde962-b21a-4b16-868a-1321f48309a9) <br/>
+Change Streaming to Dummy Streamer <br/> 
+![PlotJuggler47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ed429e33-15fe-4c9e-9175-6baf29c8200a) <br/> 
+Click on the start button > See the data_vect values change <br/>
+![PlotJuggler48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f961a487-8d7f-4f8b-b448-9320586a4da0) <br/>
+Press Shift and click on the columns you want to visualize > Drag and drop using the Left Mouse <br/> 
+![PlotJuggler49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/506401a8-7523-4a89-8141-4acaaaf6fcb7) <br/> 
+Increase Decrease buffer size > Streaming slows down <br/>
+![PlotJuggler50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e4ef8aa1-e70d-445a-9775-1e1e80c3caf1) <br/>
+Click on stop to stop streaming <br/>
+
+(4)Zoom and Time Tracker are active only when streaming is stopped or paused <br/>
 ## Custom Plots, filters, and transformations
 Reference: https://slides.com/davidefaconti/plotjuggler-transforms <br/>
 
