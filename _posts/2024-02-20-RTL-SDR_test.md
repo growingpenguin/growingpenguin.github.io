@@ -79,6 +79,13 @@ Matched Filter는 최대 신호 세기로 해서 복구 시키겠다 <br/>
 Matched Filter <br/>
 => 어려움 <br/>
 
+```
+cd grc_files/
+gnuradio-companion 
+#Tab
+gnuradio-companion direct_view.grc
+```
+
 grc file > Directive View <br/>
 Waterfall <br/>
 빨간색: 블루투스 signal <br/>
