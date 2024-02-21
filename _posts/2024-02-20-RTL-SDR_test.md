@@ -84,6 +84,8 @@ Waterfall <br/>
 빨간색: 블루투스 signal <br/>
 
 중간에 Low Pass filter 연결하기 <br/>
+100Khz 
+1khz
 
 Link: <br/>
 https://engineering.purdue.edu/VISE/ee438L/ <br/>
