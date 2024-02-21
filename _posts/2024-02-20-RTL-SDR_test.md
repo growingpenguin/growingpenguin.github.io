@@ -83,6 +83,7 @@ grc file > Directive View <br/>
 Waterfall <br/>
 빨간색: 블루투스 signal <br/>
 
+중간에 Low Pass filter 연결하기 <br/>
 
 Link: <br/>
 https://engineering.purdue.edu/VISE/ee438L/ <br/>
