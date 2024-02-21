@@ -96,6 +96,9 @@ Double click connection connecting Oscom source <br/>
 Drag and drop oscom filter <br/>
 
 
+RX TX <br/>
+Hack RF 하나 수신용, 송신용  <br/>
+USRP N210, USRP B series 좋음 <br/>
 Link: <br/>
 https://engineering.purdue.edu/VISE/ee438L/ <br/>
 
