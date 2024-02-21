@@ -40,10 +40,12 @@ sudo ldconfig
 sudo make install-udev-rules
 ```
 
-
-
+## Using rtl-sdr to Capture Radio Samples
 ```
-./rtl_sdr /tmp/capture.bin -s 1.8e6 -f 392e6
+cd grc_files/
+gnuradio-companion 
+#Tab
+gnuradio-companion fm_receiver_test.grc
 ```
 
 Purpose: This command captures radio signals at 392.0 MHz frequency with a sample rate of 1.8 MS/s (MegaSamples per second) and saves the data to a file named capture.bin in the /tmp directory.
