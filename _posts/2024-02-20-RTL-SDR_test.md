@@ -74,6 +74,15 @@ cutoff: 어디쯤이 설정 freq <br/>
 butter_lowpass_filter <br/>
 어느 정도 여유를 가지면서 ~ <br/>
 
+## Matched Filter
+Matched Filter는 최대 신호 세기로 해서 복구 시키겠다 <br/>
+Matched Filter <br/>
+=> 어려움 <br/>
+
+grc file > Directive View <br/>
+Waterfall <br/>
+빨간색: 블루투스 signal <br/>
+
 
 Link: <br/>
 https://engineering.purdue.edu/VISE/ee438L/ <br/>
