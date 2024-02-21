@@ -48,7 +48,7 @@ gnuradio-companion
 gnuradio-companion fm_receiver_test.grc
 ```
 
-## 필터 테크닉
+## Filter Technique 
 FIR Filter <br/>
 Filter tab 갯수가 30개 ~ 300개 갯수 커짐 <br/>
 IIR Filter <br/>
@@ -58,6 +58,23 @@ Filtering이 확 틀어질 수 있는 가능성이 있음 <br/>
 => 통신 기법에서 FIR filter를 가장 많이 씀 <br/>
 FIR Filter는 대체로 시킴 <br/>
 빛 level sampling , filtering에 있어서 IIR filter는 좋은 선택지인게 의문 <br/>
+filter 돌리면 외부 signal은 일부 제거 <br/>
+잔상이 남음 <br/>
+
+## Audio Application Example
+우리가 가지고 있는 음악 파일 <br/>
+노이즈. 잡다한게 많이 낌
+음악 파일내 노이즈 제거하려면? <br/>
+우리가 보려는 음악 영역대는 0~5000 <br/>
+
+transition region passband 크게, fr 갯수가 몇 1000개! <br/>
+fs: sampling rate <br/>
+cutoff: 어디쯤이 설정 freq <br/>
+좌, 우 filtering
+butter_lowpass_filter <br/>
+어느 정도 여유를 가지면서 ~ <br/>
+
+
 Link: <br/>
 https://engineering.purdue.edu/VISE/ee438L/ <br/>
 
