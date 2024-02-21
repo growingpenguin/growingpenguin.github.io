@@ -48,5 +48,22 @@ gnuradio-companion
 gnuradio-companion fm_receiver_test.grc
 ```
 
-Purpose: This command captures radio signals at 392.0 MHz frequency with a sample rate of 1.8 MS/s (MegaSamples per second) and saves the data to a file named capture.bin in the /tmp directory.
-Note: Ensure you have the necessary permissions to access the RTL-SDR device. This might involve adjusting udev rules or running the command with sudo to execute as root.
+## 필터 테크닉
+FIR Filter <br/>
+Filter tab 갯수가 30개 ~ 300개 갯수 커짐 <br/>
+IIR Filter <br/>
+수학적 관점에서 feedback <br/>
+분모가 0 <br/>
+Filtering이 확 틀어질 수 있는 가능성이 있음 <br/>
+=> 통신 기법에서 FIR filter를 가장 많이 씀 <br/>
+FIR Filter는 대체로 시킴 <br/>
+빛 level sampling , filtering에 있어서 IIR filter는 좋은 선택지인게 의문 <br/>
+Link: <br/>
+https://engineering.purdue.edu/VISE/ee438L/ <br/>
+
+
+
+
+
+
+
