@@ -34,6 +34,20 @@ If having four different kind of transformations per layer, computational cost w
 Inception is optimized and dimensions are reduced of the inputs from the previous layers <br/>
 To reduce the dimensions. 1x1 convolutions are done before doing the heavy convolution operations such as 3x3, 5x5, or 7x7 <br/>
 1x1 convolutions reduce dimensions for our inputs to the neural network before doing heavy computations <br/>
+Can reduce the complexity of our model and computational costs by training neural networks <br/>
+By using this inception module, we can train faster and optimize the training process so that we learn faster and better with less computational costs <br/>
+**Inception V2 module** <br/>
+How can I reduce the complexity of the 5x5 convolution modules <br/>
+To further reduce the amount of computation, the original Filter was divided and used <br/>
+![Inception3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9608bb6f-a673-4341-a0d1-f9fec6d0c645) <br/>
+=> Try out different kind of convolutions to find an optimal way of having these larger convolutional blocks in our neural network <br/>
+-Split up 3x3 convolution to 1x3 convolution and 3x1 convolution <br/>
+And at the end concatenate those, then it will further reduce the complexity of our neural network <br/>
+Reduce computational costs with up to 30% for bigger and larger kernels in neural network <br/>
+Huge improvement to the inception module, we can now do bigger operations or bigger convolutional neural networks on neural network <br/>
+without reducing the computational costs <br/>
+We can now train neural networks in larger convolutional kernels <br/>
+**Inception V3 module** <br/>
 
 
 Reference: https://www.youtube.com/watch?v=STTrebkhnIk&t=662s
