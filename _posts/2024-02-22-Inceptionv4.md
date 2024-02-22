@@ -56,5 +56,31 @@ Distributed a very small value, e, even for labels with a value of 0 <br/>
 BN-auxiliary <br/>
 Applied Batch Normalization (BN) to the last Fully Connected layer <br/>
 
+### Inception v4
+The Premise <br/>
+Make the modules more uniform. <br/>
+The authors also noticed that some of the modules were more complicated than necessary <br/>
+This can enable us to boost performance by adding more of these uniform modules <br/>
+The Solution <br/>
+The “stem” of Inception v4 was modified. The stem here, refers to the initial set of operations performed before introducing the Inception blocks. <br/>
+What’s new <br/>
+Change in the stem part <br/>
+The number of Inception modules is increased <br/>
+Inception modules made more uniform i.e. same numbers of filters are used in modules <br/>
+Three types of inception module are named A, B, and C ( similar inception modules as that in inception-v2 )<br/>
+They had three main inception modules, named A,B and C (Unlike Inception v2, these modules are infact named A,B and C). They look very similar to their Inception v2 (or v3) counterparts <br/>
+![Inception4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/707206cb-b7a1-4546-95fa-1b8de6d3ffb3) <br/>
+**Stem Module** <br/> 
+기존 v1~v3가 성능은 좋지만 모델 구조가 너무 복잡했다 <br/> 
+최대한 단순화 + Inception module을 더 많이 사용해서 성능과 구조 모두 잡았다 <br/> 
+Stem: 이미지를 직접적으로 입력으로 받는 모듈 <br/> 
+1) 초반부 3 x 3 Conv 3개는 Inception v2에서 사용한것과 완전히 동일 <br/> 
+2) 채널의 수를 늘리기 위해 Pooling과 Conv 연산을 취한 뒤, concatenation한 것도 Inception v2에서도 동일 <br/> 
+3 ) Channel reduction, Asymmetric Convolution을 취하는 과정 Inception v2에서 사용한것과 완전히 동일 <br/> 
+
+
+
+
+
 Reference: https://www.youtube.com/watch?v=STTrebkhnIk&t=662s <br/>
 https://www.youtube.com/watch?v=STTrebkhnIk&t=662s <br/>
