@@ -48,6 +48,12 @@ Huge improvement to the inception module, we can now do bigger operations or big
 without reducing the computational costs <br/>
 We can now train neural networks in larger convolutional kernels <br/>
 **Inception V3 module** <br/>
-
+Optimizer Change: <br/>
+Switched to RMSProp <br/>
+Label Smoothing <br/>
+Did not use one-hot encoding for target values to prevent overfitting <br/>
+Distributed a very small value, e, even for labels with a value of 0 <br/>
+BN-auxiliary <br/>
+Applied Batch Normalization (BN) to the last Fully Connected layer <br/>
 
 Reference: https://www.youtube.com/watch?v=STTrebkhnIk&t=662s
