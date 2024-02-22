@@ -56,4 +56,5 @@ Distributed a very small value, e, even for labels with a value of 0 <br/>
 BN-auxiliary <br/>
 Applied Batch Normalization (BN) to the last Fully Connected layer <br/>
 
-Reference: https://www.youtube.com/watch?v=STTrebkhnIk&t=662s
+Reference: https://www.youtube.com/watch?v=STTrebkhnIk&t=662s <br/>
+https://www.youtube.com/watch?v=STTrebkhnIk&t=662s <br/>
