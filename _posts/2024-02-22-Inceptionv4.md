@@ -32,6 +32,7 @@ So we can get the most useful and most exact important information from each of 
 Have reduced complexity compared to Inception v1 module <br/>
 If having four different kind of transformations per layer, computational cost would be increased when adding layer by layer <br/>
 Inception is optimized and dimensions are reduced of the inputs from the previous layers <br/>
+![Inception5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e9d8188f-bd9d-4d17-9a8e-e5682e1f6c46) <br/>
 To reduce the dimensions. 1x1 convolutions are done before doing the heavy convolution operations such as 3x3, 5x5, or 7x7 <br/>
 1x1 convolutions reduce dimensions for our inputs to the neural network before doing heavy computations <br/>
 Can reduce the complexity of our model and computational costs by training neural networks <br/>
@@ -80,3 +81,4 @@ Stem: 이미지를 직접적으로 입력으로 받는 모듈 <br/>
 Reference: <br/>
 https://www.youtube.com/watch?v=STTrebkhnIk&t=662s <br/>
 https://www.youtube.com/watch?v=STTrebkhnIk&t=662s <br/>
+https://teddylee777.github.io/pytorch/inception-module/ <br/>
