@@ -77,10 +77,6 @@ Stem: 이미지를 직접적으로 입력으로 받는 모듈 <br/>
 1) 초반부 3 x 3 Conv 3개는 Inception v2에서 사용한것과 완전히 동일 <br/> 
 2) 채널의 수를 늘리기 위해 Pooling과 Conv 연산을 취한 뒤, concatenation한 것도 Inception v2에서도 동일 <br/> 
 3 ) Channel reduction, Asymmetric Convolution을 취하는 과정 Inception v2에서 사용한것과 완전히 동일 <br/> 
-
-
-
-
-
-Reference: https://www.youtube.com/watch?v=STTrebkhnIk&t=662s <br/>
+Reference: <br/>
+https://www.youtube.com/watch?v=STTrebkhnIk&t=662s <br/>
 https://www.youtube.com/watch?v=STTrebkhnIk&t=662s <br/>
