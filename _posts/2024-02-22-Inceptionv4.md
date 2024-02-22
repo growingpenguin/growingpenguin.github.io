@@ -27,6 +27,13 @@ Don't know what is the best operation or transformation to do layer by layer <br
 Can have multiple operations or transformations layer by layer  <br/>
 to choose what is the best transformation or what extracts the most useful information in this layer here from neural network or images passed through the neural network <br/>
 So we can get the most useful and most exact important information from each of the individual layers by having different kind of transformations concatenated, choosing the best one and repeating this over and over again <br/>
+**Inception V1 module optimized** <br/>
+![Inception2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/312ac87a-7c2c-423b-9997-f201bfade615) <br/>
+Have reduced complexity compared to Inception v1 module <br/>
+If having four different kind of transformations per layer, computational cost would be increased when adding layer by layer <br/>
+Inception is optimized and dimensions are reduced of the inputs from the previous layers <br/>
+To reduce the dimensions. 1x1 convolutions are done before doing the heavy convolution operations such as 3x3, 5x5, or 7x7 <br/>
+1x1 convolutions reduce dimensions for our inputs to the neural network before doing heavy computations <br/>
 
 
 Reference: https://www.youtube.com/watch?v=STTrebkhnIk&t=662s
