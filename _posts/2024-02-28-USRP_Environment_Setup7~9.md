@@ -45,14 +45,27 @@ In a real system, this would be a more complex operation <br/>
 But for simplicity, we can use a basic averaging filter in this example <br/>
 **Pulse Shaping (Root Raised Cosine Filter)**: <br/>
 The upsampled data is then passed through a pulse shaping filter <br/>
-The root raised cosine filter is designed to minimize ISI, as it has properties that cause the pulses to have minimal interference with one another. Pulse shaping is crucial to maintain the integrity of the signal over the transmission medium.
+The root raised cosine filter is designed to minimize ISI, as it has properties that cause the pulses to have minimal interference with one another. Pulse shaping is crucial to maintain the integrity of the signal over the transmission medium <br/>
+
+
+
+ISI(Intersymbol Interference) <br/>
+Problem that occurs in digital communication when one symbol, or pulse, interferes with subsequent symbols <br/>
+This interference happens because the symbols or pulses overlap, making it hard for the receiver to tell them apart <br/>
+
+
+
+
+
+
 
 
 Digital signal is a series of pulses that represent your data <br/>
 Now, if these pulses are not shaped properly, they can spread out and interfere with neighboring pulses, making it hard to tell them apart when you try to read the data later on <br/>
 
 
-
+## QAM Modulation Simulation/Implementation
+-Quadrature Amplitude Modulation <br/>
 
 The root raised cosine filter helps each kid (or pulse) to stay in the right spot without bumping into the others. It shapes each pulse so that it fits neatly into its own time slot, without spilling over into the next one. This helps to keep the message clear and prevents the information from getting jumbled up as it travels from the sender to the receiver. That's why pulse shaping with this filter is so important—it makes sure the message gets to the other side just the way it was sent.
 
@@ -105,3 +118,10 @@ Low pass filter 지우기 -> <br/>
 
 Reference: https://www.geeksforgeeks.org/bpsk-binary-phase-shift-keying/ <br/>
 
+https://github.com/bastibl/gr-ieee802-11 <br/>
+https://github.com/greatscottgadgets/gr-bluetooth <br/>
+https://github.com/drtyhlpr/ble_dump <br/>
+https://wiki.gnuradio.org/index.php/Tutorials <br/>
+(Writing the Yaml for the block) <br/>
+https://wiki.gnuradio.org/index.php?title=Creating_Python_OOT_with_gr-modtool <br/>
+https://wiki.gnuradio.org/index.php?title=Creating_C%2B%2B_OOT_with_gr-modtool <br/>
