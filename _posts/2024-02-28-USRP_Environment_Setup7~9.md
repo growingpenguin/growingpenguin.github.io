@@ -45,15 +45,28 @@ In a real system, this would be a more complex operation <br/>
 But for simplicity, we can use a basic averaging filter in this example <br/>
 **Pulse Shaping (Root Raised Cosine Filter)**: <br/>
 The upsampled data is then passed through a pulse shaping filter <br/>
-The root raised cosine filter is designed to minimize ISI, as it has properties that cause the pulses to have minimal interference with one another. Pulse shaping is crucial to maintain the integrity of the signal over the transmission medium <br/>
+The root raised cosine filter is designed to minimize ISI, as it has properties that cause the pulses to have minimal interference with one another <br/>
+Pulse shaping is crucial to maintain the integrity of the signal over the transmission medium <br/>
+**Modulation (Carrier Wave Multiplication)**: <br/>
+![SDR7-9_1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a77cb8ce-3b40-4e9b-b48b-0ae7d75f41d0) <br/>
+![SDR7-9_2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3d489cb3-7a07-422d-aa52-4653f126026d) <br/>
+Next, the pulse-shaped signal is modulated onto a carrier wave <br/>
+This is done by multiplying the data signal with a cosine wave, as indicated by the cos(2πf_ct) term in the diagram, where f_c is the carrier frequency <br/>
+Moves the data signal up to a higher frequency band suitable for transmission <br/>
 
 
-
-ISI(Intersymbol Interference) <br/>
+Footnote: <br/>
+Frequency offset: <br/>
+Discrepancy between the expected frequency of a signal and its actual received frequency <br/>
+This can occur due to a variety of reasons, such as Doppler shift due to relative motion between transmitter and receiver, inaccuracies in oscillator frequencies at the transmitter or receiver, or propagation delays <br/>
+serial = <br/>
+Pulse: <br/>
+Single sudden and intense change that occurs in a wave or in a phenomenon that repeats at a regular interval <br/>
+ISI(Intersymbol Interference): <br/>
 Problem that occurs in digital communication when one symbol, or pulse, interferes with subsequent symbols <br/>
 This interference happens because the symbols or pulses overlap, making it hard for the receiver to tell them apart <br/>
-
-
+carrier wave: <br/>
+Continuous electromagnetic radiation, of constant amplitude and frequency, that is given out by a transmitter <br/>
 
 
 
@@ -77,13 +90,6 @@ Frequency offset to 10 <br/>
 It moves, meaning that the synchronization is not done properly <br/>
 100
 100
-Footnote: <br/>
-Frequency offset: <br/>
-Discrepancy between the expected frequency of a signal and its actual received frequency <br/>
-This can occur due to a variety of reasons, such as Doppler shift due to relative motion between transmitter and receiver, inaccuracies in oscillator frequencies at the transmitter or receiver, or propagation delays <br/>
-serial = <br/>
-Pulse: <br/>
-Single sudden and intense change that occurs in a wave or in a phenomenon that repeats at a regular interval <br/>
 
 ## ASK Modulation 세팅/시뮬레이션
 Amplitude Shift Keying <br/>
