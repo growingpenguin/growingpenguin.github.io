@@ -52,14 +52,49 @@ Pulse shaping is crucial to maintain the integrity of the signal over the transm
 **Modulation (Carrier Wave Multiplication)**: <br/>
 ![SDR7-9_1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a77cb8ce-3b40-4e9b-b48b-0ae7d75f41d0) <br/>
 ![SDR7-9_2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3d489cb3-7a07-422d-aa52-4653f126026d) <br/>
-Next, the pulse-shaped signal is modulated onto a carrier wave <br/>
+Imposing an input signal onto a carrier wave <br/>
+Changing the shape of the carrier wave to encode the information we are interested in carrying <br/>
 This is done by multiplying the data signal with a cosine wave, as indicated by the cos(2πf_ct) term in the diagram, where f_c is the carrier frequency <br/>
 Moves the data signal up to a higher frequency band suitable for transmission <br/>
 -Modulating the signal onto a carrier wave is like translating your song into a language that the carrier pigeon understands <br/>
 You do this by combining your song with a special type of wave (the cosine wave, which is a smooth, up and down wave). <br/>
 This process changes the original "low" frequency of your song to a "higher" frequency, something the pigeon is better at carrying over long distances without losing the tune amidst the noise <br/>
 -Multiplying the data signal by a cosine wave adjusts the frequency of your data so it can travel better through the communication channel (like air, cables, or whatever space it needs to cross) <br/>
-This higher frequency is less likely to be messed up by noise and other signals that could interfere with your song on its journey to the loudspeaker. Once the song reaches the other side, it can be translated back into its original form so it can be played loud and clear.
+This higher frequency is less likely to be messed up by noise and other signals that could interfere with your song on its journey to the loudspeaker. Once the song reaches the other side, it can be translated back into its original form so it can be played loud and clear <br/>
+Example: <br/>
+3RF Characteristics <br/>
+Amplitude:  <br/>
+![SDR7-9_7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d592d58a-7f25-4986-a99c-c594ae0d7c85) <br/>
+Height of the wave <br/>
+The bigger the waveform, the more power it has <br/>
+Frequency:  <br/>
+![SDR7-9_6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6947f91d-27a4-428b-9303-32bef0d19c51) <br/>
+(Reference: https://www.britannica.com/science/radio-frequency-spectrum) <br/>
+Cycles per second, or complete waveforms in each second <br/>
+-RF spectrum and there are different frequencies within the spectrum <br/>
+-In order to transmit(Speaking at 2.4GHz) and receive a signal, need a receiver(Listening at 2.4GHz) <br/>
+Need to listen at the same frequency as we were transmitting <br/>
+-Measured in Hertz <br/>
+-Cps(Cycle Per Second): <br/>
+Phase:  <br/>
+![SDR7-9_5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c40d3deb-b24b-4732-ac88-174d6d1fc04a)
+Where the phase is in the given moment <br/>
+Show you a signal and it is flowing through the air, that is a single signal <br/>
+But if I have another signal with the same frequency traveling through the air as well, they have a relationship if sharing the same space <br/>
+![SDR7-9_4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a424cd0a-6593-49b3-b503-1644e040f10f) <br/>
+(Ref:https://www.quora.com/What-exactly-are-in-phase-and-out-of-phase-in-terms-of-waves) <br/>
+In-Phase <br/>
+Two signals match up exactly. Additive and makes the signal more powerful <br/>
+Same words at same freq, at the same time, strong voice <br/>
+Out-Phase <br/>
+Another signal, and it is a little bit out of phase, works against each other and reduces the signal strength, interfering with each other <br/>
+-180 degrees out of phase, they cancel each other out, having a loss of signal at that point <br/>
+(Wave itself is 360 degrees, a complete circle) <br/>
+**AM example** <br/>
+
+Input signal which its height varies according to the loudness of our voice <br/>
+Add this input signal to the carrier, then the carrier's amplitude will change corresponding to the input signal that is fed into it <br/>
+Thereby change the fre
 
 
 
@@ -139,7 +174,8 @@ center_free: <br/>
 Low pass filter 지우기 -> <br/>
 
 
-Reference: https://www.geeksforgeeks.org/bpsk-binary-phase-shift-keying/ <br/>
+Reference: <br/>
+https://www.geeksforgeeks.org/bpsk-binary-phase-shift-keying/ <br/>
 
 https://github.com/bastibl/gr-ieee802-11 <br/>
 https://github.com/greatscottgadgets/gr-bluetooth <br/>
