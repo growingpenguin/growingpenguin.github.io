@@ -119,6 +119,16 @@ At the receiver, the noisy signal is processed to retrieve the original data <br
 The received signal is then passed through a matched filter, which is designed to maximize the SNR <br/>
 This filter is essentially the mirror image of the pulse shaping filter used at the transmitter <br/>
 It also helps to correct for the dispersion of the signal caused by the channel <br/>
+-The matched filter is the optimal linear filter for maximizing the signal to noise ratio (SNR) in the presence of additive stochastic noise <br/>
+What the Matched Filter Does <br/>
+Maximizing the Signal to Noise Ratio (SNR): <br/>
+Amplifies the sound of your whistle when it comes back to you but doesn't amplify all the other noises <br/>
+This makes your whistle sound louder and clearer compared to the background noise, making it easier for you to pinpoint your friends <br/>
+Optimal Linear Filter: <br/>
+"Optimal" means it does the best possible job at distinguishing your whistle from the noise. "Linear" refers to the way the filter processes the sound signals, which is in a straightforward manner without changing the essence of the whistle sound <br/>
+Additive Stochastic Noise: <br/> 
+Random noise added to your signal <br/>
+The matched filter helps by focusing on the pattern of your whistle and ignoring everything else that doesn't match <br/>
 **Frequency & Time Synchronization**:  <br/>
 The receiver must adjust for any frequency offset between the transmitter and receiver to ensure the received signal is correctly aligned in time and frequency <br/>
 This means the receiver will attempt to make the frequency offset exactly 0 <br/>
@@ -145,7 +155,7 @@ It's like your smaller, more manageable photo album that you can easily share. T
 Restore it to a signal from a frequency <br/>
 After filtering, the signal is downsampled and the symbols are recovered <br/>
 This involves making a decision on whether a given symbol is closer to -1 or +1, thus restoring the original binary sequence (0100011) <br/>
-Footnote: <br/>
+**Footnote**: <br/>
 Frequency offset: <br/>
 Discrepancy between the expected frequency of a signal and its actual received frequency <br/>
 This can occur due to a variety of reasons, such as Doppler shift due to relative motion between transmitter and receiver, inaccuracies in oscillator frequencies at the transmitter or receiver, or propagation delays <br/>
@@ -155,7 +165,7 @@ Single sudden and intense change that occurs in a wave or in a phenomenon that r
 ISI(Intersymbol Interference): <br/>
 Problem that occurs in digital communication when one symbol, or pulse, interferes with subsequent symbols <br/>
 This interference happens because the symbols or pulses overlap, making it hard for the receiver to tell them apart <br/>
-carrier wave: <br/>
+Carrier wave: <br/>
 Continuous electromagnetic radiation, of constant amplitude and frequency, that is given out by a transmitter <br/>
 
 
