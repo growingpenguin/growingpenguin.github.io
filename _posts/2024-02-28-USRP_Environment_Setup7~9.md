@@ -92,6 +92,8 @@ Out-Phase <br/>
 Another signal, and it is a little bit out of phase, works against each other and reduces the signal strength, interfering with each other <br/>
 -180 degrees out of phase, they cancel each other out, having a loss of signal at that point <br/>
 (Wave itself is 360 degrees, a complete circle) <br/>
+Reference: <br/>
+https://www.cbtnuggets.com/blog/technology/networking/frequency-amplitude-phase-3-rf-characteristics <br/>
 **AM example** <br/>
 
 Input signal which its height varies according to the loudness of our voice <br/>
