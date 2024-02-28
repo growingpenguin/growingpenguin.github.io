@@ -129,6 +129,7 @@ Optimal Linear Filter: <br/>
 Additive Stochastic Noise: <br/> 
 Random noise added to your signal <br/>
 The matched filter helps by focusing on the pattern of your whistle and ignoring everything else that doesn't match <br/>
+Reference: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ee.eng.usm.my/eeacad/mandeep/EEE436/chp%203.pdf <br/>
 **Frequency & Time Synchronization**:  <br/>
 The receiver must adjust for any frequency offset between the transmitter and receiver to ensure the received signal is correctly aligned in time and frequency <br/>
 This means the receiver will attempt to make the frequency offset exactly 0 <br/>
@@ -166,17 +167,9 @@ Problem that occurs in digital communication when one symbol, or pulse, interfer
 This interference happens because the symbols or pulses overlap, making it hard for the receiver to tell them apart <br/>
 Carrier wave: <br/>
 Continuous electromagnetic radiation, of constant amplitude and frequency, that is given out by a transmitter <br/>
-
-
-
-
-
-
 ## QAM Modulation Simulation/Implementation
--Quadrature Amplitude Modulation <br/>
-
-The root raised cosine filter helps each kid (or pulse) to stay in the right spot without bumping into the others. It shapes each pulse so that it fits neatly into its own time slot, without spilling over into the next one. This helps to keep the message clear and prevents the information from getting jumbled up as it travels from the sender to the receiver. That's why pulse shaping with this filter is so important—it makes sure the message gets to the other side just the way it was sent.
-
+QAM(Quadrature Amplitude Modulation) <br/>
+Most common modulation modern radios se 
 
 
 
