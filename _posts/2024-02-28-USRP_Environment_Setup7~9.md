@@ -159,7 +159,6 @@ This involves making a decision on whether a given symbol is closer to -1 or +1,
 Frequency offset: <br/>
 Discrepancy between the expected frequency of a signal and its actual received frequency <br/>
 This can occur due to a variety of reasons, such as Doppler shift due to relative motion between transmitter and receiver, inaccuracies in oscillator frequencies at the transmitter or receiver, or propagation delays <br/>
-serial = <br/>
 Pulse: <br/>
 Single sudden and intense change that occurs in a wave or in a phenomenon that repeats at a regular interval <br/>
 ISI(Intersymbol Interference): <br/>
@@ -187,19 +186,19 @@ It moves, meaning that the synchronization is not done properly <br/>
 100
 100
 
-## ASK Modulation 세팅/시뮬레이션
+## ASK Modulation Configuration/Simulation
 Amplitude Shift Keying <br/>
 -Amplitude 조절 가지고 데이터 송수신 <br/>
 
 
 
 
-## PAM Modulation 세팅/시뮬레이션
+## PAM Modulation Configuration/Simulation
 
 00 -> 01 -> 11 -> 10 <br/>
 1 bit difference <br/>
 
-## BPSK Modulation 세팅/시뮬레이션
+## BPSK Modulation Configuration/Simulation
 Binary Phase Shift Keying <br/>
 -2분법을 Phase로 Shift한 변조법 <br/>
 ## Differential BPSK Modulation Simulation/Implementation
