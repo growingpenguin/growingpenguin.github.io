@@ -4,6 +4,7 @@ title:  "USRP Environmental Setup 7~9"
 ---
 # USRP Environmental Setup 7~9
 ## Introduction
+![SDR7-9_10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5833a631-eb13-4126-a408-cad386778cf8) <br/>
 High-level block diagram of a digital communication system <br/>
 The basic components involved in transmitting(Transmitter) and receiving digital data(Receiver) <br/>
 **Raw Signal (0100011)**: <br/>
@@ -156,7 +157,6 @@ Problem that occurs in digital communication when one symbol, or pulse, interfer
 This interference happens because the symbols or pulses overlap, making it hard for the receiver to tell them apart <br/>
 carrier wave: <br/>
 Continuous electromagnetic radiation, of constant amplitude and frequency, that is given out by a transmitter <br/>
-![SDR7-9_10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5833a631-eb13-4126-a408-cad386778cf8) <br/>
 
 
 
