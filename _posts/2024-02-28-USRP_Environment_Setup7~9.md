@@ -15,7 +15,7 @@ At the transmitter, the binary data is first converted into symbols <br/>
 In the case of BPSK, as mentioned, the bits '0' and '1' might be mapped to -1 and +1, respectively <br/>
 This is done to prepare the data for modulation <br/>
 **Upsampling**:  <br/>
-After symbol mapping, the data is upsampled <br/>
+Widen the interval between signals <br/>
 Upsampling is the process of increasing the sample rate by inserting zeros between the original samples to increase the length of the data sequence, which is then followed by a filtering process to smooth out the signal <br/>
 Example: <br/>
 Starting with the Original Sampled Signal: <br/>
@@ -45,6 +45,7 @@ In a real system, this would be a more complex operation <br/>
 (Often involving a root raised cosine filter or another filter designed to minimize ISI and spectral leakage) <br/>
 But for simplicity, we can use a basic averaging filter in this example <br/>
 **Pulse Shaping (Root Raised Cosine Filter)**: <br/>
+Making the shape of the frequency <br/>
 The upsampled data is then passed through a pulse shaping filter <br/>
 The root raised cosine filter is designed to minimize ISI, as it has properties that cause the pulses to have minimal interference with one another <br/>
 Pulse shaping is crucial to maintain the integrity of the signal over the transmission medium <br/>
@@ -54,6 +55,20 @@ Pulse shaping is crucial to maintain the integrity of the signal over the transm
 Next, the pulse-shaped signal is modulated onto a carrier wave <br/>
 This is done by multiplying the data signal with a cosine wave, as indicated by the cos(2πf_ct) term in the diagram, where f_c is the carrier frequency <br/>
 Moves the data signal up to a higher frequency band suitable for transmission <br/>
+-Modulating the signal onto a carrier wave is like translating your song into a language that the carrier pigeon understands <br/>
+You do this by combining your song with a special type of wave (the cosine wave, which is a smooth, up and down wave). <br/>
+This process changes the original "low" frequency of your song to a "higher" frequency, something the pigeon is better at carrying over long distances without losing the tune amidst the noise <br/>
+-Multiplying the data signal by a cosine wave adjusts the frequency of your data so it can travel better through the communication channel (like air, cables, or whatever space it needs to cross) <br/>
+This higher frequency is less likely to be messed up by noise and other signals that could interfere with your song on its journey to the loudspeaker. Once the song reaches the other side, it can be translated back into its original form so it can be played loud and clear.
+
+
+
+
+
+
+
+
+
 
 
 
