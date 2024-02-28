@@ -108,6 +108,8 @@ https://www.taitradioacademy.com/topic/how-does-modulation-work-1-1/ <br/>
 **Fading Channel**: <br/>
 The signal, now at a higher frequency, is transmitted over the channel <br/>
 During transmission, the signal may suffer from fading, which means its amplitude might decrease due to various factors like distance, obstacles, etc <br/>
+-A fading channel, is a type of communication channel where these kinds of variations in signal strength happen regularly <br/>
+It's not a stable channel where the signal stays the same; instead, it's dynamic and changes based on where you are, what's around you, and even the current weather conditions <br/>
 **Noise**: <br/>
 As the signal travels through the channel, noise is added to it. This noise can come from various sources and causes degradation in the quality of the received signal <br/>
 **Receiver Processing (Downsampling, Synchronization, Matched Filter)**: 
@@ -142,13 +144,6 @@ It's like your smaller, more manageable photo album that you can easily share. T
 Restore it to a signal from a frequency <br/>
 After filtering, the signal is downsampled and the symbols are recovered <br/>
 This involves making a decision on whether a given symbol is closer to -1 or +1, thus restoring the original binary sequence (0100011) <br/>
-
-
-
-
-
-
-
 Footnote: <br/>
 Frequency offset: <br/>
 Discrepancy between the expected frequency of a signal and its actual received frequency <br/>
