@@ -6,10 +6,11 @@ title:  "USRP Environmental Setup 7~9"
 ## Introduction
 High-level block diagram of a digital communication system <br/>
 The basic components involved in transmitting(Transmitter) and receiving digital data(Receiver) <br/>
-**Binary Data (0100011)**: <br/>
+**Raw Signal (0100011)**: <br/>
 The original binary data that you want to transmit <br/>
 It's a sequence of bits, where '0' and '1' represent two different states <br/>
 **Symbol Mapping**: <br/>
+Maps the signal to 0 and 1 <br/>
 At the transmitter, the binary data is first converted into symbols <br/>
 In the case of BPSK, as mentioned, the bits '0' and '1' might be mapped to -1 and +1, respectively <br/>
 This is done to prepare the data for modulation <br/>
@@ -53,6 +54,7 @@ Pulse shaping is crucial to maintain the integrity of the signal over the transm
 Next, the pulse-shaped signal is modulated onto a carrier wave <br/>
 This is done by multiplying the data signal with a cosine wave, as indicated by the cos(2πf_ct) term in the diagram, where f_c is the carrier frequency <br/>
 Moves the data signal up to a higher frequency band suitable for transmission <br/>
+
 
 
 Footnote: <br/>
