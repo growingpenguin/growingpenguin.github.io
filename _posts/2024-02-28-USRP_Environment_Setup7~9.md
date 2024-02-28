@@ -78,6 +78,7 @@ Need to listen at the same frequency as we were transmitting <br/>
 -Cps(Cycle Per Second): <br/>
 Phase:  <br/>
 ![SDR7-9_5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c40d3deb-b24b-4732-ac88-174d6d1fc04a) <br/>
+(Ref:https://www.quora.com/What-exactly-are-in-phase-and-out-of-phase-in-terms-of-waves) <br/>
 Where the phase is in the given moment <br/>
 Show you a signal and it is flowing through the air, that is a single signal <br/>
 But if I have another signal with the same frequency traveling through the air as well, they have a relationship if sharing the same space <br/>
