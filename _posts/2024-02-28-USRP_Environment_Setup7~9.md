@@ -65,6 +65,7 @@ Example: <br/>
 3RF Characteristics <br/>
 Amplitude:  <br/>
 ![SDR7-9_7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d592d58a-7f25-4986-a99c-c594ae0d7c85) <br/>
+(Ref:https://primaryscienceonline.org.uk/glossary-of-terms/amplitude/) <br/>
 Height of the wave <br/>
 The bigger the waveform, the more power it has <br/>
 Frequency:  <br/>
