@@ -95,13 +95,17 @@ Another signal, and it is a little bit out of phase, works against each other an
 Reference: <br/>
 https://www.cbtnuggets.com/blog/technology/networking/frequency-amplitude-phase-3-rf-characteristics <br/>
 **AM example** <br/>
-
+![SDR7-9_4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a424cd0a-6593-49b3-b503-1644e040f10f) <br/>
 Input signal which its height varies according to the loudness of our voice <br/>
-Add this input signal to the carrier, then the carrier's amplitude will change corresponding to the input signal that is fed into it <br/>
-Thereby change the fre
-
-
-
+Add this input signal to the pure carrier wave, then the carrier's amplitude will change corresponding to the input signal that is fed into it <br/>
+**FM example** <br/>
+![DR7-9_9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0c085c91-0553-4f90-b804-b0246f1c5110) <br/>
+Change the frequency of an input signal, if we add input signal to the pure carrier wave, the frequency of the carrier wave will be changed <br/>
+Changes of frequency to carry our speech information <br/>
+=> Any strategy which combine some systematic fashion, input signal with a carrier wave is called a Modulation Scheme(Analog or Digital) <br/>
+![DR7-9_8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f8f4db57-1943-42a8-b309-4ebc01ad6cc0) <br/>
+Reference: <br/>
+https://www.taitradioacademy.com/topic/how-does-modulation-work-1-1/ <br/>
 
 
 
