@@ -103,11 +103,45 @@ Add this input signal to the pure carrier wave, then the carrier's amplitude wil
 Change the frequency of an input signal, if we add input signal to the pure carrier wave, the frequency of the carrier wave will be changed <br/>
 Changes of frequency to carry our speech information <br/>
 => Any strategy which combine some systematic fashion, input signal with a carrier wave is called a Modulation Scheme(Analog or Digital) <br/>
-![DR7-9_8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f8f4db57-1943-42a8-b309-4ebc01ad6cc0) <br/>
 Reference: <br/>
 https://www.taitradioacademy.com/topic/how-does-modulation-work-1-1/ <br/>
-
-
+**Fading Channel**: <br/>
+The signal, now at a higher frequency, is transmitted over the channel <br/>
+During transmission, the signal may suffer from fading, which means its amplitude might decrease due to various factors like distance, obstacles, etc <br/>
+**Noise**: <br/>
+As the signal travels through the channel, noise is added to it. This noise can come from various sources and causes degradation in the quality of the received signal <br/>
+**Receiver Processing (Downsampling, Synchronization, Matched Filter)**: 
+At the receiver, the noisy signal is processed to retrieve the original data <br/>
+**Matched Filter**: <br/>
+The received signal is then passed through a matched filter, which is designed to maximize the SNR <br/>
+This filter is essentially the mirror image of the pulse shaping filter used at the transmitter <br/>
+It also helps to correct for the dispersion of the signal caused by the channel <br/>
+**Frequency & Time Synchronization**:  <br/>
+The receiver must adjust for any frequency offset between the transmitter and receiver to ensure the received signal is correctly aligned in time and frequency <br/>
+This means the receiver will attempt to make the frequency offset exactly 0 <br/>
+**Down Sampling** <br/>
+Shrink the interval between signals <br/>
+Example: <br/>
+(1)Original Sampled Signal: <br/>
+Start with your sequence of symbols, say [-1, 1, -1] <br/>
+(2)Low-pass Filtering (Before Downsampling) <br/>
+Before you actually remove samples, you apply a low-pass filter to the original signal <br/>
+The filter helps to prevent "aliasing," which in this analogy is like making sure the photos don't look jumbled or confusing when viewed in a smaller size <br/>
+The low-pass filter smooths out the signal, removing high-frequency components that could cause interference in the downsampled signal <br/>
+(3)Reducing the Sample Rate: <br/>
+Downsampling by a factor of M means you will keep only every M-th sample and discard the others (like choosing to keep every third photo and removing the others) <br/>
+If M is 2, you will keep every second symbol <br/>
+From our sequence, if we downsample by a factor of 2, we might keep the first and third symbols, so it looks like [-1, -1] <br/>
+(4)Effect on the Signal Spectrum: <br/>
+Downsampling compresses the spectrum of the original signal <br/>
+The low-pass filter ensures that this compression doesn't mix different parts of the signal spectrum together in a way that would corrupt the signal <br/>
+Resulting Downsampled Signal: <br/>
+After filtering and removing samples, you end up with a signal that has a lower sample rate <br/>
+It's like your smaller, more manageable photo album that you can easily share. This signal still represents your original data, but with fewer details, making it more suitable for certain applications or for transmission over limited bandwidth <br/>
+**Symbol De-Mapping**: <br/>
+Restore it to a signal from a frequency <br/>
+After filtering, the signal is downsampled and the symbols are recovered <br/>
+This involves making a decision on whether a given symbol is closer to -1 or +1, thus restoring the original binary sequence (0100011) <br/>
 
 
 
