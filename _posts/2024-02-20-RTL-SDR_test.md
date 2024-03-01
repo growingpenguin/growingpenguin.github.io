@@ -42,6 +42,9 @@ sudo make install-udev-rules
 
 ## Using rtl-sdr to Capture Radio Samples
 ```
+mkdir grc_files/
+```
+```
 cd grc_files/
 gnuradio-companion 
 #Tab
