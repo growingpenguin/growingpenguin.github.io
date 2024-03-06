@@ -116,4 +116,4 @@ Approached as a social network platform <br/>
 ## Metaverse Cases
 Minecraft <br/>
 Decentraland <br/>
-
+Need GPU Graphic Card <br/>
