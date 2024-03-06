@@ -113,4 +113,7 @@ Approached as a social network platform <br/>
 -> Found out that it does not generate any interests in terms of profit-wise <br/>
 -Meta vision is not coming yet, but they are not wrong <br/>
 
+## Metaverse Cases
+Minecraft <br/>
+Decentraland <br/>
 
