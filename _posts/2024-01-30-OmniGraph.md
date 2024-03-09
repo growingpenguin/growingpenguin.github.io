@@ -91,6 +91,8 @@ Connect the Velocity Command output of the differential controller to the Veloci
 Press the play button and select the Differential Controller Node in the graph <br/>
 Click and drag on either the angular or linear velocity values in the properties pane to change it’s value (or just click and type in the desired value) <br/>
 
+File Path: <br/>
+https://drive.google.com/file/d/1MFl4FTeDXb3dS7pQkWbeW-c0f_KwJ2J7/view?usp=sharing <br/>
 Reference: <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_gui_omnigraph.html <br/>
 
