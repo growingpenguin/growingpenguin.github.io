@@ -69,8 +69,7 @@ Repeat this for the other constant token node, but set the value to right_wheel_
 Type make array into the search bar of the graph editor and add a Make Array node to the graph <br/>
 ![Nvidia_Omnigraph20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a6f75035-0f63-48ff-81ac-86f84c3b9588) <br/>
 Drag and drop make array node <br/>
-![Nvidia_Omnigraph16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4ef76509-b8e5-4f85-a46d-99863cea9d75) <br/>
-![Nvidia_Omnigraph17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5730da3a-2ed5-4403-8f6e-e5668e568960) <br/>
+![Nvidia_Omnigraph21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/64776a04-7e94-4f7a-8b0e-3841240e93b5) <br/>
 Select the Make Array node and click on the + icon in the inputs section of the property pane menu to add a second input <br/>
 Set the arraySize to 2 as well, and then set the input type to token[] from the dropdown menu in the same pane <br/>
 Finally, connect the constant token nodes to A and B of the Make Array node, and then the output of that node to the Joint Names input of the Articulation Controller node <br/>
