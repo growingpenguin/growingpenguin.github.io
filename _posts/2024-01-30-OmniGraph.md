@@ -50,23 +50,21 @@ Computes drive commands for a two wheeled robot given some target linear and ang
 ![Nvidia_Omnigraph9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6c030410-ca8b-4bd9-aa72-fcb9a01befc9) <br/>
 Select the Differential Controller node in the graph, and then in the properties pane, set the wheelDistance to 0.1125, the wheelRadius to 0.03, and maxAngularSpeed to 0.2 <br/>
 (3)-7 Identify joints for articulation <br/>
-![Nvidia_Omnigraph19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5aebc282-106d-40f9-8754-18a032efd27f) <br/>
 Articulation Controller has the needs to know which joints to articulate <br/>
 -Expects this information in the form of a list of tokens or index values <br/>
+![Nvidia_Omnigraph19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5aebc282-106d-40f9-8754-18a032efd27f) <br/>
 Each joint in a robot has a name and the jetbot has exactly two <br/>
-
-
-
-
+Within /World/jetbot/chassis are two revolute physics joints named left_wheel_joint and right_wheel_joint <br/>
+(3)-8 Add tokens <br/>
 Type token into the search bar of the graph editor and add two Constant Token nodes to the graph  <br/>
 ![Nvidia_Omnigraph11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9278ab73-94a4-4926-bc60-2da7deddaa66) <br/>
 ![Nvidia_Omnigraph12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c6b8aca8-291f-43b3-af4c-fff23ba7f509) <br/>
-(3)-8 Type in values <br/>
+(3)-9 Type in values <br/>
 ![Nvidia_Omnigraph13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fe734950-2b6f-4470-89b2-6217b99ee9b8) <br/>
 ![Nvidia_Omnigraph14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/82a85e13-d77f-4ad4-8031-cdffd0ee101b) <br/>
 Select one, and set it’s value to left_wheel_joint in the properties pane <br/>
 Repeat this for the other constant token node, but set the value to right_wheel_joint <br/>
-(3)-9 Make arrays <br/>
+(3)-10 Make arrays <br/>
 ![Nvidia_Omnigraph15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c49c28ae-b442-48d1-b46a-afa090679a9e) <br/>
 Type make array into the search bar of the graph editor and add a Make Array node to the graph <br/>
 ![Nvidia_Omnigraph16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4ef76509-b8e5-4f85-a46d-99863cea9d75) <br/>
