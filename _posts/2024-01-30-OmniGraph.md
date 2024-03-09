@@ -49,7 +49,16 @@ Can uncheck usePath and then click Add Targets near the top of the pane for inpu
 Computes drive commands for a two wheeled robot given some target linear and angular velocity like the Articulation Controller, it also needs to be configured <br/>
 ![Nvidia_Omnigraph9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6c030410-ca8b-4bd9-aa72-fcb9a01befc9) <br/>
 Select the Differential Controller node in the graph, and then in the properties pane, set the wheelDistance to 0.1125, the wheelRadius to 0.03, and maxAngularSpeed to 0.2 <br/>
-(3)-7 Type token into the search bar of the graph editor and add two Constant Token nodes to the graph  <br/>
+(3)-7 Identify joints for articulation <br/>
+![Nvidia_Omnigraph19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5aebc282-106d-40f9-8754-18a032efd27f) <br/>
+Articulation Controller has the needs to know which joints to articulate <br/>
+-Expects this information in the form of a list of tokens or index values <br/>
+Each joint in a robot has a name and the jetbot has exactly two <br/>
+
+
+
+
+Type token into the search bar of the graph editor and add two Constant Token nodes to the graph  <br/>
 ![Nvidia_Omnigraph11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9278ab73-94a4-4926-bc60-2da7deddaa66) <br/>
 ![Nvidia_Omnigraph12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c6b8aca8-291f-43b3-af4c-fff23ba7f509) <br/>
 (3)-8 Type in values <br/>
