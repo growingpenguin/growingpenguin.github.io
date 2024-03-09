@@ -67,6 +67,8 @@ Repeat this for the other constant token node, but set the value to right_wheel_
 (3)-10 Make arrays <br/>
 ![Nvidia_Omnigraph15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c49c28ae-b442-48d1-b46a-afa090679a9e) <br/>
 Type make array into the search bar of the graph editor and add a Make Array node to the graph <br/>
+![Nvidia_Omnigraph20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a6f75035-0f63-48ff-81ac-86f84c3b9588) <br/>
+Drag and drop make array node <br/>
 ![Nvidia_Omnigraph16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4ef76509-b8e5-4f85-a46d-99863cea9d75) <br/>
 ![Nvidia_Omnigraph17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5730da3a-2ed5-4403-8f6e-e5668e568960) <br/>
 Select the Make Array node and click on the + icon in the inputs section of the property pane menu to add a second input <br/>
