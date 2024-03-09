@@ -86,6 +86,10 @@ Connect the Tick output of the On Playback Tick node to the Exec In input of bot
 Connect the Velocity Command output of the differential controller to the Velocity Command input of the articulation controller <br/>
 (3)-13 Completed Omnigraph <br/>
 ![Nvidia_Omnigraph24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a9e8fd5-722f-4d97-b782-dd2d4f426857) <br/>
+(3)-14 Play <br/>
+![Nvidia_Omnigraph25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/00bb0809-57d3-4bf2-880f-eeebb78fc70c) <br/>
+Press the play button and select the Differential Controller Node in the graph <br/>
+Click and drag on either the angular or linear velocity values in the properties pane to change it’s value (or just click and type in the desired value) <br/>
 
 Reference: <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_gui_omnigraph.html <br/>
