@@ -77,5 +77,8 @@ This node will emit an execution event for every frame, but only while the simul
 Connect the Tick output of the On Playback Tick node to the Exec In input of both controller nodes <br/>
 Connect the Velocity Command output of the differential controller to the Velocity Command input of the articulation controller. When completed, the graph should look similar to this <br/>
 
+Reference: <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_gui_omnigraph.html <br/>
+
 
 
