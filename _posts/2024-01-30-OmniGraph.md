@@ -24,6 +24,8 @@ Check out Assemble a Simple Robot for details on how you setup your own robot <b
 Position the jetbot just above the ground plane. When completed, the jetbot should be under /World/jetbot in the context tree and the stage should look similar to this <br/>
 ![Nvidia_Omnigraph2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/56a3ed77-8be5-4213-a91b-4dda4251027b) <br/>
 ![Nvidia_Omnigraph3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e6f0ed1f-01c0-4e77-b074-097e2f398e60) <br/>
+![Nvidia_Omnigraph18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d67f3151-b5fb-47b4-a7f6-a3d031ee7256) <br/>
+Pressed F button <br/>
 Depending on your default render settings, the camera of the jetbot may have a placeholder mesh (it looks like a gray Television camera) <br/>
 To hide these meshes, click on the eyecon icon in the viewports, and then select Show By Type --> Cameras to hide the placeholder mesh <br/>
 3)Building the graph <br/>
