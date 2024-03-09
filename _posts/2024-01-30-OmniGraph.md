@@ -73,12 +73,19 @@ Drag and drop make array node <br/>
 Select the Make Array node and click on the + icon in the inputs section of the property pane menu to add a second input <br/>
 Set the arraySize to 2 as well, and then set the input type to token[] from the dropdown menu in the same pane <br/>
 (3)-11 Connect Constant Token Nodes <br/>
+![Nvidia_Omnigraph22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a42a45ee-9f19-4270-8fc9-6426277f6367) <br/>
 Finally, connect the constant token nodes to A and B of the Make Array node, and then the output of that node to the Joint Names input of the Articulation Controller node <br/>
-
-The last node is the event node. Search for playback in the search bar of the graph editor and add an On Playback Tick node to the graph <br/>
+(3)-12 Add Event Node <br/>
+The last node is the event node <br/>
+![Nvidia_Omnigraph23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0573e2c7-d9bb-4447-95a7-3b2575e4b6bb) <br/>
+Search for playback in the search bar of the graph editor <br/>
+![Nvidia_Omnigraph24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a9e8fd5-722f-4d97-b782-dd2d4f426857) <br/>
+Add an On Playback Tick node to the graph <br/>
 This node will emit an execution event for every frame, but only while the simulation is playing <br/>
 Connect the Tick output of the On Playback Tick node to the Exec In input of both controller nodes <br/>
-Connect the Velocity Command output of the differential controller to the Velocity Command input of the articulation controller. When completed, the graph should look similar to this <br/>
+Connect the Velocity Command output of the differential controller to the Velocity Command input of the articulation controller <br/>
+(3)-13 Completed Omnigraph <br/>
+![Nvidia_Omnigraph24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a9e8fd5-722f-4d97-b782-dd2d4f426857) <br/>
 
 Reference: <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_gui_omnigraph.html <br/>
