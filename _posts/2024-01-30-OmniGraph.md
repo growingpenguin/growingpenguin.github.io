@@ -72,7 +72,9 @@ Drag and drop make array node <br/>
 ![Nvidia_Omnigraph21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/db752568-4475-4fec-84a2-012382ca9545) <br/>
 Select the Make Array node and click on the + icon in the inputs section of the property pane menu to add a second input <br/>
 Set the arraySize to 2 as well, and then set the input type to token[] from the dropdown menu in the same pane <br/>
+(3)-11 Connect Constant Token Nodes <br/>
 Finally, connect the constant token nodes to A and B of the Make Array node, and then the output of that node to the Joint Names input of the Articulation Controller node <br/>
+
 The last node is the event node. Search for playback in the search bar of the graph editor and add an On Playback Tick node to the graph <br/>
 This node will emit an execution event for every frame, but only while the simulation is playing <br/>
 Connect the Tick output of the On Playback Tick node to the Exec In input of both controller nodes <br/>
