@@ -73,7 +73,11 @@ In the context of community, it suggests a desire for interactions, experiences,
 **podcasting** <br/>
 The creation and distribution of audio programs available for download or streaming over the Internet <br/>
 Podcasts cover a wide range of topics and formats, including but not limited to interviews, discussions, storytelling, and educational content. Mentioning podcasting alongside TikTok and the success of "An Cailín Ciúin" and "Kneecap" highlights the diverse mediums through which the Irish language and culture are being promoted and celebrated <br/>
-I
+**Peig** <br/>
+Refers to "Peig Sayers," who is the author of an autobiographical account that was once a staple of the Irish school curriculum, especially for students learning the Irish language <br/>
+**nun** <br/>
+A member of a religious community of women, typically living under vows of poverty, chastity, and obedience within the framework of the Catholic Church <br/>
+In the context of this statement, "the nuns making you do it" likely refers to the historical role that nuns, as educators in many Irish schools, played in teaching the Irish language and enforcing the curriculum, which included books like "Peig." <br/>
 
 
 
