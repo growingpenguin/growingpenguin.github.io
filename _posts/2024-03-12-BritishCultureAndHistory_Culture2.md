@@ -18,3 +18,11 @@ In this context, it indicates that Kneecap consists of three members who perform
 **garnered** <br/>
 To have gathered or collected something, often as a result of effort <br/>
 When it is said that Kneecap has "garnered a large fanbase," it means they have attracted and built up a significant number of fans or followers who appreciate their music <br/>
+**bualadh bos** <br/>
+"Clapping" or "applause" in Irish. It's a phrase used to denote the action of clapping hands together to show appreciation, approval, or to offer congratulations <br/>
+**cúpla**:  <br/>
+"couple" or "few" and can refer to a small number of items, people, or in some contexts, a short period of time <br/>
+For example, "cúpla focal" means "a few words" <br/>
+**focal** <br/>
+"word" in Irish <br/>
+In the plural, "focail," it refers to "words." It's a fundamental term in the context of language learning, literature, and communication <br/>
