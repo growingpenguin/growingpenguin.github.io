@@ -70,6 +70,10 @@ Implies that the desire isn't for something broadly mainstream but rather for of
 **authentic** <br/>
 Genuine, real, or true <br/>
 In the context of community, it suggests a desire for interactions, experiences, or connections that are sincere, honest, and without pretense <br/>
+**podcasting** <br/>
+The creation and distribution of audio programs available for download or streaming over the Internet <br/>
+Podcasts cover a wide range of topics and formats, including but not limited to interviews, discussions, storytelling, and educational content. Mentioning podcasting alongside TikTok and the success of "An Cailín Ciúin" and "Kneecap" highlights the diverse mediums through which the Irish language and culture are being promoted and celebrated <br/>
+I
 
 
 
