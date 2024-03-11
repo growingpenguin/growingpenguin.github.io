@@ -79,6 +79,8 @@ Refers to "Peig Sayers," who is the author of an autobiographical account that w
 A member of a religious community of women, typically living under vows of poverty, chastity, and obedience within the framework of the Catholic Church <br/>
 In the context of this statement, "the nuns making you do it" likely refers to the historical role that nuns, as educators in many Irish schools, played in teaching the Irish language and enforcing the curriculum, which included books like "Peig." <br/>
 
+Reference: <br/>
+https://www.ireland.ie/en/technology-fuelling-global-irish-language-revival/ <br/>
 
 
 
