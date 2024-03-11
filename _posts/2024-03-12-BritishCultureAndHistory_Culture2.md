@@ -26,3 +26,6 @@ For example, "cúpla focal" means "a few words" <br/>
 **focal** <br/>
 "word" in Irish <br/>
 In the plural, "focail," it refers to "words." It's a fundamental term in the context of language learning, literature, and communication <br/>
+**viral** <br/>
+Content that has quickly gained popularity and widespread sharing across the internet, especially through social media platforms <br/>
+Something becomes "viral" when it is shared extensively within a short period, reaching a large audience beyond its initial scope <br/> 
