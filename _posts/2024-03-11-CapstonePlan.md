@@ -23,6 +23,8 @@ Ref: <br/>
 https://github.com/msr-peng/Self-Driving-Turtlebot3 <br/>
 
 ## Plan3: Rasberri Pi for Image Classification 
+Rasberry Pi를 활용한 이미지 분류 <br/>
+주로 모바일 디바이스에서 딥러닝을 하기 쉽지 않지만 여기에서는 TripleNet이라는 가벼운 모델을 돌림 <br/>
 Ref: <br/>
 https://paperswithcode.com/paper/triplenet-a-low-computing-power-platform-of <br/>
 https://github.com/RuiyangJu/TripleNet <br/>
