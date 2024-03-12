@@ -12,6 +12,7 @@ Domain Randomization(여러 가상환경에서)로봇을 돌려서 이미지 추
 예시에서는 DetectNet_v2 model with a resnet_18 backbone 모델을 사용하지만, 여러 객체 인식 AI모델을 활용해서 객체인식 accuracy를 높이기 <br/>
 Ref: <br/>
 https://github.com/NVIDIA-AI-IOT/synthetic_data_generation_training_workflow/blob/main/local/README.md <br/>
+https://developer.nvidia.com/usd <br/>
 
 ## Plan2: Self Driving(자율주행) Turtlebot3 Object Detection
 Turtlebot3를 활용한 자율주행 프로젝트 <br/>
