@@ -78,6 +78,52 @@ Refers to "Peig Sayers," who is the author of an autobiographical account that w
 **nun** <br/>
 A member of a religious community of women, typically living under vows of poverty, chastity, and obedience within the framework of the Catholic Church <br/>
 In the context of this statement, "the nuns making you do it" likely refers to the historical role that nuns, as educators in many Irish schools, played in teaching the Irish language and enforcing the curriculum, which included books like "Peig." <br/>
+**Gaeilge** <br/>
+Irish language, which is a Goidelic language of the Celtic languages family, indigenous to Ireland <br/>
+-When it says Caoimhe Nic Giollarnáith completed all her education "as Gaeilge," it means she completed her education in the Irish language, indicating that her schooling and instruction were conducted in Irish <br/>
+**engaging** <br/>
+The action of people actively participating in or getting involved with <br/>
+It suggests that more individuals from newer generations are taking an interest in learning, using, and promoting the Irish language, contrary to the speaker's earlier experiences where speaking Irish was not perceived as "cool" or popular <br/>
+**inundated** <br/>
+Being overwhelmed or receiving an overwhelming amount of something <br/>
+The speaker is indicating that over the last three years, there has been a significant surge in the number of people reaching out to them, seeking private lessons in the Irish language <br/>
+**pop-up Gaeltachts** <br/>
+Informal gatherings or events organized to promote the use of the Irish language (Gaeilge) outside of traditional educational or geographically Irish-speaking areas (Gaeltacht regions) <br/>
+These events are typically arranged through social media or other forms of communication technology and can happen in various locations such as pubs, cafes, parks, or online platforms, especially in non-Gaeltacht areas or even internationally <br/>
+**sanctioned** <br/>
+Officially approved or authorized <br/>
+When it mentions the Gaeltacht in Ontario, Canada, as the first and only officially sanctioned Gaeltacht outside of Ireland, it means that this Gaeltacht has received formal recognition or endorsement from an authoritative body, likely one associated with the promotion and preservation of the Irish language <br/>
+**immersion** <br/>
+A method of language learning or teaching that involves surrounding learners with the target languagein various forms of communication and social interaction, without relying on the learners' native language <br/>
+In an immersion course, participants are encouraged to speak, listen, read, and write in the target language as much as possible, which accelerates the learning process and helps them to gain fluency <br/>
+**attraction** <br/>
+Something that draws people's interest or attention, often because it is enjoyable, unusual, or popular <br/>
+When the speaker mentions the Gaeltacht being almost an attraction, they are indicating that the Gaeltacht was being viewed more as a place for visitors or tourists to experience something interesting or unique, rather than as a community focused on the deeper aspects of Irish language and culture <br/>
+**segment** <br/>
+A distinct group within a larger population, differentiated by particular characteristics or interests <br/>
+By saying that the shift to online festivals has really connected into a different segment of people, the speaker is pointing out that these virtual events have reached a new group of individuals who may not have been engaged with the Gaeltacht or the Irish language previously <br/>
+**overlap** <br/>
+Similarities or areas of commonality <br/>
+The use of the term "overlap" suggests that, while there may be unique aspects to both formats, there is a significant portion where the online and physical experiences intersect, fostering a cohesive community of Irish speakers and learners globally <br/>
+**coming to maturity** <br/>
+The process of reaching a stage of full development or adulthood, both in terms of age and, more importantly, in terms of capability and confidence <br/> 
+The speaker is highlighting that the generation of individuals who attended Gaelscoileanna (Irish-medium schools) in the 1990s and early 2000s has grown up and reached a point in their lives where they are confidently using the Irish language in various aspects of their daily lives, such as in their professional environments and social interactions <br/> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Reference: <br/>
 https://www.ireland.ie/en/technology-fuelling-global-irish-language-revival/ <br/>
