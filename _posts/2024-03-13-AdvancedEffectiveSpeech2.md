@@ -27,8 +27,9 @@ Q3: What did our professor say about having class online in week12?  <br/>
 A3: It rings a bell, but I wasn't really listening. I'll email him to check later <br/>
 **To Twist Someone's Arm** <br/>
 To convince or persuade someone <br/>
-A3: <br/> 
-
+Example: <br/> 
+Q1-1: Please come with me to the party tonight, I don't want to go on my own <br/>
+A1-1: 
 ## I paid to have my daughter kidnapped
 Vocab <br/>
 **Drowsy**: <br/>
