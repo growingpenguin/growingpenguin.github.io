@@ -4,8 +4,83 @@ title:  "British Culture And History Cultural Content Week2 "
 ---
 
 # Technology is fuelling a global Irish language revival
-## Requirements
-(1)Where do you prefer to get your information about what is happening in the world <br/> 
+## Professor Notes
+Ref: https://www.google.com/search?q=gaeltach.svg&sca_esv=6470011d51d3dd33&sxsrf=ACQVn09-1kJ0ZGQVdeGNUaa0N9lN84nS4A%3A1710379539895&source=hp&ei=E1LyZcSeNPOivr0PipS_iAU&iflsig=ANes7DEAAAAAZfJgIwUO31VKLY_naHPLTMlKUvNtKwfy&udm=&ved=0ahUKEwiE9J2nzPKEAxVzka8BHQrKD1EQ4dUDCBc&uact=5&oq=gaeltach.svg&gs_lp=Egdnd3Mtd2l6IgxnYWVsdGFjaC5zdmdIxyBQAFifH3ACeACQAQCYAZcBoAHxDKoBBDAuMTO4AQPIAQD4AQGYAg6gAtgMwgIEECMYJ8ICEBAuGMcBGNEDGIAEGIoFGCfCAgoQIxiABBiKBRgnwgIKEAAYgAQYigUYQ8ICERAuGIAEGLEDGIMBGMcBGNEDwgILEAAYgAQYsQMYgwHCAggQABiABBixA8ICCxAuGIAEGLEDGNQCwgIFEAAYgATCAgUQLhiABMICCBAAGIAEGMsBwgIIEC4YgAQYywHCAgcQABiABBgNwgIIEC4YywEYgATCAgYQABgeGA2YAwCSBwQyLjEyoAf9cw&sclient=gws-wiz#vhid=uxE24XyvFvXmqM&vssid=l <br/>
+-Everyone in Ireland learn Irish <br/>
+-West of Ireland, <br/>
+-British control the Ireland over the years <br/>
+-The place is remote, and have an ancient history <br/>
+-Gael, tacht regin <br/>
+**First Paragraph** <br/>
+Gaeilge: Irish word meaning Irish <br/>
+-RTE like broadcast, television programs <br/>
+-West, remote and don't encroach in these areas most <br/>
+-Calin Chin won some awards <br/>
+-Irish words, mixed in here <br/>
+-Some phrases they used, in a daily basis <br/>
+**Appetite to learn Irish** <br/>
+-Not only happening in social media and culture <br/>
+-Schools immersion, learn everything in English <br/>
+-Almost everyone in Ireland speaks English, but lots of people wanting to learn Irish <br/>
+-Eant to Gaeltacht to set up schools <br/>
+-Irish and Spanish learned most in Duolingo(Application) <br/>
+-Pop-up Gaeltacht: Bunch of us can get together and use Irish like meeting in a library or cafe <br/>
+-Woman,Molle teaches Irish online <br/>
+-People are getting more confident,interested in Irish and they feel connected <br/>
+-Kids in school are learning Irish, it is a mandatory subject <br/>
+-Peig: Ancient focal from a long ago language <br/>
+Irish is not useless, they are teaching it in the wrong way <br/>
+-Catholic schools learn a lot of the Irish schools <br/>
+Nuns are strict teachers <br/>
+-People can have fun learning, more than an exam subject <br/>
+**It's cool to speak Irish** <br/>
+-Offers different language <br/>
+-Growing up, personally didn't feel Irish was intersting, but people are engaging <br/>
+-Social media, a big factor <br/>
+-Covid, peopel wanted something to do <br/>
+-In zoom one on one language sessions, you don't have to physically show up <br/>
+**Gaetacht abroad** <br/>
+-First one is Canada <br/>
+-Started in 2007, and mostly online <br/>
+-Didn't know Ireland when growing up <br/>
+-Became interested, became fluent <br/>
+-Failte: Welcome <br/>
+-Younger generation is interested <br/>
+-Can connect with people all over the country <br/>
+Members of the Gaeltalks <br/>
+**Using Irish Locally** <br/>
+Past 10 years, people became more confident speaking the English <br/>
+Not the language, people began using in everyday life <br/>
+Iran horse, sheep herding culture <br/>
+Language and culture is connected <br/>
+**Culture Change**  <br/>
+-Irish was seen as a poor language <br/>
+-Lots of them immigrated from Ireland, there wasn't a lot of economic opportunities <br/>
+-If we emphasize, kids don't know their language? <br/>
+-If learn language, brain function, better understand native language <br/>
+**Less Pressure above** <br/>
+-Irish made officially EU language <br/>
+Brussel headquarters of the EU country <br/>
+Fonders of the group <br/>
+Rusty, forgot a lot of things <br/>
+Kicking yourself: disappointed in yourself <br/>
+-Knowing Irish, can get some jobs <br/>
+O Suilleabhain <br/>
+speaking another language, put pressure on oneself <br/>
+Shame, not knowing their own language <br/>
+Afraid, not being perfect, and some people just give up <br/>
+If throwing a few simple phrases, learn simple phrases, learn more and more <br/>
+Some people: Afraid.. not perfect I am not going to do it <br/>
+You have to understand that, first not easy <br/>
+Difficult start, normal to be nervous, people just like you.. <br/>
+-Need to reach beyond <br/>
+Don't have to be fluent, supportive, have people around you <br/>
+-British left, more businesses in Ireland <br/>
+-That's the person, ... <br/>
+-British discouraged people to speak Irish, they don't know how to speak.. <br/>
+
+
+## Words
 
 **nominated** <br/>
 Officially chosen <br/>
