@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea08daf5-0169-45e6-870e-425c8b3337bc)---
 layout: post
 title:  "Import Turtlebot"
 ---
@@ -84,6 +84,46 @@ Both can be found in Create -> Physics. You may also need some lighting, play wi
 On a new stage, drag the simple_room.usd onto the stage, and place it at the origin by zero out all the Translate components in the Transform Property <br/>
 You many need to zoom in a bit to see the table inside the room <br/>
 => Click on the table > Pressed F <br/>
+(4)Open the URDF importer <br/>
+![ImportTurtlebot8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a62736ce-1652-4956-8697-bc2feacb4adf) <br/>
+![ImportTurtlebot9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0bf143fc-5f26-41b6-bd0a-4b70cdc9f70f) <br/>
+Isaac Utils > Workflows > URDF Importer <br/>
+(5)Change the import options <br/>
+![ImportTurtlebot10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/280b5df3-55da-492a-9445-ec490b2946a3) <br/>
+In the prompt window, inside Import Option section <br/>
+uncheck clear stage to preserve the existing environment<br/>
+uncheck Fix Base Link since this is a mobile robot <br/>
+Change Joint Drive Type to Velocity so that wheels can be properly driven later <br/>
+(6)Import additional materials <br/>
+(6)-1 Import ball <br/>
+![ImportTurtlebot12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/48e63f2d-0e6a-4292-8cad-0d39c99e2386) <br/>
+Inside Import section, first locate the URDF file you wish to import in the Input File <br/>
+(The Import button will only enable after you’ve selected the file) <br/>
+![ImportTurtlebot13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/09e5d942-7fac-4135-8095-577bd5fdaa2b) <br/>
+![ImportTurtlebot15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/71fdcdc1-68b6-4e45-a9fa-9fe157b434af) <br/>
+Click on Folder > objects > ball.urdf > Select URDF> Press IMPORT <br/>
+(6)-2 Import turtlebot3_burger <br/>
+```
+#Input file Path
+~/workspaces/isaac_ros-dev/src/turtlebot3/turtlebot3_description/urdf/turtlebot3_burger.urdf
+```
+![ImportTurtlebot17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/785bc503-cee3-485b-9b7c-a6afb9d19d25) <br/>
+![ImportTurtlebot18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3ba194a-776d-461d-9267-4240bfcdfc18) <br/>
+![ImportTurtlebot19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/607672cd-db32-44e2-b7d6-e51c19576f33) <br/>
+(7)Import additional materials <br/>
+
+
+
+
+
+Once the asset is imported into Omniverse Kit, a copy of the .usd version of the asset will be automatically saved <br/>
+Specify the folder you wish to save the asset in Output Directory if it’s different than the folder that the .urdf file is located in <br/>
+A folder name matching the .urdf file will be created in the specified directory, and the .usd file will be inside the newly created folder <br/>
+
+
+![ImportTurtlebot11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f1d86209-6e09-4d44-8b4f-35415083079e) <br/>
+https://www.turbosquid.com/ko/3d-models/3d-small-safe-box-locker-1761521 <br/>
+
 
 
 Ref: https://nvidia-isaac-ros.github.io/getting_started/dev_env_setup.html <br/>
