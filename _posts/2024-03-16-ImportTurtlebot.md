@@ -1,11 +1,11 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea08daf5-0169-45e6-870e-425c8b3337bc)---
+---
 layout: post
 title:  "Import Turtlebot"
 ---
 
 # URDF Import: Turtlebot
 ## Objective
-Import a Turtlebot3 into Isaac Sim using the URDF importer <br/>
+Import a Turtlebot3 into Isaac Sim using the URDF imporer <br/>
 ## Getting started
 (1)Prerequisite <br/>
 (1)-1 Completed ROS & ROS 2 Installation so that ROS is available, ROS extension is enabled, and necessary environment variables are set <br/>
