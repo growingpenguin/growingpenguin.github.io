@@ -58,9 +58,10 @@ The references are made using the package:// URI scheme, which ROS resolves by l
 ```
 nano ~/.bashrc
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/workspaces/isaac_ros-dev/src/turtlebot3/turtlebot3_description
-```
 ![ImportTurtlebot3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c3458fbe-ca9b-4f17-bb67-478a72f4bc1a) <br/>
-ccd ~/workspaces/isaac_ros-devcolcon build
+```
+cd ~/workspaces/isaac_ros-dev
+colcon build
 ```
 ![ImportTurtlebot4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7e0d10a9-4f5f-4bfd-a85d-f203bf5567e2) <br/>
 Build the entire turtlebot3 package <br/>
@@ -69,8 +70,6 @@ Some package building showed errors <br/>
 cd ~/workspaces/isaac_ros-dev
 colcon build --packages-select turtlebot3_description
 ```
-
-
 ![ImportTurtlebot5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f0677586-9a19-42c9-9068-aaa0807b476e) <br/>
 (For the purpose of this tutorial, you only need to build the turtlebot3_description package. Feel free to bypass other packages in the repository) <br/>
 (2)Import robot to environment <br/>
