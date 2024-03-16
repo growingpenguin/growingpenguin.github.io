@@ -58,6 +58,7 @@ The references are made using the package:// URI scheme, which ROS resolves by l
 ```
 nano ~/.bashrc
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/workspaces/isaac_ros-dev/src/turtlebot3/turtlebot3_description
+```
 ![ImportTurtlebot3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c3458fbe-ca9b-4f17-bb67-478a72f4bc1a) <br/>
 ```
 cd ~/workspaces/isaac_ros-dev
