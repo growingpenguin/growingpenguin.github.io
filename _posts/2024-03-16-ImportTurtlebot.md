@@ -18,7 +18,7 @@ Ref: https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_ros.
 (1)-3 Nucleus downloaded to access Isaac Environments <br/>
 ![ImportTurtlebot1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0584e24f-7f62-498c-9a20-0059e77fa6bb) <br/>
 => Already Done <br/>
-
+Ref: https://docs.omniverse.nvidia.com/nucleus/latest/workstation/installation.html <br/>
 ## Importing TurtleBot URDF
 (1)Download and build the Turtlebot3 description package <br/>
 Build it inside the ROS workspace <br/>
