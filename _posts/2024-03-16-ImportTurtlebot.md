@@ -111,6 +111,11 @@ Click on Folder > objects > ball.urdf > Select URDF> Press IMPORT <br/>
 ```
 ![ImportTurtlebot18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3ba194a-776d-461d-9267-4240bfcdfc18) <br/>
 ![ImportTurtlebot19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/607672cd-db32-44e2-b7d6-e51c19576f33) <br/>
+URDF to usd <br/>
+![ImportTurtlebot20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be9110f6-5466-4021-81cb-b468ffcc16f8) <br/>
+usd converted Confirmed <br/>
+
+
 (7)Import additional materials <br/>
 
 
@@ -122,8 +127,6 @@ Specify the folder you wish to save the asset in Output Directory if it’s diff
 A folder name matching the .urdf file will be created in the specified directory, and the .usd file will be inside the newly created folder <br/>
 
 
-![ImportTurtlebot11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f1d86209-6e09-4d44-8b4f-35415083079e) <br/>
-https://www.turbosquid.com/ko/3d-models/3d-small-safe-box-locker-1761521 <br/>
 
 
 
