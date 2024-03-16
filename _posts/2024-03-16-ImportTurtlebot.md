@@ -77,6 +77,7 @@ colcon build --packages-select turtlebot3_description
 ![ImportTurtlebot6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6ba537d2-3f1e-4909-b38f-2cefc69b7ea4) <br/>
 Use an Isaac environment for this tutorial(Can import the robot into any environment of your choosing) <br/>
 Open the environment by going to the Content tab below the viewport, and find Isaac/Environments/Simple_Room/simple_room.usd <br/>
+Drag and drop the simple_room.usd to the viewport <br/>
 (If you do not want to use the provided environment, just make sure there is a GroundPlane and a PhysicsScene to your environment <br/>
  Both can be found in Create -> Physics. You may also need some lighting, play with the various types of lighting in Create -> Light to get the desired effect) <br/>
 Ref: https://nvidia-isaac-ros.github.io/getting_started/dev_env_setup.html <br/>
