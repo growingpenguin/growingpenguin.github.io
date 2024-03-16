@@ -75,12 +75,17 @@ colcon build --packages-select turtlebot3_description
 (For the purpose of this tutorial, you only need to build the turtlebot3_description package. Feel free to bypass other packages in the repository) <br/>
 (2)Import robot to environment <br/>
 ![ImportTurtlebot6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6ba537d2-3f1e-4909-b38f-2cefc69b7ea4) <br/>
-![ImportTurtlebot7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8744d980-1f79-4ccf-8c77-35a03ff35278) <br/>
 Use an Isaac environment for this tutorial(Can import the robot into any environment of your choosing) <br/>
 Open the environment by going to the Content tab below the viewport, and find Isaac/Environments/Simple_Room/simple_room.usd <br/>
-Drag and drop the simple_room.usd to the viewport <br/>
 (If you do not want to use the provided environment, just make sure there is a GroundPlane and a PhysicsScene to your environment <br/>
 Both can be found in Create -> Physics. You may also need some lighting, play with the various types of lighting in Create -> Light to get the desired effect) <br/>
+(3)Set up the simple room environment <br/>
+![ImportTurtlebot7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8744d980-1f79-4ccf-8c77-35a03ff35278) <br/>
+On a new stage, drag the simple_room.usd onto the stage, and place it at the origin by zero out all the Translate components in the Transform Property <br/>
+You many need to zoom in a bit to see the table inside the room <br/>
+=> Click on the table > Pressed F <br/>
+
+
 Ref: https://nvidia-isaac-ros.github.io/getting_started/dev_env_setup.html <br/>
 
 
