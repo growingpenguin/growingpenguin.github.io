@@ -106,8 +106,9 @@ Click on Folder > objects > ball.urdf > Select URDF> Press IMPORT <br/>
 ```
 #Input file Path
 ~/workspaces/isaac_ros-dev/src/turtlebot3/turtlebot3_description/urdf/turtlebot3_burger.urdf
+#Output file Path
+/home/rosexpert1/Desktop/IsaacSim_usd/
 ```
-![ImportTurtlebot17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/785bc503-cee3-485b-9b7c-a6afb9d19d25) <br/>
 ![ImportTurtlebot18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3ba194a-776d-461d-9267-4240bfcdfc18) <br/>
 ![ImportTurtlebot19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/607672cd-db32-44e2-b7d6-e51c19576f33) <br/>
 (7)Import additional materials <br/>
