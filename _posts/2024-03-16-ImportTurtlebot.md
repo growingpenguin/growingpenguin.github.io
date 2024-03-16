@@ -27,6 +27,7 @@ Build it inside the ROS workspace <br/>
 ```
 cd ${ISAAC_ROS_WS}/src
 ```
+Ref: https://nvidia-isaac-ros.github.io/getting_started/dev_env_setup.html <br/>
 (1)-2 Download Turtlebot3 description package <br/>
 ```
 git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3.git turtlebot3
@@ -112,25 +113,28 @@ Click on Folder > objects > ball.urdf > Select URDF> Press IMPORT <br/>
 ![ImportTurtlebot18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3ba194a-776d-461d-9267-4240bfcdfc18) <br/>
 ![ImportTurtlebot19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/607672cd-db32-44e2-b7d6-e51c19576f33) <br/>
 URDF to usd <br/>
+(7)Convert the urdf to usd <br/>
 ![ImportTurtlebot20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be9110f6-5466-4021-81cb-b468ffcc16f8) <br/>
-usd converted Confirmed <br/>
-
-
-(7)Import additional materials <br/>
-
-
-
-
-
 Once the asset is imported into Omniverse Kit, a copy of the .usd version of the asset will be automatically saved <br/>
 Specify the folder you wish to save the asset in Output Directory if it’s different than the folder that the .urdf file is located in <br/>
 A folder name matching the .urdf file will be created in the specified directory, and the .usd file will be inside the newly created folder <br/>
+turtlebot3_burger.usd Generated <br/>
+(8)Selct the World Prim <br/>
+![ImportTurtlebot21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/90b724ef-5018-4a1b-aaef-f6af3b346bb7) <br/>
+Make sure to unselect everything on the stage by click on an empty space inside the Stage tab, or select /World on the tree <br/>
+Otherwise you might be importing the Turtlebot as a child of a random object on the tree <br/>
+(9)Click Import <br/>
+![ImportTurtlebot22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bde4dbb2-7a96-4379-8c3b-a6f008029fee) <br/>
+![ImportTurtlebot23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/50274e42-c0c9-4bb0-a2b7-f4c4addd3505) <br/>
+Import turtlebot3_burger.usd <br/>
+(10)Place turtlebot3 to the floor <br/>
+![ImportTurtlebot24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e942ab19-7a30-47dd-87b4-d72619f80962) <br/>
+When the Turtlebot is first imported, it will be on the table. Place it just above the floor of the room using the gizmo <br/>
+(11)Press Play <br/>
+Press Play and you should see the Turtlebot fall onto the floor <br/>
+Video File: https://drive.google.com/file/d/1zyehw_vfdD2VoedMwoavM9YNJf8PXhyJ/view?usp=sharing <br/> 
 
 
-
-
-
-Ref: https://nvidia-isaac-ros.github.io/getting_started/dev_env_setup.html <br/>
-
-
-Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/advanced_tutorials/tutorial_advanced_import_urdf.html <br/>
+Reference:  <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/ros_tutorials/tutorial_ros_turtlebot.html#tune-the-robot <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/introductory_tutorials/tutorial_intro_interface.html#isaac-sim-app-tutorial-intro-interface <br/>
