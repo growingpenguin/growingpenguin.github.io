@@ -149,6 +149,19 @@ Go to the Menu Bar and click Create > Physics > Physics Material, select Rigid B
 A new PhysicsMaterial will appear on the stage tree. Parameters such as friction coefficients and restitution can be tuned in its property tab <br/>
 ![ImportTurtlebot27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b291150f-32eb-4009-a740-d9f06be8da1a) <br/>
 
+(2)Physical Properties <br/>
+If no explicit mass or inertial properties are given, the physics engine will estimate them from the geometry mesh <br/>
+To update the mass and inertial properties, find the prim that contains the rigid body for the given link (You can verify this by finding “Physics > Rigid Body” under its property tab) <br/>
+If it already has a “Mass” category under its Physics property tab, modify them accordingly <br/>
+(If there isn’t already a “Mass” category, you can add it by clicking on the +Add button on top of the Propery tab, and select “Physics > Mass”) <br/>
+
+(3)Joint Properties <br/>
+If your robot is oscillating at the joint or moving too slow, take a look at the stiffness and damping parameters for the joints <br/>
+High stiffness makes the joints snap faster and harder to the desire target, and higher damping smoothes but also slows down the joint’s movement to target <br/>
+-Pure position drives: Set relatively high stiffness and low damping <br/>
+-Velocity drives: Stiffness must be set to zero with a non-zero damping <br/>
+-[Gain Tuner](https://docs.omniverse.nvidia.com/isaacsim/latest/features/robots_simulation/ext_omni_isaac_gain_tuner.html#isaac-gain-tuner) and [Articulation Inspector](https://docs.omniverse.nvidia.com/isaacsim/latest/features/robots_simulation/ext_omni_isaac_articulation_inspector.html#isaac-articulation-inspector): Two tools provided to help with inspect the joints and tune the stiffness and damping parameters <br/>
+
 
 
 
