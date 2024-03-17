@@ -132,7 +132,13 @@ Import turtlebot3_burger.usd <br/>
 When the Turtlebot is first imported, it will be on the table. Place it just above the floor of the room using the gizmo <br/>
 (11)Press Play <br/>
 Press Play and you should see the Turtlebot fall onto the floor <br/>
+(11)-1 Robot flies to the air instead of falling onto the floor <br/>
 Video File: https://drive.google.com/file/d/1zyehw_vfdD2VoedMwoavM9YNJf8PXhyJ/view?usp=sharing <br/> 
+(11)-2 Robot now falls onto the floor <br/>
+Press Ctrl key > Select simple_room & turtlebot3_burger > +Add > Physics > Rigid Body with Colliders Preset <br/>
+Video File: <br/>
+Ref: https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_intro_simple_objects.html#isaac-sim-app-tutorial-intro-simple-objects <br/>
+
 
 ## Tune the Robot
 The URDF importer automatically imports material, physical, and joint properties whenever it is available and have matching categories in Omniverse Isaac Sim <br/> 
