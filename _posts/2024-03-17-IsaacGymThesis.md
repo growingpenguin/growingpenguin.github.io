@@ -16,7 +16,7 @@ CPUs: Environmental Physics 시뮬레이션, Reward 계산, Environment 구동 <
 GPUs: Neural network models training과 inference에 있어서의 가속화 그리고 Rendering <br/> 
 CPU와 GPU 사이의 전환 비효율성은 각각 순차 작업과 병렬성에 최적화되어 있으며, 상당한 계산 요구와 시뮬레이션 속도를 제한하여 로봇 심층 강화 학습의 확장성에 있어서 challenging 하다 <br/>
 로봇 분야에서의 심층 강화 학습의 확장성은 2가지 병목 현상 <br/>
-1) 엄청난 계산 요구 사항 및 2) 제한된 simulation speed <br/>
+1)엄청난 계산 요구 사항 및 2)제한된 simulation speed <br/>
 자유도가 높은 로봇에 대해 장기적인 행동을 학습할 때 특히 Challenging <br/>
 -해결방안 <br/>
 해결방안1: 하드웨어 가속기(GPU)에서 시뮬레이션을 실행 <br/>
