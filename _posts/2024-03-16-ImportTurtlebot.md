@@ -134,6 +134,23 @@ When the Turtlebot is first imported, it will be on the table. Place it just abo
 Press Play and you should see the Turtlebot fall onto the floor <br/>
 Video File: https://drive.google.com/file/d/1zyehw_vfdD2VoedMwoavM9YNJf8PXhyJ/view?usp=sharing <br/> 
 
+## Tune the Robot
+The URDF importer automatically imports material, physical, and joint properties whenever it is available and have matching categories in Omniverse Isaac Sim <br/> 
+(However, in cases there are no available or matching categories, or if the units are different between the two systems, what gets automatically filled in may not be accurate and changes the robot’s behavior) <br/> 
+Steps for tuning some of the common paramters <br/> 
+(1)Frictional Properties <br/>
+If your robot’s wheels are slipping, try changing the friction coefficients of the wheels and potentially the ground as well following steps 2.4.2 in [Add Simple Objects](https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_intro_simple_objects.html#isaac-sim-app-tutorial-intro-simple-objects) <br/> 
+Adding Contact and Friction Parameters <br/>
+Intend to modify frictional properties <br/>
+(1)-1 Create a different physics material and then assign it to the desired object <br/>
+![ImportTurtlebot25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/66b4e625-20c4-4f85-9f8e-8284a723bef0) <br/>
+Go to the Menu Bar and click Create > Physics > Physics Material, select Rigid Body Material in the popup box <br/>
+![ImportTurtlebot26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/52a2baf4-8cf2-49a1-aa40-337650a7be36) <br/>
+A new PhysicsMaterial will appear on the stage tree. Parameters such as friction coefficients and restitution can be tuned in its property tab <br/>
+![ImportTurtlebot27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b291150f-32eb-4009-a740-d9f06be8da1a) <br/>
+
+
+
 
 Reference:  <br/>
 https://docs.omniverse.nvidia.com/isaacsim/latest/ros_tutorials/tutorial_ros_turtlebot.html#tune-the-robot <br/>
