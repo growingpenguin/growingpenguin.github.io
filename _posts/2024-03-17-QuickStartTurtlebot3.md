@@ -9,9 +9,50 @@ Foxy <br/>
 ```
 lsb_release -a
 ```
+![Turtlebot3QuickStart1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d91f1b0b-6f13-4eb5-b19a-5df2f7a8e7af) <br/>
 => Already Installed <br/>
-
 Installation Confirmed <br/>
+
+### Install ROS 2 on Remote PC
+```
+wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros2_foxy.sh
+sudo chmod 755 ./install_ros2_foxy.sh
+bash ./install_ros2_foxy.sh
+```
+![Turtlebot3QuickStart2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/64140fc9-e0e9-42d8-bff1-9a522087c0d6) <br/>
+![Turtlebot3QuickStart3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/16df733f-7794-4624-9498-6fcff3e1d73e)
+=> Successfully Installed <br/>
+
+### Install Dependent ROS 2 Packages
+Open the terminal with Ctrl+Alt+T from Remote PC <br/>
+**Install Gazebo11**  <br/>
+```
+sudo apt-get install ros-foxy-gazebo-*
+```
+**Install Cartographer** <br/>
+```
+sudo apt install ros-foxy-cartographer
+sudo apt install ros-foxy-cartographer-ros
+```
+**Install Navigation2** <br/>
+```
+sudo apt install ros-foxy-navigation2
+sudo apt install ros-foxy-nav2-bringup
+```
+**Install TurtleBot3 Packages** <br/>
+Install TurtleBot3 via Debian Packages <br/>
+```
+source ~/.bashrc
+sudo apt install ros-foxy-dynamixel-sdk
+sudo apt install ros-foxy-turtlebot3-msgs
+sudo apt install ros-foxy-turtlebot3
+```
+**Environment Configuration** <br/>
+Set the ROS environment for PC <br/>
+```
+echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
+source ~/.bashrc
+```
 
 Reference: <br/>
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/ <br/>
