@@ -136,7 +136,7 @@ Press Play and you should see the Turtlebot fall onto the floor <br/>
 Video File: https://drive.google.com/file/d/1zyehw_vfdD2VoedMwoavM9YNJf8PXhyJ/view?usp=sharing <br/> 
 (11)-2 Robot now falls onto the floor <br/>
 Press Ctrl key > Select simple_room & turtlebot3_burger > +Add > Physics > Rigid Body with Colliders Preset <br/>
-Video File: <br/>
+Video File: https://drive.google.com/file/d/1eaF-iklFoX79wUsG_iPg5X5qvS41elDP/view?usp=sharing <br/>
 Ref: https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_intro_simple_objects.html#isaac-sim-app-tutorial-intro-simple-objects <br/>
 
 
