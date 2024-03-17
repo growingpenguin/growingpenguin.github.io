@@ -6,6 +6,9 @@ title:  "Quick Start Turtlebot3"
 ## PC Setup
 Foxy <br/>
 ### Download and Install Ubuntu on PC
+```
+lsb_release -a
+```
 => Already Installed <br/>
 
 Installation Confirmed <br/>
