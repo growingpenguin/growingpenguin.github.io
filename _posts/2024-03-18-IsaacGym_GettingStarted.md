@@ -57,6 +57,23 @@ PYTHON_PATH -m pip install -e .
 ![IsaacGymOverview4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6e416f45-1fec-4c44-bc0b-f203dd261c59) <br/>
 What I intend to test <br/>
 => Anymal & AnymalTerrain <br/>
+
+## Running Examples
+Example scripts should be launched from OmniIsaacGymEnvs/omniisaacgymenvs <br/>
+### Launching Training Examples
+Train your first policy <br/>
+```
+cd ~/OmniIsaacGymEnvs/omniisaacgymenvs
+ls -l
+PYTHON_PATH scripts/rlgames_train.py task=Cartpole
+```
+![IsaacGymOverview5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3782e67c-a027-412f-ae85-6d4f54605a60) <br/>
+![IsaacGymOverview6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/099f0fc8-dba6-453f-9a81-393a938f2887) <br/>
+
+
+
+
+Reference: <br/>
 https://github.com/NVIDIA-Omniverse/OmniIsaacGymEnvs/blob/main/docs/examples/rl_examples.md#anymal-anymalpy <br/>
 
 
