@@ -81,6 +81,12 @@ The process will terminate once training finishes <br/>
 Result <br/>
 In the path /home/rosexpert1/OmniIsaacGymEnvs/omniisaacgymenvs/runs/, a Cartpole file is generated and the model with the best rewards is stored every 25, 50, 75, and 100 epochs <br/> 
 **Anymal** <br/>
+Train your policy <br/>
+```
+cd ~/OmniIsaacGymEnvs/omniisaacgymenvs
+PYTHON_PATH scripts/rlgames_train.py task=Anymal
+```
+
 ![IsaacGymOverview13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea1680b3-cf21-4eee-b9b0-3d4ec2ed0ca7) <br/>
 ![IsaacGymOverview14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1b9b67ac-6a90-4a9e-b732-89f3c5c1f5e9) <br/>
 ![IsaacGymOverview15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/570d5e42-4721-4c1d-8746-7bc8385d717d) <br/>
