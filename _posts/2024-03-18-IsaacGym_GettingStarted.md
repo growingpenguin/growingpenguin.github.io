@@ -124,6 +124,9 @@ Checkpoint <br/>
 ![IsaacGymOverview32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/576c2909-acbf-4a66-900b-18cb98f9dd5e) <br/>
 700 Epochs <br/>
 ![IsaacGymOverview33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4ab296ff-15eb-4880-b00e-afb68b697221) <br/>
+750 Epochs <br/>
+![IsaacGymOverview34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f201db9b-0b88-4fa7-a0dd-0ffb1dd0f03d) <br/>
+
 
 
 
