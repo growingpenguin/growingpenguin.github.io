@@ -48,6 +48,7 @@ alias PYTHON_PATH='~/.local/share/ov/pkg/isaac_sim-*/python.sh'
 
 (2)-4 Install OmniIsaacGymEnvs to PYTHON_PATH by running the following from the root of OmniIsaacGymEnvs <br/>
 ```
+cd OmniIsaacGymEnvs/
 PYTHON_PATH -m pip install -e .
 ```
 
