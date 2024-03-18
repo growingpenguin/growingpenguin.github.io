@@ -96,6 +96,7 @@ PYTHON_PATH scripts/rlgames_train.py task=Anymal
 ![IsaacGymOverview19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cb21ee72-75d5-47f3-9539-08cc012be0d7)
 79bdd6d86a) <br/>
 ![IsaacGymOverview20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d4d92b18-ec9b-4ef6-b8e8-8e74d9613212) <br/>
+![IsaacGymOverview21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2161bbcb-e90c-401e-a46b-f5df75a54eba) <br/>
 
 
 
