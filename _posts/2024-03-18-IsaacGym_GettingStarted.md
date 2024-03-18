@@ -76,7 +76,7 @@ The process will terminate once training finishes <br/>
 ![IsaacGymOverview8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2ff57e0d-a2d3-4a6a-ab38-cf4d093ac442) <br/>
 ![IsaacGymOverview9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c67b91e6-5168-4203-a2e7-5fc8bbb583b3) <br/>
 ![IsaacGymOverview10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/db5463f7-5c3a-4e16-8720-2ebc46c0ca52) <br/>
-
+![IsaacGymOverview11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7023e011-f7d4-4c5f-861d-1f4874693ecb) <br/>
 
 
 
