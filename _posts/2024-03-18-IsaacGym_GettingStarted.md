@@ -51,10 +51,8 @@ alias PYTHON_PATH='~/.local/share/ov/pkg/isaac_sim-*/python.sh'
 cd OmniIsaacGymEnvs/
 PYTHON_PATH -m pip install -e .
 ```
+![IsaacGymOverview3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/02ae47de-8111-4bc4-87a9-413e77c96686) <br/>
 
 
 
-We will refer to this path as PYTHON_PATH <br/>
-```
-For Linux: alias PYTHON_PATH=~/.local/share/ov/pkg/isaac_sim-*/python.sh
-```
+
