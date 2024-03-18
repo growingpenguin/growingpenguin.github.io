@@ -68,7 +68,15 @@ ls -l
 PYTHON_PATH scripts/rlgames_train.py task=Cartpole
 ```
 ![IsaacGymOverview5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3782e67c-a027-412f-ae85-6d4f54605a60) <br/>
+We will see an Isaac Sim window pop up <br/>
+Once Isaac Sim initialization completes (which may take a few minutes if launching for the first time), the Cartpole scene will be constructed and simulation will start running automatically <br/>
 ![IsaacGymOverview6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/099f0fc8-dba6-453f-9a81-393a938f2887) <br/>
+The process will terminate once training finishes <br/>
+![IsaacGymOverview7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dcf26e30-fafe-4f1f-8ca2-57cc63a88c87) <br/>
+![IsaacGymOverview8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2ff57e0d-a2d3-4a6a-ab38-cf4d093ac442) <br/>
+![IsaacGymOverview9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c67b91e6-5168-4203-a2e7-5fc8bbb583b3) <br/>
+![IsaacGymOverview10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/db5463f7-5c3a-4e16-8720-2ebc46c0ca52) <br/>
+
 
 
 
