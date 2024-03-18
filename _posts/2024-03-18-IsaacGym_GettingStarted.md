@@ -161,7 +161,8 @@ PYTHON_PATH scripts/rlgames_train.py task=Cartpole test=True checkpoint=omnivers
 ```
 Error <br/>
 ![IsaacGymOverview12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5a31083f-633b-4fda-8102-1be07659b99c) <br/>
-Solution <br/>
+Solution(Searching for it...) <br/>
+https://forums.developer.nvidia.com/t/assistance-required-error-with-inferencing-using-pre-trained-checkpoints-in-isaac-gym/286386 <br/>
 
 ## Installing Examples Repository in Isaac Sim Docker
 
