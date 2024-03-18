@@ -41,6 +41,7 @@ sudo apt install ros-noetic-dynamixel-sdk
 sudo apt install ros-noetic-turtlebot3-msgs
 sudo apt install ros-noetic-turtlebot3
 ```
+=> Try sudo apt-get update when it fails <br/>
 
 Reference: <br/>
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/ <br/>
