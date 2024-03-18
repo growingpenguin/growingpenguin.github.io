@@ -145,6 +145,12 @@ Result <br/>
 => New Anymal file generated in the runs folder <br/>
 ![IsaacGymOverview42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d3aa3942-a253-4237-a2b3-7f86b5551624) <br/>
 => Models generated per epochs is identified <br/>
+**Anymal Terrain** <br/>
+![IsaacGymOverview43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/96e8a657-362f-4220-9543-53c3deebc8ea)
+
+
+
+
 ### Running Inference
 ```
 cd ~/OmniIsaacGymEnvs/omniisaacgymenvs
