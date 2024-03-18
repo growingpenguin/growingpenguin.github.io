@@ -13,7 +13,7 @@ lsb_release -a
 => Already Installed <br/>
 Installation Confirmed <br/>
 
-### Install ROS 2 on Remote PC
+### Install ROS on Remote PC
 ```
 sudo apt update
 sudo apt upgrade
@@ -24,35 +24,22 @@ bash ./install_ros_noetic.sh
 ![Turtlebot3QuickStart2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4b163a5f-92a9-4dba-9ee7-e1332f2551b6) <br/>
 => Successfully Installed <br/>
 
-### Install Dependent ROS 2 Packages
-Open the terminal with Ctrl+Alt+T from Remote PC <br/>
-**Install Gazebo11**  <br/>
+### Install Dependent ROS Packages
 ```
-sudo apt-get install ros-foxy-gazebo-*
+sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
+  ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \
+  ros-noetic-rgbd-launch ros-noetic-rosserial-arduino \
+  ros-noetic-rosserial-python ros-noetic-rosserial-client \
+  ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server \
+  ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \
+  ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
+  ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
 ```
-**Install Cartographer** <br/>
+### Install TurtleBot3 Packages
 ```
-sudo apt install ros-foxy-cartographer
-sudo apt install ros-foxy-cartographer-ros
-```
-**Install Navigation2** <br/>
-```
-sudo apt install ros-foxy-navigation2
-sudo apt install ros-foxy-nav2-bringup
-```
-**Install TurtleBot3 Packages** <br/>
-Install TurtleBot3 via Debian Packages <br/>
-```
-source ~/.bashrc
-sudo apt install ros-foxy-dynamixel-sdk
-sudo apt install ros-foxy-turtlebot3-msgs
-sudo apt install ros-foxy-turtlebot3
-```
-**Environment Configuration** <br/>
-Set the ROS environment for PC <br/>
-```
-echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
-source ~/.bashrc
+sudo apt install ros-noetic-dynamixel-sdk
+sudo apt install ros-noetic-turtlebot3-msgs
+sudo apt install ros-noetic-turtlebot3
 ```
 
 Reference: <br/>
