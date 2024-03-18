@@ -145,15 +145,6 @@ Result <br/>
 => New Anymal file generated in the runs folder <br/>
 ![IsaacGymOverview42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d3aa3942-a253-4237-a2b3-7f86b5551624) <br/>
 => Models generated per epochs is identified <br/>
-
-
-
-
-
-
-
-
-
 ### Running Inference
 ```
 cd ~/OmniIsaacGymEnvs/omniisaacgymenvs
@@ -164,15 +155,10 @@ Error <br/>
 Solution(Searching for it...) <br/>
 https://forums.developer.nvidia.com/t/assistance-required-error-with-inferencing-using-pre-trained-checkpoints-in-isaac-gym/286386 <br/>
 
-## Installing Examples Repository in Isaac Sim Docker
-
-
-
-
-
 
 
 Reference: <br/>
+https://docs.omniverse.nvidia.com/isaacsim/latest/isaac_gym_tutorials/tutorial_gym_isaac_gym.html <br/>
 https://github.com/NVIDIA-Omniverse/OmniIsaacGymEnvs/blob/main/docs/examples/rl_examples.md#anymal-anymalpy <br/>
 
 
