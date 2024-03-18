@@ -1,4 +1,4 @@
-![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/acd4e9db-ed8c-4bdf-9886-8ed289b2b34a)---
+---
 layout: post
 title:  "Import Turtlebot"
 ---
