@@ -56,6 +56,7 @@ PYTHON_PATH -m pip install -e .
 (2)-5 List of current environments in OmniIsaacGymEnvs: <br/>
 ![IsaacGymOverview4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6e416f45-1fec-4c44-bc0b-f203dd261c59) <br/>
 What I intend to test <br/>
+=> Anymal & AnymalTerrain <br/>
 https://github.com/NVIDIA-Omniverse/OmniIsaacGymEnvs/blob/main/docs/examples/rl_examples.md#anymal-anymalpy <br/>
 
 
