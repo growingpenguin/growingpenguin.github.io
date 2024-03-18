@@ -52,6 +52,11 @@ cd OmniIsaacGymEnvs/
 PYTHON_PATH -m pip install -e .
 ```
 ![IsaacGymOverview3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/02ae47de-8111-4bc4-87a9-413e77c96686) <br/>
+=> The following error may appear during the initial installation. This error is harmless and can be ignored <br/>
+(2)-5 List of current environments in OmniIsaacGymEnvs: <br/>
+![IsaacGymOverview4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6e416f45-1fec-4c44-bc0b-f203dd261c59) <br/>
+
+
 
 
 
