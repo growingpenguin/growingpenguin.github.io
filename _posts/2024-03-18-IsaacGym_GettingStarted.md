@@ -136,6 +136,8 @@ Checkpoint <br/>
 ![IsaacGymOverview38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6f8cde1a-9788-42a0-ad10-63a487e6cd3b) <br/>
 1000 Epochs <br/>
 ![IsaacGymOverview39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b09502dd-9fdc-40f4-a503-1a21e4744161) <br/>
+Training Completed <br/>
+![IsaacGymOverview40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/10603e6f-6290-4862-b09d-66c4ee7aba18) <br/>
 
 
 
