@@ -86,9 +86,11 @@ Train your policy <br/>
 cd ~/OmniIsaacGymEnvs/omniisaacgymenvs
 PYTHON_PATH scripts/rlgames_train.py task=Anymal
 ```
-
-![IsaacGymOverview13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea1680b3-cf21-4eee-b9b0-3d4ec2ed0ca7) <br/>
+We will see an Isaac Sim window pop up <br/>
+Once Isaac Sim initialization completes (which may take a few minutes if launching for the first time), the Anymal scene will be constructed and simulation will start running automatically <br/>
 ![IsaacGymOverview14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1b9b67ac-6a90-4a9e-b732-89f3c5c1f5e9) <br/>
+Terminal <br/>
+![IsaacGymOverview13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ea1680b3-cf21-4eee-b9b0-3d4ec2ed0ca7) <br/>
 ![IsaacGymOverview15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/570d5e42-4721-4c1d-8746-7bc8385d717d) <br/>
 ![IsaacGymOverview16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7ec5f75c-575d-4627-91f6-ed66457165cd) <br/>
 ![IsaacGymOverview17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3c5afd9-e9b0-4efd-8a23-09691a06d431) <br/>
