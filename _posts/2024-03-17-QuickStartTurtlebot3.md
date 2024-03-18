@@ -15,9 +15,11 @@ Installation Confirmed <br/>
 
 ### Install ROS 2 on Remote PC
 ```
-wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros2_foxy.sh
-sudo chmod 755 ./install_ros2_foxy.sh
-bash ./install_ros2_foxy.sh
+sudo apt update
+sudo apt upgrade
+wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+chmod 755 ./install_ros_noetic.sh 
+bash ./install_ros_noetic.sh
 ```
 ![Turtlebot3QuickStart2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/64140fc9-e0e9-42d8-bff1-9a522087c0d6) <br/>
 ![Turtlebot3QuickStart3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/16df733f-7794-4624-9498-6fcff3e1d73e)
