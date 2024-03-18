@@ -80,6 +80,19 @@ The process will terminate once training finishes <br/>
 The process will terminate once training finishes <br/>
 Result <br/>
 In the path /home/rosexpert1/OmniIsaacGymEnvs/omniisaacgymenvs/runs/, a Cartpole file is generated and the model with the best rewards is stored every 25, 50, 75, and 100 epochs <br/> 
+### Running Inference
+```
+cd ~/OmniIsaacGymEnvs/omniisaacgymenvs
+PYTHON_PATH scripts/rlgames_train.py task=Cartpole test=True checkpoint=omniverse://localhost/NVIDIA/Assets/Isaac/2023.1.1/Isaac/Samples/OmniIsaacGymEnvs/Checkpoints/cartpole.pth
+```
+Error <br/>
+![IsaacGymOverview12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5a31083f-633b-4fda-8102-1be07659b99c) <br/>
+Solution <br/>
+
+
+
+
+
 
 
 Reference: <br/>
