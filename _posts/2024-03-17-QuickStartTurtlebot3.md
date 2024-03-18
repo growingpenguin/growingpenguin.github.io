@@ -21,8 +21,7 @@ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_
 chmod 755 ./install_ros_noetic.sh 
 bash ./install_ros_noetic.sh
 ```
-![Turtlebot3QuickStart2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/64140fc9-e0e9-42d8-bff1-9a522087c0d6) <br/>
-![Turtlebot3QuickStart3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/16df733f-7794-4624-9498-6fcff3e1d73e)
+![Turtlebot3QuickStart2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4b163a5f-92a9-4dba-9ee7-e1332f2551b6) <br/>
 => Successfully Installed <br/>
 
 ### Install Dependent ROS 2 Packages
