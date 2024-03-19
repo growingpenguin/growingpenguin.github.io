@@ -158,8 +158,10 @@ Terminal <br/>
 ![IsaacGymOverview48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6352fe80-9589-4412-b127-b5addce37520) <br/>
 100 Epochs <br/>
 ![IsaacGymOverview49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0167cbf4-8cd7-4baa-82d6-d226a078fefe) <br/>
-
-
+Saving Checkpoint <br/>
+![IsaacGymOverview50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4eb02f9f-0eb1-44b3-918b-16d50acb97a6) <br/>
+150 Epochs <br/>
+![IsaacGymOverview51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3ed98c67-62f8-493f-9882-4588d881a2fc) <br/>
 
 
 
