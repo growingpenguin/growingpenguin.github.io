@@ -157,6 +157,7 @@ Terminal <br/>
 50 Epochs <br/>
 ![IsaacGymOverview48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6352fe80-9589-4412-b127-b5addce37520) <br/>
 100 Epochs <br/>
+![IsaacGymOverview49](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0167cbf4-8cd7-4baa-82d6-d226a078fefe) <br/>
 
 
 
