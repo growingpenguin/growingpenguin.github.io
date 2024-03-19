@@ -18,4 +18,14 @@ Details of the tasking framework for running a RL environment <br/>
 ## Getting Started
 -Default Python Environment <br/>
 Learn about Isaac Sim’s python environment and locate the python executable in Isaac Sim <br/>
-
+```
+./python.sh path/to/script.py
+```
+Run the following from the Isaac Sim root folder to start a Python script in this environment <br/>
+```
+./python.sh -m pip install name_of_package_here
+```
+Install additional packages via pip <br/>
+Note <br/>
+Can open a terminal directly at the Isaac Sim root folder from the Isaac Sim App Selector <br/>
+Ref: https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_python.html#isaac-sim-install-python-default <br/>
