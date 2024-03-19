@@ -196,6 +196,8 @@ Saving Checkpoint <br/>
 ![IsaacGymOverview67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5841103f-0634-4613-94fb-a01e742cfe21) <br/>
 1000 Epochs <br/>
 ![IsaacGymOverview68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3f14b44e-7bea-4c2e-a31d-d9c4a49edc8b) <br/>
+1050 Epochs <br/>
+![IsaacGymOverview69](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/af0273b1-33ff-42f6-bf49-4c1b57ef8d5e) <br/>
 
 
 
