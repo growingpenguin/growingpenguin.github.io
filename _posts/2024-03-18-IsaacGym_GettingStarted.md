@@ -3,7 +3,7 @@ layout: post
 title:  "Import Turtlebot"
 ---
 
-# Isaac Gym: Overview & Getting Started
+# Isaac Gym: Overview & Getting Started
 ## Learning Objectives
 Set up our reinforcement learning example repository: OmniIsaacGymEnvs <br/>
 1.Install OmniIsaacGymEnvs for Isaac Sim <br/>
