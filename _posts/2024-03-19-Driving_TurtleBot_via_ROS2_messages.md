@@ -52,8 +52,54 @@ Tell the controller which robot it’s going to control <br/>
 Select the Articulation Controller node in the graph > Open up the property pane <br/>
 ![Driving_TurtleBot_via_ROS2_messages8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/191eb5ff-6ea6-4806-9e14-e8e4eea2f771) <br/>
 ![Driving_TurtleBot_via_ROS2_messages9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/277bba7a-ec90-40b5-842d-d0680c80504b) <br/>
-
 Uncheck usePath and then click Add Targets near the top of the pane for input:targetPrim > Select turtlebot3_burger in the pop up window <br/>
+(5)Differential Controller Function & Use Controller <br/>
+Differential Controller: <br/>
+Computes drive commands for a two wheeled robot given some target linear and angular velocity <br/>
+Like the Articulation Controller, it also needs to be configured <br/>
+![Driving_TurtleBot_via_ROS2_messages10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dd47023b-416d-4323-a8af-2091a72e07c0) <br/>
+Select the Differential Controller node in the graph and then in the properties pane, set the wheelDistance to 0.1125, the wheelRadius to 0.03, and maxAngularSpeed to 0.2 <br/>
+(6)Select joints articulate <br/>
+The Articulation Controller also needs to know which joints to articulate <br/>
+Expects this information in the form of a list of tokens or index values <br/>
+Each joint in a robot has a name and the turtlebot3_burger has exactly two joints that are needed to articulate, because they are the revolute joints associated with the wheels that make the robot move <br/>
+![Driving_TurtleBot_via_ROS2_messages11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/642d1c3d-c18c-4c97-b0ad-f7eb8774ec75) <br/>
+Verify this by examining the jetbot in the stage context tree. Within /World/turtlebot3_burger/base_link are two revolute physics joints named wheel_left_joint and wheel_right_joint <br/>
+(7)Add two Constant Token nodes <br/>
+![Driving_TurtleBot_via_ROS2_messages12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/98477be2-0216-4942-b882-5709b82f96d5) <br/>
+![Driving_TurtleBot_via_ROS2_messages13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4ad19ccd-857c-4bf3-b2c0-9bbb6ff9ac62) <br/>
+Type token into the search bar of the graph editor and add two Constant Token nodes to the graph <br/>
+![Driving_TurtleBot_via_ROS2_messages14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/57a1ff79-dd54-4b36-a355-106feca2db96) <br/>
+![Driving_TurtleBot_via_ROS2_messages15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f20af7d8-8321-4398-ace3-181fad592f4b) <br/>
+Select one, and set it’s value to wheel_left_joint in the properties pane. Repeat this for the other constant token node, but set the value to wheel_right_joint <br/>
+![Driving_TurtleBot_via_ROS2_messages16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d16594a8-2563-4123-a9f9-99874c901bca) <br/>
+![Driving_TurtleBot_via_ROS2_messages17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d2ce5232-b527-4a94-95cc-86939c2a9e10) <br/>
+Type make array into the search bar of the graph editor and add a Make Array node to the graph <br/>
+![Driving_TurtleBot_via_ROS2_messages18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3df4317d-6694-4f03-8fab-29eb5e4ce3d8) <br/>
+Select the Make Array node and click on the + icon in the inputs section of the property pane menu to add a second input <br/>
+![Driving_TurtleBot_via_ROS2_messages19](https://github.com/grow <bingpenguin/growingpenguin.github.io/assets/110277903/055f4b21-143d-4481-9107-d9bbcf473189) <br/>
+Set the arraySize to 2 as well, and then set the input type to token[] from the dropdown menu in the same pane <br/>
+![Driving_TurtleBot_via_ROS2_messages20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/401d4e7b-aded-4a12-96b5-78b98574643c) <br/>
+Finally, connect the constant token nodes to A and B of the Make Array node, and then the output of that node to the Joint Names input of the Articulation Controller node
+(7)Event Node <br/>
+The last node is the event node <br/>
+![Driving_TurtleBot_via_ROS2_messages21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8194e856-12e0-48b9-ad37-27e079f9684a) <br/>
+![Driving_TurtleBot_via_ROS2_messages22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3fc215df-fefc-4ce2-b9a6-7b706f00bead) <br/>
+Search for playback in the search bar of the graph editor and add an On Playback Tick node to the graph <br/>
+This node will emit an execution event for every frame, but only while the simulation is playing <br/>
+![Driving_TurtleBot_via_ROS2_messages23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/54f48486-d294-495f-a05d-511884d84726) <br/>
+Connect the Tick output of the On Playback Tick node to the Exec In input of both controller nodes <br/>
+![Driving_TurtleBot_via_ROS2_messages24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7686a9bc-83b4-4db7-b1ab-3fcb1d881cc3) <br/>
+Connect the Velocity Command output of the differential controller to the Velocity Command input of the articulation controller. When completed, the graph should look similar to this <br/>
+Completed <br/>
+![Driving_TurtleBot_via_ROS2_messages24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7686a9bc-83b4-4db7-b1ab-3fcb1d881cc3) <br/>
+(8)Play <br/>
+Press the play button and select the Differential Controller Node in the graph <br/>
+Click and drag on either the angular or linear velocity values in the properties pane to change it’s value (or just click and type in the desired value) <br/>
+
+Select one, and set it’s value to left_wheel_joint in the properties pane. Repeat this for the other constant token node, but set the value to right_wheel_joint. Type make array into the search bar of the graph editor and add a Make Array node to the graph. Select the Make Array node and click on the + icon in the inputs section of the property pane menu to add a second input. Set the arraySize to 2 as well, and then set the input type to token[] from the dropdown menu in the same pane. Finally, connect the constant token nodes to A and B of the Make Array node, and then the output of that node to the Joint Names input of the Articulation Controller node.
+
+
 
 
 
