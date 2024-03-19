@@ -1,4 +1,4 @@
----
+![image](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7eaaff78-6f56-461f-bc8e-33bcc0e76026)---
 layout: post
 title:  "Import Turtlebot"
 ---
@@ -175,6 +175,31 @@ Saving Checkpoint <br/>
 450 Epochs <br/>
 ![IsaacGymOverview57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d4ca7f34-8c11-4ee5-b3db-b57109eb851d) <br/>
 500 Epochs <br/>
+![IsaacGymOverview58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e3d56910-4dd6-43ac-b6b8-889ea05330ef) <br/>
+550 Epochs <br/>
+![IsaacGymOverview59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/80e7da53-88b6-465e-b6cd-1d3538bca387) <br/>
+600 Epochs <br/>
+![IsaacGymOverview60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f0ebce30-6e88-40d6-add3-18568d52edc9) <br/>
+650 Epochs <br/>
+![IsaacGymOverview61](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d1576c09-0a09-4f00-992a-2a0017339243) <br/>
+700 Epochs <br/>
+![IsaacGymOverview62](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/73eed815-e275-4060-85a9-def6f1da7712) <br/>
+750 Epochs <br/>
+![IsaacGymOverview63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fda9da3d-c0b0-436e-803b-7d59c7ae506d) <br/>
+800 Epochs <br/>
+![IsaacGymOverview64](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/46cf767c-8e5b-4921-86d6-1a27f59c9b4f) <br/>
+850 Epochs <br/>
+![IsaacGymOverview65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/671fc9c8-f09a-479f-8a3a-b68c7a3e9b30) <br/>
+900 Epochs <br/>
+![IsaacGymOverview66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/da29e37d-9f28-4f01-8d09-3ee29fa396e7) <br/>
+950 Epochs <br/>
+![IsaacGymOverview67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5841103f-0634-4613-94fb-a01e742cfe21) <br/>
+1000 Epochs <br/>
+![IsaacGymOverview68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3f14b44e-7bea-4c2e-a31d-d9c4a49edc8b) <br/>
+
+
+
+
 
 
 
