@@ -146,7 +146,21 @@ Result <br/>
 ![IsaacGymOverview42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d3aa3942-a253-4237-a2b3-7f86b5551624) <br/>
 => Models generated per epochs is identified <br/>
 **Anymal Terrain** <br/>
-![IsaacGymOverview43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/96e8a657-362f-4220-9543-53c3deebc8ea)
+We will see an Isaac Sim window pop up <br/>
+Once Isaac Sim initialization completes (which may take a few minutes if launching for the first time), the Anymal scene will be constructed and simulation will start running automatically <br/> 
+![IsaacGymOverview43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/96e8a657-362f-4220-9543-53c3deebc8ea) <br/>
+Terminal <br/>
+![IsaacGymOverview44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dedc15de-a04e-461a-aa64-02a7de4f03d4) <br/>
+![IsaacGymOverview45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d3af70cb-f817-46e6-9b48-780caadc0463) <br/>
+![IsaacGymOverview46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e91b4f6-4c01-467c-b163-16e0617641ba) <br/>
+![IsaacGymOverview47](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e0315fb8-67e7-4bf7-b0ee-7953c32df947) <br/>
+50 Epochs <br/>
+![IsaacGymOverview48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6352fe80-9589-4412-b127-b5addce37520) <br/>
+100 Epochs <br/>
+
+
+
+
 
 
 
