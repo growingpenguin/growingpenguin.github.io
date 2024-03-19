@@ -227,23 +227,24 @@ Saving Checkpoint <br/>
 1750 Epochs <br/>
 ![IsaacGymOverview83](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2d062a92-ae7d-4c77-a400-95e48fe55788) <br/>
 1800 Epochs <br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![IsaacGymOverview84](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b6c916b8-d56f-4cae-bb89-0fa115b15fc4) <br/>
+1850 Epochs <br/>
+![IsaacGymOverview85](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/254336d2-e773-4fa1-9475-7f8682e1a437) <br/>
+1900 Epochs <br/>
+![IsaacGymOverview86](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7cd03b93-ba49-4bc6-a8dc-26f6481cd4bb) <br/>
+1950 Epochs <br/>
+![IsaacGymOverview87](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dc6fe168-2fe3-41ae-8900-9c4f9f36e6d6) <br/>
+2000 Epochs <br/>
+![IsaacGymOverview88](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5c5cca86-7cfd-4d36-a788-93062d1f4d3d) <br/>
+Training Completed <br/>
+![IsaacGymOverview89](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/47e0d627-8f26-4a41-a918-472dc60b46f1) <br/>
+Result <br/>
+```
+cd ~/OmniIsaacGymEnvs/omniisaacgymenvs/runs/AnymalTerrain/nn/
+ls -l
+```
+In the path /home/rosexpert1/OmniIsaacGymEnvs/omniisaacgymenvs/runs/, an AnymalTerrain file is generated and the model with the best rewards is stored every 25, 50, 75, and 100 epochs <br/> 
+![IsaacGymOverview90](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3df67138-9d5e-4247-8513-bc94f49f4e1b) <br/>
 
 ### Running Inference
 ```
