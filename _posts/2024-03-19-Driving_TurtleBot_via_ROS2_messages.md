@@ -113,6 +113,7 @@ Go to Windows > Extensions to disable ROS bridge and enabled ROS2 bridge <br/>
 Looking for solutions <br/>
 ![Driving_TurtleBot_via_ROS2_messages26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/26c21d42-950a-48fb-b77c-f17d776015a1) <br/>
 ![Driving_TurtleBot_via_ROS2_messages27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/734f7a91-80e1-435d-aa5f-ab53637ef75f) <br/>
+![Driving_TurtleBot_via_ROS2_messages28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c96779cf-7f02-47d4-9b2a-44012bcb4bb9) <br/>
 Articulation Controller Node: <br/> 
 To assign the Articulation Controller node’s target to be the Turtlebot <br/> 
 In the property tab, unselect Use Path, and click on Target for the Prim to find Turtlebot prim in the popup box <br/> 
