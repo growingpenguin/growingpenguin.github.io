@@ -110,6 +110,16 @@ To place node into the graph, simply drag it from the node list into the graph w
 Go to Windows > Extensions to disable ROS bridge and enabled ROS2 bridge <br/>
 (4)Build a graph that matches the one below <br/>
 ![Driving_TurtleBot_via_ROS2_messages25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70144abb-a984-4855-acb4-ceb4c9cce1ad) <br/>
+Looking for solutions <br/>
+![Driving_TurtleBot_via_ROS2_messages26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/26c21d42-950a-48fb-b77c-f17d776015a1) <br/>
+![Driving_TurtleBot_via_ROS2_messages27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/734f7a91-80e1-435d-aa5f-ab53637ef75f) <br/>
+Articulation Controller Node: <br/> 
+To assign the Articulation Controller node’s target to be the Turtlebot <br/> 
+In the property tab, unselect Use Path, and click on Target for the Prim to find Turtlebot prim in the popup box <br/> 
+Make sure the robot prim you select is also where the Articulation Root API is applied. Sometimes it is the robot’s parent prim <br/> 
+But often times for mobile robots, it is the chassis prim instead. If you used the URDF importer following our previous tutorial, the Articulation Root API can be found on turtlebot3_burger/base_footprint <br/> 
+
+
 
 
 
