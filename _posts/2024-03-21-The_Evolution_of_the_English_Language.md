@@ -30,9 +30,33 @@ Written in Britain more than one thousand years ago <br/>
 Name of the person who wrote is not known <br/>
 Story of a great king, well-liked by people who fought against monsters <br/>
 
-**Vikings** <br/>
+### Vikings <br/>
 :The next great invasion of Britain <br/>
--Came from the far North <br/>
+-Came from the far North, like Denmark, Norway, and other Northen countries <br/>
 -Invasion happened about 1100 years ago <br/>
 -Fierece people who raided the coastal areas of Britain <br/>
--Came from Britain,
+
+### Norman
+**Norman Conquest** <br/>
+-Invasion took place in 1066, more than 900 years ago <br/>
+-Led by **William the Conqueror** <br/>
+-**Normans** <br/>
+French-speaking people from Normandy in the North of France <br/>
+Became new rulers of Britain <br/>
+New rulers spoke only French for several hundred years <br/>
+Common people of Britian still spoke Old English <br/>
+-**Relationship between French and Britain** <br/>
+-French was the most important language at that time and was the language that educated people <br/>
+-Old English took many words from Norman French <br/>
+ex.damage, prison, and marriage <br/>
+Most English words describing law and government come from Norman French <br/>
+ex. jury, parliament, and justice <br/>
+-English became Middle English <br/>
+French language used by Norman rulers changed the way English was spoken by 800 years ago <br/>
+-Normans no longer spoke true French <br/>
+
+
+
+
+
+
