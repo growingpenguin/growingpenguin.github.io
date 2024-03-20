@@ -105,7 +105,8 @@ English to German translation direction, our model has established new state-of-
 Surpassed the performance of the then-current best system by more than 1.0 BLEU which itself used Neural Machine Translation (NMT) enhanced with an n-gram reranker <br/>
 **Conclusion of the paper** <br/>
 Compared various alignment functions and provided insights on which functions are best for which attentional models <br/>
-attention-based NMT models are superior to nonattentional ones in many cases, for example in translating names and handling long sentences <br/>
+Attention-based NMT models are superior to nonattentional ones in many cases <br/>
+Example: Translating names and handling long sentences <br/>
 
 
 **Footnote** <br/>
