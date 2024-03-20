@@ -104,6 +104,12 @@ Click and drag on either the angular or linear velocity values in the properties
 Window > Visual Scripting > Action Graph <br/>
 An Action Graph window will appear on the bottom, you can dock it wherever that’s convenient <br/>
 (2)Click on the New Action Graph Icon in middle of the Action Graph Window <br/>
+(3)Inside the Action Graph window, there is a panel on the left hand side with all the OmniGraph Nodes (or OG nodes) <br/>
+All ROS2 related OG nodes are listed under Isaac Ros2. You can also search for nodes by name <br/>
+To place node into the graph, simply drag it from the node list into the graph window. If all the ROS related nodes are labeled Ros1 not Ros2, it means you have ROS bridge enabled and not ROS2 <br/>
+Go to Windows > Extensions to disable ROS bridge and enabled ROS2 bridge <br/>
+(4)Build a graph that matches the one below <br/>
+![Driving_TurtleBot_via_ROS2_messages25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70144abb-a984-4855-acb4-ceb4c9cce1ad) <br/>
 
 
 
