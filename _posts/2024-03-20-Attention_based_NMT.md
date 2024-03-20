@@ -59,5 +59,37 @@ Allows neural network to focus specific parts of an input sequence <br/>
 Done by assigning weights to different parts of the input sequence <br/>
 Most important parts, receiving the highest weights <br/>
 ## Abstract
+Problem: <br/>
+The attention mechanism itself, became widely popular, allowing the model to focus on the most relevant parts of the input text while generating the translation <br/>
+However, the specific ways in which attention mechanisms can be integrated into the architecture of NMT systems are diverse and not yet fully explored <br/>
+There's potential for innovative research to develop new models that incorporate attention in different ways, which could further improve translation performance <br/>
+Solution(What is written in the paper) <br/>
+Two types of attention mechanisms that can be used in Neural Machine Translation (NMT) systems <br/>
+(1)Global Attention <br/>
+Considers the entire input sentence at once when translating any part of it <br/>
+No matter which word the system is currently translating, it has the whole original sentence to draw on for context <br/>
+This is like having an overview of the entire landscape when taking a photograph; you can see everything from the start <br/>
+(2)Local Attention <br/>
+Focuses on just a part of the input sentence at a time <br/>
+When the system translates a specific word, it only looks at a few nearby source words for guidance <br/>
+This is akin to taking a close-up photo of a subject, where you only focus on a small area and blur out the rest <br/>
+=> Both methods of MT work well <br/>
+Proof: <br/>
+Researchers tested their translation methods from English to German and from German to English and the results show high performance <br/>
+Performance: <br/>
+Local attention: Achieved a significant gain of 5.0 BLEUpoints over non-attentional systems that already incorporate known techniques such as dropout <br/>
+Ensemble model: <br/>
+Use different attention architectures <br/>
+Yields a new state-of-the-art result in the WMT'15 English to German translation task with 25.9 BLEU points <br/>
+An improvement of 1.0 BLEU points over the existing best system backed by NMT and an n-gram reranker <br/>
+Footnote: <br/>
+BLEU <br/>
+Single numeric score that tells us how good it is compared to reference translation <br/>
+Geometric mean of all four n-gram precisions <br/>
+-Unigram Precision = Num word matches / Num words in generation <br/>
+-Clip is used to clip the number of times to count a word, based on the reference translation based on the number of times it appears in the reference translation, to avoid overgenerating reasonable words <br/>
+-To solve the word ordering problems, BLEU computes precision for several different n-grams and averages the result <br/>
+Ref: https://www.youtube.com/watch?v=M05L1DhFqcw <br/>
+
 
 
