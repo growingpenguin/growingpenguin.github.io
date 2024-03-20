@@ -1,1 +1,62 @@
+---
+layout: post
+title:  "Advanced Effective Speech Week3"
+---
+
+# Effective Approaches to Attention-based Neural Machine Translatio
+## Pre-study 
+**Machine Translating(MT)**: Important sub-field of nlp that aims the translation of natural language sentences using computers <br/>
+-From hand-crafted translation and linguistic knowledge, data-driven approaches to learn linguistic data from data(SMT) diverse approaches of machin translation existed <br/>
+**Neural Machine Translation(NMT)**: A state-of-the-art machine translation approach that utilizes neural network techniques to predict the likelihood of a set of words in sequence  <br/>
+-Translation Quality: <br/>
+Due to NMT's ability to consider the entire context of a sentence, as opposed to translating piece by piece, it tends to produce translations that are more fluent and accurate—the translations sound more like a native speaker and typically are closer to the intended meaning of the original text <br/>
+-Memory Efficiency: <br/>
+NMT uses neural networks, which, despite their complexity, can be more memory-efficient than the large statistical models of SMT <br/>
+This is because NMT learns a dense representation of language rather than storing and retrieving vast tables of phrases and translations <br/>
+-End-to-End Training: <br/>
+NMT systems are trained end-to-end, which means that all parts of the model are trained simultaneously to optimize translation performance. In contrast, SMT systems involve several distinct models (such as language models, alignment models, and translation models) that are trained separately and then brought together in a pipeline <br/>
+-Model Simplicity: <br/>
+Traditional SMT systems are composed of many different sub-components, each requiring separate tuning and optimization (like translation rules, reordering models, language models, etc.) <br/>
+This can make the system quite complex and cumbersome to manage. NMT simplifies this by using a single, large neural network that learns to perform the translation task from start to finish without needing to explicitly program all the different sub-tasks involved in translation <br/>
+-Contextual Understanding: <br/>
+NMT models, especially those using attention mechanisms or transformer architectures, are better at capturing long-range dependencies within a sentence <br/>
+This means they can better understand how words relate to each other in a sentence, leading to translations that consider the entire input sequence as a whole rather than in isolated parts <br/>
+Ref: <br/>
+https://www.sciencedirect.com/science/article/pii/S2666651020300024 <br/>
+https://omniscien.com/faq/what-is-neural-machine-translation/ <br/>
+**Encoder-Decoder Architecture** <br/>
+-Example: The cat ate the mouse -> Le chat a mange la souris <br/>
+-Seq to Seq architecture <br/>
+Consume sequences and splits out sequences <br/>
+-Two Stages <br/>
+Encoder Stage: <br/>
+Produce vector, or representation of the architecture <br/>
+Where the system takes in all the information it needs and packs it into a neat package. It's like creating a summary or a blueprint of the information <br/>
+Decoder stage: <br/>
+Creates sequence <br/>
+System takes that neat package and starts to build something with it, like a sequence of steps or instructions. It's like using a blueprint to construct a model or telling a story based on a summary <br/>
+Encoder that summarizes everything into a compact form, and then the Decoder that uses that summary to create a new sequence or output <br/>
+Ref: https://www.youtube.com/watch?v=zbdong_h-x4 <br/>
+**Attention Mechanism** <br/>
+-Traditional RNN Encoder Decoder <br/>
+![AttentionBasedNMT2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ae1d8677-71ec-410c-84eb-126aa7149fab) <br/>
+(1)Model takes one word at a time as input, updates the hidden state, and passes to the next time step <br/>
+(2)Final hidden state is passed to the Decoder <br/>
+(3)Decoder works with the final hidden state for processing and translates this to the target language <br/>
+
+
+
+-Example: <br/>
+Translate English sentence to French sentence <br/>
+![AttentionBasedNMT1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/665db174-6503-41dc-869d-73cd6db042fc) <br/>
+Encoder-Decoder structure, popular for translating sentences is used <br/>
+Problem: Words in the source language do not align with the words in the target language <br/>
+In the sentence Black cat eat the mouse, the first English words is Black, while the translated word in France is chat, meaning cat <br/>
+-Solution: Attention Mechanism to the Encoder-Decoder structure <br/>
+
+Allows neural network to focus specific parts of an input sequence <br/>
+Done by assigning weights to different parts of the input sequence <br/>
+Most important parts, receiving the highest weights <br/>
+## Abstract
+
 
