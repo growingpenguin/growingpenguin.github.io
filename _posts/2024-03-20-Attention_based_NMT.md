@@ -39,10 +39,11 @@ Encoder that summarizes everything into a compact form, and then the Decoder tha
 Ref: https://www.youtube.com/watch?v=zbdong_h-x4 <br/>
 **Attention Mechanism** <br/>
 -Traditional RNN Encoder Decoder <br/>
-![AttentionBasedNMT2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ae1d8677-71ec-410c-84eb-126aa7149fab) <br/>
+![AttentionBasedNMT2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/96931ec0-bf96-4522-a00d-788a86610c6f) <br/>
 (1)Model takes one word at a time as input, updates the hidden state, and passes to the next time step <br/>
 (2)Final hidden state is passed to the Decoder <br/>
 (3)Decoder works with the final hidden state for processing and translates this to the target language <br/>
+![AttentionBasedNMT3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/97e51208-960a-47f3-944a-55e2cb51d1ba) <br/>
 
 
 
