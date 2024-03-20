@@ -26,4 +26,8 @@ It also allows for the identification and editing of the hierarchical structure 
 This screen enables the management of resources utilized in the game <br/>
 Images or sound files can be easily added as game resources by dragging and dropping them into the interface <br/>
 **Console Screen** <br/>
-When the program has an error, the following identified. Depending on the program, <br/>
+This screen alerts you when the program encounters an error, allowing for the identification of issues through arbitrary numbers or strings specific to the program's context <br/>
+**Inspector Screen** <br/>
+When an object is selected in the scene view, detailed information appears, including the object’s axis, rotation, scale, color, and shape, facilitating precise identification and analysis <br/>
+**Manipulation Tool** <br/>
+This tool permits the adjustment of an object’s axis, rotation, and scale within the Scene view. It also allows for the modification of the screen view’s orientation, enhancing control over how the scene is presented <br/>
