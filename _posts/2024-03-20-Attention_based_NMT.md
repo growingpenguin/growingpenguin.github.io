@@ -92,4 +92,22 @@ Geometric mean of all four n-gram precisions <br/>
 Ref: https://www.youtube.com/watch?v=M05L1DhFqcw <br/>
 
 
+## Conclusion
+**What this Paper is about** <br/>
+Propose two simple and effective attentional mechanisms for neural machine translation <br/>
+(1)Global approach: Looks at all source positions  <br/>
+(2)Local approach: One that only attends to a subset of source positions at a time  <br/>
+**Proof** <br/>
+Experiment: Effectiveness of our models in the WMTtranslation tasks between English and German in both directions <br/>
+Local attention: Yields large gains of up to 5.0 BLEU over non-attentional  <br/>
+Ensemble Model:  <br/> 
+English to German translation direction, our model has established new state-of-the-art results for both WMT'14 and WMT'15, outperforming existing best systems <br/>
+Surpassed the performance of the then-current best system by more than 1.0 BLEU which itself used Neural Machine Translation (NMT) enhanced with an n-gram reranker <br/>
+**Conclusion of the paper** <br/>
+Compared various alignment functions and provided insights on which functions are best for which attentional models <br/>
+attention-based NMT models are superior to nonattentional ones in many cases, for example in translating names and handling long sentences <br/>
 
+
+**Footnote** <br/>
+alignment function (also known as a score function or compatibility function)  <br/>
+Calculates how much focus should be placed on each part of the input data when predicting a part of the output  <br/>
