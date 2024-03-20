@@ -34,7 +34,8 @@ Artciulation Controller node: Send the commands to the joint drives <br/>
 Detailed instructions on how to connect these nodes can be found in OmniGraph for a similar robot (NVIDIA Jetbot) <br/>
 **Setting up the Stage** <br/>
 => Already Done <br/>
-**Building the graph** <br/>
+
+**Omnigraph Tutorial** <br/>
 (1)Select Window -> Visual Scripting -> Action Graph from the dropdown menu at the top of the editor <br/>
 Graph Editor will appear in the same pane as the Content browser <br/>
 ![Driving_TurtleBot_via_ROS2_messages2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7adf27ba-35e5-48ae-abc2-03984f67fa09) <br/>
@@ -97,11 +98,12 @@ Completed <br/>
 Press the play button and select the Differential Controller Node in the graph <br/>
 Click and drag on either the angular or linear velocity values in the properties pane to change it’s value (or just click and type in the desired value) <br/>
 
-Select one, and set it’s value to left_wheel_joint in the properties pane. Repeat this for the other constant token node, but set the value to right_wheel_joint. Type make array into the search bar of the graph editor and add a Make Array node to the graph. Select the Make Array node and click on the + icon in the inputs section of the property pane menu to add a second input. Set the arraySize to 2 as well, and then set the input type to token[] from the dropdown menu in the same pane. Finally, connect the constant token nodes to A and B of the Make Array node, and then the output of that node to the Joint Names input of the Articulation Controller node.
+
+**Building the graph** <br/>
+(1)Open Visual Scripting: <br/>
+Window > Visual Scripting > Action Graph <br/>
+An Action Graph window will appear on the bottom, you can dock it wherever that’s convenient <br/>
+(2)Click on the New Action Graph Icon in middle of the Action Graph Window <br/>
 
 
 
-
-
-At the end of URDF Import: Turtlebot, the robot has drivable joints, and when given a target position or velocity, it can move the joints to match the targets <br/>
-However, in most cases, you want to be controlling the vehicle speed and not the individual wheel speed <br/>
