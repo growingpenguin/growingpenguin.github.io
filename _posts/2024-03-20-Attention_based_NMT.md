@@ -91,6 +91,10 @@ Geometric mean of all four n-gram precisions <br/>
 -To solve the word ordering problems, BLEU computes precision for several different n-grams and averages the result <br/>
 Ref: https://www.youtube.com/watch?v=M05L1DhFqcw <br/>
 
+## Introduction
+**What makes NMT ** <br/>
+
+
 
 ## Conclusion
 **What this Paper is about** <br/>
