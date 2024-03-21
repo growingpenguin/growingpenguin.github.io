@@ -62,7 +62,56 @@ The language became a mix of French and Middle English <br/>
 -**Geoffrey Chaucer** <br/>
 -A poet who wrote the most famous written work <br/>
 -Lived in London and died there in 1400 <br/>
--"The Canterbury Tales" is the most famous work of Chaucer <br/>
+-Canterbury Tales <br/>
+The most famous work of Chaucer <br/>
+Written in the late 1300s <br/>
+Extensive collections of poems about various people from all walks of life who were traveling <br/>
+
+
+# Professor Notes
+English evolved rapidly <br/>
+-Lots of people invaded <br/>
+-Most people could not read or write <br/>
+Most speaking and listening <br/>
+-Angles <br/>
+Group of people or tribes came from Germany <br/>
+-English Channel <br/>
+Seperate English and France <br/>
+-Celts <br/>
+Already lived came from Spain and France <be/>
+Killed or made slaves <br/>
+Fled: Went west, or to Ireland <br/>
+-Anglo-Saxon or Old English <br/>
+Mix of different languages <br/>
+-Old English <br/>
+Difficult to understand <br/>
+Most famous was Bewulf <br/>
+**PPT** <br/>
+Mostly settled most of England and a little bit of Scotland <br/>
+The Celts <br/>
+How they looked. Leather shoes <br/>
+Dolmen, religious meaning <br/>
+
+Have Germanic roots <br/>
+Old English, vowel sounds changed <br/>
+What kinds of words survived <br/>
+Archaic words died <br/>
+
+**Vikings** <br/>
+400 yeas later the Anglo Saxon came from modern area <br/>
+Vikings good at building ships <br/>
+Came to raid Britain and Ireland <br/>
+Steal everything <br/>
+Vikings set settlements <br/>
+Went to England and the north sea coast of Scotland, Ireland <br/>
+**Norman Conquest** <br/>
+Most important invasion <br/>
+1066 important <br/>
+NOrthen coast of French, NOrmandi <br/>
+Spoke older version of Frech <br/>
+Spke French for several hundred years <br/>
+Ruling class of England <br/>
+
 
 
 
