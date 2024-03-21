@@ -51,10 +51,18 @@ Common people of Britian still spoke Old English <br/>
 ex.damage, prison, and marriage <br/>
 Most English words describing law and government come from Norman French <br/>
 ex. jury, parliament, and justice <br/>
+
+### Middle English
 -English became Middle English <br/>
 French language used by Norman rulers changed the way English was spoken by 800 years ago <br/>
 -Normans no longer spoke true French <br/>
-
+The language became a mix of French and Middle English <br/>
+-Middle English sounds similar to modern English, but is very difficult to understand <br/>
+-Many written works from the Middle English period survived <br/>
+-**Geoffrey Chaucer** <br/>
+-A poet who wrote the most famous written work <br/>
+-Lived in London and died there in 1400 <br/>
+-"The Canterbury Tales" is the most famous work of Chaucer <br/>
 
 
 
