@@ -43,5 +43,29 @@ sudo apt install ros-noetic-turtlebot3
 ```
 => Try sudo apt-get update when it fails <br/>
 
+### Network Configuration
+(1)Connect PC to a WiFi device and find the assigned IP address with the command below <br/>
+```
+ifconfig
+```
+![Turtlebot3QuickStart4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dd8a8c80-9794-4476-8a55-7cfbfc04da6c) <br/>
+=> Find the ip address <br/>
+```
+ifconfig
+```
+(2)Open the file and update the ROS IP settings with the command below <br/>
+```
+nano ~/.bashrc
+```
+(3)Modify the address of localhost in the ROS_MASTER_URI and ROS_HOSTNAME with the IP address acquired from the above terminal window <br/>
+![Turtlebot3QuickStart5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/34cd75fe-fc65-44fa-b5b2-947b9086e51f) <br/>
+(4)Source the bashrc with below command <br/>
+```
+source ~/.bashrc
+```
+
+
+
+
 Reference: <br/>
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/ <br/>
