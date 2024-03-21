@@ -111,8 +111,17 @@ NOrthen coast of French, NOrmandi <br/>
 Spoke older version of Frech <br/>
 Spke French for several hundred years <br/>
 Ruling class of England <br/>
+French English <br/>
+Middle English hard to understand, but easier to undrestand <br/>
 
-
+**Catenbury** <br/> 
+Most people written in Latin, but poem written in Middle Englsih was meaningful Mbr/>
+Great... learn stories told <br/>
+Laborer, Carpentor... <br/>
+What life was like back then <br/>
+Different characters walkng lifes <br/>
+Entertaining, (wise, brave, stupid, foolish, arrogant) <br/>
+First important wrter to use Middle English <br/>
 
 
 
