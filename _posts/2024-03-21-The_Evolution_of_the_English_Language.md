@@ -122,7 +122,10 @@ What life was like back then <br/>
 Different characters walkng lifes <br/>
 Entertaining, (wise, brave, stupid, foolish, arrogant) <br/>
 First important wrter to use Middle English <br/>
-
+Boobonic plague was going on > SHip came from Italy > rat disease> Spred Europe <br/>
+Half of population Europe <br/>
+Chaucer alive <br/>
+Pilgrimage: Saint, catholic, religious, going to Canterbury <br/>
 
 
 
