@@ -65,7 +65,9 @@ source ~/.bashrc
 ```
 
 ### SBC Setup
-
+(1)Prepare microSD Card and Reader <br/>
+![Turtlebot3QuickStart6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a44c923d-21ac-4359-8ad8-89a6afe7063a)
+(2)Download TurtleBot3 SBC Image <br/>
 
 
 
