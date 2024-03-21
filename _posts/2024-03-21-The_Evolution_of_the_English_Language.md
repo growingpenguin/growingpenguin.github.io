@@ -126,6 +126,23 @@ Boobonic plague was going on > SHip came from Italy > rat disease> Spred Europe 
 Half of population Europe <br/>
 Chaucer alive <br/>
 Pilgrimage: Saint, catholic, religious, going to Canterbury <br/>
+Few people having education bablic,, need to learn latin <br/>
+Printing <br/>
+Before had to write everything by hand <br/>
+
+
+**Shakespeare** <br/>
+Have rhume <br/>
+WHat I like to tell about in this play <br/>
+Rhyme, significant <br/>
+Modern English <br/>
+
+
+1607 <br/>
+Colony, mixed up and picked up words <br/>
+Absorbed to english <br/>
+
+hunt germanic <br/>
 
 
 
