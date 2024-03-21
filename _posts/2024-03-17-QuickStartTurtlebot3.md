@@ -64,6 +64,9 @@ nano ~/.bashrc
 source ~/.bashrc
 ```
 
+### SBC Setup
+
+
 
 
 
