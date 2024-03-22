@@ -83,3 +83,15 @@ tfc 연락해서 특정 tech domain focal <br/>
 -님자 문화 <br/>
 -Leadership Principle <br/>
 -Work-Life Harmony <br/>
+
+**Opportunities & Career Path** <br/>
+CSA & CSE <br/>
+CSA <br/>
+3년 미만 <br/>
+CSE <br/>
+3년 이상 <br/>
+서비스 쌓임 > 멘토링 > CSA에서 CSE로 Transition <br/>
+Subject Matter Expert <br/>
+Expert로 성장 <br/>
+**AWS 내의 타 Role로의 전환** <br/>
+-TAM(Technical Account Manager) <br/>
