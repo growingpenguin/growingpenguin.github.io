@@ -119,3 +119,10 @@ Profile 선호도? <br/>
 **Speaker Introduction** <br/>
 Recuitment Process <br/>
 Amazon.jobs Resume > 1차 인터뷰 기술/영어 스킬(인적성) 45~60 > 2차 인터뷰 (2h 45~60 * n rounds)> 결과 발표(합/불) <br/>
+**Resume Writing** <br/>
+-영문으로 작성 <br/>
+-Word 또는 PDF 파일 형식 제출 <br/>
+-Summary에 본인 장점, 지원 동기, 커리어 계획, .. <br/>
+-CV or Resume <br/>
+-1~2장 Cover letter 안 쓰면 3줄~5줄 Career 계획 등을 계획해서 첫 인상에서 커리어에 강점이 있구나.. <br/>
+-English Resume Template <br/>
