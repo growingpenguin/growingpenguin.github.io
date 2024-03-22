@@ -115,5 +115,7 @@ Divedb, untrust, runlp curious <br/>
 CSA, CSE 프로젝트 <br/>
 했던 프로젝트, impact <br/>
 Profile 선호도? <br/>
-**Data Center Operations** <br/>
 
+**Speaker Introduction** <br/>
+Recuitment Process <br/>
+Amazon.jobs Resume > 1차 인터뷰 기술/영어 스킬(인적성) 45~60 > 2차 인터뷰 (2h 45~60 * n rounds)> 결과 발표(합/불) <br/>
