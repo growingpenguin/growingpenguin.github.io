@@ -76,3 +76,10 @@ tfc 연락해서 특정 tech domain focal <br/>
 -이슈를 발견하고 이를 해결하는 능력 <br/>
 -나의 지식 공유를 좋아함 <br/>
 -이슈 대처능력 <br/>
+**Profile** <br/>
+-Computing <br/>
+**AWS 문화** <br/>
+-1 on 1 <br/>
+-님자 문화 <br/>
+-Leadership Principle <br/>
+-Work-Life Harmony <br/>
