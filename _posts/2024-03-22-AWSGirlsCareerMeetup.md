@@ -100,3 +100,9 @@ Expert로 성장 <br/>
 -8시간 동안 근무 <br/>
 -한국어 케이스 & 글로벌 케이스 처리 <br/>
 -한국 팀 소속, 한국인 팀원 & 매니저 구성 <br/>
+**Dubline Site에서의 근무** <br/>
+-미국 다음으로 큰 office <br/>
+-Support Engineer외의 다른 Role과의 networking <br/>
+-영어 유럽 국가, 영어 실력 향상 <br/>
+-다양한 문화 경험 <br/>
+-유럽 여행 편의성 <br/>
