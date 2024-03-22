@@ -95,3 +95,8 @@ Subject Matter Expert <br/>
 Expert로 성장 <br/>
 **AWS 내의 타 Role로의 전환** <br/>
 -TAM(Technical Account Manager) <br/>
+**Career Opportunties in Dubline** <br/>
+-한국 시간 오후 6시에 더블린 업무 <br/>
+-8시간 동안 근무 <br/>
+-한국어 케이스 & 글로벌 케이스 처리 <br/>
+-한국 팀 소속, 한국인 팀원 & 매니저 구성 <br/>
