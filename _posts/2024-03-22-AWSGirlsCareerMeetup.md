@@ -57,4 +57,5 @@ Early Career Space: <br/>
 -Help SA Interns <br/>
 genAI Session 늘었음 <br/>
 
+tfc 연락해서 특정 tech domain focal <br/>
 
