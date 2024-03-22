@@ -59,3 +59,20 @@ genAI Session 늘었음 <br/>
 
 tfc 연락해서 특정 tech domain focal <br/>
 
+
+
+### Support Engineering Team
+**Job Responsibilities** <br/>
+내용 분석 > Trouble shooting <br/>
+(1)Technical Issue <br/>
+(2)비용 Issue <br/>
+**Other Support Engineering Activities** <br/>
+-내부적으로 사용하는 Tool 개발 <br/>
+-ID&E 활동 <br/>
+-프로젝트 활동 <br/>
+-Mentoring & Training <br/>
+-스스로의 성장 <br/>
+**이런 분들께 추천 드립니다** <br/>
+-이슈를 발견하고 이를 해결하는 능력 <br/>
+-나의 지식 공유를 좋아함 <br/>
+-이슈 대처능력 <br/>
