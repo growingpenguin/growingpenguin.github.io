@@ -65,7 +65,13 @@ The language became a mix of French and Middle English <br/>
 -Canterbury Tales <br/>
 The most famous work of Chaucer <br/>
 Written in the late 1300s <br/>
-Extensive collections of poems about various people from all walks of life who were traveling <br/>
+Extensive collections of poems about various people from all walks of life who were traveling on a religious pilgrimage(Journey to a sacred place as an act of religious devotion) to the town of Canterbury in England <br/>
+People described in the poem are very real <br/>
+Some seen as wise and brave and others seen as stupid and foolish. Some believing themselves important, being nice, and others being mean <br/>
+
+
+
+
 
 
 # Professor Notes
