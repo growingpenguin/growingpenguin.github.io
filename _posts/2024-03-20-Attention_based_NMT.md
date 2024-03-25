@@ -94,7 +94,18 @@ Ref: https://www.youtube.com/watch?v=M05L1DhFqcw <br/>
 ## Introduction
 **What makes NMT ** <br/>
 
-
+## 2 Neural Machine Translation
+Neural Machine Translation System: Neural network that directly models the conditional probability $p(y|x)$ of translating a source sentence $x1,..., xn$ to a target sentence $y1,..., ym$ <br/>
+Two Components of basic form of NFT <br/>
+(a) Encoder: Computes a representation s for each source sentence <br/>
+-The encoder processes the source sentence and generates a context-rich vector representation <br/>
+-This representation is meant to capture the entire meaning of the source sentence, containing all the necessary information to generate the target sentence <br/>
+(b) Decoder: Generates one target word at a time and hence decomposes the conditional probability  <br/>
+-The decoder takes the sentence representation s and starts generating the target sentence one word at a time <br/>
+-The probability of the entire target sentence $p(y∣x)$ is the product of the probabilities of each word given all the previous words and the source sentence <br/>
+![AttentionBasedNMT4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9307128f-3405-4512-8e7b-565f9c4bdd73) <br/>
+-Each $p(y_j | y_<j, s)$ represents the probability of the j-th word given the sentence representations and all the previous words <br/> 
+-The decomposition makes the computation tractable since you can now generate each word sequentially and multiply the probabilities (or sum the logarithms of the probabilities for numerical stability) <br/> 
 
 ## Conclusion
 **What this Paper is about** <br/>
