@@ -30,6 +30,13 @@ The postitions of points, surface attributes(such as normal, colors, etc.) are d
 3D surface, or 3D figure from the sensor is defined in the form of mathematical function representing the surface <br/>
 In the function, the value that thresholds (or 'cuts off') is defined as the surface <br/>
 -Implicit surfaces can represent more complex surface shapes compared to explicit surfaces and are particularly useful for smoothly changing surfaces <br/>
+-Example: <br/>
+Let's say we want to represent a circumference of a circle <br/>
+Explicit Representation: (x, y) <br/>
+Enumerating information such as triange mesh, point.. and change the figure <br/>
+Implicit Representation: Define it as a function, and the internal of a circle is F(x,y)<0 and define the external as F(x, y)>0 and the point that is 0 is the surface <br/>
+-SDV is one of the ways to express this process <br/>
+-Pointcloud data is a position in a 3rd-dimenson space, normal vector like figure information is explicitly defined, therefore has an explicit representation <br/>
 
 
 Reference: https://www.youtube.com/watch?v=nSVOSIUYna4&list=PLubUquiqNQdN83-fPBzzViEEqohpdlwk2 <br/>
