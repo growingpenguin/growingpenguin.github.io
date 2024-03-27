@@ -4,16 +4,68 @@ title:  "Advanced Effective Speech Week3"
 ---
 
 # Advanced Effective Speech Week3
+## Shamima Begum Case Review
+**Basic Overview** <br/>
+Girl who left the U.K. for I.S. <br/>
+**Reasons for S.B. going to I.S.** <br/>
+-Influenced by Shar <br/>
+-Influenced by propaganda <br/>
+Example: Brother in arms, Utopia, we want to build a new Utopia <br/>
+**Damaging 2019 interview** <br/>
+-No regrets <br/>
+-She saw a severed head but was unfazed <br/>
+(People sees hear as radical) <br/>
+**U.K. government's reaction** <br/>
+Stripped her of her citizenship -> stateless <br/>
+**Mixed feelings in the U.K. towards her** <br/>
+Supportive <br/>
+She was young <br/>
+She can be rehabilitated <br/>
+Her children <br/>
+victim <br/>
+Housewife <br/>
+Against <br/>
+Dangerous/ threat (Recruit, brainwash other people) <br/>
+Enforcer (Making other people suffer, some say she was just dumb) <br/>
+Her choice <br/>
+**British Police blame** <br/>
+Police gave letters to the children instead of Parents <br/>
+**2023-24 Updates** <br/>
+Appeals -> Lost <br/>
+Chances aren't coming back <br/>
+
+## Last Week Vocab Review
+**To strip someone of** <br/>
+Important <br/>
+=take away, remove, revoke, cancel <br/>
+**A poster child** <br/>
+=poster boy/girl <br/>
+**precedent** <br/>
+pre-example, or a previous case that sets a standard <br/>
+**Manhunt** 
+Organized Search <br/>
+**Infamous** <br/>
+Famous for bad reasons <br/>
+**Unspeakable** <br/>
+So bad it can't be spoken about <br/>
+
 ## Daily vocabulary
 **A Gray Area** <br/>
-An area or situation which it is difficult to judge what is right and what is wrong <br/>
+This is a phrase for doubts or ambiguity <br/>
+(An area or situation which it is difficult to judge what is right and what is wrong) <br/>
 E.g.Who is responsible for this is a bit of a gray area <br/> 
 E.g.Whether this is illegal or not is a bit of a gray area <br/>
 **For the most part** <br/>
-Mostly or usually <br/>
+This is used for expressing your opinion support for something, or your feeling and means "mostly," or a little more than half. <Br/>
+and means "mostly," or a little more than half <br/>
+It's shows your preference, but isn't enthusiastic. <br/>
+You might have some doubts <br/>
+(Mostly or usually) <br/>
 E.g.For the most part, I like this plan but I'm not 100% sure if the budget is realistic <br/>
 E.g.I like Juwon for the most part, but I'm not sure she's the right for the position of the leader <br/>
 **Crystal Clear** <br/>
+This is the opposite of a gray area. <br/>
+It means everything is 100% clear: obvious, detailed. easy to understand etc. <br/>
 E.g.Olly:All good? Is everything clear? <br/>
 Students:Crystal clear! <br/>
 **To Crash (Somewhere)** <br/>
@@ -43,5 +95,9 @@ E.g. Wow! Jamie's fast! His 5km time is 22 minutes! If you extrapolate that up t
 Meaning = To proceed bravely out into some unknown, new, exciting, or dangerous people <br/>
 E.g. The group of explorers is getting ready to venture out into the wilds of Antartica <br/>
 E.g. After arriving in Barcelona, I ventured out of my hotel to find a restraunt <br/>
+
+
+
+
 
 
