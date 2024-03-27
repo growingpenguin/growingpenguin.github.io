@@ -107,7 +107,7 @@ Losing job or difficult finding one <br/>
 Difficulty forming human relationships <br/>
 resolve: determined <br/>
 
-
-
+**Hikikomori: Why S Korea is paying youg recluses to leave home** <br/>
+Pay to intice themselves out <br/>
 
 
