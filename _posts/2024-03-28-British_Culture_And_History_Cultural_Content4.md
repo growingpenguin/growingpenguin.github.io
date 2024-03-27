@@ -40,9 +40,34 @@ A political ideology or position that is right of the political center but not f
 Center-right parties typically advocate for free market policies, limited government intervention in the economy, traditional values to some extent, and a certain degree of openness to social change, albeit more cautiously than their left-wing counterparts <br/>
 In this context, the "center-right party" is a political party that aligns with these ideologies <br/>
 The reference indicates that this party, traditionally seen as less progressive in terms of diversity and representation, has been actively working to broaden its appeal and include more diverse candidates within its ranks <br/>
-
-
-
+**Parliament**: <br/>
+A legislative body of government that has the authority to make laws, debate national issues, and scrutinize the work of the government <br/>
+In countries with a parliamentary system, it is a central institution of democracy and governance <br/>
+Members of Parliament(MPs) are elected to represent the public and make decisions on national policy and issuese <br/>
+The term "run for Parliament" means to campaign as a candidate in an election for a seat in this legislative body <br/>
+The goal is to be elected as an MP and have the opportunity to influence national legislation and policy <br/>
+**Pale**: <br/>
+Racial homogeneity of the group, implying it is predominantly white and lacks ethnic or racial diversity <br/>
+**Male**: <br/>
+Gender imbalance, indicating that the group is overwhelmingly male and lacks significant female representation or leadership <br/>
+**Stale**: <br/>
+The group's ideas, policies, or attitudes are outdated, lacking innovation or adaptation to current social, cultural, or economic climates <br/>
+**Ethnic diversity**: <br/>
+Inclusion of people from a variety of racial and ethnic backgrounds within a certain context, such as an organization, government, or society as a whole <br/>
+Ethnic diversity is often highlighted as a positive attribute that contributes to the richness of cultural experiences, perspectives, and ideas <br/>
+In this statement, "ethnic diversity right at the top" likely refers to the highest levels of leadership or decision-making in a country, organization, or sector, indicating that individuals from a range of ethnic backgrounds are represented in these influential positions <br/>
+**New normal**: <br/>
+A state or condition that, after initially being considered unusual or atypical, has become standard, usual, or expected <br/>
+When Sunder Katwala says that "ethnic diversity right at the top has become the ‘new normal,’” he is indicating that the presence of ethnic diversity among the highest ranks of leadership is no longer an exception or a rare occurrence <br/>
+Instead, it has become an expected and standard feature of leadership structures, reflecting a significant shift in societal norms and expectations regarding representation and inclusion <br/>
+**High office** <br/>
+Positions of significant authority and responsibility within the government or other powerful institutions <br/>
+These are leadership roles that have substantial influence over public policy, decision-making, and the direction of the country or organization <br/>
+Examples of high office positions include presidents, prime ministers, cabinet members, judges in high courts, and other top-ranking officials <br/>
+The mention of "diversity in high office" suggests an emphasis on having a varied representation of individuals from different racial, ethnic, gender, and socio-economic backgrounds in these influential positions <br/>
+**inequality** <br/>
+Disparities or unequal conditions in society that affect individuals' opportunities, access to resources, treatment, and quality of life based on various factors like income, race, ethnicity, gender, age, and other attributes <br/>
+Social inequalities can manifest in various sectors, including education, healthcare, employment, and justice, leading to significant differences in how individuals experience and navigate their lives <br/>
 
 ## Professor Notes
 
