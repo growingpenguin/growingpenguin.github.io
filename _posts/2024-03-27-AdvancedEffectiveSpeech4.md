@@ -109,5 +109,11 @@ resolve: determined <br/>
 
 **Hikikomori: Why S Korea is paying youg recluses to leave home** <br/>
 Pay to intice themselves out <br/>
+**Why no interest in dating?** <br/> 
+-General dating rate itself decreased <br/>
+-Don't want to meet someone <br/>
+-emotional capacity?? <br/>
+**Not Enough Money to Date?** <br/>
+-Duo(Dating app) <Br/>
 
 
