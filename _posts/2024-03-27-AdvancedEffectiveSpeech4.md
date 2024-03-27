@@ -101,8 +101,11 @@ stricture: strict system, rules or laws <br/>
 Data Analysis <br/>
 Extrapolated the data and have 610,000 remove themsleves from society <br/>
 -Emotionally and physically isolated <br/>
-55.6%: Rarely go outside <br/>
-
+Don't have no friends or 
+Even in their house given up <br/>
+Losing job or difficult finding one <br/>
+Difficulty forming human relationships <br/>
+resolve: determined <br/>
 
 
 
