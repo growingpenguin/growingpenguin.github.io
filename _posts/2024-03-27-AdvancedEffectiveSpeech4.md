@@ -95,6 +95,13 @@ E.g. Wow! Jamie's fast! His 5km time is 22 minutes! If you extrapolate that up t
 Meaning = To proceed bravely out into some unknown, new, exciting, or dangerous people <br/>
 E.g. The group of explorers is getting ready to venture out into the wilds of Antartica <br/>
 E.g. After arriving in Barcelona, I ventured out of my hotel to find a restraunt <br/>
+**Article** <br/>
+Lots of people withdrawns from society and live like reculsives <br/>
+stricture: strict system, rules or laws <br/>
+Data Analysis <br/>
+Extrapolated the data and have 610,000 remove themsleves from society <br/>
+-Emotionally and physically isolated <br/>
+55.6%: Rarely go outside <br/>
 
 
 
