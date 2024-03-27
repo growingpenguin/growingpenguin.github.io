@@ -117,3 +117,5 @@ Pay to intice themselves out <br/>
 -Duo(Dating app) <Br/>
 
 
+toxic masculinity: toxic behavior towards woman <br/>
+deterred: something stops you from doing something <br/>
