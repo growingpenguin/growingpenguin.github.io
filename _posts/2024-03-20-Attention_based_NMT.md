@@ -185,14 +185,48 @@ This term is the negative logarithm of the probability that the model assigns to
 The logarithm is used for numerical stability and to turn the multiplication of probabilities into a sum, as mentioned earlier <br/>
 The negative sign indicates that we are looking to minimize this quantity—since the logarithm of a number between 0 and 1 is negative, minimizing the negative log probability is equivalent to maximizing the probability itself <br/>
 
-
-
-
-
-
-
-
-
+## 3 Attention-Based Models
+Two types of attention mechanisms used in neural machine translation (NMT) models: global and local attention  <br/>
+Both types are used to enhance the translation process by focusing on different parts of the input sentence when translating each word in the output sentence  <br/>
+-**Global Attention**:  <br/>
+All Source Positions: In global attention models, when generating each target word, the model considers the entire input sentence  <br/>
+It pays "attention" to all of the words in the source sentence, but not equally  <br/>
+It assigns different weights to each source word to determine their relevance to the word currently being predicted in the target language  <br/>
+-**Local Attention**:  <br/>
+A Few Source Positions: Local attention models, on the other hand, focus on only a subset of the source positions at a time  <br/>
+This means when translating a particular word, the model only looks at a small window of words around a particular point in the source sentence that it deems most relevant for the current target word  <br/>
+-**Common Decoding Steps**: <br/>
+Both types of attention mechanisms operate in the context of a sequence-to-sequence model with an encoder-decoder architecture, often using stacked LSTMs <br/>
+At each time step t during the decoding phase: <br/>
+(1)Input Hidden State(h<sub>t</sub>) <br/>
+Both models first take the hidden state h<sub>t</sub> from the top layer of a stacked LSTM decoder <br/>
+(2)Context Vector(c<sub>t</sub>) <br/>
+They then use this hidden state to derive a context vector c<sub>t</sub>, which is a dynamic representation of the input sentence capturing the information relevant to predicting the current target word  <br/>
+(3)Prediction of Current Target Word(y<sub>t</sub>) <br/>
+Despite their differences in deriving c<sub>t</sub>, both global and local models use it in a similar manner afterward to help predict the current target word y<sub>t</sub>  <br/>
+This typically involves combining c<sub>t</sub> with h<sub>t</sub> and other relevant information in a feedforward neural network to produce the probability distribution over the possible target words <br/>
+The attention mechanism allows the model to dynamically focus on different parts of the input sentence, which is particularly useful for dealing with long input sequences and aligning parts of the input with the relevant parts of the output <br/>
+-**How to compute the attentional hidden state(h̃<sub>t</sub>) in a neural machine translation system using an attention mechanism** <br/>
+h̃<sub>t</sub>: <br/>
+The attentional hidden state at time step t <br/>
+It is a new representation that combines information from both the target hidden state and the source-side context vector <br/>
+It serves as a refined summary that the model will use to predict the next word in the target sequence <br/>
+tanh: <br/>
+The hyperbolic tangent function, a type of activation function that squashes the input values to be within the range of -1 and 1 <br/>
+It helps to introduce non-linearity into the model, which is necessary for learning complex patterns <br/>
+W<sub>c</sub>: <br/>
+A weight matrix that is learned during training <br/>
+It is used to transform the concatenated vectors into the attentional hidden state <br/>
+The dimensions of W<sub>c</sub>​ would be set such that the multiplication with the concatenated vector results in a vector of the desired size for h̃<sub>t</sub> <br/>
+\[ [c_t; h_t] \]: <br/>
+The concatenation of the context vector(c<sub>t</sub>) and the target hidden state(h<sub>t</sub>) <br/>
+The context vector(c<sub>t</sub>) contains information about which parts of the input sentence are most relevant at this particular time step <br/>
+while h<sub>t</sub> contains information processed by the decoder up to the current time step <br/>
+By concatenating them, the model brings together all the relevant information needed to focus on the correct parts of the input and make an accurate prediction for the next word <br/>
+Equation (5) is showing how the model combines the current state of the decoder with the focused information from the input sentence (as provided by the attention mechanism) to form a vector that has all the information needed to predict the next word in the target sequence <br/>
+This attentional hidden state becomes an integral part of the model's decision-making for each subsequent word it generates in the translation process <br/>
+![AttentionBasedNMT9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8f79be6b-eb3d-4fc4-a4ab-970132043c7b) <br/>
+Attentional vector h̃<sub>t</sub> is then fed through the softmax layer to produce the predictive distribution <br/>
 
 
 ## Conclusion
