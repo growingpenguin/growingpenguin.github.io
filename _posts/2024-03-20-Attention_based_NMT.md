@@ -185,7 +185,7 @@ This term is the negative logarithm of the probability that the model assigns to
 The logarithm is used for numerical stability and to turn the multiplication of probabilities into a sum, as mentioned earlier <br/>
 The negative sign indicates that we are looking to minimize this quantity—since the logarithm of a number between 0 and 1 is negative, minimizing the negative log probability is equivalent to maximizing the probability itself <br/>
 
-## 3 Attention-Based Models
+## 3. Attention-Based Models
 Two types of attention mechanisms used in neural machine translation (NMT) models: global and local attention  <br/>
 Both types are used to enhance the translation process by focusing on different parts of the input sentence when translating each word in the output sentence  <br/>
 -**Global Attention**:  <br/>
@@ -228,6 +228,18 @@ Equation (5) is showing how the model combines the current state of the decoder 
 This attentional hidden state becomes an integral part of the model's decision-making for each subsequent word it generates in the translation process <br/>
 ![AttentionBasedNMT10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a9df992-efc3-4995-94cf-1a83491ee521) <br/>
 Attentional vector h̃<sub>t</sub> is then fed through the softmax layer to produce the predictive distribution <br/>
+### Global Attention
+Consider all hidden states of the encoder when deriving the context vector(c<sub>t</sub>) <br/>
+-Alignment Vector(a<sub>t</sub>(s)) <br/>
+For each word in the target sequence at time step t, the model computes an alignment vector which is a distribution over the source positions <br/>
+The size of this vector equals the number of time steps in the source sentence <br/>
+This vector essentially 'aligns' each target word with all of the source words, assigning a weight to each source word representing its importance in generating the current target word <br/>
+h<sub>t</sub>: the current target hidden state <br/>
+h̅<sub>s</sub>: A particular hidden state from the source sentence <br/>
+The function align is defined as a softmax over a scoring function exp(score(h<sub>t</sub>, h̅<sub>s</sub>)) <br/>
+Scoring Function: The scoring function calculates a score that measures how well the inputs at positions t in the target and s in the source align with each other <br/>
+There are different ways to define this scoring function; it could be a dot product or a neural network, for instance <br/>
+![AttentionBasedNMT12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4570d9cd-ff12-44e2-8243-f1104a71449e) <br/>
 
 
 ## Conclusion
