@@ -135,7 +135,63 @@ Condition: <br/>
 It has already generated the first part of the translation: "La casa" <br/>
 Now, the system is about to generate the next word in the sequence, which should be the translation of "is" <br/>
 1. Calculate Current Hidden State h<sub>j</sub> <br/>
-The RNN hidden state h<sub>j</sub> for the current step (let's say it's step 3, corresponding to the word "is") is computed based on the previous hidden state h<sub>j-1</sub> (from step 2, which would have been after generating "casa") and the source sentence representation s. Let's denote this abstractly as $$ h<sub>3</sub> = f(h<sub>2</sub>, s) $$ <br/> 
+The RNN hidden state h<sub>j</sub> for the current step (let's say it's step 3, corresponding to the word "is") is computed based on the previous hidden state h<sub>j-1</sub> (from step 2, which would have been after generating "casa") and the source sentence representation s. Let's denote this abstractly as h<sub>3</sub> = f(h<sub>2</sub>, s) <br/>
+This hidden state is a vector that contains information about the current context of the translation process <br/>
+2. Calculate the Conditional Probability of the j-th word <br/>
+(2)-1 Transformation Function g <br/>
+The function g takes the hidden state h<sub>3</sub> and produces a vocabulary-sized vector of raw scores <br/>
+For a simple example, let's say our vocabulary only includes four possible words for the next word in the translation: ["es", "está", "era", "fue"] <br/>
+The function g outputs a score for each of these words <br/>
+Let's say g(h<sub>3</sub>) gives us the vector [2.1, 0.8, -1.0, -0.5] <br/>
+(2)-2 Softmax Function <br/>
+The softmax function is applied to the scores to convert them into a probability distribution <br/>
+Each score is exponentiated and then divided by the sum of the exponentiated scores for all words in the vocabulary, making all probabilities sum to 1 <br/>
+Applying softmax to [2.1, 0.8, -1.0, -0.5] might give us something like [0.7, 0.2, 0.05, 0.05], which sums to 1 <br/>
+(2)-3 Choose the next word <br/>
+-The probabilities correspond to the translation options for "is": ["es", "está", "era", "fue"] <br/>
+Given the context "La casa", the system uses the highest probability to select the next word <br/>
+-Since "es" has the highest probability (0.7), the system would choose "es" as the next word in the translation <br/>
+So now our Spanish translation reads "La casa es", and the system has correctly translated "The house is" up to this point <br/>
+The system continues this process, generating one word at a time until the full translation is completed <br/>
+**What f did we use?** <br/>
+Stacked LSTM architecture following LSTM Unit Defined in (Zaremba et al., 2015) <br/>
+-Stacked LSTM: <br/>
+A neural network architecture where multiple layers of LSTMs are stacked on top of each other <br/>
+The output of one layer of LSTM units is fed as input to the next layer <br/>
+Stacking LSTMs helps the model to learn more complex representations and can improve its ability to handle the intricacies of language translation <br/>
+-LSTM Unit Defined in (Zaremba et al., 2015): <br/>
+The LSTM (Long Short-Term Memory) units are a special kind of RNN (Recurrent Neural Network) cell that are designed to capture long-range dependencies and avoid problems like vanishing or exploding gradients <br/>
+The reference to Zaremba et al., 2015 suggests that a specific formulation or variant of the LSTM cell from that research is being used, which may include certain optimizations or configurations that were found to be effective <br/>
+-Well-known regularization technique dropout, doesn't work well for RNN and LSTMs. So the paper introduces a simple regularization technique for RNN with LSTM units, which substantially reduces overfitting <br/>
+Dropout: Dropout is a common method for preventing overfitting in neural networks <br/>
+Overfitting occurs when a model learns patterns specific to the training data so well that it performs poorly on unseen data <br/>
+Dropout works by randomly "dropping out" (i.e., setting to zero) a number of output features of the network during training, which helps to prevent co-adaptation of features and forces the network to develop a more robust representation <br/>
+Problem: Conventional dropout was not effective for RNNs because the recurrent nature of these networks could amplify the noise introduced by dropout, leading to detrimental effects on the learning process <br/>
+(The paper references prior work by Bayer et al. (2013), who explored "marginalized dropout" as proposed by Wang & Manning (2013). Marginalized dropout is a variation of dropout that aims to reduce the variance of the noise introduced by standard dropout) <br/>
+Conventional dropout is like randomly turning off some lights in a building to save energy. This works fine in a building where each room has its own switch (like in standard neural networks). However, in an RNN, the rooms (neurons) are connected in a loop, like a string of Christmas lights. If you randomly turn off lights (neurons) in this loop (dropout), the next set of lights doesn't know whether it should be on or off because it depends on the previous lights in the sequence. This can create a sort of flickering effect (noise amplification) in the whole loop, making it difficult for the RNN to maintain a stable pattern of which lights should be on (which neurons should activate to predict the next part of the sequence) <br/>
+**Training objective for a neural machine translation (NMT) system** <br/>
+Utilizes a stacked LSTM architecture <br/>
+![AttentionBasedNMT7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b060b6c9-6598-48fa-8d4f-7b748d1c3b67) <br/>
+-J<sub>t</sub>: Objective function, often referred to as the loss function that the training process aims to minimize <br/>
+In machine learning, especially in supervised learning, the objective function quantifies the error or the cost associated with the predictions of the model <br/>
+The subscript t could denote a dependency on the parameters at a particular training time or iteration <br/>
+-&Sigma: The summation symbol, indicating that we're summing over a set of terms <br/>
+Ref: https://arxiv.org/abs/1409.2329 <br/>
+-(x, y) &isin; D: Each (x, y) is a pair of sentences from parallel training corpus D <br/>
+x is a sentence in the source language, and y is its corresponding translation in the target language <br/>
+The parallel training corpus D consists of many such pairs, and the model learns to translate by learning from these examples <br/>
+-`$-\log p(y|x)$`: <br/>
+This term is the negative logarithm of the probability that the model assigns to the correct translation y, given the source sentence x.
+The logarithm is used for numerical stability and to turn the multiplication of probabilities into a sum, as mentioned earlier <br/>
+The negative sign indicates that we are looking to minimize this quantity—since the logarithm of a number between 0 and 1 is negative, minimizing the negative log probability is equivalent to maximizing the probability itself <br/>
+
+
+
+
+
+
+
+
 
 
 
