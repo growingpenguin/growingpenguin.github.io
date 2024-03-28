@@ -79,10 +79,124 @@ Wedge issues are typically highly emotional or morally charged and can influence
 **trail behind** <br/>
 To be at a disadvantage or lagging in comparison to someone else, typically in a competitive situation <br/>
 It suggests that one party is performing worse or is less popular than another party, based on some measure or criterion, such as opinion polls or public support <br/>
+**multiculturalism** <br/>
+Policy or phenomenon of promoting the coexistence of diverse cultures within a single community, society, or country <br/>
+Includes recognizing and valuing cultural diversity, encouraging different cultural traditions to thrive, and fostering inclusivity and mutual respect among people from various ethnic, racial, and religious backgrounds <br/>
+**divisive** <br/>
+Individuals, often politicians or public figures, who tend to cause disagreement, conflict, or division among people <br/>
+When someone is labeled as a "divisive politician," it implies that their actions, policies, statements, or general demeanor contribute to creating or deepening rifts within society, often polarizing public opinion <br/> 
+**content** <br/>
+Qualities, values, beliefs, and ethics <br/>
+In this context, "content of your character" refers to the qualities, values, beliefs, and ethics that define a person's moral and ethical character <br/>
+It emphasizes the importance of an individual's intrinsic qualities and actions in addressing issues like racism, discrimination, and in efforts to unite and lead communities <br/>
+**defected** <br/>
+To leave one political party, group, or allegiance to join another, especially to one that is considered an opposition or rival. The term often carries a connotation of betrayal or abandonment of one's previous loyalties or commitments <br/>
+**denounced** <br/>
+To publicly and formally express strong disapproval of someone's actions or statements <br/>
+When it is said that Sunak has denounced comments by a party donor about a Black female politician, it means that Sunak has openly criticized and rejected the remarks made by the donor, indicating that he finds the comments inappropriate, offensive, or unacceptable <br/>
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 ## Professor Notes
-
-
+**Whales** <br/>
+Whales: West part of Britain <br/>
+Small country 2 Million people <br/>
+Rural, small cities <br/>
+Working class country, mostly (90%) White <br/>
+Reality of the UK multiculturism <br/>
+Wales have their own Parliament, of course London Parliment itself is over <br/>
+Have their own self-governement <br/>
+Minister: Leader of the country <br/>
+Black British man to be the first prime minister <br/>
+Vaughan GEthing <br/>
+Mixed Race <br/>
+First time in the UK for a Black to become the minister <br/>
+Four branches <br/>
+Governement London, Whales, scotton, and <br/>
+None of the UK <br/>
+Racism still persists <br/>
+All of the UK coming to terms of legacy of racial discrimination <br/>
+Rishi Sunak, background was Indian <br/>
+NOrthern Ireland <br/>
+Both Irish white women <br/>
+Gething <br/>
+Zambia: Former British colony <br/>
+Labor party is popular in Wales <br/>
+Gething Speech: Moving on to a new era, and write this history together <br/>
+Cabinate minister <br/>
+Parlimentary system. Different from present <br/>
+No presidental election, they have a monarch, a king, but don't have power <br/>
+Also memebers of Parliament <br/>
+**Suank** <br/>
+Parentage Indian <br/>
+Home Secretary: Keeping order in the country <br/>
+Trade Secretary: Dealing with trade <br/>
+Both are black men <br/>
+Trade Secretary: Dealing with Electricity system <br/>
+Sunak, asian <br/>
+Member of Conservative party <br/>
+center-right: somewhat conservative <br/>
+pale; White, male: old men, stale: outdated <br/>
+Ethnic Diversity <br/>
+Right at the top<Br/>
+Government need to do more, still structural probleme exist in the cities <br/>
+Sunak making race as a political system <br/>
+Parliamentary system <br/>
+The limit is 7 years, but can call for an eleciton every time <br/>
+Party well, hoping you can get more people <br/>
+Labor and liberal want an election, being famous, but governement don't want to call one <br/>
+Conservatives are thought to be lost <br/>
+**Sullever Braverman** <br/>
+Not white <br/>
+But was against multiculturism <br/>
+Failed, and Britian is being invaded <br/>
+Lose position, still representing people <br/>
+Still has power <br/>
+Suella Braverman, not white, but is inflaming racism <br/>
+If you are racist, you are likely to be a conservative <br/>
+**Lee Anderson** <br/>
+Islamists(Terrorist Ideology), this radical mayor of London happens to be Islam, but don't see the difference betweeen Islamic <br/>
+Was suspended <br/>
+Lee Anderson went to the far right, built on the racism <br/>
+He says Sadiq khan given control to the Islamists <br/>
+That doesn't mean it is against all Islamists <br/>
+Conservative party itself is not against Islams <br/>
+**Frank Hester** <br/>
+Donated to the Conservative, having lots of money <br/>
+Diane Abbot, black woman need to be shot <br/>
+Extremely racist <br/>
+Sunak, asked to return money, but was ignored <br/>
+**Sayeeda Warsi** <br/>
+Used to charge of the party <br/>
+Cameron, reponsible for the Brexit vote <br/>
+Sayeeda was not white, non-whithe in the cabinet 2010 <br/>
+Now racism seems to be worse <br/>
+Lot's of people protests, conservative trying to break down the protests <br/>
+Against Jewish attacks <br/>
+Jewish protests are mostly peaceful, but government trying to target British muslims <br/>
+Lots of them moved to Britain <Br/>
+Non-white people less in Britian cities <br/>
+Georgl Floyd, protests in England <br/>
+Destroyed statues of Edward Colston(Slave Trader) <br/>
+Church of England(Official Church ) Profited from the Slavery <br/>
+Try to acknowledge the wrong they did, and invest in poor black communities in England <br/>
+Government apologize.. opening door <br/>
+Law suits, compensation <br/>
+**Tony Sewell** <br/>
+This money is meaningless <br/>
+There is racism, but it is not a government policy to become racist <br/>
+Defending gov, there is no real discrimination against people <br/>
+Still Black face poverty and worse health <br/>
+For example, lots of people died about <br/>
+Nowaadays, its more about class, family structure, ... that is contributing this within,,, <br/>
