@@ -115,8 +115,27 @@ Additive Property: Logarithms turn products into sums, which is computationally 
 -Most of the recent NMT works has a natural choice to model such a decomposition in the decoder is to use recurrent neural network (RNN) architecture <br/>
 They, however, differ in terms of which RNN architectures are used for the decoder and how the encodercomputes the source sentence representation s <br/>
 **Decoder's operation in an NMT system** <br/>
-1.Calculate Current Hidden State h<sub>j</sub> <br/>
-
+1. Calculate Current Hidden State h<sub>j</sub> <br/>
+Use the function f, which could be an RNN, GRU, or LSTM unit, to compute the current hidden state h<sub>j</sub> by considering the source sentence representation s and the previous hidden state h<sub>j-1</sub> <br/>
+​Calculate the Conditional Probability of the 
+2. Calculate the Conditional Probability of the j-th word <br/>
+(2)-1 Transformation Function g <br/>
+Apply the transformation function g to the hidden state h<sub>j</sub>. This function produces a vector of raw scores (also known as logits), one for each word in the target language vocabulary <br/>
+(2)-2 Softmax Function <br/>
+Put the vector of scores through the softmax function to convert them into a probability distribution <br/>
+The softmax function ensures that the scores are non-negative and sum up to 1, making them proper probabilities <br/>
+(2)-3 Choose the next word <br/>
+Select the word with the highest probability as the next word in the translation. This selection is based on the probability distribution produced by the softmax function <br/>
+Example: <br/>
+Each of these steps is performed for every new word until the end of the target sentence is reached, which is typically indicated by a special end-of-sentence token <br/>
+The iterative nature of this process allows the decoder to consider each new word in the context of the words that have come before it, ensuring that the translation is coherent and contextually appropriate <br/>
+-Example Walkthrough: <br/>
+System is currently translating the English sentence "The house is blue" into Spanish <br/>
+Condition: <br/>
+It has already generated the first part of the translation: "La casa" <br/>
+Now, the system is about to generate the next word in the sequence, which should be the translation of "is" <br/>
+1. Calculate Current Hidden State h<sub>j</sub> <br/>
+The RNN hidden state h<sub>j</sub> for the current step (let's say it's step 3, corresponding to the word "is") is computed based on the previous hidden state h<sub>j-1</sub> (from step 2, which would have been after generating "casa") and the source sentence representation s. Let's denote this abstractly as $$ h<sub>3</sub> = f(h<sub>2</sub>, s) $$ <br/> 
 
 
 
@@ -135,7 +154,6 @@ Surpassed the performance of the then-current best system by more than 1.0 BLEU 
 Compared various alignment functions and provided insights on which functions are best for which attentional models <br/>
 Attention-based NMT models are superior to nonattentional ones in many cases <br/>
 Example: Translating names and handling long sentences <br/>
-
 
 **Footnote** <br/>
 alignment function (also known as a score function or compatibility function)  <br/>
