@@ -76,6 +76,10 @@ When it's said that someone is "deliberately politicizing race," it means that r
 A wedge issue is a controversial or divisive topic used by political parties or figures to split apart or create tension within opposing groups, or to rally support within their own base <br/>
 These issues are called "wedge" because they can be driven like a wedge between groups, often exacerbating divisions and distracting from other matters <br/>
 Wedge issues are typically highly emotional or morally charged and can influence voters to support one party over another, even if their overall political views might not align perfectly with that party's platform <br/>
+**trail behind** <br/>
+To be at a disadvantage or lagging in comparison to someone else, typically in a competitive situation <br/>
+It suggests that one party is performing worse or is less popular than another party, based on some measure or criterion, such as opinion polls or public support <br/>
+
 
 
 
