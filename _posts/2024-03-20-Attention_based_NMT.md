@@ -207,6 +207,7 @@ Despite their differences in deriving c<sub>t</sub>, both global and local model
 This typically involves combining c<sub>t</sub> with h<sub>t</sub> and other relevant information in a feedforward neural network to produce the probability distribution over the possible target words <br/>
 The attention mechanism allows the model to dynamically focus on different parts of the input sentence, which is particularly useful for dealing with long input sequences and aligning parts of the input with the relevant parts of the output <br/>
 -**How to compute the attentional hidden state(h̃<sub>t</sub>) in a neural machine translation system using an attention mechanism** <br/>
+![AttentionBasedNMT11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f133cf7f-a465-4cd3-8a47-a4abaab7f57f) <br/>
 h̃<sub>t</sub>: <br/>
 The attentional hidden state at time step t <br/>
 It is a new representation that combines information from both the target hidden state and the source-side context vector <br/>
@@ -225,7 +226,7 @@ while h<sub>t</sub> contains information processed by the decoder up to the curr
 By concatenating them, the model brings together all the relevant information needed to focus on the correct parts of the input and make an accurate prediction for the next word <br/>
 Equation (5) is showing how the model combines the current state of the decoder with the focused information from the input sentence (as provided by the attention mechanism) to form a vector that has all the information needed to predict the next word in the target sequence <br/>
 This attentional hidden state becomes an integral part of the model's decision-making for each subsequent word it generates in the translation process <br/>
-![AttentionBasedNMT9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8f79be6b-eb3d-4fc4-a4ab-970132043c7b) <br/>
+![AttentionBasedNMT10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3a9df992-efc3-4995-94cf-1a83491ee521) <br/>
 Attentional vector h̃<sub>t</sub> is then fed through the softmax layer to produce the predictive distribution <br/>
 
 
