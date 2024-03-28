@@ -68,6 +68,16 @@ The mention of "diversity in high office" suggests an emphasis on having a varie
 **inequality** <br/>
 Disparities or unequal conditions in society that affect individuals' opportunities, access to resources, treatment, and quality of life based on various factors like income, race, ethnicity, gender, age, and other attributes <br/>
 Social inequalities can manifest in various sectors, including education, healthcare, employment, and justice, leading to significant differences in how individuals experience and navigate their lives <br/>
+**politicizing** <br/>
+To politicize something means to turn an issue, topic, or situation into a subject of political debate, often with the intention of gaining advantage or support in a political context <br/>
+It involves framing non-political issues in a way that aligns them with the agendas or ideologies of political parties or movements <br/>
+When it's said that someone is "deliberately politicizing race," it means that race and racial issues are being intentionally used or highlighted in political discussions or campaigns, not necessarily to address the issues themselves in a constructive manner, but to influence public opinion, garner political support, or achieve specific political goals <br/>
+**Wedge issue** <br/>
+A wedge issue is a controversial or divisive topic used by political parties or figures to split apart or create tension within opposing groups, or to rally support within their own base <br/>
+These issues are called "wedge" because they can be driven like a wedge between groups, often exacerbating divisions and distracting from other matters <br/>
+Wedge issues are typically highly emotional or morally charged and can influence voters to support one party over another, even if their overall political views might not align perfectly with that party's platform <br/>
+
+
 
 ## Professor Notes
 
