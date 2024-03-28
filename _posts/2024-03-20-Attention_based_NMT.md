@@ -106,6 +106,19 @@ Two Components of basic form of NFT <br/>
 ![AttentionBasedNMT4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9307128f-3405-4512-8e7b-565f9c4bdd73) <br/>
 -Each $p(y_j | y_<j, s)$ represents the probability of the j-th word given the sentence representations and all the previous words <br/> 
 -The decomposition makes the computation tractable since you can now generate each word sequentially and multiply the probabilities (or sum the logarithms of the probabilities for numerical stability) <br/> 
+Mathematically, for a target sentence y with words y<sub>1</sub>, y<sub>2</sub>, ..., y<sub>m</sub> the joint probability can be expressed as: <br/>
+![AttentionBasedNMT6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0f2035ca-a70b-4e83-9f02-b06f0c812d66) <br/>
+-Using the logarithm in the probability equation has several advantages in computational term <br/>
+Numerical Stability: <br/>
+Probabilities can be very small numbers, and multiplying many such small probabilities (as one would do to compute the joint probability of a sequence of words) can lead to numerical underflow, where the numbers become too small for the computer to represent accurately <br/>
+Additive Property: Logarithms turn products into sums, which is computationally more convenient. In machine learning algorithms, especially those that involve optimization, it's easier to work with sums than with products because sums tend to have nicer analytical properties. Gradients of sums, for instance, are easier to compute than gradients of products <br/>
+-Most of the recent NMT works has a natural choice to model such a decomposition in the decoder is to use recurrent neural network (RNN) architecture <br/>
+They, however, differ in terms of which RNN architectures are used for the decoder and how the encodercomputes the source sentence representation s <br/>
+**Decoder's operation in an NMT system** <br/>
+1.Calculate Current Hidden State h<sub>j</sub> <br/>
+
+
+
 
 ## Conclusion
 **What this Paper is about** <br/>
