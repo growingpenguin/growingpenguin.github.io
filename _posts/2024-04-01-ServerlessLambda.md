@@ -67,6 +67,24 @@ sudo docker run hello-world
 Reference: <br/>
 https://docs.docker.com/engine/install/ubuntu/ <br/>
 
+**Installing Serverless Framework** <br/>
+Nodejs Installation failed persistently, so I tried an alternative route <br/>
+(1)Install the lastest version <br/>
+```
+curl -o- -L https://slss.io/install | bash
+```
+(2)Upgrade <br/>
+```
+serverless upgrade
+
+# You can also restrict the upgrade to the latest v2 version:
+curl -o- -L https://slss.io/install | VERSION=2.72.2 bash
+```
+Upgrade Serverless Framework to the latest version <br/>
+(3)Installation Completed <br/>
+![ServerlessLambda7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5e01b48f-6443-42ef-b23f-b2e7110947aa) <br/>
+Reference: <br/>
+https://www.serverless.com/framework/docs-install-standalone <br/>
 
 
 
