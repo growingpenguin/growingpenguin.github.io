@@ -5,6 +5,7 @@ title:  "Serverless Lambda"
 
 # Create Lambda Funtions using Serverless Framework
 ## Ubuntu20.04 VM Configuration 
+
 **Miniconda** <br/>
 (1)Access to Miniconda documentation <br/>
 https://docs.anaconda.com/free/miniconda/index.html <br/>
@@ -14,6 +15,7 @@ https://docs.anaconda.com/free/miniconda/index.html <br/>
 bash Miniconda3-py39_24.1.2-0-Linux-x86_64.sh
 ---
 ![ServerlessLambda2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/736f14c5-f770-4976-98b8-86dade4135f2) <br/>
+
 **Install Visual Studio Code** <br/>
 ![ServerlessLambda4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/790d4192-e8fe-445d-8a16-965dfa5ccfbb) <br/>
 Ubuntu Software > Search for Visual Studio Code > Click on 설치 <br/>
