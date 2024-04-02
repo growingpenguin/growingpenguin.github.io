@@ -110,14 +110,18 @@ To place node into the graph, simply drag it from the node list into the graph w
 Go to Windows > Extensions to disable ROS bridge and enabled ROS2 bridge <br/>
 (4)Build a graph that matches the one below <br/>
 ![Driving_TurtleBot_via_ROS2_messages25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70144abb-a984-4855-acb4-ceb4c9cce1ad) <br/>
-Looking for solutions <br/>
+Error:
 ```
 2024-03-20 10:44:29 [2,687,913ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/turtlebot3_burger'
 2024-03-20 10:44:29 [2,687,913ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
 2024-03-20 10:44:29 [2,687,913ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/turtlebot3_burger'
 2024-03-20 10:44:29 [2,687,913ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/turtlebot3_burger' did not match any articulations
 ```
+Looking for solutions <br/>
+https://forums.developer.nvidia.com/t/errors-following-turtlebot-ros-messages-tutorial-seeking-solutions/287152 <br/>
+Solution: <br/>
 Changed the target prim to turtlebot3_burger to base_footprint <br/>
 Made sure the Articulation is enabled and Self Collisions Enabled is unchecked <br/>
 
+Files: <br/>
 https://drive.google.com/file/d/1Y7THmT2JAQXQJPnKsUVfTFfKUMOAgRbu/view?usp=sharing <br/>
