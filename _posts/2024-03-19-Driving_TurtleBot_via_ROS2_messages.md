@@ -111,64 +111,13 @@ Go to Windows > Extensions to disable ROS bridge and enabled ROS2 bridge <br/>
 (4)Build a graph that matches the one below <br/>
 ![Driving_TurtleBot_via_ROS2_messages25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/70144abb-a984-4855-acb4-ceb4c9cce1ad) <br/>
 Looking for solutions <br/>
-![Driving_TurtleBot_via_ROS2_messages26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/26c21d42-950a-48fb-b77c-f17d776015a1) <br/>
-![Driving_TurtleBot_via_ROS2_messages27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/734f7a91-80e1-435d-aa5f-ab53637ef75f) <br/>
-![Driving_TurtleBot_via_ROS2_messages28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c96779cf-7f02-47d4-9b2a-44012bcb4bb9) <br/>
-Articulation Controller Node: <br/> 
-To assign the Articulation Controller node’s target to be the Turtlebot <br/> 
-In the property tab, unselect Use Path, and click on Target for the Prim to find Turtlebot prim in the popup box <br/> 
-Make sure the robot prim you select is also where the Articulation Root API is applied. Sometimes it is the robot’s parent prim <br/> 
-But often times for mobile robots, it is the chassis prim instead. If you used the URDF importer following our previous tutorial, the Articulation Root API can be found on turtlebot3_burger/base_footprint <br/> 
 ```
 2024-03-20 10:44:29 [2,687,913ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/turtlebot3_burger'
 2024-03-20 10:44:29 [2,687,913ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
 2024-03-20 10:44:29 [2,687,913ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/turtlebot3_burger'
 2024-03-20 10:44:29 [2,687,913ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/turtlebot3_burger' did not match any articulations
-
-2024-03-20 10:44:29 [2,687,942ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,687,942ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
-2024-03-20 10:44:29 [2,687,942ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,687,942ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/turtlebot3_burger' did not match any articulations
-
-2024-03-20 10:44:29 [2,687,970ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,687,970ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
-2024-03-20 10:44:29 [2,687,970ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,687,970ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/turtlebot3_burger' did not match any articulations
-
-2024-03-20 10:44:29 [2,687,998ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,687,998ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
-2024-03-20 10:44:29 [2,687,998ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,687,998ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/turtlebot3_burger' did not match any articulations
-
-2024-03-20 10:44:29 [2,688,026ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,688,026ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
-2024-03-20 10:44:29 [2,688,027ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,688,027ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/turtlebot3_burger' did not match any articulations
-
-2024-03-20 10:44:29 [2,688,054ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,688,054ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
-2024-03-20 10:44:29 [2,688,054ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,688,054ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/turtlebot3_burger' did not match any articulations
-
-2024-03-20 10:44:29 [2,688,082ms] [Warning] [omni.isaac.dynamic_control.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,688,082ms] [Error] [omni.isaac.dynamic_control.plugin] DcGetArticulationRootBody: Invalid or expired articulation handle
-2024-03-20 10:44:29 [2,688,082ms] [Warning] [omni.physx.tensors.plugin] Failed to find articulation at '/World/turtlebot3_burger'
-2024-03-20 10:44:29 [2,688,082ms] [Error] [omni.physx.tensors.plugin] Pattern '/World/turtlebot3_burger' did not match any articulations
-
-2024-03-20 10:48:08 [2,907,624ms] [Warning] [omni.kit.window.property.templates.simple_property_widget] JointWidget.build_items took 0.23862242698669434 seconds
-2024-03-20 10:48:29 [2,928,614ms] [Error] [omni.physx.plugin] PhysX error: attachShape: non-SDF triangle mesh, tetrahedron mesh, heightfield or plane geometry shapes configured as eSIMULATION_SHAPE are not supported for non-kinematic PxRigidDynamic instances., FILE /buildAgent/work/eb2f45c4acc808a0/physx/source/physx/src/NpRigidBodyTemplate.h, LINE 384
-2024-03-20 10:55:15 [3,334,390ms] [Warning] [omni.kit.context_menu.scripts.context_menu] _merge_submenu: failed to merge duplicate item Skeletal Animation
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item New Curve - Should be uiMenu/uiMenuItem
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item     BasisCurves - Should be uiMenu/uiMenuItem
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item     Animation Graph - Should be uiMenu/uiMenuItem
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item     Animation - Should be uiMenu/uiMenuItem
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item NavMesh Volume - Should be uiMenu/uiMenuItem
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item     Navigation - Should be uiMenu/uiMenuItem
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item     Action Graph - Should be uiMenu/uiMenuItem
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item     Push Graph - Should be uiMenu/uiMenuItem
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item     Lazy Graph - Should be uiMenu/uiMenuItem
-2024-03-20 10:55:15 [3,334,398ms] [Warning] [omni.kit.context_menu.scripts.context_menu] build_item: bad context menu item     Visual Scripting - Should be uiMenu/uiMenuItem
-
 ```
+Changed the target prim to turtlebot3_burger to base_footprint <br/>
+Made sure the Articulation is enabled and Self Collisions Enabled is unchecked <br/>
 
 https://drive.google.com/file/d/1Y7THmT2JAQXQJPnKsUVfTFfKUMOAgRbu/view?usp=sharing <br/>
