@@ -127,8 +127,21 @@ Made sure the Articulation is enabled and Self Collisions Enabled is unchecked <
 Files: <br/>
 https://drive.google.com/file/d/1Y7THmT2JAQXQJPnKsUVfTFfKUMOAgRbu/view?usp=sharing <br/>
 
-
-## Putting it Together
+## Verifying ROS connections
+(1)Press Play to start ticking the graph and the physics simulation <br/>
+(2)In a separate ROS-sourced terminal, check that the associated rostopics exist with ros2 topic list <br/>
+```
+cd ${ISAAC_ROS_WS}/src
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+>   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+```
+![Driving_TurtleBot_via_ROS2_messages29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a72ed645-a7ad-4733-83a7-d050f24cdb58) <br/>
+Launch the Docker container using the run_dev.sh script <br/>
+```
+ros2 topic list
+```
+![Driving_TurtleBot_via_ROS2_messages30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac8e8aa3-a107-406a-ba71-d063905ad4db) <br/>
+/cmd_vel should be listed in addition to /rosout and /parameter_events <br/>
 
 
 Reference:  <br/>
