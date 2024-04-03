@@ -169,4 +169,78 @@ US from Nato <br/>
 Need restructuring <br/>
 Bring US out of them <br/>
 Made comments about South Korea: South Korea should pay everything <br/>
-
+**So What's his appeal** <br/>
+Good at making image <br/>
+**Immigration and Border Control** <br/>
+-Borders <br/>
+Get things done <br/>
+-Mexico-US border wall <br/>
+Tough, saw social media in the news <br/>
+-Travel ban <br/>
+LIked the idea and like the action kind of approach <br/>
+Obama, too causative, and AMericans liked ths <br/>
+**Economic Factors** <br/>
+Active business in the 1980s <br/>
+Now lots of things are made in Mexico, India, China and other countries <br/>
+Attractive to Working-class Americans <br/>
+Based in AMerica business, attracting business class Americans <br/>
+-Trump said he was patriotic and said that he supports for that <br/>
+Easy to champion of the working class <br/>
+-Rust Belt <br/>
+NOrthern US ex.Detroit, home of manufacturing <br/>
+So these areas are collapsed <br/>
+**Nationalism** <br/>
+Easy way to try and attack people <br/>
+Make america great way <br/>
+Patriotism was also an easy way to appeal voters <br/>
+Many white americans felt overlooked and they feel they lifted them up <br/>
+Party voters <br/>
+**Race as a Unifying Factor** <br/>
+Mostly white people <br/>
+Targeted, and unifying factor <br/>
+Leader of white americans <br/>
+Made it as an unifying factor <br/>
+Profile of voters, and used it very well <br/>
+-They liked the identity <br/>
+After focus on minorities <br/>
+-Whenever there's a job, blacks and other people get job <br/>
+Trump will make things right again <br/>
+**Image, Leadership & SNS** <br/>
+Supporters care about the image, not the facts <br/>
+Trump type anything <br/>
+Many people felt like thinking directly, because of the US <br/>
+Republican guy, vote for him <br/>
+**Playing Dirty & Lies** <br/>
+Will break anything to win <br/>
+20,000 lies <br/>
+TIME: respectable publication <br/>
+Say negative, standard reponse fake news <br/>
+Alternative facts <br/>
+Moved to pushed truth, post-truth <br/>
+Easier to lie, look at the statistic and make it to look like one thing <br/>
+Example: 8 industries <br/>
+Industry1: 10% growth <br/>
+Other Industires: NO Imprvoement and Loss <br/>
+Erase other industries data <br/>
+Focus on Industry1 <br/>
+Focus on whatever statistics is beneficial to him <br/>
+**During His First Presidency, DId Trump Deliver** <br/>
+WHat did he tried to deliver and failed <br/>
+-Successfully Delivered <br/>
+(1)Tax cuts <br/>
+For rich people <br/>
+(2)Withdrawing <br/>
+Not totally clear <br/>
+-Partially Delivered <br/>
+(2)Bringing US troops home <br/>
+Did bring troops but not all <br/>
+Twists everything, flips, and more successfull than it was <br/>
+Start questioning everythings <br/>
+Living in the matrix <br/>
+-No Success <br/>
+Allowing torture <br/>
+Human rights, so soft <br/>
+**Review: The key to Understanding Trump's Appeal** <br/>
+Make everything black and withe <br/>
+Trump's messages are not clear, but without seeing the news, it seems realistic <br/>
+Strip away all the details, dumming down the story <br/>
