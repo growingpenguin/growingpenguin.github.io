@@ -167,9 +167,14 @@ ros2 topic echo /cmd_vel
 ```
 ![Driving_TurtleBot_via_ROS2_messages34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e639bbe7-82d0-4f14-8f48-4548249d083a) <br/>
 (4)To make it easier for us to move the Turtlebot around, install the teleop_twist_keyboard by running the following command: <br/>
-
+```
+sudo apt-get install ros-$ROS_DISTRO-teleop-twist-keyboard
+```
+(5)Enable driving using the keyboard by running: <br/>
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
 ![Driving_TurtleBot_via_ROS2_messages38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0c02c2af-9dbe-40a9-806b-2234b3dbba40) <br/>
-
 Press u <br/>
 The robot's rotation is determined by the operation of its left wheel <br/>
 https://drive.google.com/file/d/1mwYZYNEXNR78N1aG7tpMPVh5un0y5ZwQ/view?usp=sharing <br/>
@@ -196,11 +201,13 @@ The robot moves forward in a straight line backward <br/>
 https://drive.google.com/file/d/10vn9PA-tTplpFWx8_jUQafpAnu9U0SPC/view?usp=sharing <br/>
 Press  .: <br/>
 The robot advances by rotating both wheels forward <br/>
+Overall Process <br/>
 https://drive.google.com/file/d/1Y_aVK0UkcXx1ehwCajKPudiyxQedBDgI/view?usp=sharing <br/>
+Press i -> Press , <br/>
+Press q by increasing maximum speed <br/>
 
 
 
-(4)
 
 
 
