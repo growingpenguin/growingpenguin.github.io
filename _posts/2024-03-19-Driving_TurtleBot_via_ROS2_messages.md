@@ -142,6 +142,28 @@ ros2 topic list
 ```
 ![Driving_TurtleBot_via_ROS2_messages30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac8e8aa3-a107-406a-ba71-d063905ad4db) <br/>
 /cmd_vel should be listed in addition to /rosout and /parameter_events <br/>
+```
+ros2 topic pub /cmd_vel geometry_msgs/Twist '{linear:  {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
+```
+![Driving_TurtleBot_via_ROS2_messages31](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2dcf8358-5415-4d3b-a802-3dedb8b51458) <br/>
+**Recorded the messages** <br/>
+Record the cmd_vel topic <br/>
+```
+ros2 bag record -o turtlemes1 /cmd_vel
+```
+![Driving_TurtleBot_via_ROS2_messages32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f1f183c0-bd71-4bd9-8ce3-4777bd891171) <br/>
+```
+ros2 bag play turtlemes1
+```
+![Driving_TurtleBot_via_ROS2_messages33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/08979fb3-41ed-471e-ae9f-32bf98d5dcdc) <br/>
+```
+ros2 topic echo /cmd_vel
+```
+![Driving_TurtleBot_via_ROS2_messages34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e639bbe7-82d0-4f14-8f48-4548249d083a) <br/>
+
+
+
+
 
 
 Reference:  <br/>
