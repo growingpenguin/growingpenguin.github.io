@@ -163,3 +163,10 @@ Rallie, protest of white supremists, anyone who's not white should be out of the
 Turned violent and turned into a brawl <br/>
 WHat Trump said was both sides were very fine <br/>
 He says they are fine people <br/>
+**So many other black marks** <br/>
+Environment: Stop from Americ developing <br/> 
+US from Nato <br/>
+Need restructuring <br/>
+Bring US out of them <br/>
+Made comments about South Korea: South Korea should pay everything <br/>
+
