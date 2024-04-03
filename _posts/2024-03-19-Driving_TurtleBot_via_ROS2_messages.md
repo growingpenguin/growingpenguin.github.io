@@ -142,6 +142,7 @@ ros2 topic list
 ```
 ![Driving_TurtleBot_via_ROS2_messages30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ac8e8aa3-a107-406a-ba71-d063905ad4db) <br/>
 /cmd_vel should be listed in addition to /rosout and /parameter_events <br/>
+(3)Now that a differential base topic is setup, a twist message can be published to /cmd_vel topic to control the robot. Let’s drive it forward with the command: <br/>
 ```
 ros2 topic pub /cmd_vel geometry_msgs/Twist '{linear:  {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
 ```
@@ -165,8 +166,41 @@ ros2 bag play turtlemes1
 ros2 topic echo /cmd_vel
 ```
 ![Driving_TurtleBot_via_ROS2_messages34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e639bbe7-82d0-4f14-8f48-4548249d083a) <br/>
+(4)To make it easier for us to move the Turtlebot around, install the teleop_twist_keyboard by running the following command: <br/>
+
+![Driving_TurtleBot_via_ROS2_messages38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0c02c2af-9dbe-40a9-806b-2234b3dbba40) <br/>
+
+Press u <br/>
+The robot's rotation is determined by the operation of its left wheel <br/>
+https://drive.google.com/file/d/1mwYZYNEXNR78N1aG7tpMPVh5un0y5ZwQ/view?usp=sharing <br/>
+Press i <br/>
+The robot moves forward in a straight line forward <br/>
+https://drive.google.com/file/d/1-NrVl6NHmIm-o1Tb8Wg2VrB-6dsZUhzU/view?usp=sharing <br/>
+Press o <br/>
+The robot's rotation is determined by the operation of its right wheel <br/>
+https://drive.google.com/file/d/19rTTIyPp4cjbbjCbbAI4aHNwmDuuox2m/view?usp=sharing <br/>
+Press j <br/>
+The robot advances by rotating its right wheel forward and its left wheel backward <br/>
+https://drive.google.com/file/d/1KDD_cz72DUGiFyX0RWL6CBxko19Rs2ha/view?usp=sharing <br/>
+Press k: <br/> 
+The robot stops <br/>
+![Driving_TurtleBot_via_ROS2_messages39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5534589c-881e-4167-a325-03567ba64f24) <br/>
+Press l: <br/>
+The robot advances by rotating its right wheel backward and its left wheel forward <br/>
+https://drive.google.com/file/d/1KjldLRkOp-HibtflhtqBiG0J7Wdf7qhL/view?usp=sharing <br/>
+Press m: <br/>
+The robot advances by rotating both wheels backward <br/>
+https://drive.google.com/file/d/1rS9d7ghp8n86t6GQm4xuRs2Zaw2EJKEm/view?usp=sharing <br/>
+Press ,: <br/>
+The robot moves forward in a straight line backward <br/>
+https://drive.google.com/file/d/10vn9PA-tTplpFWx8_jUQafpAnu9U0SPC/view?usp=sharing <br/>
+Press  .: <br/>
+The robot advances by rotating both wheels forward <br/>
+https://drive.google.com/file/d/1Y_aVK0UkcXx1ehwCajKPudiyxQedBDgI/view?usp=sharing <br/>
 
 
+
+(4)
 
 
 
