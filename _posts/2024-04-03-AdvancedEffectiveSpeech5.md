@@ -4,7 +4,37 @@ title:  "Advanced Effective Speech Week5"
 ---
 
 # Advanced Effective Speech Week5
+## Review Last Class
+**Recluses in SK** <br/>
+Someone who avoids other/stay home <br/>
+More like a psychological issue <br/>
+Reasons: No money, energy, mental health, no job, no love life <br/>
+**Trends** <br/>
+UP <br/>
+**Lack of dating in SK** <br/>
+Driving factors: no money, no time, safety issues <br/>
+**Dating Courses** <br/>
+What do they teach? <br/>
+Money isn't everything, social skills, communicating, breakups, respect <br/>
+Key Questions <br/>
+Can love be taught? <br/>
+**Vocab** <br/>
+A gray area: Not clear, vague <br/>
+Extrapolate:(for data, %, numbers) <br/>
+Have small numbers, extending to a bigger scale <br/>
+Predicting a pattern based on a small sample of data <br/>
+**presume** <br/>
+Guess based on something known <br/>
+**Preview of Next Week** <br/>
+Next week, not coming here <br/>
+Can watch anytime <br/>
+Send attendece PW <br/>
+
 ## Words
+**incumbent** <br/>
+The official person current in position or holding office <br/>
+Example: <br/>
+the present incumbent of the White House <br/>
 **predecessor != successor** <br/> 
 predecessor: the previous person in that job/position <br/>
 successor: the next person who took the job <br/>
@@ -14,6 +44,7 @@ Money paid to keep someons silent, usually about some kind of secret or illegal 
 When you're embroiled in something, you're tangled or mired in to it - in other words, you're involved so completely that it's hard to get away from it <br/>
 Example: <br/>
 After the company was accused of violating privacy laws, its CEO became embroiled in a series of legal battles that drew attention from around the world <br/>
+Embroiled in a scandal <br/>
 **aftermath**: The period after some event <br/>
 Example: <br/>
 In the aftermath of the hurricane, the community banded together to rebuild homes and restore essential services, showing incredible resilience and solidarity <br/>
@@ -55,6 +86,6 @@ Example: <br/>
 During the national holiday, the streets were filled with patriotic displays, with citizens proudly waving flags and singing the national anthem to express their love for their country. <br/>
 
 ## Next US Election
-**Basic Overview** <br/>
-Girl who left the U.K. for I.S. <br/>
+**Understanding Trump's Appeal** <br/>
+ <br/>
 
