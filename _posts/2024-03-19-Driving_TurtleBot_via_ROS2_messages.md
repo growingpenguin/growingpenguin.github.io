@@ -153,9 +153,14 @@ ros2 bag record -o turtlemes1 /cmd_vel
 ```
 ![Driving_TurtleBot_via_ROS2_messages32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f1f183c0-bd71-4bd9-8ce3-4777bd891171) <br/>
 ```
-ros2 bag play turtlemes1
+ros2 bag info turtlemes1
 ```
 ![Driving_TurtleBot_via_ROS2_messages33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/08979fb3-41ed-471e-ae9f-32bf98d5dcdc) <br/>
+```
+ros2 bag play turtlemes1
+```
+![Driving_TurtleBot_via_ROS2_messages36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cde18357-feb2-4906-91c7-28867d7d30d5)
+
 ```
 ros2 topic echo /cmd_vel
 ```
