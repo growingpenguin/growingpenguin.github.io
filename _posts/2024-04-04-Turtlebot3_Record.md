@@ -105,7 +105,7 @@ ros2 topic echo /rgb
 ![Turtlebot3_Record8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5920eb05-c62c-46b1-be1b-4761bb5fe26c) <br/>
 
 Ros2bag Data Files: 
-turtlemes2: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
+turtlemescone1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
 
 ## Record With the object Cube
@@ -113,8 +113,45 @@ turtlemes2: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqv
 Create > Shape > Cone <br/>
 (2) Transform Configuration <br/>
 Cube Transform Configuration <br/>
+![Turtlebot3_Record11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e5c10872-a1bd-4a7c-a266-8615d860eccc) <br/>
 Turtlebot3 Burger Configuration <br/>
-
-
+![Turtlebot3_Record12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/607b236a-92ab-4495-a632-277e18d7ca46) <br/>
 turtle_Camera Position Configuration <br/>
-![Turtlebot3_Record10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e3223a6-8777-48d6-bc3d-bad29c27bd0c)
+![Turtlebot3_Record10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e3223a6-8777-48d6-bc3d-bad29c27bd0c) <br/>
+(3)Launch Ros2 Common container <br/>
+```
+cd ${ISAAC_ROS_WS}/src
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+```
+(4)See Topics <br/>
+```
+ros2 topic list
+```
+![Turtlebot3_Record13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/20e2d43f-4b0b-4596-a3ff-840320ccd87f) <br/>
+
+(5)Record the topics that are being subscribed <br/>
+Command: <br/>
+```
+ros2 bag record -o turtlemescube1 /cmd_vel /parameter_events /rgb /rosout
+```
+(6)Display information about a ROS 2 bag file <br/>
+turtlemescone1 <br/>
+```
+ros2 bag info turtlemescube1
+```
+(7)Play the recorded Ros2 bag file <br/>
+turtlemescone1 <br/>
+```
+ros2 bag play turtlemescube1
+```
+(8)Check by echoing the message <br/>
+turtlemes2 <br/>
+```
+ros2 topic echo /cmd_vel
+```
+```
+ros2 topic echo /rgb
+```
+
+
