@@ -111,6 +111,7 @@ Once you press Play with a Camera Helper Node connected, you may see that in the
 This graph is automatically created by the Camera Helper Node <br/>
 The pipeline retrieves relevant data from the renderer, process it, and send them to the corresponding ROS publisher <br/>
 This graph is only created in the session you are running. It will not be saved as part of your asset and will not appear in the Stage tree <br/>
+![Ros2Cameras22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1db3b21-f291-4d68-bfcb-9ee0d873645f) <br/>
 
 
 
