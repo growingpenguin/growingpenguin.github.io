@@ -41,10 +41,11 @@ turtlemes2 <br/>
 ros2 topic echo /cmd_vel
 ```
 ![Ros2Cameras26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/214a7685-909e-46f1-9be4-26e29cd51add) <br/>
-
+```
+ros2 topic echo /rgb
+```
+![Ros2Cameras28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/96b61c34-7b53-4409-9507-236fcea857df) <br/>
 
 Rosbag Data Files: 
-Nvblox1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
-Nvblox2: https://drive.google.com/drive/folders/1m7kGxxKQ_zyDKCj4C6x-W4Fal-SlocVm?usp=sharing <br/>
-Nvblox3: https://drive.google.com/drive/folders/1Kq51JWFLzy_WMcmDXdB8ZNe0DUN7DArK?usp=sharing <br/>
+turtlemes2: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
