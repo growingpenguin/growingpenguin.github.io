@@ -135,6 +135,8 @@ Command: <br/>
 ```
 ros2 bag record -o turtlemescube1 /cmd_vel /parameter_events /rgb /rosout
 ```
+![Turtlebot3_Record14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33a36242-c22f-4885-a2c2-453212e2fe01) <br/>
+
 (6)Display information about a ROS 2 bag file <br/>
 turtlemescone1 <br/>
 ```
