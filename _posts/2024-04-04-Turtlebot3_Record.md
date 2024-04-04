@@ -23,36 +23,25 @@ Command: <br/>
 ros2 bag record -o turtlemes2 /cmd_vel /parameter_events /rgb /rosout
 ```
 (4)Display information about a ROS 2 bag file <br/>
-nvblox1 <br/>
-![Nvblox2-40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/66d71a44-417c-43e1-98c2-3793f18976d7) <br/>
-nvblox2 <br/>
-![Nvblox2-43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4e47ed45-3a0c-494f-80ce-8fb19f1a770b) <br/>
 nvblox3 <br/>
 ```
-ros2 bag info nvblox3
+ros2 bag info turtlemes2
 ```
-![Nvblox2-50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/117bd462-4dce-43fc-9d1e-d42fb4c10e62) <br/>
+![Ros2Cameras25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/32f8f609-fa74-4ba1-98b4-fc4e7777a278) <br/>
 (6)Play the recorded Ros2 bag file <br/>
-nvblox1 <br/>
-![Nvblox2-41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/79455206-6da2-4035-860b-3a3f0075e0c1) <br/>
-nvblox2 <br/>
-![Nvblox2-46](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1660e5a5-dffc-467b-be90-322b90352fa0) <br/>
-nvblox3 <br/>
+turtlemes2 <br/>
 ```
-ros2 bag play nvblox3
+ros2 bag play turtlemes2
 ```
-![Nvblox2-53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ad3f49d2-c6d8-4c41-ad58-34c845fbc3bf) <br/>
+
 (7)Check by echoing the message <br/>
-nvblox1 <br/>
-![Nvblox2-44](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2c7b7e32-f679-4208-a5b0-6a0a5bc44bc9) <br/>
-nvblox2 <br/>
-![Nvblox2-45](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f8148ba3-df91-4fad-8d59-65adfbb959a9) <br/>
-nvblox3 <br/>
+turtlemes2 <br/>
 ```
-ros2 topic echo /bond
+ros2 topic echo /cmd_vel
 ```
-![Nvblox2-51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9452efc5-f510-4a91-a77f-60b0126b707d) <br/>
-![Nvblox2-52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f528090b-809e-457a-86c3-a5ac45a8e635) <br/>
+![Ros2Cameras26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/214a7685-909e-46f1-9be4-26e29cd51add) <br/>
+
+
 Rosbag Data Files: 
 Nvblox1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 Nvblox2: https://drive.google.com/drive/folders/1m7kGxxKQ_zyDKCj4C6x-W4Fal-SlocVm?usp=sharing <br/>
