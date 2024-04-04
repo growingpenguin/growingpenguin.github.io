@@ -57,6 +57,9 @@ Cone Transform Configuration <br/>
 ![Turtlebot3_Record2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1308ebff-2b71-4e4c-83aa-ba90e47528e2) <br/>
 Turtlebot3 Burger Configuration <br/>
 ![Turtlebot3_Record1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/46143988-1743-4d67-9816-6a37f7802a0b) <br/>
+turtle_Camera Position Configuration <br/>
+(Modified the translate Z axis to 0.3) <br/>
+![Turtlebot3_Record3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/239d0448-c7b9-4a3d-bb59-a5677920a83e) <br/>
 (3)Launch Ros2 Common container <br/>
 ```
 cd ${ISAAC_ROS_WS}/src
@@ -67,31 +70,42 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ```
 ros2 topic list
 ```
+![Turtlebot3_Record4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ad66011-c55e-4c88-bf0a-1410b0a1c095) <br/>
+
 (5)Record the topics that are being subscribed <br/>
 Command: <br/>
 ```
 ros2 bag record -o turtlemescone1 /cmd_vel /parameter_events /rgb /rosout
 ```
+![Turtlebot3_Record5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/00f6acbf-f534-49fe-aae2-fa9c4efcf019) <br/>
 (6)Display information about a ROS 2 bag file <br/>
 turtlemescone1 <br/>
 ```
 ros2 bag info turtlemescone1
 ```
+![Turtlebot3_Record6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d2393c25-d904-4a11-a118-cfc57df6a032) <br/>
+
 (7)Play the recorded Ros2 bag file <br/>
 turtlemescone1 <br/>
 ```
 ros2 bag play turtlemescone1
 ```
+![Turtlebot3_Record9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f31611bd-79be-4301-9806-ba2831ddec42) <br/>
+
 (8)Check by echoing the message <br/>
 turtlemes2 <br/>
 ```
 ros2 topic echo /cmd_vel
 ```
+![Turtlebot3_Record7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ed09760-631e-4131-8e56-a06fb9f366e1) <br/>
 
 ```
 ros2 topic echo /rgb
 ```
+![Turtlebot3_Record8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5920eb05-c62c-46b1-be1b-4761bb5fe26c) <br/>
 
+Ros2bag Data Files: 
+turtlemes2: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
 
 
