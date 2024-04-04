@@ -42,6 +42,7 @@ Camera_1 Configuration: <br/>
 Camera_2 Configuration: <br/>
 ![Ros2Cameras13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bd3c4586-20fe-4b67-bc4c-bfd3105ee062) <br/>
 
+
 ### Add Camera and Sensors
 **Adding Camera** <br/>
 ![Ros2Cameras5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/003c0c9c-9f15-4d27-adaa-8c03ee6cb32c) <br/>
@@ -69,6 +70,16 @@ Viewport1 <br/>
 ![Ros2Cameras8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5a320427-7acc-4377-b14b-60fc5ed2351f) <br/>
 Viewport2 <br/>
 ![Ros2Cameras9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c2ec473f-8256-4a2c-b964-e246746742eb) <br/>
+**Add Camera to Turtlebot3 Robot** <br/>
+![Ros2Cameras17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/13614508-7606-42fd-ac5a-0879a31cefe8) <br/>
+Create > Camera <br/>
+Rename turtle_Camera <br/>
+![Ros2Cameras18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2ec88932-9fa4-41db-b510-96f9eafae93f) <br/>
+Move the turtle_Camera under the base_link frame <br/>
+![Ros2Cameras19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ccd6d917-9789-4872-9ecb-191a6d96b880) <br/>
+Adjust the Camer's Transform <br/>
+![Ros2Cameras20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/77da17cc-0526-4a84-880d-63a88651fbf6) <br/>
+
 
 ### Building the Graph for a RGB publisher
 (1)Open Visual Scripting: Window > Visual Scripting > Action Graph <br/>
