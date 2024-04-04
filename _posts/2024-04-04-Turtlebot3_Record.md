@@ -52,6 +52,9 @@ turtlemes2: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqv
 ## Record With the object Cone
 (1)Add the object Cone <br/>
 Create > Shape > Cone <br/>
+(2) Transform Configuration <br/>
+Cone Transform Configuration <br/>
+![Ros2Cameras29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6a1d601d-62c8-4337-92cc-007be1d55b5e) <br/>
 
 
 
