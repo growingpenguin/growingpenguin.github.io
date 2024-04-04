@@ -154,6 +154,8 @@ turtlemes2 <br/>
 ```
 ros2 topic echo /cmd_vel
 ```
+![Turtlebot3_Record16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/26ef36bf-89c5-4e7c-b757-c9e5862f8ea8) <br/>
+
 ```
 ros2 topic echo /rgb
 ```
