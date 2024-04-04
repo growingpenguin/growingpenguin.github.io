@@ -33,6 +33,7 @@ turtlemes2 <br/>
 ```
 ros2 bag play turtlemes2
 ```
+![Ros2Cameras27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3c2bd0fe-0289-4e16-b37a-d006f63662c0) <br/>
 
 (7)Check by echoing the message <br/>
 turtlemes2 <br/>
