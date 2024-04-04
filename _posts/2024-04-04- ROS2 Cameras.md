@@ -113,6 +113,18 @@ The pipeline retrieves relevant data from the renderer, process it, and send the
 This graph is only created in the session you are running. It will not be saved as part of your asset and will not appear in the Stage tree <br/>
 ![Ros2Cameras22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1db3b21-f291-4d68-bfcb-9ee0d873645f) <br/>
 
+### Verifying ROS connection
+Terminal1: <br/>
+#Move Turtlebot Forward <br/>
+ros2 topic pub /cmd_vel geometry_msgs/Twist '{linear:  {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}' <br/>
+Terminal2: <br/>
+#Verify whether the rgb image is being published
+ros2 topic list <br/>
+![Ros2Cameras23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7ae09edd-97b9-43fc-9e6f-21ccaec4508e) <br/>
+#Visualize messages received by the topic /rgb <br/>
+ros2 run rqt_image_view rqt_image_view /rgb <br/>
+![Ros2Cameras22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b1db3b21-f291-4d68-bfcb-9ee0d873645f) <br/>
+Visualize rgb image using the rqt_image_view method again <br/>
 
 
 
