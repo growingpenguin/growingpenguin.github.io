@@ -128,21 +128,18 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ```
 ros2 topic list
 ```
-![Turtlebot3_Record13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/20e2d43f-4b0b-4596-a3ff-840320ccd87f) <br/>
 
 (5)Record the topics that are being subscribed <br/>
 Command: <br/>
 ```
 ros2 bag record -o turtlemescube1 /cmd_vel /parameter_events /rgb /rosout
 ```
-![Turtlebot3_Record15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/26490f15-03cd-4307-a992-fc7a80cd33b2) <br/>
 
 (6)Display information about a ROS 2 bag file <br/>
 turtlemescone1 <br/>
 ```
 ros2 bag info turtlemescube1
 ```
-![Turtlebot3_Record14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/33a36242-c22f-4885-a2c2-453212e2fe01) <br/>
 
 (7)Play the recorded Ros2 bag file <br/>
 turtlemescone1 <br/>
@@ -154,7 +151,6 @@ turtlemes2 <br/>
 ```
 ros2 topic echo /cmd_vel
 ```
-![Turtlebot3_Record16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/26ef36bf-89c5-4e7c-b757-c9e5862f8ea8) <br/>
 
 ```
 ros2 topic echo /rgb
