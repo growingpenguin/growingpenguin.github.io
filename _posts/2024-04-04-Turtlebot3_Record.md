@@ -108,5 +108,13 @@ Ros2bag Data Files:
 turtlemes2: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
 
+## Record With the object Cube
+(1)Add the object Cone <br/>
+Create > Shape > Cone <br/>
+(2) Transform Configuration <br/>
+Cube Transform Configuration <br/>
+Turtlebot3 Burger Configuration <br/>
 
 
+turtle_Camera Position Configuration <br/>
+![Turtlebot3_Record10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2e3223a6-8777-48d6-bc3d-bad29c27bd0c)
