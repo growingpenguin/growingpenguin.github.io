@@ -54,7 +54,7 @@ turtlemes2: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqv
 Create > Shape > Cone <br/>
 (2) Transform Configuration <br/>
 Cone Transform Configuration <br/>
-![Ros2Cameras29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6a1d601d-62c8-4337-92cc-007be1d55b5e) <br/>
+![Turtlebot3_Record2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1308ebff-2b71-4e4c-83aa-ba90e47528e2) <br/>
 Turtlebot3 Burger Configuration <br/>
 ![Turtlebot3_Record1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/46143988-1743-4d67-9816-6a37f7802a0b) <br/>
 (3)Launch Ros2 Common container <br/>
