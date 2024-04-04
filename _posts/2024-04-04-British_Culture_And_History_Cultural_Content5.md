@@ -3,7 +3,65 @@ layout: post
 title:  "British Culture And History Cultural Content Week2 "
 ---
 
-# 
+## Professor Notes
+Laurie Lee, a poet, insprired from the natural beauty <br/>
+**Winning tip: Laurie Lee’s Gloucestershire** <br/>
+Walk five miles <br/>
+ primrose-bounded paths, skylark-serenaded pasture and slope-clinging beech trees <br/>
+**South Devon’s hidden coastal treasures** <br/>
+South England cliffs along the coast <br/>
+South Devan start from car park(parking lot)  <br/>
+mermaids’ purses  <br/>
+Famous dog, heroic doggy deed to help a hermit <br/>
+Burgh Island and its art deco hotel <br/>
+**Dancing with daffodils in Derwentwater** <br/>
+North of Englad <br/>
+Lake District <br/>
+Beautiful flower ( Lent lilies, wild garlic and beautiful bluebells) smels nice <br/>
+Sizergh Castle <br/>
+**Tower Hamlets in full bloom** <br/>
+London Cemetry near tower hamlet <br/>
+Gravestones <br/>
+**Porpoises and yellowhammers in Northumberland** <br/>
+Jolly Fisherman: Beer <br/>
+Place is on the sea <br/>
+Lots of birds: Eider <br/>
+Wild plants and flowers <br/>
+Porpoises like dolphines <br/>
+YellowHammer <br/>
+**Under a big Suffolk sky** <br/>
+egrets <br/>
+Holy Trinity Church <br/>
+cathedral of the marches: Famous church <br/>
+Eight miles <br/>
+Old publs, good seafood <br/>
+**Kissing gates and pink petals in the Yorkshire Wolds** <br/>
+Nice flowers, village of welton, and mallards <br/>
+kssing gates <br/>
+**Fagrance** <br/>
+Take the bus to a West Country paradise <br/>
+Southwest England near Wales <br/>
+Significnace of stones in Stranton Drew <br/>
+Give directions <br/>
+Viaduct <br/>
+Huge & high up <br/>
+**Marshes and migrations in the Cairngorms** <br/>
+Nature reserve <br/>
+floodplain:Flat land next to a river  <br/>
+Flood can happen <br/>
+5km walk, go through woods, fields and can even see fields <br/>
+**An edgy family hike in Snowdonia** <br/>
+ Precipice Walk, an edge of a cliff <br/>
+ Llyn Cynwch Welsh word <br/>
+
+### Assignment: Research
+Seen nice areas in England and Wales <br/>
+Area of outstanding natural beauty: KInd of Unesco in UK <br/>
+Search for one or two of these areas of natural beauty <br/>
+Choose one or two and tell me about it <br/>
+Not copied from the internet <br/>
+Find one or two anywhere in the UK(Northern Ireland, Scotland Whales, and England..),area of outstanding natural beauty, briefly where it is, what do you see there, and main point is what is it about the place that appeals to you <br/>
+
 ## Words
 **strolled** <br/>
 :Walking in a leisurely, relaxed manner <br/>
@@ -124,4 +182,40 @@ It encompasses traditions, monuments, objects, and landscapes that hold historic
 Groups or bunches of plants growing closely together in a dense, compact formation <br/>
 This term is often used to describe how certain plants, like bluebells, cowslips, primroses, cow parsley, wild garlic, and others, naturally grow in the wild or in garden settings <br/>
 Clumps of plants create concentrated areas of color and texture, contributing to the visual appeal of a natural landscape or garden <br/>
+**porpoises** <br/>
+Small, toothed whales that are part of the family Phocoenidae <br/>
+Porpoises are marine mammals closely related to dolphins and whales, known for their compact, robust bodies and a preference for coastal waters, although some species inhabit deeper oceanic environment <br/>
+**On tap**: <br/>
+Originally refers to beverages, especially beer, served directly from a keg rather than from a bottle or can <br/>
+It suggests that the beer is fresh and possibly locally brewed <br/>
+Here, "local beer and seafood on tap" implies that the area offers a selection of fresh, local beer alongside seafood, indicating a focus on local produce and culinary offerings <br/>
+**enticing**: <br/>
+Appealing or attractive in a way that draws you in or tempts you <br/>
+In this context, the "enticing tang of the region’s last smokehouse" suggests that the aroma or flavor emanating from the smokehouse is very appealing, making it a significant draw for visitors or locals alike <br/>
+It speaks to the unique culinary experiences the region offers, particularly in terms of smoked foods <br/>
+**Tang**: <br/>
+A strong, sharp taste or flavor, particularly one that is slightly tart or piquant <br/>
+The "enticing tang" would be the distinctive, appealing taste or smell produced by the smokehouse, likely related to smoked fish or meats, which are traditional products of such establishments <br/>
+This suggests that the smokehouse's products have a notable and appealing flavor that captures the essence of the region's culinary heritage <br/>
+**Beat the view**: <br/>
+Unbeatable or unsurpassed <br/>
+The phrase "not a beer garden anywhere that will beat the view" is a way of saying that the views from the beer gardens in this region are unbeatable or unsurpassed <br/> 
+It implies that the scenic beauty visible from these outdoor drinking and dining areas is exceptional, making them unparalleled locations for enjoying a meal or a drink. This statement highlights the natural or architectural beauty of the area, suggesting that it enhances the overall experience of visiting or dining in the beer gardens <br/>
+**eider**: <br/>
+A type of sea duck known for its down feathers, which are highly prized for insulation <br/>
+The "crews of eider" phrase suggests groups or flocks of these ducks gathering together, which is common behavior in their breeding areas <br/>
+**Draped** <br/>
+Being covered or adorned in a way that is elegant or showy <br/>
+**finery** <br/>
+Impressive and often elaborate attire <br/>
+**strutting**: <br/>
+A confident or flamboyant walk, often associated with displaying dominance or attractiveness <br/>
+In the context of eider ducks, it refers to their movements and behaviors aimed at drawing attention to themselves and impressing potential mates <br/>
+It's a part of their mating rituals and displays <br/>
+**Woo"-ing**: <br/>
+Actions taken by an individual to attract a mate, which can include vocalizations, displays, or other behaviors meant to appeal to potential partners <br/>
+
+
+Reference: <br/>
+https://www.theguardian.com/travel/2024/mar/29/readers-favourite-spring-walks-in-the-uk <br/>
 
