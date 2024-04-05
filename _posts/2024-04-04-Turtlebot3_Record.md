@@ -166,7 +166,6 @@ Terminal1: <br/>
 ```
 ros2 bag play turtlemescube1
 ```
-![Turtlebot3_Record21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f128f57b-6349-4498-ba7e-7833bf951e04) <br/>
 (9)Check by echoing the message <br/>
 turtlemescube1 <br/>
 Terminal3: <br/>
@@ -175,8 +174,10 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
 ros2 topic echo /cmd_vel
 ```
+![Turtlebot3_Record21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f128f57b-6349-4498-ba7e-7833bf951e04) <br/>
 ```
 ros2 topic echo /rgb
 ```
+![Turtlebot3_Record22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/083e749a-198f-4344-8487-edf81ddd4fc3) <br/>
 
 
