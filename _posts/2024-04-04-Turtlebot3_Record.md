@@ -247,4 +247,11 @@ Ros2bag Data Files: <br/>
 turtlemescylinder1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
 ## Record With the object Cube
+(1)Add the object Sphere <br/>
+Create > Shape > Sphere <br/>
+(2) Transform Configuration <br/>
+Sphere Transform Configuration <br/>
+![Turtlebot3_Record32](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cc1f3b02-59b0-4c9f-b922-ba8103e4eb33) <br/>
+Turtlebot3 Burger Configuration <br/>
+![Turtlebot3_Record33](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f354c176-ba64-499b-85c0-16515467fced) <br/>
 
