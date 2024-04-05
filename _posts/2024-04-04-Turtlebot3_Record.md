@@ -224,7 +224,7 @@ ros2 bag info turtlemescylinder1
 turtlemescylinder1 <br/>
 Terminal1: <br/>
 ```
-ros2 bag play turtlemescube1
+ros2 bag play turtlemescylinder1
 ```
 (9)Check by echoing the message <br/>
 turtlemescylinder1 <br/>
