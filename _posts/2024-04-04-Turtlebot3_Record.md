@@ -153,18 +153,18 @@ ros2 bag record -o turtlemescube1 /cmd_vel /parameter_events /rgb /rosout
 ```
 (7)Display information about a ROS 2 bag file <br/>
 Terminal1: <br/>
-turtlemescone1 <br/>
+turtlemescube1 <br/>
 ```
 ros2 bag info turtlemescube1
 ```
 (8)Play the recorded Ros2 bag file <br/>
+turtlemescube1 <br/>
 Terminal1: <br/>
-turtlemescone1 <br/>
 ```
 ros2 bag play turtlemescube1
 ```
 (9)Check by echoing the message <br/>
-turtlemes2 <br/>
+turtlemescube1 <br/>
 Terminal3: <br/>
 ```
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
