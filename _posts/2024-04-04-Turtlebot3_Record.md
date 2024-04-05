@@ -139,6 +139,8 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ```
 ros2 topic list
 ```
+![Turtlebot3_Record18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6b0484be-5619-44d2-9b9d-e173e3921a1c) <br/>
+
 (5)Drive the robot forward <br/>
 Let’s drive it forward with the command: <br/>
 Terminal2: <br/>
