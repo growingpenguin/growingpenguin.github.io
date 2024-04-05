@@ -237,7 +237,9 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
 ros2 topic echo /cmd_vel
 ```
+!Turtlebot3_Record29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/54c40a5c-fed9-4407-8af0-ec19878314b9) <br/>
 ```
 ros2 topic echo /rgb
 ```
-
+![Turtlebot3_Record30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6f6c76b2-78e4-4987-bea1-884400e040e6)
+878314b9) <br/>
