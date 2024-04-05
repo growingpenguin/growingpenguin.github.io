@@ -115,7 +115,7 @@ ros2 topic echo /rgb
 ```
 ![Turtlebot3_Record8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5920eb05-c62c-46b1-be1b-4761bb5fe26c) <br/>
 
-Ros2bag Data Files: 
+Ros2bag Data Files: <br/>
 turtlemescone1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
 
@@ -309,6 +309,10 @@ ros2 topic echo /rgb
 ```
 ![Turtlebot3_Record38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4c02057b-98a1-4401-a3bc-15b19fa36455) <br/>
 
+Ros2bag Data Files: <br/>
+turtlemescone1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
+
+
 ## Record With the object Capsule
 (1)Add the object Capsule <br/>
 Create > Shape > Capsule <br/>
@@ -318,5 +322,55 @@ Capsule Transform Configuration <br/>
 Turtlebot3 Burger Configuration <br/>
 ![Turtlebot3_Record42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dadaf451-e25e-4fb1-9f0e-83e5ca763174) <br/>
 turtle_Camera Position Configuration <br/>
+![Turtlebot3_Record43](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fb576919-239a-4600-9239-d6905b54023e) <br/>
+(3)Launch Ros2 Common container in both terminals <br/>
+```
+cd ${ISAAC_ROS_WS}/src
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+```
+(4)See Topics <br/>
+Terminal1: <br/>
+```
+ros2 topic list
+```
+(5)Drive the robot forward <br/>
+Let’s drive it forward with the command: <br/>
+Terminal2: <br/>
+```
+ros2 topic pub /cmd_vel geometry_msgs/Twist '{linear:  {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
+```
+(6)Record the topics that are being subscribed <br/>
+Terminal1: <br/>
+Command: <br/>
+```
+ros2 bag record -o turtlemescapsule1 /cmd_vel /parameter_events /rgb /rosout
+```
+(7)Display information about a ROS 2 bag file <br/>
+Terminal1: <br/>
+turtlemescapsule1 <br/>
+```
+ros2 bag info turtlemescapsule1
+```
+(8)Play the recorded Ros2 bag file <br/>
+turtlemescapsule1 <br/>
+Terminal1: <br/>
+```
+ros2 bag play turtlemescapsule1
+```
+(9)Check by echoing the message <br/>
+turtlemescapsule1 <br/>
+Terminal3: <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+ros2 topic echo /cmd_vel
+```
+```
+ros2 topic echo /rgb
+```
+Ros2bag Data Files: <br/>
+turtlemescone1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
+
 
 
