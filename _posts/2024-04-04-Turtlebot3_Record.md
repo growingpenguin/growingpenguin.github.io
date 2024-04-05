@@ -191,5 +191,6 @@ Cylinder Transform Configuration <br/>
 Turtlebot3 Burger Configuration <br/>
 ![Turtlebot3_Record24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cf47708e-aacd-486d-8271-2b481ba0e471) <br/>
 turtle_Camera Position Configuration <br/>
+![Turtlebot3_Record25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c2647b30-d567-4f32-aa8a-2883cc283637) <br/>
 
 
