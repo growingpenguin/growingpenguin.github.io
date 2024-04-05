@@ -280,7 +280,7 @@ Command: <br/>
 ```
 ros2 bag record -o turtlemessphere1 /cmd_vel /parameter_events /rgb /rosout
 ```
-
+![Turtlebot3_Record40](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e43d6e1a-3497-4900-9df4-0abf42b6f94b) <br/>
 (7)Display information about a ROS 2 bag file <br/>
 Terminal1: <br/>
 turtlemessphere1 <br/>
