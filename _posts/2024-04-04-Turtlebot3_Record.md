@@ -192,5 +192,49 @@ Turtlebot3 Burger Configuration <br/>
 ![Turtlebot3_Record24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cf47708e-aacd-486d-8271-2b481ba0e471) <br/>
 turtle_Camera Position Configuration <br/>
 ![Turtlebot3_Record25](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c2647b30-d567-4f32-aa8a-2883cc283637) <br/>
-
+(3)Launch Ros2 Common container <br/>
+```
+cd ${ISAAC_ROS_WS}/src
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+```
+(4)See Topics <br/>
+```
+ros2 topic list
+```
+(5)Drive the robot forward <br/>
+Let’s drive it forward with the command: <br/>
+Terminal2: <br/>
+```
+ros2 topic pub /cmd_vel geometry_msgs/Twist '{linear:  {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
+```
+(6)Record the topics that are being subscribed <br/>
+Terminal1: <br/>
+Command: <br/>
+```
+ros2 bag record -o turtlemescylinder1 /cmd_vel /parameter_events /rgb /rosout
+```
+(7)Display information about a ROS 2 bag file <br/>
+Terminal1: <br/>
+turtlemescylinder1 <br/>
+```
+ros2 bag info turtlemescylinder1
+```
+(8)Play the recorded Ros2 bag file <br/>
+turtlemescylinder1 <br/>
+Terminal1: <br/>
+```
+ros2 bag play turtlemescube1
+```
+(9)Check by echoing the message <br/>
+turtlemescylinder1 <br/>
+Terminal3: <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+ros2 topic echo /cmd_vel
+```
+```
+ros2 topic echo /rgb
+```
 
