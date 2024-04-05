@@ -189,4 +189,7 @@ Create > Shape > Cylinder <br/>
 Cylinder Transform Configuration <br/>
 ![Turtlebot3_Record23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c589cbbd-4e11-4f8b-b308-274e9ca703c6) <br/>
 Turtlebot3 Burger Configuration <br/>
+![Turtlebot3_Record24](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/cf47708e-aacd-486d-8271-2b481ba0e471) <br/>
+turtle_Camera Position Configuration <br/>
+
 
