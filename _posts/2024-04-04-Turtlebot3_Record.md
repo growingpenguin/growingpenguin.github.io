@@ -312,4 +312,6 @@ ros2 topic echo /rgb
 ## Record With the object Capsule
 (1)Add the object Capsule <br/>
 Create > Shape > Capsule <br/>
+(2) Transform Configuration <br/>
+Capsule Transform Configuration <br/>
 
