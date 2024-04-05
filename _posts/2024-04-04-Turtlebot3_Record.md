@@ -222,6 +222,7 @@ turtlemescylinder1 <br/>
 ```
 ros2 bag info turtlemescylinder1
 ```
+![Turtlebot3_Record28](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/44cba35f-5cff-47a8-a85a-3c438f961000) <br/>
 (8)Play the recorded Ros2 bag file <br/>
 turtlemescylinder1 <br/>
 Terminal1: <br/>
