@@ -246,7 +246,7 @@ ros2 topic echo /rgb
 Ros2bag Data Files: <br/>
 turtlemescylinder1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
-## Record With the object Cube
+## Record With the object Sphere
 (1)Add the object Sphere <br/>
 Create > Shape > Sphere <br/>
 (2) Transform Configuration <br/>
@@ -309,4 +309,7 @@ ros2 topic echo /rgb
 ```
 ![Turtlebot3_Record38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4c02057b-98a1-4401-a3bc-15b19fa36455) <br/>
 
+## Record With the object Capsule
+(1)Add the object Capsule <br/>
+Create > Shape > Capsule <br/>
 
