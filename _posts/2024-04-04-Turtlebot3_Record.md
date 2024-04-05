@@ -124,7 +124,7 @@ turtlemescone1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y
 Create > Shape > Cone <br/>
 (2) Transform Configuration <br/>
 Cube Transform Configuration <br/>
-![Turtlebot3_Record11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e5c10872-a1bd-4a7c-a266-8615d860eccc) <br/>
+![Turtlebot3_Record17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f3cb5772-9fda-4dd9-930b-aa2541bf360a) <br/>
 Turtlebot3 Burger Configuration <br/>
 ![Turtlebot3_Record12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/607b236a-92ab-4495-a632-277e18d7ca46) <br/>
 turtle_Camera Position Configuration <br/>
