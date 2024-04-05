@@ -140,7 +140,6 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ros2 topic list
 ```
 ![Turtlebot3_Record18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6b0484be-5619-44d2-9b9d-e173e3921a1c) <br/>
-
 (5)Drive the robot forward <br/>
 Let’s drive it forward with the command: <br/>
 Terminal2: <br/>
@@ -160,12 +159,14 @@ turtlemescube1 <br/>
 ```
 ros2 bag info turtlemescube1
 ```
+![Turtlebot3_Record20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/781abdce-cbd7-4a4f-890f-8d84a872f24e) <br/>
 (8)Play the recorded Ros2 bag file <br/>
 turtlemescube1 <br/>
 Terminal1: <br/>
 ```
 ros2 bag play turtlemescube1
 ```
+![Turtlebot3_Record21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f128f57b-6349-4498-ba7e-7833bf951e04) <br/>
 (9)Check by echoing the message <br/>
 turtlemescube1 <br/>
 Terminal3: <br/>
