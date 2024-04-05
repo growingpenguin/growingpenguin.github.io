@@ -202,6 +202,7 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ```
 ros2 topic list
 ```
+![Turtlebot3_Record26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/56e8f8f3-63d9-4d52-a773-d5bf42bb8f82) <br/>
 (5)Drive the robot forward <br/>
 Let’s drive it forward with the command: <br/>
 Terminal2: <br/>
@@ -214,6 +215,7 @@ Command: <br/>
 ```
 ros2 bag record -o turtlemescylinder1 /cmd_vel /parameter_events /rgb /rosout
 ```
+![Turtlebot3_Record27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9115d54b-a0e3-4962-b37c-2be976cf6ba6) <br/>
 (7)Display information about a ROS 2 bag file <br/>
 Terminal1: <br/>
 turtlemescylinder1 <br/>
