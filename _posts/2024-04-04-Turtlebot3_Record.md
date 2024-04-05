@@ -238,7 +238,6 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ros2 topic echo /cmd_vel
 ```
 ![Turtlebot3_Record29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/39e8bef1-4684-44ff-9ca4-68d6ab7b1ffb) <br/>
-!Turtlebot3_Record29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/54c40a5c-fed9-4407-8af0-ec19878314b9) <br/>
 ```
 ros2 topic echo /rgb
 ```
