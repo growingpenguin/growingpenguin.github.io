@@ -314,4 +314,9 @@ ros2 topic echo /rgb
 Create > Shape > Capsule <br/>
 (2) Transform Configuration <br/>
 Capsule Transform Configuration <br/>
+![Turtlebot3_Record41](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/83ecb2e4-adf4-4b39-b055-f793884d3a72) <br/>
+Turtlebot3 Burger Configuration <br/>
+![Turtlebot3_Record42](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dadaf451-e25e-4fb1-9f0e-83e5ca763174) <br/>
+turtle_Camera Position Configuration <br/>
+
 
