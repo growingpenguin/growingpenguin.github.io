@@ -267,6 +267,7 @@ Terminal1: <br/>
 ```
 ros2 topic list
 ```
+![Turtlebot3_Record35](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/2583396b-54f6-49bc-b468-d6d644b6af9c) <br/>
 (5)Drive the robot forward <br/>
 Let’s drive it forward with the command: <br/>
 Terminal2: <br/>
@@ -279,18 +280,21 @@ Command: <br/>
 ```
 ros2 bag record -o turtlemessphere1 /cmd_vel /parameter_events /rgb /rosout
 ```
+
 (7)Display information about a ROS 2 bag file <br/>
 Terminal1: <br/>
 turtlemessphere1 <br/>
 ```
 ros2 bag info turtlemessphere1
 ```
+![Turtlebot3_Record36](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6a54584e-aeee-4443-b367-dd90fb4d70fb) <br/>
 (8)Play the recorded Ros2 bag file <br/>
 turtlemessphere1 <br/>
 Terminal1: <br/>
 ```
 ros2 bag play turtlemessphere1
 ```
+![Turtlebot3_Record39](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f7751ef9-5dd1-4d21-b0e8-02bc3473368d) <br/>
 (9)Check by echoing the message <br/>
 turtlemessphere1 <br/>
 Terminal3: <br/>
@@ -299,8 +303,10 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
 ros2 topic echo /cmd_vel
 ```
+![Turtlebot3_Record37](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/948fad38-2688-4fc7-a3e9-c3c191363422) <br/>
 ```
 ros2 topic echo /rgb
 ```
+![Turtlebot3_Record38](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4c02057b-98a1-4401-a3bc-15b19fa36455) <br/>
 
 
