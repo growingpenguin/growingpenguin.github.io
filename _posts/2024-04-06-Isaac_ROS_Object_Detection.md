@@ -33,6 +33,7 @@ sudo apt-get install -y ros-humble-isaac-ros-detectnet ros-humble-isaac-ros-trit
 cd /workspaces/isaac_ros-dev/src/isaac_ros_object_detection/isaac_ros_detectnet && \
   ./scripts/setup_model.sh --height 632 --width 1200 --config-file resources/quickstart_config.pbtxt
 ```
+![Isaac_ROS_Object_Detection4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7cc6147c-6b43-47d8-b8a6-a857e1e2ef23) <br/>
 ![Isaac_ROS_Object_Detection3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/16dce940-e4e5-4960-b8c6-4524e1eaa9db) <br/>
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_object_detection/index.html#quickstarts <br/>
