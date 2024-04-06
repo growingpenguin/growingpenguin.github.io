@@ -1,9 +1,13 @@
 ---
 layout: post
-title:  "IsaacSim Turtlebot3 yolo"
+title:  "Isaac ROS Object Detection"
 ---
-# IsaacSim Turtlebot3 yolo
-## Use Pre-trained Weigthts
+# Isaac ROS Object Detection
+## isaac_ros_detectnet
+
+
+
+
 
 (1)Access Github Repository <br/>
 https://github.com/leggedrobotics/darknet_ros <br/>
@@ -20,4 +24,5 @@ ls -l
 ```
 (4)
 
-Reference: https://www.youtube.com/watch?v=NnKNfmJimMU <br/>
+Reference: <br/>
+https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_object_detection/index.html#quickstarts <br/>
