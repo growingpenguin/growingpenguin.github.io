@@ -40,13 +40,6 @@ cd /workspaces/isaac_ros-dev && \
 
 
 
-
-(2)Choose one of the DetectNet model that is listed here <br/>
-TAO Pretrained DetectNet V2 <br/>
-(3)Create a config file <br/>
-Use resources/quickstart_config.pbtxt as a template <br/>
-The datatype can be found in the overview tab of the model page <br/>
-The input/dims should be the size of the raw input images. It can be different for the same model. The output/dims dimensions can be calculated as round(input_dims/max_batch_size). Place this config file in the isaac_ros_detectnet/resources directory. You can find more information about the config file here
-
-
-Reference: https://nvidia-isaac-ros.github.io/concepts/object_detection/detectnet/tutorial_custom_model.html <br/>
+Reference: <br/>
+https://nvidia-isaac-ros.github.io/concepts/object_detection/detectnet/tutorial_isaac_sim.html <br/>
+https://nvidia-isaac-ros.github.io/concepts/object_detection/detectnet/tutorial_custom_model.html <br/>
