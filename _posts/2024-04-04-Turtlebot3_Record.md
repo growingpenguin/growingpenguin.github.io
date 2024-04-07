@@ -566,6 +566,7 @@ Capsule_07 <br/>
 ![Turtlebot3_Record57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e194c3e3-e9f7-4190-84c6-50f4bf87bb27) <br/>
 Capsule_08 <br/>
 ![Turtlebot3_Record58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/090d5492-1e02-4357-b131-970d6693c14a) <br/>
+![Turtlebot3_Record60](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4178224d-8f7a-4314-9e33-d4c8602991cd) <br/>
 (3)Launch Ros2 Common container in both terminals <br/>
 ```
 cd ${ISAAC_ROS_WS}/src
