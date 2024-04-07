@@ -627,8 +627,7 @@ turtlemescapsule3 <br/>
 ```
 ros2 bag play turtlemescapsule3
 ```
-![Turtlebot3_Record70](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/192f3878-b5ab-4e96-9079-65ea295a9a56) <br/>
-
+![Turtlebot3_Record71](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4e42fd70-d36c-4dbf-b6df-61a9fb7f6512) <br/>
 (9)Check by echoing the message <br/>
 turtlemescapsule2 <br/>
 Terminal3: <br/>
@@ -638,7 +637,7 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ros2 topic echo /rgb
 ```
 ![Turtlebot3_Record66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0a82b431-258a-4341-a45a-89e0a8c06722) <br/>
-turtlemescapsule2 <br/>
+turtlemescapsule3 <br/>
 Terminal3: <br/>
 ```
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
@@ -647,10 +646,9 @@ ros2 topic echo /rgb
 ```
 ![Turtlebot3_Record70](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/192f3878-b5ab-4e96-9079-65ea295a9a56) <br/>
 
-
-
 ros2 bags: <br/>
 turtlemescapsule2: <br/>
 https://drive.google.com/drive/folders/18WyccbhulqKnjPW6mPtuT0crya-w3QMN?usp=sharing <br/>
-
+turtlemescapsule3: <br/>
+https://drive.google.com/drive/folders/1gF_7MbRa_m8UKnjpL8YCe07fuopdP__W?usp=sharing <br/>
 
