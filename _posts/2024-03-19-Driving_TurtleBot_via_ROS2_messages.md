@@ -168,7 +168,8 @@ ros2 topic echo /cmd_vel
 ![Driving_TurtleBot_via_ROS2_messages34](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e639bbe7-82d0-4f14-8f48-4548249d083a) <br/>
 (4)To make it easier for us to move the Turtlebot around, install the teleop_twist_keyboard by running the following command: <br/>
 ```
-sudo apt-get install ros-$ROS_DISTRO-teleop-twist-keyboard
+#sudo apt-get install ros-$ROS_DISTRO-teleop-twist-keyboard
+sudo apt-get install ros-humble-teleop-twist-keyboard
 ```
 (5)Enable driving using the keyboard by running: <br/>
 ```
