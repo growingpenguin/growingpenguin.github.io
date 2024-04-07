@@ -4,7 +4,6 @@ title:  "Record Isaac ROS Turtlebot3 Images"
 ---
 # Record Isaac ROS Turtlebot3 Images
 ## Record Without Any Objects
-### Ros2 bag
 (1)Launch Ros2 Common container <br/>
 ```
 cd ${ISAAC_ROS_WS}/src
@@ -50,6 +49,7 @@ Ros2bag Data Files:
 turtlemes2: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
 ## Record With the object Cone
+### Move Forward
 (1)Add the object Cone <br/>
 Create > Shape > Cone <br/>
 (2) Transform Configuration <br/>
@@ -118,10 +118,54 @@ ros2 topic echo /rgb
 Ros2bag Data Files: <br/>
 turtlemescone1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
+### Move Using Teleop Keyboard
+(1)Add the object Cone <br/>
+
+
+
+(2)Same as above <br/>
+(3)Launch Ros2 Common container in both terminals <br/>
+```
+cd ${ISAAC_ROS_WS}/src
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+```
+(4)See Topics <br/>
+Terminal1: <br/>
+```
+ros2 topic list
+```
+(5)Drive the robot using teleopkeyboard <br/>
+Let’s drive the robot anyway we want with the command: <br/>
+Terminal2: <br/>
+```
+sudo apt-get install ros-humble-teleop-twist-keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+(6)Record the topics that are being subscribed <br/>
+Terminal1: <br/>
+```
+ros2 bag record -o turtlemescone2 /cmd_vel /parameter_events /rgb /rosout
+```
+(7)Display information about a ROS 2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag info turtlemescone2
+```
+(8)Play the recorded Ros2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag play turtlemescone2
+```
+
+
 
 ## Record With the object Cube
-(1)Add the object Cone <br/>
-Create > Shape > Cone <br/>
+### Move Forward
+(1)Add the object Cube <br/>
+Create > Shape > Cube <br/>
 (2) Transform Configuration <br/>
 Cube Transform Configuration <br/>
 ![Turtlebot3_Record17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f3cb5772-9fda-4dd9-930b-aa2541bf360a) <br/>
@@ -182,7 +226,47 @@ ros2 topic echo /rgb
 Ros2bag Data Files: 
 turtlemescube1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
+### Move Using Teleop Keyboard
+(1)Add the object Cube <br/>
+(2)Same as above <br/>
+(3)Launch Ros2 Common container in both terminals <br/>
+```
+cd ${ISAAC_ROS_WS}/src
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+```
+(4)See Topics <br/>
+Terminal1: <br/>
+```
+ros2 topic list
+```
+(5)Drive the robot using teleopkeyboard <br/>
+Let’s drive the robot anyway we want with the command: <br/>
+Terminal2: <br/>
+```
+sudo apt-get install ros-humble-teleop-twist-keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+(6)Record the topics that are being subscribed <br/>
+Terminal1: <br/>
+```
+ros2 bag record -o turtlemescube2 /cmd_vel /parameter_events /rgb /rosout
+```
+(7)Display information about a ROS 2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag info turtlemescube2
+```
+(8)Play the recorded Ros2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag play turtlemescube2
+```
+
 ## Record With the object Cylinder
+### Move Forward
 (1)Add the object Cylinder <br/>
 Create > Shape > Cylinder <br/>
 (2) Transform Configuration <br/>
@@ -245,8 +329,48 @@ ros2 topic echo /rgb
 878314b9) <br/>
 Ros2bag Data Files: <br/>
 turtlemescylinder1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
+### Move Using Teleop Keyboard
+(1)Add the object Cylinder <br/>
+(2)Same as above <br/>
+(3)Launch Ros2 Common container in both terminals <br/>
+```
+cd ${ISAAC_ROS_WS}/src
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+```
+(4)See Topics <br/>
+Terminal1: <br/>
+```
+ros2 topic list
+```
+(5)Drive the robot using teleopkeyboard <br/>
+Let’s drive the robot anyway we want with the command: <br/>
+Terminal2: <br/>
+```
+sudo apt-get install ros-humble-teleop-twist-keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+(6)Record the topics that are being subscribed <br/>
+Terminal1: <br/>
+```
+ros2 bag record -o turtlemescube2 /cmd_vel /parameter_events /rgb /rosout
+```
+(7)Display information about a ROS 2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag info turtlemescube2
+```
+(8)Play the recorded Ros2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag play turtlemescube2
+```
+
 
 ## Record With the object Sphere
+### Move Forward
 (1)Add the object Sphere <br/>
 Create > Shape > Sphere <br/>
 (2) Transform Configuration <br/>
@@ -312,8 +436,49 @@ ros2 topic echo /rgb
 Ros2bag Data Files: <br/>
 turtlemescone1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
 
+### Move Using Teleop Keyboard
+### Move Forward
+(1)Add the object Cylinder <br/>
+(2)Same as above <br/>
+(3)Launch Ros2 Common container in both terminals <br/>
+```
+cd ${ISAAC_ROS_WS}/src
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+```
+(4)See Topics <br/>
+Terminal1: <br/>
+```
+ros2 topic list
+```
+(5)Drive the robot using teleopkeyboard <br/>
+Let’s drive the robot anyway we want with the command: <br/>
+Terminal2: <br/>
+```
+sudo apt-get install ros-humble-teleop-twist-keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+(6)Record the topics that are being subscribed <br/>
+Terminal1: <br/>
+```
+ros2 bag record -o turtlemescube2 /cmd_vel /parameter_events /rgb /rosout
+```
+(7)Display information about a ROS 2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag info turtlemescube2
+```
+(8)Play the recorded Ros2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag play turtlemescube2
+```
+
 
 ## Record With the object Capsule
+### Move Forward
 (1)Add the object Capsule <br/>
 Create > Shape > Capsule <br/>
 (2) Transform Configuration <br/>
@@ -377,7 +542,65 @@ ros2 topic echo /rgb
 ```
 ![Turtlebot3_Record48](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/39a6b202-3684-4056-9baa-fe57f75085df) <br/>
 Ros2bag Data Files: <br/>
-turtlemescone1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
+turtlemescapsule1: https://drive.google.com/drive/folders/1nUen8gcKWVbZOp92moKA_A-Y1Cqvbxzt?usp=sharing <br/>
+
+### Move Using Teleop Keyboard
+(1)Add the object Capsule <br/>
+(2)Transform Configuration <br/>
+Capsule Transform Configuration <br/>
+Capsule <br/>
+![Turtlebot3_Record50](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/34a4cb71-ca28-4b27-ade9-b37e84acab3a) <br/>
+Capsule_01 <br/>
+![Turtlebot3_Record51](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/08f9cb68-2367-4a1c-ad84-be96086e08b1) <br/>
+Capsule_02 <br/>
+![Turtlebot3_Record52](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/13dc9b92-5aa8-4247-8831-df610220b067) <br/>
+Capsule_03 <br/>
+![Turtlebot3_Record53](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e2e17c36-773f-4047-837a-e4482caf320f) <br/>
+Capsule_04 <br/>
+![Turtlebot3_Record54](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/b930a281-d96f-4a9b-afb4-18e1b3e3c048) <br/>
+Capsule_05 <br/>
+![Turtlebot3_Record55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/aa237318-f6e2-46ae-bf8c-c39a8ffd275c) <br/>
+Capsule_06 <br/>
+![Turtlebot3_Record56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fc982760-d9cc-4554-846e-dfc0683fe1e2) <br/>
+Capsule_07 <br/>
+![Turtlebot3_Record57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e194c3e3-e9f7-4190-84c6-50f4bf87bb27) <br/>
+Capsule_08 <br/>
+![Turtlebot3_Record58](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/090d5492-1e02-4357-b131-970d6693c14a) <br/>
+(3)Launch Ros2 Common container in both terminals <br/>
+```
+cd ${ISAAC_ROS_WS}/src
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+```
+(4)See Topics <br/>
+Terminal1: <br/>
+```
+ros2 topic list
+```
+(5)Drive the robot using teleopkeyboard <br/>
+Let’s drive the robot anyway we want with the command: <br/>
+Terminal2: <br/>
+```
+sudo apt-get install ros-humble-teleop-twist-keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+(6)Record the topics that are being subscribed <br/>
+Terminal1: <br/>
+```
+ros2 bag record -o turtlemescapsule2 /cmd_vel /parameter_events /rgb /rosout
+```
+(7)Display information about a ROS 2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag info turtlemescapsule2
+```
+(8)Play the recorded Ros2 bag file <br/>
+turtlemescone1 <br/>
+Terminal1: <br/>
+```
+ros2 bag play turtlemescube2
+```
 
 
 
