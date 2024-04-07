@@ -597,8 +597,11 @@ Terminal1: <br/>
 ros2 bag record -o turtlemescapsule2 /cmd_vel /parameter_events /rgb /rosout
 ```
 ![Turtlebot3_Record63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d968a60-0a51-4d7d-b89d-c14cbb1e884b) <br/>
-![Turtlebot3_Record68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7c0f96b6-3b45-472b-91a4-6074353d1031) <br/>
 turtlemescapsule3 <br/>
+```
+ros2 bag record -o turtlemescapsule3 /cmd_vel /parameter_events /rgb /rosout
+```
+![Turtlebot3_Record68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7c0f96b6-3b45-472b-91a4-6074353d1031) <br/>
 
 (7)Display information about a ROS 2 bag file <br/>
 turtlemescone1 <br/>
@@ -607,6 +610,12 @@ Terminal1: <br/>
 ros2 bag info turtlemescapsule2
 ```
 ![Turtlebot3_Record65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/529eab36-4b7f-4a71-92e1-be344d8cd76f) <br/>
+turtlemescapsule3 <br/>
+```
+ros2 bag info turtlemescapsule3
+```
+![Turtlebot3_Record69](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/71f039d2-721e-4e58-9b4c-596264672197) <br/>
+
 (8)Play the recorded Ros2 bag file <br/>
 turtlemescapsule2 <br/>
 Terminal1: <br/>
@@ -614,6 +623,12 @@ Terminal1: <br/>
 ros2 bag play turtlemescapsule2
 ```
 ![Turtlebot3_Record67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7447c6f7-c728-47ae-a782-3a91a2ecd642) <br/>
+turtlemescapsule3 <br/>
+```
+ros2 bag play turtlemescapsule3
+```
+![Turtlebot3_Record70](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/192f3878-b5ab-4e96-9079-65ea295a9a56) <br/>
+
 (9)Check by echoing the message <br/>
 turtlemescapsule2 <br/>
 Terminal3: <br/>
@@ -623,6 +638,19 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ros2 topic echo /rgb
 ```
 ![Turtlebot3_Record66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0a82b431-258a-4341-a45a-89e0a8c06722) <br/>
-ros2 bags: https://drive.google.com/drive/folders/18WyccbhulqKnjPW6mPtuT0crya-w3QMN?usp=sharing <br/>
+turtlemescapsule2 <br/>
+Terminal3: <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+ros2 topic echo /rgb
+```
+![Turtlebot3_Record70](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/192f3878-b5ab-4e96-9079-65ea295a9a56) <br/>
+
+
+
+ros2 bags: <br/>
+turtlemescapsule2: <br/>
+https://drive.google.com/drive/folders/18WyccbhulqKnjPW6mPtuT0crya-w3QMN?usp=sharing <br/>
 
 
