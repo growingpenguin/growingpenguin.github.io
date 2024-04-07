@@ -587,6 +587,8 @@ sudo apt-get install ros-humble-teleop-twist-keyboard
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 ![Turtlebot3_Record62](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1ccbc723-5062-4c8d-8299-b7f007ab74d1) <br/>
+![Turtlebot3_Record64](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a7e2524c-7515-4853-b9cd-c4bfbe327a51) <br/>
+ 
 
 (6)Record the topics that are being subscribed <br/>
 Terminal1: <br/>
