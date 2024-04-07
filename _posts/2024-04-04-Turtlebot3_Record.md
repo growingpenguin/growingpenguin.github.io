@@ -602,12 +602,23 @@ Terminal1: <br/>
 ```
 ros2 bag info turtlemescapsule2
 ```
+![Turtlebot3_Record65](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/529eab36-4b7f-4a71-92e1-be344d8cd76f) <br/>
 (8)Play the recorded Ros2 bag file <br/>
-turtlemescone1 <br/>
+turtlemescapsule2 <br/>
 Terminal1: <br/>
 ```
-ros2 bag play turtlemescube2
+ros2 bag play turtlemescapsule2
 ```
+![Turtlebot3_Record67](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7447c6f7-c728-47ae-a782-3a91a2ecd642) <br/>
+(9)Check by echoing the message <br/>
+turtlemescapsule2 <br/>
+Terminal3: <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
+  ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+ros2 topic echo /rgb
+```
+![Turtlebot3_Record66](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0a82b431-258a-4341-a45a-89e0a8c06722) <br/>
 
 
 
