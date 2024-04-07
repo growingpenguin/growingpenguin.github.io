@@ -561,7 +561,7 @@ Capsule_04 <br/>
 Capsule_05 <br/>
 ![Turtlebot3_Record55](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/aa237318-f6e2-46ae-bf8c-c39a8ffd275c) <br/>
 Capsule_06 <br/>
-![Turtlebot3_Record56](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fc982760-d9cc-4554-846e-dfc0683fe1e2) <br/>
+![Turtlebot3_Record59](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/912dd4ea-246a-43fc-b2e5-283735b14e2e) <br/>
 Capsule_07 <br/>
 ![Turtlebot3_Record57](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e194c3e3-e9f7-4190-84c6-50f4bf87bb27) <br/>
 Capsule_08 <br/>
