@@ -591,11 +591,15 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
  
 
 (6)Record the topics that are being subscribed <br/>
+turtlemescapsule2 <br/>
 Terminal1: <br/>
 ```
 ros2 bag record -o turtlemescapsule2 /cmd_vel /parameter_events /rgb /rosout
 ```
 ![Turtlebot3_Record63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d968a60-0a51-4d7d-b89d-c14cbb1e884b) <br/>
+![Turtlebot3_Record68](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7c0f96b6-3b45-472b-91a4-6074353d1031) <br/>
+turtlemescapsule3 <br/>
+
 (7)Display information about a ROS 2 bag file <br/>
 turtlemescone1 <br/>
 Terminal1: <br/>
