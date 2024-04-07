@@ -578,6 +578,7 @@ Terminal1: <br/>
 ```
 ros2 topic list
 ```
+![Turtlebot3_Record61](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/5511cbf6-4e5f-48bb-9782-0b253565f76c) <br/>
 (5)Drive the robot using teleopkeyboard <br/>
 Let’s drive the robot anyway we want with the command: <br/>
 Terminal2: <br/>
@@ -585,6 +586,9 @@ Terminal2: <br/>
 sudo apt-get install ros-humble-teleop-twist-keyboard
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
+![Turtlebot3_Record62](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1ccbc723-5062-4c8d-8299-b7f007ab74d1) <br/>
+![Turtlebot3_Record63](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d968a60-0a51-4d7d-b89d-c14cbb1e884b) <br/>
+
 (6)Record the topics that are being subscribed <br/>
 Terminal1: <br/>
 ```
