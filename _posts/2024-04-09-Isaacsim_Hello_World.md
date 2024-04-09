@@ -58,35 +58,57 @@ It provides an easy API to add, manipulate, inspect, and reset different USD ass
 ```
 from omni.isaac.examples.base_sample import BaseSample #boiler plate of a robotics extension application
 
-
 class HelloWorld(BaseSample):
-
     def __init__(self) -> None:
-
         super().__init__()
-
         return
 
-
     # This function is called to setup the assets in the scene for the first time
-
     # Class variables should not be assigned here, since this function is not called
-
     # after a hot-reload, its only called to load the world starting from an EMPTY stage
 
     def setup_scene(self):
-
         # A world is defined in the BaseSample, can be accessed everywhere EXCEPT __init__
-
         world = self.get_world()
-
         world.scene.add_default_ground_plane() # adds a default ground plane to the scene
-
         return
 ```
-
 -HelloWorld class extends BaseSample to create a simple simulation scene with a ground plane <br/>
 It demonstrates the basic structure of an application using Omni Isaac Sim for robotics simulation, focusing on the initial setup of the simulation environment <br/>
+
+### Singleton World
+World is a Singleton, which means only one World can exist while running Omniverse Isaac Sim <br/>
+The code below demonstrates how to retrieve the current instance of the World across different files and extensions <br/>
+```
+from omni.isaac.examples.base_sample import BaseSample
+from omni.isaac.core import World
+
+class HelloWorld(BaseSample):
+    def __init__(self) -> None:
+        super().__init__()
+        return
+
+    def setup_scene(self):
+        world = World.instance()
+        world.scene.add_default_ground_plane()
+        return
+```
+-Imports the World class from omni.isaac.core <br/>
+This class is responsible for managing the simulation environment, and it implements the Singleton design pattern to ensure only one instance of the simulation world exists <br/>
+-world = World.instance() retrieves the singleton instance of the World using the instance() method <br/>
+This is how one ensures that the same instance of the world is accessed across different files and extensions in the Omniverse Isaac Sim environment <br/>
+
+### Adding to the Scene
+Next, use the Python API to add a cube as a rigid body to the scene <br/>
+
+```
+
+
+```
+
+
+
+
 
 
 ## isaac_ros_detectnet
