@@ -55,7 +55,7 @@ World is the core class that enables you to interact with the simulator in an ea
 It handles many time-related events such as adding callbacks, stepping physics, resetting the scene, adding tasks (this will be covered later in Adding a Manipulator Robot), etc <br/>
 A world contains an instance of a Scene. The Scene class manages simulation assets of interest in the USD Stage <br/>
 It provides an easy API to add, manipulate, inspect, and reset different USD assets in the stage <br/>
-
+```
 from omni.isaac.examples.base_sample import BaseSample #boiler plate of a robotics extension application
 
 
@@ -83,6 +83,7 @@ class HelloWorld(BaseSample):
         world.scene.add_default_ground_plane() # adds a default ground plane to the scene
 
         return
+```
 
 -HelloWorld class extends BaseSample to create a simple simulation scene with a ground plane <br/>
 It demonstrates the basic structure of an application using Omni Isaac Sim for robotics simulation, focusing on the initial setup of the simulation environment <br/>
