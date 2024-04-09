@@ -149,6 +149,7 @@ Otherwise, you only need to press the LOAD button <br/>
 (4)Press the PLAY button to start simulating the dynamic cube and see it falling <br/>
 Video: https://drive.google.com/file/d/1iFA_RMKCzAf6ra8jlRqnlls0cdR2WM3F/view?usp=sharing <br/>
 
+### Inspecting Object Properties
 
 
 
