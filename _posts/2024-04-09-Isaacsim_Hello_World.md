@@ -100,12 +100,54 @@ This is how one ensures that the same instance of the world is accessed across d
 
 ### Adding to the Scene
 Next, use the Python API to add a cube as a rigid body to the scene <br/>
-
 ```
+from omni.isaac.examples.base_sample import BaseSample
+import numpy as np
+# Can be used to create a new cube or to point to an already existing cube in stage.
+from omni.isaac.core.objects import DynamicCuboid
 
+class HelloWorld(BaseSample):
+    def __init__(self) -> None:
+        super().__init__()
+        return
 
+    def setup_scene(self):
+        world = self.get_world()
+        world.scene.add_default_ground_plane()
+        fancy_cube = world.scene.add(
+            DynamicCuboid(
+                prim_path="/World/random_cube", # The prim path of the cube in the USD stage
+                name="fancy_cube", # The unique name used to retrieve the object from the scene later on
+                position=np.array([0, 0, 1.0]), # Using the current stage units which is in meters by default.
+                scale=np.array([0.5015, 0.5015, 0.5015]), # most arguments accept mainly numpy arrays.
+                color=np.array([0, 0, 1.0]), # RGB channels, going from 0-1
+            ))
+
+        return
 ```
-
+-fancy_cube = world.scene.add(DynamicCuboid(...)): <br/>
+Adds a dynamic cuboid to the scene <br/>
+The DynamicCuboid class is used to create a new cube or reference an existing one in the stage <br/>
+-Scene Configuration <br/>
+Configurated with a specific path in the Universal Scene Description (USD) stage, a unique name, a position, a scale, and a color <br/>
+prim_path="/World/random_cube": <br/>
+Specifies the path of the cuboid within the USD stage, essentially its address in the scene's hierarchy <br/>
+name="fancy_cube": <br/>
+Sets a unique name for the object, useful for retrieving it later <br/>
+position=np.array([0, 0, 1.0]): <br/>
+Sets the cube's position in the scene using a NumPy array, with the assumption that the stage units are in meters by default <br/>
+scale=np.array([0.5015, 0.5015, 0.5015]): <br/>
+Defines the size of the cube, indicating that most arguments for DynamicCuboid accept NumPy arrays <br/>
+color=np.array([0, 0, 1.0]):  <br/>
+Specifies the cube's color in RGB values, ranging from 0 to 1, with this specific array representing blue <br/>
+(1)Press Ctrl+S to save the code and hot-reload Omniverse Isaac Sim <br/>
+(2)Open the menu again <br/>
+(3)click File > New From Stage Template > Empty, then the LOAD button <br/>
+You need to perform this action if you change anything in the setup_scene <br/>
+Otherwise, you only need to press the LOAD button <br/>
+![IsaacSim_HelloWorld10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3640d12d-93bd-4435-8b93-50e3b4290a2f) <br/>
+(4)Press the PLAY button to start simulating the dynamic cube and see it falling <br/>
+Video: https://drive.google.com/file/d/1iFA_RMKCzAf6ra8jlRqnlls0cdR2WM3F/view?usp=sharing <br/>
 
 
 
