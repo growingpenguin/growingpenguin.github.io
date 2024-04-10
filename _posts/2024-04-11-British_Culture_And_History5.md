@@ -58,10 +58,36 @@ The use of "modest" to describe homes in the nearby area of Madeley suggests tha
 **thriving** <br/>
 Describe a condition of flourishing, prospering, or doing very well <br/>
 When the speaker says the area "was thriving with young families," it implies that the community was once vibrant, full of life, and possibly growing, with many young families living there, contributing to a dynamic and lively environment <br/>
-**spurring**: <br/> The term "spurring" in this context means to stimulate, encourage, or promote. It's used to describe the expected positive effect of the High Speed 2 (HS2) train line on economic development. The idea is that by providing faster connections between major cities, the train line would act as a catalyst for economic growth, potentially leading to more jobs, better connectivity, and enhanced overall economic activity in the regions it serves.
+**ministers**: <br/>
+Government officials or heads of particular departments within the government <br/>
+The reference to "six prime ministers" indicates that the rail project has spanned a long time, affecting or involving the administrations of six different prime ministers <br/>
+**spurring**: <br/> 
+To stimulate, encourage, or promote <br/> 
+It's used to describe the expected positive effect of the High Speed 2 (HS2) train line on economic development <br/> 
+The idea is that by providing faster connections between major cities, the train line would act as a catalyst for economic growth, potentially leading to more jobs, better connectivity, and enhanced overall economic activity in the regions it serves <br/> 
+**overburden**: <br/>
+Refers to something that is carrying a load or burden greater than its capacity, causing strain or stress <br/>
+In the context of the mainline rail network, it suggests that the existing rail infrastructure is struggling to accommodate the current demand for rail services <br/>
+This could be due to a variety of factors, such as too many trains running on limited tracks, outdated systems that can't handle the volume of passengers, or physical wear on the infrastructure <br/>
+The promise of HS2 to liberate space for more local services implies that by diverting some of the long-distance travel to the new high-speed line, it would relieve pressure on the existing network, thereby improving service quality or capacity for local and regional trains <br/>
+**government-financed**: <br/>
+Something that is funded or paid for by the government <br/>
+In this case, it specifies that the company responsible for developing the High Speed 2 (HS2) rail project is financed by government funds, meaning the financial resources required for the project's development come from the government's budget <br/>
+**locals**: <br/>
+The people living in the area affected by the HS2 project <br/>
+These are the residents or community members who are directly impacted by the construction and development activities associated with the rail line <br/>
+**impending**: <br/>
+About to happen or forthcoming <br/>
+The use of "impending" in relation to the construction suggests that the start of the HS2 project's development was imminent, creating a sense of urgency or concern among the locals <br/>
+**bought out**: <br/> 
+To receive a payment in exchange for leaving or relinquishing one's property <br/> 
+In this context, some residents campaigned to be bought out, meaning they sought financial compensation from the government or the responsible company in exchange for their property and agreeing to move away, due to concerns or objections over the construction of the HS2 <br/> 
+**eminent domain**: <br/>
+A legal power that allows governments or their agents to acquire private property for public use, with compensation provided to the property owner <br/>
+The term indicates that the company developing HS2 also utilized this authority to compulsorily acquire land needed for the project, regardless of whether the property owners were willing to sell voluntarily <br/> 
 
 
 
-Ministers: Here, "ministers" likely refers to government officials or heads of particular departments within the government. The reference to "six prime ministers" indicates that the rail project has spanned a long time, affecting or involving the administrations of six different prime ministers. This underscores the project's prolonged duration and possibly the changes in policy or direction that came with different leadership.
+
 ## Professor Notes
 
