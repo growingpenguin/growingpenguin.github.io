@@ -4,6 +4,119 @@ title:  "British Culture And History Cultural Content Week2 "
 ---
 
 # An English Village Hollowed Out for a Train That May Never Come
+## Professor Notes
+Looking at the village Whitmore <br/>
+**Paragraph1** <br/>
+Countryside in Norther England <br/>
+Small cities are close to there <br/>
+Hour by car, from North Birmingham <br/>
+**Paragraph2** <br/>
+Some of the houses <br/>
+Conditions of the hoses nobody living there <br/>
+CCTV monitoring <br/>
+Covering England for a while, describe what's in there <br/>
+Homes nothing in there <br/>
+**Paragraph3** <br/>
+Reason Highspeed ralroad <br/>
+3 decades, 30 years ago the plan was initiated <br/>
+Whenever building infrastructure, becomes a problem <br/>
+**Paragraph4** <br/>
+Parts of it was cancelled <br/>
+Someone had to sell their property, even though they didn't want it <br/>
+**Paragraph5** <br/>
+**Deborah Mallender** <br/>
+Used to have young families, but nobody live here <br/>
+Project name: Highspeed2(HS2) <br/>
+Train tracks had to go through Whitmore <br/>
+Train travel up to 225 miles a hour <br/>
+Someway good, jobs, and works created <br/>
+Lots of railroad already build <br/>
+No highspeed railroad, existing railroad was crowded, but that would have relieved the network <br/>
+**Paragraph6** <br/>
+Many people heard of HS2, they wanted to sell the houses <br/>
+Major construction would be unpleasant to live <br/>
+Locals persuaded to sell their homes <br/>
+Used eminent domain, force them to live <br/>
+**Paragraph7** <br/>
+Whitmore, 50 homes, two or more years <br/>
+HS2 project got scaled down little by little <br/>
+Example: Boras Johnson <br/>
+Another weed that had to go to Leeds, but cancelled it out <br/>
+2023, RIshi Sunak,killed the northern line <br/>
+Rishi Sunak cancelled Manchester <br/>
+**Paragraph8** <br/>
+Elections coming up, Mr.Sunak conservative not looking happy <br/>
+Economic and Brexit unhappy <br/>
+Sunak said he will cut the project <br/>
+Conservatives are reluctant to spend on public reconstruction <br/>
+Like more private companies <br/>
+Like to cut taxes for wealthy <br/>
+Reporter stated it was risky <br/>
+All the money around London, North of England, city up there are not nearly as wealthy <br/>
+Promised to them bringing up to the level of the south of England <br/>
+Mrs. Mallender opposed of HS2 everything affecting quality of life <br/>
+Project killed, vacant houses <br/>
+**Paragraph9** <br/>
+Surveyors, to inspect the state of the city <br/>
+How to get it back to order? <br/>
+House with fence around there <br/>
+**Paragraph10** <br/>
+London to Birmingham, promised for 2026 <br/>
+It's been delayed <br/>
+Take longer than we thought <br/>
+**Paragraph11** <br/>
+Many people were against high speed railroad <br/>
+Somepeople disliked people going aginst economy <br/>
+As a result, cost to come up <br/>
+Destroy waterway, adjust plans, go around it <br/>
+**Paragraph12** <br/>
+Some of the propertis are rented <br/>
+Some occupy the house without permission <br/>
+Used as cannabis factories <br/>
+**Paragraph13** <br/>
+Lots of tax revenue spent, but not happy <br/>
+**Mr.Colclough** <br/>
+Manager of Construction company <br/>
+Didn't sell the propery <br/>
+Thought it would not happen <br/>
+If the construction happened, he would have sold the property <br/>
+Everyone knows, who want to live there <br/>
+People would have been devastated with contruction traffic, dust, noise, lights, and 24-hour working <br/>
+Peaceful city noisy and crowded <br/>
+Part of HS2 that got cancelled <br/>
+**Paragraph14** <br/>
+Some people said, Sunak cancelled last year, maybe can be revived <br/>
+Because, pretty soon election coming out <br/>
+Sunak, driven out, maybe labor party will build in <br/>
+Traffic and transaction in the are, Birmingham and Manchester want this <br/>
+**Paragraph15** <br/>
+New trains will run from Birminghum to Manchester <br/>
+But they are using the original train tracks <br/>
+**Paragraph16** <br/>
+Old train can carry more people <br/>
+New trains need a longer platform for the passengers <br/>
+Journey to Birmingham to Manchester will be slower <br/>
+Can't turn curves quickly <br/>
+**Meg Hillier** <br/>
+Politician, member of the parliament <br/>
+What's gonna happen now? <br/>
+Some of them compulsary purchased <br/>
+**Paragraph16** <br/>
+79 percent rented one <br/>
+Bottom line, most of them purchased was able to be rent to other peole <br/>
+Refurbished, held for construction, some are not viable <br/>
+**Paragraph17** <br/>
+**Mr.Cavenagh-Mainwering** <br/>
+1000 years of whitmore <br/>
+Forced to sell land, has a large property <br/>
+Family been there hundreds of years, farming there for a long time <br/>
+2013, friend warned <br/>
+He was nervous, had a privat propety, forced quarter(25%) had to be sold <br/>
+Few weeks later, project cancelled <br/>
+Part of his land own HS organization <br/>
+Some land is right through his fields <br/>
+Try to repurchase and get it back <br/>
+-Whitmorehall, part of his land  <br/>
 ## Words
 **hollowed out** <br/>
 Process of removing the core or the most significant parts <br/>
@@ -102,7 +215,30 @@ This action represents a significant scaling back or reduction of the project's 
 Something that is about to happen soon and often implies a sense of foreboding or anticipation <br/>
 Here, it suggests that an election is approaching in the near future, creating a backdrop of urgency or concern <br/>
 **Trailing in opinion polls**: <br/>
-Mr. Sunak's party is behind in public opinion surveys, indicating that they are less popular or have less support among the electorate compared to their political rivals. Opinion polls are used to gauge the public's support for different political parties or candidates.
+Mr. Sunak's party is behind in public opinion surveys, indicating that they are less popular or have less support among the electorate compared to their political rivals <br/>
+Opinion polls are used to gauge the public's support for different political parties or candidates <br/>
+**depicted**: <br/>
+To represent or show something in a certain way <br/>
+Mr. Sunak has portrayed or presented the cut as proof of his ability to make difficult choices, suggesting a narrative that emphasizes his leadership qualities or fiscal responsibility <br/>
+**stance**: <br/>
+A person's attitude or position on a specific issue <br/>
+In this case, Mr. Sunak's stance is described as risky because it involves making a significant change or cut, which could have various implications or consequences <br/>
+**predecessors**: <br/>
+The people who held a position or role before someone else <br/>
+Mr. Sunak's predecessors would be the prime ministers or leaders who came before him <br/>
+The context implies that these earlier leaders had different views or policies regarding the project in question <br/>
+**Level up**: <br/>
+The goal of reducing regional inequalities by boosting economic growth and investment in areas that have been historically underdeveloped or disadvantaged, such as the north of England <br/>
+The previous prime ministers had framed the rail line as a measure to achieve this goal, suggesting it was part of broader efforts to promote fairness and prosperity across different regions of the country <br/>
+**incredulous** <br/>
+Finds it difficult to believe or is skeptical <br/>
+Ms. Mallender, along with many locals, finds it difficult to believe or is skeptical about the uncertainty or lack of clarity regarding the future developments following the rail project <br/>
+**habitable order** <br/>
+A condition in which houses are suitable or safe for people to live in <br/>
+It implies that the properties in question currently do not meet the standards or conditions necessary for occupancy, possibly due to neglect, damage, or being left empty for an extended period <br/>
+**going ahead** <br/>
+The construction or development of the high-speed rail line from London to Birmingham is proceeding or continuing as planned, albeit with revised timelines <br/>
+Despite delays or potential changes in the project's scope, this phrase indicates that work on the rail line has not been halted or cancelled and is actively moving forward towards completion <br/>
 
 
 
