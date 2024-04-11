@@ -85,6 +85,27 @@ In this context, some residents campaigned to be bought out, meaning they sought
 **eminent domain**: <br/>
 A legal power that allows governments or their agents to acquire private property for public use, with compensation provided to the property owner <br/>
 The term indicates that the company developing HS2 also utilized this authority to compulsorily acquire land needed for the project, regardless of whether the property owners were willing to sell voluntarily <br/> 
+**ambitions**: <br/>
+Goals, aims, or objectives <br/>
+Goals, aims, or objectives that were initially set for the High Speed 2 (HS2) rail project <br/>
+It suggests the scope, scale, or intended outcomes that the project hoped to achieve, such as improving connectivity between cities, enhancing economic growth, or increasing the capacity of the rail network <br/>
+**markedly**: <br/>
+Significantly or noticeably <br/>
+When it's said that HS2’s ambitions "shrank markedly," it indicates that the goals or objectives of the HS2 project were significantly reduced or scaled back from their original plans <br/>
+This reduction could be in terms of the project's size, the extent of the rail network, the number of cities connected, the timeline for completion, or other key aspects that define the project's ambition <br/>
+**lopped off** <br/>
+A metaphorical expression meaning to cut off or remove a part from the whole <br/>
+It's often used to describe the action of cutting branches off a tree but can also apply to various forms of reduction or elimination in other contexts <br/>
+When it says that Boris Johnson, during his time as the project’s fourth prime minister, "lopped off one northern branch, to Leeds, in 2022," it means he decided to cancel or eliminate a portion of the High Speed 2 (HS2) rail project that was planned to extend to Leeds <br/>
+This action represents a significant scaling back or reduction of the project's original scope, particularly in terms of its geographical reach or the connectivity it aimed to provide <br/>
+**looming**: <br/>
+Something that is about to happen soon and often implies a sense of foreboding or anticipation <br/>
+Here, it suggests that an election is approaching in the near future, creating a backdrop of urgency or concern <br/>
+**Trailing in opinion polls**: <br/>
+Mr. Sunak's party is behind in public opinion surveys, indicating that they are less popular or have less support among the electorate compared to their political rivals. Opinion polls are used to gauge the public's support for different political parties or candidates.
+
+
+
 
 
 
