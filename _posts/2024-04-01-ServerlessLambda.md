@@ -111,8 +111,7 @@ The Serverless Framework is a Node.js application <br/>
 Node.js provides the runtime environment that executes the JavaScript code of the Serverless Framework <br/>
 Without Node.js installed, you can't run any Node.js applications, including the Serverless Framework <br/>
 
-
-(2)Extract the zip file inside the directory sloshing-service <br/>
+(3)Extract the zip file inside the directory sloshing-service <br/>
 ```
 mkdir sloshinga-service
 cd sloshinga-service/
@@ -121,7 +120,7 @@ unzip sloshing-predictiona.zip
 ```
 ![ServerlessLambda10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/13e2b8fb-14a5-457e-8e0a-0ed5892f1044) <br/>
 ![ServerlessLambda11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d3df189-d851-4ad9-a8f8-efaa7f277e08) <br/>
-
+![ServerlessLambda16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4bb18f9f-71aa-482f-b7d9-7292b6eb82e3) <br/>
 ```
 
 ```
