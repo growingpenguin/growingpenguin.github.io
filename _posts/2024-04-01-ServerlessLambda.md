@@ -96,12 +96,23 @@ conda create -n sloshinga-dev python=3.9
 conda activate sloshinga-dev
 ```
 **Deploy Serverless** <br/>
-Downloaded the pre-made lambda file as zip <br/>
+Had the pre-made lambda file as zip <br/>
 (1)Install the library zip <br/>
 ```
 sudo apt update
 sudo apt install unzip
 ```
+(2)Install node.js & npm <br/>
+```
+sudo apt install nodejs
+```
+![ServerlessLambda14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4d02ffbd-131b-49a0-acf8-0b710df7d77b) <br/>
+The Serverless Framework is a Node.js application <br/>
+Node.js provides the runtime environment that executes the JavaScript code of the Serverless Framework <br/>
+Without Node.js installed, you can't run any Node.js applications, including the Serverless Framework <br/>
+![ServerlessLambda15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/40fd3754-da00-431b-bd91-3909f4593aac) <br/>
+
+
 (2)Extract the zip file inside the directory sloshing-service <br/>
 ```
 mkdir sloshinga-service
@@ -111,6 +122,7 @@ unzip sloshing-predictiona.zip
 ```
 ![ServerlessLambda10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/13e2b8fb-14a5-457e-8e0a-0ed5892f1044) <br/>
 ![ServerlessLambda11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d3df189-d851-4ad9-a8f8-efaa7f277e08) <br/>
+
 ```
 
 ```
