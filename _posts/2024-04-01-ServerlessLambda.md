@@ -117,7 +117,7 @@ unzip sloshing-predictiona.zip
 ![ServerlessLambda12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/65f7b165-7c1c-4520-9364-1fc1ef18f01c) <br/>
 
 
-(4)Change the interpreter to the virtual environment <br/>
+**AWS Credentials** <br/>
 
 
 
