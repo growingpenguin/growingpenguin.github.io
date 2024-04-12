@@ -92,11 +92,15 @@ https://www.serverless.com/framework/docs-install-standalone <br/>
 conda create -n sloshinga-dev python=3.9
 ```
 ![ServerlessLambda10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/13e2b8fb-14a5-457e-8e0a-0ed5892f1044) <br/>
-(2)Activate  Virtual Environment <br/>
+(2)Activate Virtual Environment <br/>
 ```
 conda activate sloshinga-dev
 ```
 ![ServerlessLambda11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d3df189-d851-4ad9-a8f8-efaa7f277e08) <br/>
+(3)Deactivate Virtual Environment <br/>
+```
+conda deactivate
+```
 
 **Deploy Serverless** <br/>
 Had the pre-made lambda file as zip <br/>
