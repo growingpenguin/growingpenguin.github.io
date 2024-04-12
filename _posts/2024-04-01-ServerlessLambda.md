@@ -138,9 +138,9 @@ code
 ```
 Open visual studio code and open the sloshing-predictiona folder <br/>
 ![ServerlessLambda18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be2de888-ceb1-4ae8-b145-d77bd3fd68fb) <br/>
-Select the terminal <br/>
+Open handler.py code > Select the virtual env terminal <br/>
 ![ServerlessLambda17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/40df4d34-5ff2-4f5d-9c38-2e66ebd2d78f) <br/>
-
+Run the code => Successful <br/>
 
 **AWS Credentials** <br/>
 
