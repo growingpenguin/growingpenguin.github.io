@@ -133,6 +133,12 @@ unzip sloshing-predictiona.zip
 ![ServerlessLambda16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4bb18f9f-71aa-482f-b7d9-7292b6eb82e3) <br/>
 
 (4)Confirm whether the Lambda Handler function works in a local environment <br/>
+```
+code
+```
+Open visual studio code and open the sloshing-predictiona folder <br/>
+![ServerlessLambda18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/be2de888-ceb1-4ae8-b145-d77bd3fd68fb) <br/>
+Select the terminal <br/>
 ![ServerlessLambda17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/40df4d34-5ff2-4f5d-9c38-2e66ebd2d78f) <br/>
 
 
