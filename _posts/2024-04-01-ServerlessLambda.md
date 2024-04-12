@@ -97,7 +97,12 @@ conda create -n sloshinga-dev python=3.9
 conda activate sloshinga-dev
 ```
 ![ServerlessLambda11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d3df189-d851-4ad9-a8f8-efaa7f277e08) <br/>
-(3)Deactivate Virtual Environment <br/>
+(3)Install packages needed for lambda handler function <br/>
+```
+conda install <pkgs>
+```
+![ServerlessLambda12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/65f7b165-7c1c-4520-9364-1fc1ef18f01c) <br/>
+(4)Deactivate Virtual Environment <br/>
 ```
 conda deactivate
 ```
@@ -128,7 +133,6 @@ unzip sloshing-predictiona.zip
 ![ServerlessLambda16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4bb18f9f-71aa-482f-b7d9-7292b6eb82e3) <br/>
 
 (4)Confirm whether the Lambda Handler function works in a local environment <br/>
-![ServerlessLambda12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/65f7b165-7c1c-4520-9364-1fc1ef18f01c) <br/>
 ![ServerlessLambda17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/40df4d34-5ff2-4f5d-9c38-2e66ebd2d78f) <br/>
 
 
