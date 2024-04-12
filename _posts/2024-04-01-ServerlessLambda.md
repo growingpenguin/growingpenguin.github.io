@@ -174,7 +174,7 @@ https://<endpoint>
 ```
 ![ServerlessLambda23](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c9765b80-3b65-4767-93b2-ca1c4f1c2f05) <br/>
 For this reason, the additional lambda, implemented previously, was needed <br/>
-Another lambda function, which passes the parameters, 
+Another lambda function, which passes the parameters, takes care of this problem <br/>
 Reference: https://blog.zer01ne.dev/entry/AWS-%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%84%9C%EB%B2%84%EB%A6%AC%EC%8A%A4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90-%EC%A0%81%EC%9A%A9%EA%B8%B0%EC%82%BD%EC%A7%88%EA%B8%B0-4-serverless-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC <br/>
 
 
