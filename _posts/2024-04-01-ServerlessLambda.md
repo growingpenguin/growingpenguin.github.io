@@ -106,11 +106,10 @@ sudo apt install unzip
 ```
 sudo apt install nodejs
 ```
-![ServerlessLambda14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4d02ffbd-131b-49a0-acf8-0b710df7d77b) <br/>
+![ServerlessLambda15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/40fd3754-da00-431b-bd91-3909f4593aac) <br/>
 The Serverless Framework is a Node.js application <br/>
 Node.js provides the runtime environment that executes the JavaScript code of the Serverless Framework <br/>
 Without Node.js installed, you can't run any Node.js applications, including the Serverless Framework <br/>
-![ServerlessLambda15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/40fd3754-da00-431b-bd91-3909f4593aac) <br/>
 
 
 (2)Extract the zip file inside the directory sloshing-service <br/>
