@@ -91,10 +91,13 @@ https://www.serverless.com/framework/docs-install-standalone <br/>
 ```
 conda create -n sloshinga-dev python=3.9
 ```
+![ServerlessLambda10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/13e2b8fb-14a5-457e-8e0a-0ed5892f1044) <br/>
 (2)Activate  Virtual Environment <br/>
 ```
 conda activate sloshinga-dev
 ```
+![ServerlessLambda11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d3df189-d851-4ad9-a8f8-efaa7f277e08) <br/>
+
 **Deploy Serverless** <br/>
 Had the pre-made lambda file as zip <br/>
 (1)Install the library zip <br/>
@@ -118,8 +121,6 @@ cd sloshinga-service/
 ls -l
 unzip sloshing-predictiona.zip
 ```
-![ServerlessLambda10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/13e2b8fb-14a5-457e-8e0a-0ed5892f1044) <br/>
-![ServerlessLambda11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d3df189-d851-4ad9-a8f8-efaa7f277e08) <br/>
 ![ServerlessLambda16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4bb18f9f-71aa-482f-b7d9-7292b6eb82e3) <br/>
 ```
 
