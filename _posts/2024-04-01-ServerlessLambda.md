@@ -106,6 +106,11 @@ conda install <pkgs>
 ```
 conda deactivate
 ```
+**AWS Credentials** <br/>
+```
+sudo sls config credentials --provider aws --key <Access Key> --secret <Secret Key>
+```
+![ServerlessLambda20](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/89f8fa77-995e-403a-a3c9-e73f5604833c) <br/>
 
 **Deploy Serverless** <br/>
 Had the pre-made lambda file as zip <br/>
@@ -153,11 +158,16 @@ Open visual studio code and open the sloshing-predictiona folder <br/>
 Open handler.py code > Select the virtual env terminal <br/>
 ![ServerlessLambda17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/40df4d34-5ff2-4f5d-9c38-2e66ebd2d78f) <br/>
 Run the code => Successful <br/>
-
-**AWS Credentials** <br/>
+(5)Install/Update Serverless <br/>
 ```
-sls config credentials --provider aws --key <Access Key> --secret <Secret Key>
+sudo npm install -g serverless
 ```
+![ServerlessLambda21](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/d76910c9-d391-438e-a807-7c0b5bc95894) <br/>
+(6)Deploy the whole folder <br/>
+```
+sudo serverless deploy
+```
+![ServerlessLambda22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7a17c3aa-ce1a-4ac8-b4a1-9bff48f8a54c) <br/>
 
 
 Reference: https://blog.zer01ne.dev/entry/AWS-%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%84%9C%EB%B2%84%EB%A6%AC%EC%8A%A4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90-%EC%A0%81%EC%9A%A9%EA%B8%B0%EC%82%BD%EC%A7%88%EA%B8%B0-4-serverless-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC <br/>
