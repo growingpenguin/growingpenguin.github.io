@@ -167,8 +167,7 @@ sudo npm install -g serverless
 ```
 sudo serverless deploy
 ```
-![ServerlessLambda22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7a17c3aa-ce1a-4ac8-b4a1-9bff48f8a54c) <br/>
-
+![ServerlessLambda22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a32a69c8-623b-4f11-8ab2-cd0503439578) <br/>
 
 Reference: https://blog.zer01ne.dev/entry/AWS-%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%84%9C%EB%B2%84%EB%A6%AC%EC%8A%A4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90-%EC%A0%81%EC%9A%A9%EA%B8%B0%EC%82%BD%EC%A7%88%EA%B8%B0-4-serverless-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC <br/>
 
