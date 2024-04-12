@@ -115,6 +115,11 @@ sudo apt update
 sudo apt install unzip
 ```
 (2)Install node.js & npm <br/>
+Activate virtual env <br/>
+```
+conda activate sloshinga-dev
+```
+![ServerlessLambda11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0d3df189-d851-4ad9-a8f8-efaa7f277e08) <br/>
 ```
 sudo apt install nodejs
 ```
@@ -122,6 +127,13 @@ sudo apt install nodejs
 The Serverless Framework is a Node.js application <br/>
 Node.js provides the runtime environment that executes the JavaScript code of the Serverless Framework <br/>
 Without Node.js installed, you can't run any Node.js applications, including the Serverless Framework <br/>
+```
+node -v
+npm -v
+```
+![ServerlessLambda19](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/53e9269c-4650-43c1-90b3-7d9005e306b2) <br/>
+Check whether nodejs and npm packages are successfully installed by checking their versions <br/>
+
 
 (3)Extract the zip file inside the directory sloshing-service <br/>
 ```
@@ -143,8 +155,12 @@ Open handler.py code > Select the virtual env terminal <br/>
 Run the code => Successful <br/>
 
 **AWS Credentials** <br/>
+```
+sls config credentials --provider aws --key <Access Key> --secret <Secret Key>
+```
 
 
+Reference: https://blog.zer01ne.dev/entry/AWS-%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%84%9C%EB%B2%84%EB%A6%AC%EC%8A%A4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90-%EC%A0%81%EC%9A%A9%EA%B8%B0%EC%82%BD%EC%A7%88%EA%B8%B0-4-serverless-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC <br/>
 
 
 
