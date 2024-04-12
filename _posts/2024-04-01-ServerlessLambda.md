@@ -86,17 +86,21 @@ Upgrade Serverless Framework to the latest version <br/>
 Reference: <br/>
 https://www.serverless.com/framework/docs-install-standalone <br/>
 
-
-
-
-
-
-
-
-
-
-
-
+**Deploy Serverless** <br/>
+Downloaded the pre-made lambda file as zip <br/>
+(1)Install the library zip <br/>
+```
+sudo apt update
+sudo apt install unzip
+```
+(2)Extract the zip file inside the directory sloshing-service <br/>
+```
+mkdir sloshing-service
+cd sloshing-service/
+ls -l
+unzip sloshing-service-dev-predict-sloshing-b424bb72-d8cd-4433-9c52-87d6c02fe167.zip
+```
+![ServerlessLambda9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/97d49f7d-5357-4819-9f0a-81716bfe94c3) <br/>
 
 
 
