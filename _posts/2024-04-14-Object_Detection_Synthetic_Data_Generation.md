@@ -33,3 +33,55 @@ Results will be stored in output_path <br/>
 ![Object_Detection_Synthetic_Data_Generation13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ec61e05d-5b41-4865-9224-f4f6ed49c5ad) <br/>
 ![Object_Detection_Synthetic_Data_Generation14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e8ddedf9-19c6-4eb0-bfba-4eaeb92d0e5c) <br/>
 Errors in loading the environment, so I applied the simple_room.usd instead <br/>
+
+## Concepts
+### The description file
+The description file is a YAML file that has a key omni.replicator.object, and the value corresponding to that key is the description <br/>
+-The description consists of key-value pairs <br/>
+-Each key-value pair is a Mutable, a Harmonizer, or a Setting <br/>
+-The description generates frames as the user demands <br/>
+Each frame, the scene is randomized, and graphics content is captured and output to disk <br/>
+-Settings describe how the scene is configured and how data is output <br/>
+For example, you can set the number of frames to output, whether or not to output 2D bounding boxes, or set the gravity and friction of physics simulation <br/>
+-The description composes the scene populated with objects that are called mutables <br/>
+Mutables randomize every frame <br/>
+-Sometimes we want to constrain how they randomize <br/>
+For example, to know how other mutables are randomizing and randomize correspondingly <br/>
+To do so, we can define harmonizers <br/>
+### Simulation Workflow
+Every time a simulation is launched, the description is parsed, and then the scene along with the mutables and harmonizers are initialized <br/>
+Every frame it goes through the following stages <br/>
+**Free randomize** <br/>
+Mutable attributes that doesn’t depend on harmonizer <br/>
+Randomizes freely <br/>
+**Harmonize** <br/>
+The harmonizers randomize, and collect information from free randomized mutable attributes <br/>
+The collected information are called pitches <br/>
+Just like real harmonizers, the pitches are collected and propagated back to all relevant mutables <br/>
+**Harmonized randomize** <br/>
+Using the return information from the harmonizer, the harmonized mutable attributes randomizes <br/>
+**Physics resolution** <br/>
+Physics is resolved so that objects move away from each other if they overlap, or drop onto a surface if gravity is turned on <br/>
+For more details, refer to Physics simulation explained <br/>
+**Capture** <br/>
+Graphics content is captured <br/>
+**Logging** <br/>
+The state of the scene in this frame is recorded into a description file, such that later on it can be restored or inspected <br/>
+
+### Scene restoration
+In the output content, you can use the output description file of a specific frame to generate the exact same graphics content as when this frame was generated, once again <br/>
+Or you can slightly modify it to have something different but everything else the same <br/>
+In this way we support multiple-sampling for pretrained models <br/>
+
+## Convention in this documentation
+Type in the tables indicate the expected data type. <br/>
+Where a type is expected, a macro string can be used in place to be later on evaluated for that specific type <br/>
+For example, if we expect int in a value, we can either give an int or something like $[index]. See Macro for details <br/>
+Within a mutable, aside from these 2 options, you can also specify a Mutable attribute to evaluate to this type <br/>
+And numeric means literal or evaluated float or int <br/>
+
+## Catalog 
+
+
+Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_object.html <br/>
+
