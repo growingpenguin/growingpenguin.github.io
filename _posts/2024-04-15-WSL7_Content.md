@@ -99,3 +99,49 @@ Sell products, goal, wnat to influence products, think they want to buy it <br/>
 (14)Action benefiiting its source <br/>
 (15)Manipulation to close of debate <br/>
 Don't want people to think about things rationally <br/>
+
+## Youtube video : How to control what people do| Propaganda 
+Edward Bernays <br/>
+Persuaded women to that Edward would smoke <br/>
+One thing he did was, persuaded women to smoke more ciagrattes, bacon and eggs as healthy breakfast, overthrow democratic government <br/>
+=> Propaganda can achieve many things <br/>
+Bernays wrote a book called Propaganda <br/>
+Half truth, bias, and many things <br/>
+Propoganda can be sometimes good <br/>
+Convince to get more vaccines, (trying to protect health) <br/>
+Edward Bernays, going back 100 years ago, Bernays, <br/>
+Brining democracy to europe <br/>
+Came up with the term public relations <br/>
+Word propoganda, people were uncomfortable to ww1, so he replaced it to public relations, which is almost the same thing <br/>
+List of Clients <br/>
+Some of the groups that propaganda worked for <br/>
+First three companies are media <br/>
+Back then, in the US, women smoking was a taboo <br/>
+Tobaco companies, losing potential of money <br/>
+Got involved in psychology, contacted psychologists, why women not smoking <br/>
+Women's movements in the US around 1990, women got the right to vote <br/>
+Tried to smoke using the iconic of torches of freedom <br/>
+Smoking, feminist statist <br/>
+Bunch of women and parade, and contacted media to set up the whole situation, Lit up cigarettes at the same time, and media covered <br/>
+Looked at group psychology <br/>
+If you can influence the leader of the group, then the whole group woule be influenced by the leader <br/>
+If leader say it's a good idea, people will think it will be a good idea <br/>
+Example: Bacon and eggs <br/>
+Before Berneys <br/>
+Infactual information, like eat more eggs, bacon and eggs are cheap and healthy (information) <br/>
+Doctors, influence eating habits <br/>
+Suggest that stating doctors saying bacons and eggs health <br/>
+Doctor symbolize a long life and healthy <br/>
+Asked indirect question, have a hardy breakfast, or something skimpy breakfast? <br/>
+Nine out of ten doctors recommend a hearty breakfast like this one <br/>
+Example: Sell piano <br/>
+old: Buy piano now <br/>
+New: Need something like this.. make it seem its your idea wanting the piano <br/>
+**Important** <br/>
+Government of guatamolo, passed law, worker rights <br/>
+United Fruit compnay, lose money, higher wages and <br/>
+Jacobo Arbenz, president of Guatomolo, was a communist <br/>
+Paraloyd of a communist <br/>
+In reality, he was not a communist, elected <br/>
+Brought journalists to Guatomolo, set up interviews <br/>
+ARBenz, president US saw him as a communist, CIA involved and overthrew the Arbenz <br/>
