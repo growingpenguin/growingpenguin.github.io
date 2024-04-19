@@ -166,7 +166,7 @@ The upsampled signal is filtered to shape the pulses in a way that minimizes int
 A common filter used for this purpose is the raised cosine filter <br/>
 (4)Modulation <br/>
 The shaped pulse is then modulated onto a carrier wave for transmission <br/>
-The multiplication with $\( \cos(2\pi f_c t) \)$ indicates that the data is being modulated with a cosine function of a certain frequency
+The multiplication with $ \cos(2\pi f_c t) $ indicates that the data is being modulated with a cosine function of a certain frequency
 ![SDR_Tutorial7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ee5b48a4-f643-4ea8-b207-bfde4af0de31) <br/>
 
 데이터 0 1 01 => Analog => Signal 형태로 shaping 후 전송 <br/>
