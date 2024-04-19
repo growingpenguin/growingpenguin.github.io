@@ -146,10 +146,29 @@ Spectrum challenge 참여 <br/>
 Research aims at efficient spectrum use <br/>
 httpsL//engineering.purdue.edu/discovery/2014_1.research-aims <br/>
 
-## 라디오의 기본 개념
+## Basic Concept of Radio
 Point-to-Point Communication <br/>
-Transmitter에서 Channel로 Receiver <br/>
-공간 자체도 Channel <br/>
+A direct communication link where information travels from one point (the transmitter) to another point (the receiver) <br/>
+![SDR_Tutorial5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a4c7b68d-34ec-43ad-b80b-40b91060affb) <br/>
+-There is a channel connecting the transmitter to the receiver through which information is sent <br/>
+-The medium or space through which the signal travels acts as a channel <br/>
+-Signal processing steps that occur within a transmitter <br/>
+Transformation of a digital data stream into an analog signal that can be transmitted over a communication channel, such as in radio communications <br/>
+![SDR_Tutorial6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fefaa928-4c93-407c-8a00-5b1b889fe73c) <br/>
+(1)Symbol Mapping <br/>
+Binary data stream (represented by b[n], where n represents the discrete time index) is converted into symbols <br/>
+For example, in a binary system, '0' and '1' might be the symbols, or in more complex systems like QAM (Quadrature Amplitude Modulation), multiple bits could be represented by a single symbol <br/>
+(2)Upsampling <br/>
+The symbol rate is increased by inserting zeros between the original samples, which will later be smoothed out <br/>
+This step prepares the signal for pulse shaping <br/>
+(3)Pulse Shaping <br/>
+The upsampled signal is filtered to shape the pulses in a way that minimizes intersymbol interference (ISI), which occurs when signals overlap and cause distortion <br/>
+A common filter used for this purpose is the raised cosine filter <br/>
+(4)Modulation <br/>
+The shaped pulse is then modulated onto a carrier wave for transmission <br/>
+The multiplication with $\( \cos(2\pi f_c t) \)$ indicates that the data is being modulated with a cosine function of a certain frequency
+![SDR_Tutorial7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ee5b48a4-f643-4ea8-b207-bfde4af0de31) <br/>
+
 데이터 0 1 01 => Analog => Signal 형태로 shaping 후 전송 <br/>
 무선통신에 noise가 껴서 filter 껴서 필터링, sample 데이터 복구의 일련의 과정 <br/>
 
