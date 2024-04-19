@@ -166,9 +166,19 @@ The upsampled signal is filtered to shape the pulses in a way that minimizes int
 A common filter used for this purpose is the raised cosine filter <br/>
 (4)Modulation <br/>
 The shaped pulse is then modulated onto a carrier wave for transmission <br/>
-The multiplication with $ \cos(2\pi f_c t) $ indicates that the data is being modulated with a cosine function of a certain frequency
+The multiplication with $\( \cos(2\pi f_c t) \)$ indicates that the data is being modulated with a cosine function of a certain frequency $f_c$ <br/>
+This moves the signal to a higher frequency band suitable for the transmission medium <br/>
+For radio transmission, this is necessary to transmit the signal over the airwaves <br/>
 ![SDR_Tutorial7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ee5b48a4-f643-4ea8-b207-bfde4af0de31) <br/>
-
+Example: <br/>
+Raw digital signal: [0, 1, 0, 0, 1] <br/>
+=>Symbol Mapping: [-1, +1, -1, -1, +1] <br/>
+Each bit in the sequence is mapped to a symbol. In the simplest form, binary phase-shift keying (BPSK) could be used where '0' might be mapped to -1 and '1' to +1 <br/>
+=>Upsampling: [-1, 0, 0, 0, +1, 0, 0, 0, -1, 0, 0, 0, -1, 0, 0, 0, +1, 0, 0, 0] <br/>
+The symbol-mapped sequence is upsampled to increase the number of samples per symbol, which is necessary for the next steps <br/>
+For example, if we upsample by a factor of 4, we insert 3 zeros between each symbol <br/>
+=>Pulse Shaping:
+=>Modulation (simplified): <br/>
 데이터 0 1 01 => Analog => Signal 형태로 shaping 후 전송 <br/>
 무선통신에 noise가 껴서 filter 껴서 필터링, sample 데이터 복구의 일련의 과정 <br/>
 
