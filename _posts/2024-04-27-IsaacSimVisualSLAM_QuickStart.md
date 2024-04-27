@@ -19,6 +19,7 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ```
 sudo apt-get install -y ros-humble-isaac-ros-visual-slam
 ```
+![IsaacSimVisualSLAM_QuickStart4](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a0df300f-bd14-4c48-a9e6-a86d9469ec11) <br/>
 Run the following launch files in the current terminal (Terminal 1): <br/>
 ```
 ros2 launch isaac_ros_visual_slam isaac_ros_visual_slam.launch.py
