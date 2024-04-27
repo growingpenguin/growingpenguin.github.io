@@ -49,4 +49,14 @@ ros2 bag play src/isaac_ros_visual_slam/isaac_ros_visual_slam/test/test_cases/ro
 ![IsaacSimVisualSLAM_QuickStart2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4b63f4fa-4d30-43c7-9480-696cdd6f971a) <br/>
 ![IsaacSimVisualSLAM_QuickStart1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3020a7c3-d60c-4c3f-8267-51f07713655e) <br/>
 
+**Coordinate Frames** <br/>
+This section describes the coordinate frames that are involved in the VisualSlamNode <br/>
+The frames discussed below are oriented as follows: <br/>
+![IsaacSimVisualSLAM_QuickStart6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/8ae6f265-998f-484e-ad68-94717087477e) <br/>
+(1)input_base_frame: <br/>
+The name of the frame used to calculate transformation between base link and left camera <br/>
+The default value is empty (‘’), which means the value of base_frame_ will be used <br/>
+If input_base_frame_ and base_frame_ are both empty, the left camera is assumed to be in the robot’s center <br/>
+
+
 Reference: https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_visual_slam/isaac_ros_visual_slam/index.html#quickstart <br/>
