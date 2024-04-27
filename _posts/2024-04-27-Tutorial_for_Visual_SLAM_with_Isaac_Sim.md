@@ -28,6 +28,26 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 (4)Press Play to start publishing data from the Isaac Sim <br/>
 ![Visual_SLAM_with_Isaac_Sim2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9792ef8b-1730-4581-8110-79f2748da30c) <br/>
 (5)In a separate terminal, start isaac_ros_visual_slam using the launch files: <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+ros2 launch isaac_ros_visual_slam isaac_ros_visual_slam_isaac_sim.launch.py
+```
+(6)In a separate terminal, send the signal to move the robot about as follows: <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}"
+```
+(7)n a separate terminal, spin up RViz with default configuration file to see the rich visualizations as the robot moves <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+rviz2 -d src/isaac_ros_visual_slam/isaac_ros_visual_slam/rviz/isaac_sim.cfg.rviz
+```
+![Visual_SLAM_with_Isaac_Sim3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e5c72cd1-7ba2-4192-8198-a0a9b7eab6d5) <br/>
+(8)To see the odometry messages, in a separate terminal echo the contents of the /visual_slam/tracking/odometry topic with the following command: <br/>
+```
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+ros2 topic echo /visual_slam/tracking/odometry
+```
 
 
 
