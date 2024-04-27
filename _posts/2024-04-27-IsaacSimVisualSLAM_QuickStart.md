@@ -35,6 +35,7 @@ From this second terminal, run RViz2 to display the output <br/>
 rviz2 -d src/isaac_ros_visual_slam/isaac_ros_visual_slam/rviz/default.cfg.rviz
 ```
 ![IsaacSimVisualSLAM_QuickStart3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/209d655c-8a4f-4e8e-8a57-f652031c4a6b) <br/>
+![IsaacSimVisualSLAM_QuickStart5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bf1633c5-0abe-49f0-91bc-27c2ef6a5e2b) <br/>
 If you are SSHing in from a remote machine, the RViz2 window should be forwarded to your remote machine <br/>
 (6)[Terminal 3] Attach the 3rd terminal to start the rosbag <br/>
 ```
