@@ -33,6 +33,7 @@ From this second terminal, run RViz2 to display the output <br/>
 ```
 rviz2 -d src/isaac_ros_visual_slam/isaac_ros_visual_slam/rviz/default.cfg.rviz
 ```
+![IsaacSimVisualSLAM_QuickStart3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/209d655c-8a4f-4e8e-8a57-f652031c4a6b) <br/>
 If you are SSHing in from a remote machine, the RViz2 window should be forwarded to your remote machine <br/>
 (6)[Terminal 3] Attach the 3rd terminal to start the rosbag <br/>
 ```
@@ -43,6 +44,7 @@ Run the rosbag file to start the demo <br/>
 ```
 ros2 bag play src/isaac_ros_visual_slam/isaac_ros_visual_slam/test/test_cases/rosbags/small_pol_test/
 ```
+![IsaacSimVisualSLAM_QuickStart2](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4b63f4fa-4d30-43c7-9480-696cdd6f971a) <br/>
 ![IsaacSimVisualSLAM_QuickStart1](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/3020a7c3-d60c-4c3f-8267-51f07713655e) <br/>
 
 Reference: https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_visual_slam/isaac_ros_visual_slam/index.html#quickstart <br/>
