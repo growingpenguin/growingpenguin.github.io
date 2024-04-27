@@ -57,6 +57,16 @@ The frames discussed below are oriented as follows: <br/>
 The name of the frame used to calculate transformation between base link and left camera <br/>
 The default value is empty (‘’), which means the value of base_frame_ will be used <br/>
 If input_base_frame_ and base_frame_ are both empty, the left camera is assumed to be in the robot’s center <br/>
-
+(2)input_left_camera_frame: <br/>
+The frame associated with left eye of the stereo camera <br/>
+Note that this is not the same as the optical frame <br/>
+The default value is empty (‘’), which means the left camera is in the robot’s center and left_pose_right will be calculated from the CameraInfo message <br/>
+(3)input_right_camera_frame: <br/>
+The frame associated with the right eye of the stereo camera <br/>
+Note that this is not the same as the optical frame <br/>
+The default value is empty (‘’), which means left and right cameras have identity rotation and are horizontally aligned, so left_pose_right will be calculated from CameraInfo <br/>
+(4)input_imu_frame: <br/>
+The frame associated with the IMU sensor (if available) <br/>
+It is used to calculate left_pose_imu <br/>
 
 Reference: https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_visual_slam/isaac_ros_visual_slam/index.html#quickstart <br/>
