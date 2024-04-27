@@ -1,4 +1,3 @@
-
 # Quickstart for Visual SLAM with Isaac Sim
 ## Overview
 This tutorial walks you through a graph to estimate 3D pose of the camera with Visual SLAM using images from Isaac Sim <br/>
