@@ -43,13 +43,21 @@ ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
 rviz2 -d src/isaac_ros_visual_slam/isaac_ros_visual_slam/rviz/isaac_sim.cfg.rviz
 ```
-![Visual_SLAM_with_Isaac_Sim3](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/e5c72cd1-7ba2-4192-8198-a0a9b7eab6d5) <br/>
+Change the frame id to odom <br/>
+![Visual_SLAM_with_Isaac_Sim5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94cb7fba-4f7d-4164-a088-d47a95d28b4c) <br/>
 (8)To see the odometry messages, in a separate terminal echo the contents of the /visual_slam/tracking/odometry topic with the following command: <br/>
 ```
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
 ros2 topic echo /visual_slam/tracking/odometry
 ```
-
+=> Nothing came out <br/>
+### Saving and Using the Map
+As soon as you start the visual SLAM node, it starts storing the landmarks and the pose graph <br/>
+You can save them in a map and store the map onto a disk <br/>
+Make a call to the SaveMap ROS 2 Action with the following command: <br/>
+```
+ros2 action send_goal /visual_slam/save_map isaac_ros_visual_slam_interfaces/action/SaveMap "{map_url: ${ISAAC_ROS_WS}/src/VisualSLAM}"
+```
 
 
 Reference: <br/>
