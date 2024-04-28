@@ -39,4 +39,3 @@ ros2 bag play slam1
 ros2 bag echo /visual_slam/tracking/odometry
 ```
 ![Visual_SLAM_with_Isaac_Sim9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a9a97373-f71a-46d3-8a24-79b63a578cdf) <br/>
-![Visual_SLAM_with_Isaac_Sim16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/daa04942-4865-4cf9-9b09-e4c5fb912122) <br/>
