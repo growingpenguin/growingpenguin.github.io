@@ -39,7 +39,7 @@ ros2 launch isaac_ros_visual_slam isaac_ros_visual_slam_isaac_sim.launch.py
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
 ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}"
 ```
-(7)n a separate terminal, spin up RViz with default configuration file to see the rich visualizations as the robot moves <br/>
+(7)In a separate terminal, spin up RViz with default configuration file to see the rich visualizations as the robot moves <br/>
 ```
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
 rviz2 -d src/isaac_ros_visual_slam/isaac_ros_visual_slam/rviz/isaac_sim.cfg.rviz
