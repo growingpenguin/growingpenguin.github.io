@@ -59,7 +59,7 @@ Make a call to the SaveMap ROS 2 Action with the following command: <br/>
 ```
 ros2 action send_goal /visual_slam/save_map isaac_ros_visual_slam_interfaces/action/SaveMap "{map_url: ${ISAAC_ROS_WS}/src/VisualSLAM}"
 ```
-
+![Visual_SLAM_with_Isaac_Sim11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bb4977bd-101b-4307-a626-2b0fce7cbc1a) <br/>
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/concepts/visual_slam/cuvslam/tutorial_isaac_sim.html <br/>
