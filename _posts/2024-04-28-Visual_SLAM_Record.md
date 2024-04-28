@@ -25,6 +25,10 @@ ros2 bag record -o slam2 /clicked_point /clock /cmd_vel /front_3d_lidar/point_cl
 ros2 bag info slam1 
 ```
 ![Visual_SLAM_with_Isaac_Sim8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/73cc42c3-63c3-41a7-bc1e-9bbbef262fcb) <br/>
+```
+ros2 bag info slam2
+```
+![Visual_SLAM_with_Isaac_Sim15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c39df698-703f-4fa2-8f53-7eecca9b6496)
 (5)Play the recorded Ros2 bag file 
 ```
 ros2 bag play slam1 
