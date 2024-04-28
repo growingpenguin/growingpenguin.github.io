@@ -26,6 +26,7 @@ ros2 bag info slam1
 ```
 ros2 bag play slam1 
 ```
+![Visual_SLAM_with_Isaac_Sim10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bf9920c1-1d89-4787-b159-d7d0883a7c56) <br/>
 (6)Check by echoing the message 
 ```
 ros2 bag echo /visual_slam/tracking/odometry
