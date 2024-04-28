@@ -44,6 +44,7 @@ ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2, y: 0.0
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
 rviz2 -d src/isaac_ros_visual_slam/isaac_ros_visual_slam/rviz/isaac_sim.cfg.rviz
 ```
+![Visual_SLAM_with_Isaac_Sim16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/daa04942-4865-4cf9-9b09-e4c5fb912122) <br/>
 Change the frame id to odom <br/>
 ![Visual_SLAM_with_Isaac_Sim5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/94cb7fba-4f7d-4164-a088-d47a95d28b4c) <br/>
 (8)To see the odometry messages, in a separate terminal echo the contents of the /visual_slam/tracking/odometry topic with the following command: <br/>
