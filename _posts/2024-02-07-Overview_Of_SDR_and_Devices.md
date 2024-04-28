@@ -104,7 +104,10 @@ To effectively utilize SDR, it's important to understand the underlying concepts
 A schematic of the USRP (Universal Software Radio Peripheral)/SBX (SBX is a specific model of USRP that operates at a certain frequency range), which is a common piece of hardware used for SDR <br/>
 -Signal processing path within an SDR system, specifically using a USRP(Universal Software Radio Peripheral) device <br/>
 Starts with a Gain control, then passes through an Anti-aliasing filter with a 100 MHz cutoff frequency before reaching the Analog-to-Digital Converter (ADC), which converts the analog signal into a digital signal represented by x[n] <br/>
-
+-The USRP2 N210 uses a port interface to initiate applications and has been expanded through such implementations <br/>
+-The system has components that can be updated as needed <br/>
+-The signal processing flow is: Gain → Anti-aliasing Filter → ADC (Analog to Digital Converter) → x[n] (digital signal representation) <br/>
+-Plans to develop the framing, scheduling, and radiation components in software <br/>
 
 ### Software-Defined Vehicle (SDV) and Related Technologies
 **Evolution from SDR to SDV** <br/>
@@ -133,18 +136,9 @@ Improved Performance and Efficiency: By optimizing software algorithms and proce
 
 
 
-### Software Defined Vehicle <br/>
--Software-Defined Vehicle, Storage, Cloud, Network 등장<br/>
--Software-Defined Radio가 시초 <br/>
--USRP2 N210은 port를 써서 interface 써서 응용 시작해서 확장해 왔음 <br/>
-솦
-thv mxmdnpdj qnqns ghrdms wjscpfmf zjsxmfhf dnsdud 업데이트할 수 있는 라딩 <br/>
-Gain -> Anit-aliasing Filter -> ADC -> x[n] <br/>
-Framing, Schediling, Radiation 부분을 software로 만들겠다 <br/>
 ### 발표자의 Credential 
 Spectrum challenge 참여 <br/>
 Research aims at efficient spectrum use <br/>
-httpsL//engineering.purdue.edu/discovery/2014_1.research-aims <br/>
 
 ## Basic Concept of Radio
 Point-to-Point Communication <br/>
@@ -343,3 +337,7 @@ SOfware firmware 업데이트하도록하는게 미래의 SDR <br/>
 FOTA: Connected car 주차시 LTE로 firmware 업데이트 <br/>
 SDR 동작 가능 특징 업데이트 가능한 세상이 찾아올 예정 <br/>
 SDR
+
+
+Extra Study: <br/>
+httpsL//engineering.purdue.edu/discovery/2014_1.research-aims <br/>
