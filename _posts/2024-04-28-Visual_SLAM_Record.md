@@ -11,9 +11,10 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ```
 ros2 topic list
 ```
+![Visual_SLAM_with_Isaac_Sim6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/c780381a-6936-4699-9a3d-b6b96c9ac24b) <br/>
 (3)Record the topics that are being subscribed  <br/>
 ```
-ros2 bag record -o slam1 /cmd_vel /parameter_events /rgb /rosout
+ros2 bag record -o slam1 /clicked_point /clock /cmd_vel /front_3d_lidar/point_cloud /front_stereo_camera/imu/data /front_stereo_camera/left_rgb/camerainfo /front_stereo_camera/left_rgb/image_raw /front_stereo_camera/right_rgb/camerainfo /front_stereo_camera/right_rgb/image_raw /goal_pose /initialpose /left_stereo_camera/imu/data /odom /parameter_events /rear_stereo_camera/imu/data /right_stereo_camera/imu/data /rosout /tf /tf_static /visual_slam/tracking/odometry /visual_slam/tracking/slam_path /visual_slam/tracking/vo_path /visual_slam/vis/gravity /visual_slam/vis/gravity_array /visual_slam/vis/landmarks_cloud /visual_slam/vis/loop_closure_cloud /visual_slam/vis/observations_cloud /visual_slam/vis/pose_graph_edges /visual_slam/vis/pose_graph_edges2 /visual_slam/vis/pose_graph_edges2_array /visual_slam/vis/pose_graph_edges_array /visual_slam/vis/pose_graph_nodes /visual_slam/vis/velocity
 ```
 (4)Display information about a ROS 2 bag file <br/>
 ```
