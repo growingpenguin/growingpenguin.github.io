@@ -31,6 +31,7 @@ cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ```
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common &&   ./scripts/run_dev.sh ${ISAAC_ROS_WS}
 sudo apt-get install -y ros-humble-isaac-ros-visual-slam
+source /workspaces/isaac_ros-dev/install/setup.bash
 ros2 launch isaac_ros_visual_slam isaac_ros_visual_slam_isaac_sim.launch.py
 ```
 (6)In a separate terminal, send the signal to move the robot about as follows: <br/>
