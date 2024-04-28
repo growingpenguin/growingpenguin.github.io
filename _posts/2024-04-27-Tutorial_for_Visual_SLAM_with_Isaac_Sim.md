@@ -57,9 +57,11 @@ As soon as you start the visual SLAM node, it starts storing the landmarks and t
 You can save them in a map and store the map onto a disk <br/>
 Make a call to the SaveMap ROS 2 Action with the following command: <br/>
 ```
-ros2 action send_goal /visual_slam/save_map isaac_ros_visual_slam_interfaces/action/SaveMap "{map_url: ${ISAAC_ROS_WS}/src/VisualSLAM}"
+ros2 action send_goal /visual_slam/save_map isaac_ros_visual_slam_interfaces/action/SaveMap "{map_url: /home/rosexpert1/workspaces/isaac_ros-dev/src/VisualSLAM}"
 ```
 ![Visual_SLAM_with_Isaac_Sim11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bb4977bd-101b-4307-a626-2b0fce7cbc1a) <br/>
+Error: <br/>
+![Visual_SLAM_with_Isaac_Sim12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/12642d28-5007-4176-b9d4-f896af8ceb2f) <br/>
 
 Reference: <br/>
 https://nvidia-isaac-ros.github.io/concepts/visual_slam/cuvslam/tutorial_isaac_sim.html <br/>
