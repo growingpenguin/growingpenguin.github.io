@@ -16,10 +16,12 @@ ros2 topic list
 ```
 ros2 bag record -o slam1 /clicked_point /clock /cmd_vel /front_3d_lidar/point_cloud /front_stereo_camera/imu/data /front_stereo_camera/left_rgb/camerainfo /front_stereo_camera/left_rgb/image_raw /front_stereo_camera/right_rgb/camerainfo /front_stereo_camera/right_rgb/image_raw /goal_pose /initialpose /left_stereo_camera/imu/data /odom /parameter_events /rear_stereo_camera/imu/data /right_stereo_camera/imu/data /rosout /tf /tf_static /visual_slam/tracking/odometry /visual_slam/tracking/slam_path /visual_slam/tracking/vo_path /visual_slam/vis/gravity /visual_slam/vis/gravity_array /visual_slam/vis/landmarks_cloud /visual_slam/vis/loop_closure_cloud /visual_slam/vis/observations_cloud /visual_slam/vis/pose_graph_edges /visual_slam/vis/pose_graph_edges2 /visual_slam/vis/pose_graph_edges2_array /visual_slam/vis/pose_graph_edges_array /visual_slam/vis/pose_graph_nodes /visual_slam/vis/velocity
 ```
+![Visual_SLAM_with_Isaac_Sim7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/67c8ad32-351b-416a-a56c-e33e1c834416) <br/>
 (4)Display information about a ROS 2 bag file <br/>
 ```
 ros2 bag info slam1 
 ```
+![Visual_SLAM_with_Isaac_Sim8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/73cc42c3-63c3-41a7-bc1e-9bbbef262fcb) <br/>
 (5)Play the recorded Ros2 bag file 
 ```
 ros2 bag play slam1 
