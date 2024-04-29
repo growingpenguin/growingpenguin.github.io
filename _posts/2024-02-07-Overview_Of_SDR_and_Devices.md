@@ -170,12 +170,16 @@ For radio transmission, this is necessary to transmit the signal over the airwav
 Similar to pulse shaping, a raised cosine filter is often employed <br/>
 The matched filter's purpose is to enhance the signal-to-noise ratio and minimize intersymbol interference <br/>
 By matching the expected pulse shape, it facilitates the clear distinction of symbols amidst noise <br/>
+The received signal is passed through a matched filter (with a response conjugate to the pulse shaping filter) to maximize the signal-to-noise ratio and to mitigate any intersymbol interference <br/>
 (2)Frequency & Time Synchronization: <br/>
 The received signal may undergo changes due to Doppler shifts and propagation delays <br/>
 This stage corrects frequency and timing misalignments to ensure proper demodulation, particularly vital in schemes relying on phase information <br/>
+Adjust the received signal's frequency and timing to account for any Doppler shifts or propagation delays, aligning it with the receiver's reference <br/>
 (3)Downsampling:  <br/>
  The original signal is typically oversampled to preserve all waveform details <br/>
  Downsampling reduces the sample rate to match the symbol rate, streamlining further processing and reducing computational requirements <br/>
+ Reduce the sample rate of the synchronized signal to match the original symbol rate <br/>
+ For our example, assuming perfect synchronization and filtering, we could go from a high number of samples back to one sample per symbol.
 (4)Symbol De-Mapping: <br/>
 Once the radio signal is received, it's often down-converted from a high frequency to a lower, more manageable one <br/>
 The symbol de-mapping process then reverses the modulation from the transmitter, restoring the modulated symbols to the original bit stream <br/>
