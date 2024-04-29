@@ -72,9 +72,22 @@ This can be used if randomized materials are not loaded in time or if temporal r
 The Control Timeline checkbox will start/stop/pause/resume the timeline together with the recorder, after each recording the timeline is moved to timestamp 0 <br/>
 
 ## Record Turtlebot Synthetic Data
-**Choose Parameters** <br/>
+(1)Choose Parameters <br/>
 ![IsaacSim_Semantic_Segmentation22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1498393e-a576-4a84-89e0-6e8dcec99977) <br/>
 Chose rgb, colorize_semantic_segmentation, instance_id_segmentation, and colorize_instance_id_segmentation <br/>
-
+(2)Writer Parameters <br/>
+![IsaacSim_Semantic_Segmentation26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/65991fe5-ffec-4054-baee-01d551a9bb14) <br/>
+Stored data in /home/rosexpert1/Semantic_data directory _out_sdrec folder <br/>
+(3)Drive Turtlebot <br/>
+(3)-1 To make it easier for us to move the Turtlebot around, install the teleop_twist_keyboard by running the following command: <br/>
+```
+#sudo apt-get install ros-$ROS_DISTRO-teleop-twist-keyboard
+sudo apt-get install ros-humble-teleop-twist-keyboard
+```
+<br/>
+(3)-2 Enable driving using the keyboard by running: <br/>
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
 
 Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_recorder.html <br/>
