@@ -177,16 +177,14 @@ Converts the filtered symbols back into the bit stream. <br/>
 The symbol de-mapping process then reverses the modulation from the transmitter, restoring the modulated symbols to the original bit stream <br/>
 Example: Received symbols close to -1 or +1 are mapped back to '0' or '1' <br/>
 Recovered bit stream [0, 1, 0, 0, 1] matches the original signal <br/>
+Transmitted data takes the form of an analog signal shaped for transmission <br/>
+Radio communications include filtering to manage noise and recover sample data <br/>
+All modules are hard-coded or statically set; in hardware, adjustments are limited <br/>
+Frequency adjustment is symbolized by the cosine function $(cos(2π))$ <br/>
+The entire process depicts how data in its raw digital form is transformed, transmitted, and then received as an analog radio signal <br/>
+The recovered data at the receiver end should match the original digital signal if all steps are properly implemented <br/>
 
 
-![SDR_Tutorial7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ee5b48a4-f643-4ea8-b207-bfde4af0de31) <br/>
-데이터 0 1 01 => Analog => Signal 형태로 shaping 후 전송 <br/>
-무선통신에 noise가 껴서 filter 껴서 필터링, sample 데이터 복구의 일련의 과정 <br/>
-
-b[n] -> b'[n] <br/>
--모든 모둘들이 Hard Coding 혹은 Static하게 지정되어 있음 <br/>
-하드웨어라면 수정 자체가 불가능 & 하드웨어 상의 조정만 가능 <br/>
-cos(2파이): 주파수 조정 <br/>
 
 ### Hardware Radio에서부터 <br/>
 라디오 돌리는 거를 통한 tuning <br/>
