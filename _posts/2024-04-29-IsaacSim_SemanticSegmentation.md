@@ -72,6 +72,9 @@ This can be used if randomized materials are not loaded in time or if temporal r
 The Control Timeline checkbox will start/stop/pause/resume the timeline together with the recorder, after each recording the timeline is moved to timestamp 0 <br/>
 
 ## Record Turtlebot Synthetic Data
+**Choose Parameters** <br/>
+![IsaacSim_Semantic_Segmentation22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1498393e-a576-4a84-89e0-6e8dcec99977) <br/>
+Chose rgb, colorize_semantic_segmentation, instance_id_segmentation, and colorize_instance_id_segmentation <br/>
 
 
 Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_recorder.html <br/>
