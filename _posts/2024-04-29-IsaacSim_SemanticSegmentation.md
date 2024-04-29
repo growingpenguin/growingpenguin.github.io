@@ -25,3 +25,37 @@ Click on Add Entry On All Selected Prims <br/>
 Do the same thing for the other _05_tomato_soup_can <br/>
 ![IsaacSim_Semantic_Segmentation9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9b4f66a6-a622-4d19-b47d-08bb4f7b4ce7) <br/>
 The soup cans which appeared black now appear in shades of deep blue and the cracker boxes which appeared to be in shades of hot pink now appears to appear in shades of bright red <br/>
+
+## Synthetic Data Recorder
+A GUI-based extension in Isaac Sim to record synthetic data using Replicator <br/>
+### Learning Objectives <br/>
+This tutorial introduces the Synthetic Data Recorder for Isaac Sim, a GUIextension for recording synthetic data with the possibility of using custom Replicator writers to record the data in any custom format <br/>
+**Getting Started** <br/>
+![IsaacSim_Semantic_Segmentation10](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/f2260612-12ea-4b0f-b5c0-c5b23bd81244) <br/>
+Replicator > Synthetic Data Recorder <br/>
+### Basic Usage
+The recorder is split into two main parts: <br/>
+the Writer frame - containing sensor, data, and output parameters; and the Control frame - containing the recording functionalities such as start, stop, pause, and parameters such as the number of frames to execute <br/>
+![IsaacSim_Semantic_Segmentation11](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/807573b0-26c8-40be-ae11-a8c34985c856) <br/>
+**Writer Parameters** <br/>
+The Render Products frame creates a list of render product entries using the Add New Render Product button <br/>
+By default a new entry is added to the list using the active viewport camera as its camera path (see left figure) <br/>
+If however cameras are selected in the stage viewer, these are added to the render products list (see right figure) <br/>
+The render products list can contain the same camera path multiple times, however each time with a different resolution <br/>
+All the entry values (camera path or resolution) can also be manually edited in the input fields <br/>
+![IsaacSim_Semantic_Segmentation12](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/45958eb3-85eb-48d1-bc0c-8b1a21c5e018) <br/>
+Click Add New Render Product Entry to add turtle_Camera <br/>
+![IsaacSim_Semantic_Segmentation13](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/eb85611c-c674-4d13-be03-73cf23b11c01) <br/>
+![IsaacSim_Semantic_Segmentation14](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/7416588f-29fe-407a-a609-3f3b3c5a9796) <br/>
+The Parameters frame gives the possibility to choose between the default built-in Replicator writer (BasicWriter) or to choose a custom writer <br/>
+The default writer parameters (mostly annotators) can be selected from the checkbox list <br/>
+As custom writers have unknown parameters, these can be provided by the user in form of a json file containing all the required parameters <br/>
+The path to the json file can be added in the Parameters Path input field <br/>
+![IsaacSim_Semantic_Segmentation15](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/08421352-1bd3-4b7e-8adb-cbe0f580de2e) <br/>
+Click to check Semantic_Segmentation <br/>
+![IsaacSim_Semantic_Segmentation16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bd87fa5d-b9ff-4af5-929b-32c552b48494) <br/>
+The Output frame (left figure) contains the working directory path where the data will be saved together with the folder name used for the current recording <br/>
+The output folder name will be incremented in case of conflict. The recorder can also write to S3 buckets by checking Use S3 and providing the required fields and having the AWS credentials set up <br/>
+
+
+Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_recorder.html <br/>
