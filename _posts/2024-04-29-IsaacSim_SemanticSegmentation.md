@@ -86,8 +86,11 @@ sudo apt-get install ros-humble-teleop-twist-keyboard
 ```
 <br/>
 (3)-2 Enable driving using the keyboard by running: <br/>
+
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
+![IsaacSim_Semantic_Segmentation27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0e69973d-b8fb-472c-aa8a-6eab4ceaf051) <br/>
+
 
 Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_recorder.html <br/>
