@@ -59,6 +59,16 @@ The output folder name will be incremented in case of conflict <br/>
 The recorder can also write to S3 buckets by checking Use S3 and providing the required fields and having the AWS credentials set up <br/>
 ![IsaacSim_Semantic_Segmentation17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6a8b6245-ab03-4dac-8971-626a62af3441) <br/>
 The Config frame (right figure) can load and save the GUI writer state as a json config file. By default the extension loads the previously used configuration state <br/>
-
+**Control** <br/>
+![IsaacSim_Semantic_Segmentation18](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a6e9f8cf-f00e-490c-9611-0355ab77d48a) <br/>
+The Control frame contains the recording functionalities such as Start/Stop and Pause/Resume, and parameters such as the number of frames to record, or the number of subframes to render for each recorded frame <br/>
+The Start button will create a writer given the selected parameters and start the recording <br/>
+The Stop button will stop the recording and clear the writer <br/>
+The Pause button will pause the recording without clearing the writer, and the Resume button will resume the recording <br/>
+The Number of frames input field will set the number of frames to record, after which the recorder will be stopped and the writer cleared <br/>
+If the value is set to 0, the recording will run indefinitely until the Stop button is pressed <br/>
+The RTSubframes field will set the number of additional subframes to render for each per frame <br/>
+This can be used if randomized materials are not loaded in time or if temporal rendering artifacts (such as ghosting) are present due to objects being teleported <br/>
+The Control Timeline checkbox will start/stop/pause/resume the timeline together with the recorder, after each recording the timeline is moved to timestamp 0 <br/>
 
 Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_recorder.html <br/>
