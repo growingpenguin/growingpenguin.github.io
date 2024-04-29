@@ -24,3 +24,4 @@ Configure New Semantic Type as class and New Semantic data as can <br/>
 Click on Add Entry On All Selected Prims <br/>
 Do the same thing for the other _05_tomato_soup_can <br/>
 ![IsaacSim_Semantic_Segmentation9](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/9b4f66a6-a622-4d19-b47d-08bb4f7b4ce7) <br/>
+The soup cans which appeared black now appear in shades of deep blue and the cracker boxes which appeared to be in shades of hot pink now appears to appear in shades of bright red <br/>
