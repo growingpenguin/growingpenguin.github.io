@@ -71,4 +71,7 @@ The RTSubframes field will set the number of additional subframes to render for 
 This can be used if randomized materials are not loaded in time or if temporal rendering artifacts (such as ghosting) are present due to objects being teleported <br/>
 The Control Timeline checkbox will start/stop/pause/resume the timeline together with the recorder, after each recording the timeline is moved to timestamp 0 <br/>
 
+## Record Turtlebot Synthetic Data
+
+
 Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_recorder.html <br/>
