@@ -78,14 +78,16 @@ Chose rgb, colorize_semantic_segmentation, instance_id_segmentation, and coloriz
 (2)Writer Parameters <br/>
 ![IsaacSim_Semantic_Segmentation26](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/65991fe5-ffec-4054-baee-01d551a9bb14) <br/>
 Stored data in /home/rosexpert1/Semantic_data directory _out_sdrec folder <br/>
-(3)Drive Turtlebot <br/>
-(3)-1 To make it easier for us to move the Turtlebot around, install the teleop_twist_keyboard by running the following command: <br/>
+(3)Control Parameters <br/>
+![IsaacSim_Semantic_Segmentation29](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/4ad53cda-8653-41bc-891a-d2b7140d4033) <br/>
+(4)Drive Turtlebot <br/>
+(4)-1 To make it easier for us to move the Turtlebot around, install the teleop_twist_keyboard by running the following command: <br/>
 ```
 #sudo apt-get install ros-$ROS_DISTRO-teleop-twist-keyboard
 sudo apt-get install ros-humble-teleop-twist-keyboard
 ```
 <br/>
-(3)-2 Enable driving using the keyboard by running: <br/>
+(4)-2 Enable driving using the keyboard by running: <br/>
 
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
