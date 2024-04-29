@@ -144,55 +144,42 @@ Research aims at efficient spectrum use <br/>
 Point-to-Point Communication <br/>
 A direct communication link where information travels from one point (the transmitter) to another point (the receiver) <br/>
 ![SDR_Tutorial5](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/a4c7b68d-34ec-43ad-b80b-40b91060affb) <br/>
--There is a channel connecting the transmitter to the receiver through which information is sent <br/>
--The medium or space through which the signal travels acts as a channel <br/>
--Signal processing steps that occur within a transmitter <br/>
-Transformation of a digital data stream into an analog signal that can be transmitted over a communication channel, such as in radio communications <br/>
+-Direct communication link from one point (the transmitter) to another (the receiver) <br/>
+-Information travels through a channel which can be air, space, or cable <br/>
 **Transmittor** <br/>
 ![SDR_Tutorial6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fefaa928-4c93-407c-8a00-5b1b889fe73c) <br/>
 (1)Symbol Mapping <br/>
-Binary data stream (represented by b[n], where n represents the discrete time index) is converted into symbols <br/>
-For example, in a binary system, '0' and '1' might be the symbols, or in more complex systems like QAM (Quadrature Amplitude Modulation), multiple bits could be represented by a single symbol <br/>
+Converts binary data stream (b[n]) into symbols <br/>
+In BPSK, binary '0' is mapped to -1 and '1' to +1 <br/>
+Example: Raw digital signal [0, 1, 0, 0, 1] becomes [-1, +1, -1, -1, +1] <br/>
 (2)Upsampling <br/>
-The symbol rate is increased by inserting zeros between the original samples, which will later be smoothed out <br/>
-This step prepares the signal for pulse shaping <br/>
+Increases the symbol rate by inserting zeros <br/>
+Upsampled example: [-1, 0, 0, 0, +1, 0, 0, 0, -1, 0, 0, 0, -1, 0, 0, 0, +1, 0, 0, 0] <br/>
 (3)Pulse Shaping <br/>
-The upsampled signal is filtered to shape the pulses in a way that minimizes intersymbol interference (ISI), which occurs when signals overlap and cause distortion <br/>
-A common filter used for this purpose is the raised cosine filter <br/>
+Applies a raised cosine filter to the upsampled signal <br/>
+Minimizes intersymbol interference (ISI) and prepares the signal for transmission <br/>
 (4)Modulation <br/>
-The shaped pulse is then modulated onto a carrier wave for transmission <br/>
-The multiplication with $\( \cos(2\pi f_c t) \)$ indicates that the data is being modulated with a cosine function of a certain frequency $f_c$ <br/>
-This moves the signal to a higher frequency band suitable for the transmission medium <br/>
-For radio transmission, this is necessary to transmit the signal over the airwaves <br/>
+The shaped signal is modulated with a cosine carrier wave $\( \cos(2\pi f_c t) \)$ <br/>
+Transfers the data to a suitable frequency band for transmission <br/>
 **Receiver** <br/>
 ![SDR_Tutorial8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/561ef49c-63c6-4d83-8c2e-0a1db15aa2d6) <br/>
 (1)Matched Filter:  <br/>
-Similar to pulse shaping, a raised cosine filter is often employed <br/>
-The matched filter's purpose is to enhance the signal-to-noise ratio and minimize intersymbol interference <br/>
-By matching the expected pulse shape, it facilitates the clear distinction of symbols amidst noise <br/>
-The received signal is passed through a matched filter (with a response conjugate to the pulse shaping filter) to maximize the signal-to-noise ratio and to mitigate any intersymbol interference <br/>
+Uses a filter similar to the transmitter's raised cosine to optimize signal-to-noise ratio <br/>
+Helps distinguish the symbols clearly amidst noise <br/>
 (2)Frequency & Time Synchronization: <br/>
-The received signal may undergo changes due to Doppler shifts and propagation delays <br/>
-This stage corrects frequency and timing misalignments to ensure proper demodulation, particularly vital in schemes relying on phase information <br/>
-Adjust the received signal's frequency and timing to account for any Doppler shifts or propagation delays, aligning it with the receiver's reference <br/>
+Corrects frequency and timing misalignments due to Doppler shifts and propagation delays. <br/>
+Aligns the received signal with the receiver's reference for demodulation. <br/>
 (3)Downsampling:  <br/>
- The original signal is typically oversampled to preserve all waveform details <br/>
- Downsampling reduces the sample rate to match the symbol rate, streamlining further processing and reducing computational requirements <br/>
- Reduce the sample rate of the synchronized signal to match the original symbol rate <br/>
- For our example, assuming perfect synchronization and filtering, we could go from a high number of samples back to one sample per symbol.
+Reduces the sample rate to match the original symbol rate <br/>
+In our example, the sequence returns to one sample per symbol <br/>
 (4)Symbol De-Mapping: <br/>
-Once the radio signal is received, it's often down-converted from a high frequency to a lower, more manageable one <br/>
+Converts the filtered symbols back into the bit stream. <br/>
 The symbol de-mapping process then reverses the modulation from the transmitter, restoring the modulated symbols to the original bit stream <br/>
+Example: Received symbols close to -1 or +1 are mapped back to '0' or '1' <br/>
+Recovered bit stream [0, 1, 0, 0, 1] matches the original signal <br/>
+
+
 ![SDR_Tutorial7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ee5b48a4-f643-4ea8-b207-bfde4af0de31) <br/>
-Example: <br/>
-Raw digital signal: [0, 1, 0, 0, 1] <br/>
-=>Symbol Mapping: [-1, +1, -1, -1, +1] <br/>
-Each bit in the sequence is mapped to a symbol. In the simplest form, binary phase-shift keying (BPSK) could be used where '0' might be mapped to -1 and '1' to +1 <br/>
-=>Upsampling: [-1, 0, 0, 0, +1, 0, 0, 0, -1, 0, 0, 0, -1, 0, 0, 0, +1, 0, 0, 0] <br/>
-The symbol-mapped sequence is upsampled to increase the number of samples per symbol, which is necessary for the next steps <br/>
-For example, if we upsample by a factor of 4, we insert 3 zeros between each symbol <br/>
-=>Pulse Shaping:
-=>Modulation (simplified): <br/>
 데이터 0 1 01 => Analog => Signal 형태로 shaping 후 전송 <br/>
 무선통신에 noise가 껴서 filter 껴서 필터링, sample 데이터 복구의 일련의 과정 <br/>
 
