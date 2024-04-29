@@ -55,7 +55,10 @@ The path to the json file can be added in the Parameters Path input field <br/>
 Click to check Semantic_Segmentation <br/>
 ![IsaacSim_Semantic_Segmentation16](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/bd87fa5d-b9ff-4af5-929b-32c552b48494) <br/>
 The Output frame (left figure) contains the working directory path where the data will be saved together with the folder name used for the current recording <br/>
-The output folder name will be incremented in case of conflict. The recorder can also write to S3 buckets by checking Use S3 and providing the required fields and having the AWS credentials set up <br/>
+The output folder name will be incremented in case of conflict <br/>
+The recorder can also write to S3 buckets by checking Use S3 and providing the required fields and having the AWS credentials set up <br/>
+![IsaacSim_Semantic_Segmentation17](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/6a8b6245-ab03-4dac-8971-626a62af3441) <br/>
+The Config frame (right figure) can load and save the GUI writer state as a json config file. By default the extension loads the previously used configuration state <br/>
 
 
 Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_recorder.html <br/>
