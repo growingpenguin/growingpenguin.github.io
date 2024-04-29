@@ -71,7 +71,7 @@ The RTSubframes field will set the number of additional subframes to render for 
 This can be used if randomized materials are not loaded in time or if temporal rendering artifacts (such as ghosting) are present due to objects being teleported <br/>
 The Control Timeline checkbox will start/stop/pause/resume the timeline together with the recorder, after each recording the timeline is moved to timestamp 0 <br/>
 
-## Record Turtlebot Synthetic Data
+## Record Turtlebot Semantic data using Synthetic Data Recorder
 (1)Choose Parameters <br/>
 ![IsaacSim_Semantic_Segmentation22](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/1498393e-a576-4a84-89e0-6e8dcec99977) <br/>
 Chose rgb, colorize_semantic_segmentation, instance_id_segmentation, and colorize_instance_id_segmentation <br/>
@@ -93,6 +93,12 @@ sudo apt-get install ros-humble-teleop-twist-keyboard
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 ![IsaacSim_Semantic_Segmentation27](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/0e69973d-b8fb-472c-aa8a-6eab4ceaf051) <br/>
+
+# Record Turtlebot Semantic data using Ros2 bags
+(1)Fix the ActionGraph01 <br/>
+(1)-1 Change configuration of Ros2 Camera Helper Node <br/>
+![IsaacSim_Semantic_Segmentation30](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/dab41eb2-640b-4779-9841-1d19db9fbfa7) <br/>
+Modify the topic name to semantic_segmentation <br/>
 
 
 Reference: https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/tutorial_replicator_recorder.html <br/>
