@@ -148,6 +148,7 @@ A direct communication link where information travels from one point (the transm
 -The medium or space through which the signal travels acts as a channel <br/>
 -Signal processing steps that occur within a transmitter <br/>
 Transformation of a digital data stream into an analog signal that can be transmitted over a communication channel, such as in radio communications <br/>
+**Transmittor** <br/>
 ![SDR_Tutorial6](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/fefaa928-4c93-407c-8a00-5b1b889fe73c) <br/>
 (1)Symbol Mapping <br/>
 Binary data stream (represented by b[n], where n represents the discrete time index) is converted into symbols <br/>
@@ -163,6 +164,21 @@ The shaped pulse is then modulated onto a carrier wave for transmission <br/>
 The multiplication with $\( \cos(2\pi f_c t) \)$ indicates that the data is being modulated with a cosine function of a certain frequency $f_c$ <br/>
 This moves the signal to a higher frequency band suitable for the transmission medium <br/>
 For radio transmission, this is necessary to transmit the signal over the airwaves <br/>
+**Receiver** <br/>
+![SDR_Tutorial8](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/561ef49c-63c6-4d83-8c2e-0a1db15aa2d6) <br/>
+(1)Matched Filter:  <br/>
+Similar to pulse shaping, a raised cosine filter is often employed <br/>
+The matched filter's purpose is to enhance the signal-to-noise ratio and minimize intersymbol interference <br/>
+By matching the expected pulse shape, it facilitates the clear distinction of symbols amidst noise <br/>
+(2)Frequency & Time Synchronization: <br/>
+The received signal may undergo changes due to Doppler shifts and propagation delays <br/>
+This stage corrects frequency and timing misalignments to ensure proper demodulation, particularly vital in schemes relying on phase information <br/>
+(3)Downsampling:  <br/>
+ The original signal is typically oversampled to preserve all waveform details <br/>
+ Downsampling reduces the sample rate to match the symbol rate, streamlining further processing and reducing computational requirements <br/>
+(4)Symbol De-Mapping: <br/>
+Once the radio signal is received, it's often down-converted from a high frequency to a lower, more manageable one <br/>
+The symbol de-mapping process then reverses the modulation from the transmitter, restoring the modulated symbols to the original bit stream <br/>
 ![SDR_Tutorial7](https://github.com/growingpenguin/growingpenguin.github.io/assets/110277903/ee5b48a4-f643-4ea8-b207-bfde4af0de31) <br/>
 Example: <br/>
 Raw digital signal: [0, 1, 0, 0, 1] <br/>
