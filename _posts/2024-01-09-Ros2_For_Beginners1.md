@@ -2,7 +2,7 @@
 layout: post
 title:  "Ros2 For Beginners - Ros2 Installation & Environment Setup"
 ---
-# Which Ros2 Distribution to use?
+# Which Ros2 Distribution to use?zz
 EOL: End Of Life. After the date, the distribution is not supported anymore <br/>
 LTS Version: Long Term Support, supported for 5 years <br/>
 -Recommended to use the latest LTS version, provided that it's been released at least for a few months <br/>
