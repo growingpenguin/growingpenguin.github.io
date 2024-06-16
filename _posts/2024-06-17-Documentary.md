@@ -26,17 +26,31 @@ Immoral to have the real criminal to perform another knife stabbing to the victi
 ## Possible modes or narrative strategies of documentaries 
 **Expository** <br/>
 Lecturing, for example with a personal presenter or voice-over <br/>
+Ex.Trader <br/>
+Why should.. get a job <br/>
+What do you want to be in the future.. kid replying <br/>
 **Observational** <br/>
 The camera, microphone, and film crew seem not to be disturbing the scene or even noticed by the participants <br/>
 Like "fly on the wall" <br/>
+Ex.Trader <br/>
+Trader falls into this category, as there is no interference of what is going on, and mostly the film crew stay out of the film <br/>
 **Participatory or Interactive** <br/>
 The film crew takes part in the action or chain of events <br/>
+=> Used a lot in today's documentaries <br/>
 **Reflexive** <br/>
 Film exposes and discusses its own role as a film (e.g. ethics or conditions of film making ) alongside the treatment of case or subject <br/>
 **Performative** <br/>
 The film crew creates many of the events and situations to be filmed by their own intervention or through the events carried out for the sake of them <br/>
+Example: <br/>
+Objective to criticize Mc Donalds <br/>
+Conduct an experiment: <br/>
+For one month, I am going to eat nothing but McDonalds (Othr person: Didn't eat the same thing) <br/>
+Starts getting sick, gains a lot of weight, before and after <br/>
 **Poetic** <br/>
 The aesthetic values, the qualities of the form and sensual appeals are dominant <br/>
+Ex.Trader <br/>
+Techniques, landscape, country that nobody thinks about <br/>
+Contain music, help find the mood going on  <br/>
 
 ## More points to consider
 **Intentions of the filmmaker** <br/>
