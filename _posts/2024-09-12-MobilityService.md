@@ -64,7 +64,28 @@ Each device as a thing.. <br/>
 Electrification <br/>
 Electric kickboard, engine bicycles.. key crucial things <br/>
 
+**Basic model of Mobility Service** <br/>
+Key elements of Mobility Service <br/>
+=> User, Service Provider, Service Integration <br/>
+Need them for integration <br/>
+-User can be independent <br/>
+User get to Service integration, so are in ain intertwined relationship <br/>
 
 
+**Basic Structure** <br/>
+-Micrombility(Small/Sharing/Driver) < Vehicle < Non-Device(Platform Integration) <br/>
+Offer service for person or human! <br/>
+-MaaS Structure Example: Micromobility <br/>
+ex. DOwnload => Scan on Qr code => User identification => Get to destination QR code again => NOtification arrive => Payment => Service done <br/>
+-External Id/Server: login service<br/>
+-MaaS Structure Example: Vehicle <br/>
+Install app -> Car open up and ride -> Sit there wait until the vehicle destination you pointing out -> Payment automatically done <br/>
+Serivice Provider: Have lots to do <br/>
+Recent vehicle, key feature charger part of functionality... one shot service <br/>
+-MaaS Structure Example <br/>
+Get there -> Park => Service provider make sure car is there => <br/>
+Get both info, charging things.. seamless offer services <br/>
 
-
+**Details from the Basic structure** <br/>
+All managed under document... <br/>
+All these structures managed and specified <br/>
