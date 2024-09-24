@@ -45,6 +45,9 @@ Assumption: Given a dataset of binary variables <br/>
 S:Binary variable which stands for whether it is a heavy smoker or not <br/>
 C:Binay variable which stands for whether it has lung cancer before 60 <br/>
 How do we check if they are causally related? <br/>
+
+## Correlation vs. Causation
+Multiple explanations for the observed correlations might exist <br/>
 Situation1: <br/>
 Smoking -> Cancer <br/>
 Smoking indeed causes cancer and there is causal dependencies that can be observed <br/>
@@ -52,5 +55,18 @@ Situation2: <br/>
 Gene -- Cancer <br/>
 |  <br/>
 Smoking  <br/>
-Maybe there is a gene out there that is active that causes me to smoke but the same gene also gives me cancer <br/>
+Intricate explanation might be..maybe there is a gene out there that is active that causes me to smoke but the same gene also gives me cancer <br/>
 => This can also induce the absurd correlation between smoking and cancer <br/>
+
+## To check Causality
+Distinguish two causal graphs from one another to find out which one is the true one <br/>
+(1)Find 100 people randomly -> Force them to smoke <br/>
+(2)Collect data whether they get cancer or not <br/>
+(3)Find 100 other people randomly -> Force them not to smoke <br/>
+(4)Collect additional data <br/>
+=>If cancer rates differ between two subpopulations, then we can say smoking causes cancer. <br/> 
+Randomized experiment was performed which has been used in clinical trials for decades, but this is also known as an intervention. <br/>
+Intervention or randomized experiment helped understand the correlation <br/>
+
+## Correlation vs. Causation 2
+
