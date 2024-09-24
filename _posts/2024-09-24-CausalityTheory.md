@@ -49,10 +49,12 @@ Smoking => Cancer <br/>
 Smoking indeed causes cancer and there is causal dependencies that can be observed <br/>
 Situation2: <br/>
 
-```mermaid
-graph TD;
-    Gene --> Smoking;
-    Gene --> Cancer;
+      Gene
+       |
+   ---------
+   |       |
+Smoking  Cancer
+
 
 Maybe there is a gene out there that is active that causes me to smoke
 
