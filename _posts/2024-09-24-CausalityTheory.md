@@ -32,12 +32,15 @@ This is asymmetric relation, and if this can be observed, X is causing Y can be 
 <br/>
 Ex2: Realistic Example <br/>
 Assumption: Given a dataset of binary variables <br/>
+
 | S: Heavy Smoker | C: Lung cancer before 60 |
 |-----------------|-----------------|
 | 0 | 0 |
 | 1 | 1 |
 | 0 | 1 |
 | 1 | 1 |
+
+
 S:Binary variable which stands for whether it is a heavy smoker or not <br/>
 C:Binay variable which stands for whether it has lung cancer before 60 <br/>
 How do we check if they are causally related? <br/>
