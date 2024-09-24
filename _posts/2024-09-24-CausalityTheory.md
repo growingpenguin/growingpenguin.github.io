@@ -30,6 +30,7 @@ If you force a value on X, then this affects to the answer of Y <br/>
 If you force a value on Y, then this doesn't affect the answer of X <br/>
 This is asymmetric relation, and if this can be observed, X is causing Y can be distinguished <br/>
 <br/>
+
 Ex2: Realistic Example <br/>
 Assumption: Given a dataset of binary variables <br/>
 
@@ -45,12 +46,11 @@ S:Binary variable which stands for whether it is a heavy smoker or not <br/>
 C:Binay variable which stands for whether it has lung cancer before 60 <br/>
 How do we check if they are causally related? <br/>
 Situation1: <br/>
-Smoking => Cancer <br/>
+Smoking -> Cancer <br/>
 Smoking indeed causes cancer and there is causal dependencies that can be observed <br/>
 Situation2: <br/>
 Gene -- Cancer <br/>
 |  <br/>
 Smoking  <br/>
-
 Maybe there is a gene out there that is active that causes me to smoke but the same gene also gives me cancer <br/>
-
+=> This can also induce the absurd correlation between smoking and cancer <br/>
