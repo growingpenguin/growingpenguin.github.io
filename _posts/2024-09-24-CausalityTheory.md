@@ -52,5 +52,5 @@ Gene -- Cancer <br/>
 |  <br/>
 Smoking  <br/>
 
-Maybe there is a gene out there that is active that causes me to smoke
+Maybe there is a gene out there that is active that causes me to smoke but the same gene also gives me cancer <br/>
 
