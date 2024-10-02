@@ -52,11 +52,12 @@ Situation1: <br/>
 Smoking -> Cancer <br/>
 Smoking indeed causes cancer and there is causal dependencies that can be observed <br/>
 Situation2: <br/>
-Gene -- Cancer <br/>
+Gene --- Smoking <br/>
 |  <br/>
-Smoking  <br/>
+Cancer  <br/>
 Intricate explanation might be..maybe there is a gene out there that is active that causes me to smoke but the same gene also gives me cancer <br/>
 => This can also induce the absurd correlation between smoking and cancer <br/>
+Task: Distinguish from one another. Which one is the true one <br/>
 
 ## To check Causality
 Distinguish two causal graphs from one another to find out which one is the true one <br/>
@@ -65,8 +66,29 @@ Distinguish two causal graphs from one another to find out which one is the true
 (3)Find 100 other people randomly -> Force them not to smoke <br/>
 (4)Collect additional data <br/>
 =>If cancer rates differ between two subpopulations, then we can say smoking causes cancer. <br/> 
-Randomized experiment was performed which has been used in clinical trials for decades, but this is also known as an intervention. <br/>
-Intervention or randomized experiment helped understand the correlation <br/>
+Randomized experiment was performed which has been used in clinical trials for decades, but this is also known as an **intervention**. <br/>
+**Intervention or Randomized experiment** helped understand the correlation <br/>
 
 ## Correlation vs. Causation 2
+How a randomized experiment(randomizing who smokes and who doesn't) helps in the language of DAGs <br/>
+Pre-intervention: Before the intervention, two causal graphs existed <br/>
+Gene --- Smoking <br/>
+|  <br/>
+Cancer  <br/>
+Smoking -> Cancer <br/>
+Post-intervention: After the intervention <br/>
+Gene -/- Smoking <br/>
+|  <br/>
+Cancer  <br/>
+(1)Effectively cutting off the relationship between Gene and smoking variable <br/>
+(2)Observed data from that <br/>
+(3)After cutting the edge, smoking and cancer become independent <br/> 
+(4)Whereas intervening with smoking or not, it will not change the dependency and the correlation between smoking and cancer will still exist <br/>
+=> How intervention or randomized experiment helps distinguish two causal graphs from one another <br/>
+
+## Why do we need causal graphs?
+This experiment may be impossible to perform, because forcing people to smoke is not ethical <br/>
+If certain experiments cannot be performed, if having expert knowledge and causal graphs are known from expert knowledge, then without performing the experiment, I can actually predict what would happen if I perform the experiment <br/>
+=> If knowing which graph is a true causal graph, if intervening on smoking, whether cancer rates will change or not, 
+
 
