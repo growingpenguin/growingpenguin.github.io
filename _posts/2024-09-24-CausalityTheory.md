@@ -101,7 +101,14 @@ X causes Y <br/>
 This is independent from X and a variable I never get to observe <br/>
 It is not on the graph, but I know that it affects my variable Y <br/>
 -Y can be written as a function of X and E together <br/>
+While X and E are independent <br/>
+![CausalModel3](https://github.com/user-attachments/assets/2f7f4d24-a16b-4108-93cd-adf63273e5f4) <br/>
+-In general, if we have a bigger graph, variable Y is a function of its parent set parent Y <br/>
+E is again independent from all the parents <br/>
+=> Typical assumption for using structural equations <br/>
 
+## Interventional Distributions
+What happens if I intervene and sample in your distribution? <br/>
 
 
 
