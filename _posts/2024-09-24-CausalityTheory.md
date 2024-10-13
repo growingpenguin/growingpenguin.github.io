@@ -122,4 +122,7 @@ Causal graph is the one on the right hand side <br/>
 SCM is not the only way to represent causal relations, there is something called **causal bayesian networks** which is a less detailed description <br/>
 ![CausalModel5](https://github.com/user-attachments/assets/a5f54a71-7b65-4a7b-8569-b6f76f7a107f) <br/>
 -Causal Bayesian Networks is DAG which is a causal graph alongside with a joint distribution that factorizes with respect to the graph <br/>
+-From these two, we can calculate interventional distributions by using the factorization formula and using the causal graph assuming that there are no latent variables <br/>
 
+Reference: <br/>
+https://www.youtube.com/watch?v=Czk3aczfZlk&t=850s <br/>
