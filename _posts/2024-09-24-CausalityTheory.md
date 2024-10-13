@@ -95,6 +95,12 @@ If certain experiments cannot be performed, if having expert knowledge and causa
 ## Structural Causal Models (SCM)
 ![CausalModel1](https://github.com/user-attachments/assets/40755adf-1192-4ee2-93e7-99ab4921068e) <br/>
 X causes Y <br/>
+![CausalModel2](https://github.com/user-attachments/assets/9a829a6d-50fa-42e5-bb0c-67c6eff9d33b) <br/>
+-X is sampled from sound distribution Px <br/>
+-E is sampled from sound distribution Pe <br/>
+This is independent from X and a variable I never get to observe <br/>
+It is not on the graph, but I know that it affects my variable Y <br/>
+-Y can be written as a function of X and E together <br/>
 
 
 
