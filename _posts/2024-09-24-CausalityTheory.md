@@ -89,6 +89,13 @@ Cancer  <br/>
 ## Why do we need causal graphs?
 This experiment may be impossible to perform, because forcing people to smoke is not ethical <br/>
 If certain experiments cannot be performed, if having expert knowledge and causal graphs are known from expert knowledge, then without performing the experiment, I can actually predict what would happen if I perform the experiment <br/>
-=> If knowing which graph is a true causal graph, if intervening on smoking, whether cancer rates will change or not, 
+=> If knowing which graph is a true causal graph, if intervening on smoking, whether cancer rates will change or not, <br/>
+
+
+## Structural Causal Models (SCM)
+X -> Y <br/>
+X causes Y <br/>
+
+
 
 
