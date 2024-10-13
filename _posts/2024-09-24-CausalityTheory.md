@@ -109,6 +109,16 @@ E is again independent from all the parents <br/>
 
 ## Interventional Distributions
 What happens if I intervene and sample in your distribution? <br/>
+Causal graph and structural equations that come with it <br/>
+![CausalModel4](https://github.com/user-attachments/assets/dc3052b8-d678-43e6-b512-5fb76a713914) <br/>
+1)Perform an intervention on Y <br/>
+Setting a value of Y to something, forcing it to take lower case y <br/>
+2)Replace where would I see the variable Y with the realization of y <br/>
+3)Y no longer depends on X, but set by the value I decide <br/>
+Causal graph is the one on the right hand side <br/>
+4)These structural equations now induce another joint distribution on the random variable if I am sampling from if I perform this experiment <br/>
 
-
+## Causal Bayesian Networks
+SCM is not the only way to represent causal relations, there is something called **causal bayesian networks** which is a less detailed description <br/>
+-Causal Bayesian Networks is DAG which is a causal graph alongside with a joint distribution that factorizes with respect to the graph <br/>
 
