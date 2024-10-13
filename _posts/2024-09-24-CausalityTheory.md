@@ -3,7 +3,7 @@ layout: post
 title:  "Causality Theory"
 ---
 
-# Ros2
+# Causality Theory 
 ## Short Introduction to Causality
 Causal models: the mechanism between variables, to understand the underlying system between variables <br/>
 -Can be represented using graphs <br/>
@@ -93,7 +93,7 @@ If certain experiments cannot be performed, if having expert knowledge and causa
 
 
 ## Structural Causal Models (SCM)
-X -> Y <br/>
+![CausalModel1](https://github.com/user-attachments/assets/40755adf-1192-4ee2-93e7-99ab4921068e) <br/>
 X causes Y <br/>
 
 
