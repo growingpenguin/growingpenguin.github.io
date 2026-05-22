@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import { Newspaper, GraduationCap, Users, Globe } from "lucide-react";
-import cookingVideo from "../../imports/what_i_cooked_alone_reel.mp4";
+import cookingVideo from "../../imports/what_i_cooked_alone_reel_6.mp4";
 
 export function Beyond() {
   const ref = useRef(null);
