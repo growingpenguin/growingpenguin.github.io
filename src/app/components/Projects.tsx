@@ -17,21 +17,21 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: "synthetic-data",
-    title: "Synthetic Data for Autonomous Driving",
-    subtitle: "Mobility Service Research Lab, 2023–2025",
-    hook: "39% higher object detection and 4% higher segmentation accuracy by training on NVIDIA Isaac Sim metaverse data.",
-    details: "First-author ICTC 2024 paper. Hybrid synthetic + real data approach.",
-    tags: ["Computer Vision", "Synthetic Data", "NVIDIA Omniverse", "PyTorch", "Fine-tuning"],
-    isHero: true,
-  },
-  {
     id: "mks-air-gapped-pipeline",
     title: "Air-Gapped Generator Data Pipeline",
     subtitle: "MKS Instruments, 2026",
     hook: "Rebuilt a fragmented codebase into unified Python modules behind a single GUI, shipped into an air-gapped semiconductor-manufacturing environment.",
     details: "Collects encrypted generator data offline, decrypts API-retrieved payloads, and parses them into structured logs. Extended with an AWS monitoring pipeline on Amazon Managed Grafana for real-time log streaming and visualization, a Gitflow branching workflow, and automated builds and deployment through Jenkins CI/CD. Also delivered an internal seminar on AI agents and LLM hallucination.",
     tags: ["Python", "GUI", "AWS", "Amazon Managed Grafana", "Jenkins CI/CD", "Gitflow"],
+    isHero: true,
+  },
+  {
+    id: "synthetic-data",
+    title: "Synthetic Data for Autonomous Driving",
+    subtitle: "Mobility Service Research Lab, 2023–2025",
+    hook: "39% higher object detection and 4% higher segmentation accuracy by training on NVIDIA Isaac Sim metaverse data.",
+    details: "First-author ICTC 2024 paper. Hybrid synthetic + real data approach.",
+    tags: ["Computer Vision", "Synthetic Data", "NVIDIA Omniverse", "PyTorch", "Fine-tuning"],
   },
   {
     id: "marine-sloshing",
