@@ -49,6 +49,10 @@ export function About() {
                   <span className="text-accent mr-3 mt-1">•</span>
                   <span>Robot service simulation and deployment scenarios</span>
                 </li>
+                <li className="flex items-start">
+                  <span className="text-accent mr-3 mt-1">•</span>
+                  <span>ML infrastructure: offline data pipelines, Jenkins CI/CD, cloud monitoring</span>
+                </li>
               </ul>
             </div>
 
@@ -59,8 +63,14 @@ export function About() {
               </h3>
               <ul className="space-y-3 text-foreground/80">
                 <li>
+                  <div className="font-medium">MKS Instruments</div>
+                  <div className="text-sm text-muted-foreground">SW Electronics Graduate Intern, 2026</div>
+                </li>
+                <li>
                   <div className="font-medium">Dartmouth College</div>
-                  <div className="text-sm text-muted-foreground">MS Computer Science, 2027</div>
+                  <div className="text-sm text-muted-foreground">
+                    MS Computer Science, 2027 · Graduate TA for AI, Advanced NLP, and ML &amp; Statistics
+                  </div>
                 </li>
                 <li>
                   <div className="font-medium">Sungshin Women's University</div>

@@ -26,6 +26,14 @@ const projects: Project[] = [
     isHero: true,
   },
   {
+    id: "mks-air-gapped-pipeline",
+    title: "Air-Gapped Generator Data Pipeline",
+    subtitle: "MKS Instruments, 2026",
+    hook: "Rebuilt a fragmented codebase into unified Python modules behind a single GUI, shipped into an air-gapped semiconductor-manufacturing environment.",
+    details: "Collects encrypted generator data offline, decrypts API-retrieved payloads, and parses them into structured logs. Extended with an AWS monitoring pipeline on Amazon Managed Grafana for real-time log streaming and visualization, a Gitflow branching workflow, and automated builds and deployment through Jenkins CI/CD. Also delivered an internal seminar on AI agents and LLM hallucination.",
+    tags: ["Python", "GUI", "AWS", "Amazon Managed Grafana", "Jenkins CI/CD", "Gitflow"],
+  },
+  {
     id: "marine-sloshing",
     title: "Marine Sloshing Load Prediction",
     subtitle: "Hyundai Heavy Machinery, 2023",

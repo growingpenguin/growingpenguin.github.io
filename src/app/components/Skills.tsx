@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
-import { Code2, Brain, Cloud } from "lucide-react";
+import { Code2, Brain, Cloud, Users } from "lucide-react";
 
 export function Skills() {
   const ref = useRef(null);
@@ -11,7 +11,7 @@ export function Skills() {
     {
       icon: Code2,
       title: "Languages",
-      skills: ["Python", "C++", "Java", "JavaScript", "SQL", "C#"],
+      skills: ["Python", "C++", "Java", "JavaScript", "Node.js", "HTML/CSS", "C#"],
     },
     {
       icon: Brain,
@@ -21,7 +21,23 @@ export function Skills() {
     {
       icon: Cloud,
       title: "Cloud & Tools",
-      skills: ["AWS EC2", "AWS S3", "AWS Lambda", "Git", "Docker", "NVIDIA Isaac Sim", "ROS2"],
+      skills: [
+        "AWS EC2",
+        "AWS S3",
+        "AWS Lambda",
+        "Amazon Managed Grafana",
+        "Docker",
+        "Jenkins",
+        "SQL",
+        "GitHub",
+        "NVIDIA Isaac Sim",
+        "ROS2",
+      ],
+    },
+    {
+      icon: Users,
+      title: "Collaboration",
+      skills: ["Jira", "Confluence", "Slack", "Gitflow", "CI/CD"],
     },
   ];
 
@@ -42,7 +58,7 @@ export function Skills() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {skillGroups.map((group, groupIndex) => {
               const IconComponent = group.icon;
               return (

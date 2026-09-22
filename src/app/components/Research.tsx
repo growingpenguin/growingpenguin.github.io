@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
-import { FileText, ChevronDown, ChevronUp } from "lucide-react";
+import { FileText, ChevronDown, ChevronUp, GraduationCap } from "lucide-react";
 
 interface Paper {
   title: string;
@@ -35,6 +35,12 @@ const papers: Paper[] = [
     role: "Co-author",
     description: "Applied machine learning to predict sloshing impact loads from 6-degree-of-freedom ship motion data, deployed as a full-stack AWS pipeline with real-time prediction dashboard.",
   },
+];
+
+const teaching = [
+  { course: "Artificial Intelligence", term: "Sep 2025 – Nov 2025" },
+  { course: "Advanced NLP", term: "Jan 2026 – Mar 2026" },
+  { course: "Machine Learning & Statistical Data Analysis", term: "Apr 2026 – Jun 2026" },
 ];
 
 function PaperCard({ paper }: { paper: Paper }) {
@@ -100,10 +106,10 @@ export function Research() {
         >
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4" style={{ fontFamily: 'var(--font-headline)' }}>
-              Research & Papers
+              Research & Teaching
             </h2>
             <p className="text-lg sm:text-xl text-muted-foreground">
-              Published work at the intersection of synthetic data, computer vision, and ML systems.
+              Published work at the intersection of synthetic data, computer vision, and ML systems — and the courses I help teach.
             </p>
           </div>
 
@@ -118,6 +124,33 @@ export function Research() {
                 <PaperCard paper={paper} />
               </motion.div>
             ))}
+          </div>
+
+          <div className="mt-16">
+            <h3 className="text-2xl mb-6 text-accent" style={{ fontFamily: 'var(--font-headline)' }}>
+              Graduate Teaching Assistant · Dartmouth College
+            </h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              {teaching.map((item, index) => (
+                <motion.div
+                  key={item.course}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={isInView ? { opacity: 1, y: 0 } : {}}
+                  transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
+                  className="bg-card rounded-xl p-5 border border-foreground/10 hover:border-accent/50 transition-all duration-300"
+                >
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0 w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center">
+                      <GraduationCap className="text-accent" size={20} />
+                    </div>
+                    <div>
+                      <div className="text-foreground leading-snug">{item.course}</div>
+                      <div className="text-sm text-muted-foreground mt-1">{item.term}</div>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
           </div>
 
           <div className="mt-12 text-center">

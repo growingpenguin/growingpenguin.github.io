@@ -89,7 +89,7 @@ export function Hero() {
             </p>
 
             <p className="text-base sm:text-lg text-muted-foreground mb-8">
-              Dartmouth MS CS · 4 published papers · Previously Hyundai · Occasionally cooking solo.
+              Dartmouth MS CS · 4 published papers · Previously MKS Instruments &amp; Hyundai · Occasionally cooking solo.
             </p>
 
             <div className="flex flex-wrap gap-4">

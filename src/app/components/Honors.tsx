@@ -15,7 +15,7 @@ export function Honors() {
     },
     {
       title: "Undergraduate Excellent Paper Award",
-      detail: "KICS Summer Conference, 2024",
+      detail: "Encouragement · KICS Summer Conference, 2024",
       icon: Award,
     },
     {
@@ -30,7 +30,7 @@ export function Honors() {
     },
     {
       title: "Software Development Competition",
-      detail: "Winner, 2023",
+      detail: "Encouragement Award · Dept. of AI Convergence, 2023",
       icon: Award,
     },
   ];

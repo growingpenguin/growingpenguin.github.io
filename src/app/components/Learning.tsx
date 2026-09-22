@@ -11,6 +11,7 @@ export function Learning() {
     "AI Agents",
     "Video Understanding",
     "Visual Computing Seminar",
+    "Artificial Intelligence",
     "Computer Vision",
     "Computational Photography",
     "Dark Side of AI",
