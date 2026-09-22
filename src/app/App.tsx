@@ -1,6 +1,7 @@
 import { Navigation } from "./components/Navigation";
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
+import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Learning } from "./components/Learning";
 import { Research } from "./components/Research";
@@ -16,6 +17,7 @@ export default function App() {
       <Navigation />
       <Hero />
       <About />
+      <Experience />
       <Projects />
       <Learning />
       <Research />

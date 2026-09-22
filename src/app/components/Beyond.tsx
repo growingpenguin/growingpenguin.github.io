@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
-import { Newspaper, GraduationCap, Users, Globe } from "lucide-react";
+import { Newspaper, Users, Globe } from "lucide-react";
 import cookingVideo from "../../imports/what_i_cooked_alone_reel_6.mp4";
 
 export function Beyond() {
@@ -14,12 +14,6 @@ export function Beyond() {
       title: "Editor-in-Chief",
       org: "Sungshin English Newspaper",
       description: "Led the print-to-digital transition that saved the publication from shutdown.",
-    },
-    {
-      icon: GraduationCap,
-      title: "Teaching Assistant",
-      org: "Dartmouth College",
-      description: "Three quarters in a row: AI, Advanced NLP, ML & Statistics.",
     },
     {
       icon: Users,
