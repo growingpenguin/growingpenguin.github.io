@@ -26,13 +26,13 @@ export function About() {
             I create synthetic training data for autonomous vehicles, fine-tune computer vision models on NVIDIA metaverse datasets, and build end-to-end ML pipelines that ship to production. My work bridges research and deployment: published papers, real metrics, and systems that actually run.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div>
             {/* What I do */}
             <div className="bg-card rounded-2xl p-8 shadow-lg border border-foreground/5">
               <h3 className="text-2xl mb-4 text-accent" style={{ fontFamily: 'var(--font-headline)' }}>
                 What I do
               </h3>
-              <ul className="space-y-3 text-foreground/80">
+              <ul className="grid sm:grid-cols-2 gap-x-10 gap-y-3 text-foreground/80">
                 <li className="flex items-start">
                   <span className="text-accent mr-3 mt-1">•</span>
                   <span>ML research: synthetic data for autonomous driving</span>
@@ -56,40 +56,6 @@ export function About() {
               </ul>
             </div>
 
-            {/* Where I've been */}
-            <div className="bg-card rounded-2xl p-8 shadow-lg border border-foreground/5">
-              <h3 className="text-2xl mb-4 text-accent" style={{ fontFamily: 'var(--font-headline)' }}>
-                Where I've been
-              </h3>
-              <ul className="space-y-3 text-foreground/80">
-                <li>
-                  <div className="font-medium">MKS Instruments</div>
-                  <div className="text-sm text-muted-foreground">SW Electronics Graduate Intern, 2026</div>
-                </li>
-                <li>
-                  <div className="font-medium">Dartmouth College</div>
-                  <div className="text-sm text-muted-foreground">
-                    MS Computer Science, 2027 · Graduate TA for AI, Advanced NLP, and ML &amp; Statistics
-                  </div>
-                </li>
-                <li>
-                  <div className="font-medium">Sungshin Women's University</div>
-                  <div className="text-sm text-muted-foreground">BS AI Convergence, GPA 4.07/4.5</div>
-                </li>
-                <li>
-                  <div className="font-medium">Hyundai NGV</div>
-                  <div className="text-sm text-muted-foreground">Robot-friendly building research</div>
-                </li>
-                <li>
-                  <div className="font-medium">Ministry of Science and ICT</div>
-                  <div className="text-sm text-muted-foreground">Coastal waste marine mobility</div>
-                </li>
-                <li>
-                  <div className="font-medium">Hyundai Heavy Machinery</div>
-                  <div className="text-sm text-muted-foreground">Marine sloshing prediction</div>
-                </li>
-              </ul>
-            </div>
           </div>
 
           <div className="mt-12 p-6 bg-accent/10 rounded-2xl border-l-4 border-accent">
